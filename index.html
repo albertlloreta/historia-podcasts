@@ -365,6 +365,27 @@ main {
 /* ══════════════════════════════════════
    RESPONSIVE
 ══════════════════════════════════════ */
+/* ══════════════════════════════════════
+   INTRO
+══════════════════════════════════════ */
+.intro {
+  max-width: 680px;
+  padding: 2.5rem 2rem 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.intro p {
+  font-size: 0.83rem;
+  line-height: 1.75;
+  color: var(--muted);
+}
+
+.intro a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.intro a:hover { text-decoration: underline; }
+
 @media (max-width: 640px) {
   :root { --header-h: 120px; }
   .header-top { padding: 0.75rem 1rem 0.4rem; }
@@ -375,6 +396,7 @@ main {
   .era-sticky { padding: 0.5rem 1rem; }
   .era-body { padding: 1.25rem 1rem 0.5rem 1rem; }
   .era-body::before { left: calc(1rem + 14px); }
+  .intro { padding: 1.5rem 1rem; }
 }
 </style>
 </head>
@@ -405,6 +427,10 @@ main {
 </header>
 
 <main id="main">
+  <div class="intro">
+    <p><a href="https://www.portesdetroia.cat" target="_blank" rel="noopener">A les Portes de Troia</a> és un podcast d'història en català, emès des de Ràdio Castellar i distribuït per La Xarxa. Des del 2013, cada setmana Alberto Reche, Sergio Rodríguez i Albert Abril expliquen el passat en present: batalles, revolucions, personatges, civilitzacions i tot allò que ha fet el món com és avui. Més de 500 episodis, més d'un milió d'escoltes.</p>
+    <p style="margin-top:0.75rem">Aquesta pàgina és un intent de reordenar tots els capítols no per quan es van emetre, sinó per quan van passar les coses que expliquen. Una manera diferent d'entrar al podcast i de passejar per la història universal.</p>
+  </div>
   <div class="no-results-msg" id="no-results">Cap episodi correspon a la cerca.</div>
 </main>
 
