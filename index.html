@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A les Portes de Troia — Cronologia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #f5ede0;
+  --fg: #2d1b0e;
+  --accent: #9b5e2e;
+  --muted: rgba(45,27,14,0.45);
+  --border: rgba(45,27,14,0.15);
+  --card-bg: rgba(255,248,238,0.85);
+  --header-h: 108px;
+
+  --c-pre:  #8b7355;
+  --c-ant:  #c4843a;
+  --c-med:  #7a6a4f;
+  --c-mod:  #5a7a6a;
+  --c-con:  #4a6a8a;
+  --c-unk:  rgba(45,27,14,0.3);
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 14px;
+}
+
+/* ══════════════════════════════════════
+   FLOATING HEADER
+══════════════════════════════════════ */
+.main-header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  height: var(--header-h);
+}
+
+.header-top {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.85rem 2rem 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.header-top h1 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+
+.header-top .tagline {
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-style: italic;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header-top .ep-total {
+  margin-left: auto;
+  font-size: 0.7rem;
+  color: var(--muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 2rem;
+}
+
+.search-wrap {
+  position: relative;
+  flex-shrink: 0;
+  width: 200px;
+}
+
+.search-wrap input {
+  width: 100%;
+  padding: 0.35rem 0.6rem 0.35rem 1.8rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--fg);
+  font-family: inherit;
+  font-size: 0.78rem;
+  outline: none;
+}
+.search-wrap input:focus { border-color: var(--accent); }
+.search-wrap input::placeholder { color: var(--muted); }
+
+.search-icon {
+  position: absolute;
+  left: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+  font-size: 0.85rem;
+  pointer-events: none;
+}
+
+.era-nav {
+  display: flex;
+  gap: 0;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  flex: 1;
+}
+
+.era-nav button {
+  padding: 0.35rem 0.8rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-right: none;
+  color: var(--muted);
+  font-family: inherit;
+  font-size: 0.72rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.12s, color 0.12s;
+  letter-spacing: 0.02em;
+}
+.era-nav button:last-child { border-right: 1px solid var(--border); }
+.era-nav button:hover { background: rgba(45,27,14,0.05); color: var(--fg); }
+.era-nav button.active { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+
+.search-count {
+  font-size: 0.72rem;
+  color: var(--muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ══════════════════════════════════════
+   MAIN CONTENT
+══════════════════════════════════════ */
+main {
+  padding-top: var(--header-h);
+}
+
+/* ══════════════════════════════════════
+   ERA SECTIONS
+══════════════════════════════════════ */
+.era-section { position: relative; }
+
+.era-sticky {
+  position: sticky;
+  top: var(--header-h);
+  z-index: 50;
+  padding: 0.55rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(4px);
+}
+
+.era-sticky h2 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.era-sticky .era-years {
+  font-size: 0.7rem;
+  opacity: 0.55;
+  font-style: italic;
+}
+
+.era-sticky .era-ep-count {
+  margin-left: auto;
+  font-size: 0.7rem;
+  opacity: 0.45;
+}
+
+.era-prehistoria  .era-sticky { background: rgba(235,226,212,0.95); color: var(--c-pre); }
+.era-antiguitat   .era-sticky { background: rgba(240,224,200,0.95); color: var(--c-ant); }
+.era-medieval     .era-sticky { background: rgba(232,224,208,0.95); color: var(--c-med); }
+.era-moderna      .era-sticky { background: rgba(220,232,224,0.95); color: var(--c-mod); }
+.era-contemporania .era-sticky { background: rgba(216,224,234,0.95); color: var(--c-con); }
+.era-desconegut   .era-sticky { background: rgba(235,226,212,0.95); color: var(--muted); }
+
+/* ══════════════════════════════════════
+   TIMELINE INTERIOR
+══════════════════════════════════════ */
+.era-body {
+  position: relative;
+  padding: 1.5rem 2rem 0.5rem 2rem;
+}
+
+.era-body::before {
+  content: '';
+  position: absolute;
+  left: calc(2rem + 14px);
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--border);
+}
+
+.ep-row {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 0 1.25rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.ep-row.hidden { display: none; }
+
+.ep-dot-wrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.65rem;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.ep-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid var(--bg);
+  flex-shrink: 0;
+}
+
+/* ══════════════════════════════════════
+   CARD
+══════════════════════════════════════ */
+.ep-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.1s;
+  overflow: hidden;
+  user-select: none;
+}
+.ep-card:hover { background: rgba(255,248,238,1); }
+
+.ep-card-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.65rem 0.85rem 0.6rem;
+}
+
+.ep-card-top-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.ep-period {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  flex: 1;
+}
+
+.ep-expand-icon {
+  font-size: 0.6rem;
+  color: var(--muted);
+  flex-shrink: 0;
+  transition: transform 0.22s;
+  display: inline-block;
+  padding-top: 0.2rem;
+}
+.ep-card.open .ep-expand-icon { transform: rotate(180deg); }
+
+.ep-card-bottom-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+
+.ep-title {
+  font-size: 0.83rem;
+  font-weight: 400;
+  line-height: 1.35;
+  flex: 1;
+  min-width: 0;
+  color: var(--fg);
+}
+
+.ep-num {
+  font-size: 0.62rem;
+  font-weight: 400;
+  color: var(--muted);
+  flex-shrink: 0;
+  letter-spacing: 0.02em;
+}
+
+/* Contingut expandit */
+.ep-card-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.2s;
+  padding: 0 0.85rem;
+}
+
+.ep-card.open .ep-card-body {
+  max-height: 400px;
+  padding: 0 0.85rem 0.85rem;
+}
+
+.ep-desc {
+  font-size: 0.77rem;
+  color: var(--muted);
+  line-height: 1.65;
+  margin-bottom: 0.75rem;
+  border-top: 1px solid var(--border);
+  padding-top: 0.65rem;
+}
+
+.ep-listen {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: var(--accent);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.ep-listen:hover { text-decoration: underline; }
+
+.ep-no-link {
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* ══════════════════════════════════════
+   ESTAT BUIT
+══════════════════════════════════════ */
+.era-section.all-hidden .era-sticky { display: none; }
+.era-section.all-hidden .era-body   { display: none; }
+
+.no-results-msg {
+  padding: 4rem 2rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-style: italic;
+  display: none;
+}
+.no-results-msg.visible { display: block; }
+
+/* ══════════════════════════════════════
+   RESPONSIVE
+══════════════════════════════════════ */
+@media (max-width: 640px) {
+  :root { --header-h: 120px; }
+  .header-top { padding: 0.75rem 1rem 0.4rem; }
+  .header-top .tagline { display: none; }
+  .header-controls { padding: 0.4rem 1rem; gap: 0.5rem; }
+  .search-wrap { width: 120px; }
+  .era-nav button { padding: 0.3rem 0.5rem; font-size: 0.66rem; }
+  .era-sticky { padding: 0.5rem 1rem; }
+  .era-body { padding: 1.25rem 1rem 0.5rem 1rem; }
+  .era-body::before { left: calc(1rem + 14px); }
+}
+</style>
+</head>
+<body>
+
+<header class="main-header">
+  <div class="header-top">
+    <h1>A les Portes de Troia</h1>
+    <span class="tagline">Cronologia dels episodis · El passat explicat en present</span>
+    <span class="ep-total" id="ep-total"></span>
+  </div>
+  <div class="header-controls">
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input type="search" id="search" placeholder="Cerca..." autocomplete="off">
+    </div>
+    <nav class="era-nav" id="era-nav">
+      <button data-era="all" class="active">Totes</button>
+      <button data-era="prehistoria">Prehist.</button>
+      <button data-era="antiguitat">Antiguitat</button>
+      <button data-era="medieval">E. Mitjana</button>
+      <button data-era="moderna">E. Moderna</button>
+      <button data-era="contemporania">Contemp.</button>
+      <button data-era="desconegut">?</button>
+    </nav>
+    <span class="search-count" id="search-count"></span>
+  </div>
+</header>
+
+<main id="main">
+  <div class="no-results-msg" id="no-results">Cap episodi correspon a la cerca.</div>
+</main>
+
+<script>
+function parseYear(raw) {
+  if (!raw) return null;
+  const s = String(raw).trim();
+  if (/^-?\d+$/.test(s)) return parseInt(s, 10);
+  const r = s.match(/^(-?\d+)\s*[-–]\s*(-?\d+)$/);
+  if (r) return parseInt(r[1], 10);
+  const ac = s.match(/^(\d+)\s*aC$/i);
+  if (ac) return -parseInt(ac[1], 10);
+  const n = s.match(/-?\d+/);
+  if (n) return parseInt(n[0], 10);
+  return null;
+}
+
+function getEra(y) {
+  if (y === null) return 'desconegut';
+  if (y < -3000)  return 'prehistoria';
+  if (y < 500)    return 'antiguitat';
+  if (y < 1500)   return 'medieval';
+  if (y < 1800)   return 'moderna';
+  return 'contemporania';
+}
+
+const ERA_META = {
+  prehistoria:    { label: 'Prehistòria',       years: 'Fins al 3000 aC',  color: 'var(--c-pre)' },
+  antiguitat:     { label: 'Antiguitat',         years: '3000 aC – 500 dC', color: 'var(--c-ant)' },
+  medieval:       { label: 'Edat Mitjana',       years: '500 – 1500',       color: 'var(--c-med)' },
+  moderna:        { label: 'Edat Moderna',       years: '1500 – 1800',      color: 'var(--c-mod)' },
+  contemporania:  { label: 'Edat Contemporània', years: '1800 – avui',      color: 'var(--c-con)' },
+  desconegut:     { label: 'Data desconeguda',   years: '—',                color: 'var(--c-unk)' },
+};
+
+const ERA_ORDER = ['prehistoria', 'antiguitat', 'medieval', 'moderna', 'contemporania', 'desconegut'];
+
+let currentEra = 'all';
+let currentSearch = '';
+let allRows = [];
+
+async function init() {
+  const raw = await (await fetch('episodis.json')).json();
+  const data = raw
+    .filter(e => e.titol)
+    .map(e => ({ ...e, _year: parseYear(e.data_historica) }));
+  data.forEach(e => { e._era = getEra(e._year); });
+  data.sort((a, b) => {
+    if (a._year === null && b._year === null) return a.num - b.num;
+    if (a._year === null) return 1;
+    if (b._year === null) return -1;
+    return a._year - b._year;
+  });
+
+  document.getElementById('ep-total').textContent = `${data.length} ep.`;
+
+  const byEra = {};
+  ERA_ORDER.forEach(e => byEra[e] = []);
+  data.forEach(e => byEra[e._era].push(e));
+
+  const main = document.getElementById('main');
+
+  ERA_ORDER.forEach(era => {
+    const eps = byEra[era];
+    if (!eps.length) return;
+    const meta = ERA_META[era];
+
+    const section = document.createElement('section');
+    section.className = `era-section era-${era}`;
+    section.id = `era-${era}`;
+    section.innerHTML = `
+      <div class="era-sticky">
+        <h2>${meta.label}</h2>
+        <span class="era-years">${meta.years}</span>
+        <span class="era-ep-count">${eps.length} ep.</span>
+      </div>
+      <div class="era-body" id="body-${era}"></div>
+    `;
+    main.appendChild(section);
+
+    const body = section.querySelector(`#body-${era}`);
+
+    eps.forEach(ep => {
+      const row = document.createElement('div');
+      row.className = 'ep-row';
+      const period = ep.ubicacio || ep.data_historica || null;
+
+      row.innerHTML = `
+        <div class="ep-dot-wrap">
+          <div class="ep-dot" style="background:${meta.color}"></div>
+        </div>
+        <div class="ep-card" data-num="${ep.num}">
+          <div class="ep-card-head">
+            <div class="ep-card-top-row">
+              <span class="ep-period">${period || '—'}</span>
+              <span class="ep-expand-icon">▾</span>
+            </div>
+            <div class="ep-card-bottom-row">
+              <span class="ep-title">${ep.titol}</span>
+              <span class="ep-num">ep.${ep.num}</span>
+            </div>
+          </div>
+          <div class="ep-card-body">
+            ${ep.descripcio
+              ? `<div class="ep-desc">${ep.descripcio}</div>`
+              : `<div class="ep-desc" style="font-style:italic;opacity:0.6">Sense descripció disponible.</div>`
+            }
+            ${ep.enllac
+              ? `<a class="ep-listen" href="${ep.enllac}" target="_blank" rel="noopener">Escoltar →</a>`
+              : `<span class="ep-no-link">Enllaç no disponible</span>`
+            }
+          </div>
+        </div>
+      `;
+
+      const card = row.querySelector('.ep-card');
+      card.addEventListener('click', () => card.classList.toggle('open'));
+
+      const link = row.querySelector('a.ep-listen');
+      if (link) link.addEventListener('click', e => e.stopPropagation());
+
+      body.appendChild(row);
+
+      allRows.push({
+        el: row,
+        era,
+        section,
+        searchText: [ep.num, ep.titol, ep.descripcio, ep.ubicacio, ep.data_historica]
+          .filter(Boolean).join(' ').toLowerCase()
+      });
+    });
+  });
+
+  applyFilters();
+  initScrollObserver();
+}
+
+function applyFilters() {
+  const q = currentSearch.toLowerCase().trim();
+  const sectionCounts = {};
+  ERA_ORDER.forEach(e => sectionCounts[e] = 0);
+  let visible = 0;
+
+  allRows.forEach(r => {
+    const show = (currentEra === 'all' || r.era === currentEra) &&
+                 (!q || r.searchText.includes(q));
+    r.el.classList.toggle('hidden', !show);
+    if (show) { sectionCounts[r.era]++; visible++; }
+  });
+
+  ERA_ORDER.forEach(era => {
+    const sec = document.getElementById(`era-${era}`);
+    if (sec) sec.classList.toggle('all-hidden', sectionCounts[era] === 0);
+  });
+
+  document.getElementById('search-count').textContent =
+    (q || currentEra !== 'all') ? `${visible} resultats` : '';
+  document.getElementById('no-results').classList.toggle('visible', visible === 0);
+}
+
+function initScrollObserver() {
+  const headerH = parseInt(getComputedStyle(document.documentElement)
+    .getPropertyValue('--header-h')) || 108;
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && currentEra === 'all') {
+        const era = entry.target.id.replace('era-', '');
+        document.querySelectorAll('.era-nav button').forEach(b => {
+          b.classList.toggle('active', b.dataset.era === era);
+        });
+      }
+    });
+  }, { rootMargin: `-${headerH + 10}px 0px -65% 0px` });
+
+  ERA_ORDER.forEach(era => {
+    const sec = document.getElementById(`era-${era}`);
+    if (sec) obs.observe(sec);
+  });
+}
+
+document.getElementById('search').addEventListener('input', e => {
+  currentSearch = e.target.value;
+  applyFilters();
+});
+
+document.getElementById('era-nav').addEventListener('click', e => {
+  const btn = e.target.closest('button');
+  if (!btn) return;
+  const era = btn.dataset.era;
+
+  document.querySelectorAll('.era-nav button').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  currentEra = era;
+  applyFilters();
+
+  if (era !== 'all') {
+    const target = document.getElementById(`era-${era}`);
+    if (target) {
+      const headerH = parseInt(getComputedStyle(document.documentElement)
+        .getPropertyValue('--header-h')) || 108;
+      const y = target.getBoundingClientRect().top + window.scrollY - headerH;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  } else {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+});
+
+init();
+</script>
+</body>
+</html>

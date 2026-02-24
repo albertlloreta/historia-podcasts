@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Demo C — Heatmap</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#f5ede0;--fg:#2d1b0e;--accent:#9b5e2e;--muted:rgba(45,27,14,0.45);--border:rgba(45,27,14,0.15)}
+body{font-family:'IBM Plex Mono',monospace;background:var(--bg);color:var(--fg);padding:2rem}
+.demo-label{display:inline-block;font-size:0.7rem;background:var(--fg);color:var(--bg);padding:0.2rem 0.5rem;margin-bottom:1rem;letter-spacing:0.08em}
+h1{font-size:1.1rem;font-weight:700;margin-bottom:0.2rem}
+.sub{font-size:0.78rem;color:var(--muted);margin-bottom:2rem}
+
+.heatmap-wrap{overflow-x:auto;padding-bottom:1rem}
+.heatmap{display:flex;align-items:flex-end;gap:2px;min-width:600px;height:140px;padding-top:1rem}
+.bucket{
+  flex:1;min-width:18px;
+  display:flex;flex-direction:column;justify-content:flex-end;align-items:center;
+  gap:2px;cursor:pointer;position:relative;
+}
+.bucket-bar{
+  width:100%;
+  border-radius:1px 1px 0 0;
+  transition:opacity 0.15s;
+  min-height:2px;
+}
+.bucket:hover .bucket-bar{opacity:0.7}
+.bucket.active .bucket-bar{outline:2px solid var(--fg);outline-offset:1px}
+.bucket-label{
+  font-size:8px;color:var(--muted);
+  white-space:nowrap;
+  transform:rotate(-60deg);
+  transform-origin:top center;
+  margin-top:4px;
+  position:absolute;bottom:-28px;
+}
+.bucket-count{
+  font-size:7px;color:var(--muted);
+  position:absolute;top:-14px;
+  opacity:0;transition:opacity 0.1s;
+}
+.bucket:hover .bucket-count{opacity:1}
+
+.x-axis{height:36px}
+
+.quick-stats{
+  display:flex;gap:2rem;margin:2rem 0 1.5rem;flex-wrap:wrap;
+  padding:1rem;border:1px solid var(--border);
+}
+.qs{display:flex;flex-direction:column}
+.qs-num{font-size:1.2rem;font-weight:700;color:var(--accent)}
+.qs-label{font-size:0.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em}
+
+.selection-header{
+  font-size:0.8rem;font-weight:700;margin-bottom:1rem;
+  display:flex;align-items:center;gap:1rem;
+}
+.selection-header .period-tag{
+  font-size:0.72rem;color:var(--accent);font-style:italic;font-weight:400;
+}
+.sel-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+  gap:1px;background:var(--border);border:1px solid var(--border);
+}
+.sel-card{
+  background:var(--bg);padding:0.75rem 1rem;
+}
+.sel-card:hover{background:rgba(255,248,238,1)}
+.sel-num{font-size:0.65rem;color:var(--accent);font-weight:700}
+.sel-title{font-size:0.82rem;font-weight:500;margin:0.1rem 0}
+.sel-period{font-size:0.7rem;color:var(--muted);font-style:italic}
+a.sel-link{color:inherit;text-decoration:none}
+
+.hint{font-size:0.75rem;color:var(--muted);font-style:italic;margin-bottom:0.5rem}
+</style>
+</head>
+<body>
+<div class="demo-label">DEMO C</div>
+<h1>Cobertura per èpoques</h1>
+<p class="sub">Quants episodis expliquen cada període? Fes clic a una barra per veure els episodis.</p>
+
+<div class="heatmap-wrap">
+  <div class="heatmap" id="heatmap"></div>
+  <div class="x-axis"></div>
+</div>
+
+<div class="quick-stats" id="quick-stats"></div>
+
+<p class="hint" id="hint">← Fes clic a qualsevol barra per explorar els episodis d'aquell període</p>
+<div id="selection"></div>
+
+<script>
+function parseYear(raw){
+  if(!raw)return null;
+  const s=String(raw).trim();
+  if(/^-?\d+$/.test(s))return parseInt(s,10);
+  const r=s.match(/^(-?\d+)\s*[-–]\s*(-?\d+)$/);
+  if(r)return parseInt(r[1],10);
+  const ac=s.match(/^(\d+)\s*aC$/i);
+  if(ac)return -parseInt(ac[1],10);
+  const n=s.match(/-?\d+/);
+  if(n)return parseInt(n[0],10);
+  return null;
+}
+function getEra(y){
+  if(y===null)return'desconegut';
+  if(y<-3000)return'prehistoria';
+  if(y<500)return'antiguitat';
+  if(y<1500)return'medieval';
+  if(y<1800)return'moderna';
+  return'contemporania';
+}
+const ERA_COLORS={prehistoria:'#8b7355',antiguitat:'#c4843a',medieval:'#7a6a4f',moderna:'#5a7a6a',contemporania:'#4a6a8a',desconegut:'rgba(45,27,14,0.2)'};
+
+function makeBuckets(){
+  const buckets=[];
+  for(let y=-3200;y<2100;y+=100){
+    const label=y<0?`${-y}aC`:y===0?'0–100':String(y);
+    buckets.push({start:y,end:y+100,label,eps:[]});
+  }
+  return buckets;
+}
+
+async function init(){
+  const raw=await(await fetch('episodis.json')).json();
+  const data=raw.filter(e=>e.titol).map(e=>({...e,_year:parseYear(e.data_historica),_era:null}));
+  data.forEach(e=>{e._era=getEra(e._year)});
+
+  const buckets=makeBuckets();
+  const noDate=[];
+
+  data.forEach(ep=>{
+    if(ep._year===null){noDate.push(ep);return;}
+    const b=buckets.find(b=>ep._year>=b.start&&ep._year<b.end);
+    if(b)b.eps.push(ep);
+  });
+
+  const maxCount=Math.max(...buckets.map(b=>b.eps.length),1);
+
+  const mostPop=buckets.reduce((a,b)=>b.eps.length>a.eps.length?b:a);
+  const covered=buckets.filter(b=>b.eps.length>0).length;
+  document.getElementById('quick-stats').innerHTML=`
+    <div class="qs"><span class="qs-num">${covered}</span><span class="qs-label">períodes coberts</span></div>
+    <div class="qs"><span class="qs-num">${mostPop.eps.length}</span><span class="qs-label">ep. en ${mostPop.label} (+ cobert)</span></div>
+    <div class="qs"><span class="qs-num">${noDate.length}</span><span class="qs-label">sense data</span></div>
+  `;
+
+  const hm=document.getElementById('heatmap');
+  const significantBuckets=buckets.filter((b,i)=>{
+    return b.eps.length>0||
+      (buckets[i-1]&&buckets[i-1].eps.length>0)||
+      (buckets[i+1]&&buckets[i+1].eps.length>0);
+  });
+
+  let activeBucket=null;
+
+  significantBuckets.forEach(bucket=>{
+    const pct=bucket.eps.length/maxCount;
+    const era=bucket.eps.length>0?getEra(bucket.eps[0]._year):'desconegut';
+    const color=ERA_COLORS[era];
+    const barH=Math.max(bucket.eps.length>0?4:1, pct*110);
+
+    const div=document.createElement('div');
+    div.className='bucket';
+    div.innerHTML=`
+      <div class="bucket-count">${bucket.eps.length||''}</div>
+      <div class="bucket-bar" style="height:${barH}px;background:${bucket.eps.length>0?color:'rgba(45,27,14,0.06)'}"></div>
+      <div class="bucket-label">${bucket.label}</div>
+    `;
+
+    if(bucket.eps.length>0){
+      div.addEventListener('click',()=>{
+        if(activeBucket)activeBucket.classList.remove('active');
+        div.classList.add('active');
+        activeBucket=div;
+        showSelection(bucket);
+      });
+    }
+    hm.appendChild(div);
+  });
+
+  function showSelection(bucket){
+    document.getElementById('hint').style.display='none';
+    const epochLabel=bucket.label;
+    const sel=document.getElementById('selection');
+    sel.innerHTML=`
+      <div class="selection-header">
+        ${bucket.eps.length} episodis <span class="period-tag">sobre ${epochLabel}</span>
+      </div>
+      <div class="sel-grid">
+        ${bucket.eps.sort((a,b)=>a.num-b.num).map(ep=>`
+          <div>${ep.enllac
+            ?`<a class="sel-link" href="${ep.enllac}" target="_blank"><div class="sel-card">
+                <div class="sel-num">Ep. ${ep.num}</div>
+                <div class="sel-title">${ep.titol}</div>
+                ${ep.ubicacio?`<div class="sel-period">${ep.ubicacio}</div>`:''}
+              </div></a>`
+            :`<div class="sel-card">
+                <div class="sel-num">Ep. ${ep.num}</div>
+                <div class="sel-title">${ep.titol}</div>
+                ${ep.ubicacio?`<div class="sel-period">${ep.ubicacio}</div>`:''}
+              </div>`
+          }</div>
+        `).join('')}
+      </div>
+    `;
+  }
+}
+init();
+</script>
+</body>
+</html>

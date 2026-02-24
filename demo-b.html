@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Demo B — Línia vertical</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#f5ede0;--fg:#2d1b0e;--accent:#9b5e2e;--muted:rgba(45,27,14,0.45);--border:rgba(45,27,14,0.15)}
+body{font-family:'IBM Plex Mono',monospace;background:var(--bg);color:var(--fg)}
+.demo-label{display:inline-block;font-size:0.7rem;background:var(--fg);color:var(--bg);padding:0.2rem 0.5rem;margin:2rem 2rem 0;letter-spacing:0.08em}
+header{padding:1rem 2rem 1.5rem}
+header h1{font-size:1.1rem;font-weight:700;margin-bottom:0.2rem}
+header p{font-size:0.78rem;color:var(--muted)}
+
+.era-section{padding:0}
+.era-header{
+  position:sticky;top:0;z-index:10;
+  padding:0.6rem 2rem;
+  display:flex;align-items:center;gap:1rem;
+  border-top:2px solid currentColor;
+  border-bottom:1px solid var(--border);
+}
+.era-header h2{font-size:0.8rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase}
+.era-header .era-years{font-size:0.72rem;opacity:0.6;font-style:italic}
+.era-header .ep-count{margin-left:auto;font-size:0.72rem;opacity:0.5}
+
+.era-prehistoria .era-header{background:#ede4d5;color:#5a4a35}
+.era-antiguitat .era-header{background:#f0e0c8;color:#8b4a10}
+.era-medieval .era-header{background:#e8e0d0;color:#4a3a25}
+.era-moderna .era-header{background:#dce8e0;color:#2a4a3a}
+.era-contemporania .era-header{background:#d8e0ea;color:#1a3a5a}
+.era-desconegut .era-header{background:#ede4d5;color:rgba(45,27,14,0.5)}
+
+.era-body{
+  display:grid;
+  grid-template-columns:1fr 40px 1fr;
+  position:relative;
+  padding:1rem 2rem;
+  gap:0;
+}
+
+.timeline-line{
+  grid-column:2;
+  width:2px;
+  background:var(--border);
+  position:relative;
+  margin:0 auto;
+}
+
+.ep-left,.ep-right{padding:0.6rem 1rem;position:relative}
+.ep-left{text-align:right;grid-column:1}
+.ep-right{text-align:left;grid-column:3}
+.ep-spacer{grid-column:2}
+
+.ep-card{
+  display:inline-block;
+  max-width:280px;
+  padding:0.5rem 0.65rem;
+  background:rgba(255,248,238,0.8);
+  border:1px solid var(--border);
+  margin-bottom:0.5rem;
+  cursor:default;
+  transition:background 0.1s;
+}
+.ep-card:hover{background:rgba(255,248,238,1)}
+.ep-num{font-size:0.65rem;color:var(--accent);font-weight:700;margin-bottom:0.15rem}
+.ep-title{font-size:0.78rem;line-height:1.3;font-weight:500}
+.ep-period{font-size:0.68rem;color:var(--muted);font-style:italic;margin-top:0.15rem}
+.ep-dot{
+  width:10px;height:10px;border-radius:50%;
+  position:absolute;top:50%;transform:translateY(-50%);
+  border:2px solid var(--bg);
+}
+.ep-left .ep-dot{right:-21px;background:var(--accent)}
+.ep-right .ep-dot{left:-21px;background:var(--accent)}
+
+a.ep-link{color:inherit;text-decoration:none}
+a.ep-link:hover .ep-card{background:rgba(255,248,238,1)}
+</style>
+</head>
+<body>
+<div class="demo-label">DEMO B</div>
+<header>
+  <h1>Passejada per la història</h1>
+  <p>Episodis ordenats cronològicament. Fes scroll per la història universal.</p>
+</header>
+<div id="timeline"></div>
+
+<script>
+function parseYear(raw){
+  if(!raw)return null;
+  const s=String(raw).trim();
+  if(/^-?\d+$/.test(s))return parseInt(s,10);
+  const r=s.match(/^(-?\d+)\s*[-–]\s*(-?\d+)$/);
+  if(r)return parseInt(r[1],10);
+  const ac=s.match(/^(\d+)\s*aC$/i);
+  if(ac)return -parseInt(ac[1],10);
+  const n=s.match(/-?\d+/);
+  if(n)return parseInt(n[0],10);
+  return null;
+}
+function getEra(y){
+  if(y===null)return'desconegut';
+  if(y<-3000)return'prehistoria';
+  if(y<500)return'antiguitat';
+  if(y<1500)return'medieval';
+  if(y<1800)return'moderna';
+  return'contemporania';
+}
+const ERA_META={
+  prehistoria:{label:'Prehistòria',years:'Fins al 3000 aC',color:'#8b7355'},
+  antiguitat:{label:'Antiguitat',years:'3000 aC – 500 dC',color:'#c4843a'},
+  medieval:{label:'Edat Mitjana',years:'500 – 1500',color:'#7a6a4f'},
+  moderna:{label:'Edat Moderna',years:'1500 – 1800',color:'#5a7a6a'},
+  contemporania:{label:'Edat Contemporània',years:'1800 – avui',color:'#4a6a8a'},
+  desconegut:{label:'Data desconeguda',years:'—',color:'rgba(45,27,14,0.3)'},
+};
+
+async function init(){
+  const raw=await(await fetch('episodis.json')).json();
+  const data=raw.filter(e=>e.titol).map(e=>({...e,_year:parseYear(e.data_historica),_era:null}));
+  data.forEach(e=>{e._era=getEra(e._year)});
+  data.sort((a,b)=>{
+    if(a._year===null&&b._year===null)return a.num-b.num;
+    if(a._year===null)return 1;
+    if(b._year===null)return -1;
+    return a._year-b._year;
+  });
+
+  const byEra={};
+  const ORDER=['prehistoria','antiguitat','medieval','moderna','contemporania','desconegut'];
+  ORDER.forEach(e=>byEra[e]=[]);
+  data.forEach(e=>byEra[e._era].push(e));
+
+  const tl=document.getElementById('timeline');
+  ORDER.forEach(era=>{
+    const eps=byEra[era];
+    if(!eps.length)return;
+    const meta=ERA_META[era];
+    const section=document.createElement('section');
+    section.className=`era-section era-${era}`;
+
+    section.innerHTML=`
+      <div class="era-header" style="color:${meta.color}">
+        <h2>${meta.label}</h2>
+        <span class="era-years">${meta.years}</span>
+        <span class="ep-count">${eps.length} ep.</span>
+      </div>
+      <div class="era-body" id="body-${era}"></div>
+    `;
+    tl.appendChild(section);
+
+    const body=section.querySelector(`#body-${era}`);
+
+    const line=document.createElement('div');
+    line.className='timeline-line';
+    line.style.gridRow=`1 / ${eps.length+1}`;
+    body.appendChild(line);
+
+    eps.forEach((ep,i)=>{
+      const isLeft=i%2===0;
+      const cell=document.createElement('div');
+      cell.className=isLeft?'ep-left':'ep-right';
+      if(!isLeft){
+        const spacer=document.createElement('div');
+        spacer.className='ep-spacer';
+        body.appendChild(spacer);
+        const lineCell=document.createElement('div');
+        body.appendChild(lineCell);
+      }
+
+      const inner=ep.enllac
+        ?`<a class="ep-link" href="${ep.enllac}" target="_blank">${cardHTML(ep)}</a>`
+        :cardHTML(ep);
+      cell.innerHTML=inner+`<div class="ep-dot" style="background:${meta.color}"></div>`;
+      body.appendChild(cell);
+
+      if(isLeft){
+        const lineCell=document.createElement('div');
+        body.appendChild(lineCell);
+        const spacer=document.createElement('div');
+        spacer.className='ep-spacer';
+        body.appendChild(spacer);
+      }
+    });
+  });
+}
+
+function cardHTML(ep){
+  return`<div class="ep-card">
+    <div class="ep-num">Ep. ${ep.num}</div>
+    <div class="ep-title">${ep.titol}</div>
+    ${ep.ubicacio?`<div class="ep-period">${ep.ubicacio}</div>`:''}
+  </div>`;
+}
+init();
+</script>
+</body>
+</html>

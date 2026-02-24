@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Demo A — Scatter</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#f5ede0;--fg:#2d1b0e;--accent:#9b5e2e;--muted:rgba(45,27,14,0.45);--border:rgba(45,27,14,0.15)}
+body{font-family:'IBM Plex Mono',monospace;background:var(--bg);color:var(--fg);padding:2rem;min-height:100vh}
+h1{font-size:1.1rem;font-weight:700;margin-bottom:0.25rem}
+.sub{font-size:0.78rem;color:var(--muted);margin-bottom:1.5rem}
+.demo-label{display:inline-block;font-size:0.7rem;background:var(--fg);color:var(--bg);padding:0.2rem 0.5rem;margin-bottom:1rem;letter-spacing:0.08em}
+#chart-wrap{position:relative;width:100%;overflow:hidden}
+svg{width:100%;display:block}
+.tooltip{position:fixed;background:var(--fg);color:var(--bg);padding:0.5rem 0.75rem;font-size:0.72rem;line-height:1.4;pointer-events:none;opacity:0;transition:opacity 0.1s;max-width:220px;z-index:100}
+.legend{display:flex;gap:1.2rem;flex-wrap:wrap;margin-top:1rem;font-size:0.72rem;color:var(--muted)}
+.legend-item{display:flex;align-items:center;gap:0.4rem}
+.legend-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+</style>
+</head>
+<body>
+<div class="demo-label">DEMO A</div>
+<h1>El viatge temporal del podcast</h1>
+<p class="sub">Cada punt és un episodi. Eix X = quan passa la història. Eix Y = ordre d'emissió.</p>
+
+<div id="chart-wrap">
+  <svg id="chart"></svg>
+</div>
+<div class="tooltip" id="tooltip"></div>
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#8b7355"></div>Prehistòria</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#c4843a"></div>Antiguitat</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#7a6a4f"></div>E. Mitjana</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#5a7a6a"></div>E. Moderna</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#4a6a8a"></div>Contemporani</div>
+  <div class="legend-item"><div class="legend-dot" style="background:rgba(45,27,14,0.2)"></div>Sense data</div>
+</div>
+
+<script>
+const ERA_COLORS={prehistoria:'#8b7355',antiguitat:'#c4843a',medieval:'#7a6a4f',moderna:'#5a7a6a',contemporania:'#4a6a8a',desconegut:'rgba(45,27,14,0.18)'};
+
+function parseYear(raw){
+  if(!raw)return null;
+  const s=String(raw).trim();
+  if(/^-?\d+$/.test(s))return parseInt(s,10);
+  const r=s.match(/^(-?\d+)\s*[-–]\s*(-?\d+)$/);
+  if(r)return parseInt(r[1],10);
+  const ac=s.match(/^(\d+)\s*aC$/i);
+  if(ac)return -parseInt(ac[1],10);
+  const n=s.match(/-?\d+/);
+  if(n)return parseInt(n[0],10);
+  return null;
+}
+
+function getEra(y){
+  if(y===null)return'desconegut';
+  if(y<-3000)return'prehistoria';
+  if(y<500)return'antiguitat';
+  if(y<1500)return'medieval';
+  if(y<1800)return'moderna';
+  return'contemporania';
+}
+
+async function init(){
+  const data=(await(await fetch('episodis.json')).json()).filter(e=>e.titol);
+  const parsed=data.map(e=>({...e,_year:parseYear(e.data_historica)}));
+
+  const W=document.getElementById('chart-wrap').clientWidth;
+  const H=Math.max(420,Math.min(600,W*0.55));
+  const PAD={t:30,r:20,b:50,l:55};
+  const plotW=W-PAD.l-PAD.r;
+  const plotH=H-PAD.t-PAD.b;
+
+  const withDate=parsed.filter(e=>e._year!==null);
+  const noDate=parsed.filter(e=>e._year===null);
+  const minY=-3200, maxY=2030;
+  const minEp=1, maxEp=530;
+
+  const xScale=y=>PAD.l+((y-minY)/(maxY-minY))*plotW;
+  const yScale=n=>PAD.t+((n-minEp)/(maxEp-minEp))*plotH;
+
+  const eras=[
+    {label:'Prehist.',start:-3200,end:-3000,color:'rgba(139,115,85,0.06)'},
+    {label:'Antiguitat',start:-3000,end:500,color:'rgba(196,132,58,0.06)'},
+    {label:'E. Mitjana',start:500,end:1500,color:'rgba(122,106,79,0.06)'},
+    {label:'E. Moderna',start:1500,end:1800,color:'rgba(90,122,106,0.06)'},
+    {label:'Contemp.',start:1800,end:2030,color:'rgba(74,106,138,0.07)'},
+  ];
+
+  const svgNS='http://www.w3.org/2000/svg';
+  const svg=document.getElementById('chart');
+  svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  svg.setAttribute('height',H);
+
+  function el(tag,attrs={}){
+    const e=document.createElementNS(svgNS,tag);
+    Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));
+    return e;
+  }
+
+  eras.forEach(era=>{
+    const x1=xScale(era.start), x2=xScale(era.end);
+    svg.appendChild(el('rect',{x:x1,y:PAD.t,width:x2-x1,height:plotH,fill:era.color}));
+    const lx=(x1+x2)/2;
+    const txt=el('text',{x:lx,y:PAD.t-8,'text-anchor':'middle',fill:'rgba(45,27,14,0.3)','font-size':'9','font-family':'IBM Plex Mono'});
+    txt.textContent=era.label;
+    svg.appendChild(txt);
+  });
+
+  [1,100,200,300,400,500].forEach(n=>{
+    const y=yScale(n);
+    svg.appendChild(el('line',{x1:PAD.l,y1:y,x2:PAD.l+plotW,y2:y,stroke:'rgba(45,27,14,0.08)',strokeWidth:'1'}));
+    const t=el('text',{x:PAD.l-6,y:y+4,'text-anchor':'end',fill:'rgba(45,27,14,0.35)','font-size':'9','font-family':'IBM Plex Mono'});
+    t.textContent=n;
+    svg.appendChild(t);
+  });
+
+  [-3000,-2000,-1000,0,500,1000,1500,1800,1900,2000].forEach(yr=>{
+    const x=xScale(yr);
+    const t=el('text',{x:x,y:PAD.t+plotH+16,'text-anchor':'middle',fill:'rgba(45,27,14,0.35)','font-size':'9','font-family':'IBM Plex Mono'});
+    t.textContent=yr<0?`${-yr}aC`:yr;
+    svg.appendChild(t);
+  });
+
+  const ylbl=el('text',{x:14,y:PAD.t+plotH/2,'text-anchor':'middle',fill:'rgba(45,27,14,0.4)','font-size':'9','font-family':'IBM Plex Mono',transform:`rotate(-90,14,${PAD.t+plotH/2})`});
+  ylbl.textContent='Episodi #';
+  svg.appendChild(ylbl);
+
+  const noDateX=W-PAD.r-10;
+  noDate.forEach(e=>{
+    const cy=yScale(e.num);
+    const cx=noDateX+(Math.random()-0.5)*8;
+    const c=svg.appendChild(el('circle',{cx,cy,r:3.5,fill:ERA_COLORS.desconegut,cursor:'pointer'}));
+    addHover(c,e,cx,cy);
+  });
+
+  withDate.forEach(e=>{
+    const cx=xScale(e._year)+(Math.random()-0.5)*3;
+    const cy=yScale(e.num);
+    const era=getEra(e._year);
+    const c=svg.appendChild(el('circle',{cx,cy,r:4,fill:ERA_COLORS[era],opacity:'0.8',cursor:'pointer'}));
+    if(e.enllac){c.style.cursor='pointer';c.addEventListener('click',()=>window.open(e.enllac,'_blank'));}
+    addHover(c,e,cx,cy);
+  });
+
+  svg.appendChild(el('rect',{x:PAD.l,y:PAD.t,width:plotW,height:plotH,fill:'none',stroke:'rgba(45,27,14,0.12)',strokeWidth:'1'}));
+
+  const tip=document.getElementById('tooltip');
+  function addHover(node,e,cx,cy){
+    node.addEventListener('mouseenter',ev=>{
+      tip.innerHTML=`<strong>Ep. ${e.num}</strong><br>${e.titol||'—'}${e.ubicacio?`<br><em>${e.ubicacio}</em>`:''}`;
+      tip.style.opacity='1';
+    });
+    node.addEventListener('mousemove',ev=>{
+      tip.style.left=(ev.clientX+12)+'px';
+      tip.style.top=(ev.clientY-10)+'px';
+    });
+    node.addEventListener('mouseleave',()=>{tip.style.opacity='0'});
+  }
+}
+init();
+</script>
+</body>
+</html>
