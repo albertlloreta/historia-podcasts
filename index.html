@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>A les Portes de Troia — Cronologia</title>
+<title>A les Portes de Troia — Cronologia · allr.cat</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 <style>
@@ -14,90 +14,55 @@
   --fg: #2d1b0e;
   --accent: #9b5e2e;
   --muted: rgba(45,27,14,0.45);
-  --border: rgba(45,27,14,0.15);
-  --card-bg: rgba(255,248,238,0.85);
-  --header-h: 108px;
+  --border: rgba(45,27,14,0.13);
+  --controls-h: 46px;
 
-  --c-pre:  #8b7355;
-  --c-ant:  #c4843a;
-  --c-med:  #7a6a4f;
-  --c-mod:  #5a7a6a;
-  --c-con:  #4a6a8a;
-  --c-unk:  rgba(45,27,14,0.3);
+  --c-pre: #8b7355;
+  --c-ant: #c4843a;
+  --c-med: #7a6a4f;
+  --c-mod: #5a7a6a;
+  --c-con: #4a6a8a;
+  --c-unk: rgba(45,27,14,0.3);
 }
 
 body {
   font-family: 'IBM Plex Mono', monospace;
   background: var(--bg);
   color: var(--fg);
+  min-height: 100vh;
   font-size: 14px;
 }
 
 /* ══════════════════════════════════════
-   FLOATING HEADER
+   CONTROLS BAR (fixed)
 ══════════════════════════════════════ */
-.main-header {
-  position: fixed;
-  top: 0; left: 0; right: 0;
+.controls-bar {
+  position: sticky;
+  top: 0;
   z-index: 100;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
-  height: var(--header-h);
-}
-
-.header-top {
-  display: flex;
-  align-items: baseline;
-  gap: 1rem;
-  padding: 0.85rem 2rem 0.5rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.header-top h1 {
-  font-size: 0.95rem;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  white-space: nowrap;
-}
-
-.header-top .tagline {
-  font-size: 0.75rem;
-  color: var(--muted);
-  font-style: italic;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.header-top .ep-total {
-  margin-left: auto;
-  font-size: 0.7rem;
-  color: var(--muted);
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-
-.header-controls {
+  height: var(--controls-h);
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  padding: 0.5rem 2rem;
+  padding: 0 2rem;
 }
 
 .search-wrap {
   position: relative;
   flex-shrink: 0;
-  width: 200px;
+  width: 180px;
 }
 
 .search-wrap input {
   width: 100%;
-  padding: 0.35rem 0.6rem 0.35rem 1.8rem;
+  padding: 0.3rem 0.6rem 0.3rem 1.7rem;
   background: transparent;
   border: 1px solid var(--border);
   color: var(--fg);
   font-family: inherit;
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   outline: none;
 }
 .search-wrap input:focus { border-color: var(--accent); }
@@ -109,48 +74,77 @@ body {
   top: 50%;
   transform: translateY(-50%);
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   pointer-events: none;
 }
 
 .era-nav {
   display: flex;
-  gap: 0;
-  flex-wrap: nowrap;
-  overflow-x: auto;
   flex: 1;
+  overflow-x: auto;
 }
 
 .era-nav button {
-  padding: 0.35rem 0.8rem;
+  padding: 0.25rem 0.7rem;
   background: transparent;
   border: 1px solid var(--border);
   border-right: none;
   color: var(--muted);
   font-family: inherit;
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   cursor: pointer;
   white-space: nowrap;
   transition: background 0.12s, color 0.12s;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
 }
 .era-nav button:last-child { border-right: 1px solid var(--border); }
-.era-nav button:hover { background: rgba(45,27,14,0.05); color: var(--fg); }
+.era-nav button:hover { background: rgba(45,27,14,0.04); color: var(--fg); }
 .era-nav button.active { background: var(--fg); color: var(--bg); border-color: var(--fg); }
 
 .search-count {
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   color: var(--muted);
   white-space: nowrap;
   flex-shrink: 0;
 }
 
 /* ══════════════════════════════════════
-   MAIN CONTENT
+   PAGE INTRO (allr.cat style)
 ══════════════════════════════════════ */
-main {
-  padding-top: var(--header-h);
+.page-intro {
+  max-width: 680px;
+  padding: 3rem 2rem 2.5rem;
+  border-bottom: 1px solid var(--border);
 }
+
+.page-label {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+
+.page-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.75rem;
+}
+
+.page-desc {
+  font-size: 0.78rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.page-desc a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(155,94,46,0.3);
+}
+.page-desc a:hover { border-color: var(--accent); }
 
 /* ══════════════════════════════════════
    ERA SECTIONS
@@ -159,56 +153,57 @@ main {
 
 .era-sticky {
   position: sticky;
-  top: var(--header-h);
+  top: var(--controls-h);
   z-index: 50;
-  padding: 0.55rem 2rem;
+  background: var(--bg);
+  padding: 0.6rem 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-label {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent);
   display: flex;
   align-items: center;
   gap: 1rem;
-  border-bottom: 1px solid var(--border);
-  backdrop-filter: blur(4px);
 }
 
-.era-sticky h2 {
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+.section-label .era-years {
+  font-weight: 400;
+  opacity: 0.6;
+  letter-spacing: 0.05em;
 }
 
-.era-sticky .era-years {
-  font-size: 0.7rem;
-  opacity: 0.55;
-  font-style: italic;
-}
-
-.era-sticky .era-ep-count {
+.section-label .era-ep-count {
   margin-left: auto;
-  font-size: 0.7rem;
+  font-weight: 400;
   opacity: 0.45;
 }
 
-.era-prehistoria  .era-sticky { background: rgba(235,226,212,0.95); color: var(--c-pre); }
-.era-antiguitat   .era-sticky { background: rgba(240,224,200,0.95); color: var(--c-ant); }
-.era-medieval     .era-sticky { background: rgba(232,224,208,0.95); color: var(--c-med); }
-.era-moderna      .era-sticky { background: rgba(220,232,224,0.95); color: var(--c-mod); }
-.era-contemporania .era-sticky { background: rgba(216,224,234,0.95); color: var(--c-con); }
-.era-desconegut   .era-sticky { background: rgba(235,226,212,0.95); color: var(--muted); }
+/* Color per era */
+.era-prehistoria  .section-label { color: var(--c-pre); }
+.era-antiguitat   .section-label { color: var(--c-ant); }
+.era-medieval     .section-label { color: var(--c-med); }
+.era-moderna      .section-label { color: var(--c-mod); }
+.era-contemporania .section-label { color: var(--c-con); }
+.era-desconegut   .section-label { color: var(--muted); }
 
 /* ══════════════════════════════════════
-   TIMELINE INTERIOR
+   TIMELINE
 ══════════════════════════════════════ */
 .era-body {
   position: relative;
-  padding: 1.5rem 2rem 0.5rem 2rem;
+  padding: 1.5rem 2rem 0.5rem;
 }
 
 .era-body::before {
   content: '';
   position: absolute;
   left: calc(2rem + 14px);
-  top: 0;
-  bottom: 0;
+  top: 0; bottom: 0;
   width: 1px;
   background: var(--border);
 }
@@ -217,8 +212,7 @@ main {
   display: grid;
   grid-template-columns: 28px 1fr;
   gap: 0 1.25rem;
-  margin-bottom: 1rem;
-  position: relative;
+  margin-bottom: 0.85rem;
 }
 
 .ep-row.hidden { display: none; }
@@ -227,14 +221,13 @@ main {
   display: flex;
   justify-content: center;
   padding-top: 0.65rem;
-  flex-shrink: 0;
   position: relative;
   z-index: 1;
 }
 
 .ep-dot {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   border: 2px solid var(--bg);
   flex-shrink: 0;
@@ -244,20 +237,21 @@ main {
    CARD
 ══════════════════════════════════════ */
 .ep-card {
-  background: var(--card-bg);
+  background: transparent;
   border: 1px solid var(--border);
   cursor: pointer;
-  transition: background 0.1s;
+  transition: border-color 0.12s, background 0.1s;
   overflow: hidden;
   user-select: none;
+  border-radius: 2px;
 }
-.ep-card:hover { background: rgba(255,248,238,1); }
+.ep-card:hover { border-color: rgba(45,27,14,0.3); background: rgba(255,248,238,0.5); }
 
 .ep-card-head {
   display: flex;
   flex-direction: column;
-  gap: 0.2rem;
-  padding: 0.65rem 0.85rem 0.6rem;
+  gap: 0.15rem;
+  padding: 0.6rem 0.85rem;
 }
 
 .ep-card-top-row {
@@ -268,7 +262,7 @@ main {
 }
 
 .ep-period {
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 700;
   color: var(--accent);
   letter-spacing: -0.01em;
@@ -277,39 +271,36 @@ main {
 }
 
 .ep-expand-icon {
-  font-size: 0.6rem;
+  font-size: 0.55rem;
   color: var(--muted);
   flex-shrink: 0;
-  transition: transform 0.22s;
+  transition: transform 0.2s;
   display: inline-block;
-  padding-top: 0.2rem;
 }
 .ep-card.open .ep-expand-icon { transform: rotate(180deg); }
 
 .ep-card-bottom-row {
   display: flex;
   align-items: baseline;
-  gap: 0.6rem;
+  gap: 0.5rem;
 }
 
 .ep-title {
-  font-size: 0.83rem;
+  font-size: 0.8rem;
   font-weight: 400;
   line-height: 1.35;
   flex: 1;
-  min-width: 0;
   color: var(--fg);
 }
 
 .ep-num {
-  font-size: 0.62rem;
-  font-weight: 400;
+  font-size: 0.6rem;
   color: var(--muted);
   flex-shrink: 0;
   letter-spacing: 0.02em;
 }
 
-/* Contingut expandit */
+/* Expandit */
 .ep-card-body {
   max-height: 0;
   overflow: hidden;
@@ -323,31 +314,30 @@ main {
 }
 
 .ep-desc {
-  font-size: 0.77rem;
+  font-size: 0.75rem;
   color: var(--muted);
   line-height: 1.65;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.65rem;
   border-top: 1px solid var(--border);
-  padding-top: 0.65rem;
+  padding-top: 0.6rem;
 }
 
 .ep-listen {
-  display: inline-block;
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   color: var(--accent);
   text-decoration: none;
-  letter-spacing: 0.03em;
+  border-bottom: 1px solid rgba(155,94,46,0.3);
 }
-.ep-listen:hover { text-decoration: underline; }
+.ep-listen:hover { border-color: var(--accent); }
 
 .ep-no-link {
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   color: var(--muted);
   font-style: italic;
 }
 
 /* ══════════════════════════════════════
-   ESTAT BUIT
+   ESTATS ESPECIALS
 ══════════════════════════════════════ */
 .era-section.all-hidden .era-sticky { display: none; }
 .era-section.all-hidden .era-body   { display: none; }
@@ -355,7 +345,7 @@ main {
 .no-results-msg {
   padding: 4rem 2rem;
   text-align: center;
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   color: var(--muted);
   font-style: italic;
   display: none;
@@ -365,71 +355,46 @@ main {
 /* ══════════════════════════════════════
    RESPONSIVE
 ══════════════════════════════════════ */
-/* ══════════════════════════════════════
-   INTRO
-══════════════════════════════════════ */
-.intro {
-  max-width: 680px;
-  padding: 2.5rem 2rem 2rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.intro p {
-  font-size: 0.83rem;
-  line-height: 1.75;
-  color: var(--muted);
-}
-
-.intro a {
-  color: var(--accent);
-  text-decoration: none;
-}
-.intro a:hover { text-decoration: underline; }
-
 @media (max-width: 640px) {
-  :root { --header-h: 120px; }
-  .header-top { padding: 0.75rem 1rem 0.4rem; }
-  .header-top .tagline { display: none; }
-  .header-controls { padding: 0.4rem 1rem; gap: 0.5rem; }
-  .search-wrap { width: 120px; }
-  .era-nav button { padding: 0.3rem 0.5rem; font-size: 0.66rem; }
-  .era-sticky { padding: 0.5rem 1rem; }
-  .era-body { padding: 1.25rem 1rem 0.5rem 1rem; }
-  .era-body::before { left: calc(1rem + 14px); }
-  .intro { padding: 1.5rem 1rem; }
+  .site-header { padding: 1.25rem; }
+  .site-nav a { padding: 0.25rem 0.5rem; font-size: 0.7rem; }
+  .controls-bar { padding: 0 1rem; gap: 0.5rem; }
+  .search-wrap { width: 110px; }
+  .era-nav button { padding: 0.25rem 0.4rem; font-size: 0.65rem; }
+  .page-intro { padding: 2rem 1.25rem 1.75rem; }
+  .era-sticky { padding: 0.5rem 1.25rem; }
+  .era-body { padding: 1.25rem 1.25rem 0.5rem; }
+  .era-body::before { left: calc(1.25rem + 14px); }
 }
 </style>
 </head>
 <body>
 
-<header class="main-header">
-  <div class="header-top">
-    <h1>A les Portes de Troia</h1>
-    <span class="tagline">Cronologia dels episodis · El passat explicat en present</span>
-    <span class="ep-total" id="ep-total"></span>
+<!-- ── CONTROLS (sticky) ── -->
+<div class="controls-bar">
+  <div class="search-wrap">
+    <span class="search-icon">⌕</span>
+    <input type="search" id="search" placeholder="Cerca..." autocomplete="off">
   </div>
-  <div class="header-controls">
-    <div class="search-wrap">
-      <span class="search-icon">⌕</span>
-      <input type="search" id="search" placeholder="Cerca..." autocomplete="off">
-    </div>
-    <nav class="era-nav" id="era-nav">
-      <button data-era="all" class="active">Totes</button>
-      <button data-era="prehistoria">Prehist.</button>
-      <button data-era="antiguitat">Antiguitat</button>
-      <button data-era="medieval">E. Mitjana</button>
-      <button data-era="moderna">E. Moderna</button>
-      <button data-era="contemporania">Contemp.</button>
-      <button data-era="desconegut">?</button>
-    </nav>
-    <span class="search-count" id="search-count"></span>
-  </div>
-</header>
+  <nav class="era-nav" id="era-nav">
+    <button data-era="all" class="active">Totes</button>
+    <button data-era="prehistoria">Prehist.</button>
+    <button data-era="antiguitat">Antiguitat</button>
+    <button data-era="medieval">E. Mitjana</button>
+    <button data-era="moderna">E. Moderna</button>
+    <button data-era="contemporania">Contemp.</button>
+    <button data-era="desconegut">?</button>
+  </nav>
+  <span class="search-count" id="search-count"></span>
+</div>
 
+<!-- ── MAIN ── -->
 <main id="main">
-  <div class="intro">
-    <p><a href="https://www.portesdetroia.cat" target="_blank" rel="noopener">A les Portes de Troia</a> és un podcast d'història en català, emès des de Ràdio Castellar i distribuït per La Xarxa. Des del 2013, cada setmana Alberto Reche, Sergio Rodríguez i Albert Abril expliquen el passat en present: batalles, revolucions, personatges, civilitzacions i tot allò que ha fet el món com és avui.</p>
-    <p style="margin-top:0.75rem">Aquesta pàgina endreça els capítols en ordre cronològic: no quan es van emetre, sinó quan van passar els fets que expliquen. Organitzats per èpoques, des de la prehistòria fins avui, per passejar per la història universal d'una altra manera.</p>
+  <div class="page-intro">
+    <div class="page-label">Cronologia · <span id="ep-total"></span></div>
+    <h1 class="page-title">A les Portes de Troia</h1>
+    <p class="page-desc"><a href="https://www.portesdetroia.cat" target="_blank" rel="noopener">A les Portes de Troia</a> és un podcast d'història en català, emès des de Ràdio Castellar i distribuït per La Xarxa. Des del 2013, cada setmana Alberto Reche, Sergio Rodríguez i Albert Abril expliquen el passat en present: batalles, revolucions, personatges, civilitzacions i tot allò que ha fet el món com és avui.</p>
+    <p class="page-desc" style="margin-top:0.6rem">Aquesta pàgina endreça els capítols en ordre cronològic: no quan es van emetre, sinó quan van passar els fets que expliquen. Organitzats per èpoques, des de la prehistòria fins avui, per passejar per la història universal d'una altra manera.</p>
   </div>
   <div class="no-results-msg" id="no-results">Cap episodi correspon a la cerca.</div>
 </main>
@@ -458,12 +423,12 @@ function getEra(y) {
 }
 
 const ERA_META = {
-  prehistoria:    { label: 'Prehistòria',       years: 'Fins al 3000 aC',  color: 'var(--c-pre)' },
-  antiguitat:     { label: 'Antiguitat',         years: '3000 aC – 500 dC', color: 'var(--c-ant)' },
-  medieval:       { label: 'Edat Mitjana',       years: '500 – 1500',       color: 'var(--c-med)' },
-  moderna:        { label: 'Edat Moderna',       years: '1500 – 1800',      color: 'var(--c-mod)' },
-  contemporania:  { label: 'Edat Contemporània', years: '1800 – avui',      color: 'var(--c-con)' },
-  desconegut:     { label: 'Data desconeguda',   years: '—',                color: 'var(--c-unk)' },
+  prehistoria:   { label: 'Prehistòria',       years: 'fins al 3000 aC',  color: 'var(--c-pre)' },
+  antiguitat:    { label: 'Antiguitat',         years: '3000 aC – 500 dC', color: 'var(--c-ant)' },
+  medieval:      { label: 'Edat Mitjana',       years: '500 – 1500',       color: 'var(--c-med)' },
+  moderna:       { label: 'Edat Moderna',       years: '1500 – 1800',      color: 'var(--c-mod)' },
+  contemporania: { label: 'Edat Contemporània', years: '1800 – avui',      color: 'var(--c-con)' },
+  desconegut:    { label: 'Data desconeguda',   years: '—',                color: 'var(--c-unk)' },
 };
 
 const ERA_ORDER = ['prehistoria', 'antiguitat', 'medieval', 'moderna', 'contemporania', 'desconegut'];
@@ -485,7 +450,7 @@ async function init() {
     return a._year - b._year;
   });
 
-  document.getElementById('ep-total').textContent = `${data.length} ep.`;
+  document.getElementById('ep-total').textContent = `${data.length} episodis`;
 
   const byEra = {};
   ERA_ORDER.forEach(e => byEra[e] = []);
@@ -503,9 +468,11 @@ async function init() {
     section.id = `era-${era}`;
     section.innerHTML = `
       <div class="era-sticky">
-        <h2>${meta.label}</h2>
-        <span class="era-years">${meta.years}</span>
-        <span class="era-ep-count">${eps.length} ep.</span>
+        <div class="section-label">
+          ${meta.label}
+          <span class="era-years">${meta.years}</span>
+          <span class="era-ep-count">${eps.length} ep.</span>
+        </div>
       </div>
       <div class="era-body" id="body-${era}"></div>
     `;
@@ -536,7 +503,7 @@ async function init() {
           <div class="ep-card-body">
             ${ep.descripcio
               ? `<div class="ep-desc">${ep.descripcio}</div>`
-              : `<div class="ep-desc" style="font-style:italic;opacity:0.6">Sense descripció disponible.</div>`
+              : `<div class="ep-desc" style="font-style:italic;opacity:0.5">Sense descripció disponible.</div>`
             }
             ${ep.enllac
               ? `<a class="ep-listen" href="${ep.enllac}" target="_blank" rel="noopener">Escoltar →</a>`
@@ -555,9 +522,7 @@ async function init() {
       body.appendChild(row);
 
       allRows.push({
-        el: row,
-        era,
-        section,
+        el: row, era, section,
         searchText: [ep.num, ep.titol, ep.descripcio, ep.ubicacio, ep.data_historica]
           .filter(Boolean).join(' ').toLowerCase()
       });
@@ -592,8 +557,8 @@ function applyFilters() {
 }
 
 function initScrollObserver() {
-  const headerH = parseInt(getComputedStyle(document.documentElement)
-    .getPropertyValue('--header-h')) || 108;
+  const controlsH = parseInt(getComputedStyle(document.documentElement)
+    .getPropertyValue('--controls-h')) || 46;
   const obs = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting && currentEra === 'all') {
@@ -603,7 +568,7 @@ function initScrollObserver() {
         });
       }
     });
-  }, { rootMargin: `-${headerH + 10}px 0px -65% 0px` });
+  }, { rootMargin: `-${controlsH + 10}px 0px -65% 0px` });
 
   ERA_ORDER.forEach(era => {
     const sec = document.getElementById(`era-${era}`);
@@ -629,9 +594,9 @@ document.getElementById('era-nav').addEventListener('click', e => {
   if (era !== 'all') {
     const target = document.getElementById(`era-${era}`);
     if (target) {
-      const headerH = parseInt(getComputedStyle(document.documentElement)
-        .getPropertyValue('--header-h')) || 108;
-      const y = target.getBoundingClientRect().top + window.scrollY - headerH;
+      const controlsH = parseInt(getComputedStyle(document.documentElement)
+        .getPropertyValue('--controls-h')) || 46;
+      const y = target.getBoundingClientRect().top + window.scrollY - controlsH;
       window.scrollTo({ top: y, behavior: 'smooth' });
     }
   } else {
