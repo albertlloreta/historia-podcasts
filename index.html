@@ -8,6 +8,8 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+h1, h2, h3 { font: inherit; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
 
 /* Catppuccin Latte (clar) */
 :root {
@@ -212,6 +214,12 @@ body {
 /* ══════════════════════════════════════
    TIMELINE
 ══════════════════════════════════════ */
+ol.era-body {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .era-body {
   position: relative;
   padding: 1.5rem 2rem 0.5rem;
@@ -388,16 +396,15 @@ body {
     flex-wrap: wrap;
     flex: none;
     border-top: 1px solid var(--border);
-    padding: 0.4rem 0 0.1rem;
-    gap: 0;
+    padding: 0.5rem 0 0.25rem;
+    gap: 0.35rem;
   }
   .era-nav button {
-    padding: 0.25rem 0.5rem;
-    font-size: 0.65rem;
-    border-right: 1px solid var(--border);
-    margin-bottom: 0.3rem;
+    min-height: 44px;
+    padding: 0 0.75rem;
+    font-size: 0.7rem;
+    border: 1px solid var(--border);
   }
-  .era-nav button:last-child { border-right: 1px solid var(--border); }
   .era-sticky { position: static; }
   .page-intro { padding: 2rem 1.25rem 1.75rem; }
   .era-body { padding: 1.25rem 1.25rem 0.5rem; }
@@ -409,11 +416,12 @@ body {
 
 <!-- ── CONTROLS (sticky) ── -->
 <div class="controls-bar">
-  <div class="search-wrap">
-    <span class="search-icon">⌕</span>
+  <search class="search-wrap">
+    <label for="search" class="sr-only">Cerca episodis</label>
+    <span class="search-icon" aria-hidden="true">⌕</span>
     <input type="search" id="search" placeholder="Cerca..." autocomplete="off">
-  </div>
-  <nav class="era-nav" id="era-nav">
+  </search>
+  <nav class="era-nav" id="era-nav" aria-label="Filtrar per època">
     <button data-era="all" class="active">Totes</button>
     <button data-era="prehistoria">Prehist.</button>
     <button data-era="antiguitat">Antiguitat</button>
@@ -422,18 +430,18 @@ body {
     <button data-era="contemporania">Contemp.</button>
     <button data-era="desconegut">?</button>
   </nav>
-  <span class="search-count" id="search-count"></span>
+  <span class="search-count" id="search-count" aria-live="polite"></span>
 </div>
 
 <!-- ── MAIN ── -->
 <main id="main">
-  <div class="page-intro">
-    <div class="page-label">Cronologia · <span id="ep-total"></span></div>
+  <header class="page-intro">
+    <p class="page-label">Cronologia · <span id="ep-total"></span></p>
     <h1 class="page-title">A les Portes de Troia</h1>
     <p class="page-desc"><a href="https://www.portesdetroia.cat" target="_blank" rel="noopener">A les Portes de Troia</a> és un podcast d'història en català, emès des de Ràdio Castellar i distribuït per La Xarxa. Des del 2013, cada setmana Alberto Reche, Sergio Rodríguez i Albert Abril expliquen el passat en present: batalles, revolucions, personatges, civilitzacions i tot allò que ha fet el món com és avui.</p>
     <p class="page-desc" style="margin-top:0.6rem">Aquesta pàgina endreça els capítols en ordre cronològic: no quan es van emetre, sinó quan van passar els fets que expliquen. Organitzats per èpoques, des de la prehistòria fins avui, per passejar per la història universal d'una altra manera.</p>
-  </div>
-  <div class="no-results-msg" id="no-results">Cap episodi correspon a la cerca.</div>
+  </header>
+  <p class="no-results-msg" id="no-results">Cap episodi correspon a la cerca.</p>
 </main>
 
 <script>
@@ -474,6 +482,60 @@ let currentEra = 'all';
 let currentSearch = '';
 let allRows = [];
 
+function injectJSONLD(data) {
+  const albert = {
+    '@type': 'Person',
+    '@id': 'https://allr.cat/#albert-lloreta',
+    'name': 'Albert Lloreta',
+    'url': 'https://allr.cat'
+  };
+  const podcast = {
+    '@type': 'PodcastSeries',
+    '@id': 'https://www.portesdetroia.cat/#podcast',
+    'name': 'A les Portes de Troia',
+    'description': 'Podcast d\'història en català, emès des de Ràdio Castellar i distribuït per La Xarxa.',
+    'url': 'https://www.portesdetroia.cat',
+    'inLanguage': 'ca',
+    'startDate': '2013',
+    'author': [
+      {'@type': 'Person', 'name': 'Alberto Reche'},
+      {'@type': 'Person', 'name': 'Sergio Rodríguez'},
+      {'@type': 'Person', 'name': 'Albert Abril'}
+    ]
+  };
+  const webpage = {
+    '@type': 'WebPage',
+    '@id': 'https://historia.allr.cat',
+    'name': 'A les Portes de Troia — Cronologia',
+    'description': 'Visualització cronològica dels episodis del podcast d\'història en català A les Portes de Troia.',
+    'url': 'https://historia.allr.cat',
+    'inLanguage': 'ca',
+    'author': {'@id': 'https://allr.cat/#albert-lloreta'},
+    'about': {'@id': 'https://www.portesdetroia.cat/#podcast'}
+  };
+  const episodes = data.map(ep => {
+    const obj = {
+      '@type': 'PodcastEpisode',
+      '@id': ep.enllac || `https://historia.allr.cat/#ep-${ep.num}`,
+      'partOfSeries': {'@id': 'https://www.portesdetroia.cat/#podcast'},
+      'name': ep.titol,
+      'episodeNumber': ep.num,
+      'inLanguage': 'ca'
+    };
+    if (ep.descripcio) obj.description = ep.descripcio;
+    if (ep.enllac) obj.url = ep.enllac;
+    if (ep.data_historica) obj.temporalCoverage = ep.data_historica;
+    return obj;
+  });
+  const script = document.createElement('script');
+  script.type = 'application/ld+json';
+  script.textContent = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@graph': [albert, podcast, webpage, ...episodes]
+  });
+  document.head.appendChild(script);
+}
+
 async function init() {
   const raw = await (await fetch('episodis.json')).json();
   const data = raw
@@ -504,68 +566,69 @@ async function init() {
     section.className = `era-section era-${era}`;
     section.id = `era-${era}`;
     section.innerHTML = `
-      <div class="era-sticky">
-        <div class="section-label">
+      <header class="era-sticky">
+        <h2 class="section-label">
           ${meta.label}
           <span class="era-years">${meta.years}</span>
           <span class="era-ep-count">${eps.length} ep.</span>
-        </div>
-      </div>
-      <div class="era-body" id="body-${era}"></div>
+        </h2>
+      </header>
+      <ol class="era-body" id="body-${era}"></ol>
     `;
     main.appendChild(section);
 
     const body = section.querySelector(`#body-${era}`);
 
     eps.forEach(ep => {
-      const row = document.createElement('div');
-      row.className = 'ep-row';
+      const li = document.createElement('li');
+      li.className = 'ep-row';
       const period = ep.ubicacio || ep.data_historica || null;
 
-      row.innerHTML = `
-        <div class="ep-dot-wrap">
+      li.innerHTML = `
+        <div class="ep-dot-wrap" aria-hidden="true">
           <div class="ep-dot" style="background:${meta.color}"></div>
         </div>
-        <div class="ep-card" data-num="${ep.num}">
-          <div class="ep-card-head">
+        <article class="ep-card" data-num="${ep.num}">
+          <header class="ep-card-head">
             <div class="ep-card-top-row">
-              <span class="ep-period">${period || '—'}</span>
-              <span class="ep-expand-icon">▾</span>
+              <p class="ep-period">${period || '—'}</p>
+              <span class="ep-expand-icon" aria-hidden="true">▾</span>
             </div>
             <div class="ep-card-bottom-row">
-              <span class="ep-title">${ep.titol}</span>
+              <h3 class="ep-title">${ep.titol}</h3>
               <span class="ep-num">ep.${ep.num}</span>
             </div>
-          </div>
+          </header>
           <div class="ep-card-body">
             ${ep.descripcio
-              ? `<div class="ep-desc">${ep.descripcio}</div>`
-              : `<div class="ep-desc" style="font-style:italic;opacity:0.5">Sense descripció disponible.</div>`
+              ? `<p class="ep-desc">${ep.descripcio}</p>`
+              : `<p class="ep-desc" style="font-style:italic;opacity:0.5">Sense descripció disponible.</p>`
             }
             ${ep.enllac
-              ? `<a class="ep-listen" href="${ep.enllac}" target="_blank" rel="noopener">Escoltar →</a>`
+              ? `<a class="ep-listen" href="${ep.enllac}" target="_blank" rel="noopener">Escolteu-lo →</a>`
               : `<span class="ep-no-link">Enllaç no disponible</span>`
             }
           </div>
-        </div>
+        </article>
       `;
 
-      const card = row.querySelector('.ep-card');
+      const card = li.querySelector('.ep-card');
       card.addEventListener('click', () => card.classList.toggle('open'));
 
-      const link = row.querySelector('a.ep-listen');
+      const link = li.querySelector('a.ep-listen');
       if (link) link.addEventListener('click', e => e.stopPropagation());
 
-      body.appendChild(row);
+      body.appendChild(li);
 
       allRows.push({
-        el: row, era, section,
+        el: li, era, section,
         searchText: [ep.num, ep.titol, ep.descripcio, ep.ubicacio, ep.data_historica]
           .filter(Boolean).join(' ').toLowerCase()
       });
     });
   });
 
+  injectJSONLD(data);
   applyFilters();
   initScrollObserver();
 }
