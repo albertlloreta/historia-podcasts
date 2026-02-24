@@ -1,12 +1,16 @@
-# A les Portes de Troia — Cronologia
+# Història en Podcasts
 
-Visualització cronològica dels episodis del podcast d'història en català [A les Portes de Troia](https://www.portesdetroia.cat).
+Episodis de podcasts d'història en català endreçats en ordre cronològic. Disponible a [historia.allr.cat](https://historia.allr.cat).
 
-## Què és
+## Podcasts
+
+### A les Portes de Troia
 
 [A les Portes de Troia](https://www.portesdetroia.cat) és un podcast d'història en català, emès des de Ràdio Castellar i distribuït per La Xarxa. Des del 2013, Alberto Reche, Sergio Rodríguez i Albert Abril expliquen el passat en present: batalles, revolucions, personatges i civilitzacions.
 
-Aquesta pàgina endreça els capítols en ordre cronològic —no quan es van emetre, sinó quan van passar els fets que expliquen— organitzats per èpoques, des de la prehistòria fins avui.
+`episodis.json` conté 529 episodis (ep. 1–530) amb títol, data/període històric, descripció i enllaç (portesdetroia.cat per ep. 68+, iVoox per ep. 1–67).
+
+### En Guàrdia *(pròximament)*
 
 ## Funcionalitats
 
@@ -14,14 +18,6 @@ Aquesta pàgina endreça els capítols en ordre cronològic —no quan es van em
 - Navegació per èpoques: Prehistòria, Antiguitat, Edat Mitjana, Edat Moderna, Edat Contemporània
 - Cerca en temps real per títol, descripció i ubicació
 - Expansió de cada capítol amb descripció i enllaç per escoltar
-
-## Dades
-
-`episodis.json` conté 529 episodis (ep. 1–530) amb:
-- Títol, data/període històric, descripció
-- Enllaç a portesdetroia.cat (ep. 68+) o iVoox (ep. 1–67)
-
-**Font de les dades**: portesdetroia.cat, iVoox
 
 ## Execució local
 
@@ -32,4 +28,4 @@ python3 -m http.server 8080
 
 ## Desplegament
 
-Cloudflare Pages → `allr.cat/historia`
+Cloudflare Pages → `historia.allr.cat`
