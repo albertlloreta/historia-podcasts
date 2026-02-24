@@ -9,20 +9,39 @@
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+/* Catppuccin Latte (clar) */
 :root {
-  --bg: #f5ede0;
-  --fg: #2d1b0e;
-  --accent: #9b5e2e;
-  --muted: rgba(45,27,14,0.45);
-  --border: rgba(45,27,14,0.13);
+  --bg: #eff1f5;
+  --fg: #4c4f69;
+  --accent: #8839ef;
+  --muted: rgba(76,79,105,0.5);
+  --border: rgba(76,79,105,0.15);
   --controls-h: 46px;
 
-  --c-pre: #8b7355;
-  --c-ant: #c4843a;
-  --c-med: #7a6a4f;
-  --c-mod: #5a7a6a;
-  --c-con: #4a6a8a;
-  --c-unk: rgba(45,27,14,0.3);
+  --c-pre: #fe640b;
+  --c-ant: #df8e1d;
+  --c-med: #179299;
+  --c-mod: #209fb5;
+  --c-con: #1e66f5;
+  --c-unk: rgba(76,79,105,0.3);
+}
+
+/* Catppuccin Mocha (fosc) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1e1e2e;
+    --fg: #cdd6f4;
+    --accent: #cba6f7;
+    --muted: rgba(205,214,244,0.45);
+    --border: rgba(205,214,244,0.1);
+
+    --c-pre: #fab387;
+    --c-ant: #f9e2af;
+    --c-med: #94e2d5;
+    --c-mod: #89dceb;
+    --c-con: #89b4fa;
+    --c-unk: rgba(205,214,244,0.25);
+  }
 }
 
 body {
@@ -97,7 +116,7 @@ body {
   letter-spacing: 0.03em;
 }
 .era-nav button:last-child { border-right: 1px solid var(--border); }
-.era-nav button:hover { background: rgba(45,27,14,0.04); color: var(--fg); }
+.era-nav button:hover { background: rgba(76,79,105,0.07); color: var(--fg); }
 .era-nav button.active { background: var(--fg); color: var(--bg); border-color: var(--fg); }
 
 .search-count {
@@ -141,7 +160,7 @@ body {
 .page-desc a {
   color: var(--accent);
   text-decoration: none;
-  border-bottom: 1px solid rgba(155,94,46,0.3);
+  border-bottom: 1px solid rgba(136,57,239,0.3);
 }
 .page-desc a:hover { border-color: var(--accent); }
 
@@ -244,7 +263,7 @@ body {
   user-select: none;
   border-radius: 2px;
 }
-.ep-card:hover { border-color: rgba(45,27,14,0.3); background: rgba(255,248,238,0.5); }
+.ep-card:hover { border-color: var(--accent); background: rgba(136,57,239,0.04); }
 
 .ep-card-head {
   display: flex;
@@ -325,7 +344,7 @@ body {
   font-size: 0.72rem;
   color: var(--accent);
   text-decoration: none;
-  border-bottom: 1px solid rgba(155,94,46,0.3);
+  border-bottom: 1px solid rgba(136,57,239,0.3);
 }
 .ep-listen:hover { border-color: var(--accent); }
 
