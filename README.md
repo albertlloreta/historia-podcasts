@@ -8,7 +8,7 @@ Episodis de podcasts d'història en català endreçats en ordre cronològic. Dis
 
 [A les Portes de Troia](https://www.portesdetroia.cat) és un podcast d'història en català, emès des de Ràdio Castellar i distribuït per La Xarxa. Des del 2013, Alberto Reche, Sergio Rodríguez i Albert Abril expliquen el passat en present: batalles, revolucions, personatges i civilitzacions.
 
-`episodis.json` conté 529 episodis (ep. 1–530) amb títol, data/període històric, descripció i enllaç (portesdetroia.cat per ep. 68+, iVoox per ep. 1–67).
+`episodis.json` conté 547 episodis (ep. 1–548) amb títol, data/període històric, descripció i enllaç (portesdetroia.cat per ep. 68+, iVoox per ep. 1–67).
 
 ### En Guàrdia *(pròximament)*
 
