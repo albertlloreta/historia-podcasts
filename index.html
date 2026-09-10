@@ -19,7 +19,8 @@ h1, h2, h3 { font: inherit; }
   --accent: #8839ef;
   --muted: rgba(76,79,105,0.5);
   --border: rgba(76,79,105,0.15);
-  --controls-h: 46px;
+  --controls-row-h: 46px;
+  --controls-h: 84px;
 
   --c-pre: #fe640b;
   --c-ant: #df8e1d;
@@ -64,7 +65,10 @@ body {
   z-index: 100;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
-  height: var(--controls-h);
+}
+
+.controls-row {
+  height: var(--controls-row-h);
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -103,6 +107,8 @@ body {
 .podcast-nav {
   display: flex;
   flex-shrink: 0;
+  padding: 0.4rem 2rem 0.55rem;
+  border-top: 1px solid var(--border);
 }
 
 .podcast-nav button {
@@ -400,7 +406,7 @@ body {
    RESPONSIVE
 ══════════════════════════════════════ */
 @media (max-width: 640px) {
-  .controls-bar {
+  .controls-row {
     height: auto;
     flex-wrap: wrap;
     padding: 0.5rem 1rem;
@@ -409,7 +415,7 @@ body {
   }
   .search-wrap { width: auto; flex: 1; }
   .search-count { margin-bottom: 0.4rem; }
-  .podcast-nav { width: 100%; flex-wrap: wrap; border-top: 1px solid var(--border); padding: 0.5rem 0 0.25rem; gap: 0.35rem; }
+  .podcast-nav { width: 100%; flex-wrap: wrap; padding: 0.5rem 1rem 0.25rem; gap: 0.35rem; }
   .podcast-nav button { min-height: 44px; padding: 0 0.75rem; font-size: 0.7rem; border: 1px solid var(--border); }
   .era-nav {
     width: 100%;
@@ -436,26 +442,28 @@ body {
 
 <!-- ── CONTROLS (sticky) ── -->
 <div class="controls-bar">
-  <search class="search-wrap">
-    <label for="search" class="sr-only">Cerca episodis</label>
-    <span class="search-icon" aria-hidden="true">⌕</span>
-    <input type="search" id="search" placeholder="Cerca..." autocomplete="off">
-  </search>
+  <div class="controls-row">
+    <search class="search-wrap">
+      <label for="search" class="sr-only">Cerca episodis</label>
+      <span class="search-icon" aria-hidden="true">⌕</span>
+      <input type="search" id="search" placeholder="Cerca..." autocomplete="off">
+    </search>
+    <nav class="era-nav" id="era-nav" aria-label="Filtrar per època">
+      <button data-era="all" class="active">Totes</button>
+      <button data-era="prehistoria">Prehist.</button>
+      <button data-era="antiguitat">Antiguitat</button>
+      <button data-era="medieval">E. Mitjana</button>
+      <button data-era="moderna">E. Moderna</button>
+      <button data-era="contemporania">Contemp.</button>
+      <button data-era="desconegut">?</button>
+    </nav>
+    <span class="search-count" id="search-count" aria-live="polite"></span>
+  </div>
   <nav class="podcast-nav" id="podcast-nav" aria-label="Filtrar per podcast">
     <button data-podcast="all" class="active">Tots</button>
     <button data-podcast="portes-de-troia">A les Portes de Troia</button>
     <button data-podcast="en-guardia">En Guàrdia</button>
   </nav>
-  <nav class="era-nav" id="era-nav" aria-label="Filtrar per època">
-    <button data-era="all" class="active">Totes</button>
-    <button data-era="prehistoria">Prehist.</button>
-    <button data-era="antiguitat">Antiguitat</button>
-    <button data-era="medieval">E. Mitjana</button>
-    <button data-era="moderna">E. Moderna</button>
-    <button data-era="contemporania">Contemp.</button>
-    <button data-era="desconegut">?</button>
-  </nav>
-  <span class="search-count" id="search-count" aria-live="polite"></span>
 </div>
 
 <!-- ── MAIN ── -->
