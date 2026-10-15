@@ -372,6 +372,12 @@ body {
   padding-top: 0.6rem;
 }
 
+.ep-meta {
+  font-size: 0.7rem;
+  color: var(--fg);
+  margin-bottom: 0.4rem;
+}
+
 .ep-listen {
   font-size: 0.72rem;
   color: var(--accent);
@@ -463,6 +469,7 @@ body {
     <button data-podcast="all" class="active">Tots</button>
     <button data-podcast="portes-de-troia">A les Portes de Troia</button>
     <button data-podcast="en-guardia">En Guàrdia</button>
+    <button data-podcast="institut-humanitats">Institut d'Humanitats</button>
   </nav>
 </div>
 
@@ -472,7 +479,7 @@ body {
     <p class="page-label">allr.cat · cronologia de podcasts d'història</p>
     <h1 class="page-title">Història en Podcasts</h1>
     <p class="page-desc">Episodis de podcasts d'història en català endreçats en ordre cronològic: no quan es van emetre, sinó quan van passar els fets que expliquen. Des de la prehistòria fins avui, per passejar per la història universal d'una altra manera.</p>
-    <p class="page-desc" style="margin-top:0.6rem"><a href="https://www.portesdetroia.cat" target="_blank" rel="noopener">A les Portes de Troia</a> · <a href="https://www.3cat.cat/3cat/en-guardia/" target="_blank" rel="noopener">En Guàrdia</a> · <span id="ep-total"></span></p>
+    <p class="page-desc" style="margin-top:0.6rem"><a href="https://www.portesdetroia.cat" target="_blank" rel="noopener">A les Portes de Troia</a> · <a href="https://www.3cat.cat/3cat/en-guardia/" target="_blank" rel="noopener">En Guàrdia</a> · <a href="https://www.instituthumanitats.org/ca/arxiu" target="_blank" rel="noopener">Institut d'Humanitats de Barcelona</a> (sessions en vídeo i àudio) · <span id="ep-total"></span></p>
   </header>
   <p class="no-results-msg" id="no-results">Cap episodi correspon a la cerca.</p>
 </main>
@@ -545,6 +552,12 @@ function injectJSONLD(data) {
     'url': 'https://www.3cat.cat/3cat/en-guardia/',
     'inLanguage': 'ca'
   };
+  const ihb = {
+    '@type': 'Organization',
+    '@id': 'https://www.instituthumanitats.org/#org',
+    'name': 'Institut d\'Humanitats de Barcelona',
+    'url': 'https://www.instituthumanitats.org'
+  };
   const webpage = {
     '@type': 'WebPage',
     '@id': 'https://historia.allr.cat',
@@ -553,9 +566,21 @@ function injectJSONLD(data) {
     'url': 'https://historia.allr.cat',
     'inLanguage': 'ca',
     'author': {'@id': 'https://allr.cat/#albert-lloreta'},
-    'about': [{'@id': 'https://www.portesdetroia.cat/#podcast'}, {'@id': 'https://www.3cat.cat/3cat/en-guardia/#podcast'}]
+    'about': [{'@id': 'https://www.portesdetroia.cat/#podcast'}, {'@id': 'https://www.3cat.cat/3cat/en-guardia/#podcast'}, {'@id': 'https://www.instituthumanitats.org/#org'}]
   };
   const episodes = data.map(ep => {
+    if (ep.podcast === 'institut-humanitats') {
+      const obj = {
+        '@type': ep.format === 'video' ? 'VideoObject' : 'AudioObject',
+        '@id': ep.enllac,
+        'name': ep.titol,
+        'url': ep.enllac,
+        'publisher': {'@id': 'https://www.instituthumanitats.org/#org'}
+      };
+      if (ep.descripcio) obj.description = ep.descripcio;
+      if (ep.data_historica) obj.temporalCoverage = ep.data_historica;
+      return obj;
+    }
     const seriesId = ep.podcast === 'en-guardia'
       ? 'https://www.3cat.cat/3cat/en-guardia/#podcast'
       : 'https://www.portesdetroia.cat/#podcast';
@@ -576,23 +601,24 @@ function injectJSONLD(data) {
   script.type = 'application/ld+json';
   script.textContent = JSON.stringify({
     '@context': 'https://schema.org',
-    '@graph': [albert, podcast, podcastGuardia, webpage, ...episodes]
+    '@graph': [albert, podcast, podcastGuardia, ihb, webpage, ...episodes]
   });
   document.head.appendChild(script);
 }
 
 async function init() {
-  const [rawAdpt, rawGuardia] = await Promise.all([
+  const [rawAdpt, rawGuardia, rawIhb] = await Promise.all([
     fetch('episodis-portes-de-troia.json').then(r => r.json()),
     fetch('episodis-en-guardia.json').then(r => r.json()),
+    fetch('sessions-institut-humanitats.json').then(r => r.json()),
   ]);
-  const raw = [...rawAdpt, ...rawGuardia];
+  const raw = [...rawAdpt, ...rawGuardia, ...rawIhb];
   const data = raw
     .filter(e => e.titol)
     .map(e => ({ ...e, _year: parseYear(e.data_historica) }));
   data.forEach(e => { e._era = getEra(e._year); });
   data.sort((a, b) => {
-    if (a._year === null && b._year === null) return a.num - b.num;
+    if (a._year === null && b._year === null) return (a.num ?? 0) - (b.num ?? 0);
     if (a._year === null) return 1;
     if (b._year === null) return -1;
     return a._year - b._year;
@@ -600,7 +626,8 @@ async function init() {
 
   const nAdpt = data.filter(e => e.podcast === 'portes-de-troia').length;
   const nGuardia = data.filter(e => e.podcast === 'en-guardia').length;
-  document.getElementById('ep-total').textContent = `${data.length} episodis (${nAdpt} + ${nGuardia})`;
+  const nIhb = data.filter(e => e.podcast === 'institut-humanitats').length;
+  document.getElementById('ep-total').textContent = `${data.length} episodis (${nAdpt} + ${nGuardia} + ${nIhb})`;
 
   const byEra = {};
   ERA_ORDER.forEach(e => byEra[e] = []);
@@ -634,6 +661,9 @@ async function init() {
       const li = document.createElement('li');
       li.className = 'ep-row';
       const period = ep.ubicacio || ep.data_historica || null;
+      const isIhb = ep.podcast === 'institut-humanitats';
+      const tag = isIhb ? (ep.format === 'video' ? 'vídeo' : 'àudio') : (ep.num != null ? `ep.${ep.num}` : '');
+      const meta = isIhb ? [ep.curs, (ep.ponents || []).join(', ')].filter(Boolean).join(' · ') : '';
 
       li.innerHTML = `
         <div class="ep-dot-wrap" aria-hidden="true">
@@ -647,16 +677,17 @@ async function init() {
             </div>
             <div class="ep-card-bottom-row">
               <h3 class="ep-title">${ep.titol}</h3>
-              <span class="ep-num">ep.${ep.num}</span>
+              <span class="ep-num">${tag}</span>
             </div>
           </header>
           <div class="ep-card-body">
+            ${meta ? `<p class="ep-meta">${meta}</p>` : ''}
             ${ep.descripcio
               ? `<p class="ep-desc">${ep.descripcio}</p>`
               : `<p class="ep-desc" style="font-style:italic;opacity:0.5">Sense descripció disponible.</p>`
             }
             ${ep.enllac
-              ? `<a class="ep-listen" href="${ep.enllac}" target="_blank" rel="noopener">Escolteu-lo →</a>`
+              ? `<a class="ep-listen" href="${ep.enllac}" target="_blank" rel="noopener">${isIhb && ep.format === 'video' ? 'Mireu-lo' : 'Escolteu-lo'} →</a>`
               : `<span class="ep-no-link">Enllaç no disponible</span>`
             }
           </div>
@@ -674,7 +705,7 @@ async function init() {
       allRows.push({
         el: li, era, section,
         podcast: ep.podcast,
-        searchText: [ep.num, ep.titol, ep.descripcio, ep.ubicacio, ep.data_historica]
+        searchText: [ep.num, ep.titol, ep.descripcio, ep.ubicacio, ep.data_historica, ep.curs, ...(ep.ponents || [])]
           .filter(Boolean).join(' ').toLowerCase()
       });
     });
