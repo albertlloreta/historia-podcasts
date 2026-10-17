@@ -673,7 +673,7 @@ function jumpToBin(i) {
   const r = rows.find(r => r.visible && binOf(r.ep._year) === i);
   if (!r) return;
   if (collapsed.has(r.era)) { setCollapsed(r.era, false); saveCollapsed(); }
-  r.el.scrollIntoView({ block: 'center', behavior: 'smooth' });
+  scrollToRow(r.el);
   r.el.classList.remove('flash'); void r.el.offsetWidth; r.el.classList.add('flash');
 }
 
@@ -739,13 +739,30 @@ document.getElementById('main').addEventListener('click', e => {
   if (e.target.closest('.ep-row')) li.classList.toggle('open');
 });
 
+// Les files fora de pantalla no es renderitzen (content-visibility), així que la
+// seva alçada real només es coneix en arribar-hi: anem corregint fins que el destí és estable.
+function settleScroll(targetY) {
+  let last = null, tries = 0;
+  const step = () => {
+    const y = Math.max(0, Math.round(targetY()));
+    if (y === last || tries++ > 10) return;
+    last = y;
+    window.scrollTo({ top: y, behavior: 'instant' });
+    requestAnimationFrame(() => requestAnimationFrame(step));
+  };
+  step();
+}
+const controlsH = () => document.getElementById('controls').offsetHeight;
+function scrollToRow(el) {
+  settleScroll(() => el.getBoundingClientRect().top + window.scrollY - (window.innerHeight + controlsH()) / 2 + el.offsetHeight / 2);
+}
+
 function scrollToEra(era, behavior = 'smooth') {
   const s = sections[era];
   if (!s) return;
-  const h = document.getElementById('controls').offsetHeight;
-  const y = s.el.getBoundingClientRect().top + window.scrollY - h;
+  const h = controlsH();
   if (behavior === 'auto' && s.el.getBoundingClientRect().top > h) return;
-  window.scrollTo({ top: y, behavior });
+  settleScroll(() => s.el.getBoundingClientRect().top + window.scrollY - controlsH());
 }
 
 document.getElementById('era-nav').addEventListener('click', e => {
@@ -909,7 +926,7 @@ $('p-title').addEventListener('click', () => {
   const r = rows[cur];
   if (collapsed.has(r.era)) { setCollapsed(r.era, false); saveCollapsed(); }
   r.el.classList.add('open');
-  r.el.scrollIntoView({ block: 'center', behavior: 'smooth' });
+  scrollToRow(r.el);
 });
 $('p-title').style.cursor = 'pointer';
 
