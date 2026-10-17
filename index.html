@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="format-detection" content="telephone=no">
-<title>Història en Podcasts · allr.cat</title>
+<title>Història en pòdcasts · allr.cat</title>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 h1, h2, h3 { font: inherit; }
@@ -93,12 +93,25 @@ a { color: inherit; }
 .fold-all:hover { color: var(--fg); }
 
 /* ── Intro ── */
-.page-intro { padding: 3.5rem 0 2.5rem; max-width: 640px; }
+.page-intro { padding: 1.75rem 0 1.25rem; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 0.35rem; }
+#main { padding-top: 1rem; }
 .page-label { font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.9rem; }
-.page-title { font-family: var(--serif); font-size: 2.3rem; font-weight: 700; letter-spacing: -0.015em; line-height: 1.15; margin-bottom: 1rem; }
+.page-title { font-family: var(--serif); font-size: 2.1rem; font-weight: 700; letter-spacing: -0.015em; line-height: 1.2; cursor: default; margin-bottom: 0.15rem; }
+/* Cada lletra viatja per les tipografies de les èpoques en passar-hi per sobre */
+.page-title { white-space: nowrap; height: 1.2em; }
+.t-l { display: inline-block; text-align: center; transition: color 0.25s; height: 1.2em; line-height: 1.2; vertical-align: top; }
+.t-l.on { color: var(--accent); }
+.t-l[data-era="0"] { font-family: 'Rubik Dirt', var(--sans); font-weight: 400; }
+.t-l[data-era="1"] { font-family: 'Cinzel', serif; font-weight: 700; }
+.t-l[data-era="2"] { font-family: 'UnifrakturMaguntia', serif; font-weight: 400; }
+.t-l[data-era="3"] { font-family: 'IM Fell English', serif; font-style: italic; font-weight: 400; }
+.t-l[data-era="4"] { font-family: 'Special Elite', monospace; font-weight: 400; }
 .page-desc { font-size: 0.92rem; color: var(--muted); line-height: 1.7; }
-.page-desc + .page-desc { margin-top: 0.6rem; font-size: 0.82rem; }
-.sources { list-style: none; margin-top: 0.2rem !important; }
+.page-desc { font-size: 0.85rem; }
+.credit { color: var(--faint); font-size: 0.78rem; }
+.credit a { color: inherit; }
+.sources { list-style: none; font-size: 0.78rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 0 0.4rem; }
+.sources li + li:not(:nth-child(2))::before { content: '·'; margin-right: 0.4rem; color: var(--faint); }
 .page-desc a { text-decoration: underline; text-decoration-color: var(--faint); text-underline-offset: 3px; }
 .page-desc a:hover { text-decoration-color: currentColor; }
 
@@ -206,8 +219,8 @@ a { color: inherit; }
   .fold-all { min-height: 36px; }
   .tabs button { min-height: 36px; }
   .era-head { position: static; }
-  .page-intro { padding: 2.25rem 0 1.75rem; }
-  .page-title { font-size: 1.8rem; }
+  .page-intro { padding: 1.1rem 0 0.9rem; }
+  .page-title { font-size: 1.7rem; }
   .ep-row { grid-template-columns: 1fr 2.25rem; grid-template-areas: "when play" "title play" "src play"; gap: 0.1rem 0.75rem; }
   .ep-when { grid-area: when; }
   .ep-title { grid-area: title; }
@@ -224,6 +237,19 @@ a { color: inherit; }
 </style>
 </head>
 <body>
+
+<div class="wrap">
+  <header class="page-intro">
+    <h1 class="page-title" id="page-title" aria-label="Història en pòdcasts">Història en pòdcasts</h1>
+    <p class="page-desc">Episodis de podcasts d'història en català endreçats en ordre cronològic. <span class="credit">(Directori fet amb IA per <a href="https://allr.cat" target="_blank" rel="noopener">Albert Lloreta</a>)</span></p>
+    <ul class="page-desc sources">
+      <li class="src-label">Fonts:</li>
+      <li><a href="https://www.portesdetroia.cat" target="_blank" rel="noopener">A les Portes de Troia</a> (<span data-count="portes-de-troia"></span> capítols)</li>
+      <li><a href="https://www.3cat.cat/3cat/en-guardia/" target="_blank" rel="noopener">En Guàrdia</a> (<span data-count="en-guardia"></span> capítols)</li>
+      <li><a href="https://www.instituthumanitats.org/ca/arxiu" target="_blank" rel="noopener">Institut d'Humanitats de Barcelona</a> (<span data-count="institut-humanitats"></span> capítols)</li>
+    </ul>
+  </header>
+</div>
 
 <div class="controls-bar" id="controls">
   <div class="wrap">
@@ -259,16 +285,6 @@ a { color: inherit; }
 </div>
 
 <main id="main" class="wrap">
-  <header class="page-intro">
-    <h1 class="page-title">Història en Podcasts</h1>
-    <p class="page-desc">Episodis de podcasts d'història en català endreçats en ordre cronològic.</p>
-    <p class="page-desc">Fonts usades:</p>
-    <ul class="page-desc sources">
-      <li><a href="https://www.portesdetroia.cat" target="_blank" rel="noopener">A les Portes de Troia</a> (<span data-count="portes-de-troia"></span> capítols)</li>
-      <li><a href="https://www.3cat.cat/3cat/en-guardia/" target="_blank" rel="noopener">En Guàrdia</a> (<span data-count="en-guardia"></span> capítols)</li>
-      <li><a href="https://www.instituthumanitats.org/ca/arxiu" target="_blank" rel="noopener">Institut d'Humanitats de Barcelona</a> (<span data-count="institut-humanitats"></span> capítols)</li>
-    </ul>
-  </header>
   <p class="no-results-msg" id="no-results" hidden>Cap episodi correspon a la cerca.</p>
 </main>
 
@@ -404,7 +420,7 @@ function injectJSONLD(data) {
   const webpage = {
     '@type': 'WebPage',
     '@id': 'https://historia.allr.cat',
-    'name': 'Història en Podcasts',
+    'name': 'Història en pòdcasts',
     'description': 'Episodis de podcasts d\'història en català endreçats en ordre cronològic, des de la prehistòria fins avui.',
     'url': 'https://historia.allr.cat',
     'inLanguage': 'ca',
@@ -778,7 +794,7 @@ document.addEventListener('keydown', e => {
 
 function setMediaSession(ep) {
   if (!('mediaSession' in navigator)) return;
-  navigator.mediaSession.metadata = new MediaMetadata({ title: ep.titol, artist: SRC_LABEL[ep.podcast], album: 'Història en Podcasts' });
+  navigator.mediaSession.metadata = new MediaMetadata({ title: ep.titol, artist: SRC_LABEL[ep.podcast], album: 'Història en pòdcasts' });
   const ms = navigator.mediaSession;
   ms.setActionHandler('play', () => audio.play());
   ms.setActionHandler('pause', () => audio.pause());
@@ -796,6 +812,55 @@ function restorePlayer() {
 }
 
 window.addEventListener('pagehide', savePos);
+
+/* ══════════ Títol: les lletres a través de les èpoques ══════════ */
+(function titleEras() {
+  const h1 = $('page-title');
+  const text = h1.textContent;
+  const STEPS = 5, STEP_MS = 120;
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  h1.textContent = '';
+  const letters = [...text].map(ch => {
+    if (ch === ' ') { h1.append(' '); return null; }
+    const s = document.createElement('span');
+    s.className = 't-l';
+    s.textContent = ch;
+    s.setAttribute('aria-hidden', 'true');
+    h1.append(s);
+    return s;
+  }).filter(Boolean);
+  if (reduced) return;
+  // Amplada fixa per lletra perquè el títol no balli en canviar de font
+  const lock = () => { if (!letters.some(s => s._busy)) letters.forEach(s => { s.style.width = ''; s.style.width = s.getBoundingClientRect().width + 'px'; }); };
+  lock();
+  addEventListener('resize', lock);
+
+  // Fonts subconjuntades només amb les lletres del títol (pocs KB), en temps mort
+  const load = () => {
+    const l = document.createElement('link');
+    l.rel = 'stylesheet';
+    l.href = 'https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Cinzel:wght@700&family=UnifrakturMaguntia&family=IM+Fell+English:ital@1&family=Special+Elite&display=swap&text=' + encodeURIComponent([...new Set(text.replace(/ /g, ''))].join(''));
+    // Força la descàrrega ara, perquè el primer hover ja tingui les fonts
+    l.onload = () => ['16px "Rubik Dirt"', '700 16px Cinzel', '16px UnifrakturMaguntia', 'italic 16px "IM Fell English"', '16px "Special Elite"']
+      .forEach(f => document.fonts.load(f, text).catch(() => {}));
+    document.head.append(l);
+  };
+  ('requestIdleCallback' in window ? requestIdleCallback : setTimeout)(load);
+
+  const run = (s, delay = 0) => {
+    if (s._busy) return;
+    s._busy = true;
+    for (let k = 0; k <= STEPS; k++) {
+      setTimeout(() => {
+        if (k < STEPS) { s.dataset.era = k; s.classList.add('on'); }
+        else { delete s.dataset.era; s.classList.remove('on'); s._busy = false; }
+      }, delay + k * STEP_MS);
+    }
+  };
+  letters.forEach(s => s.addEventListener('pointerenter', e => { if (e.pointerType === 'mouse') run(s); }));
+  // En pantalles tàctils, tocar el títol fa passar l'onada per totes les lletres
+  h1.addEventListener('click', () => letters.forEach((s, i) => run(s, i * 45)));
+})();
 
 init();
 </script>
