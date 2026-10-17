@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="format-detection" content="telephone=no">
 <title>Història en pòdcasts · allr.cat</title>
-<meta name="description" content="Més de 2.600 capítols de pòdcasts d'història en català (A les Portes de Troia, En Guàrdia, Institut d'Humanitats) endreçats en ordre cronològic.">
+<meta name="description" content="Més de 2.600 capítols de pòdcasts d'història en català (A les Portes de Troia, En Guàrdia, Sons de l'edat mitjana, Institut d'Humanitats) endreçats en ordre cronològic.">
 <link rel="canonical" href="https://historia.allr.cat/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://historia.allr.cat/">
@@ -333,6 +333,7 @@ a { color: inherit; }
         <button data-podcast="all" class="active">Totes</button>
         <button data-podcast="portes-de-troia">A les Portes de Troia</button>
         <button data-podcast="en-guardia">En Guàrdia</button>
+        <button data-podcast="sons-edat-mitjana">Sons de l'edat mitjana</button>
         <button data-podcast="institut-humanitats">Institut d'Humanitats</button>
       </nav>
     </div>
@@ -348,6 +349,7 @@ a { color: inherit; }
   <ul class="foot-sources">
     <li><a href="https://www.portesdetroia.cat" target="_blank" rel="noopener">A les Portes de Troia</a> (<span data-count="portes-de-troia"></span> capítols)</li>
     <li><a href="https://www.3cat.cat/3cat/en-guardia/" target="_blank" rel="noopener">En Guàrdia</a> (<span data-count="en-guardia"></span> capítols)</li>
+    <li><a href="https://www.3cat.cat/3cat/sons-edat-mitjana/" target="_blank" rel="noopener">Sons de l'edat mitjana</a> (<span data-count="sons-edat-mitjana"></span> capítols)</li>
     <li><a href="https://www.instituthumanitats.org/ca/arxiu" target="_blank" rel="noopener">Institut d'Humanitats de Barcelona</a> (<span data-count="institut-humanitats"></span> capítols)</li>
   </ul>
   <p class="credit foot-credit">Vibecoded amb carinyo per <a href="https://allr.cat" target="_blank" rel="noopener">Albert Lloreta</a></p>
@@ -431,7 +433,7 @@ function formatWhen(raw) {
   return `${fmtYear(a)}–${fmtYear(b)}`;
 }
 
-const SRC_LABEL = { 'portes-de-troia': 'Portes de Troia', 'en-guardia': 'En Guàrdia', 'institut-humanitats': "Inst. d'Humanitats" };
+const SRC_LABEL = { 'portes-de-troia': 'Portes de Troia', 'en-guardia': 'En Guàrdia', 'sons-edat-mitjana': "Sons de l'edat mitjana", 'institut-humanitats': "Inst. d'Humanitats" };
 
 const store = {
   get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } },
@@ -449,7 +451,7 @@ const ICON_PLAY = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4l13
 const ICON_PAUSE = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>';
 
 function playable(ep) {
-  return ep.podcast === 'en-guardia' ? !!ep.id_3cat : !!(ep.ivoox || ep.vimeo || ep.youtube);
+  return !!(ep.id_3cat || ep.ivoox || ep.vimeo || ep.youtube);
 }
 
 function injectJSONLD(data) {
@@ -481,6 +483,14 @@ function injectJSONLD(data) {
     'url': 'https://www.3cat.cat/3cat/en-guardia/',
     'inLanguage': 'ca'
   };
+  const podcastSons = {
+    '@type': 'PodcastSeries',
+    '@id': 'https://www.3cat.cat/3cat/sons-edat-mitjana/#podcast',
+    'name': "Sons de l'edat mitjana",
+    'description': "Programa de Catalunya Música sobre la música i la història de l'edat mitjana, presentat per Maria Montes.",
+    'url': 'https://www.3cat.cat/3cat/sons-edat-mitjana/',
+    'inLanguage': 'ca'
+  };
   const ihb = {
     '@type': 'Organization',
     '@id': 'https://www.instituthumanitats.org/#org',
@@ -495,7 +505,7 @@ function injectJSONLD(data) {
     'url': 'https://historia.allr.cat',
     'inLanguage': 'ca',
     'author': {'@id': 'https://allr.cat/#albert-lloreta'},
-    'about': [{'@id': 'https://www.portesdetroia.cat/#podcast'}, {'@id': 'https://www.3cat.cat/3cat/en-guardia/#podcast'}, {'@id': 'https://www.instituthumanitats.org/#org'}]
+    'about': [{'@id': 'https://www.portesdetroia.cat/#podcast'}, {'@id': 'https://www.3cat.cat/3cat/en-guardia/#podcast'}, {'@id': 'https://www.3cat.cat/3cat/sons-edat-mitjana/#podcast'}, {'@id': 'https://www.instituthumanitats.org/#org'}]
   };
   const episodes = data.map(ep => {
     if (ep.podcast === 'institut-humanitats') {
@@ -510,9 +520,10 @@ function injectJSONLD(data) {
       if (ep.data_historica) obj.temporalCoverage = ep.data_historica;
       return obj;
     }
-    const seriesId = ep.podcast === 'en-guardia'
-      ? 'https://www.3cat.cat/3cat/en-guardia/#podcast'
-      : 'https://www.portesdetroia.cat/#podcast';
+    const seriesId = {
+      'en-guardia': 'https://www.3cat.cat/3cat/en-guardia/#podcast',
+      'sons-edat-mitjana': 'https://www.3cat.cat/3cat/sons-edat-mitjana/#podcast',
+    }[ep.podcast] || 'https://www.portesdetroia.cat/#podcast';
     const obj = {
       '@type': 'PodcastEpisode',
       '@id': ep.enllac || `https://historia.allr.cat/#ep-${ep.num}`,
@@ -530,18 +541,19 @@ function injectJSONLD(data) {
   script.type = 'application/ld+json';
   script.textContent = JSON.stringify({
     '@context': 'https://schema.org',
-    '@graph': [albert, podcast, podcastGuardia, ihb, webpage, ...episodes]
+    '@graph': [albert, podcast, podcastGuardia, podcastSons, ihb, webpage, ...episodes]
   });
   document.head.appendChild(script);
 }
 
 async function init() {
-  const [rawAdpt, rawGuardia, rawIhb] = await Promise.all([
+  const [rawAdpt, rawGuardia, rawSons, rawIhb] = await Promise.all([
     fetch('episodis-portes-de-troia.json').then(r => r.json()),
     fetch('episodis-en-guardia.json').then(r => r.json()),
+    fetch('episodis-sons-edat-mitjana.json').then(r => r.json()),
     fetch('sessions-institut-humanitats.json').then(r => r.json()),
   ]);
-  data = [...rawAdpt, ...rawGuardia, ...rawIhb]
+  data = [...rawAdpt, ...rawGuardia, ...rawSons, ...rawIhb]
     .filter(e => e.titol)
     .map(e => ({ ...e, _year: parseYear(e.data_historica) }));
   data.forEach(e => {
@@ -833,7 +845,7 @@ class YouTubeMedia extends EmbedMedia {
 }
 
 // Àudio sempre preferit; el vídeo incrustat només si no n'hi ha
-const embedOf = ep => ep.podcast !== 'en-guardia' && !ep.ivoox && (ep.vimeo || ep.youtube) ? ep : null;
+const embedOf = ep => !ep.id_3cat && !ep.ivoox && (ep.vimeo || ep.youtube) ? ep : null;
 
 async function useEmbed(ep) {
   const box = $('p-video');
@@ -867,7 +879,7 @@ const fmt = s => {
 };
 
 async function audioUrl(ep) {
-  if (ep.podcast !== 'en-guardia') return `https://www.ivoox.com/listen_mn_${ep.ivoox}_1.mp3`;
+  if (!ep.id_3cat) return `https://www.ivoox.com/listen_mn_${ep.ivoox}_1.mp3`;
   const r = await fetch(`https://api-media.3cat.cat/pvideo/media.jsp?media=audio&idint=${ep.id_3cat}`);
   const media = (await r.json()).media;
   return (Array.isArray(media) ? media[0] : media).url;

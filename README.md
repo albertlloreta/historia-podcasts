@@ -18,6 +18,12 @@ Episodis de podcasts d'història en català endreçats en ordre cronològic. Dis
 
 **Actualitzar amb episodis nous**: `python3 scripts/sync-en-guardia.py --write` — llegeix el feed RSS del podcast, detecta els episodis nous i en resol l'enllaç via el cercador de 3cat.cat. Cal assignar manualment `data_historica` als episodis nous (llegint la descripció) abans de desplegar.
 
+### Sons de l'edat mitjana
+
+[Sons de l'edat mitjana](https://www.3cat.cat/3cat/sons-edat-mitjana/) és el programa de Catalunya Música sobre la música i la història medievals, presentat per Maria Montes (2016-2019, acabat).
+
+`episodis-sons-edat-mitjana.json` conté els 130 programes complets (de `api.3cat.cat/audios?programaradio_id=1722`; les seccions soltes no s'hi inclouen). `data_historica` assignada a mà programa per programa; 10 temes contemporanis queden com a "Variable".
+
 ### Institut d'Humanitats de Barcelona
 
 No és un podcast: són les sessions en vídeo i àudio de l'[arxiu de l'Institut d'Humanitats de Barcelona](https://www.instituthumanitats.org/ca/arxiu), filtrades per les temàtiques arquitectura, art, cinema i audiovisuals, ciutat i espai públic, ciència, filosofia, història, literatura, música, política i religió.
@@ -30,7 +36,7 @@ No és un podcast: són les sessions en vídeo i àudio de l'[arxiu de l'Institu
 
 - Cronologia interactiva ordenada per període històric
 - Navegació per èpoques: Prehistòria, Antiguitat, Edat Mitjana, Edat Moderna, Edat Contemporània; cada època es pot plegar i desplegar (l'estat es recorda al navegador)
-- Filtre per font (A les Portes de Troia, En Guàrdia, Institut d'Humanitats)
+- Filtre per font (A les Portes de Troia, En Guàrdia, Sons de l'edat mitjana, Institut d'Humanitats)
 - Cerca en temps real per títol, descripció, ubicació, curs i ponents
 - Expansió de cada capítol amb descripció i enllaç a la font
 - Reproductor d'àudio integrat (un sol `<audio>` natiu, sense llibreries): ±15/30 s, velocitat, recorda la posició de cada capítol, passa al següent en ordre cronològic i s'integra amb els controls del sistema (Media Session)
@@ -38,7 +44,7 @@ No és un podcast: són les sessions en vídeo i àudio de l'[arxiu de l'Institu
 ## Àudio
 
 - **A les Portes de Troia** i **Institut d'Humanitats** (sessions en àudio): camp `ivoox` (id d'episodi iVoox) → `https://www.ivoox.com/listen_mn_<id>_1.mp3`. Es genera amb `python3 scripts/ivoox-ids.py [pdt] [ih]` (PdT des del feed iVoox per número d'episodi; IH des de l'iframe de cada fitxa, amb pauses). Cal tornar-lo a executar quan s'afegeixin episodis nous.
-- **En Guàrdia**: no cal cap camp nou; l'URL del MP3 es resol en reproduir via `api-media.3cat.cat/pvideo/media.jsp?media=audio&idint=<id_3cat>` (CORS obert).
+- **En Guàrdia** i **Sons de l'edat mitjana**: no cal cap camp nou; l'URL del MP3 es resol en reproduir via `api-media.3cat.cat/pvideo/media.jsp?media=audio&idint=<id_3cat>` (CORS obert).
 
 ## Execució local
 
