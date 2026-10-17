@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="format-detection" content="telephone=no">
 <title>Història en pòdcasts · allr.cat</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap&text=Hist%C3%B2riaenp%C3%B2dcs">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 h1, h2, h3 { font: inherit; }
@@ -69,19 +72,9 @@ a { color: inherit; }
 }
 .controls-row { display: flex; align-items: center; gap: 1.25rem; padding: 0.7rem 0; }
 .controls-row + .controls-row { padding-top: 0; }
+.controls-bar .controls-row:first-child { padding-top: 0.6rem; }
+.controls-bar .controls-row:last-child { padding-bottom: 0.6rem; }
 
-.search-wrap { flex: 1; min-width: 0; }
-.search-wrap input {
-  width: 100%;
-  padding: 0.5rem 0.75rem;
-  background: var(--bg);
-  border: 0; border-radius: 4px;
-  color: var(--fg);
-  font: inherit; font-size: 0.9rem;
-  outline: none;
-}
-.search-wrap input:focus { background: var(--row-hover); }
-.search-wrap input::placeholder { color: var(--faint); }
 .search-count { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); white-space: nowrap; }
 
 .tabs { display: flex; flex-wrap: wrap; flex: 1; min-width: 0; gap: 0.15rem 0.25rem; font-size: 0.8rem; }
@@ -93,10 +86,10 @@ a { color: inherit; }
 .fold-all:hover { color: var(--fg); }
 
 /* ── Intro ── */
-.page-intro { padding: 1.75rem 0 1.25rem; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 0.35rem; }
+
 #main { padding-top: 1rem; }
 .page-label { font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.9rem; }
-.page-title { font-family: var(--serif); font-size: 2.1rem; font-weight: 700; letter-spacing: -0.015em; line-height: 1.2; cursor: default; margin-bottom: 0.15rem; }
+.page-title { cursor: default; }
 /* Cada lletra viatja per les tipografies de les èpoques en passar-hi per sobre */
 .page-title { white-space: nowrap; height: 1.2em; }
 .t-l { display: inline-block; text-align: center; transition: color 0.25s; height: 1.2em; line-height: 1.2; vertical-align: top; }
@@ -107,39 +100,41 @@ a { color: inherit; }
 .t-l[data-era="3"] { font-family: 'IM Fell English', serif; font-style: italic; font-weight: 400; }
 .t-l[data-era="4"] { font-family: 'Special Elite', monospace; font-weight: 400; }
 
-/* ── Ona: capítols per període, com la forma d'ona d'un àudio ── */
-.wave { position: relative; width: 100%; margin: 0.8rem 0 0.7rem; }
-.wave-bars { display: flex; gap: 8px; }
-.wave-grp { flex: var(--n) 1 0; min-width: 0; display: flex; flex-direction: column; }
-.wave-grp-bars { height: 64px; display: flex; }
-.wave-bar { flex: 1; min-width: 2px; height: 100%; padding: 0; display: flex; align-items: center; justify-content: center; }
-.wave-bar::before {
-  content: ''; width: min(4px, 70%); height: var(--h, 0%); min-height: 2px;
-  background: rgba(var(--accent-rgb), 0.5); border-radius: 2px;
-  transition: height 0.6s cubic-bezier(.2,.8,.2,1), background 0.15s;
+/* ── Capçalera: il·lustració a sang (Préaulx) ── */
+.hero {
+  position: relative;
+  color: #fff;
+  background:
+    linear-gradient(90deg, rgba(10,8,6,.72) 0%, rgba(10,8,6,.45) 45%, rgba(10,8,6,.08) 80%),
+    linear-gradient(0deg, rgba(10,8,6,.7), rgba(10,8,6,.35) 30%, transparent 55%),
+    url('preaulx-cisterna.webp') 50% 35% / cover no-repeat;
 }
-.wave-bar:hover::before, .wave-bar:focus-visible::before { background: var(--accent); }
-.wave-bar.now::before { background: var(--fg); }
-.wave-bar.empty { cursor: default; }
-.wave-bar.empty::before { background: var(--border); }
-.wave-lbl { font-size: 0.62rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--faint); margin-top: 0.3rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.wave-tip {
-  position: absolute; top: 0; transform: translate(-50%, calc(-100% - 6px));
-  background: var(--fg); color: var(--bg); font-family: var(--mono); font-size: 0.7rem;
-  padding: 0.2rem 0.5rem; border-radius: 3px; white-space: nowrap; pointer-events: none;
+.hero-in { display: flex; flex-direction: column; justify-content: center; gap: 0.6rem; padding: 2rem 2rem 2.25rem; }
+.hero .page-title {
+  font-family: 'DM Serif Display', Georgia, serif; font-weight: 400;
+  font-size: clamp(2rem, 6vw, 3.6rem); letter-spacing: -0.01em; line-height: 1.05;
+  text-shadow: 0 2px 24px rgba(0,0,0,.35);
 }
-.wave-tip[hidden] { display: none; }
+.hero-desc { font-size: clamp(0.95rem, 1.3vw, 1.1rem); max-width: 42ch; line-height: 1.45; text-shadow: 0 1px 12px rgba(0,0,0,.4); }
+.hero .credit { color: rgba(255,255,255,.7); font-size: 0.8em; }
+.hero a { color: inherit; text-decoration-color: rgba(255,255,255,.45); text-underline-offset: 3px; }
+.hero a:hover { text-decoration-color: #fff; }
+.hero-search { display: flex; align-items: center; gap: 1rem; max-width: 640px; margin-top: 0.4rem; border-bottom: 1px solid rgba(255,255,255,.85); }
+.hero-search input { flex: 1; min-width: 0; background: transparent; border: 0; outline: none; color: #fff; font: inherit; font-size: 1.1rem; padding: 0.6rem 0; }
+.hero-search input::placeholder { color: rgba(255,255,255,.75); }
+.hero-search .search-count { color: rgba(255,255,255,.8); }
+.hero-credit { position: absolute; right: 1rem; bottom: 0.6rem; font-size: 0.65rem; color: rgba(255,255,255,.7) !important; text-decoration: none; }
+.hero-credit:hover { color: #fff !important; }
+
+.site-foot { padding: 2.5rem 2rem 3rem; color: var(--muted); font-size: 0.85rem; }
+.foot-label { font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--faint); margin-bottom: 0.5rem; }
+.foot-sources { list-style: none; display: grid; gap: 0.25rem; }
+.foot-sources a { text-decoration: underline; text-decoration-color: var(--faint); text-underline-offset: 3px; }
+.foot-sources a:hover { color: var(--fg); text-decoration-color: currentColor; }
 .ep.flash { animation: flash 1.4s ease-out; }
 @keyframes flash { from { background: var(--tint); } }
-@media (prefers-reduced-motion: reduce) { .wave-bar::before { transition: none; } }
-.page-desc { font-size: 0.92rem; color: var(--muted); line-height: 1.7; }
-.page-desc { font-size: 0.85rem; }
 .credit { color: var(--faint); font-size: 0.78rem; }
 .credit a { color: inherit; }
-.sources { list-style: none; font-size: 0.78rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 0 0.4rem; }
-.sources li + li:not(:nth-child(2))::before { content: '·'; margin-right: 0.4rem; color: var(--faint); }
-.page-desc a { text-decoration: underline; text-decoration-color: var(--faint); text-underline-offset: 3px; }
-.page-desc a:hover { text-decoration-color: currentColor; }
 
 /* ── Èpoques ── */
 .era-section { margin-bottom: 0.75rem; }
@@ -245,12 +240,8 @@ a { color: inherit; }
   .fold-all { min-height: 36px; }
   .tabs button { min-height: 36px; }
   .era-head { position: static; }
-  .page-intro { padding: 1.1rem 0 0.9rem; }
-  .page-title { font-size: 1.7rem; }
-  .wave-lbl { display: none; }
-  .wave-grp-bars { height: 48px; }
-  .sources { flex-direction: column; align-items: center; }
-  .sources li + li:not(:nth-child(2))::before { display: none; }
+  .hero-in { padding: 1.5rem 1rem 2.25rem; }
+  .hero-credit { right: 0.75rem; left: 0.75rem; text-align: right; }
   .ep-row { grid-template-columns: 1fr 2.25rem; grid-template-areas: "when play" "title play" "src play"; gap: 0.1rem 0.75rem; }
   .ep-when { grid-area: when; }
   .ep-title { grid-area: title; }
@@ -268,29 +259,21 @@ a { color: inherit; }
 </head>
 <body>
 
-<div class="wrap">
-  <header class="page-intro">
+<header class="hero">
+  <div class="wrap hero-in">
     <h1 class="page-title" id="page-title" aria-label="Història en pòdcasts">Història en pòdcasts</h1>
-    <nav class="wave" id="wave" aria-label="Capítols al llarg del temps"></nav>
-    <p class="page-desc">Episodis de podcasts d'història en català endreçats en ordre cronològic. <span class="credit">(Directori fet amb IA per <a href="https://allr.cat" target="_blank" rel="noopener">Albert Lloreta</a>)</span></p>
-    <ul class="page-desc sources">
-      <li class="src-label">Fonts:</li>
-      <li><a href="https://www.portesdetroia.cat" target="_blank" rel="noopener">A les Portes de Troia</a> (<span data-count="portes-de-troia"></span> capítols)</li>
-      <li><a href="https://www.3cat.cat/3cat/en-guardia/" target="_blank" rel="noopener">En Guàrdia</a> (<span data-count="en-guardia"></span> capítols)</li>
-      <li><a href="https://www.instituthumanitats.org/ca/arxiu" target="_blank" rel="noopener">Institut d'Humanitats de Barcelona</a> (<span data-count="institut-humanitats"></span> capítols)</li>
-    </ul>
-  </header>
-</div>
+    <p class="hero-desc">Episodis de podcasts d'història en català endreçats en ordre cronològic. <span class="credit">(Directori fet amb IA per <a href="https://allr.cat" target="_blank" rel="noopener">Albert Lloreta</a>)</span></p>
+    <search class="hero-search">
+      <label for="search" class="sr-only">Cerca episodis</label>
+      <input type="search" id="search" placeholder="Cerca per títol, tema, ponent..." autocomplete="off">
+      <span class="search-count" id="search-count" aria-live="polite"></span>
+    </search>
+  </div>
+  <a class="hero-credit" href="https://www.rijksmuseum.nl/en/collection/object/Interieur-te-Constantinopel--12000cadbc1e3ebd5810ca9a541f865f" target="_blank" rel="noopener">Michel François Préaulx, <i>Interior de la Cisterna Basílica de Constantinoble</i> (1814), Rijksmuseum</a>
+</header>
 
 <div class="controls-bar" id="controls">
   <div class="wrap">
-    <div class="controls-row">
-      <search class="search-wrap">
-        <label for="search" class="sr-only">Cerca episodis</label>
-        <input type="search" id="search" placeholder="Cerca per títol, tema, ponent..." autocomplete="off">
-      </search>
-      <span class="search-count" id="search-count" aria-live="polite"></span>
-    </div>
     <div class="controls-row">
       <span class="tabs-label">Època</span>
       <nav class="tabs" id="era-nav" aria-label="Ves a l'època">
@@ -318,6 +301,15 @@ a { color: inherit; }
 <main id="main" class="wrap">
   <p class="no-results-msg" id="no-results" hidden>Cap episodi correspon a la cerca.</p>
 </main>
+
+<footer class="wrap site-foot">
+  <p class="foot-label">Fonts</p>
+  <ul class="foot-sources">
+    <li><a href="https://www.portesdetroia.cat" target="_blank" rel="noopener">A les Portes de Troia</a> (<span data-count="portes-de-troia"></span> capítols)</li>
+    <li><a href="https://www.3cat.cat/3cat/en-guardia/" target="_blank" rel="noopener">En Guàrdia</a> (<span data-count="en-guardia"></span> capítols)</li>
+    <li><a href="https://www.instituthumanitats.org/ca/arxiu" target="_blank" rel="noopener">Institut d'Humanitats de Barcelona</a> (<span data-count="institut-humanitats"></span> capítols)</li>
+  </ul>
+</footer>
 
 <div class="player" id="player" hidden>
   <div class="wrap player-in">
@@ -581,7 +573,6 @@ async function init() {
     body.appendChild(frag);
   });
 
-  buildWave();
   injectJSONLD(data);
   applyFilters();
   updateFoldAll();
@@ -589,98 +580,6 @@ async function init() {
   restorePlayer();
 }
 
-/* ══════════ Ona: distribució de capítols en el temps ══════════ */
-const BINS = (() => {
-  const b = [
-    { era: 'prehistoria', from: -Infinity, to: -1e6 },
-    { era: 'prehistoria', from: -1e6, to: -1e5 },
-    { era: 'prehistoria', from: -1e5, to: -1e4 },
-    { era: 'prehistoria', from: -1e4, to: -3000 },
-  ];
-  const add = (era, from, to, step) => { for (let y = from; y < to; y += step) b.push({ era, from: y, to: Math.min(y + step, to) }); };
-  add('antiguitat', -3000, 500, 250);
-  add('medieval', 500, 1500, 50);
-  add('moderna', 1500, 1800, 25);
-  add('contemporania', 1800, 2030, 10);
-  return b;
-})();
-const WAVE_LBL = { prehistoria: 'Prehist.', antiguitat: 'Antiguitat', medieval: 'Edat Mitjana', moderna: 'Moderna', contemporania: 'Contemporània' };
-const binOf = y => y === null ? -1 : BINS.findIndex(b => y >= b.from && y < b.to);
-const binLabel = b => {
-  const to = b.to - 1;
-  if (b.from === -Infinity) return `abans del ${fmtYear(b.to)} aC`;
-  if (b.to <= 0) return `${fmtYear(b.from)}–${fmtYear(b.to)} aC`;
-  if (b.from < 0) return `${fmtYear(b.from)} aC – ${to}`;
-  return `${b.from}–${to}`;
-};
-let waveBars = [];
-
-function buildWave() {
-  const wave = $('wave');
-  const bars = document.createElement('div');
-  bars.className = 'wave-bars';
-  ERA_ORDER.filter(e => e !== 'desconegut').forEach(era => {
-    const idx = BINS.map((b, i) => b.era === era ? i : -1).filter(i => i >= 0);
-    const g = document.createElement('div');
-    g.className = 'wave-grp';
-    g.style.setProperty('--n', idx.length);
-    g.innerHTML = `<div class="wave-grp-bars">${idx.map(i => `<button class="wave-bar" type="button" data-b="${i}"></button>`).join('')}</div><span class="wave-lbl">${WAVE_LBL[era]}</span>`;
-    bars.append(g);
-  });
-  const tip = document.createElement('div');
-  tip.className = 'wave-tip';
-  tip.hidden = true;
-  wave.append(bars, tip);
-  waveBars = [...wave.querySelectorAll('.wave-bar')];
-  void wave.offsetWidth; // perquè les barres creixin des de zero
-
-  const show = bar => {
-    const b = BINS[bar.dataset.b];
-    const n = +bar.dataset.n || 0;
-    tip.textContent = `${binLabel(b)} · ${n} ${n === 1 ? 'capítol' : 'capítols'}`;
-    tip.hidden = false;
-    const wr = wave.getBoundingClientRect(), br = bar.getBoundingClientRect();
-    const half = tip.offsetWidth / 2;
-    tip.style.left = Math.min(Math.max(br.left - wr.left + br.width / 2, half), wr.width - half) + 'px';
-  };
-  wave.addEventListener('pointerover', e => { const bar = e.target.closest('.wave-bar'); if (bar) show(bar); });
-  wave.addEventListener('focusin', e => { const bar = e.target.closest('.wave-bar'); if (bar) show(bar); });
-  wave.addEventListener('pointerleave', () => { tip.hidden = true; });
-  wave.addEventListener('focusout', () => { tip.hidden = true; });
-  wave.addEventListener('click', e => {
-    const bar = e.target.closest('.wave-bar');
-    if (bar) jumpToBin(+bar.dataset.b);
-  });
-}
-
-function renderWave() {
-  if (!waveBars.length) return;
-  const counts = new Array(BINS.length).fill(0);
-  rows.forEach(r => { if (r.visible) { const i = binOf(r.ep._year); if (i >= 0) counts[i]++; } });
-  const max = Math.max(1, ...counts);
-  waveBars.forEach((bar, i) => {
-    const n = counts[i];
-    bar.dataset.n = n;
-    bar.classList.toggle('empty', n === 0);
-    bar.disabled = n === 0;
-    bar.setAttribute('aria-label', `${binLabel(BINS[i])}: ${n} capítols`);
-    // Arrel quadrada perquè el segle XX no aplani la resta
-    bar.style.setProperty('--h', n ? (8 + 92 * Math.sqrt(n / max)) + '%' : '0%');
-  });
-}
-
-function jumpToBin(i) {
-  const r = rows.find(r => r.visible && binOf(r.ep._year) === i);
-  if (!r) return;
-  if (collapsed.has(r.era)) { setCollapsed(r.era, false); saveCollapsed(); }
-  scrollToRow(r.el);
-  r.el.classList.remove('flash'); void r.el.offsetWidth; r.el.classList.add('flash');
-}
-
-function setWaveNow(y) {
-  const i = y === undefined ? -1 : binOf(y);
-  waveBars.forEach((bar, j) => bar.classList.toggle('now', j === i));
-}
 
 function applyFilters() {
   const q = currentSearch.toLowerCase().trim();
@@ -696,11 +595,14 @@ function applyFilters() {
     const c = counts[era] || 0;
     sections[era].el.hidden = c === 0;
     sections[era].countEl.textContent = `${c} ep.`;
+    // Amb una cerca activa, s'obren les èpoques amb resultats (sense tocar l'estat desat)
+    const shut = collapsed.has(era) && !(q && c > 0);
+    sections[era].el.classList.toggle('collapsed', shut);
+    sections[era].el.querySelector('.era-toggle').setAttribute('aria-expanded', String(!shut));
   }
   const hasFilter = q || currentPodcast !== 'all';
   document.getElementById('search-count').textContent = hasFilter ? `${visible} resultats` : '';
   document.getElementById('no-results').hidden = visible !== 0;
-  renderWave();
 }
 
 /* ── Plegar / desplegar ── */
@@ -727,7 +629,7 @@ document.getElementById('main').addEventListener('click', e => {
   const toggle = e.target.closest('.era-toggle');
   if (toggle) {
     const era = toggle.closest('.era-section').id.slice(4);
-    const wasOpen = !collapsed.has(era);
+    const wasOpen = !sections[era].el.classList.contains('collapsed');
     setCollapsed(era, wasOpen);
     saveCollapsed();
     if (wasOpen) scrollToEra(era, 'auto');
@@ -851,7 +753,6 @@ async function playRow(i, { autoplay = true, at = null } = {}) {
 function markRow(i, on) {
   const el = rows[i]?.el;
   if (!el) return;
-  setWaveNow(on ? rows[i].ep._year : undefined);
   el.classList.toggle('playing', on);
   const btn = el.querySelector('.ep-play');
   if (btn) {
@@ -977,6 +878,7 @@ window.addEventListener('pagehide', savePos);
   // Amplada fixa per lletra perquè el títol no balli en canviar de font
   const lock = () => { if (!letters.some(s => s._busy)) letters.forEach(s => { s.style.width = ''; s.style.width = s.getBoundingClientRect().width + 'px'; }); };
   lock();
+  document.fonts.load('400 4rem "DM Serif Display"', text).then(lock, () => {});
   addEventListener('resize', lock);
 
   // Fonts subconjuntades només amb les lletres del títol (pocs KB), en temps mort
