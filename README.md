@@ -22,7 +22,7 @@ Episodis de podcasts d'història en català endreçats en ordre cronològic. Dis
 
 No és un podcast: són les sessions en vídeo i àudio de l'[arxiu de l'Institut d'Humanitats de Barcelona](https://www.instituthumanitats.org/ca/arxiu), filtrades per les temàtiques arquitectura, art, cinema i audiovisuals, ciutat i espai públic, ciència, filosofia, història, literatura, música, política i religió.
 
-`sessions-institut-humanitats.json` conté 804 sessions (407 vídeos, 397 àudios) amb títol, curs, ponents, data de la sessió, sinopsi del curs (escurçada) i enllaç a la fitxa de l'IH. Les 3 sessions publicades en tots dos formats només hi són en vídeo. El camp `data_historica` l'ha assignat Claude a partir del títol de cada sessió (el tema que tracta, no quan es va fer); 72 queden com a `Variable`.
+`sessions-institut-humanitats.json` conté 803 sessions (407 vídeos, 396 àudios; 376 amb àudio reproduïble) amb títol, curs, ponents, data de la sessió, sinopsi del curs (escurçada) i enllaç a la fitxa de l'IH. Les 3 sessions publicades en tots dos formats només hi són en vídeo. El camp `data_historica` l'ha assignat Claude a partir del títol de cada sessió (el tema que tracta, no quan es va fer); 72 queden com a `Variable`.
 
 **Regenerar**: `python3 scripts/ih-llista.py "<URL de l'arxiu filtrat>" llista.json` (68 pàgines; l'IH limita les peticions, l'script fa pauses i reintents) i `python3 scripts/ih-cursos.py llista.json cursos.json` per a les sinopsis. Les dates s'han d'assignar a mà abans de desplegar.
 

@@ -106,6 +106,32 @@ a { color: inherit; }
 .t-l[data-era="2"] { font-family: 'UnifrakturMaguntia', serif; font-weight: 400; }
 .t-l[data-era="3"] { font-family: 'IM Fell English', serif; font-style: italic; font-weight: 400; }
 .t-l[data-era="4"] { font-family: 'Special Elite', monospace; font-weight: 400; }
+
+/* ── Ona: capítols per període, com la forma d'ona d'un àudio ── */
+.wave { position: relative; width: 100%; margin: 0.8rem 0 0.7rem; }
+.wave-bars { display: flex; gap: 8px; }
+.wave-grp { flex: var(--n) 1 0; min-width: 0; display: flex; flex-direction: column; }
+.wave-grp-bars { height: 64px; display: flex; }
+.wave-bar { flex: 1; min-width: 2px; height: 100%; padding: 0; display: flex; align-items: center; justify-content: center; }
+.wave-bar::before {
+  content: ''; width: min(4px, 70%); height: var(--h, 0%); min-height: 2px;
+  background: rgba(var(--accent-rgb), 0.5); border-radius: 2px;
+  transition: height 0.6s cubic-bezier(.2,.8,.2,1), background 0.15s;
+}
+.wave-bar:hover::before, .wave-bar:focus-visible::before { background: var(--accent); }
+.wave-bar.now::before { background: var(--fg); }
+.wave-bar.empty { cursor: default; }
+.wave-bar.empty::before { background: var(--border); }
+.wave-lbl { font-size: 0.62rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--faint); margin-top: 0.3rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.wave-tip {
+  position: absolute; top: 0; transform: translate(-50%, calc(-100% - 6px));
+  background: var(--fg); color: var(--bg); font-family: var(--mono); font-size: 0.7rem;
+  padding: 0.2rem 0.5rem; border-radius: 3px; white-space: nowrap; pointer-events: none;
+}
+.wave-tip[hidden] { display: none; }
+.ep.flash { animation: flash 1.4s ease-out; }
+@keyframes flash { from { background: var(--tint); } }
+@media (prefers-reduced-motion: reduce) { .wave-bar::before { transition: none; } }
 .page-desc { font-size: 0.92rem; color: var(--muted); line-height: 1.7; }
 .page-desc { font-size: 0.85rem; }
 .credit { color: var(--faint); font-size: 0.78rem; }
@@ -221,6 +247,10 @@ a { color: inherit; }
   .era-head { position: static; }
   .page-intro { padding: 1.1rem 0 0.9rem; }
   .page-title { font-size: 1.7rem; }
+  .wave-lbl { display: none; }
+  .wave-grp-bars { height: 48px; }
+  .sources { flex-direction: column; align-items: center; }
+  .sources li + li:not(:nth-child(2))::before { display: none; }
   .ep-row { grid-template-columns: 1fr 2.25rem; grid-template-areas: "when play" "title play" "src play"; gap: 0.1rem 0.75rem; }
   .ep-when { grid-area: when; }
   .ep-title { grid-area: title; }
@@ -241,6 +271,7 @@ a { color: inherit; }
 <div class="wrap">
   <header class="page-intro">
     <h1 class="page-title" id="page-title" aria-label="Història en pòdcasts">Història en pòdcasts</h1>
+    <nav class="wave" id="wave" aria-label="Capítols al llarg del temps"></nav>
     <p class="page-desc">Episodis de podcasts d'història en català endreçats en ordre cronològic. <span class="credit">(Directori fet amb IA per <a href="https://allr.cat" target="_blank" rel="noopener">Albert Lloreta</a>)</span></p>
     <ul class="page-desc sources">
       <li class="src-label">Fonts:</li>
@@ -550,11 +581,105 @@ async function init() {
     body.appendChild(frag);
   });
 
+  buildWave();
   injectJSONLD(data);
   applyFilters();
   updateFoldAll();
   measureControls();
   restorePlayer();
+}
+
+/* ══════════ Ona: distribució de capítols en el temps ══════════ */
+const BINS = (() => {
+  const b = [
+    { era: 'prehistoria', from: -Infinity, to: -1e6 },
+    { era: 'prehistoria', from: -1e6, to: -1e5 },
+    { era: 'prehistoria', from: -1e5, to: -1e4 },
+    { era: 'prehistoria', from: -1e4, to: -3000 },
+  ];
+  const add = (era, from, to, step) => { for (let y = from; y < to; y += step) b.push({ era, from: y, to: Math.min(y + step, to) }); };
+  add('antiguitat', -3000, 500, 250);
+  add('medieval', 500, 1500, 50);
+  add('moderna', 1500, 1800, 25);
+  add('contemporania', 1800, 2030, 10);
+  return b;
+})();
+const WAVE_LBL = { prehistoria: 'Prehist.', antiguitat: 'Antiguitat', medieval: 'Edat Mitjana', moderna: 'Moderna', contemporania: 'Contemporània' };
+const binOf = y => y === null ? -1 : BINS.findIndex(b => y >= b.from && y < b.to);
+const binLabel = b => {
+  const to = b.to - 1;
+  if (b.from === -Infinity) return `abans del ${fmtYear(b.to)} aC`;
+  if (b.to <= 0) return `${fmtYear(b.from)}–${fmtYear(b.to)} aC`;
+  if (b.from < 0) return `${fmtYear(b.from)} aC – ${to}`;
+  return `${b.from}–${to}`;
+};
+let waveBars = [];
+
+function buildWave() {
+  const wave = $('wave');
+  const bars = document.createElement('div');
+  bars.className = 'wave-bars';
+  ERA_ORDER.filter(e => e !== 'desconegut').forEach(era => {
+    const idx = BINS.map((b, i) => b.era === era ? i : -1).filter(i => i >= 0);
+    const g = document.createElement('div');
+    g.className = 'wave-grp';
+    g.style.setProperty('--n', idx.length);
+    g.innerHTML = `<div class="wave-grp-bars">${idx.map(i => `<button class="wave-bar" type="button" data-b="${i}"></button>`).join('')}</div><span class="wave-lbl">${WAVE_LBL[era]}</span>`;
+    bars.append(g);
+  });
+  const tip = document.createElement('div');
+  tip.className = 'wave-tip';
+  tip.hidden = true;
+  wave.append(bars, tip);
+  waveBars = [...wave.querySelectorAll('.wave-bar')];
+  void wave.offsetWidth; // perquè les barres creixin des de zero
+
+  const show = bar => {
+    const b = BINS[bar.dataset.b];
+    const n = +bar.dataset.n || 0;
+    tip.textContent = `${binLabel(b)} · ${n} ${n === 1 ? 'capítol' : 'capítols'}`;
+    tip.hidden = false;
+    const wr = wave.getBoundingClientRect(), br = bar.getBoundingClientRect();
+    const half = tip.offsetWidth / 2;
+    tip.style.left = Math.min(Math.max(br.left - wr.left + br.width / 2, half), wr.width - half) + 'px';
+  };
+  wave.addEventListener('pointerover', e => { const bar = e.target.closest('.wave-bar'); if (bar) show(bar); });
+  wave.addEventListener('focusin', e => { const bar = e.target.closest('.wave-bar'); if (bar) show(bar); });
+  wave.addEventListener('pointerleave', () => { tip.hidden = true; });
+  wave.addEventListener('focusout', () => { tip.hidden = true; });
+  wave.addEventListener('click', e => {
+    const bar = e.target.closest('.wave-bar');
+    if (bar) jumpToBin(+bar.dataset.b);
+  });
+}
+
+function renderWave() {
+  if (!waveBars.length) return;
+  const counts = new Array(BINS.length).fill(0);
+  rows.forEach(r => { if (r.visible) { const i = binOf(r.ep._year); if (i >= 0) counts[i]++; } });
+  const max = Math.max(1, ...counts);
+  waveBars.forEach((bar, i) => {
+    const n = counts[i];
+    bar.dataset.n = n;
+    bar.classList.toggle('empty', n === 0);
+    bar.disabled = n === 0;
+    bar.setAttribute('aria-label', `${binLabel(BINS[i])}: ${n} capítols`);
+    // Arrel quadrada perquè el segle XX no aplani la resta
+    bar.style.setProperty('--h', n ? (8 + 92 * Math.sqrt(n / max)) + '%' : '0%');
+  });
+}
+
+function jumpToBin(i) {
+  const r = rows.find(r => r.visible && binOf(r.ep._year) === i);
+  if (!r) return;
+  if (collapsed.has(r.era)) { setCollapsed(r.era, false); saveCollapsed(); }
+  r.el.scrollIntoView({ block: 'center', behavior: 'smooth' });
+  r.el.classList.remove('flash'); void r.el.offsetWidth; r.el.classList.add('flash');
+}
+
+function setWaveNow(y) {
+  const i = y === undefined ? -1 : binOf(y);
+  waveBars.forEach((bar, j) => bar.classList.toggle('now', j === i));
 }
 
 function applyFilters() {
@@ -575,6 +700,7 @@ function applyFilters() {
   const hasFilter = q || currentPodcast !== 'all';
   document.getElementById('search-count').textContent = hasFilter ? `${visible} resultats` : '';
   document.getElementById('no-results').hidden = visible !== 0;
+  renderWave();
 }
 
 /* ── Plegar / desplegar ── */
@@ -708,6 +834,7 @@ async function playRow(i, { autoplay = true, at = null } = {}) {
 function markRow(i, on) {
   const el = rows[i]?.el;
   if (!el) return;
+  setWaveNow(on ? rows[i].ep._year : undefined);
   el.classList.toggle('playing', on);
   const btn = el.querySelector('.ep-play');
   if (btn) {
