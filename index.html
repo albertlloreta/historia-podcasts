@@ -141,6 +141,18 @@ a { color: inherit; }
 .hero-search .search-count { color: rgba(255,255,255,.8); }
 .hero-credit { position: absolute; right: 1rem; bottom: 0.6rem; font-size: 0.65rem; color: rgba(255,255,255,.7) !important; text-decoration: none; }
 .hero-credit:hover { color: #fff !important; }
+/* Botó d'episodi a l'atzar (només a l'ordinador) */
+.hero-row { display: flex; align-items: center; gap: 1rem; max-width: 820px; margin-top: 0.4rem; }
+.hero-row .hero-search { flex: 1; margin-top: 0; }
+.hero-random { position: relative; flex: none; padding: 0.55rem 1rem; border-radius: 8px; background: transparent; color: #fff; font: inherit; font-size: 0.9rem; font-weight: 600; white-space: nowrap; cursor: pointer; text-shadow: 0 1px 8px rgba(0,0,0,.4); transition: background-color .2s; }
+/* Vora multicolor amb el fons transparent: degradat retallat amb una màscara */
+.hero-random::before { content: ""; position: absolute; inset: 0; padding: 2px; border-radius: inherit; pointer-events: none;
+  background: linear-gradient(90deg, #ff7eb3, #ffb86b, #ffe66d, #7ee2a8, #6bb7ff, #b18cff, #ff7eb3) 0 0 / 200% 100%;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  transition: background-position .6s ease; }
+.hero-random:hover { background-color: rgba(255,255,255,.08); }
+.hero-random:hover::before { background-position: 100% 0; }
 
 .site-foot { padding: 2.5rem 2rem 3rem; color: var(--muted); font-size: 0.85rem; }
 .foot-label { font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--faint); margin-bottom: 0.5rem; }
@@ -245,6 +257,14 @@ a { color: inherit; }
 .p-rate { font-family: var(--mono); font-size: 0.72rem; width: 3rem; height: 2rem; color: var(--muted); }
 .p-rate:hover { color: var(--fg); }
 .p-side { display: flex; align-items: center; gap: 0.25rem; }
+/* Vídeo incrustat (Vimeo/YouTube) quan no hi ha àudio: flota sobre la barra. YouTube demana un mínim de 200×200 px */
+.p-video { position: absolute; right: 1rem; bottom: calc(100% + 0.5rem); width: min(356px, calc(100vw - 2rem)); height: 200px; background: #000; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,.25); }
+.p-video[hidden] { display: none; }
+/* Minimitzat: el vídeo s'amaga però continua sonant */
+.p-video.min { width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.p-btn[hidden] { display: none; }
+#p-shuffle[aria-pressed="true"] { color: var(--fg); background: var(--bg-2, rgba(127,127,127,.15)); }
+.p-video iframe { width: 100%; height: 100%; border: 0; display: block; }
 
 /* ── Responsive ── */
 @media (max-width: 680px) {
@@ -259,6 +279,7 @@ a { color: inherit; }
   .era-head { position: static; }
   .hero-in { padding: 1.5rem 1rem 2.25rem; }
   .hero-credit { display: none; }
+  .hero-random { display: none; }
   .ep-row { grid-template-columns: 1fr 2.25rem; grid-template-areas: "when play" "title play" "src play"; gap: 0.1rem 0.75rem; }
   .ep-when { grid-area: when; }
   .ep-title { grid-area: title; }
@@ -280,11 +301,14 @@ a { color: inherit; }
   <div class="wrap hero-in">
     <h1 class="page-title" id="page-title" aria-label="Història en pòdcasts">Història en pòdcasts</h1>
     <p class="hero-desc">Episodis de podcasts d'història en català endreçats en ordre cronològic.</p>
-    <search class="hero-search">
-      <label for="search" class="sr-only">Cerca episodis</label>
-      <input type="search" id="search" placeholder="Cerca per títol, tema, ponent..." autocomplete="off">
-      <span class="search-count" id="search-count" aria-live="polite"></span>
-    </search>
+    <div class="hero-row">
+      <search class="hero-search">
+        <label for="search" class="sr-only">Cerca episodis</label>
+        <input type="search" id="search" placeholder="Cerca per títol, tema, ponent..." autocomplete="off">
+        <span class="search-count" id="search-count" aria-live="polite"></span>
+      </search>
+      <button class="hero-random" id="random-ep" type="button">Episodi a l'atzar</button>
+    </div>
   </div>
   <a class="hero-credit" href="https://www.rijksmuseum.nl/en/collection/object/Interieur-te-Constantinopel--12000cadbc1e3ebd5810ca9a541f865f" target="_blank" rel="noopener">Michel François Préaulx, <i>Interior de la Cisterna Basílica de Constantinoble</i> (1814), Rijksmuseum</a>
 </header>
@@ -330,11 +354,14 @@ a { color: inherit; }
 </footer>
 
 <div class="player" id="player" hidden>
+  <div class="p-video" id="p-video" hidden></div>
   <div class="wrap player-in">
     <div class="p-btns">
+      <button class="p-btn" id="p-prev" type="button" aria-label="Anterior" title="Anterior"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h2v14H6zM20 5v14L9 12z"/></svg></button>
       <button class="p-btn" id="p-back" type="button" aria-label="Enrere 15 segons" title="−15 s"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg></button>
       <button class="p-btn p-main" id="p-toggle" type="button" aria-label="Reprodueix"><svg viewBox="0 0 24 24" fill="currentColor"><path id="p-icon" d="M7 4l13 8-13 8z"/></svg></button>
       <button class="p-btn" id="p-fwd" type="button" aria-label="Endavant 30 segons" title="+30 s"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/></svg></button>
+      <button class="p-btn" id="p-next" type="button" aria-label="Següent" title="Següent"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 5h2v14h-2zM4 5v14l11-7z"/></svg></button>
     </div>
     <div class="p-info">
       <p class="p-title" id="p-title"></p>
@@ -346,6 +373,8 @@ a { color: inherit; }
       </div>
     </div>
     <div class="p-side">
+      <button class="p-btn" id="p-vid" type="button" aria-label="Amaga el vídeo" title="Amaga el vídeo" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="5" width="13" height="14" rx="2"/><path d="M16 10l5-3v10l-5-3z"/></svg></button>
+      <button class="p-btn" id="p-shuffle" type="button" aria-label="Ordre aleatori" aria-pressed="false" title="Ordre aleatori"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg></button>
       <button class="p-rate" id="p-rate" type="button" aria-label="Velocitat">1×</button>
       <button class="p-btn" id="p-close" type="button" aria-label="Tanca el reproductor"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
     </div>
@@ -420,7 +449,7 @@ const ICON_PLAY = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4l13
 const ICON_PAUSE = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>';
 
 function playable(ep) {
-  return ep.podcast === 'en-guardia' ? !!ep.id_3cat : !!ep.ivoox;
+  return ep.podcast === 'en-guardia' ? !!ep.id_3cat : !!(ep.ivoox || ep.vimeo || ep.youtube);
 }
 
 function injectJSONLD(data) {
@@ -719,6 +748,117 @@ const RATES = [1, 1.25, 1.5, 1.75, 2];
 let cur = null;          // índex de fila en reproducció
 let lastSave = 0;
 
+// Font activa: l'<audio> o un vídeo incrustat (Vimeo/YouTube) amb la mateixa interfície.
+// Els esdeveniments de la font activa arriben tots per `bus`.
+const bus = new EventTarget();
+let media = audio;
+['play', 'pause', 'loadedmetadata', 'timeupdate', 'ended', 'error'].forEach(t =>
+  audio.addEventListener(t, () => { if (media === audio) bus.dispatchEvent(new Event(t)); }));
+
+const loadScript = src => new Promise((ok, ko) => {
+  const s = document.createElement('script');
+  s.src = src; s.onload = ok; s.onerror = ko;
+  document.head.append(s);
+});
+let vimeoApi, ytApi;
+const getVimeo = () => vimeoApi ??= loadScript('https://player.vimeo.com/api/player.js');
+const getYT = () => ytApi ??= new Promise((ok, ko) => {
+  window.onYouTubeIframeAPIReady = ok;
+  loadScript('https://www.youtube.com/iframe_api').catch(ko);
+});
+
+class EmbedMedia {
+  paused = true; duration = NaN; _t = 0; _rate = 1;
+  fire(t) { if (media === this) bus.dispatchEvent(new Event(t)); }
+  get currentTime() { return this._t; }
+  set currentTime(s) { this._t = s; this.seek(s); }
+  get playbackRate() { return this._rate; }
+  set playbackRate(r) { this._rate = r; this.rate(r); }
+}
+
+class VimeoMedia extends EmbedMedia {
+  constructor(id, box) {
+    super();
+    this.p = new Vimeo.Player(box, { id, playsinline: true, dnt: true, title: false, byline: false, portrait: false });
+    this.p.on('loaded', async () => { this.duration = await this.p.getDuration(); this.fire('loadedmetadata'); });
+    this.p.on('play', () => { this.paused = false; this.fire('play'); });
+    this.p.on('pause', () => { this.paused = true; this.fire('pause'); });
+    this.p.on('timeupdate', e => { this._t = e.seconds; this.duration = e.duration; this.fire('timeupdate'); });
+    this.p.on('ended', () => { this.paused = true; this.fire('ended'); });
+    this.p.on('error', () => this.fire('error'));
+  }
+  play() { return this.p.play(); }
+  pause() { this.p.pause().catch(() => {}); }
+  seek(s) { this.p.setCurrentTime(s).catch(() => {}); }
+  rate(r) { this.p.setPlaybackRate(r).catch(() => {}); }
+  destroy() { this.p.destroy().catch(() => {}); }
+}
+
+class YouTubeMedia extends EmbedMedia {
+  constructor(id, box) {
+    super();
+    const el = document.createElement('div');
+    box.append(el);
+    this.p = new YT.Player(el, {
+      videoId: id, playerVars: { playsinline: 1, rel: 0 },
+      events: {
+        onReady: () => {
+          this.ready = true;
+          this.duration = this.p.getDuration();
+          if (this._t) this.p.seekTo(this._t, true);
+          this.p.setPlaybackRate(this._rate);
+          if (this.wantPlay) this.p.playVideo();
+          this.fire('loadedmetadata');
+        },
+        onStateChange: e => {
+          const S = YT.PlayerState;
+          if (e.data === S.PLAYING) { this.paused = false; this.duration = this.p.getDuration(); this.fire('loadedmetadata'); this.fire('play'); }
+          else if (e.data === S.PAUSED) { this.paused = true; this.fire('pause'); }
+          else if (e.data === S.ENDED) { this.paused = true; this.fire('ended'); }
+        },
+        onError: () => this.fire('error'),
+      },
+    });
+    this.timer = setInterval(() => {
+      if (!this.ready || this.paused) return;
+      this._t = this.p.getCurrentTime();
+      this.fire('timeupdate');
+    }, 500);
+  }
+  play() { this.wantPlay = true; if (this.ready) this.p.playVideo(); return Promise.resolve(); }
+  pause() { this.wantPlay = false; if (this.ready) this.p.pauseVideo(); }
+  seek(s) { if (this.ready) this.p.seekTo(s, true); }
+  rate(r) { if (this.ready) this.p.setPlaybackRate(r); }
+  destroy() { clearInterval(this.timer); this.p.destroy(); }
+}
+
+// Àudio sempre preferit; el vídeo incrustat només si no n'hi ha
+const embedOf = ep => ep.podcast !== 'en-guardia' && !ep.ivoox && (ep.vimeo || ep.youtube) ? ep : null;
+
+async function useEmbed(ep) {
+  const box = $('p-video');
+  box.replaceChildren();
+  box.hidden = false;
+  box.classList.toggle('min', !!store.get('videoMin'));
+  syncVid();
+  if (ep.vimeo) { await getVimeo(); media = new VimeoMedia(ep.vimeo, box); }
+  else { await getYT(); media = new YouTubeMedia(ep.youtube, box); }
+}
+
+function dropMedia() {
+  if (media !== audio) {
+    const old = media;
+    media = audio;
+    old.destroy();
+    $('p-video').replaceChildren();
+    $('p-video').hidden = true;
+    syncVid();
+  } else if (audio.getAttribute('src')) {
+    audio.pause();
+    audio.removeAttribute('src'); audio.load();
+  }
+}
+
 const fmt = s => {
   if (!isFinite(s)) return '0:00';
   s = Math.floor(s);
@@ -740,10 +880,12 @@ function showPlayer() {
 }
 
 async function playRow(i, { autoplay = true, at = null } = {}) {
-  if (i === cur) { audio.paused ? audio.play() : audio.pause(); return; }
+  if (i === cur) { media.paused ? media.play() : media.pause(); return; }
   const r = rows[i];
   if (!r) return;
   savePos();
+  const embed = embedOf(r.ep);
+  if (embed || media !== audio) dropMedia();
   if (cur !== null) markRow(cur, false);
   cur = i;
   const ep = r.ep;
@@ -754,17 +896,18 @@ async function playRow(i, { autoplay = true, at = null } = {}) {
   markRow(i, true);
   store.set('last', ep._key);
   try {
-    audio.src = await audioUrl(ep);
+    if (embed) await useEmbed(ep);
+    else audio.src = await audioUrl(ep);
   } catch {
-    $('p-sub').textContent = "No s'ha pogut carregar l'àudio.";
+    $('p-sub').textContent = embed ? "No s'ha pogut carregar el vídeo." : "No s'ha pogut carregar l'àudio.";
     return;
   }
   if (cur !== i) return;
   const pos = at ?? store.get('pos:' + ep._key);
-  if (pos) audio.addEventListener('loadedmetadata', () => { audio.currentTime = pos; }, { once: true });
-  audio.playbackRate = store.get('rate') || 1;
-  if (autoplay) audio.play().catch(() => {});
-  else audio.load();
+  if (pos) bus.addEventListener('loadedmetadata', () => { media.currentTime = pos; }, { once: true });
+  media.playbackRate = store.get('rate') || 1;
+  if (autoplay) media.play().catch(() => {});
+  else if (!embed) audio.load();
   setMediaSession(ep);
 }
 
@@ -774,68 +917,112 @@ function markRow(i, on) {
   el.classList.toggle('playing', on);
   const btn = el.querySelector('.ep-play');
   if (btn) {
-    const playingNow = on && !audio.paused;
+    const playingNow = on && !media.paused;
     btn.innerHTML = playingNow ? ICON_PAUSE : ICON_PLAY;
     btn.setAttribute('aria-label', playingNow ? 'Pausa' : 'Reprodueix');
   }
 }
 
 function syncState() {
-  const playing = !audio.paused;
+  const playing = !media.paused;
   $('p-icon').setAttribute('d', playing ? 'M6 4h4v16H6zM14 4h4v16h-4z' : 'M7 4l13 8-13 8z');
   $('p-toggle').setAttribute('aria-label', playing ? 'Pausa' : 'Reprodueix');
   if (cur !== null) markRow(cur, true);
 }
 
 function savePos() {
-  if (cur === null || !audio.currentTime) return;
+  if (cur === null || !media.currentTime) return;
   const key = 'pos:' + rows[cur].ep._key;
-  const near = audio.duration && audio.duration - audio.currentTime < 30;
-  store.set(key, near ? 0 : Math.floor(audio.currentTime));
+  const near = media.duration && media.duration - media.currentTime < 30;
+  store.set(key, near ? 0 : Math.floor(media.currentTime));
 }
 
-audio.addEventListener('play', syncState);
-audio.addEventListener('pause', () => { syncState(); savePos(); });
-audio.addEventListener('loadedmetadata', () => {
-  $('p-seek').max = Math.floor(audio.duration) || 0;
-  $('p-dur').textContent = fmt(audio.duration);
+bus.addEventListener('play', syncState);
+bus.addEventListener('pause', () => { syncState(); savePos(); });
+bus.addEventListener('loadedmetadata', () => {
+  $('p-seek').max = Math.floor(media.duration) || 0;
+  $('p-dur').textContent = fmt(media.duration);
 });
-audio.addEventListener('timeupdate', () => {
-  if (!seeking) $('p-seek').value = Math.floor(audio.currentTime);
-  $('p-cur').textContent = fmt(audio.currentTime);
+bus.addEventListener('timeupdate', () => {
+  if (!seeking) $('p-seek').value = Math.floor(media.currentTime);
+  $('p-cur').textContent = fmt(media.currentTime);
   const now = Date.now();
   if (now - lastSave > 5000) { lastSave = now; savePos(); }
 });
-audio.addEventListener('ended', () => {
-  savePos();
-  // Següent episodi visible (en ordre cronològic) que es pugui reproduir
-  for (let j = cur + 1; j < rows.length; j++) {
-    if (rows[j].visible && playable(rows[j].ep)) { playRow(j, { at: 0 }); return; }
-  }
+// Botó per minimitzar el vídeo incrustat (només visible quan n'hi ha un)
+function syncVid() {
+  const box = $('p-video'), btn = $('p-vid');
+  btn.hidden = box.hidden;
+  const min = box.classList.contains('min');
+  btn.setAttribute('aria-label', min ? 'Mostra el vídeo' : 'Amaga el vídeo');
+  btn.title = btn.getAttribute('aria-label');
+  btn.style.opacity = min ? 0.5 : '';
+}
+$('p-vid').addEventListener('click', () => {
+  const min = $('p-video').classList.toggle('min');
+  store.set('videoMin', min);
+  syncVid();
 });
-audio.addEventListener('error', () => {
-  if (audio.getAttribute('src')) $('p-sub').textContent = "No s'ha pogut reproduir l'àudio.";
+
+// Anterior / següent entre els episodis visibles que es poden reproduir, en ordre cronològic o aleatori
+let shuffle = !!store.get('shuffle');
+const played = [];        // índexs reproduïts en mode aleatori, per poder tornar enrere
+function step(dir) {
+  if (cur === null) return;
+  const ok = j => rows[j].visible && playable(rows[j].ep);
+  if (shuffle && dir > 0) {
+    const pool = rows.map((_, j) => j).filter(j => j !== cur && ok(j));
+    if (!pool.length) return;
+    played.push(cur);
+    playRow(pool[Math.floor(Math.random() * pool.length)], { at: 0 });
+    return;
+  }
+  if (shuffle && played.length) { playRow(played.pop(), { at: 0 }); return; }
+  for (let j = cur + dir; j >= 0 && j < rows.length; j += dir) {
+    if (ok(j)) { playRow(j, { at: 0 }); return; }
+  }
+}
+function syncShuffle() {
+  $('p-shuffle').setAttribute('aria-pressed', shuffle);
+  $('p-shuffle').title = shuffle ? 'Ordre aleatori: activat' : 'Ordre aleatori';
+}
+syncShuffle();
+$('p-shuffle').addEventListener('click', () => { shuffle = !shuffle; store.set('shuffle', shuffle); played.length = 0; syncShuffle(); });
+$('p-next').addEventListener('click', () => step(1));
+// Anterior: si ja fa més de 5 s que sona, torna al principi
+$('p-prev').addEventListener('click', () => { media.currentTime > 5 ? media.currentTime = 0 : step(-1); });
+
+bus.addEventListener('ended', () => { savePos(); step(1); });
+
+// Episodi a l'atzar d'entre tots els de la web, sense tenir en compte filtres ni cerca
+$('random-ep').addEventListener('click', () => {
+  const pool = rows.map((_, j) => j).filter(j => j !== cur && playable(rows[j].ep));
+  if (pool.length) playRow(pool[Math.floor(Math.random() * pool.length)], { at: 0 });
+});
+bus.addEventListener('error', () => {
+  if (media !== audio) $('p-sub').textContent = "No s'ha pogut reproduir el vídeo.";
+  else if (audio.getAttribute('src')) $('p-sub').textContent = "No s'ha pogut reproduir l'àudio.";
 });
 
 let seeking = false;
 $('p-seek').addEventListener('input', () => { seeking = true; $('p-cur').textContent = fmt(+$('p-seek').value); });
-$('p-seek').addEventListener('change', () => { audio.currentTime = +$('p-seek').value; seeking = false; });
+$('p-seek').addEventListener('change', () => { media.currentTime = +$('p-seek').value; seeking = false; });
 
-$('p-toggle').addEventListener('click', () => { audio.paused ? audio.play() : audio.pause(); });
-$('p-back').addEventListener('click', () => { audio.currentTime = Math.max(0, audio.currentTime - 15); });
-$('p-fwd').addEventListener('click', () => { audio.currentTime = Math.min(audio.duration || Infinity, audio.currentTime + 30); });
+$('p-toggle').addEventListener('click', () => { media.paused ? media.play() : media.pause(); });
+$('p-back').addEventListener('click', () => { media.currentTime = Math.max(0, media.currentTime - 15); });
+$('p-fwd').addEventListener('click', () => { media.currentTime = Math.min(media.duration || Infinity, media.currentTime + 30); });
 $('p-rate').addEventListener('click', () => {
-  const next = RATES[(RATES.indexOf(audio.playbackRate) + 1) % RATES.length];
-  audio.playbackRate = next;
+  const next = RATES[(RATES.indexOf(media.playbackRate) + 1) % RATES.length];
+  media.playbackRate = next;
   store.set('rate', next);
   $('p-rate').textContent = next + '×';
 });
 $('p-close').addEventListener('click', () => {
-  audio.pause();
+  media.pause();
   savePos();
   if (cur !== null) { rows[cur].el.classList.remove('playing'); markRow(cur, false); }
   cur = null;
-  audio.removeAttribute('src'); audio.load();
+  dropMedia();
   player.hidden = true;
   document.documentElement.style.setProperty('--player-h', '0px');
   store.set('last', null);
@@ -852,17 +1039,19 @@ $('p-title').style.cursor = 'pointer';
 document.addEventListener('keydown', e => {
   if (e.code !== 'Space' || cur === null || e.target.closest('input, button, a')) return;
   e.preventDefault();
-  audio.paused ? audio.play() : audio.pause();
+  media.paused ? media.play() : media.pause();
 });
 
 function setMediaSession(ep) {
   if (!('mediaSession' in navigator)) return;
   navigator.mediaSession.metadata = new MediaMetadata({ title: ep.titol, artist: SRC_LABEL[ep.podcast], album: 'Història en pòdcasts' });
   const ms = navigator.mediaSession;
-  ms.setActionHandler('play', () => audio.play());
-  ms.setActionHandler('pause', () => audio.pause());
-  ms.setActionHandler('seekbackward', () => { audio.currentTime -= 15; });
-  ms.setActionHandler('seekforward', () => { audio.currentTime += 30; });
+  ms.setActionHandler('play', () => media.play());
+  ms.setActionHandler('pause', () => media.pause());
+  ms.setActionHandler('seekbackward', () => { media.currentTime -= 15; });
+  ms.setActionHandler('seekforward', () => { media.currentTime += 30; });
+  ms.setActionHandler('previoustrack', () => step(-1));
+  ms.setActionHandler('nexttrack', () => step(1));
 }
 
 function restorePlayer() {
