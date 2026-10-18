@@ -21,10 +21,15 @@
 <meta name="twitter:title" content="Història en pòdcasts">
 <meta name="twitter:description" content="Més de 2.600 capítols d'història en català, endreçats en ordre cronològic.">
 <meta name="twitter:image" content="https://historia.allr.cat/og-image.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap&text=Hist%C3%B2riaenp%C3%B2dcs">
+<link rel="preload" href="fonts/dm-serif-display.woff2" as="font" type="font/woff2" crossorigin>
 <style>
+/* Fonts locals (OFL), subconjuntades amb les lletres del títol */
+@font-face { font-family: 'Cinzel'; font-style: normal; font-weight: 700; font-display: swap; src: url(fonts/cinzel.woff2) format('woff2'); }
+@font-face { font-family: 'DM Serif Display'; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/dm-serif-display.woff2) format('woff2'); }
+@font-face { font-family: 'IM Fell English'; font-style: italic; font-weight: 400; font-display: swap; src: url(fonts/im-fell-english.woff2) format('woff2'); }
+@font-face { font-family: 'Rubik Dirt'; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/rubik-dirt.woff2) format('woff2'); }
+@font-face { font-family: 'Special Elite'; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/special-elite.woff2) format('woff2'); }
+@font-face { font-family: 'UnifrakturMaguntia'; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/unifrakturmaguntia.woff2) format('woff2'); }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 h1, h2, h3 { font: inherit; }
 button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
@@ -352,7 +357,7 @@ a { color: inherit; }
     <li><a href="https://www.3cat.cat/3cat/sons-edat-mitjana/" target="_blank" rel="noopener">Sons de l'edat mitjana</a> (<span data-count="sons-edat-mitjana"></span> capítols)</li>
     <li><a href="https://www.instituthumanitats.org/ca/arxiu" target="_blank" rel="noopener">Institut d'Humanitats de Barcelona</a> (<span data-count="institut-humanitats"></span> capítols)</li>
   </ul>
-  <p class="credit foot-credit">Vibecoded amb carinyo per <a href="https://allr.cat" target="_blank" rel="noopener">Albert Lloreta</a> · <a href="https://github.com/albertlloreta/historia-podcasts" target="_blank" rel="noopener">Codi obert a GitHub</a></p>
+  <p class="credit foot-credit">Vibecoded amb carinyo per <a href="https://allr.cat" target="_blank" rel="noopener">Albert Lloreta</a> · <a href="https://github.com/albertlloreta/historia-podcasts" target="_blank" rel="noopener">Codi obert a GitHub</a> · <a href="/avis-legal">Avís legal i privadesa</a></p>
 </footer>
 
 <div class="player" id="player" hidden>
@@ -1118,16 +1123,9 @@ window.addEventListener('pagehide', savePos);
   document.fonts.load('400 4rem "DM Serif Display"', text).then(lock, () => {});
   addEventListener('resize', lock);
 
-  // Fonts subconjuntades només amb les lletres del títol (pocs KB), en temps mort
-  const load = () => {
-    const l = document.createElement('link');
-    l.rel = 'stylesheet';
-    l.href = 'https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Cinzel:wght@700&family=UnifrakturMaguntia&family=IM+Fell+English:ital@1&family=Special+Elite&display=swap&text=' + encodeURIComponent([...new Set(text.replace(/ /g, ''))].join(''));
-    // Força la descàrrega ara, perquè el primer hover ja tingui les fonts
-    l.onload = () => ['16px "Rubik Dirt"', '700 16px Cinzel', '16px UnifrakturMaguntia', 'italic 16px "IM Fell English"', '16px "Special Elite"']
-      .forEach(f => document.fonts.load(f, text).catch(() => {}));
-    document.head.append(l);
-  };
+  // Força la descàrrega de les fonts del títol en temps mort, perquè el primer hover ja les tingui
+  const load = () => ['16px "Rubik Dirt"', '700 16px Cinzel', '16px UnifrakturMaguntia', 'italic 16px "IM Fell English"', '16px "Special Elite"']
+    .forEach(f => document.fonts.load(f, text).catch(() => {}));
   ('requestIdleCallback' in window ? requestIdleCallback : setTimeout)(load);
 
   const run = (s, delay = 0) => {
