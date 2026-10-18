@@ -56,3 +56,9 @@ python3 -m http.server 8080
 ## Desplegament
 
 Cloudflare Pages → `historia.allr.cat`
+
+## Llicència
+
+El codi (`index.html` i `scripts/`) és programari lliure sota la llicència [GNU AGPL-3.0](LICENSE): el pots usar, estudiar, modificar i compartir, sempre que qualsevol versió derivada, també si s'ofereix com a web, es publiqui amb la mateixa llicència i amb el codi obert.
+
+Els títols, descripcions i àudios dels episodis són de les persones i entitats que fan els pòdcasts (3Cat, A les Portes de Troia, Institut d'Humanitats de Barcelona); aquí només s'endrecen i s'hi enllaça. L'aquarel·la de la capçalera (Préaulx, 1814, Rijksmuseum) és de domini públic.
