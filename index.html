@@ -420,17 +420,35 @@ function fmtYear(n) {
   const a = Math.abs(n);
   return a >= 10000 ? a.toLocaleString('ca-ES') : String(a);
 }
+// Mateixa regla per a totes les dates, vinguin com a número (-216, 293-305, -49 -48)
+// o com a text escrit a mà (60-61 dC, 218-202 aC, 130 aC - 1450 dC):
+// "aC" als anys negatius i "dC" quan l'any (o el final de l'interval) és anterior al 1000
+const DC = n => n >= 0 && n < 1000 ? ' dC' : '';
 function formatWhen(raw) {
   if (raw == null || raw === 'None') return '—';
-  const s = String(raw).trim();
-  const m = s.match(/^(-?\d+)(?:\s*[-–]\s*(-?\d+))?$/);
-  if (!m) return s;
-  const a = +m[1];
-  if (m[2] === undefined) return fmtYear(a) + (a < 0 ? ' aC' : '');
-  const b = +m[2];
-  if (a < 0 && b < 0) return `${fmtYear(a)}–${fmtYear(b)} aC`;
-  if (a < 0) return `${fmtYear(a)} aC – ${fmtYear(b)}`;
-  return `${fmtYear(a)}–${fmtYear(b)}`;
+  let s = String(raw).trim();
+  let note = '';
+  const p = s.match(/^(.*?)\s*(\([^)]*\))$/);
+  if (p && p[1]) { s = p[1]; note = ' ' + p[2]; }
+  const m = s.match(/^(-?\d+)(?:\s*(aC|dC))?(?:(?:\s+(?=-?\d)|\s*[-–]\s*)(-?\d+|actualitat)\s*(aC|dC)?)?$/i);
+  if (!m) return String(raw).trim();
+  const ac = x => x && /^ac$/i.test(x);
+  let a = +m[1];
+  if (m[3] === undefined) {
+    if (ac(m[2])) a = -Math.abs(a);
+    return fmtYear(a) + (a < 0 ? ' aC' : DC(a)) + note;
+  }
+  if (/^actualitat$/i.test(m[3])) {
+    if (ac(m[2])) a = -Math.abs(a);
+    return `${fmtYear(a)}${a < 0 ? ' aC' : ''} – actualitat` + note;
+  }
+  let b = +m[3];
+  // "218-202 aC": el sufix final val per a tot l'interval si el primer número no en porta
+  if (ac(m[4])) { b = -Math.abs(b); if (!m[2]) a = -Math.abs(a); }
+  if (ac(m[2])) a = -Math.abs(a);
+  if (a < 0 && b < 0) return `${fmtYear(a)}–${fmtYear(b)} aC` + note;
+  if (a < 0) return `${fmtYear(a)} aC – ${fmtYear(b)}${DC(b)}` + note;
+  return `${fmtYear(a)}–${fmtYear(b)}${DC(b)}` + note;
 }
 
 const SRC_LABEL = { 'portes-de-troia': 'Portes de Troia', 'en-guardia': 'En Guàrdia', 'sons-edat-mitjana': "Sons de l'edat mitjana", 'institut-humanitats': "Inst. d'Humanitats" };
