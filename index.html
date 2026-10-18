@@ -780,6 +780,12 @@ const audio = document.getElementById('audio');
 const player = document.getElementById('player');
 const $ = id => document.getElementById(id);
 const RATES = [1, 1.25, 1.5, 1.75, 2];
+let rate = RATES.includes(store.get('rate')) ? store.get('rate') : 1;
+// load() i canviar src tornen l'àudio a defaultPlaybackRate: es fixen tots dos i es reaplica en reproduir
+const applyRate = () => {
+  if (media === audio) audio.defaultPlaybackRate = rate;
+  media.playbackRate = rate;
+};
 let cur = null;          // índex de fila en reproducció
 let lastSave = 0;
 
@@ -789,6 +795,7 @@ const bus = new EventTarget();
 let media = audio;
 ['play', 'pause', 'loadedmetadata', 'timeupdate', 'ended', 'error'].forEach(t =>
   audio.addEventListener(t, () => { if (media === audio) bus.dispatchEvent(new Event(t)); }));
+audio.addEventListener('play', () => { if (audio.playbackRate !== rate) audio.playbackRate = rate; });
 
 const loadScript = src => new Promise((ok, ko) => {
   const s = document.createElement('script');
@@ -940,7 +947,7 @@ async function playRow(i, { autoplay = true, at = null } = {}) {
   if (cur !== i) return;
   const pos = at ?? store.get('pos:' + ep._key);
   if (pos) bus.addEventListener('loadedmetadata', () => { media.currentTime = pos; }, { once: true });
-  media.playbackRate = store.get('rate') || 1;
+  applyRate();
   if (autoplay) media.play().catch(() => {});
   else if (!embed) audio.load();
   setMediaSession(ep);
@@ -1047,10 +1054,10 @@ $('p-toggle').addEventListener('click', () => { media.paused ? media.play() : me
 $('p-back').addEventListener('click', () => { media.currentTime = Math.max(0, media.currentTime - 15); });
 $('p-fwd').addEventListener('click', () => { media.currentTime = Math.min(media.duration || Infinity, media.currentTime + 30); });
 $('p-rate').addEventListener('click', () => {
-  const next = RATES[(RATES.indexOf(media.playbackRate) + 1) % RATES.length];
-  media.playbackRate = next;
-  store.set('rate', next);
-  $('p-rate').textContent = next + '×';
+  rate = RATES[(RATES.indexOf(rate) + 1) % RATES.length];
+  applyRate();
+  store.set('rate', rate);
+  $('p-rate').textContent = rate + '×';
 });
 $('p-close').addEventListener('click', () => {
   media.pause();
@@ -1090,8 +1097,7 @@ function setMediaSession(ep) {
 }
 
 function restorePlayer() {
-  const rate = store.get('rate');
-  if (rate) $('p-rate').textContent = rate + '×';
+  $('p-rate').textContent = rate + '×';
   const key = store.get('last');
   if (!key) return;
   const i = rows.findIndex(r => r.ep._key === key);
