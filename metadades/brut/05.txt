@@ -1,0 +1,100 @@
+pdt:500|soc;arq|ES|EUS|Terrassa|1|-|Riuada del Vallès (1962)|-|con|-|
+pdt:501|quo|-|GLO|-|0|-|-|-|quo|-|
+pdt:502|soc;pol;esp|TR|EUS;PO|Constantinoble|0|Justinià I;Teodora;Belisari|Revolta de Nika|bizantins|con|-|
+pdt:503|pol|ES|EUS|Barcelona|1|Jordi Arquer|-|-|pro|-|
+pdt:504|arqu;eco|ES|EUS|Sabadell|1|-|-|romans|lloc|-|
+pdt:505|pol|ES|EUS|Barcelona|1|Jordi Arquer|-|-|pro|-|
+pdt:506|esp;quo|GB|EUO|Londres|0|Matthew Webb|-|-|quo|-|
+pdt:507|lit|GB|EUO|Oxford|0|J. R. R. Tolkien|-|-|bio|-|
+pdt:508|pol;gue|VN|SEA|Hanoi|0|Ho Chi Minh;Ngo Dinh Diem|Primera Guerra d'Indoxina|vietnamites|pro|-|
+pdt:509|lit;cul|GB|EUO|-|0|J. R. R. Tolkien|-|-|cul|-|
+pdt:510|gue;pol|VN;KH;LA;CN|SEA;AO|Phnom Penh|0|Pol Pot;Ho Chi Minh|Guerra del Vietnam;Guerra sino-vietnamita|khmers rojos;vietnamites|con|-|
+pdt:511|pol;rel|RU;UA;KZ|EUE;ACM|Itil|0|-|-|khàzars|pro|-|
+pdt:512|gue;eco|ES|EUS|Santa Coloma de Gramenet|1|-|Guerra Civil espanyola|-|lloc|-|
+pdt:513|cul;cin|JP|AO|-|0|-|-|samurais;japonesos|cul|-|
+pdt:514|rel;lit|IQ|PO|Babilònia|0|Marduk|-|babilonis|cul|-|
+pdt:515|cie;lit|GR|EUS|-|0|Hipòcrates;Aristòtil|-|grecs|cul|-|
+pdt:516|gue|IQ;IR|PO|Ctesifont|0|Trajà|Campanya pàrtica de Trajà|romans;parts|con|-|
+pdt:517|pol;cie|IQ|PO|Ur|0|-|-|sumeris|pro|-|
+pdt:518|cie;exp|EC;GB|AL;GLO|Illes Galápagos|0|Charles Darwin;Robert FitzRoy|Viatge del Beagle|-|pro|-|
+pdt:519|lit;cul|FR|EUO|-|0|-|-|-|cul|-|
+pdt:520|mus;cul|US|AN|Nova York|0|-|-|afroamericans|cul|-|
+pdt:521|soc;eco|ES;CU|EUS;AL;AS|Sevilla|0|-|Tràfic atlàntic d'esclaus|africans|pro|-|
+pdt:522|pol;his|DE|EUC|Berlín|0|Paul von Hindenburg;Erich Ludendorff|Primera Guerra Mundial|-|deb|-|
+pdt:523|art;eco;cul|-|GLO|-|0|-|-|-|cul|-|
+pdt:524|lit;soc|ES|EUS|Granada|0|Juan Latino|-|africans|bio|-|
+pdt:525|pol;soc|ES|EUS|Barcelona|1|-|Jamància|-|con|-|
+pdt:526|gue;pol|IT|EUS|Nàpols|1|Alfons el Magnànim|Conquesta del Regne de Nàpols|-|con|-|
+pdt:527|cie|-|EUO;EUC;AN|-|0|-|-|-|pro|-|
+pdt:528|pol;arqu|GR;TR;SY;LB;IL|PO;EUS|-|0|-|Col·lapse de l'edat del bronze|fenicis;filisteus;grecs|pro|-|
+pdt:529|his;pol;cul|ES|EUS|Barcelona|1|-|-|-|deb|-|
+pdt:530|pol;dre|ES|EUS|Barcelona|1|Francesc Layret|-|-|bio|-|
+pdt:531|gue;pol|IT|EUS|Nàpols|1|Alfons el Magnànim|Conquesta del Regne de Nàpols;Batalla de Ponça|-|con|-|
+pdt:532|quo;soc;arq|ES|EUS|Barcelona|1|-|-|-|quo|-|
+pdt:533|cie;art;cul|-|EUS;EUO;EUC|-|0|-|-|-|cul|-|
+pdt:534|cie|-|GLO|-|0|-|-|-|deb|-|
+pdt:535|soc;dre;gen|IT;DE|EUS;EUC|-|0|-|-|romans;germànics|quo|-|
+pdt:536|soc;dre;rel|-|EUS;EUO|-|0|-|-|-|quo|-|
+pdt:537|quo;med|-|GLO|-|0|-|-|romans|quo|-|
+pdt:538|pol|ES|EUS|Toledo|0|-|-|visigots|pro|-|
+pdt:539|gue;rel;his|ES|EUS|-|0|Tariq ibn Ziyad;Roderic|Conquesta musulmana de la península Ibèrica|visigots;àrabs;amazics|con|-|
+pdt:540|arq;gue|CN|AO|Gran Muralla xinesa|0|Qin Shi Huang|-|xinesos|lloc|-|
+pdt:541|gue|AR;GB|AL;EUO|Port Stanley|0|Margaret Thatcher;Leopoldo Galtieri|Guerra de les Malvines|-|con|-|
+pdt:542|arq;gue|CN|AO|Gran Muralla xinesa|0|-|-|xinesos;mongols|lloc|-|
+pdt:543|gue|AR;GB|AL;EUO|Port Stanley|0|Margaret Thatcher;Leopoldo Galtieri|Guerra de les Malvines|-|con|-|
+pdt:544|lit;rel;cul|ET|AS;ACM|-|0|Preste Joan|-|-|cul|-|
+pdt:545|pol;gue|DE|EUC|Versalles|0|Otto von Bismarck;Guillem I d'Alemanya|Unificació alemanya;Guerra francoprussiana|-|pro|-|
+pdt:546|dre;soc|GB;FR|EUO|Londres|0|Robert Peel|-|-|pro|-|
+pdt:547|art;rel;gen|ES|EUS|Girona|1|Ende|-|-|cul|-|
+pdt:548|pol;gue|ES|EUS|-|1|Jaume I|-|-|bio|-|
+pdt:549|gue|GR|EUS|Marató|0|Darios I;Milcíades|Batalla de Marató;Guerres mèdiques|atenencs;perses|con|-|
+pdt:550|quo;cul|-|GLO|-|0|-|-|-|quo|-|
+pdt:551|lit|GR;TR|EUS;PO|-|0|Homer|-|grecs|cul|-|
+pdt:552|exp|CN|AO;ASM;AS|Nanquín|0|Zheng He;Yongle|-|xinesos|bio|-|
+pdt:553|gue|IT|EUS;EUO|-|0|-|-|romans|pro|-|
+pdt:554|pol;art|IT|EUS|Ravenna|0|Belisari;Justinià I;Teodora|-|bizantins|lloc|-|
+pdt:555|gue;pol|NO;UA;TR;GB|EUN;EUE|-|0|Harald Hardråde|Batalla de Stamford Bridge|vikings|bio|-|
+eg:0|pol;cul;esp|ES|EUS|Barcelona|1|Miguel Primo de Rivera|Dictadura de Primo de Rivera|-|pro|-|
+eg:1|gue;eco|ES|EUS|Palma|1|Jaume I|Conquesta de Mallorca|andalusins|pro|-|
+eg:2|his;arq|ES;AR|EUS;AL|Barcelona|1|Bartolomé Mitre|-|-|lloc|-|
+eg:3|gue;dre|ES|EUS|Batea|1|Pablo Figueras|Primera Guerra Carlina|-|quo|Pere Rams Folch|
+eg:4|arq;art|ES|EUS|Barcelona|1|Eusebi Güell;Antoni Gaudí|-|-|lloc|Mireia Freixa;Mar Leniz|
+eg:5|gue;rel|CN|AO|Nanquín|0|Hong Xiuquan|Rebel·lió Taiping|xinesos|con|-|
+eg:6|pol;dre|ES|EUS|-|1|-|Transició espanyola|-|pro|-|
+eg:7|rel;dre|ES|EUS|Cruïlles|1|Berenguer de Cruïlles|-|-|quo|Sergi Rexach Camps|
+eg:8|pol;dre|ES|EUS|Barcelona|1|Salvador Puig Antich|Franquisme|-|bio|Jordi Panyella|
+eg:9|cie;exp|ES;IT|EUS|Palma|1|-|-|-|cul|-|
+eg:10|rel;quo|EG|NA|-|0|-|-|egipcis|cul|-|
+eg:11|art;cul|ES|EUS|Barcelona|1|Pere Romeu;Pablo Picasso;Ramon Casas|Modernisme|-|lloc|Jordi Notó i Brullas|
+eg:12|exp;gue|MX;ES|AL|-|1|-|Conquesta d'Amèrica|-|pro|Oriol Junqueras|
+eg:13|quo|ES|EUS|-|1|-|-|-|quo|Joan Santacana|
+eg:14|pol|ES|EUS|Barcelona|1|Sunyer I de Barcelona;Guifré el Pilós|-|-|bio|-|
+eg:15|cie;gen|FR;PL|EUO;EUC|París|0|Marie Curie;Pierre Curie|-|-|bio|-|
+eg:16|gue|ES|EUS|-|1|-|Guerra Civil espanyola|-|pro|-|
+eg:17|exp;lit|PT;JP;CN|AO;SEA|-|0|Fernão Mendes Pinto|-|portuguesos|bio|-|
+eg:18|cie;gue|ES|EUS|Barcelona|1|-|Guerra Civil espanyola|-|pro|-|
+eg:19|gue|ES;GB|EUS|-|1|-|Guerra del Francès|anglesos|pro|-|
+eg:20|pol;dre|ES|EUS|Madrid|0|-|-|-|deb|-|
+eg:21|gue|ES|EUS|Alacant|0|-|Guerra Civil espanyola;Exili republicà|-|con|-|
+eg:22|art|ES|EUS|Barcelona|1|Ramon Casas;Santiago Rusiñol|Modernisme|-|bio|Vinyet Panyella|
+eg:23|pol;lit|ES|EUS|-|1|-|-|-|pro|-|
+eg:24|lit;cul|ES|EUS|-|1|-|-|-|cul|-|
+eg:25|pol|ES|EUS|Manresa|1|-|Bases de Manresa|-|pro|-|
+eg:26|gue|ES|EUS|Lleida|1|-|Front del Segre;Guerra Civil espanyola|-|con|-|
+eg:27|gue;pol|CN|AO|-|0|Chiang Kai-shek;Mao Zedong|Guerra civil xinesa|-|con|Dolors Folch|
+eg:28|quo;soc|EG|NA|-|0|-|-|egipcis|quo|Marc Orriols|
+eg:29|pol;eco|US|AN|Washington|0|Ronald Reagan|Guerra Freda|-|bio|-|
+eg:30|lit|ES|EUS|Barcelona|1|Francesc Fontanella|-|-|bio|-|
+eg:31|gue;eco|AR;UY|AL|Buenos Aires|1|-|Invasions angleses del Río de la Plata|catalans|con|-|
+eg:32|gue;pol|ES;RU|EUS;EUE|-|1|-|Guerra Civil espanyola|-|pro|-|
+eg:33|pol;gue|PT|EUS|Lisboa|0|Joan IV de Portugal|Guerra de Restauració portuguesa|-|pro|Agustí Alcoberro|
+eg:34|arqu;gue|ES;AD;FR|EUS|-|1|-|-|romans|pro|-|
+eg:35|pol;gen|ES|EUS|Mataró|1|Elisabet Cristina de Brunsvic;Arxiduc Carles|Guerra de Successió espanyola|-|bio|-|
+eg:36|soc;gen|ES|EUS|Girona|1|-|-|-|lloc|-|
+eg:37|pol;gue|MX|AL|Ciutat de Mèxic|0|Porfirio Díaz;Francisco I. Madero;Emiliano Zapata;Pancho Villa|Revolució mexicana|-|pro|-|
+eg:38|pol;rel;his|RU|EUE|-|0|Nicolau II de Rússia|-|jueus|cul|-|
+eg:39|esp|ES|EUS|Barcelona|1|-|Franquisme|-|pro|Carles Santacana|
+eg:40|pol|RU|EUE|Petrograd|0|Lenin;Nicolau II de Rússia|Revolució Russa|-|pro|-|
+eg:41|fil|GR|EUS|Atenes|0|Plató;Aristòtil;Sòcrates|-|grecs|cul|Norbert Bilbeny|
+eg:42|fil|DE|EUC|-|0|Friedrich Nietzsche|-|-|bio|-|
+eg:43|mus;cul|ES|EUS|Figueres|1|Pep Ventura|-|-|bio|-|

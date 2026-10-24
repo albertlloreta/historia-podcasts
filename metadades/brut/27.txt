@@ -1,0 +1,100 @@
+ih:674|lit|ES|EUS|-|1|Gabriel Ferrater|-|-|cul|-|
+ih:675|lit;fil|DE;CH|EUC|Davos|0|Thomas Mann|-|-|cul|-|
+ih:676|fil;pol|US|AN|-|0|Hannah Arendt|-|-|cul|-|
+ih:677|soc;cul|-|EUO;EUC|-|0|-|-|-|pro|-|
+ih:678|soc;cul|US|AN;EUO|-|0|-|Contracultura|-|pro|-|
+ih:679|lit|AT;DE;CZ|EUC|-|0|Rainer Maria Rilke|-|-|cul|-|
+ih:680|lit|GB;US|EUO;AN|-|0|W. H. Auden|-|-|cul|-|
+ih:681|lit;mus|DE|EUC|-|0|E. T. A. Hoffmann|Romanticisme|-|cul|-|
+ih:682|fil;soc|KR;DE|AO;EUC|-|0|Byung-Chul Han|-|-|cul|-|
+ih:683|fil;gen|FR|EUO|-|0|Simone Weil|-|-|cul|-|
+ih:684|lit;mus|RU|EUE|-|0|Lev Tolstoi;Ludwig van Beethoven|-|-|cul|-|
+ih:685|fil;pol|KR;DE|AO;EUC|-|0|Byung-Chul Han|-|-|cul|-|
+ih:686|fil;gen|FR;UA|EUO;EUE|-|0|Rachel Bespaloff|-|-|cul|-|
+ih:687|lit;mus|US|AN|-|0|Willa Cather|-|-|cul|-|
+ih:688|fil|KR;DE|AO;EUC|-|0|Byung-Chul Han|-|-|cul|-|
+ih:689|lit;mus|US|AN|-|0|Carson McCullers|-|-|cul|-|
+ih:690|fil;pol|KR;DE|AO;EUC|-|0|Byung-Chul Han|-|-|cul|-|
+ih:691|lit|IE;FR|EUO|Dublín|0|James Joyce|-|-|cul|-|
+ih:692|lit;mus|ES|EUS|-|0|Juan Benet|-|-|cul|-|
+ih:693|eco;fil;soc|-|GLO|-|0|Paul Lafargue|-|-|cul|-|
+ih:694|lit|PE|AL|-|0|César Vallejo|-|-|cul|-|
+ih:695|eco;soc|US|AN|-|0|-|-|-|pro|-|
+ih:696|lit|AT;SI|EUC;EUS|Duino|0|Rainer Maria Rilke|-|-|cul|-|
+ih:697|lit;mus|AR;FR|AL;EUO|París|0|Julio Cortázar|-|-|cul|-|
+ih:698|gen;eco|FR|EUO|-|0|-|-|-|cul|-|
+ih:699|lit;gen|GB|EUO|Londres|0|Virginia Woolf|-|-|cul|-|
+ih:700|lit;mus|AT;CA|EUC|-|0|Thomas Bernhard;Glenn Gould|-|-|cul|-|
+ih:701|lit|FR|EUO|París|0|Marcel Proust|-|-|cul|-|
+ih:702|lit;mus;gen|AT|EUC|Viena|0|Elfriede Jelinek|-|-|cul|-|
+ih:703|lit|GB;US|EUO;AN|Londres|0|T. S. Eliot|-|-|cul|-|
+ih:704|lit;mus|DE|EUC|-|0|Thomas Mann|-|-|cul|-|
+ih:705|cul;pol;gen|-|GLO|-|0|Emma Goldman|-|-|cul|-|
+ih:706|fil;lit|FR|EUO|París|0|Jean-Paul Sartre;Albert Camus|Existencialisme|-|cul|-|
+ih:707|art;gen|IT|EUS|Roma|0|Artemisia Gentileschi|-|-|cul|-|
+ih:708|lit|FR|EUO|París|0|Marcel Proust|-|-|cul|-|
+ih:709|lit;soc|ES|EUS|Barcelona|1|Juan Marsé|-|immigrants|cul|-|
+ih:710|fil;pol|DE;US|EUC;AN|-|0|Hannah Arendt|-|-|cul|-|
+ih:711|lit;gen;mus|FR;ES;US|EUO;EUS;AN|-|0|Prosper Mérimée;Vladimir Nabokov|-|-|cul|-|
+ih:712|soc;eco|ES|EUS|Barcelona|1|-|-|-|cul|-|
+ih:713|cie;med;art|ES|EUS|Madrid|0|Santiago Ramón y Cajal|-|-|bio|-|
+ih:714|lit|IE;FR|EUO|París|0|Samuel Beckett|-|-|cul|-|
+ih:715|lit|ES|EUS|Barcelona|1|-|-|-|cul|-|
+ih:716|lit;soc;med|ES|EUS|Barcelona|1|-|Pandèmia de COVID-19|-|cul|-|
+ih:717|cie;med|-|GLO|-|0|-|-|-|cul|-|
+ih:718|lit|ES|EUS|Barcelona|1|Carles Riba;J. V. Foix|Franquisme|-|cul|-|
+ih:719|cie;med|-|GLO|-|0|-|-|-|cul|-|
+ih:720|cie;med|-|GLO|-|0|-|-|-|cul|-|
+ih:721|art;cie|-|GLO|-|0|-|-|-|cul|-|
+ih:722|mus;pol|RU|EUE|Moscou|0|Dmitri Xostakóvitx;Ióssif Stalin|-|-|cul|-|
+ih:723|cul;pol|-|GLO|-|0|-|-|-|cul|-|
+ih:724|art;his|-|GLO|-|0|-|-|-|cul|-|
+ih:725|lit|UA;AT;FR|EUE;EUC;EUO|Brody|0|Joseph Roth|-|jueus|cul|-|
+ih:726|arq|FI|EUN|-|0|Alvar Aalto|-|-|cul|-|
+ih:727|art|-|GLO|-|0|-|-|-|cul|-|
+ih:728|lit;rel|FR;AT|EUO;EUC|París|0|Joseph Roth|-|-|cul|-|
+ih:729|lit;pol|GB|EUO|-|0|George Orwell|-|-|cul|-|
+ih:730|mus|PL;HU|EUC|-|0|Witold Lutosławski;György Ligeti|-|-|cul|-|
+ih:731|lit|ES|EUS|-|0|Miguel de Cervantes|-|-|cul|-|
+ih:732|lit|RO;FR;DE|EUE;EUO;EUC|-|0|Paul Celan|Holocaust|-|cul|-|
+ih:733|dre;fil;pol|GB|EUO|-|0|John Stuart Mill|-|-|cul|-|
+ih:734|art|GB|EUO|Londres|0|Francis Bacon;Lucian Freud|-|-|cul|-|
+ih:735|dre;rel|-|GLO|-|0|-|-|-|cul|-|
+ih:736|cin|IT|EUS|Roma|0|Roberto Rossellini;Vittorio De Sica;Luchino Visconti|Neorealisme italià|-|cul|-|
+ih:737|cie;pol|-|GLO|-|0|-|Canvi climàtic|-|cul|-|
+ih:738|dre;cul|-|GLO|-|0|-|-|-|deb|-|
+ih:739|lit|ES|EUS|Madrid|0|Luis Martín-Santos;Juan Benet|Franquisme|-|cul|-|
+ih:740|fil;cie|-|GLO|-|0|-|Canvi climàtic|-|cul|-|
+ih:741|lit|ES|EUS|-|0|Miguel de Cervantes|-|-|cul|-|
+ih:742|fil;cie|-|GLO|-|0|-|Canvi climàtic|-|cul|-|
+ih:743|lit;cul|-|-|-|0|-|-|-|cul|-|
+ih:744|lit;pol|RU|EUE|-|0|Aleksandr Soljenitsin|Gulag|-|cul|-|
+ih:745|lit|-|-|-|0|-|-|-|cul|-|
+ih:746|fil;arq|-|GLO|-|0|-|-|-|cul|-|
+ih:747|lit;cul|-|-|-|0|-|-|-|cul|-|
+ih:748|art|-|EUO;AN|-|0|-|Avantguardes|-|cul|-|
+ih:749|fil;pol;eco|GB|EUO|-|0|Mark Fisher|-|-|cul|-|
+ih:750|lit;med;gen|FR;BR;DE|EUO;AL;EUC|-|0|Jacques Lacan;Marguerite Duras;Clarice Lispector;Unica Zürn|-|-|cul|-|
+ih:751|art;med|ES;FR|EUS;EUO|Barcelona|1|Joan Miró;Jacques Lacan|-|-|cul|-|
+ih:752|lit|ES|EUS|-|0|Miguel de Cervantes|-|-|cul|-|
+ih:753|fil;med|GB|EUO|-|0|Mark Fisher|-|-|cul|-|
+ih:754|cin;lit|IT|EUS|Roma|0|Pier Paolo Pasolini;Jacques Lacan|-|-|cul|-|
+ih:755|lit;cul|-|-|-|0|-|-|-|cul|-|
+ih:756|med;lit|FR|EUO|-|0|Jacques Lacan|-|-|cul|-|
+ih:757|fil;lit|-|-|-|0|-|-|-|cul|-|
+ih:758|fil;pol;eco|GB|EUO|-|0|Mark Fisher|-|-|cul|-|
+ih:759|lit;fil;med|GR;FR|EUS;EUO|Tebes|0|Antígona;Jacques Lacan|-|-|cul|-|
+ih:760|fil|FR|EUO|París|0|Simone Weil|-|-|cul|-|
+ih:761|lit|AT;CZ|EUC|Praga|0|Rainer Maria Rilke|-|-|cul|-|
+ih:762|lit|ES|EUS|-|0|Miguel de Cervantes|-|-|cul|-|
+ih:763|fil;eco|FR|EUO|-|0|Simone Weil|-|-|cul|-|
+ih:764|lit|AT;SI|EUC;EUS|Duino|0|Rainer Maria Rilke|-|-|cul|-|
+ih:765|fil;rel|FR|EUO|-|0|Simone Weil|-|-|cul|-|
+ih:766|lit|AT;SI|EUC;EUS|Duino|0|Rainer Maria Rilke|-|-|cul|-|
+ih:767|fil;pol|FR|EUO|-|0|Simone Weil|-|-|cul|-|
+ih:768|lit|AT;SI|EUC;EUS|Duino|0|Rainer Maria Rilke|-|-|cul|-|
+ih:769|fil;rel|FR;GB|EUO|Londres|0|Simone Weil|-|-|cul|-|
+ih:770|lit|AT;SI|EUC;EUS|Duino|0|Rainer Maria Rilke|-|-|cul|-|
+ih:771|fil|FR|EUO|-|0|Simone Weil|-|-|cul|-|
+ih:772|lit|AT;CH|EUC|Muzot|0|Rainer Maria Rilke|-|-|cul|-|
+ih:773|lit|ES|EUS|-|0|Miguel de Cervantes|-|-|cul|-|

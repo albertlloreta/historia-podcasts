@@ -1,0 +1,100 @@
+ih:474|lit|DE|EUC|Weimar|0|Gotthold Ephraim Lessing;Friedrich Schiller;Johann Wolfgang von Goethe|Romanticisme|-|cul|-|
+ih:475|cie;fil|-|GLO|-|0|-|-|-|cul|-|
+ih:476|fil;mus|DE|EUC|-|0|Friedrich Nietzsche;Richard Wagner|-|-|cul|-|
+ih:477|cie;cul|US;RU|AN;EUE|-|0|-|Cursa espacial|-|cul|-|
+ih:478|fil|-|-|-|0|-|-|-|cul|-|
+ih:479|lit;mus|DE;AT|EUC|-|0|Georg Büchner;Alban Berg|-|-|cul|-|
+ih:480|lit;gue|DE;PL;IT|EUC;EUS|Auschwitz|0|Primo Levi;Paul Celan|Holocaust|jueus|cul|-|
+ih:481|fil;lit|AT|EUC|Viena|0|Fritz Mauthner;Hugo von Hofmannsthal;Ludwig Wittgenstein|-|-|cul|-|
+ih:482|lit|IE;FR|EUO|París|0|Samuel Beckett|-|-|cul|-|
+ih:483|fil;pol;eco|DE;RU|EUC;EUE|-|0|Karl Marx;Friedrich Engels;Lenin|Marxisme|-|cul|-|
+ih:484|mus|DE;AT|EUC|Viena|0|Richard Strauss;Arnold Schönberg|-|-|cul|-|
+ih:485|fil;pol;eco|DE;RU|EUC;EUE|-|0|Karl Marx;Friedrich Engels|Marxisme|-|cul|-|
+ih:486|fil;pol;eco|DE;RU|EUC;EUE|-|0|Karl Marx;Friedrich Engels|Marxisme|-|cul|-|
+ih:487|arq|ES|EUS|Barcelona|1|Lluís Domènech i Montaner;Josep Puig i Cadafalch;Antoni Gaudí|Modernisme|-|cul|-|
+ih:488|art|FR;BE|EUO|París|0|Félicien Rops;Odilon Redon;Gustave Moreau;Pierre Puvis de Chavannes|Simbolisme|-|cul|-|
+ih:489|lit|FR|EUO|París|0|Arthur Rimbaud;Comte de Lautréamont|-|-|cul|-|
+ih:490|pol;his|IT;DE|EUS;EUC|Roma|0|Benito Mussolini;Adolf Hitler|Feixisme italià;Nazisme|-|cul|-|
+ih:491|art|DE|EUC|Dresden|0|Ernst Ludwig Kirchner;Franz Marc|Expressionisme|-|cul|-|
+ih:492|pol;his|IT;DE|EUS;EUC|Roma|0|Benito Mussolini|Feixisme italià;Nazisme|-|cul|-|
+ih:493|mus|DE;AT|EUC|Viena|0|Ludwig van Beethoven|-|-|bio|-|
+ih:494|cul;art;lit|FR|EUO|París|0|-|Belle Époque|-|lloc|-|
+ih:495|pol;his|IT;DE|EUS;EUC|Roma|0|Benito Mussolini|Feixisme italià;Nazisme|-|cul|-|
+ih:496|gen;fil;pol|-|EUO;AN|-|0|-|-|-|cul|-|
+ih:497|gen;fil;pol|-|EUO;AN|-|0|-|-|-|cul|-|
+ih:498|fil;pol|-|-|-|0|-|-|-|cul|-|
+ih:499|fil;cie|-|GLO|-|0|-|-|-|cul|-|
+ih:500|mus|AT|EUC|Viena|0|Joseph Haydn;Wolfgang Amadeus Mozart;Ludwig van Beethoven|-|-|cul|-|
+ih:501|fil;pol;art|FR;US|EUO;AN|Nova York|0|Paul Virilio|Atemptats de l'11 de setembre de 2001|-|cul|-|
+ih:502|art;fil|GB|EUO|Londres|0|John Ruskin|Època victoriana|-|cul|-|
+ih:503|gen;lit;fil|US;FR|AN;EUO|-|0|Adrienne Rich;Monique Wittig|-|-|cul|-|
+ih:504|fil;pol|FR|EUO|París|0|Michel Foucault|-|-|cul|-|
+ih:505|fil;cie|-|GLO|-|0|Slavoj Žižek;Alain Badiou;Timothy Morton|-|-|cul|-|
+ih:506|mus;pol|AT;FR|EUC;EUO|Viena|0|Ludwig van Beethoven;Napoleó Bonaparte|Revolució Francesa;Guerres napoleòniques|-|cul|-|
+ih:507|fil;soc|-|AL|-|0|Paul Virilio|-|-|cul|-|
+ih:508|lit|FR|EUO|París|0|Marcel Proust|-|-|cul|-|
+ih:509|lit;gen|ES|EUS|Barcelona|1|Maria-Mercè Marçal|-|-|cul|-|
+ih:510|fil;pol|IT|EUS|-|0|Giorgio Agamben|-|-|cul|-|
+ih:511|fil;cie|-|GLO|-|0|-|-|-|cul|-|
+ih:512|mus;lit|AT;DE|EUC|Viena|0|Ludwig van Beethoven;Johann Wolfgang von Goethe;Friedrich Schiller;Franz Grillparzer|-|-|cul|-|
+ih:513|fil;pol|-|GLO|-|0|Paul Virilio|-|-|cul|-|
+ih:514|lit;gen|GB;FR|EUO|-|0|Oscar Wilde|-|-|cul|-|
+ih:515|gen;fil|IT|EUS|-|0|Carla Lonzi|-|-|cul|-|
+ih:516|fil;pol|FR|EUO|-|0|Jacques Rancière|-|-|cul|-|
+ih:517|fil;cie|-|GLO|-|0|-|-|-|cul|-|
+ih:518|mus|AT|EUC|Viena|0|Ludwig van Beethoven|-|-|cul|-|
+ih:519|pol;soc|-|PO;NA;GLO|-|0|Paul Virilio|Primavera Àrab|-|cul|-|
+ih:520|gen;pol;soc|BO|AL|-|0|Domitila Barrios de Chungara|-|-|cul|-|
+ih:521|art;cie|-|-|-|0|-|-|-|cul|-|
+ih:522|fil;pol|FR|EUO|-|0|Jacques Derrida|-|-|cul|-|
+ih:523|fil;cie;eco|-|GLO|-|0|-|-|-|cul|-|
+ih:524|lit;gue|RU|EUE|Moscou|0|Lev Tolstoi;Napoleó Bonaparte|Campanya de Rússia|-|cul|-|
+ih:525|gen;lit;pol|US|AN|-|0|Audre Lorde|-|-|cul|-|
+ih:526|art;cie|-|-|-|0|-|-|-|cul|-|
+ih:527|fil;pol|AR;BE|EUO;AL|-|0|Ernesto Laclau;Chantal Mouffe|-|-|cul|-|
+ih:528|mus;rel|AT|EUC|Viena|0|Ludwig van Beethoven|-|-|cul|-|
+ih:529|lit;gue|AT;HU|EUC|-|0|Joseph Roth|Primera Guerra Mundial|-|cul|-|
+ih:530|gen;fil|US|AN|-|0|Chela Sandoval|-|-|cul|-|
+ih:531|art;cul|-|-|-|0|-|-|-|cul|-|
+ih:532|fil;pol|-|-|-|0|-|-|-|cul|-|
+ih:533|mus|AT|EUC|Viena|0|Ludwig van Beethoven|-|-|cul|-|
+ih:534|lit;gue|IT;US|EUS;AN|-|0|Ernest Hemingway|Primera Guerra Mundial|-|cul|-|
+ih:535|gen;fil;pol|US|AN|-|0|Shulamith Firestone;Kate Millett|-|-|cul|-|
+ih:536|art;cie|-|-|-|0|-|-|-|cul|-|
+ih:537|lit;gue|US;FR|AN;EUO|-|0|Willa Cather|Primera Guerra Mundial|-|cul|-|
+ih:538|gen;lit|US;MX|AN;AL|-|0|Gloria Anzaldúa|-|chicanos|cul|-|
+ih:539|art;cie|-|-|-|0|-|-|-|cul|-|
+ih:540|lit;gue|GB|EUO|-|0|Ford Madox Ford|Primera Guerra Mundial|-|cul|-|
+ih:541|gen;lit;fil|FR|EUO|-|0|Hélène Cixous|-|-|cul|-|
+ih:542|lit;gue|VN;GB|SEA|Saigon|0|Graham Greene|Primera Guerra d'Indoxina|-|cul|-|
+ih:543|lit;gue|BR;PE|AL|Canudos|0|Mario Vargas Llosa|Guerra de Canudos|-|cul|-|
+ih:544|lit;gue|FR|EUO|París|0|Louis-Ferdinand Céline|Primera Guerra Mundial|-|cul|-|
+ih:545|lit;gue|DE;US|EUC;AN|Dresden|0|Kurt Vonnegut|Bombardeig de Dresden;Segona Guerra Mundial|-|cul|-|
+ih:546|lit;gue|MX|AL|-|0|Mariano Azuela|Revolució mexicana|-|cul|-|
+ih:547|lit;gue|ES|EUS|-|0|Juan Benet|Guerra Civil espanyola|-|cul|-|
+ih:548|lit;gue|ES|EUS|-|1|Joan Sales|Guerra Civil espanyola|-|cul|-|
+ih:549|cul;pol|US|AN|-|0|-|-|-|cul|-|
+ih:550|lit;exp;his|ES;MX|EUS;AL|-|0|Cristòfor Colom|Conquesta d'Amèrica|-|cul|-|
+ih:551|cul|-|GLO|-|0|-|-|-|cul|-|
+ih:552|art;exp;his|ES;MX|AL|-|0|-|Conquesta d'Amèrica|-|cul|-|
+ih:553|lit;gue|ES;MX;CL|AL|-|0|Alonso de Ercilla|Conquesta d'Amèrica|-|cul|-|
+ih:554|lit;his|MX;PE|AL|-|0|Inca Garcilaso de la Vega;Felipe Guaman Poma de Ayala|Conquesta d'Amèrica|indígenes|cul|-|
+ih:555|cul;gen|US|AN|-|0|-|-|-|cul|-|
+ih:556|cie;fil;art|-|EUO;EUC|-|0|Albert Einstein;Sigmund Freud|-|-|cul|-|
+ih:557|fil;rel|-|-|-|0|-|-|-|cul|-|
+ih:558|cin|FR;US;DE|EUO;AN;EUC|-|0|Germans Lumière;Georges Méliès;D. W. Griffith;Charles Chaplin|Expressionisme|-|cul|-|
+ih:559|fil;rel|-|-|-|0|-|-|-|cul|-|
+ih:560|art|FR;ES|EUO|París|0|Pablo Picasso;Georges Braque;Juan Gris|Cubisme|-|cul|-|
+ih:561|fil;rel|-|-|-|0|-|-|-|cul|-|
+ih:562|mus|FR;RU|EUO;EUE|París|0|Claude Debussy;Ígor Stravinski|-|-|cul|-|
+ih:563|lit|DE|EUC|Tübingen|0|Friedrich Hölderlin|Romanticisme|-|bio|-|
+ih:564|mus|AT|EUC|Viena|0|Arnold Schönberg;Alban Berg;Anton Webern|-|-|cul|-|
+ih:565|gen;soc|-|GLO|-|0|-|-|-|cul|-|
+ih:566|lit|DE;GR|EUC;EUS|-|0|Friedrich Hölderlin;Píndar|-|-|cul|-|
+ih:567|fil;rel|-|-|-|0|-|-|-|cul|-|
+ih:568|gen;soc|ES|EUS|Barcelona|1|-|-|-|lloc|-|
+ih:569|lit|DE;GR|EUC;EUS|-|0|Friedrich Hölderlin|-|-|cul|-|
+ih:570|fil;rel|-|-|-|0|-|-|-|cul|-|
+ih:571|gen;soc|-|GLO|-|0|-|-|-|cul|-|
+ih:572|lit|DE|EUC|-|0|Friedrich Hölderlin|-|-|cul|-|
+ih:573|fil;rel|-|-|-|0|-|-|-|cul|-|

@@ -12,7 +12,7 @@ Episodis de podcasts d'història en català endreçats en ordre cronològic. Dis
 
 ### En Guàrdia
 
-[En Guàrdia](https://www.3cat.cat/3cat/en-guardia/) és el programa d'història de Catalunya Ràdio, dirigit per l'historiador Josep Maria Solé i Sabaté.
+[En Guàrdia](https://www.3cat.cat/3cat/en-guardia/) és el programa d'història de Catalunya Ràdio, dirigit i presentat per Enric Calpena, amb l'historiador Josep Maria Solé i Sabaté.
 
 `episodis-en-guardia.json` conté 1340 episodis, gairebé tots amb descripció i any històric assignat. Uns 300 episodis antics no tenen la sinopsi original disponible enlloc (ni a 3cat.cat ni a iVoox ni a Wayback Machine); se'ls ha escrit una nota factual breu i un any a partir del títol. Només 42 episodis (temes massa genèrics: "La sardana", "Eurovisió"...) queden sense any assignat, i 3 sense cap descripció.
 

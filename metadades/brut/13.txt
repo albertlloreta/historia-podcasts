@@ -1,0 +1,100 @@
+eg:744|gue|GR;TR|EUS;PO|-|1|Roger de Flor|Expedició dels almogàvers a Orient|almogàvers|pro|-|
+eg:745|gue|ES|EUS|-|1|Napoleó Bonaparte|Guerra del Francès|-|con|-|
+eg:746|gue|IT;ES;TN|EUS;NA|Cannes|0|Aníbal;Escipió l'Africà|Segona Guerra Púnica|romans;cartaginesos|con|-|
+eg:747|gue|ES|EUS|-|1|Carles Maria Isidre de Borbó|Primera Guerra Carlina|-|con|-|
+eg:748|gue;eco|-|EUS;NA|-|1|-|-|-|pro|-|
+eg:749|gue|ES|EUS|Almenar|1|Arxiduc Carles;James Stanhope|Batalla d'Almenar;Guerra de Successió espanyola|-|con|-|
+eg:750|pol|CN;US|AO;AN|Pequín|0|Richard Nixon;Mao Zedong;Zhou Enlai|Guerra Freda|-|pro|-|
+eg:751|arq;art;eco|ES|EUS|Girona|1|-|Gòtic|-|cul|-|
+eg:752|cie;pol|ES|EUS|-|1|-|-|-|cul|Carme Montaner|
+eg:753|arq|IT;ES|EUS|-|0|Vitruvi|-|romans|cul|-|
+eg:754|gue|ES;IT|EUS|Isona|1|Luci Emili Patern;Trajà|Guerres dàcies|romans|bio|-|
+eg:755|cul;cie|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:756|lit;gue;gen|ES|EUS|-|1|Aurora Díaz-Plaja|Guerra Civil espanyola|-|bio|-|
+eg:757|rel;arq|ES|EUS|Sant Pere de Rodes|1|-|-|-|lloc|-|
+eg:758|pol|UA;DE|EUE;EUC|Ialta|0|Winston Churchill;Franklin D. Roosevelt;Ióssif Stalin|Conferència de Ialta;Conferència de Potsdam|-|pro|-|
+eg:759|eco;soc|ES;CU|EUS;AL|Begur|1|-|-|indians|pro|-|
+eg:760|rel;pol|VA|EUS|Ciutat del Vaticà|0|Lleó XIII;Pius XII|-|-|pro|Diego Sola|
+eg:761|gue|ES|EUS|Illes Formigues|1|Roger de Llúria;Pere el Gran|Batalla de les Formigues;Croada contra la Corona d'Aragó|-|con|-|
+eg:762|cie|ES;US|EUS;AN|Lleida|1|Joan Oró|-|-|bio|-|
+eg:763|eco;soc|ES|EUS|Barcelona|1|-|Revolució industrial|-|pro|-|
+eg:764|eco;soc|ES|EUS|Calella|1|-|Franquisme|-|pro|-|
+eg:765|arq;pol|ES|EUS|Castell de Montsoriu|1|Bernat II de Cabrera|-|-|lloc|-|
+eg:766|arqu;arq|ES|EUS|Tarragona|1|-|-|romans|lloc|-|
+eg:767|arqu|ES|EUS|Capellades|1|-|-|neandertals|lloc|-|
+eg:768|soc;arq|ES|EUS|Barcelona|1|-|-|-|lloc|-|
+eg:769|cin;gen|ES|EUS|Barcelona|1|Elena Jordi|-|-|bio|-|
+eg:770|pol;gue|ES|EUS|València|1|Muhammad ibn Mardanix;Zayyan ibn Mardanix|Conquesta de València|andalusins|bio|-|
+eg:771|gue;eco|ES|EUS|-|1|Martí l'Humà;Alfons el Magnànim|-|-|pro|-|
+eg:772|lit|ES;GB|EUS;EUO|Barcelona|1|Arthur Conan Doyle|-|-|cul|-|
+eg:773|gue|FR|EUO|Dunkerque|0|-|Batalla de Dunkerque;Segona Guerra Mundial|-|con|-|
+eg:774|mus|DE|EUC|Bayreuth|0|Richard Wagner|-|-|bio|Manel Bertran|
+eg:775|eco|ES|EUS|Copons|1|-|-|-|pro|-|
+eg:776|pol|IT|EUS|Roma|0|Calígula|-|romans|bio|-|
+eg:777|rel;gue;soc|ES|EUS|-|1|-|Guerra Civil espanyola|quàquers|pro|-|
+eg:778|pol;his|AD|EUS|Andorra la Vella|1|Carlemany|-|-|deb|-|
+eg:779|gue|ES;GB;VE|EUS;EUO;AL|-|1|Joan Pujol Garbo|-|-|bio|Clàudia Pujol|
+eg:780|cie|US|AN|-|0|Richard Feynman|-|-|bio|Ignasi Llorente|
+eg:781|soc;gen|ES|EUS|Barcelona|1|-|-|-|quo|-|
+eg:782|gue;pol|DE;PL|EUC|Berlín|0|Reinhard Heydrich|Conferència de Wannsee;Holocaust|jueus|pro|-|
+eg:783|fil;pol;eco|DE;GB|EUC;EUO|Londres|0|Karl Marx|-|-|bio|-|
+eg:784|eco;exp|CN;IR|AO;ACM;PO|Xi'an|0|Marco Polo|Ruta de la Seda|-|pro|-|
+eg:785|cin;gue|ES|EUS|Barcelona|1|Jaume Miravitlles|Guerra Civil espanyola|-|pro|-|
+eg:786|pol;arqu;his|DE|EUC|-|0|Adolf Hitler|Nazisme|-|deb|-|
+eg:787|rel;gue|ES|EUS|Miravet|1|-|-|templers|pro|-|
+eg:788|esp;gue|ES|EUS|Barcelona|1|-|Guerra Civil espanyola|-|pro|-|
+eg:789|cul;cie|ES|EUS|Barcelona|1|-|-|-|pro|Rosa Franquet|
+eg:790|rel;pol|EG|NA|Amarna|0|Akhenaton;Nefertiti|-|egipcis|bio|-|
+eg:791|soc|UY|AL|Montevideo|1|-|-|catalans|pro|Thomas Harrington|
+eg:792|pol;gue|ES|EUS|Barcelona|1|-|Guerra Civil espanyola|-|pro|-|
+eg:793|pol|FR;DE|EUO;EUC|Versalles|0|Woodrow Wilson;Georges Clemenceau;David Lloyd George|Tractat de Versalles|-|pro|-|
+eg:794|rel;eco;quo|ES|EUS|-|1|-|-|-|quo|-|
+eg:795|eco;soc|ES|EUS|Mataró|1|-|Revolució industrial|-|pro|-|
+eg:796|gen;soc;eco|ES|EUS|Barcelona|1|-|-|-|quo|Roger Benito|
+eg:797|art;pol|ES|EUS|Vilanova de Sixena|1|-|-|-|lloc|Francesc Canosa|
+eg:798|cin|FR|EUO|París|0|François Truffaut;Jean-Luc Godard|Nouvelle Vague|-|cul|-|
+eg:799|gue;soc|ES|EUS|Jesús|1|-|Guerra Civil espanyola;Batalla de l'Ebre|-|lloc|Daniel Arasa|
+eg:800|quo|ES|EUS|-|1|-|-|-|quo|-|
+eg:801|pol|IT|EUS|Milà|0|Benito Mussolini|Feixisme italià|-|pro|-|
+eg:802|mus;gen|GR;IT;US|EUS|Milà|0|Maria Callas|-|-|bio|-|
+eg:803|soc;dre;eco|ES|EUS|-|1|-|-|-|quo|Marc Pons|
+eg:804|pol;soc|ZA|AS|Pretòria|0|Nelson Mandela;F. W. de Klerk|Fi de l'apartheid|-|pro|-|
+eg:805|gue;pol|ES|EUS|Còrdova|0|-|Regnes de taifes|andalusins|pro|Josep Suñé|
+eg:806|cie;quo|ES|EUS|Barcelona|1|-|Exposició Internacional de Barcelona (1929)|-|pro|-|
+eg:807|cie;exp|DE;VE;EC;MX|EUC;AL|-|0|Alexander von Humboldt|-|-|bio|-|
+eg:808|pol;dre|RU|EUE|Moscou|0|Ióssif Stalin|Gran Purga|-|pro|-|
+eg:809|lit;gen|ES|EUS|Barcelona|1|Montserrat Roig|-|-|bio|-|
+eg:810|gue|GR|EUS|Atenes|0|Sul·la;Mitridates VI|Setge d'Atenes (87-86 aC);Guerres Mitridàtiques|romans;grecs|con|Borja Antela|
+eg:811|pol;gen|EG|NA|Deir el-Bahari|0|Hatxepsut;Tutmosis III|-|egipcis|bio|-|
+eg:812|cin;soc|ES|EUS|Madrid|0|Alfredo Landa|Franquisme|-|cul|-|
+eg:813|mus|GB|EUO|Liverpool|0|The Beatles|-|-|cul|-|
+eg:814|quo|ES|EUS|-|1|-|-|visigots;andalusins|quo|-|
+eg:815|eco;pol|ES|EUS|Barcelona|1|Julio Muñoz Ramonet|Franquisme|-|bio|-|
+eg:816|eco|ES|EUS|Bellmunt del Priorat|1|-|-|-|lloc|-|
+eg:817|pol;dre|ES|EUS|Barcelona|1|Joan Comorera|Franquisme|-|bio|-|
+eg:818|pol;exp|CN;PH;ES|AO;SEA|-|1|Sinibald de Mas|-|-|bio|-|
+eg:819|gue|ES|EUS|Figueres|1|-|Guerra Civil espanyola|-|lloc|-|
+eg:820|lit|ES;MX|EUS;AL|Barcelona|1|Pere Calders|Exili republicà|-|bio|-|
+eg:821|eco|ES|EUS|Vilafranca del Penedès|1|-|Fil·loxera|-|pro|-|
+eg:822|arqu;rel|ES|EUS|Barcelona|1|-|-|visigots|lloc|-|
+eg:823|pol|IT;GB|EUS;EUO|Roma|0|Claudi;Calígula|-|romans|bio|-|
+eg:824|soc;pol|ES|EUS|Barcelona|1|Felip IV;Comte-duc d'Olivares|Corpus de Sang;Guerra dels Segadors|-|con|-|
+eg:825|soc;dre|ES|EUS|Palma|1|-|Bandolerisme|-|pro|-|
+eg:826|gue|GB|EUO|Culloden|0|Carles Eduard Stuart|Batalla de Culloden;Revolta jacobita de 1745|escocesos|con|-|
+eg:827|pol;eco|ES|EUS|la Seu d'Urgell|1|Jeroni Grau|-|-|lloc|-|
+eg:828|pol;arq|ES|EUS|Valle de los Caídos|0|Francisco Franco|Franquisme|-|lloc|-|
+eg:829|gue;pol|AR;CL;PE|AL|Buenos Aires|0|José de San Martín|Guerres d'independència hispanoamericanes|-|bio|-|
+eg:830|pol|DE|EUC|Berlín|0|-|Mur de Berlín;Reunificació alemanya;Guerra Freda|-|pro|-|
+eg:831|eco;quo|EG|NA|Nil|0|-|-|egipcis|quo|-|
+eg:832|pol;soc|IT|EUS|Roma|0|Aldo Moro|Anys de plom|-|pro|-|
+eg:833|art;rel|NO;ES|EUN;EUS|-|1|-|-|-|cul|-|
+eg:834|lit;cul|ES|EUS|Barcelona|1|Francesc Cambó;Joan Estelrich;Carles Riba|Noucentisme|-|cul|-|
+eg:835|art;rel|IT|EUS|Venècia|0|Paolo Veronese|Inquisició|-|bio|-|
+eg:836|cin;gue|US|AN|Hollywood|0|Frank Capra|Segona Guerra Mundial|-|cul|-|
+eg:837|soc|ES|EUS|Barcelona|1|-|-|-|con|-|
+eg:838|eco;soc|ES|EUS|Barcelona|1|-|Revolució industrial|-|lloc|-|
+eg:839|gue;cie|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:840|pol;gen|IT;ES|EUS|Roma|1|Lucrècia Borja;Alexandre VI|-|-|bio|-|
+eg:841|gue|ES|EUS|-|0|-|Brigades Internacionals;Guerra Civil espanyola|-|pro|-|
+eg:842|pol;gue|IT|EUS|Salò|0|Benito Mussolini|República Social Italiana;Segona Guerra Mundial|-|pro|-|
+eg:843|pol;lit|ES|EUS|Barcelona|1|Pere el Cerimoniós|-|-|bio|-|

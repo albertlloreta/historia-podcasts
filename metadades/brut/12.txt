@@ -1,0 +1,100 @@
+eg:644|quo|ES|EUS|-|1|-|-|-|quo|-|
+eg:645|rel;gue|ES|EUS|Miravet|1|-|-|templers|pro|-|
+eg:646|rel;pol|ES|EUS|-|1|-|Segona República espanyola|-|pro|-|
+eg:647|pol;gue|ES|EUS|Barcelona|1|Pere el Cerimoniós|-|-|bio|-|
+eg:648|gue;pol|ES|EUS|Vielha|1|-|Invasió de la Vall d'Aran;Maquis|-|con|-|
+eg:649|pol;eco|ES;GB|EUS|Maó|1|Richard Kane|-|-|lloc|-|
+eg:650|gue|ES|EUS|Tarragona|1|Louis-Gabriel Suchet|Setge de Tarragona (1811);Guerra del Francès|-|con|-|
+eg:651|pol;soc|ES|EUS|Barcelona|1|-|Biga i Busca|-|con|-|
+eg:652|art;arq|ES|EUS|-|1|Oliba|Romànic|-|cul|-|
+eg:653|gue|FR|EUO|Alèsia|0|Juli Cèsar;Vercingetòrix|Guerra de les Gàl·lies|romans;gals|con|-|
+eg:654|pol|ES|EUS|Madrid|0|Ramón María Narváez;Isabel II|Dècada Moderada|-|pro|-|
+eg:655|pol;gue|ES;IT|EUS|Nàpols|1|Alfons el Magnànim|Conquesta del Regne de Nàpols|-|bio|-|
+eg:656|gue;pol|ES|EUS|-|1|-|-|miquelets|pro|-|
+eg:657|pol|ES;FR|EUS|-|1|Guifré el Pilós|-|francs|pro|-|
+eg:658|gen;soc|-|EUS;EUO|-|0|-|-|-|quo|-|
+eg:659|eco;soc|ES;US|EUS;AN|Barcelona|1|-|Guerra de Secessió|-|pro|-|
+eg:660|pol;dre|ES|EUS|-|1|Francisco Franco|Franquisme|republicans|pro|-|
+eg:661|soc;dre;eco|ES|EUS|-|1|-|Sentència arbitral de Guadalupe|-|pro|-|
+eg:662|pol;gue|IT|EUS;EUO|Roma|0|Ròmul Augústul;Odoacre|Caiguda de l'Imperi Romà d'Occident|romans;germànics|pro|-|
+eg:663|gue;pol|IT|EUS|Nàpols|1|Ferran el Catòlic;Gonzalo Fernández de Córdoba|Guerres d'Itàlia|-|bio|-|
+eg:664|pol|ES|EUS|Barcelona|1|Miquel Badia;Josep Badia|Guerra Civil espanyola|-|con|-|
+eg:665|eco;quo|ES|EUS|Sant Sadurní d'Anoia|1|Josep Raventós|-|-|pro|-|
+eg:666|gue|ES;FR|EUS;EUO|Coll de Panissars|1|Pere el Gran;Felip III de França|Croada contra la Corona d'Aragó|-|con|-|
+eg:667|pol|ES|EUS|Barcelona|1|-|Bienni negre;Front Popular|-|pro|-|
+eg:668|gue|MA;ES|NA|Annual|0|Abd el-Krim|Guerra del Rif;Desastre d'Annual|rifenys|con|-|
+eg:669|gue|IT|EUS|-|0|-|-|romans|pro|-|
+eg:670|soc;quo|ES|EUS|-|1|-|Franquisme|-|quo|-|
+eg:671|exp;rel|IN;ES|ASM|Fatehpur Sikri|1|Antoni de Montserrat;Akbar|-|jesuïtes;mogols|bio|-|
+eg:672|pol;soc|ES;RU|EUS;EUE|Barcelona|1|-|Revolució Russa;Vaga general de 1917|-|pro|-|
+eg:673|pol;soc|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:674|gue|GR;TR|EUS;PO|-|1|Roger de Flor|Expedició dels almogàvers a Orient|almogàvers|pro|-|
+eg:675|quo;soc|ES|EUS|-|1|-|-|-|quo|-|
+eg:676|arqu;cie|-|GLO|-|0|-|-|neandertals;homo sapiens|pro|-|
+eg:677|soc;rel|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:678|dre;cul|ES|EUS|Barcelona|1|-|-|-|quo|-|
+eg:679|lit|ES|EUS|València|1|Ausiàs March|-|-|bio|-|
+eg:680|arqu;cie|ES|EUS|-|1|-|-|-|cul|-|
+eg:681|eco;cie|ES|EUS|Mataró|1|-|Revolució industrial|-|pro|-|
+eg:682|arqu;arq|ES|EUS|Tarragona|1|-|-|romans|lloc|-|
+eg:683|pol|ES|EUS|Barcelona|1|Felip V|Decrets de Nova Planta|-|pro|-|
+eg:684|pol;soc|ES|EUS|Barcelona|1|Joan Prim|Sexenni Democràtic|-|pro|-|
+eg:685|mus;arq|ES|EUS|Barcelona|1|-|-|-|lloc|-|
+eg:686|esp|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:687|gue|ES|EUS|Múrcia|1|Jaume I|Conquesta de Múrcia|andalusins|con|-|
+eg:688|gue|FR;BE|EUO|Rocroi|0|-|Guerra dels Trenta Anys;Batalla de Rocroi|-|con|-|
+eg:689|gue|GB|EUO|Londres|1|-|Segona Guerra Mundial|-|pro|-|
+eg:690|eco;arq|ES|EUS|Mollerussa|1|-|Canal d'Urgell|-|lloc|-|
+eg:691|rel;arq|ES|EUS|Poblet|1|-|-|cistercencs|pro|-|
+eg:692|med;soc|-|EUS;EUO|-|0|-|Pesta Negra|-|pro|-|
+eg:693|gue|ES|EUS|Almansa|0|Duc de Berwick|Batalla d'Almansa;Guerra de Successió espanyola|-|con|-|
+eg:694|gue|FR|EUO|Châlons-en-Champagne|0|Àtila;Flavi Aeci|Batalla dels Camps Catalàunics|huns;romans;visigots|con|-|
+eg:695|gue|RU|EUE|Leningrad|0|Agustín Muñoz Grandes|Divisió Blava;Segona Guerra Mundial|-|con|-|
+eg:696|quo;eco|ES;MX|EUS;AL|Barcelona|1|-|-|-|quo|-|
+eg:697|pol;gue|ES;DE;BE|EUS;EUC;EUO|-|0|Carles V|-|-|bio|-|
+eg:698|gue|ES|EUS|Gandesa|1|-|Batalla de l'Ebre;Guerra Civil espanyola|-|con|-|
+eg:699|gue|ES|EUS|-|1|Ramon Cabrera i Griñó|Segona Guerra Carlina|-|con|-|
+eg:700|gue|GR|EUS|Lepant|0|Joan d'Àustria|Batalla de Lepant|otomans|con|-|
+eg:701|eco;cie|ES;CA|EUS|Barcelona|1|Frederick Stark Pearson|Vaga de La Canadenca|-|pro|-|
+eg:702|pol|ES|EUS|Casp|1|Ferran d'Antequera;Jaume d'Urgell|Compromís de Casp|-|pro|-|
+eg:703|quo;lit|ES|EUS|Barcelona|1|Baró de Maldà|-|-|bio|-|
+eg:704|soc;eco;pol|ES|EUS|-|1|-|Llei de Contractes de Conreu|rabassaires|con|-|
+eg:705|arqu;eco|ES|EUS|Empúries|1|-|-|grecs|lloc|-|
+eg:706|pol;soc|ES;US|EUS;AN|-|1|Étienne Cabet;Narcís Monturiol|-|-|pro|-|
+eg:707|gue|ES;FR|EUS;EUO|-|1|-|Guerra Gran|-|con|-|
+eg:708|pol|ES|EUS|Barcelona|1|Ramon Berenguer III;Ramon Berenguer IV|-|-|bio|-|
+eg:709|rel;arq|ES|EUS|Montserrat|1|Oliba|-|-|lloc|-|
+eg:710|pol|ES|EUS|-|1|Ferran el Catòlic|-|-|bio|-|
+eg:711|arqu;cie|ES|EUS|-|1|-|-|homínids|pro|-|
+eg:712|gue;pol|ES|EUS|-|1|-|Guerres carlines|-|con|-|
+eg:713|gue;rel|FR|EUO|Muret|1|Pere el Catòlic;Simó de Montfort|Croada albigesa;Batalla de Muret|càtars;occitans|con|-|
+eg:714|gue|ES|EUS|Barcelona|1|-|Batalla de Montjuïc (1641);Guerra dels Segadors|-|con|-|
+eg:715|pol;soc|ES|EUS|Barcelona|1|-|Pistolerisme|-|pro|-|
+eg:716|gue|ES|EUS|-|1|-|Tercera Guerra Carlina|-|con|-|
+eg:717|pol|ES|EUS|Ripoll|1|Guifré el Pilós|-|-|bio|-|
+eg:718|pol|ES|EUS|Barcelona|1|Francesc Macià|Segona República espanyola|-|bio|-|
+eg:719|pol;gue|ES|EUS|Barcelona|1|Felip V|Decrets de Nova Planta|-|pro|-|
+eg:720|pol;gue|ES|EUS|Reus|1|Joan Prim|Revolució de 1868|-|bio|-|
+eg:721|gue;pol|ES|EUS|-|1|-|Conquesta musulmana de la península Ibèrica|visigots;àrabs|pro|-|
+eg:722|gue|ES|EUS|València|1|Jaume I|Conquesta de València|andalusins|con|-|
+eg:723|soc;dre;gen|ES|EUS|Barcelona|1|-|-|-|quo|-|
+eg:724|gue|ES|EUS|-|1|-|Guerra del Francès|-|con|-|
+eg:725|eco;soc|ES;CU|EUS;AS;AL|Barcelona|1|-|Tràfic atlàntic d'esclaus|africans|pro|-|
+eg:726|soc;dre|ES|EUS|-|1|Joan Sala i Ferrer;Perot Rocaguinarda|Bandolerisme|-|pro|-|
+eg:727|pol|HU;ES|EUC|-|1|-|Expedició dels almogàvers a Orient|-|pro|-|
+eg:728|gue|CU;ES|AL|l'Havana|1|-|Guerra de Cuba|-|con|-|
+eg:729|gue|ES|EUS|Barcelona|1|-|Setge de Barcelona (1713-1714)|-|con|-|
+eg:730|soc;gue|ES|EUS|-|1|Joan II d'Aragó|Guerra Remença;Guerra civil catalana|-|con|-|
+eg:731|arqu|ES|EUS|Ullastret|1|-|-|ibers|pro|-|
+eg:732|gue|ES|EUS|-|1|-|Guerra del Francès|-|con|-|
+eg:733|pol;rel|ES;IT|EUS|Roma|1|Alexandre VI;Cèsar Borja;Lucrècia Borja|-|-|bio|-|
+eg:734|gue;pol|ES|EUS|Barcelona|1|Pau Claris|Guerra dels Segadors|-|con|-|
+eg:735|pol|FR;DE|EUO;EUC|Aquisgrà|0|Carlemany|Imperi Carolingi|francs|bio|-|
+eg:736|soc;pol|ES|EUS|Barcelona|1|-|Setmana Tràgica|-|con|-|
+eg:737|exp|MA;SA;EG|NA;PO|la Meca|1|Domènec Badia|-|-|bio|-|
+eg:738|gue;pol|IT;GR|EUS|Roma|0|Juli Cèsar;Pompeu|Guerra civil de Cèsar|romans|con|-|
+eg:739|gue|ES|EUS|Barcelona|1|-|Guerra dels Segadors|-|con|-|
+eg:740|pol;gue|IT|EUS|Palerm|1|Pere el Gran;Carles d'Anjou|Vespres Sicilianes|-|con|-|
+eg:741|gue|MA;ES|NA|-|0|-|Guerra del Rif|rifenys|con|-|
+eg:742|gue|ES|EUS|Palma|1|Jaume I|Conquesta de Mallorca|andalusins|con|-|
+eg:743|gue|-|EUO;EUC;EUE|-|0|-|Primera Guerra Mundial|-|con|-|

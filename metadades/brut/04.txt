@@ -1,0 +1,100 @@
+pdt:400|cie;soc|GB|EUO|Southampton|0|-|Enfonsament del Titanic|-|pro|-|
+pdt:401|gue;pol|GR;EG;IR;SY|EUS;PO;NA|Babilònia|0|Ptolemeu I;Seleuc I;Antígon el Borni|Guerres dels diàdocs|macedonis|con|-|
+pdt:402|exp;esp|NP;CN|ASM|Everest|0|Edmund Hillary;Tenzing Norgay;George Mallory|-|-|pro|-|
+pdt:403|rel;gue|IR;SY|PO|Alamut|0|Hassan-i Sabbah|-|nizarites|pro|-|
+pdt:404|cie;fil|-|EUS;EUO|-|0|-|-|-|bio|-|
+pdt:405|cie;fil|-|EUS;EUO|-|0|-|-|-|bio|-|
+pdt:406|gue|GR|EUS|Platea|0|Pausànias;Mardoni|Batalla de Platea;Guerres mèdiques|espartans;perses|con|-|
+pdt:407|gue|GR|EUS|Àccium|0|Octavi August;Marc Antoni;Cleòpatra|Batalla d'Àccium|romans;egipcis|con|-|
+pdt:408|rel;cul;art|-|GLO|-|0|-|-|-|cul|-|
+pdt:409|gue|-|EUS;PO;ASM;NA|-|0|Aníbal;Pirros de l'Epir|-|-|pro|-|
+pdt:410|arqu;rel|IL;PS|PO|Qumran|0|-|Manuscrits de la mar Morta|-|pro|-|
+pdt:411|rel|IL;PS|PO|Qumran|0|-|Manuscrits de la mar Morta|essenis;jueus|cul|-|
+pdt:412|pol;gue|TR|PO;EUS|Constantinoble|0|Heracli|Guerra romano-sassànida|bizantins;sassànides|bio|-|
+pdt:413|pol;gue|TR|PO;EUS|Constantinoble|0|Heracli;Focas|Guerra romano-sassànida|bizantins;sassànides|bio|-|
+pdt:414|eco;quo|GB|EUO|-|0|-|-|escocesos|quo|-|
+pdt:415|quo;cul|-|GLO|-|0|-|-|-|quo|-|
+pdt:416|quo;cul|-|GLO|-|0|-|-|-|quo|-|
+pdt:417|arqu;exp|AF;PK|ACM;ASM|Kabul|0|Charles Masson|-|-|bio|-|
+pdt:418|exp|CA|AN|-|0|Roald Amundsen;John Franklin|Pas del Nord-oest|-|pro|-|
+pdt:419|rel;lit|NO;IS;SE;DK|EUN|-|0|Odin;Thor;Loki|-|vikings|cul|-|
+pdt:420|rel;lit|NO;IS|EUN|-|0|Loki;Snorri Sturluson|-|vikings|cul|-|
+pdt:421|rel;lit|NO;IS|EUN|-|0|Baldr;Odin|Ragnarök|vikings|cul|-|
+pdt:422|arqu;exp|AF;PK|ACM;ASM|Kabul|0|Charles Masson|-|-|bio|-|
+pdt:423|pol;rel|GB|EUO|Londres|0|Guy Fawkes;Robert Catesby;Jaume I d'Anglaterra|Conspiració de la Pólvora|-|con|-|
+pdt:424|pol;rel|GB|EUO|Londres|0|Guy Fawkes;Robert Catesby;Jaume I d'Anglaterra|Conspiració de la Pólvora|-|con|-|
+pdt:425|pol;rel|AO;CD|AS|M'banza-Kongo|0|Afonso I del Congo|-|bakongos;portuguesos|pro|-|
+pdt:426|pol|AO;CD|AS|M'banza-Kongo|0|Garcia II del Congo|-|bakongos|bio|-|
+pdt:427|rel;dre;gen|-|EUS;EUO;EUC|-|0|-|Caça de bruixes|-|pro|-|
+pdt:428|rel;dre;gen|ES|EUS|-|1|-|Caça de bruixes|-|pro|-|
+pdt:429|arqu;exp|AF;PK|ACM;ASM|Kabul|0|Charles Masson|-|-|bio|-|
+pdt:430|gue|IQ|PO|Nínive|0|Heracli;Cosroes II|Batalla de Nínive (627)|bizantins;sassànides|con|-|
+pdt:431|med;cie|-|GLO|-|0|-|-|-|cul|-|
+pdt:432|pol;gue|IL;PS|PO|Jerusalem|0|David Ben Gurion;Arthur Balfour|Creació de l'Estat d'Israel;Declaració Balfour|jueus;palestins|pro|-|
+pdt:433|pol;gue|IL;PS|PO|Jerusalem|0|David Ben Gurion;Arthur Balfour|Creació de l'Estat d'Israel;Nakba|jueus;palestins|pro|-|
+pdt:434|gue|IQ|PO|Nínive|0|Heracli;Cosroes II|Batalla de Nínive (627)|bizantins;sassànides|con|-|
+pdt:435|gue;pol|PE;EC;BO;CL|AL|Cusco|0|Pachacútec;Huayna Cápac;Francisco Pizarro|Conquesta de l'Imperi Inca|inques;castellans|pro|-|
+pdt:436|exp|PE;BR|AL|Amazones|0|Francisco de Orellana;Lope de Aguirre;Pedro de Ursúa|-|castellans|pro|-|
+pdt:437|pol;gue|IT|EUS|Roma|0|Juli Cèsar;Pompeu|Guerra civil de Cèsar|romans|bio|-|
+pdt:438|pol;gue|IT;GR|EUS|Roma|0|Juli Cèsar;Pompeu|Guerra civil de Cèsar|romans|con|-|
+pdt:439|cie;his|-|EUS;EUO|-|0|-|-|-|deb|-|
+pdt:440|gue|RU|EUE|Borodino|0|Napoleó Bonaparte;Mikhaïl Kutúzov|Batalla de Borodino;Campanya de Rússia|-|con|-|
+pdt:441|cin;cul|JP|AO|Tòquio|0|Hayao Miyazaki;Isao Takahata|-|-|cul|-|
+pdt:442|cin;cul|JP|AO|Tòquio|0|Hayao Miyazaki;Isao Takahata|-|-|cul|-|
+pdt:443|pol|IT;HR;DE;TR|EUS|Nicomèdia|0|Dioclecià;Maximià|Tetrarquia|romans|pro|-|
+pdt:444|gue|IT;FR|EUS;EUO|Alps|0|Aníbal|Segona Guerra Púnica|cartaginesos;romans|con|-|
+pdt:445|gue|IT;FR|EUS;EUO|Alps|0|Aníbal|Segona Guerra Púnica|cartaginesos;romans|con|-|
+pdt:446|eco|TR|GLO|Sardes|0|-|-|lidis|cul|-|
+pdt:447|eco|ES|EUS|Barcelona|1|-|-|-|pro|-|
+pdt:448|cie|IQ|PO|Bagdad|0|Al-Khwarazmí|-|abbàssides|bio|-|
+pdt:449|gue|IQ|PO|Bagdad|0|Hülegü|Setge de Bagdad (1258)|mongols;abbàssides|con|-|
+pdt:450|dre;soc|-|EUS;EUO|-|0|-|-|-|quo|-|
+pdt:451|dre;soc|ES|EUS|València|1|-|-|-|quo|-|
+pdt:452|gue;pol|US|AN|Charleston|0|Abraham Lincoln;Jefferson Davis|Guerra de Secessió|-|con|-|
+pdt:453|gue;pol|US|AN|Washington|0|Abraham Lincoln;Ulysses S. Grant;Robert E. Lee|Guerra de Secessió|-|con|-|
+pdt:454|cie|GB|EUO|Bletchley Park|0|Alan Turing|Segona Guerra Mundial|-|pro|-|
+pdt:455|cie|US|AN|-|0|-|-|-|pro|-|
+pdt:456|gue;soc|PL;DE|EUC|-|0|-|Holocaust;Segona Guerra Mundial|jueus|pro|-|
+pdt:457|dre;soc|US|AN|Fort Smith|0|Bass Reeves|-|afroamericans|bio|-|
+pdt:458|cul;cin|-|EUN;AN|-|0|-|-|vikings|cul|-|
+pdt:459|pol;gen|ES|EUS|Lleó|0|Urraca I de Lleó|-|-|bio|-|
+pdt:460|gue|GR|EUS|Farsàlia|0|Juli Cèsar;Pompeu|Batalla de Farsàlia;Guerra civil de Cèsar|romans|con|-|
+pdt:461|cul;lit|TR|PO|Troia|0|-|Guerra de Troia|grecs;troians|cul|-|
+pdt:462|lit;cul|-|-|-|0|-|-|-|cul|-|
+pdt:463|pol|RU|EUE|Sant Petersburg|0|Lenin|Revolució Russa|-|bio|-|
+pdt:464|pol|RU|EUE|Moscou|0|Lenin|Revolució Russa|-|bio|-|
+pdt:465|cie|US;FI|AN;EUN|-|0|Richard Stallman;Linus Torvalds|-|-|pro|-|
+pdt:466|gue|PL|EUC|Stębark|0|Paul von Hindenburg;Erich Ludendorff|Batalla de Tannenberg;Primera Guerra Mundial|-|con|-|
+pdt:467|dre;cie|IT;GB|EUS;EUO|-|0|Cesare Beccaria;Jeremy Bentham|-|-|cul|-|
+pdt:468|dre;cie|IT|EUS|Torí|0|Cesare Lombroso|-|-|cul|-|
+pdt:469|gue;gen|RU|EUE|-|0|Marina Raskova|Segona Guerra Mundial|-|pro|-|
+pdt:470|gue;gen|RU|EUE|-|0|Marina Raskova|Segona Guerra Mundial|-|pro|-|
+pdt:471|lit|GB|EUO|-|0|Rei Artús;Merlí|-|britons|cul|-|
+pdt:472|lit|GB|EUO|-|0|Rei Artús;Merlí|-|britons|cul|-|
+pdt:473|soc;pol;cin|ES|EUS|Torre Baró|1|Manuel Vital|Franquisme|-|bio|-|
+pdt:474|lit|IT;RO|EUS|Roma|0|Ovidi;Octavi August|-|romans|bio|-|
+pdt:475|exp|LA;KH;VN|SEA|Mekong|0|Francis Garnier;Henri Mouhot|-|khmers|pro|-|
+pdt:476|pol;eco|BR;RU;IN;CN;ZA|GLO|-|0|-|-|-|pro|-|
+pdt:477|cul;lit;rel|-|GLO|-|0|-|-|-|cul|-|
+pdt:478|lit;fil;cul|US|AN|-|0|Joseph Campbell|-|-|cul|-|
+pdt:479|rel;pol|IL;SY|PO|Jerusalem|0|Heracli;Mahoma|Expansió islàmica|bizantins;àrabs|pro|-|
+pdt:480|med;gen|FR|EUO|París|0|Jean-Martin Charcot|-|-|cul|-|
+pdt:481|eco;arq;med|IT|EUS|Latina|0|Benito Mussolini|-|romans|lloc|-|
+pdt:482|eco|ES|EUS|Madrid|1|-|-|-|pro|-|
+pdt:483|cie;lit|CN;KR;JP|AO|-|0|Bi Sheng|-|-|cul|-|
+pdt:484|pol;exp|VN;KH;LA|SEA|Hanoi|0|-|-|vietnamites|pro|-|
+pdt:485|gen;cie|-|EUO;AN|-|0|-|-|-|pro|-|
+pdt:486|gen;dre;rel|ES|EUS|Barcelona|1|-|Inquisició|-|pro|-|
+pdt:487|pol;arq|DE;IT;TR;ES|EUS;EUC|Milà|0|-|-|romans|pro|-|
+pdt:488|gue|BA;RS;HR|EUS|Sarajevo|0|-|Guerra de Bòsnia|bosnians;serbis;croats|con|-|
+pdt:489|gue|BA|EUS|Sarajevo|0|-|Setge de Sarajevo;Guerra de Bòsnia|bosnians;serbis|con|-|
+pdt:490|dre;gue|FR|EUO|Nantes|0|Gilles de Rais;Joana d'Arc|Guerra dels Cent Anys|-|bio|-|
+pdt:491|cie;eco|DE|EUC|Magúncia|0|Johannes Gutenberg|-|-|bio|-|
+pdt:492|pol;art;arq|IT|EUS|Ravenna|0|Gal·la Placídia;Teodoric el Gran|-|romans;ostrogots|lloc|-|
+pdt:493|esp;pol|ES|EUS|Barcelona|1|-|Olimpíada Popular|-|pro|-|
+pdt:494|art;arq|ES|EUS|Taüll|1|-|Romànic|-|cul|-|
+pdt:495|cul|-|-|-|0|-|-|-|cul|-|
+pdt:496|pol;soc|ES|EUS|-|1|-|-|-|pro|-|
+pdt:497|pol;eco|VN;KH;LA|SEA|Hanoi|0|Henri Mouhot;Francis Garnier;Auguste Pavie|Indoxina francesa|-|pro|-|
+pdt:498|gue;rel|DE|EUC|Mühlberg|0|Carles V|Batalla de Mühlberg|-|con|-|
+pdt:499|his;cul|-|EUS;EUO|Barcelona|1|-|-|-|deb|-|

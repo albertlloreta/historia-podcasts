@@ -1,0 +1,100 @@
+eg:844|eco;cul|ES|EUS|Barcelona|1|-|-|-|quo|Coral Cuadrada|
+eg:845|eco;soc|ES|EUS|Berga|1|-|Revolució industrial|-|pro|-|
+eg:846|pol;his|ES|EUS|Barcelona|1|Joan Colom i Bertran;Cristòfor Colom|-|-|deb|-|
+eg:847|eco;art|ES|EUS|Barcelona|1|Eusebi Güell;Antoni Gaudí|-|-|bio|Raquel Lacuesta|
+eg:848|lit;pol;cul|ES|EUS|-|1|-|-|-|pro|-|
+eg:849|eco|CN;PH;ES|AO;SEA|Canton|0|-|-|-|pro|Ander Permanyer|
+eg:850|esp|GR|EUS|Atenes|0|Pierre de Coubertin|Jocs Olímpics d'Atenes 1896|-|cul|-|
+eg:851|gue|ES|EUS|Barcelona|1|Joan Josep d'Àustria|Setge de Barcelona (1651-1652);Guerra dels Segadors|-|con|-|
+eg:852|pol;dre|ES|EUS|Barcelona|1|Francesc Layret|Pistolerisme|-|con|-|
+eg:853|pol;cul|ES;FR;MX|EUS;EUO;AL|-|1|-|Exili republicà|-|pro|-|
+eg:854|mus|ES;GB|EUS;EUO|Londres|1|Francesc Gabarró;The Beatles|-|-|bio|-|
+eg:855|dre;pol|AD|EUS|Andorra la Vella|1|Antoni Fiter i Rossell|-|-|cul|-|
+eg:856|pol|ES|EUS|Barcelona|1|-|Catalanisme;Renaixença|-|pro|-|
+eg:857|cul;quo|ES|EUS|Valls|1|-|-|-|cul|-|
+eg:858|cie;cul|US;JP|AN;AO|-|0|-|-|-|cul|-|
+eg:859|lit;cin|ES;US|EUS;AN|-|1|Josep Carner-Ribalta|Exili republicà|-|bio|-|
+eg:860|lit|ES|EUS|València|1|Joanot Martorell|-|-|cul|-|
+eg:861|pol|ES|EUS|Madrid|0|Francisco Franco;Joan de Borbó;Joan Carles I|Franquisme|-|pro|-|
+eg:862|arq;pol|EG|NA|Giza|0|Kheops|-|egipcis|bio|Irene Cordón|
+eg:863|pol;fil|GR|EUS|Atenes|0|Demòstenes;Filip II de Macedònia|-|grecs|bio|-|
+eg:864|esp|AR;CU;RU|AL|Buenos Aires|0|José Raúl Capablanca;Alexandre Alekhine|-|-|con|-|
+eg:865|cul;pol|ES|EUS|Barcelona|1|-|Segona República espanyola|-|pro|-|
+eg:866|pol;soc|ES|EUS|Barcelona|1|Salvador Seguí|Pistolerisme|-|bio|-|
+eg:867|soc;cul|CA;GL;US|AN|-|0|-|-|inuits|cul|-|
+eg:868|art|ES|EUS|Olot|1|Joaquim Vayreda;Marià Vayreda|Renaixença|-|bio|-|
+eg:869|pol|IT|EUS|Roma|0|Catilina;Ciceró|Conjuració de Catilina|romans|con|-|
+eg:870|lit|ES|EUS|Palafrugell|1|Josep Pla|-|-|bio|-|
+eg:871|rel;pol|ES|EUS|-|1|Carles VII de Borbó|Tercera Guerra Carlina|-|bio|-|
+eg:872|pol|ES|EUS|Barcelona|1|Eva Serra|Franquisme|-|pro|-|
+eg:873|pol;eco|ES|EUS|Barcelona|1|Ferran el Catòlic|-|-|pro|-|
+eg:874|pol|ES;RU|EUS;EUE|Barcelona|1|-|Revolució Russa|-|pro|-|
+eg:875|soc|ES;FR|EUS;EUO|-|1|-|-|occitans|pro|-|
+eg:876|pol;gen|ES|EUS|-|1|Jaume I;Ramon Berenguer IV;Jaume II|-|-|quo|-|
+eg:877|lit;soc|ES|EUS|Barcelona|1|Francesc Candel|-|immigrants|bio|-|
+eg:878|mus;pol|RU|EUE|Moscou|0|Dmitri Xostakóvitx;Ióssif Stalin|-|-|bio|-|
+eg:879|arq;eco|ES|EUS|Barcelona|1|-|-|-|lloc|-|
+eg:880|his;lit|ES|EUS|Barcelona|1|Ferran Soldevila|-|-|bio|-|
+eg:881|gue|ES|EUS|Còrdova|1|Ramon Borrell;Ermengol I d'Urgell|Expedició catalana a Còrdova|andalusins|con|-|
+eg:882|gue|MA;DZ|NA|Casablanca|0|Dwight D. Eisenhower|Operació Torch;Segona Guerra Mundial|-|con|-|
+eg:883|gen;soc|IT|EUS|Roma|0|-|-|romans|quo|-|
+eg:884|art;quo|ES|EUS|-|1|-|-|-|cul|-|
+eg:885|pol|ES|EUS|Barcelona|1|-|Guerra Civil espanyola|-|pro|-|
+eg:886|mus;pol|ES;FR|EUS;EUO|Prada de Conflent|1|Pau Casals;Francisco Franco|Franquisme|-|bio|Josep Maria Figueres|
+eg:887|med;cie|GB|EUO|-|0|Edward Jenner|-|-|pro|Francesc Accensi|
+eg:888|rel|ES|EUS|Vic|1|Guifré el Pilós|-|-|pro|-|
+eg:889|mus|ES;MX|EUS;AL|Palma|1|Baltasar Samper|Exili republicà|-|bio|-|
+eg:890|lit;cul|ES|EUS|Barcelona|1|Joan Triadú|-|-|bio|-|
+eg:891|pol;gen|ES|EUS|Madrid|1|Clara Campoamor|Sufragi femení;Segona República espanyola|-|pro|Josep Lluís Martín Berbois|
+eg:892|pol;gue|ES|EUS|Barcelona|1|Napoleó Bonaparte|Guerra del Francès|-|pro|-|
+eg:893|quo;eco|ES|EUS|Barcelona|1|-|-|-|quo|-|
+eg:894|pol|CN|AO|Pequín|0|Deng Xiaoping|Protestes de la plaça de Tian'anmen|-|con|-|
+eg:895|gue|MT|EUS|La Valletta|0|Jean de la Valette;Solimà el Magnífic|Setge de Malta|otomans;hospitalers|con|Arnau Cecchini|
+eg:896|pol;dre|ES|EUS|Barcelona|1|Santiago Salvador Franch|Atemptat del Liceu|-|con|-|
+eg:897|gue;eco|IT|EUS|-|0|-|Primera Guerra Púnica|romans|pro|-|
+eg:898|exp|-|EUN;AN|Pol nord|0|Robert Peary;Roald Amundsen|-|-|pro|-|
+eg:899|pol|ES|EUS|Barcelona|1|Francesc Macià;Lluís Companys|-|-|pro|-|
+eg:900|gue;pol|RU|EUE|Moscou|0|Lenin;Lev Trotski|Guerra Civil russa|-|con|-|
+eg:901|soc;rel|ES|EUS|Barcelona|1|-|Bullangues;Primera Guerra Carlina|-|con|-|
+eg:902|rel;pol|VA|EUS|Ciutat del Vaticà|0|Joan Pau I;Joan Pau II|-|-|pro|-|
+eg:903|cul;pol|ES|EUS|Valls|1|-|Franquisme|-|cul|-|
+eg:904|gue|ES|EUS|Còrdova|1|Ramon Borrell;Ermengol I d'Urgell;Abd al-Malik al-Muzaffar|Expedició catalana a Còrdova|andalusins|con|-|
+eg:905|eco;rel|GQ;ES|AS|Malabo|1|-|-|claretians|pro|-|
+eg:906|rel;gue|ES|EUS|Barcelona|1|Manuel Irurita|Guerra Civil espanyola|-|bio|-|
+eg:907|med|IT|EUS|Roma|0|Marc Aureli|Plaga Antonina|romans|pro|-|
+eg:908|art;cul|ES;EG|EUS;NA|Barcelona|1|-|-|egipcis|cul|Oriol Pascual|
+eg:909|soc;cie|PT|EUS|Lisboa|0|Marquès de Pombal|Terratrèmol de Lisboa de 1755|-|con|-|
+eg:910|rel;cie|DE|EUC|Wittenberg|0|Martí Luter|Reforma protestant|-|bio|-|
+eg:911|pol|FR|EUO|París|0|François Mitterrand|-|-|bio|-|
+eg:912|eco;arqu|ES;LB|EUS;PO|-|0|-|-|fenicis|pro|-|
+eg:913|quo;eco|ES|EUS|Barcelona|1|-|-|-|quo|-|
+eg:914|eco|ES|EUS|-|1|-|-|-|pro|-|
+eg:915|cin|ES|EUS|Barcelona|1|-|Escola de Barcelona|-|cul|-|
+eg:916|mus;pol|ES|EUS|València|1|Raimon;Ovidi Montllor|Nova Cançó|-|cul|-|
+eg:917|cie|NL|EUO|Delft|0|Antoni van Leeuwenhoek|-|-|bio|Francesc Accensi|
+eg:918|pol|ES|EUS|Barcelona|1|Joan I d'Aragó;Martí l'Humà|-|-|pro|-|
+eg:919|cie;gen|AT;DE;SE|EUC;EUN|Berlín|0|Lise Meitner;Otto Hahn|-|-|bio|-|
+eg:920|eco;exp|ES;IT|EUS|Barcelona|1|-|Consolat de Mar|-|pro|-|
+eg:921|pol|IT|EUS|Roma|0|Juli Cèsar;Brut;Cassi|Assassinat de Juli Cèsar|romans|con|-|
+eg:922|lit;cin|FR;GB;US|EUO;AN|-|0|Jules Verne;H. G. Wells|-|-|cul|-|
+eg:923|pol|ES|EUS|Barcelona|1|Joan Granollacs;Felip II|-|-|con|-|
+eg:924|cul;gen|ES|EUS|Barcelona|1|-|Franquisme|-|pro|-|
+eg:925|eco|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:926|gue;pol|IT|EUS|Roma|0|Pompeu|-|romans|bio|-|
+eg:927|pol;soc|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:928|pol;gue|BE;NL|EUO|Brussel·les|1|Lluís de Requesens;Felip II|Guerra dels Vuitanta Anys|-|bio|-|
+eg:929|gue|ES|EUS|Barcelona|1|-|Setge de Barcelona (1713-1714)|-|quo|-|
+eg:930|pol|ES|EUS|Barcelona|1|-|Assemblea de Catalunya;Franquisme|-|pro|-|
+eg:931|lit|ES;FR|EUS;EUO|-|1|-|-|occitans|cul|-|
+eg:932|eco|ES|EUS|Barcelona|1|-|-|-|lloc|-|
+eg:933|dre;pol|US|AN|Nova York|0|Julius Rosenberg;Ethel Rosenberg|Guerra Freda|-|bio|-|
+eg:934|arq|ES|EUS|Barcelona|1|-|-|-|lloc|-|
+eg:935|art;arq;rel|ES|EUS|Taüll|1|-|Romànic|-|lloc|-|
+eg:936|med|ES|EUS|Barcelona|1|-|-|-|lloc|-|
+eg:937|gue;pol|DZ;FR|NA|Alger|0|Charles de Gaulle|Guerra d'Algèria|-|con|-|
+eg:938|mus|FR|EUO|París|0|Jean-Baptiste Lully;Lluís XIV|-|-|bio|-|
+eg:939|pol;rel|IR|PO|Teheran|0|Ruhol·lah Khomeini;Mohammad Reza Pahlavi|Revolució iraniana|-|pro|-|
+eg:940|pol;dre|ES|EUS|Barcelona|1|-|Franquisme|-|lloc|-|
+eg:941|rel;exp|CN|AO|Pequín|0|Matteo Ricci|-|jesuïtes|pro|-|
+eg:942|arq;pol|MX|AL|Tenochtitlan|0|-|-|asteques|lloc|-|
+eg:943|pol|ES;FR|EUS;EUO|-|1|Josep Irla|Exili republicà|-|bio|-|

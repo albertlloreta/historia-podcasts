@@ -1,0 +1,100 @@
+pdt:0|his;fil||||0||||deb||
+pdt:1|gue;lit;arqu|TR;GR|PO;EUS|Troia|0|Aquil·les;Helena de Troia;Paris;Hèctor|Guerra de Troia|grecs;troians|con||
+pdt:2|gue;rel|IL;SY;TR|PO|Jerusalem|0||Croades|croats;musulmans|con||
+pdt:3|med;soc||EUS;EUO;EUC||0||Pesta Negra||pro||
+pdt:4|gue|ES|EUS|Barcelona|1||Guerra Civil espanyola||con|David Gesalí|
+pdt:5|pol|ES|EUS|Madrid|0|Adolfo Suárez;Joan Carles I|Transició espanyola||pro||
+pdt:6|gue;pol|ES;PT|EUS|Barcelona|1|Comte-duc d'Olivares;Pau Claris|Guerra dels Segadors||con|Ricard Torra|
+pdt:7|pol;gue|CN|AO|Pequín|0|Mao Zedong;Chiang Kai-shek|Revolució Xinesa||pro||
+pdt:8|pol|FR;DE;IT;ES|EUO;EUC|Aquisgrà|0|Carlemany|Imperi Carolingi|francs|pro||
+pdt:9|rel;cul;quo||||0|Jesús de Natzaret|||cul|Almudena Blasco|
+pdt:10|pol|ES;FR;AD|EUS|Barcelona|1|Guifré el Pilós||francs|pro||
+pdt:11|pol;his|ES|EUS|Barcelona|1|Guifré el Pilós;Borrell II|||deb||
+pdt:12|pol|ES|EUS|Barcelona|1|Borrell II;Guifré el Pilós||francs|pro||
+pdt:13|exp|PT;ES|GLO|Lisboa|0|Cristòfor Colom;Enric el Navegant|Era dels descobriments|portuguesos;castellans|pro||
+pdt:14|pol;eco|TN|NA;EUS|Cartago|0|Dido||cartaginesos;fenicis|lloc|Roger Riera|
+pdt:15|pol;eco||AS|Berlín|0||Repartiment d'Àfrica||pro||
+pdt:16|soc;gue;eco|ES|EUS|Girona|1|Francesc de Verntallat|Guerra Remença||con||
+pdt:17|rel;soc|ES|EUS|València|0|Felip III|Expulsió dels moriscos|moriscos|pro|Tomàs Llopis|
+pdt:18|gue|ES|EUS|Girona|1||Guerra de Successió espanyola||con|Marcel Vilarós|
+pdt:19|rel;pol|SA|PO|la Meca|0|Mahoma|Expansió islàmica|àrabs|pro||
+pdt:20|gue|TN;IT;ES|EUS;NA|Cartago|0|Aníbal;Escipió l'Africà|Guerres Púniques|romans;cartaginesos|con||
+pdt:21|pol;dre;his|ES|EUS|Barcelona|1|Salvador Puig Antich|||bio|Jordi Panyella|
+pdt:22|gue;pol|FR;GB|EUO||0||Guerra dels Cent Anys|anglesos;francesos|con||
+pdt:23|pol;gue|JP|AO|Edo|0|Tokugawa Ieyasu|Shogunat Tokugawa|japonesos|pro|Jonathan López-Vera;Queralt Solé|
+pdt:24|lit;cul||||0||||cul||
+pdt:25|pol|AD|EUS|Andorra la Vella|1|||andorrans|lloc||
+pdt:26|gue|TR|EUS;PO|Constantinoble|1|Pere el Cerimoniós|Batalla del Bòsfor|genovesos;venecians;bizantins|con||
+pdt:27|soc;pol|ES|EUS|Barcelona|1||Setmana Tràgica||con||
+pdt:28|gue|TR|EUS;PO|Constantinoble|0|Mehmet II;Constantí XI|Caiguda de Constantinoble|otomans;bizantins|con||
+pdt:29|mus;lit|FR;ES|EUO;EUS|Tolosa|1|||occitans|cul|Antoni Rossell|
+pdt:30|pol;his|ES|EUS|Barcelona|1||||deb|Cristian Palomo;Andreu Martín|
+pdt:31|gue;pol|FR;GB|EUO|Orleans|0|Joana d'Arc|Guerra dels Cent Anys;Batalla d'Azincourt|anglesos;francesos|con||
+pdt:32|gue;pol|RS;HR;BA;SI|EUS|Belgrad|0|Josip Broz Tito;Slobodan Milošević|Guerres de Iugoslàvia|eslaus del sud|con|Jordi Cumplido|
+pdt:33|gue;lit|ES;MA|EUS;NA||1|Joan Prim;Leopoldo O'Donnell|Guerra d'Àfrica||con|Enric Calpena|
+pdt:34|pol|ES|EUS|Barcelona|1|Lluís Companys|Fets del Sis d'Octubre||con||
+pdt:35|pol;gue|IT|EUS|Palerm|1|Pere el Gran;Carles d'Anjou|Vespres Sicilianes||con||
+pdt:36|pol|GR|EUS|Atenes|0|Clístenes||grecs|pro||
+pdt:37|his;cul|ES|EUS|Barcelona|1|Guifré el Pilós;Otger Cataló|||deb||
+pdt:38|pol|ES|EUS|Barcelona|1||Franquisme||pro|Cristian Ferrer|
+pdt:39|rel;pol|IT;FR|EUS;EUO|Avinyó|1|Benet XIII|Cisma d'Occident||pro||
+pdt:40|pol;gue|ES|EUS|Barcelona|1|Arxiduc Carles;Felip V;Carles II|Guerra de Successió espanyola||pro||
+pdt:41|gue|MX|AL|Tenochtitlan|0|Hernán Cortés;Moctezuma II|Conquesta de Mèxic|asteques;castellans|con||
+pdt:42|rel;pol|IT|EUS|Roma|0|Constantí I;Teodosi I||romans;cristians|pro||
+pdt:43|gue;rel|ES|EUS|Barbastre|0||Croada de Barbastre||con||
+pdt:44|lit|GB|EUO|Londres|0|William Shakespeare|||bio|Joan Curbet|
+pdt:45|pol|FR;CH|EUO|Ginebra|0|Woodrow Wilson|Primera Guerra Mundial||pro||
+pdt:46|cul;eco;quo|IN;IR;ES|GLO|Lleida|0||||cul|Albert Velasco|
+pdt:47|pol|TR|PO;EUS|Ankara|0|Mustafa Kemal Atatürk|Dissolució de l'Imperi Otomà|otomans;turcs|pro|Jaume Bartrolí|
+pdt:48|gue;pol|ES;CU|EUS;AL|Barcelona|1|Arxiduc Carles|Guerra de Successió espanyola||con|Antonio Espino|
+pdt:49|pol;gue|ES|EUS||1|Bernat II de Cabrera;Pere el Cerimoniós|||bio|Àlex Martínez Giralt|
+pdt:50|pol;gue|CU;US;RU|AL;AN|l'Havana|0|John F. Kennedy;Nikita Khrusxov;Fidel Castro|Crisi dels míssils de Cuba||con||
+pdt:51|pol|FR;ES|EUS;EUO|Perpinyà|1|Lluís XIV;Felip IV|Tractat dels Pirineus||pro||
+pdt:52|pol;eco|GB|EUO|Londres|0|Margaret Thatcher|||bio||
+pdt:53|gue|ES|EUS|Còrdova|1|Ramon Borrell;Almansor|Expedició catalana a Còrdova|andalusins|con||
+pdt:54|gue|GR;IR;EG;TR|EUS;PO;ACM|Babilònia|0|Alexandre el Gran;Darios III|Conquestes d'Alexandre el Gran|macedonis;perses|con|Clàudia Zaragozà|
+pdt:55|gue|GR|EUS|Lepant|0|Joan d'Àustria|Batalla de Lepant|otomans|con||
+pdt:56|pol;cul|FR|EUO;EUS|Perpinyà|1||Tractat dels Pirineus||pro|Òscar Jané|
+pdt:57|pol;dre|ES|EUS|Cadis|0||Constitució de Cadis||pro|Héctor Rodríguez Grimau|
+pdt:58|rel;cul|TR;ES|PO;EUS||1|Sant Jordi|||cul|Stefano Cingolani|
+pdt:59|his|GR|EUS;PO|Pel·la|0|Alexandre el Gran;Filip II de Macedònia;Olímpia||macedonis|bio|Clàudia Zaragozà|
+pdt:60|gue;soc|RW|AS|Kigali|0||Genocidi de Ruanda|hutus;tutsis|con|Nicolás Valle|
+pdt:61|med;soc|ES|EUS|Barcelona|1||Pesta Negra||pro||
+pdt:62|gue|ES|EUS|Gandesa|1||Batalla de l'Ebre;Guerra Civil espanyola||con|David Gesalí|
+pdt:63|gue;pol|GR;TR|EUS;PO|Atenes|0|Mitridates VI;Sul·la|Guerres Mitridàtiques|romans;grecs|con||
+pdt:64|pol|DE|EUC|Weimar|0||República de Weimar||pro||
+pdt:65|gue;rel|FR|EUO|Pau|0|Gastó VII de Bearn|Croades||bio|Almudena Blasco|
+pdt:66|pol|MN;US;RU|GLO||0|Genguis Khan;Cristòfor Colom|Dissolució de la Unió Soviètica|mongols|deb||
+pdt:67|exp|IT;CN|AO;ACM|Venècia|0|Marco Polo;Kublai Khan|||bio||
+pdt:68|exp|BS;ES|AL|San Salvador|0|Cristòfor Colom|Descobriment d'Amèrica||pro||
+pdt:69|cie;pol|US;RU|AN;EUE|Baikonur|0|Iuri Gagarin|Cursa espacial||pro||
+pdt:70|gue|SY;EG|PO|Qadeix|0|Ramsès II;Muwatallis II|Batalla de Qadeix|egipcis;hitites|con||
+pdt:71|pol|ES|EUS|Madrid|0|Ferran VII;Rafael del Riego|Trienni Liberal||pro||
+pdt:72|rel;exp|JP;PT|AO|Nagasaki|0|Francesc Xavier||japonesos;portuguesos|pro||
+pdt:73|pol|ES|EUS|Madrid|0|Francisco Franco;Joan Carles I|Franquisme||pro||
+pdt:74|pol;gue|VE;CO;BO;PE|AL|Caracas|0|Simón Bolívar|Guerres d'independència hispanoamericanes||bio||
+pdt:75|pol|EG|NA|Alexandria|0|Cleòpatra;Juli Cèsar;Marc Antoni||egipcis;romans|bio||
+pdt:76|gue;his|FR|EUO|Poitiers|0|Carles Martell;Abd-ar-Rahman al-Ghafiqí|Batalla de Poitiers|francs;àrabs|con||
+pdt:77|lit;pol;cul|FR;MX|EUO;AL||1||Exili republicà||pro||
+pdt:78|pol|ES|EUS|la Seu d'Urgell|1|Ermengol I d'Urgell||andalusins|lloc||
+pdt:79|pol;gen|ES|EUS|Barcelona|1||||pro||
+pdt:80|gue|ES;GB|EUO;EUS||0|Felip II;Elisabet I d'Anglaterra|Armada Invencible||con||
+pdt:81|gue;rel|FR|EUO|Muret|1|Pere el Catòlic;Simó de Montfort|Batalla de Muret;Croada albigesa|càtars;occitans|con||
+pdt:82|exp;cie|PT|EUS|Sagres|0|Enric el Navegant|||bio||
+pdt:83|pol|ES|EUS|Madrid|0|Antonio Tejero;Joan Carles I;Leopoldo Calvo-Sotelo|Cop d'estat del 23 de febrer||con||
+pdt:84|gue;pol|ES;RU|EUS;EUE||0|Francisco Franco|Divisió Blava;Segona Guerra Mundial||pro||
+pdt:85|gue|RU|EUE|Leningrad|0||Divisió Blava;Front oriental de la Segona Guerra Mundial||con||
+pdt:86|his;cie||||0|Heròdot;Tucídides|||deb||
+pdt:87|gue|IT|EUS|Cannes|0|Aníbal|Batalla de Cannes|romans;cartaginesos|con||
+pdt:88|exp;lit|CD|AS|Congo|0|Henry Morton Stanley;David Livingstone|||pro||
+pdt:89|pol;gen|ES|EUS|Girona|1|Ermessenda de Carcassona;Ramon Borrell|||bio||
+pdt:90|pol;lit|DE|EUC|Munic|0|Adolf Hitler|Nazisme||cul||
+pdt:91|gue|US|AN|Gettysburg|0|Abraham Lincoln;Robert E. Lee|Batalla de Gettysburg;Guerra de Secessió||con||
+pdt:92|pol;gue|IE|EUO|Dublín|0|Michael Collins;Éamon de Valera|Alçament de Pasqua;Guerra d'Independència d'Irlanda|irlandesos|pro||
+pdt:93|gue|PE|AL|Cusco|0|Francisco Pizarro;Atahualpa|Conquesta de l'Imperi Inca|inques;castellans|con||
+pdt:94|pol|AD|EUS|Andorra la Vella|1||Guerra de Successió espanyola|andorrans|lloc||
+pdt:95|gue;pol|GB|EUO|Londres|0|Enric VI d'Anglaterra;Eduard IV d'Anglaterra|Guerra de les Dues Roses||con||
+pdt:96|gue;pol|GB|EUO|Bosworth|0|Ricard III d'Anglaterra;Enric VII d'Anglaterra|Guerra de les Dues Roses||con||
+pdt:97|pol|PL;HU;RO;UA;RS|EUE;EUC||0||||pro||
+pdt:98|gue;cul|JP|AO|Kyoto|0|||samurais;japonesos|cul||
+pdt:99|exp|ES;PT;PH|GLO|Sevilla|0|Ferran de Magalhães;Joan Sebastián Elcano|Primera volta al món||pro||

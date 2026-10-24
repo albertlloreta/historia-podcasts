@@ -1,0 +1,100 @@
+eg:1144|soc;eco|ES|EUS|Barcelona|1|-|Vaga de La Canadenca|-|con|-|
+eg:1145|mus|IT|EUS|Florència|0|Claudio Monteverdi|Renaixement|-|cul|-|
+eg:1146|cie;gue|DE|EUC|Berlín|0|Werner Heisenberg|Segona Guerra Mundial|-|pro|-|
+eg:1147|pol;dre|ES|EUS|Barcelona|1|Juan Fernández Manrique de Lara|-|-|con|-|
+eg:1148|lit;pol|ES|EUS|Barcelona|1|Joan Salvat-Papasseit|-|-|bio|Ferran Aisa|
+eg:1149|gue;pol|OM;GB|PO|Dhofar|0|Qabus bin Saïd|Rebel·lió de Dhofar;Guerra Freda|-|con|-|
+eg:1150|soc;gue|ES|EUS|-|1|Pere Joan Sala;Ferran el Catòlic|Guerra Remença;Sentència arbitral de Guadalupe|-|con|-|
+eg:1151|mus;pol|ES|EUS|Barcelona|1|Raimon;Lluís Llach;Maria del Mar Bonet|Nova Cançó;Transició espanyola|-|cul|-|
+eg:1152|esp|FR|EUO|París|0|Henri Desgrange|Tour de França|-|pro|-|
+eg:1153|rel;pol;soc|BR;ES|AL|São Félix do Araguaia|1|Pere Casaldàliga|Teologia de l'alliberament|-|bio|-|
+eg:1154|lit;cul|ES|EUS|Barcelona|1|Pompeu Fabra|-|-|pro|-|
+eg:1155|dre;soc|ES|EUS|Gandesa|1|-|-|-|con|Josep Gironès|
+eg:1156|arqu;cie|ES|EUS|Atapuerca|0|-|-|homo antecessor|lloc|-|
+eg:1157|eco|CU;ES|AL;EUS|Santiago de Cuba|1|Facund Bacardí|-|indians|bio|-|
+eg:1158|pol|ES|EUS|Barcelona|1|Josep Dencàs;Lluís Companys|Fets del Sis d'Octubre|-|bio|-|
+eg:1159|eco|ES|EUS|Cardona|1|-|-|-|lloc|-|
+eg:1160|mus;pol|ES|EUS|Barcelona|1|Josep Anselm Clavé|-|-|bio|-|
+eg:1161|cul;soc|ES|EUS|-|1|-|-|-|pro|-|
+eg:1162|soc;gen;gue|FR|EUO|Elna|1|Elisabeth Eidenbenz|Exili republicà|-|lloc|-|
+eg:1163|gue;soc|PL|EUC|Varsòvia|0|-|Ocupació alemanya de Polònia;Segona Guerra Mundial|jueus;polonesos|pro|Marta Simó|
+eg:1164|art;gue|IT;EG;FR|EUS;NA|París|0|Napoleó Bonaparte;Dominique-Vivant Denon|Guerres napoleòniques|-|pro|-|
+eg:1165|cie;pol|ES|EUS|Madrid|0|Francisco Franco|Franquisme|-|pro|-|
+eg:1166|pol|JP|AO|Tòquio|0|-|Incident del 26 de febrer|-|pro|-|
+eg:1167|arqu;quo|ES|EUS|Atapuerca|0|-|-|homínids|cul|-|
+eg:1168|gue|ES|EUS|València|1|Jaume I|Conquesta de València|andalusins|con|-|
+eg:1169|gue|ES;IT|EUS|Barcelona|1|-|Bombardejos de Barcelona de 1938;Guerra Civil espanyola|-|con|-|
+eg:1170|cie;rel|ES|EUS|Barcelona|1|Pere el Cerimoniós|-|-|cul|-|
+eg:1171|exp;cul|ES;IT|EUS|Vilanova i la Geltrú|1|Josep Anton de Cabanyes|-|-|bio|-|
+eg:1172|pol;eco|ES;AR|EUS;AL|-|1|Ramon Curcó Rubio|-|indians|bio|-|
+eg:1173|gue|ES|EUS|Torelló|1|Carles VII de Borbó|Tercera Guerra Carlina|-|con|-|
+eg:1174|mus;cul|ES;CU|EUS;AL|-|1|-|-|-|cul|-|
+eg:1175|gue;soc|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:1176|pol|ES|EUS|-|1|-|Restauració borbònica|-|pro|-|
+eg:1177|pol;gue|EG;IR|NA;PO|Memfis|0|Cambises II|-|perses;egipcis|pro|-|
+eg:1178|esp;pol|FR|EUO|París|0|-|Tour de França;Segona Guerra Mundial|-|pro|-|
+eg:1179|lit;pol|AD;ES|EUS|Andorra la Vella|1|-|Franquisme|-|pro|-|
+eg:1180|pol;gue;eco|IT;GR;ES|EUS|-|1|Jaume I;Pere el Gran|-|-|pro|-|
+eg:1181|dre;pol|ES;DE|EUS|Tarragona|0|Heinz Chez|Franquisme|-|bio|-|
+eg:1182|mus;soc|FR|EUO|Argelers|1|-|Exili republicà|republicans|cul|-|
+eg:1183|his;cie|-|EUS;EUO|-|0|Cristòfor Colom|-|-|deb|-|
+eg:1184|pol;soc|PA|AL|Guna Yala|0|-|Revolució Dule|gunes|con|-|
+eg:1185|rel;pol|SA;IQ|PO|Medina|0|Mahoma;Alí ibn Abi Tàlib|Fitna|sunnites;xiïtes|pro|-|
+eg:1186|gue;pol|ES|EUS|Madrid|0|-|-|-|pro|-|
+eg:1187|eco;soc|ES|EUS|Palma|1|-|-|-|pro|-|
+eg:1188|soc;arq|ES|EUS|Barcelona|1|-|Franquisme|-|pro|-|
+eg:1189|art|ES|EUS|Figueres|1|Salvador Dalí;Salvador Dalí i Cusí;Anna Maria Dalí|-|-|bio|-|
+eg:1190|pol|ES|EUS|Lleida|1|Francesc Macià|-|-|bio|-|
+eg:1191|pol;fil|ES|EUS|Madrid|0|-|-|-|cul|-|
+eg:1192|pol;gue|ES;FR;DZ|EUS;NA|Djelfa|1|Joaquim Picañol Xalabarder|Exili republicà|-|bio|-|
+eg:1193|cul;pol|IT|EUS|L'Alguer|1|Víctor Balaguer;Eduard Toda|-|algueresos|lloc|-|
+eg:1194|dre;gen|HU;SK|EUC|Čachtice|0|Erzsébet Báthory|-|-|bio|Maria Lluïsa Latorre Casellas|
+eg:1195|gue|GB|EUO|-|0|Claudi;Juli Cèsar|Conquesta romana de Britània|romans;britons|con|-|
+eg:1196|cin;lit;pol|IT|EUS|Roma|0|Pier Paolo Pasolini|-|-|bio|-|
+eg:1197|gue;pol|ES|EUS|Barcelona|1|-|Guerra Civil espanyola|-|pro|-|
+eg:1198|soc;dre|ES|EUS|Barcelona|1|-|-|esclaus|pro|-|
+eg:1199|eco|ES|EUS|Berga|1|-|-|-|pro|-|
+eg:1200|med;gue;gen|ES|EUS|Vic|1|-|Brigades Internacionals;Guerra Civil espanyola|-|lloc|-|
+eg:1201|med;lit|-|EUS;EUO|-|0|-|-|-|cul|-|
+eg:1202|lit;gen|FR;CH|EUO;EUC|-|1|Mercè Rodoreda;Armand Obiols|Exili republicà|-|bio|-|
+eg:1203|pol|ES;FM;PW;MP|EUS;OC|-|0|-|Tractat germano-espanyol de 1899|-|pro|-|
+eg:1204|pol|RU|EUE|Petrograd|0|Lenin|Revolució Russa|-|bio|-|
+eg:1205|pol|ES|EUS|Castelló d'Empúries|1|-|-|-|lloc|-|
+eg:1206|eco;soc|ES|EUS|-|1|-|Fil·loxera|-|pro|-|
+eg:1207|soc;rel|TR;ES|PO;EUS|Barcelona|1|-|-|sefardites|bio|-|
+eg:1208|dre;pol|ES|EUS|Barcelona|1|-|Franquisme|-|pro|-|
+eg:1209|cul;cin|GB|EUO|Londres|0|Monty Python|-|-|cul|-|
+eg:1210|eco;cul|ES|EUS|-|1|-|-|-|cul|-|
+eg:1211|eco;pol|ES;TN;DZ;MA|EUS;NA|Tunis|1|Jaume I|-|-|pro|-|
+eg:1212|pol;cul|ES|EUS|Barcelona|1|Josep Pallach|Transició espanyola|-|bio|-|
+eg:1213|eco|ES;CL|EUS;AL|Sort|1|Matías Granja|-|indians|bio|-|
+eg:1214|lit;his|ES;FR|EUS|Puigcerdà|1|Joan Trigall|-|-|cul|-|
+eg:1215|gue;pol|ES;FR|EUS|-|1|-|Guerra Gran|-|pro|-|
+eg:1216|cul;gen;gue|-|EUO|-|0|-|Primera Guerra Mundial|-|pro|-|
+eg:1217|fil|FR|EUO|París|0|Voltaire;Jean-Jacques Rousseau;Montesquieu;Denis Diderot|Il·lustració|-|cul|-|
+eg:1218|soc;gue|FR|EUO|Argelers|1|-|Exili republicà;Retirada|republicans|pro|-|
+eg:1219|cul;lit|ES|EUS|Barcelona|1|-|-|-|cul|-|
+eg:1220|cie;med|GB|EUO|Londres|0|Alexander Fleming;Howard Florey|-|-|pro|-|
+eg:1221|pol;gen|ES|EUS|Barcelona|1|Frederica Montseny|Guerra Civil espanyola|-|bio|-|
+eg:1222|pol;gue;arq|TR|PO;EUS|Istanbul|0|Solimà el Magnífic|-|otomans|bio|-|
+eg:1223|pol;dre|ES|EUS|-|1|-|Guerra Civil espanyola;Franquisme|-|pro|-|
+eg:1224|pol;rel|IT|EUS|Roma|0|Giuseppe Garibaldi;Pius IX|Risorgimento;Presa de Roma|-|pro|-|
+eg:1225|gue;eco;arqu|EG;GR;TR;SY|PO;EUS;NA|-|0|-|Col·lapse de l'edat del bronze|pobles de la mar;hitites;micènics|pro|-|
+eg:1226|med;cie|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:1227|arq;pol|ES|EUS|Balaguer|1|-|-|andalusins|lloc|-|
+eg:1228|lit|ES;CO;PE|EUS;AL|Barcelona|1|Gabriel García Márquez;Mario Vargas Llosa;Carmen Balcells|-|-|cul|-|
+eg:1229|gue;pol|ES;FR;GB;IT|EUS;EUO|-|0|Felip V;Giulio Alberoni|Guerra de la Quàdruple Aliança|-|con|-|
+eg:1230|eco;soc|CU;ES|AL|l'Havana|1|-|-|indians|pro|-|
+eg:1231|gue|GR|EUS|Creta|0|-|Batalla de Creta;Segona Guerra Mundial|-|con|-|
+eg:1232|lit|GR|EUS|Atenes|0|Èsquil;Sòfocles;Eurípides|-|grecs|cul|-|
+eg:1233|rel;pol|ES|EUS|Montserrat|1|Aureli Maria Escarré|Franquisme|-|pro|-|
+eg:1234|rel;cie|EG|NA|-|0|-|-|egipcis|cul|-|
+eg:1235|pol;cul|ES|EUS|Lleida|1|-|Regnes de taifes|andalusins|pro|-|
+eg:1236|gue;pol|FR;IT;HU|EUO;EUS;EUC|-|0|Àtila;Flavi Aeci|Caiguda de l'Imperi Romà d'Occident|huns;romans|bio|-|
+eg:1237|lit;pol|ES|EUS|Barcelona|1|Àngel Guimerà|Renaixença|-|bio|-|
+eg:1238|gue|ES|EUS|Lleida|1|Juan Yagüe|Front del Segre;Guerra Civil espanyola|-|con|-|
+eg:1239|soc|IE;US|EUO;AN|Nova York|0|-|Gran Fam d'Irlanda|irlandesos|pro|-|
+eg:1240|arq;art;eco|ES|EUS|Girona|1|-|Gòtic|-|pro|-|
+eg:1241|gue;lit|MA;ES|NA|-|1|Joaquim Ventalló|Guerra del Rif|-|bio|-|
+eg:1242|gen;lit|ES|EUS|-|1|Jaume I;Bernat Desclot;Ramon Muntaner;Pere el Cerimoniós|-|-|cul|-|
+eg:1243|pol|ES|EUS|Barcelona|1|Jordi Arquer|Dictadura de Primo de Rivera|-|pro|-|

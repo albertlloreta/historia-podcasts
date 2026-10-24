@@ -1,0 +1,100 @@
+ih:374|rel;lit|IL;IQ|PO|Nínive|0|Jonàs|-|israelites|cul|-|
+ih:375|cin;art|FR;NZ|EUO;OC|-|0|Claire Parker;Alexandre Alexeïeff;Len Lye|-|-|cul|-|
+ih:376|lit|ES|EUS|Madrid|0|Pedro Calderón de la Barca|Segle d'Or espanyol|-|cul|-|
+ih:377|rel;lit|IL;IQ|PO|Nínive|0|Jonàs|-|israelites|cul|-|
+ih:378|rel;fil|IN|ASM|-|0|-|-|-|cul|-|
+ih:379|cin;art;gen|US|AN|-|0|Gunvor Nelson;Carolee Schneemann|-|-|cul|-|
+ih:380|art|GB|EUO|Londres|0|Dante Gabriel Rossetti;John Everett Millais|Prerafaelitisme|-|cul|-|
+ih:381|fil;rel|DE|EUC|-|0|Friedrich Nietzsche|-|-|cul|-|
+ih:382|mus;pol|DE|EUC|Bayreuth|0|Richard Wagner|-|-|cul|-|
+ih:383|lit|GR;IE|EUS;EUO|Ítaca|0|Ulisses;James Joyce|-|grecs|cul|-|
+ih:384|rel;lit|IL|PO|Jerusalem|0|Jesús de Natzaret|-|cristians|cul|-|
+ih:385|lit|RU|EUE|Sant Petersburg|0|Lev Tolstoi;Fiódor Dostoievski|-|-|cul|-|
+ih:386|lit|GR;IE|EUS;EUO|Ítaca|0|Ulisses;James Joyce|-|grecs|cul|-|
+ih:387|lit;fil|GB|EUO|Oxford|0|Iris Murdoch|-|-|bio|-|
+ih:388|lit;rel|IT|EUS|Florència|0|Dante Alighieri;Jesús de Natzaret|-|-|cul|-|
+ih:389|fil|DE|EUC|-|0|Friedrich Nietzsche;Peter Sloterdijk|-|-|cul|-|
+ih:390|lit|GR;IE|EUS;EUO|Ítaca|0|Ulisses;James Joyce|-|grecs|cul|-|
+ih:391|fil;lit|GB|EUO|Oxford|0|Iris Murdoch|-|-|cul|-|
+ih:392|fil|DK;DE|EUN;EUC|-|0|Søren Kierkegaard;Martin Heidegger|-|-|cul|-|
+ih:393|rel|IL|PO|Natzaret|0|Maria de Natzaret|-|cristians|cul|-|
+ih:394|fil|DE|EUC|-|0|Peter Sloterdijk|-|-|cul|-|
+ih:395|art|FR|EUO|Ais de Provença|0|Paul Cézanne|Postimpressionisme|-|cul|-|
+ih:396|lit|GB|EUO|-|0|Iris Murdoch|-|-|cul|-|
+ih:397|fil|FR|EUO|París|0|Michel Foucault;Gilles Deleuze|-|-|cul|-|
+ih:398|rel;lit|-|PO|-|0|Caín;Abel|-|-|cul|-|
+ih:399|art;rel|IT;NL|EUS;EUO|-|0|Jesús de Natzaret;Giotto|-|-|cul|-|
+ih:400|fil|DE|EUC|-|0|Peter Sloterdijk|-|-|cul|-|
+ih:401|cie;lit|-|-|-|0|-|-|-|cul|-|
+ih:402|fil|GB|EUO|-|0|Iris Murdoch|-|-|cul|-|
+ih:403|rel;lit|-|PO|-|0|Caín;Abel|-|-|cul|-|
+ih:404|art;mus;rel|IT|EUS|-|0|Miquel Àngel;Giovanni Battista Pergolesi|-|-|cul|-|
+ih:405|fil;rel|DE|EUC|-|0|Peter Sloterdijk|-|-|cul|-|
+ih:406|lit;cie|DE;FR|EUC;EUO|-|0|E. T. A. Hoffmann;Johann Wolfgang von Goethe;Victor Hugo|Romanticisme|-|cul|-|
+ih:407|rel;lit|-|PO|-|0|Caín;Abel|-|-|cul|-|
+ih:408|fil|FR|EUO|París|0|Jean-François Lyotard;Jacques Derrida|-|-|cul|-|
+ih:409|lit;rel|-|GLO|-|0|Jesús de Natzaret|-|-|cul|-|
+ih:410|fil;pol;eco|DE|EUC|-|0|Peter Sloterdijk|-|-|cul|-|
+ih:411|med;lit|AT|EUC|Viena|0|Sigmund Freud;Arthur Schnitzler|-|-|cul|-|
+ih:412|lit|GB|EUO|-|0|Iris Murdoch;William Shakespeare;George Eliot|-|-|cul|-|
+ih:413|mus;rel|DE|EUC|Leipzig|0|Johann Sebastian Bach|-|-|cul|-|
+ih:414|lit;cie;art|IT;FR|EUS;EUO|-|0|Filippo Tommaso Marinetti|Futurisme|-|cul|-|
+ih:415|lit|FR|EUO|París|0|Pierre Choderlos de Laclos|-|-|cul|-|
+ih:416|fil;gen|FR|EUO|París|0|Luce Irigaray;Catherine Malabou|-|-|cul|-|
+ih:417|lit;cie|FR|EUO|-|0|Germans Montgolfier|-|-|cul|-|
+ih:418|lit|DE|EUC|-|0|Johann Wolfgang von Goethe|-|-|cul|-|
+ih:419|lit|GR|EUS|Micenes|0|Electra;Sòfocles;Eurípides|-|grecs|cul|-|
+ih:420|fil;gen|IT;US|EUS;AN|-|0|Rosi Braidotti;Judith Butler|-|-|cul|-|
+ih:421|lit|FR|EUO|-|0|Marcel Proust|-|-|cul|-|
+ih:422|lit;gen|GB|EUO|Haworth|0|Emily Brontë|-|-|cul|-|
+ih:423|lit|GR|EUS|Micenes|0|Electra|-|grecs|cul|-|
+ih:424|lit|FR|EUO|-|0|Stendhal|-|-|cul|-|
+ih:425|lit|GR|EUS|Micenes|0|Electra|-|grecs|cul|-|
+ih:426|lit|RU|EUE|Moscou|0|Lev Tolstoi|-|-|cul|-|
+ih:427|cul;pol;lit|DE;RU|EUC;EUE|-|0|Bertolt Brecht;Vsèvolod Meyerhold|-|-|cul|-|
+ih:428|lit|US;GB|AN;EUO|-|0|Henry James|-|-|cul|-|
+ih:429|cin|RU;FR|EUE;EUO|-|0|Serguei Eisenstein|-|-|cul|-|
+ih:430|cul;his;pol|ES|EUS|-|0|-|Guerra Civil espanyola;Franquisme|-|cul|-|
+ih:431|rel;gen;eco|GR|EUS|Eleusis|0|Demèter|-|grecs|cul|-|
+ih:432|lit|GR|EUS|Tebes|0|Èdip;Sòfocles|-|grecs|cul|-|
+ih:433|cin;pol|FR;IT|EUO;EUS|-|0|-|Maig del 68|-|cul|-|
+ih:434|lit;cul|FR|EUO|París|0|Antonin Artaud|-|-|cul|-|
+ih:435|lit;gen|GR|EUS|Tebes|0|Antígona;Sòfocles|-|grecs|cul|-|
+ih:436|lit|GR|EUS|Tebes|0|Èdip|-|grecs|cul|-|
+ih:437|cul;cin|-|-|-|0|-|-|-|cul|-|
+ih:438|cin;his|ES|EUS|-|0|-|Segona República espanyola|-|cul|-|
+ih:439|cin|-|EUO;AN;EUE|-|0|-|-|-|cul|-|
+ih:440|cul;pol|-|-|-|0|-|-|-|cul|-|
+ih:441|lit|US|AN|Nova York|0|Philip Roth|-|-|cul|-|
+ih:442|lit;gen|GR|EUS|Micenes|0|Clitemnestra;Èsquil|-|grecs|cul|-|
+ih:443|lit|GR|EUS|Tebes|0|Èdip|-|grecs|cul|-|
+ih:444|arq|-|-|-|0|-|-|-|cul|-|
+ih:445|cul;pol;art|-|-|-|0|-|-|-|cul|-|
+ih:446|cin;pol|-|-|-|0|-|-|-|cul|-|en
+ih:447|cin;pol|-|-|-|0|-|-|-|cul|-|
+ih:448|cin|-|-|-|0|-|-|-|cul|-|
+ih:449|lit;gen|FR|EUO|París|0|Madame de La Fayette|-|-|cul|-|
+ih:450|gen;pol;rel|-|EUS;EUO|-|0|Europa|-|-|cul|-|
+ih:451|cul;pol|DE|EUC|Berlín|0|Bertolt Brecht|-|-|cul|-|
+ih:452|cin;pol|ES|EUS|Itoiz|0|-|-|-|cul|-|
+ih:453|cul;pol|-|-|-|0|-|-|-|cul|-|
+ih:454|lit|US;RU|AN|-|0|Vladimir Nabokov|-|-|cul|-|
+ih:455|lit;gen|IT|EUS|-|0|Ovidi;Eco;Narcís|-|romans|cul|-|
+ih:456|cin;gen;his|-|-|-|0|-|-|-|cul|-|
+ih:457|cin;pol|RU;DE|EUE;EUC|-|0|Mikhaïl Romm|Nazisme|-|cul|-|
+ih:458|fil|ES|EUS|Barcelona|1|-|-|-|cul|-|
+ih:459|fil;pol|-|-|-|0|-|-|-|cul|-|
+ih:460|lit;cie|-|GLO|-|0|H. G. Wells;Ray Bradbury|-|-|cul|-|
+ih:461|fil;pol|-|-|-|0|-|-|-|cul|-|
+ih:462|lit;fil|DE|EUC;EUO|-|0|George Steiner|-|-|cul|-|
+ih:463|arq|AT|EUC|Viena|0|Adolf Loos;Otto Wagner|Secessió de Viena|-|cul|-|
+ih:464|fil|-|-|-|0|-|-|-|cul|-|
+ih:465|fil;pol;eco|GB;FR|EUO|-|0|John Locke;Adam Smith;John Stuart Mill|Liberalisme|-|cul|-|
+ih:466|med;soc|AT|EUC|Viena|0|Sigmund Freud|-|-|cul|-|
+ih:467|fil;his|-|-|-|0|-|-|-|cul|-|
+ih:468|fil;pol;eco|GB;FR|EUO|-|0|John Locke;Adam Smith;John Stuart Mill|Liberalisme|-|cul|-|
+ih:469|lit;fil|DE|EUC|-|0|Friedrich Hölderlin|-|-|cul|-|
+ih:470|cie;exp|-|GLO|-|0|-|-|-|cul|-|
+ih:471|mus|AT|EUC|Viena|0|Gustav Mahler|-|-|cul|-|
+ih:472|fil;art|-|-|-|0|-|-|-|cul|-|
+ih:473|fil;pol;eco|GB;FR|EUO|-|0|John Locke;Adam Smith;John Stuart Mill|Liberalisme|-|cul|-|

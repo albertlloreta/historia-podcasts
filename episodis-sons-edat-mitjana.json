@@ -8,7 +8,16 @@
     "descripcio": "En aquest primer programa, cedim el protagonisme a Hildegarda de Bingen (1098-1179), religiosa, intel·lectual, escriptora, visionària i compositora. Per conèixer-la més a fons, hem convidat la doctora en filosofia Georgina Rabassó. A més, col·loquem el nostre primer enregistrament al prestatge, descobrim la inspiració de l'Edat Mitjana més enllà de l'Edat Mitjana, i desvelem el primer capítol de \"La crònica\", amb la veu de Raimon Colomer.",
     "enllac": "https://www.3cat.cat/3cat/programa-1-hildegarda-de-bingen-la-veu-visionaria/audio/912769/",
     "data_emissio": "2016-03-05",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "rel", "gen"],
+    "paisos": ["DE"],
+    "regions": ["EUC"],
+    "lloc": {"nom": "Bingen am Rhein", "qid": "Q285879", "lat": 49.9669, "lon": 7.895},
+    "periodes": ["medieval"],
+    "segles": [11, 12],
+    "personatges": [{"nom": "Hildegarda de Bingen", "qid": "Q70991"}],
+    "tipus": "bio",
+    "convidats": ["Georgina Rabassó"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -19,7 +28,14 @@
     "descripcio": "Malgrat que no és freqüent trobar-los als manuscrits musicals de l'època, formaven part de la banda sonora de l'edat mitjana. Al programa d'avui parlem d'instruments musicals, quins eren, on podien sentir-se, com sonaven. Per fer-ho, comptem amb la presència de Mauricio Molina i Cristina Alís, intèrprets especialitzats en música medieval i responsables del Curs Internacional de Música Medieval de Besalú. A més, recordem David Munrow a \"El prestatge\", sentim un nou episodi de la crònica i descobrim la inspiració medieval de Benjamin Britten.",
     "enllac": "https://www.3cat.cat/3cat/programa-2-musica-instrumental-musica-amagada/audio/913363/",
     "data_emissio": "2016-03-12",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus"],
+    "regions": ["EUS", "EUO"],
+    "lloc": {"nom": "Besalú", "qid": "Q12586", "lat": 42.1989, "lon": 2.6986},
+    "periodes": ["medieval"],
+    "segles": [11, 15],
+    "tipus": "cul",
+    "convidats": ["Mauricio Molina", "Cristina Alís"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -30,7 +46,16 @@
     "descripcio": "Al llarg de 400 anys, les croades van formar part del paisatge quotidià de la societat medieval. Punt de colisió entre les esferes oriental i occidental, van ser font d'inspiració a l'àmbit de l'art i, és clar, a l'àmbit de la música. Aquest enfrontament també és origen de manifestacions populars festives, com és el cas de la festa de moros i cristians, especialment arrelada al País Valencià i que coneixerem més a fons gràcies a José Rafael Pascual Vilaplana, compositor i director. A més, recordem David Munrow a \"El Prestatge\" i descobrim, a través d'una altra disputa, la fugida del Papa Luna de la ciutat d'Avinyó dins la secció \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/programa-3-les-croades-enfrontaments-quotidians/audio/914188/",
     "data_emissio": "2016-03-19",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "rel", "gue"],
+    "paisos": ["ES", "IL"],
+    "regions": ["EUS", "PO"],
+    "lloc": {"nom": "Alcoi", "qid": "Q494777", "lat": 38.6983, "lon": -0.4736},
+    "periodes": ["medieval"],
+    "segles": [11, 13],
+    "esdeveniments": [{"nom": "Croades", "qid": "Q12546"}],
+    "tipus": "cul",
+    "convidats": ["José Rafael Pascual Vilaplana"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -41,7 +66,12 @@
     "descripcio": "Si parlem d'espiritualitat medieval, a banda de la que es recull als llibres, hem de pensar també en la que s'expressa cap enfora, amb gestos, cants, imatges. I és que els analfabets, que van ser la majoria dels fidels entre els segles VIII i XII, també van viure la seva pròpia espiritualitat. Una que requeria visibilitat, so i, per què no, espectacularitat. Una part d'aquesta espectacularitat va recaure en els drames litúrgics, un gènere que descobrim avui amb la col·laboració de la catedràtica en musicologia Maricarmen Gómez Muntané. A més, nova entrega de \"La crònica\", sentim les sonoritats inspirades del cor irlandès Anúna i col·loquem al prestatge una versió ben teatral del drama litúrgic Ludus Danielis.",
     "enllac": "https://www.3cat.cat/3cat/programa-4-drames-liturgics-la-pasqua-a-escena/audio/915218/",
     "data_emissio": "2016-03-26",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "rel", "lit"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval"],
+    "segles": [9, 12],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -52,7 +82,14 @@
     "descripcio": "Al programa d'avui explorem la dansa, un gran passatemps medieval, a més de mecanisme de socialització. Descobrim les músiques que les acompanyaven i us proposem una visita a una exposició: \"El teatre del cos\", que aquests dies podeu trobar al Centre Artesà Tradicionàrius. La recorrem amb el seu comissari, Raül Sanchis. Sense oblidar les seccions \"El Prestatge\" i \"Inspirats per l'edat mitjana\", que en aquesta ocasió conviden l'ensemble Millenarium i Claude Debussy, per acabar, un dia més, amb \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/programa-5-la-dansa-musica-i-moviment-a-ledat-mitjana/audio/916043/",
     "data_emissio": "2016-04-02",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "quo", "cul"],
+    "regions": ["EUS", "EUO"],
+    "lloc": {"nom": "Barcelona", "qid": "Q1492", "lat": 41.3825, "lon": 2.1769},
+    "periodes": ["medieval"],
+    "segles": [12, 15],
+    "tipus": "cul",
+    "convidats": ["Raül Sanchis"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -63,7 +100,16 @@
     "descripcio": "Pot semblar curiós, però un dels monarques més coneguts de l'edat mitjana, mai va existir. Parlem del rei Artur, que des de la seva aparició a la literatura del segle XII no ha deixat d'inspirar els creadors, des de trobadors a directors cinematogràfics. A més, descobrim la seva vessant més màgica amb els historiadors Delfi Nieto i Pau Castell, responsables del curs \"Magic in the middle ages\". Recordem el tenor José Ferrero, sentim el rei Artur més barroc i un capítol de \"La crònica\" que ens farà tremolar.",
     "enllac": "https://www.3cat.cat/3cat/programa-6-el-rei-artur-monarca-de-llegenda/audio/916267/",
     "data_emissio": "2016-04-09",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus"],
+    "paisos": ["GB", "FR"],
+    "regions": ["EUO"],
+    "periodes": ["medieval"],
+    "segles": [12, 15],
+    "personatges": [{"nom": "Rei Artús", "qid": "Q45792"}],
+    "civilitzacions": ["britons"],
+    "tipus": "cul",
+    "convidats": ["Delfi Nieto", "Pau Castell"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -74,7 +120,16 @@
     "descripcio": "Ens acostem al món de la lírica trobadoresca: poemes i música íntimament relacionats que van omplir les corts entre els segles XII i XIII. Obrim també les pàgines d'un llibre, una novel·la per a infants que porta per títol \"Missió trobairitz!\", escrita per Cinta Arasa, autora que ens acompanyarà al programa. Els trobadors també es fan presents a la secció \"Inspirats per l'edat mitjana\" a través de l'òpera \"Written on skin\", de George Benjamin (2012) i a \"El prestatge\", on fem sonar el disc de debut del grup Mos Azimans. I no oblidem \"La crònica\", que arriba amb un tema dur: la pesta.",
     "enllac": "https://www.3cat.cat/3cat/programa-7-descobrint-la-lirica-trobadoresca/audio/917284/",
     "data_emissio": "2016-04-16",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus"],
+    "paisos": ["FR", "ES"],
+    "regions": ["EUO", "EUS"],
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [11, 13],
+    "civilitzacions": ["occitans"],
+    "tipus": "cul",
+    "convidats": ["Cinta Arasa"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -85,7 +140,15 @@
     "descripcio": "Som molts els que actualment habitem les ciutats, uns espais que durant l'edat mitjana van créixer i desenvolupar-se. Com eren les ciutats medievals? I sobretot, com sonaven? Una hora per descobrir músiques marcades amb topònims i sons tan urbans com el de les campanes, que comentarem amb el músic, historiador de l'art i campaner Daniel Vilarrúbias. A la secció \"El prestatge\" sentirem l'àlbum \"Les escholiers de París\" i no deixarem la capital francesa a la secció \"Inspirats per l'edat mitjana\", on farem una incursió al Renaixement. Acabarem, com sempre, amb \"La crònica\", on descobrirem el setge de València de 1363 segons la visió de Joan Torralles; un episodi que hem realitzat amb la col·laboració de l'historiador valencià Vicent Baydal.",
     "enllac": "https://www.3cat.cat/3cat/programa-8-el-so-de-la-ciutat/audio/918130/",
     "data_emissio": "2016-04-23",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "quo", "arq"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "París", "qid": "Q90", "lat": 48.8567, "lon": 2.3522},
+    "periodes": ["medieval"],
+    "segles": [11, 15],
+    "tipus": "cul",
+    "convidats": ["Daniel Vilarrúbias"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -96,7 +159,16 @@
     "descripcio": "Si hi ha una font musical medieval propera a nosaltres que sigui àmpliament coneguda, aquesta és el Llibre Vermell de Montserrat. Avui ens endinsem a les peces musicals que inclou a través de versions diverses i que ens fan viatjar a través del temps i dels gèneres musicals. Precisament per orientar-nos en les fronteres del món clàssic hem convidat en Blai Marsé, redactor a iCat.cat i responsable del programa \"5 songs\". No oblidem \"El prestatge\" ni tampoc \"La crònica\", que ens durà a un estiu de finals del segle XIV on va ploure a bots i barrals.",
     "enllac": "https://www.3cat.cat/3cat/programa-9-el-llibre-vermell-de-montserrat/audio/919039/",
     "data_emissio": "2016-04-30",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "rel"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Montserrat", "qid": "Q732115", "lat": 41.6054, "lon": 1.8115},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [14, 14],
+    "tipus": "cul",
+    "convidats": ["Blai Marsé"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -107,7 +179,16 @@
     "descripcio": "Sabíeu que Alfons X el Savi va arribar a dissenyar uns escacs astronòmics? Avui parlem de jocs de taula en època medieval: escacs, daus, cartes... que també van deixar la seva empremta al món musical. Ho fem amb música, és clar, d'Alfons X, i amb la col·laboració del catedràtic en història medieval Ángel Luis Molina, de la Universitat de Múrcia. A més, descobrim un \"joc\" fortament inspirat en l'edat mitjana: la sèrie \"Joc de Trons\", i no oblidem \"El prestatge\" -amb un àlbum del grup Gothic Voices- ni la secció \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/programa-10-jocs-de-taula-a-ledat-mitjana/audio/919965/",
     "data_emissio": "2016-05-07",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["quo", "mus"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Toledo", "qid": "Q5836", "lat": 39.8667, "lon": -4.0333},
+    "periodes": ["medieval"],
+    "segles": [13, 13],
+    "personatges": [{"nom": "Alfons X de Castella", "qid": "Q47595"}],
+    "tipus": "quo",
+    "convidats": ["Ángel Luis Molina"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -118,7 +199,16 @@
     "descripcio": "Ens endinsem al món dels poetes goliards del segle XII, per sentir algunes de les cançons incloses en un dels manuscrits més famosos que recullen aquestes peces: el Codex Buranus, on s'inclouen, és clar, els coneguts com \"Carmina Burana\", els cants de Beuern. A més, conversem sobre menjars medievals amb Paco Soler Parellada, del restaurant 7 portes i responsable de l'edició del \"Llibre d'aparellar de menjar\". No oblidem \"Inspirats per l'edat mitjana\", on ens espera una obra inevitable, ni tampoc \"El prestatge\", on us recomanarem un disc molt mediterrani. A \"La Crònica\", la mort del rei Joan I d'Aragó.",
     "enllac": "https://www.3cat.cat/3cat/programa-11-la-lirica-dels-goliards/audio/921536/",
     "data_emissio": "2016-05-14",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus", "quo"],
+    "paisos": ["DE"],
+    "regions": ["EUC"],
+    "lloc": {"nom": "Benediktbeuern", "qid": "Q503628", "lat": 47.7067, "lon": 11.4117},
+    "periodes": ["medieval"],
+    "segles": [12, 13],
+    "civilitzacions": ["goliards"],
+    "tipus": "cul",
+    "convidats": ["Paco Soler Parellada"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -129,7 +219,14 @@
     "descripcio": "Accedir a una partitura no sembla una tasca difícil. A través d'ella podem reproduir melodies d'altres moments i fins i tot, d'altres segles. Ens endinsem en l'origen d'aquest mecanisme màgic: la notació. I ho fem acompanyats de Juan Carlos Asensio, professor de l'Escola Superior de Música de Catalunya.",
     "enllac": "https://www.3cat.cat/3cat/programa-12-la-notacio-preservar-la-memoria/audio/921869/",
     "data_emissio": "2016-05-21",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "cie"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval"],
+    "segles": [9, 13],
+    "personatges": [{"nom": "Guido d'Arezzo", "qid": "Q192238"}],
+    "tipus": "cul",
+    "convidats": ["Juan Carlos Asensio"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -140,7 +237,17 @@
     "descripcio": "Moltes persones encara emprenen aquesta ruta, i per molts motius diferents. Parlem d'aquest trajecte i les músiques que l'envoltaven al seu origen: l'edat mitjana. Obrim les pàgines del Còdex Calixtí i parlem sobre iconografia musical amb el musicòleg Francesc Vicens. Un pelegrinatge discogràfic protagonitza \"El prestatge\", i ens posem wagnerians amb \"Inspirats per l'edat mitjana\". A \"La crònica\", una visió diferent del Corpus.",
     "enllac": "https://www.3cat.cat/3cat/programa-13-el-cami-de-sant-jaume/audio/922537/",
     "data_emissio": "2016-05-28",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["rel", "mus", "exp"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Santiago de Compostel·la", "qid": "Q14314", "lat": 42.8833, "lon": -8.5333},
+    "periodes": ["medieval"],
+    "segles": [12, 12],
+    "personatges": [{"nom": "Sant Jaume", "qid": "Q43999"}],
+    "esdeveniments": [{"nom": "Camí de Sant Jaume", "qid": "Q41150"}],
+    "tipus": "cul",
+    "convidats": ["Francesc Vicens"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -151,7 +258,15 @@
     "descripcio": "Ja entrat el segle XX, alguns musicòlegs van parar atenció a un grup d'obres ben estranyes: les seves partitures tenien formes capricioses, notes colorides. La sorpresa encara va ser més gran en fer-les sonar: les harmonies eren capricioses i les combinacions rítmiques, un autèntic trencaclosques. Van agrupar aquestes obres dins un estil: l'Ars Subtilior. Avui sentim algunes d'aquestes músiques, i a més, entrevistem el flautista i forner Tonatiuh Cortés. Com sempre, també afegim un nou disc a \"El Prestatge\", descobrim la inspiració medieval de Robert Gerhard i sentim un nou capítol de \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/programa-14-ars-subtilior-experimentacio-sonora/audio/923968/",
     "data_emissio": "2016-06-04",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus"],
+    "paisos": ["FR", "ES", "IT"],
+    "regions": ["EUO", "EUS"],
+    "lloc": {"nom": "Avinyó", "qid": "Q6397", "lat": 43.9486, "lon": 4.8083},
+    "periodes": ["medieval"],
+    "segles": [14, 15],
+    "tipus": "cul",
+    "convidats": ["Tonatiuh Cortés"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -162,7 +277,18 @@
     "descripcio": "Un dels espais emblemàtics del nostre territori és el monestir de Ripoll. Ens hi acostem per conèixer la seva rellevància, les músiques que va acollir, les imatges de la seva portada, candidata a ser reconeguda Patrimoni de la Humanitat. Per tal de fer-ho, hem convidat el conservador del Museu Episcopal de Vic, Marc Sureda, que ens acostarà encara més al món de l'art romànic, que tan evocador resulta. A més, descobrim la inspiració medieval de Leopold Stokowski, un àlbum dedicat al so de la viola amb Emmanuel Bonnardot a \"El Prestatge\" i sentim la segona part de la visita del papa Benet XIII a terres catalanes.",
     "enllac": "https://www.3cat.cat/3cat/programa-15-el-monestir-de-ripoll/audio/924653/",
     "data_emissio": "2016-06-11",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["rel", "art", "mus"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Ripoll", "qid": "Q12335", "lat": 42.2011, "lon": 2.1903},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [9, 12],
+    "personatges": [{"nom": "Oliba", "qid": "Q1974868"}],
+    "esdeveniments": [{"nom": "Romànic", "qid": "Q46261"}],
+    "tipus": "lloc",
+    "convidats": ["Marc Sureda"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -173,7 +299,16 @@
     "descripcio": "La presència de les dones dins la lírica trobadoresca va més enllà de l'existència de trobairitz. Descobrim les composicions en veu de dona amb l'ajut de la doctora Meritxell Simó. A més, \"Seized by sweet desire\" a \"El Prestatge\" i música renaixentista a \"Inspirats per l'edat mitjana\" amb \"Guárdame las vacas\". Sense oblidar un nou capítol de \"La crònica\"!",
     "enllac": "https://www.3cat.cat/3cat/programa-16-lirica-medieval-en-femeni/audio/925694/",
     "data_emissio": "2016-06-18",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus", "gen"],
+    "paisos": ["FR", "ES"],
+    "regions": ["EUO", "EUS"],
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [12, 13],
+    "civilitzacions": ["trobairitz"],
+    "tipus": "cul",
+    "convidats": ["Meritxell Simó"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -184,7 +319,18 @@
     "descripcio": "S'ha escrit molt sobre catarisme, i en molts casos, tenim més preguntes que respostes. Posem el focus sobre aquest moviment espiritual i els sons que l'envoltaven en conversa amb Sergi Grau, historiador i autor del llibre \"La invenció dels càtars: la veritable història dels Bons Homes a Catalunya\" (Angle Editorial).",
     "enllac": "https://www.3cat.cat/3cat/programa-17-els-catars-entre-la-realitat-i-el-mite/audio/925698/",
     "data_emissio": "2016-06-25",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["rel", "mus", "his"],
+    "paisos": ["FR", "ES"],
+    "regions": ["EUO", "EUS"],
+    "lloc": {"nom": "Montsegur", "qid": "Q379892", "lat": 44.6503, "lon": 0.0808},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [12, 14],
+    "esdeveniments": [{"nom": "Croada albigesa", "qid": "Q51657"}],
+    "civilitzacions": ["càtars"],
+    "tipus": "deb",
+    "convidats": ["Sergi Grau"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -195,7 +341,17 @@
     "descripcio": "Jaume I va ser rei d'Aragó, comte de Barcelona, rei de València, rei de Mallorca, rei de Rosselló i Cerdanya, senyor de Montpeller i Omeladès i comte d'Urgell. Ens endinsem al paisatge sonor que envoltava la seva figura. A més, entrevistem l'historiador Vicent Baydal, membre del grup Harca i autor del llibre \"Els valencians, des de quan són valencians?\" (ed. Afers). Sense oblidar \"El Prestatge\", que dedicarem a un enregistrament del grup Capella de Ministrers; \"La crònica\", on seguim endavant amb la presa de Sardenya, i \"Inspirats per l'edat mitjana\", on Pavarotti posa la veu al trobador verdià Manrico.",
     "enllac": "https://www.3cat.cat/3cat/programa-18-descobrim-jaume-i-el-conqueridor/audio/927558/",
     "data_emissio": "2016-07-02",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["pol", "mus"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "València", "qid": "Q8818", "lat": 39.47, "lon": -0.3764},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [13, 13],
+    "personatges": [{"nom": "Jaume I", "qid": "Q212052"}],
+    "tipus": "bio",
+    "convidats": ["Vicent Baydal"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -206,7 +362,15 @@
     "descripcio": "Va ser poeta i compositor, i la seva influència i projecció van estendre's més enllà de la frontera de la seva mort. Ens acostem a la vida i obra del \"mestre de totes les melodies\" amb una bona immersió musical. A més, recordem la pel·lícula \"El nom de la rosa\", basada en la novel·la d'Umberto Eco, en el 30è aniversari de la seva estrena.",
     "enllac": "https://www.3cat.cat/3cat/programa-19-guillaume-de-machaut-flor-de-tota-melodia/audio/928211/",
     "data_emissio": "2016-07-09",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "lit"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "Reims", "qid": "Q41876", "lat": 49.2653, "lon": 4.0286},
+    "periodes": ["medieval"],
+    "segles": [13, 14],
+    "personatges": [{"nom": "Guillaume de Machaut", "qid": "Q200580"}],
+    "tipus": "bio"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -217,7 +381,9 @@
     "descripcio": "Al llarg de 20 setmanes hem obert el calaix de la música i la història per treure la pols a una època massa sovint desprestigiada. Compartim amb vosaltres com hem viscut aquesta primera temporada dels \"Sons\" des de dins i amb les veus dels protagonistes.",
     "enllac": "https://www.3cat.cat/3cat/programa-20-acomiadem-la-temporada/audio/928742/",
     "data_emissio": "2016-07-16",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus"],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -228,7 +394,16 @@
     "descripcio": "Mag? Profeta? Personatge real o de ficció? Comencem la temporada amb una dosi de màgia, a càrrec d'un dels personatges més longeus de la literatura artúrica medieval. A més, parlem del festival \"Terra de Trobadors\" amb el seu director artístic, Isaac Morera, i el coordinador del cicle musical \"So de lonh\" i membre de Locus Desperatus, Oriol Casadevall.",
     "enllac": "https://www.3cat.cat/3cat/programa-21-merli-mag-i-profeta-a-la-cort-arturica/audio/931376/",
     "data_emissio": "2016-09-09",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus"],
+    "paisos": ["GB", "FR"],
+    "regions": ["EUO"],
+    "periodes": ["medieval"],
+    "segles": [12, 13],
+    "personatges": [{"nom": "Merlí"}],
+    "civilitzacions": ["britons"],
+    "tipus": "cul",
+    "convidats": ["Isaac Morera", "Oriol Casadevall"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -239,7 +414,15 @@
     "descripcio": "La lírica amorosa no va escriure's tan sols en llengua \"d'oc\" i llengua \"d'oïl\". Avui descobrim la versió germànica dels poetes de l'amor: els minnesänger. A més, ens endinsem en les peculiaritats de l'amor medieval amb la dra. Gemma Pellissa, a banda de descobrir un nou capítol de \"La crònica\", que aquesta temporada ens descobreix el \"Llibre dels Fets\" de Jaume I.",
     "enllac": "https://www.3cat.cat/3cat/programa-22-el-minnesang-lirica-amorosa-alemanya/audio/932698/",
     "data_emissio": "2016-09-16",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus"],
+    "paisos": ["DE"],
+    "regions": ["EUC"],
+    "periodes": ["medieval"],
+    "segles": [12, 14],
+    "personatges": [{"nom": "Walther von der Vogelweide", "qid": "Q44385"}],
+    "tipus": "cul",
+    "convidats": ["Gemma Pellissa"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -250,7 +433,16 @@
     "descripcio": "Us proposem un recorregut per la Barcelona medieval: els seus carrers i places, i sobretot, la vida dels barcelonins i barcelonines. Farem una parada especial a la Basílica de Santa Maria del Pi: allà parlarem amb en Jordi Sacasas, el director del seu arxiu i descobrirem com sona una peça del segle XV -original del Pi- a l'orgue de la mateixa església. A més, les seccions habituals, \"Inspirats per l'edat mitjana\", \"El prestatge\" i un nou capítol de \"La crònica\"; la secció on obrim les pàgines del \"Llibre dels fets\".",
     "enllac": "https://www.3cat.cat/3cat/programa-23-un-passeig-per-la-barcelona-medieval/audio/933562/",
     "data_emissio": "2016-09-23",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["quo", "mus", "arq"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Barcelona", "qid": "Q1492", "lat": 41.3825, "lon": 2.1769},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [12, 15],
+    "tipus": "lloc",
+    "convidats": ["Jordi Sacasas"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -261,7 +453,16 @@
     "descripcio": "Obrim el primer dels programes dedicats a històries de trobadors amb nom propi amb el considerat el primer dels trobadors en llengua occitana: Guilhem de Peitieus, duc d'Aquitània, de Gascunya i comte de Poitiers. A més, les seccions habituals, \"Inspirats per l'edat mitjana\", \"El prestatge\" i un nou capítol de \"La crònica\"; la secció on obrim les pàgines del \"Llibre dels fets\".",
     "enllac": "https://www.3cat.cat/3cat/programa-24-guilhem-de-peitieus-el-primer-trobador/audio/934507/",
     "data_emissio": "2016-09-30",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "Poitiers", "qid": "Q6616", "lat": 46.5811, "lon": 0.3353},
+    "periodes": ["medieval"],
+    "segles": [11, 12],
+    "personatges": [{"nom": "Guillem IX d'Aquitània", "qid": "Q5351"}],
+    "civilitzacions": ["occitans"],
+    "tipus": "bio"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -272,7 +473,16 @@
     "descripcio": "L'any 793 una expedició arribava per mar al monestir britànic de Lindisfarne per saquejar-lo completament. Els saquejadors van arribar amb el bon temps, en vaixells estrets i allargats, als què anomenaven drakkars. Membres d'un poble que coneixia el mar, que venien del fred. Parlem, és clar, dels víkings. A més, entrevistem l'escriptor Ángel Gil Cheza, autor de \"La lluvia es una canción sin letra\" (Ed. Suma) i sentim les seccions habituals, \"Inspirats per l'edat mitjana\", \"El prestatge\" i un nou capítol de \"La crònica\"; la secció on obrim les pàgines del \"Llibre dels fets\".",
     "enllac": "https://www.3cat.cat/3cat/programa-25-vikings-gel-i-poesia/audio/935235/",
     "data_emissio": "2016-10-07",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus", "gue"],
+    "paisos": ["NO", "DK", "GB"],
+    "regions": ["EUN", "EUO"],
+    "lloc": {"nom": "Lindisfarne", "qid": "Q213804", "lat": 55.68, "lon": -1.8025},
+    "periodes": ["medieval"],
+    "segles": [8, 11],
+    "civilitzacions": ["vikings"],
+    "tipus": "cul",
+    "convidats": ["Ángel Gil Cheza"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -283,7 +493,17 @@
     "descripcio": "Descobrim la història d'aquesta figura clau per a la medicina, autor d'obres com el \"Regimen Sanitatis ad regum Aragonum\" i el \"Medicinalium introductionum speculum\". Per aprofundir-hi, ens guia l'historiador Sergi Grau. A més, música del segle XX inspirada pels \"Contes de Canterbury\" i col·loquem un nou disc al Prestatge, dedicat al compositor Guillaume Dufay.",
     "enllac": "https://www.3cat.cat/3cat/programa-26-arnau-de-vilanova/audio/935407/",
     "data_emissio": "2016-10-21",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["med", "cie"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "València", "qid": "Q8818", "lat": 39.47, "lon": -0.3764},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [13, 14],
+    "personatges": [{"nom": "Arnau de Vilanova", "qid": "Q356568"}],
+    "tipus": "bio",
+    "convidats": ["Sergi Grau"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -294,7 +514,17 @@
     "descripcio": "L'edat mitjana va ser l'època de les grans solucions, i entre elles s'hi troba la impremta. Atribuïda a Johannes Gutenberg, va inventar-se vora l'any 1444 i va suposar tota una revolució. A més, i ja que parlem de paraula escrita, descobrirem el Beatus d'Urgell -un manuscrit valuosíssim del segle X conservat al Museu Diocesà d'Urgell- a través de la seva restauradora, Carme Balliu, del Centre de Restauració de Béns Mobles de Catalunya.",
     "enllac": "https://www.3cat.cat/3cat/programa-27-la-revolucio-impresa/audio/938066/",
     "data_emissio": "2016-10-28",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["cie", "cul"],
+    "paisos": ["DE", "ES"],
+    "regions": ["EUC", "EUS"],
+    "lloc": {"nom": "Magúncia", "qid": "Q1720", "lat": 49.9994, "lon": 8.2736},
+    "ambit_catala": true,
+    "periodes": ["medieval", "moderna"],
+    "segles": [15, 15],
+    "personatges": [{"nom": "Johannes Gutenberg", "qid": "Q8958"}],
+    "tipus": "pro",
+    "convidats": ["Carme Balliu"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -305,7 +535,17 @@
     "descripcio": "La història de Margery és única. Se la considera la primera dona autora d'una autobiografia en anglès: un volum que ens parla d'ella mateixa com a mística, viatgera i protagonista d'una vida al límit de l'ortodòxia religiosa. Un programa on hi trobareu les seccions habituals, a més d'una entrevista amb la historiadora Delfi Nieto, que il·lumina per a nosaltres el món de les beguines.",
     "enllac": "https://www.3cat.cat/3cat/programa-28-margery-kempe-als-limits-de-lespiritualitat/audio/938778/",
     "data_emissio": "2016-11-04",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["rel", "gen", "lit"],
+    "paisos": ["GB"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "King's Lynn", "qid": "Q157341", "lat": 52.7543, "lon": 0.3976},
+    "periodes": ["medieval"],
+    "segles": [14, 15],
+    "personatges": [{"nom": "Margery Kempe", "qid": "Q509271"}],
+    "civilitzacions": ["beguines"],
+    "tipus": "bio",
+    "convidats": ["Delfi Nieto"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -316,7 +556,16 @@
     "descripcio": "Obrim les pàgines de l'Hortus Deliciarum, un compendi creat per Herrada de Hohenburg per la formació de les monges de la seva comunitat. Un volum ple d'autèntiques delícies gràfiques i també musicals, en ple segle XII. A més, parlem amb la il·lustradora Marta Ponce, que il·lumina una novetat editorial ben inspirada per l'edat mitjana: \"El caballero doble\" (ed. Gadir).",
     "enllac": "https://www.3cat.cat/3cat/programa-29-el-jardi-de-les-delicies-dherrada-de-hohenburg/audio/939879/",
     "data_emissio": "2016-11-11",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["rel", "gen", "art", "mus"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "Mont Sainte-Odile", "qid": "Q1399857", "lat": 48.4375, "lon": 7.4045},
+    "periodes": ["medieval"],
+    "segles": [12, 12],
+    "personatges": [{"nom": "Herrada de Landsberg", "qid": "Q257351"}],
+    "tipus": "cul",
+    "convidats": ["Marta Ponce"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -327,7 +576,17 @@
     "descripcio": "Ens acostem al monestir de Sant Jeroni de la Murtra, situat a la serralada de Marina, al terme municipal de Badalona, per descobrir un espai emblemàtic fortament vinculat amb la història. Un espai que enguany celebra el seu 600 aniversari. Descobrim, doncs, el seu passat, però també al seu present, gràcies a Javier Bustamante, coordinador d'activitats del monestir. I a més, les seccions habituals: \"El prestatge\", \"Inspirats per l'edat mitjana\" i \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/programa-30-sant-jeroni-de-la-murtra-600-anys-dhistoria/audio/940877/",
     "data_emissio": "2016-11-18",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["rel", "arq"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Badalona", "qid": "Q15468", "lat": 41.4333, "lon": 2.2333},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [15, 15],
+    "civilitzacions": ["jerònims"],
+    "tipus": "lloc",
+    "convidats": ["Javier Bustamante"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -338,7 +597,17 @@
     "descripcio": "La religió marcava la vida dels homes i dones medievals, i la cristiana no va ser l'única en fer-ho. Ens acostem avui als habitants dels calls: els jueus. A més, revisem una conferència de la doctora Meritxell Blasco Orellana, dedicada a la imatge i posició de les jueves medievals a través de les fonts mèdiques. Tot acompanyat de músiques diverses lligades a l'edat mitjana i al judaisme en un programa per obrir les orelles i la ment.",
     "enllac": "https://www.3cat.cat/3cat/programa-31-la-musica-a-la-cultura-jueva-una-aproximacio/audio/941822/",
     "data_emissio": "2016-11-25",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "rel"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Girona", "qid": "Q7038", "lat": 41.9833, "lon": 2.8167},
+    "ambit_catala": true,
+    "periodes": ["medieval", "moderna"],
+    "segles": [10, 15],
+    "civilitzacions": ["jueus"],
+    "tipus": "cul",
+    "convidats": ["Meritxell Blasco Orellana"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -349,7 +618,13 @@
     "descripcio": "Ens endinsem al món d'aquells éssers que representen la perversió, la deformitat, l'amenaça i, en el fons, la part fosca que potser tots guardem en un lloc o altre. Alhora, éssers que desperten la nostra imaginació, i també la dels homes i dones medievals: els monstres! Per enriquir la nostra perspectiva, comptem amb la col·laboració del doctor Gerardo Boto, professor d'història de l'art medieval a la Universitat de Girona. A més, torna \"La crònica\" i ens deixem dur per Mendelssohn i Melusina a \"Inspirats per l'edat mitjana\".",
     "enllac": "https://www.3cat.cat/3cat/programa-32-monstres-medievals/audio/942553/",
     "data_emissio": "2016-12-02",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["cul", "art", "lit"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval"],
+    "segles": [11, 14],
+    "tipus": "cul",
+    "convidats": ["Gerardo Boto"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -360,7 +635,17 @@
     "descripcio": "\"Oratores\", \"bellatores\" i \"laboratores.\" Aquesta era la divisió de la societat entre els que preguen, els que lluiten i els que treballen, en època feudal. Avui ens acostem a l'origen dels primers, els monjos, i a la base del monacat occidental: la regla de sant Benet. Ens acostem doncs, a l'orde benedictí en aquest programa, on, a més, hem descobert la tasca del Servei d'Arxius de la Federació de Monges Benedictines, que ens ha presentat Irene Brugués.",
     "enllac": "https://www.3cat.cat/3cat/programa-33-lorde-benedicti/audio/943326/",
     "data_emissio": "2016-12-09",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["rel"],
+    "paisos": ["IT"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Montecassino", "qid": "Q334051", "lat": 41.49, "lon": 13.814},
+    "periodes": ["medieval"],
+    "segles": [6, 6],
+    "personatges": [{"nom": "Benet de Núrsia", "qid": "Q44265"}],
+    "civilitzacions": ["benedictins"],
+    "tipus": "pro",
+    "convidats": ["Irene Brugués"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -371,7 +656,16 @@
     "descripcio": "Com és habitual en aquestes dates, en molts indrets del territori té lloc una representació que per alguns resulta curiosa i que posa un peu a la tradició i la història, mentre que l'altre el deixa, esclar, al segle XXI. Es tracta del Cant de la Sibil·la, un drama litúrgic en què avui us proposem aprofundir. A més, parlem amb Bernat Vivancos, que aquest any participa com a compositor convidat al Cant de la Sibil·la de la catedral de Barcelona i sentim música de Dead Can Dance i l'ensemble Leones. Ah! I un nou episodi de \"La crònica\"!",
     "enllac": "https://www.3cat.cat/3cat/programa-34-el-cant-de-la-sibilla/audio/945080/",
     "data_emissio": "2016-12-23",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "rel"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Barcelona", "qid": "Q1492", "lat": 41.3825, "lon": 2.1769},
+    "ambit_catala": true,
+    "periodes": ["medieval", "moderna"],
+    "segles": [10, 15],
+    "tipus": "cul",
+    "convidats": ["Bernat Vivancos"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -382,7 +676,16 @@
     "descripcio": "Durant el 2016, el món de la cultura ha viscut permanentment connectat a l'edat mitjana a través d'una efemèride. El 700 aniversari de la mort de Ramon Llull. Repassem al programa d'avui els espectacles i novetats discogràfiques que l'han homenatjat.",
     "enllac": "https://www.3cat.cat/3cat/programa-35-2016-any-llull/audio/945670/",
     "data_emissio": "2016-12-30",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["fil", "lit"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Palma", "qid": "Q8826", "lat": 39.5667, "lon": 2.6497},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [13, 14],
+    "personatges": [{"nom": "Ramon Llull", "qid": "Q193660"}],
+    "tipus": "bio"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -393,7 +696,15 @@
     "descripcio": "Avui, als \"Sons de l'edat mitjana\" deixarem que la música parli per si mateixa. Us proposem fer una immersió musical en una obra que il·lustra una època a la perfecció, que ha arribat a nosaltres com a testimoni del passat. Així doncs, si ens acompanyeu, durant la propera hora reviurem plegats una litúrgia medieval completa. Concretament, viatjarem a algun moment entre finals del segle XIV i principis del segle XV al territori de la corona d'Aragó. I és que avui ens espera la Missa de Barcelona.",
     "enllac": "https://www.3cat.cat/3cat/programa-36-la-missa-de-barcelona/audio/946097/",
     "data_emissio": "2017-01-13",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "rel"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Barcelona", "qid": "Q1492", "lat": 41.3825, "lon": 2.1769},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [14, 14],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -404,7 +715,16 @@
     "descripcio": "Entre la realitat i la ficció, un viatger venecià va recórrer un trajecte que va descobrir als europeus els territoris de l'Àsia Oriental i la Xina, si més no, a través d'un llibre. Avui ens acostem a la figura de Marco Polo i al món dels viatges medievals, amb la col·laboració de la Doctora en Història i investigadora al Consell Superior d'Investigacions Científiques, Roser Salicrú i Lluch. A més, \"El prestatge\", \"Inspirats per l'edat mitjana\", i \"La Crònica\".",
     "enllac": "https://www.3cat.cat/3cat/programa-37-els-viatges-de-marco-polo/audio/946624/",
     "data_emissio": "2017-01-20",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["exp"],
+    "paisos": ["IT", "CN"],
+    "regions": ["AO", "ACM"],
+    "lloc": {"nom": "Venècia", "qid": "Q641", "lat": 45.4397, "lon": 12.3319},
+    "periodes": ["medieval"],
+    "segles": [13, 13],
+    "personatges": [{"nom": "Marco Polo", "qid": "Q6101"}],
+    "tipus": "bio",
+    "convidats": ["Roser Salicrú i Lluch"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -415,7 +735,13 @@
     "descripcio": "Aquesta setmana ens endinsem al món de les begudes medievals acompanyats per la música: aigua, vi, aiguamel, i també cervesa, que coneixem més a fons gràcies a Albert Barrachina, cerveser artesà i autor del blog \"Cervesa en català\". A més, les seccions habituals, \"El Prestatge\", \"La crònica\" i \"Inspirats per l'edat mitjana\".",
     "enllac": "https://www.3cat.cat/3cat/programa-38-prenem-una-copa/audio/947445/",
     "data_emissio": "2017-01-27",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["quo"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval"],
+    "segles": [11, 15],
+    "tipus": "quo",
+    "convidats": ["Albert Barrachina"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -426,7 +752,17 @@
     "descripcio": "Ens endinsem dins l'obra de Joanot Martorell, publicada a València l'any 1490 i que ens acosta a la vessant més humana d'una cort medieval prou peculiar. Ho fem, també, amb la col·laboració de Josep Vicent Miralles, responsable de l'edició més recent de la novel·la, a Drassana Llibres. A més, noves entregues de les seccions \"Inspirats per l'edat mitjana\", \"El prestatge\" i \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/programa-39-tirant-lo-blanc/audio/948391/",
     "data_emissio": "2017-02-03",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "València", "qid": "Q8818", "lat": 39.47, "lon": -0.3764},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [15, 15],
+    "personatges": [{"nom": "Joanot Martorell", "qid": "Q363836"}],
+    "tipus": "cul",
+    "convidats": ["Josep Vicent Miralles"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -437,7 +773,11 @@
     "descripcio": "La secció \"Inspirats per l'edat mitjana\" creix per a centrar el programa d'avui, que dedicarem a un dels vehicles més innovadors i destacats per descobrir el món medieval: el món dels videojocs i les seves bandes sonores!-. Una descoberta que farem gràcies a la col·laboració de Juan Francisco Jiménez Alcázar, catedràtic d'història medieval a la Universitat de Múrcia i responsable del projecte de recerca \"Historia y videojuegos: el impacto de los nuevos medios de ocio sobre el conocimiento del pasado medieval\".",
     "enllac": "https://www.3cat.cat/3cat/programa-40-videojocs-i-edat-mitjana/audio/948403/",
     "data_emissio": "2017-02-10",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["cul", "mus"],
+    "regions": ["GLO"],
+    "tipus": "cul",
+    "convidats": ["Juan Francisco Jiménez Alcázar"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -448,7 +788,15 @@
     "descripcio": "Al segle XII, Abelard escrivia la seva \"Historia Calamitatum\", gairebé una autobiografia on relatava amb desconsol les seves dissorts. Heloïsa, per la seva part, havia estat una dona intel·ligent i educada en la filosofia. Aquests dos personatges s'uneixen en l'amor, la música, el pecat i avui protagonitzen els \"Sons de l'edat mitjana\".",
     "enllac": "https://www.3cat.cat/3cat/programa-41-abelard-i-heloisa/audio/950244/",
     "data_emissio": "2017-02-17",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["fil", "lit", "mus"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "París", "qid": "Q90", "lat": 48.8567, "lon": 2.3522},
+    "periodes": ["medieval"],
+    "segles": [12, 12],
+    "personatges": [{"nom": "Pere Abelard", "qid": "Q4295"}, {"nom": "Heloïsa", "qid": "Q5656"}],
+    "tipus": "bio"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -459,7 +807,14 @@
     "descripcio": "Ens posem la màscara per descobrir els orígens d'aquesta festa, antiga i arrelada, i que per uns dies altera l'ordre establert. I precisament sobre ordre establert -i les diverses formes de trencar-lo- parlem amb l'historiador Josep Palau, que ha estudiat els comportament -sobretot il·lícit- del clergat al Bisbal d'Urgell a través de les visites pastorals. A més, les seccions habituals: \"Inspirats per l'edat mitjana\", \"El prestatge\", i \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/programa-42-carnestoltes/audio/950145/",
     "data_emissio": "2017-02-24",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["cul", "quo", "rel"],
+    "regions": ["EUS", "EUO"],
+    "lloc": {"nom": "la Seu d'Urgell", "qid": "Q673412", "lat": 42.3578, "lon": 1.4586},
+    "periodes": ["medieval", "moderna"],
+    "segles": [12, 15],
+    "tipus": "quo",
+    "convidats": ["Josep Palau"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -470,7 +825,14 @@
     "descripcio": "Avui, un programa protagonitzat per la música, on us proposem l'audició íntegra d'una obra datada al segle XV, segle de frontera, que ja els seus contemporanis descrivien com a \"exquisida\" i \"perfecta\". És la primera missa de difunts polifònica completa que conservem: el \"Rèquiem\" de Johannes Ockeghem. A més, \"Inspirats per l'edat mitjana\" i \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/programa-43-el-requiem-de-johannes-ockeghem/audio/951287/",
     "data_emissio": "2017-03-03",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "rel"],
+    "paisos": ["BE", "FR"],
+    "regions": ["EUO"],
+    "periodes": ["medieval"],
+    "segles": [15, 15],
+    "personatges": [{"nom": "Johannes Ockeghem", "qid": "Q143059"}],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -481,7 +843,14 @@
     "descripcio": "Ens endinsem al món de l'arquitectura medieval per descobrir el primer estil arquitectònic internacional: el romànic. A més, visibilitzarem les dones al món de l'arquitectura medieval, gràcies a María Elena Díez Jorge, professora d'història de l'art a la Universitat de Granada. I com cada dijous, tornen les seccions \"La crònica\", \"El prestatge\" i \"Inspirats per l'edat mitjana\".",
     "enllac": "https://www.3cat.cat/3cat/programa-44-el-romanic/audio/952109/",
     "data_emissio": "2017-03-10",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["arq", "art", "gen"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval"],
+    "segles": [10, 12],
+    "esdeveniments": [{"nom": "Romànic", "qid": "Q46261"}],
+    "tipus": "cul",
+    "convidats": ["María Elena Díez Jorge"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -492,7 +861,16 @@
     "descripcio": "Avui descobrim l'univers sonor que va envoltar Dante: el Trecento, músiques que acompanyen l'autor d'una de les grans obres de la literatura, la \"Divina Comèdia\". Per tal de descobrir més detalls sobre l'autor i la seva obra, i també la presència de la música en ella, hem convidat a Raffaele Pinto, professor d'italià a la facultat de filologia de la Universitat de Barcelona i fundador de la Societat Catalana d'Estudis Dantescos. A més, les seccions habituals: \"Inspirats per l'edat mitjana\" -amb música de Dmitri Xostakóvitx- i \"El prestatge\" -amb música medieval russa-, sense oblidar un nou capítol del \"Llibre dels fets\" a \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/programa-45-dante-i-la-divina-comedia/audio/953191/",
     "data_emissio": "2017-03-17",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus"],
+    "paisos": ["IT"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Florència", "qid": "Q2044", "lat": 43.7714, "lon": 11.2542},
+    "periodes": ["medieval"],
+    "segles": [13, 14],
+    "personatges": [{"nom": "Dante Alighieri", "qid": "Q1067"}],
+    "tipus": "bio",
+    "convidats": ["Raffaele Pinto"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -503,7 +881,15 @@
     "descripcio": "Arriba la nova estació i us proposem un programa diferent: una selecció de repertori trobadoresc, comentat per tota una especialista; la filòloga Meritxell Simó, directora de l'Institut de Recerca en Cultures Medievals de la Universitat de Barcelona.",
     "enllac": "https://www.3cat.cat/3cat/programa-46-primavera-medieval/audio/955612/",
     "data_emissio": "2017-03-24",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "periodes": ["medieval"],
+    "segles": [11, 13],
+    "civilitzacions": ["occitans"],
+    "tipus": "cul",
+    "convidats": ["Meritxell Simó"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -514,7 +900,13 @@
     "descripcio": "L'espiritualitat medieval també es reflectia en el culte a determinats objectes, considerats sagrats: parlem de les relíquies, cossos, parts d'ells, o bé objectes que hi havien estat en contacte, i que pertanyien a sants i màrtirs, els intercessors davant Déu. Per descobrir-ne més detalls, parlem amb Germán Navarro, doctor i professor d'història medieval a la Universitat de Saragossa. I a més, les seccions habituals: \"El prestatge\", \"Inspirats per l'edat mitjana\" i \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/programa-47-reliquies/audio/956862/",
     "data_emissio": "2017-03-31",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["rel", "cul"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval"],
+    "segles": [8, 14],
+    "tipus": "cul",
+    "convidats": ["Germán Navarro"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -525,7 +917,15 @@
     "descripcio": "L'any 1314 es publicava a París una crítica al·legòrica a l'Església i l'Estat. Un poema atribuït a Gervais de Bus i al qual Philippe de Vitry hi va posar música en l'estil més avançat del moment: l'Ars Nova. A més, la inspiració medieval del \"Gaspard de la Nuit\", un àlbum dedicat a Philippe le Chancelier i un nou capítol de \"La Crònica\".",
     "enllac": "https://www.3cat.cat/3cat/programa-48-el-roman-de-fauvel/audio/957631/",
     "data_emissio": "2017-04-07",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus", "pol"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "París", "qid": "Q90", "lat": 48.8567, "lon": 2.3522},
+    "periodes": ["medieval"],
+    "segles": [14, 14],
+    "personatges": [{"nom": "Gervais du Bus", "qid": "Q1009965"}, {"nom": "Philippe de Vitry", "qid": "Q311766"}],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -536,7 +936,17 @@
     "descripcio": "El dia 27 de febrer, l'Institut d'Estudis Catalans publicava un titular: \"Una recerca publicada a la revista Estudis Romànics, desvela el nom de l'autor de Curial e Güelfa, obra fins ara considerada anònima\". Es feia referència doncs a una tesi doctoral llegida a la Universitat de València, que posava nom i cognom al fins ara desconegut autor d'una de les grans novel·les de la literatura romànica medieval: Enyego d'Àvalos. L'historiador responsable d'aquesta investigació és Abel Soler, i amb ell parlem aquesta setmana als \"Sons de l'edat mitjana\". Una oportunitat per saber més sobre aquesta novel·la, sobre el seu context de creació i sobre un procés de recerca edificat al llarg de dècades de treball de diversos investigadors. Tot això, amb un afegit: el context sonor del Curial, gràcies a les músiques incloses al Cançoner de Montecassino.",
     "enllac": "https://www.3cat.cat/3cat/programa-49-enyego-davalos-autor-del-curial/audio/957907/",
     "data_emissio": "2017-04-21",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit"],
+    "paisos": ["ES", "IT"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Nàpols", "qid": "Q2634", "lat": 40.8358, "lon": 14.2486},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [15, 15],
+    "personatges": [{"nom": "Enyego d'Àvalos", "qid": "Q3798922"}],
+    "tipus": "bio",
+    "convidats": ["Abel Soler"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -547,7 +957,18 @@
     "descripcio": "Arribem a un lluent número rodó amb una història d'espiritualitat. I és que al segle XIII, va sorgir un nou corrent marcat per la pobresa evangèlica, seguit per persones que volien trencar amb l'Església lligada a les riqueses dels monestirs. Un corrent exemplificat en sant Francesc d'Assís i el seu orde, els franciscans. A més, coneixem aquest orde de primera mà, gràcies a fra Agustí Boadas, franciscà i autor del volum \"Els franciscans a Catalunya\", publicat per l'editorial Pagès. Sense oblidar, és clar, les seccions \"El prestatge\" i \"Inspirats per l'edat mitjana\".",
     "enllac": "https://www.3cat.cat/3cat/programa-50-els-franciscans/audio/960438/",
     "data_emissio": "2017-04-28",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["rel"],
+    "paisos": ["IT", "ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Assís", "qid": "Q20103", "lat": 43.0708, "lon": 12.615},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [13, 13],
+    "personatges": [{"nom": "Francesc d'Assís", "qid": "Q676555"}],
+    "civilitzacions": ["franciscans"],
+    "tipus": "pro",
+    "convidats": ["Agustí Boadas"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -558,7 +979,17 @@
     "descripcio": "Entre els segles XII i XIII es van produir a França un seguit de poemes que recollien històries divertides, satíriques i obscenes, els anomenats \"fabliaux\". Ens proposem acostar-nos al text més conegut lligat a aquesta tradició en llengua catalana: \"El llibre de fra Bernat\", del gironí Francesc de la Via. Sobre aquestes qüestions literàries i també sobre l'humor medieval parlem amb el filòleg Jeroni Méndez, i no oblidem les nostres seccions habituals, \"El prestatge\" i \"Inspirats per l'edat mitjana\".",
     "enllac": "https://www.3cat.cat/3cat/programa-51-la-irreverencia-dels-fabliaux/audio/960610/",
     "data_emissio": "2017-05-05",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "cul"],
+    "paisos": ["FR", "ES"],
+    "regions": ["EUO", "EUS"],
+    "lloc": {"nom": "Girona", "qid": "Q7038", "lat": 41.9833, "lon": 2.8167},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [12, 14],
+    "personatges": [{"nom": "Francesc de la Via", "qid": "Q54892251"}],
+    "tipus": "cul",
+    "convidats": ["Jeroni Méndez"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -569,7 +1000,17 @@
     "descripcio": "\"A la honor e mostrar stado: la música en la corte de Juan II de Aragón\", és el títol d'un volum que ha editat la Sedem, la Societat Espanyola de Musicologia, i que signa el doctor en musicologia Francesc Villanueva Serrano. La descoberta d'aquest llibre ha estat la clau de volta del programa d'aquesta setmana, en què, a més de conversar amb el seu autor, descobrim els fets que van marcar la història d'aquest regnat. Igualment, tornen una setmana més les seccions \"El prestatge\", amb música de Matteo da Perugia, \"Inspirats per l'edat mitjana\", amb sonoritats d'òpera barroca, i \"La crònica\", amb un nou capítol de les negociacions de Jaume I sobre l'illa de Mallorca.",
     "enllac": "https://www.3cat.cat/3cat/programa-52-la-musica-en-la-cort-de-joan-ii-darago/audio/961230/",
     "data_emissio": "2017-05-12",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "pol"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Barcelona", "qid": "Q1492", "lat": 41.3825, "lon": 2.1769},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [15, 15],
+    "personatges": [{"nom": "Joan II d'Aragó", "qid": "Q312328"}],
+    "tipus": "cul",
+    "convidats": ["Francesc Villanueva Serrano"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -580,7 +1021,17 @@
     "descripcio": "Ens acostem a la figura d'aquest trobador occità, originari d'Userca, al Llemosí i que va viure a finals del segle XII. I ho fem guiats pel doctor Antoni Rossell, professor de filologia a la Universitat Autònoma de Barcelona i director de l'Arxiu Occità, a més d'autor de l'edició i traducció de les poesies i melodies completes d'aquest trobador, publicades per Galerada. A més, sentim la unió que el grup Sarband va fer de dos grans compositors francesos -Guillaume de Machaut i Erik Satie- a la secció \"El prestatge\", i també un nou capítol de \"La crònica\", amb la versió radiofònica del \"Llibre dels Fets\".",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/962284/",
     "data_emissio": "2017-05-19",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "Uzerche", "qid": "Q201906", "lat": 45.4247, "lon": 1.5633},
+    "periodes": ["medieval"],
+    "segles": [12, 13],
+    "personatges": [{"nom": "Gaucelm Faidit", "qid": "Q561237"}],
+    "civilitzacions": ["occitans"],
+    "tipus": "bio",
+    "convidats": ["Antoni Rossell"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -591,7 +1042,14 @@
     "descripcio": "Ens endinsem en la primera missa polifònica conservada, la missa de Tournai, que ens trasllada a principis del segle XIV gràcies a la interpretació de l'ensemble Organum. A més, sentim música anglesa amb el Dufay Collective a la secció \"El prestatge\" i descobrim la inspiració medieval de Joaquín Turina.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/963320/",
     "data_emissio": "2017-05-26",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "rel"],
+    "paisos": ["BE"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "Tournai", "qid": "Q173219", "lat": 50.6056, "lon": 3.3881},
+    "periodes": ["medieval"],
+    "segles": [13, 14],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -602,7 +1060,15 @@
     "descripcio": "Un dels gèneres que va veure la llum en època medieval va ser el motet. Un nom que prové de la paraula, del mot, i que va resultar un dels més exitosos i conreats al llarg del temps. Us proposem un recorregut sonor pels seus orígens. A més, parlem amb en Martí Sans, responsable del projecte sentsovi.cat, un espai web on combina la cuina, la història i la fotografia i des del qual fa que les receptes medievals prenguin nova vida. I acabem descobrint la inspiració medieval del compositor portuguès Federico de Freitas.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/964745/",
     "data_emissio": "2017-06-02",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "quo"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "París", "qid": "Q90", "lat": 48.8567, "lon": 2.3522},
+    "periodes": ["medieval"],
+    "segles": [12, 13],
+    "tipus": "cul",
+    "convidats": ["Martí Sans"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -613,7 +1079,13 @@
     "descripcio": "Un cop creuada la frontera de la mort, es desplega un món nou, el Més Enllà. Descobrim aquest espai entre el cel i l'infern, poblat de tot tipus d'éssers sobrenaturals que connecten amb el món real, i ho fem amb l'autor del llibre \"Mestre Vicent ho diu per espantar: el més enllà medieval\" (ed. Afers), el doctor en història Albert Toldrà. Igualment, no hi falten les seccions habituals, \"El prestatge\", amb música alemanya del segle XV, \"Inspirats per l'edat mitjana\", signada per Edward Elgar i \"La crònica\", amb un nou capítol de la nostra versió radiofònica del \"Llibre dels fets\".",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/964906/",
     "data_emissio": "2017-06-09",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["rel", "lit"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval"],
+    "segles": [11, 15],
+    "tipus": "cul",
+    "convidats": ["Albert Toldrà"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -624,7 +1096,13 @@
     "descripcio": "Una de les dates assenyalades al calendari festiu medieval era el Corpus Christi. Una festivitat que podem resseguir a través del temps fins arribar als nostres dies, i de la qual en descobrirem els detalls amb el catedràtic d'Història Medieval Rafael Narbona. No hi faltaran les seccions habituals, \"Inspirats per l'edat mitjana\", amb música del finlandès Einojuhani Rautavaara, i \"El prestatge\", amb Anne Azema i la seva \"Provença Mística\". Ah! I un nou episodi de \"La crònica\", amb el \"Llibre dels fets\".",
     "enllac": "https://www.3cat.cat/3cat/programa-55-un-recorregut-pels-origens-del-motet/audio/966009/",
     "data_emissio": "2017-06-16",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["rel", "cul"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval"],
+    "segles": [13, 13],
+    "tipus": "cul",
+    "convidats": ["Rafael Narbona"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -635,7 +1113,17 @@
     "descripcio": "Durant la primera part del programa fem un recorregut sonor pel llegat líric de Teobald I, monarca de Navarra entre els anys 1234 i 1253 i autor d'una seixantena de peces escrites en llengua d'oil, entre les quals trobem cançons, sirventesos i cançons de croada. La segona part la dediquem a l'exposició \"Templers: guerra i religió a l'Europa de les croades\", que fins al 23 de juliol es pot visitar al Museu d'Història de Catalunya, amb una visita radiofònica guiada pel seu comissari, l'historiador Ramon Sarobe, i enregistrada al mateix museu. Igualment, temps per a les seccions \"Inspirats per l'edat mitjana\" i \"El prestatge\", ambdues ambientades a Finlàndia, i per a un nou capítol de \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/967966/",
     "data_emissio": "2017-06-23",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus", "rel"],
+    "paisos": ["ES", "FR"],
+    "regions": ["EUS", "EUO"],
+    "lloc": {"nom": "Pamplona", "qid": "Q10282", "lat": 42.8167, "lon": -1.65},
+    "periodes": ["medieval"],
+    "segles": [13, 13],
+    "personatges": [{"nom": "Teobald I de Navarra", "qid": "Q314562"}],
+    "esdeveniments": [{"nom": "Croades", "qid": "Q12546"}],
+    "civilitzacions": ["templers"],
+    "tipus": "bio"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -646,7 +1134,14 @@
     "descripcio": "En el programa d'avui ens acostem a una disciplina íntimament relacionada amb la música: les matemàtiques. En una època considerada de retrocés, el treball de molts intel·lectuals va fer possible el desenvolupament del que vindria més tard. Així doncs, us proposem recorregut pel panorama matemàtic medieval gràcies a la col·laboració de Pablo Martín Prieto, professor d'Història Medieval a la Universidad Complutense de Madrid.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/967977/",
     "data_emissio": "2017-06-30",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["cie"],
+    "regions": ["EUS", "EUO", "PO"],
+    "periodes": ["medieval"],
+    "segles": [8, 14],
+    "personatges": [{"nom": "Leonardo de Pisa", "qid": "Q8763"}],
+    "tipus": "cul",
+    "convidats": ["Pablo Martín Prieto"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -657,7 +1152,17 @@
     "descripcio": "Dediquem el programa a un nom propi, el del trobador Guillem de Berguedà (1138-1196), un poeta atípic que va bolcar el seu odi contra nobles i eclesiàstics al llarg de les seves creacions. I sobre trobadors parlem també amb Anna Alberni, filòloga i professora a ICREA; Antoni Rossell, professor a la Universitat Autònoma de Barcelona i director de l'Arxiu Occità, i també amb Eugènia Serra, directora de la Biblioteca de Catalunya. Amb ells descobrim el nou volum d'\"Escrits i memòria\", la sèrie de llibres electrònics que publica aquesta institució i que està dedicat a la lírica trobadoresca. No oblidem les seccions \"El prestatge\", amb una novetat discogràfica, i \"Inspirats per l'edat mitjana\", amb l'aproximació a Guillem de Berguedà que va fer Francesc Ribera \"Titot\". Per últim, el darrer episodi de la temporada a \"La crònica\", amb Raimon Colomer.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/969615/",
     "data_emissio": "2017-07-07",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Berga", "qid": "Q15487", "lat": 42.1, "lon": 1.8456},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [12, 12],
+    "personatges": [{"nom": "Guillem de Berguedà", "qid": "Q649068"}],
+    "tipus": "bio",
+    "convidats": ["Anna Alberni", "Antoni Rossell", "Eugènia Serra"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -668,7 +1173,16 @@
     "descripcio": "Estrenem temporada i horari amb un programa on ens acostarem als orígens històrics de Tannhäuser, que ens duran a l'Alemanya del segle XIII. Presentarem una novetat discogràfica dedicada al compositor Firminus Caron i parlarem amb el doctor Johannes Prominczel, arxiver musical de l'abadia de Melk, a Àustria, on recentment s'han descobert 83 pergamins medievals amb notació musical. Igualment, estrenarem la secció \"La recepta\", amb el fotògraf i cuiner Martí Sans, que cada setmana ens portarà una recepta del Llibre del Sent Soví, i a la secció \"Inspirats per l'edat mitjana\" sentirem música de Maurice Duruflé.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/973684/",
     "data_emissio": "2017-09-09",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus"],
+    "paisos": ["DE", "AT"],
+    "regions": ["EUC"],
+    "lloc": {"nom": "Melk", "qid": "Q489806", "lat": 48.2267, "lon": 15.3305},
+    "periodes": ["medieval"],
+    "segles": [13, 13],
+    "personatges": [{"nom": "Tannhäuser", "qid": "Q810443"}],
+    "tipus": "bio",
+    "convidats": ["Johannes Prominczel", "Martí Sans"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -679,7 +1193,14 @@
     "descripcio": "Avui reflexionem sobre allò que plasmem al paper i sobre allò que diem i ens diuen -o ens canten-. Per això descobrirem el Kalevala, obra finlandesa que va posar per escrit al segle XIX més de 23.000 versos que recollien un món d'històries provinents del passat, i ho farem amb la lingüista Siru Laine. Amb ella coneixerem la història d'un dels personatges d'aquest recull mitològic, Kullervo, que va inspirar creadors com J. R. R. Tolkien i Jean Sibelius. Tindrem noves entregues de \"La crònica\" i també de \"La recepta\", on cuinarem sosenga de conill, amb en Martí Sans. I és clar, una bona selecció de música medieval!",
     "enllac": "https://www.3cat.cat/3cat/programa-62-comencem-tercera-temporada-amb-tannhauser/audio/974455/",
     "data_emissio": "2017-09-16",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "cul"],
+    "paisos": ["FI"],
+    "regions": ["EUN"],
+    "personatges": [{"nom": "Elias Lönnrot", "qid": "Q153159"}, {"nom": "J. R. R. Tolkien", "qid": "Q892"}, {"nom": "Jean Sibelius", "qid": "Q45682"}],
+    "civilitzacions": ["finlandesos"],
+    "tipus": "cul",
+    "convidats": ["Siru Laine"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -690,7 +1211,17 @@
     "descripcio": "Ens acostem a la vida i obra del poeta Ausiàs March (1397-1459), el \"més profund, impressionant i permanent dels poetes catalans\", en paraules de Martí de Riquer. Una aproximació amb banda sonora del grup Capella de Ministrers. A més, parlem amb Joan Magrané, compositor, sobre la seva obra \"Fragments d'Ausiàs March\", a \"Inspirats per l'edat mitjana\", a més de comentar una nova recepta amb Martí Sans i sentir un nou capítol de \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/programa-63-kullervo-el-kalevala-i-la-memoria-oral/audio/975558/",
     "data_emissio": "2017-09-23",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "València", "qid": "Q8818", "lat": 39.47, "lon": -0.3764},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [14, 15],
+    "personatges": [{"nom": "Ausiàs March", "qid": "Q465675"}],
+    "tipus": "bio",
+    "convidats": ["Joan Magrané"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -701,7 +1232,15 @@
     "descripcio": "Al monestir de Santa Maria la Real, a Burgos, es conserva un manuscrit copiat a finals del segle XIV que recull les peces destinades a la comunitat de monges que hi vivien. Una recopilació finíssima i una de les mostres més destacades de l'Ars Antiqua. A més, descobrim els orígens del monestir amb Pablo Abella, doctor en història de l'art. Igualment, guardarem uns minuts per descobrir una nova recepta de cuina medieval del \"Llibre del Sent Soví\", amb Martí Sans.",
     "enllac": "https://www.3cat.cat/3cat/programa-64-ausias-march-cavaller-i-poeta/audio/975948/",
     "data_emissio": "2017-09-30",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "rel", "gen"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Burgos", "qid": "Q9580", "lat": 42.3408, "lon": -3.6997},
+    "periodes": ["medieval"],
+    "segles": [13, 14],
+    "tipus": "lloc",
+    "convidats": ["Pablo Abella"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -712,7 +1251,11 @@
     "descripcio": "El període medieval ha estat estimat i mitificat per grups de tota mena, inclosos actualment els grups d'índole neonazi. Ens qüestionem el perquè d'aquesta associació i en parlem amb l'historiador i columnista nord-americà David M. Perry. A més, explorem universos sonors que escapen a la noció de l'edat mitjana \"blanca\" i \"europea\", i tornem a la cuina medieval del Llibre del Sent Soví, amb Martí Sans.",
     "enllac": "https://www.3cat.cat/3cat/programa-65-la-joia-del-monestir-de-las-huelgas/audio/976940/",
     "data_emissio": "2017-10-07",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["his", "pol", "cul"],
+    "regions": ["EUS", "EUO", "AN"],
+    "tipus": "deb",
+    "convidats": ["David M. Perry"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -723,7 +1266,14 @@
     "descripcio": "Van ser molts els esdeveniments que van influir el desenvolupament de la història medieval a l'Europa occidental. Un dels més destacats va ser la pesta negra, que va deixar la seva petjada a la demografia, l'economia i l'organització social; així com també a les creacions i vides dels que hi van conviure. En parlem en aquest programa monogràfic amb el doctor Antoni Trilla, epidemiòleg, investigador de l'Institut de Salut Global de Barcelona, metge de l'Hospital Clínic i professor de la Universitat de Barcelona.",
     "enllac": "https://www.3cat.cat/3cat/programa-66-edat-mitjana-blanca-cristiana-i-europea/audio/977857/",
     "data_emissio": "2017-10-14",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["med", "soc"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval"],
+    "segles": [14, 14],
+    "esdeveniments": [{"nom": "Pesta Negra", "qid": "Q42005"}],
+    "tipus": "pro",
+    "convidats": ["Antoni Trilla"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -734,7 +1284,17 @@
     "descripcio": "Ens acostem a l'Empordà per a descobrir el comtat d'Empúries, una demarcació originària del segle IX, i que va sobreviure en el temps fins a la seva annexió a la Corona d'Aragó, l'any 1402. A més, parlarem amb Vicenç Comas, veí de Castelló d'Empúries que, gràcies als historiadors i arqueòlegs, pot confirmar que ha trobat una sinagoga medieval del garatge de casa seva. La secció \"Inspirats per l'edat mitjana\" ens porta una banda sonora i a la recepta, descobrim l'ametllat amb Martí Sans.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/978361/",
     "data_emissio": "2017-10-21",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["pol", "rel"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Castelló d'Empúries", "qid": "Q11286", "lat": 42.2582, "lon": 3.0747},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [8, 15],
+    "civilitzacions": ["jueus"],
+    "tipus": "lloc",
+    "convidats": ["Vicenç Comas"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -745,7 +1305,15 @@
     "descripcio": "Avui ens acostem a la figura d'un clergue, poeta i músic que va viure a París, a finals del segle XIII: Jehan de Lescurel. Tot i que de la seva biografia se'n sap més aviat poc, pel que fa a la música, se'n conserven una trentena de cançons. Així, fem un recorregut per vida i obra de Lescurel i ens acostem als misteris que l'envolten. A més, sentim música de Van Morrison, i una nova recepta del \"Llibre del Sent Soví\".",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/979050/",
     "data_emissio": "2017-10-28",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "lit"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "París", "qid": "Q90", "lat": 48.8567, "lon": 2.3522},
+    "periodes": ["medieval"],
+    "segles": [13, 14],
+    "personatges": [{"nom": "Jehan de Lescurel", "qid": "Q864596"}],
+    "tipus": "bio"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -756,7 +1324,14 @@
     "descripcio": "En ple Renaixement del segle XII, nous corrents de pensament van fer imaginar noves formes de construir, d'esculpir, de pintar, i també de fer música. Ens acostem al gòtic, amb banda sonora dels anglesos Gothic Voices. A més, presentem el col·loqui de tardor del Centre d'Estudis Comarcals de Banyoles, dedicat al gòtic a terres gironines, i en Martí Sans ens presenta una nova recepta del Llibre del Sent Soví.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/980166/",
     "data_emissio": "2017-11-04",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["art", "arq", "mus"],
+    "regions": ["EUS", "EUO"],
+    "lloc": {"nom": "Girona", "qid": "Q7038", "lat": 41.9833, "lon": 2.8167},
+    "periodes": ["medieval"],
+    "segles": [12, 15],
+    "esdeveniments": [{"nom": "Gòtic", "qid": "Q176483"}],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -767,7 +1342,14 @@
     "descripcio": "Els homes i dones medievals miraven el cel a la recerca de significat, i fins i tot teoritzaven sobre el so que emetien els planetes en moviment. Explorem la relació entre la música i les estrelles a l'edat mitjana. Ens hi ajudarà la doctora en filosofia i professora de la Universitat de Barcelona, Georgina Rabassó, que ens acostarà a la visió de l'univers d'Hildegarda de Bingen. A més, hi haurà temps per les seccions \"Inspirats per l'edat mitjana\", \"La crònica\" i \"La recepta\", en què hi col·labora una setmana més el nostre cuiner, Martí Sans.",
     "enllac": "https://www.3cat.cat/3cat/programa-70-el-gotic/audio/981330/",
     "data_emissio": "2017-11-11",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["cie", "mus"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval"],
+    "segles": [10, 15],
+    "personatges": [{"nom": "Hildegarda de Bingen", "qid": "Q70991"}],
+    "tipus": "cul",
+    "convidats": ["Georgina Rabassó"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -778,7 +1360,15 @@
     "descripcio": "Un joc combinatori de ritmes i melodies. Ens endinsem dins una de les tècniques més peculiars de la música medieval de mitjans del segle XIV a mitjans del segle XV, que els musicòlegs van batejar com a isorítmia. Una paraula que amaga música sofisticada, complexa i bella. Aquesta tècnica va ser recuperada al segle XX, per alguns creadors com Harrison Birtwistle, que avui sentim a \"Inspirats per l'edat mitjana\". També parlem amb Judit Verdaguer, conservadora del Museu Episcopal de Vic, sobre l'actualitat que envolta la Creu de Sant Joan de les Abadesses; i rebem en Martí Sans a l'estudi, per a cuinar pop farcit. Acabem amb un capítol de \"La crònica\", amb Raimon Colomer.",
     "enllac": "https://www.3cat.cat/3cat/programa-71-astronomia-medieval/audio/981594/",
     "data_emissio": "2017-11-18",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "periodes": ["medieval"],
+    "segles": [14, 15],
+    "personatges": [{"nom": "Philippe de Vitry", "qid": "Q311766"}],
+    "tipus": "cul",
+    "convidats": ["Judit Verdaguer"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -789,7 +1379,14 @@
     "descripcio": "L'instrument més valorat de l'edat mitjana forma part de nosaltres. Ens acostem al repertori vocal anglès, gràcies a una novetat discogràfica que signa l'Orlando Consort, \"Beneath the Northern Star\". També parlem de tècnica vocal medieval amb Héctor Guerrero, professor de l'Escola Superior de Cant de Madrid que hi va dedicar la seva tesi doctoral. També hi ha temps per un nou capítol de \"La crònica\" i per a una nova recepta del Llibre del Sent Soví, que ens presenta en Martí Sans.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/983115/",
     "data_emissio": "2017-11-25",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus"],
+    "paisos": ["GB"],
+    "regions": ["EUO"],
+    "periodes": ["medieval"],
+    "segles": [13, 15],
+    "tipus": "cul",
+    "convidats": ["Héctor Guerrero"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -800,7 +1397,14 @@
     "descripcio": "Una edició diferent en què presentem l'escriptora Maria de França de la millor manera possible: a través dels seus textos. Un programa amb muntatge musical d'Oriol Pinart i veu de Maria Montes.",
     "enllac": "https://www.3cat.cat/3cat/programa-73-la-veu/audio/984218/",
     "data_emissio": "2017-12-02",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "gen"],
+    "paisos": ["FR", "GB"],
+    "regions": ["EUO"],
+    "periodes": ["medieval"],
+    "segles": [12, 12],
+    "personatges": [{"nom": "Maria de França", "qid": "Q5617"}],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -811,7 +1415,16 @@
     "descripcio": "Al programa d'avui, pugem a l'escenari. Ens endinsem a \"Le jeu de Robin et Marion\", d'Adam de la Halle; la primera peça teatral profana en francès que conservem. També parlem amb el catedràtic d'Història del Teatre Català Francesc Massip, que ens presenta una novetat editorial, i descobrim la inspiració medieval de Jules Massenet a la seva òpera \"El joglar de Notre Dame\". També hi haurà temps per a un nou episodi de \"La crònica\" i una nova recepta del \"Llibre del Sent Soví\", amb Martí Sans.",
     "enllac": "https://www.3cat.cat/3cat/programa-74-yonec-un-lai-de-maria-de-franca/audio/984348/",
     "data_emissio": "2017-12-09",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "lit"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "Arràs", "qid": "Q131329", "lat": 50.2892, "lon": 2.78},
+    "periodes": ["medieval"],
+    "segles": [13, 13],
+    "personatges": [{"nom": "Adam de la Halle", "qid": "Q4214"}],
+    "tipus": "cul",
+    "convidats": ["Francesc Massip"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -822,7 +1435,15 @@
     "descripcio": "Viatgem a Anglaterra gràcies a dues fites, una de literària i una altra de musical. Parlem d'\"Els Contes de Canterbury\", de Geoffrey Chaucer, i del manuscrit musical conegut com a tropari de Winchester. A més, Els Amics de les Arts a \"Inspirats per l'edat mitjana\", un nou capítol de \"La crònica\" i un plat contundent a \"La recepta\", amb Martí Sans.",
     "enllac": "https://www.3cat.cat/3cat/programa-75-le-jeu-de-robin-et-marion/audio/985130/",
     "data_emissio": "2017-12-16",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus"],
+    "paisos": ["GB"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "Canterbury", "qid": "Q29303", "lat": 51.2783, "lon": 1.0775},
+    "periodes": ["medieval"],
+    "segles": [10, 14],
+    "personatges": [{"nom": "Geoffrey Chaucer", "qid": "Q5683"}],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -833,7 +1454,12 @@
     "descripcio": "Celebrem el Nadal amb una selecció de músiques de l'edat mitjana: des del cant litúrgic a la dansa, passant per la polifonia francoflamenca i les caroles angleses. I a més, repassem algunes de les tradicions nadalenques més lligades a l'època medieval.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/985999/",
     "data_emissio": "2017-12-23",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "rel", "cul"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval", "moderna"],
+    "segles": [11, 15],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -844,7 +1470,17 @@
     "descripcio": "El darrer programa del 2017 el dediquem a la gran obra de Bernat Metge, \"Lo somni\" i en parlem amb Alba Dedeu, escriptora i traductora que en va realitzar l'adaptació al català modern per l'editorial Barcino. A més, descobrim una obra contemporània inspirada per una antífona d'Hildegarda de Bingen i cuinem \"allos quesos\", amb el nostre col·laborador Martí Sans. Sense oblidar un nou episodi de \"La crònica\"!",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/986371/",
     "data_emissio": "2017-12-30",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Barcelona", "qid": "Q1492", "lat": 41.3825, "lon": 2.1769},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [14, 14],
+    "personatges": [{"nom": "Bernat Metge", "qid": "Q823146"}],
+    "tipus": "cul",
+    "convidats": ["Alba Dedeu"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -855,7 +1491,16 @@
     "descripcio": "Considerada la primera escriptora professional de la història, amb obres com \"La ciutat de les dames\" Christine de Pizan va defensar la vàlua de la dona enfront d'una misogínia creixent, a finals de l'edat mitjana. Acompanyem la seva història amb música de la Capella de Ministrers i parlem de la seva vessant pedagògica amb la doctora en Història de l'Educació Alicia Sala Villaverde. Descobrim la inspiració medieval de Gioacchino Rossini, un nou episodi del \"Llibre dels fets\", i una nova recepta del \"Llibre del Sent Soví\", amb Martí Sans.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/987835/",
     "data_emissio": "2018-01-13",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "gen"],
+    "paisos": ["FR", "IT"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "París", "qid": "Q90", "lat": 48.8567, "lon": 2.3522},
+    "periodes": ["medieval"],
+    "segles": [14, 15],
+    "personatges": [{"nom": "Cristina de Pisan", "qid": "Q234816"}],
+    "tipus": "bio",
+    "convidats": ["Alicia Sala Villaverde"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -866,7 +1511,15 @@
     "descripcio": "Abans dels trobadors i les novel·les, l'edat mitjana es recreava en un altre gènere literari: l'èpica. Les cançons de gesta recollien -i com bé diu el mot, \"cantaven\"- les proeses dels herois: alguns de més coneguts, com Rotllan i Rodrigo Díaz de Vivar, el Cid; i d'altres no tant, com Raül de Cambrai. Sobre èpica i música, en parlem amb el doctor Antoni Rossell, investigador i joglar, guanyador del premi Enderrock 2017 al millor disc de clàssica i que protagonitza el film \"El Cid, cantat\". A la segona part del programa, arribaran les seccions habituals: \"Inspirats per l'edat mitjana\", \"La crònica\", i finalment, \"La recepta\", en què Martí Sans ens visita amb una nova proposta del \"Llibre del Sent Soví\".",
     "enllac": "https://www.3cat.cat/3cat/programa-79-christine-de-pizan/audio/988408/",
     "data_emissio": "2018-01-20",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus"],
+    "paisos": ["FR", "ES"],
+    "regions": ["EUO", "EUS"],
+    "periodes": ["medieval"],
+    "segles": [11, 13],
+    "personatges": [{"nom": "Rodrigo Díaz de Vivar", "qid": "Q43958"}, {"nom": "Rotllan", "qid": "Q207535"}],
+    "tipus": "cul",
+    "convidats": ["Antoni Rossell"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -877,7 +1530,17 @@
     "descripcio": "Viatgem a les terres de Pèrsia, al segle XI, per a conèixer la figura del poeta, astrònom i matemàtic Omar Khayam. Per tal d'aprofundir-hi, parlem amb el responsable de la seva traducció al català a l'editorial Quaderns Crema, el doctor en llengua i literatura perses Ramon Gaja. A més, descobrim la relació entre Omar Khayam i Camarón de la Isla a \"Inspirats per l'edat mitjana\", llegim un nou capítol de \"La crònica\" i en Martí Sans ens ensenya a cuinar salsa de peix, tal com apareix al Llibre del Sent Soví.",
     "enllac": "https://www.3cat.cat/3cat/programa-80-lepica/audio/989178/",
     "data_emissio": "2018-01-27",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "cie"],
+    "paisos": ["IR"],
+    "regions": ["PO"],
+    "lloc": {"nom": "Nixapur", "qid": "Q131350", "lat": 36.2133, "lon": 58.7958},
+    "periodes": ["medieval"],
+    "segles": [11, 12],
+    "personatges": [{"nom": "Omar Khayyam", "qid": "Q35900"}],
+    "civilitzacions": ["perses"],
+    "tipus": "bio",
+    "convidats": ["Ramon Gaja"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -888,7 +1551,13 @@
     "descripcio": "Element i símbol dins la cultura medieval, l'aigua obria la porta a la religió cristiana a través del baptisme. Però l'aigua és molt més. En parlem amb la doctora Diana Pelaz, professora de la Universitat de Santiago de Compostel·la i autora de \"Rituales líquidos\", una novetat editorial sobre la presència de l'aigua als ritus civils de la baixa edat mitjana. A més, ens endinsarem als cants medievals lligats a aquest element. També, música coral contemporània inspirada en el Bestiari medieval, un nou capítol de \"La crònica\" i una nova recepta del \"Llibre del Sent Soví\".",
     "enllac": "https://www.3cat.cat/3cat/programa-81-lorient-mes-liric-omar-khayam/audio/989993/",
     "data_emissio": "2018-02-03",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["rel", "quo", "mus"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval"],
+    "segles": [10, 15],
+    "tipus": "cul",
+    "convidats": ["Diana Pelaz"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -899,7 +1568,14 @@
     "descripcio": "Per aquest programa tenim el plaer de comptar a l'estudi amb l'Anna Danilevskaia, intèrpret i directora artística del Sollazzo Ensemble. Aquest grup, especialista en música medieval, ha publicat un àlbum de debut impecable, dedicat a les cançons moralitzants titulat \"Parle qui veut\". I és per això que dediquem la nostra hora a descobrir alguns dels tracks que s'hi inclouen i a comentar-los en detall amb la seva directora.",
     "enllac": "https://www.3cat.cat/3cat/programa-82-aigua/audio/990938/",
     "data_emissio": "2018-02-10",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus"],
+    "paisos": ["FR", "IT"],
+    "regions": ["EUO", "EUS"],
+    "periodes": ["medieval"],
+    "segles": [14, 15],
+    "tipus": "cul",
+    "convidats": ["Anna Danilevskaia"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -910,7 +1586,14 @@
     "descripcio": "La polifonia a la Praga dels volts de l'any 1500. Aquest va ser l'eix del nostre programa núm. 84. Un programa una mica més curt del que és habitual, però ple de música gràcies al darrer enregistrament del grup vocal Cappella Mariana.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/991665/",
     "data_emissio": "2018-02-17",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "rel"],
+    "paisos": ["CZ"],
+    "regions": ["EUC"],
+    "lloc": {"nom": "Praga", "qid": "Q1085", "lat": 50.0875, "lon": 14.4214},
+    "periodes": ["moderna"],
+    "segles": [15, 15],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -921,7 +1604,15 @@
     "descripcio": "Dins el Còdex Buranus s'hi troben els cants de Bura, o Carmina Burana, una bona mostra de la lírica dels goliards. Ens acostem de nou a aquest repertori per focalitzar a les peces moralitzants i satíriques. A més, parlem sobre moral i predicació amb l'historiador Oriol Catalán, i reservem temps per a les seccions habituals: \"La crònica\", \"La recepta\" i \"Inspirats per l'edat mitjana\", que aquesta setmana arriba amb una creació contemporània original per a banda simfònica.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/992720/",
     "data_emissio": "2018-02-24",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus", "rel"],
+    "paisos": ["DE"],
+    "regions": ["EUC"],
+    "periodes": ["medieval"],
+    "segles": [12, 13],
+    "civilitzacions": ["goliards"],
+    "tipus": "cul",
+    "convidats": ["Oriol Catalán"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -932,7 +1623,16 @@
     "descripcio": "Descobrim la història d'una dona que la història ha presentat sempre com a filla de rei, esposa de rei i mare de rei. Afinem la vista per veure-la a ella, la reina Violant, gràcies a la doctora Maria Jesús Fuente, autora de la primera biografia publicada sobre aquesta reina de la Castella del segle XIII. Igualment, tindrem nou \"Inspirats per l'edat mitjana\", nou capítol del \"Llibre dels fets\" a \"La crònica\" i nova recepta del \"Llibre del Sent Soví\": porriol!",
     "enllac": "https://www.3cat.cat/3cat/programa-85-els-carmina-moralia/audio/993443/",
     "data_emissio": "2018-03-03",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["pol", "gen"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Burgos", "qid": "Q9580", "lat": 42.3408, "lon": -3.6997},
+    "periodes": ["medieval"],
+    "segles": [13, 14],
+    "personatges": [{"nom": "Violant d'Aragó", "qid": "Q235174"}, {"nom": "Alfons X de Castella", "qid": "Q47595"}],
+    "tipus": "bio",
+    "convidats": ["Maria Jesús Fuente"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -943,7 +1643,14 @@
     "descripcio": "La sortida del sol i l'arribada de la llum marca l'entrada d'un nou dia i ens fa conscients del pas del temps. Us proposem una selecció de música medieval lluminosa, i per descobrir la llum del gòtic, parlem amb el doctor en arquitectura Juan Manuel Medina, que ens atén des de la Universitat de Los Andes, a Colòmbia. A més, les seccions habituals: \"Inspirats per l'edat mitjana\", \"La crònica\" i \"La recepta\".",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/995467/",
     "data_emissio": "2018-03-17",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["arq", "rel", "mus"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval"],
+    "segles": [11, 14],
+    "esdeveniments": [{"nom": "Gòtic", "qid": "Q176483"}],
+    "tipus": "cul",
+    "convidats": ["Juan Manuel Medina"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -954,7 +1661,16 @@
     "descripcio": "Les melodies medievals van molt més enllà de l'Europa occidental. Ens acostem a la història del regne andalusí de Granada, també per a descobrir-ne les seves sonoritats. A més, l'\"Inspirats per l'edat mitjana\" ens duu a l'Alhambra, que és precisament l'espai de treball del nostre convidat d'avui: el musicòleg Reynaldo Fernández, president del patronat de l'Alhambra i el Generalife. També hi ha temps per tornar a obrir el \"Llibre dels fets\" i per descobrir una nova recepta del \"Llibre del Sent Soví\".",
     "enllac": "https://www.3cat.cat/3cat/programa-88-la-llum/audio/996037/",
     "data_emissio": "2018-03-24",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["pol", "mus", "arq"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Granada", "qid": "Q8810", "lat": 37.175, "lon": -3.6},
+    "periodes": ["medieval", "moderna"],
+    "segles": [13, 15],
+    "civilitzacions": ["nassarites"],
+    "tipus": "lloc",
+    "convidats": ["Reynaldo Fernández"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -965,7 +1681,15 @@
     "descripcio": "Fem tremolar l'estructura habitual del programa per mostrar una història a mig camí entre la realitat i la imaginació. Us presentem la radio-ficció \"Tinctoris, la carta perduda\", inspirada en la figura del compositor Johannes Tinctoris (c. 1435 - 1511). Locucions de Carles Lobo, amb acompanyament musical del conjunt Le Miroir de Musique i muntatge d'Oriol Pinart. Un relat escrit i dirigit per Maria Montes.",
     "enllac": "https://www.3cat.cat/3cat/programa-90-tinctoris-la-carta-perduda/audio/996045/",
     "data_emissio": "2018-03-31",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "lit"],
+    "paisos": ["BE", "IT"],
+    "regions": ["EUO", "EUS"],
+    "lloc": {"nom": "Nàpols", "qid": "Q2634", "lat": 40.8358, "lon": 14.2486},
+    "periodes": ["medieval", "moderna"],
+    "segles": [15, 16],
+    "personatges": [{"nom": "Johannes Tinctoris", "qid": "Q370512"}],
+    "tipus": "bio"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -976,7 +1700,15 @@
     "descripcio": "Tornem a l'àmbit de la lírica trobadoresca per a endinsar-nos en un dels seus gèneres: el sirventès, una forma poètica lligada a la crítica social i en ocasions, personal!- i també al món polític. A més, us presentem una novetat discogràfica: \"Tempus Viellatorum\", dedicat a la viola d'arc. Ho fem amb el seu intèrpret, Alejandro Tonatiuh Hernández. I una setmana més, les seccions habituals: \"Inspirats per l'edat mitjana\", amb música de Salvador Brotons; \"La crònica\", amb un nou capítol del \"Llibre dels Fets\" i \"La recepta\", amb en Martí Sans.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/997681/",
     "data_emissio": "2018-04-07",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "pol", "mus"],
+    "paisos": ["FR", "ES"],
+    "regions": ["EUO", "EUS"],
+    "periodes": ["medieval"],
+    "segles": [12, 13],
+    "civilitzacions": ["occitans"],
+    "tipus": "cul",
+    "convidats": ["Alejandro Tonatiuh Hernández"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -987,7 +1719,17 @@
     "descripcio": "Ens deixem guiar per dues dones coetànies i amb vides ben diferents: la compositora Kàssia i l'escriptora Duoda i gràcies a elles ens acostarem a Bizanci i al Regne dels Francs. També ens acostem a la trajectòria del grup de recerca Duoda, a la Universitat de Barcelona, gràcies a una de les seves fundadores, la catedràtica María Milagros Rivera Garretas. Als \"Inspirats per l'edat mitjana\", descobrim el \"Càntic del sol\" de Sofia Gubaidulina, i a més, un nou capítol del \"Llibre dels Fets\" i una nova recepta.",
     "enllac": "https://www.3cat.cat/3cat/programa-92-kassia-i-duoda/audio/998345/",
     "data_emissio": "2018-04-14",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "gen", "rel"],
+    "paisos": ["TR", "FR"],
+    "regions": ["EUS", "EUO"],
+    "lloc": {"nom": "Constantinoble", "qid": "Q406", "lat": 41.01, "lon": 28.9603},
+    "periodes": ["medieval"],
+    "segles": [8, 9],
+    "personatges": [{"nom": "Kàssia", "qid": "Q263592"}, {"nom": "Duoda", "qid": "Q449846"}],
+    "civilitzacions": ["bizantins", "francs"],
+    "tipus": "bio",
+    "convidats": ["María Milagros Rivera Garretas"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -998,7 +1740,16 @@
     "descripcio": "Amb la voluntat d'acostar-nos a altres realitats històriques, més enllà de l'Europa occidental, viatgem radiofònicament fins al Japó, per a donar algunes pinzellades sobre el passat a l'arxipèlag asiàtic. Partim guiats per Jonathan López-Vera, professor a la Universitat Pompeu Fabra i la Universitat de Barcelona. Hi sentim músiques que ens remeten al passat, també a la secció \"Inspirats per l'edat mitjana\", gràcies al compositor Isao Tomita. A més, nou capítol de \"La crònica\" i nova recepta del Llibre del Sent Soví.",
     "enllac": "https://www.3cat.cat/3cat/programa-93-viatge-al-japo/audio/999062/",
     "data_emissio": "2018-04-21",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["cul", "mus", "pol"],
+    "paisos": ["JP"],
+    "regions": ["AO"],
+    "lloc": {"nom": "Kyoto", "qid": "Q34600", "lat": 35.0116, "lon": 135.7681},
+    "periodes": ["medieval", "moderna"],
+    "segles": [8, 17],
+    "civilitzacions": ["japonesos"],
+    "tipus": "pro",
+    "convidats": ["Jonathan López-Vera"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1009,7 +1760,16 @@
     "descripcio": "Els documents ens han fet arribar testimonis d'un esdeveniment estrany. Plaga o fenòmen social, en algunes zones del centre d'Europa van viure's episodis de dansa ininterrompuda i malaltissa, contagiosa i que podia acabar en la mort. De dansa, des d'una perspectiva més sana, però, ens en parlen Anna Romaní i Carles Mas, de la companyia Xuriach, músics i ballarins experts en la seva vessant històrica. També ballem a la secció \"Inspirats per l'edat mitjana\", en aquest cas, a ritme de vals. A més d'un nou episodi de \"La crònica\" i una nova recepta del Llibre del Sent Soví.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/998257/",
     "data_emissio": "2018-04-28",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["soc", "med"],
+    "paisos": ["DE", "FR"],
+    "regions": ["EUC", "EUO"],
+    "lloc": {"nom": "Estrasburg", "qid": "Q6602", "lat": 48.5733, "lon": 7.7522},
+    "periodes": ["medieval", "moderna"],
+    "segles": [14, 16],
+    "esdeveniments": [{"nom": "Epidèmia de ball de 1518", "qid": "Q3295141"}],
+    "tipus": "con",
+    "convidats": ["Anna Romaní", "Carles Mas"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1020,7 +1780,11 @@
     "descripcio": "Va ser l'intel·lectual italià Umberto Eco qui va fer servir el terme per primer cop, dins la seva obra \"Somiant l'edat mitjana\". Ens acostem al neomedievalisme, una cruïlla entre història i fantasia que segueix creixent, en forma de noves músiques, llibres i productes audiovisuals i focalitzem el nostre interès a les sonoritats del pagan-folk.",
     "enllac": "https://www.3cat.cat/3cat/programa-95-neomedievalisme/audio/1000285/",
     "data_emissio": "2018-05-05",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "cul"],
+    "regions": ["EUN", "EUO"],
+    "personatges": [{"nom": "Umberto Eco", "qid": "Q12807"}],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1031,7 +1795,13 @@
     "descripcio": "La música instrumental té poca presència als manuscrits musicals de l'edat mitjana. Tot i així, es conserven testimonis de la seva pràctica i també dels seus intèrprets: descobrim els ministrers. A més, visitem la Biblioteca de Catalunya per descobrir els tresors que amaga la seva secció de música, sentim un nou capítol de \"La crònica\" i aprenem a cuinar arrioc, gràcies a Martí Sans i el Llibre del Sent Soví.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1000279/",
     "data_emissio": "2018-05-12",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "soc"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval", "moderna"],
+    "segles": [13, 15],
+    "civilitzacions": ["ministrers"],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1042,7 +1812,15 @@
     "descripcio": "\"In omnem terram\". Aquest és el verset que designa el cant pla que ens guia, en un programa que, després dels que dedicats a l'aigua i la llum, ens va acostar de nou a la natura a través de la terra, el seu simbolisme i la seva presència a la música. I sota terra s'amagava el celler medieval del centre d'arts Bombas Gens, a València, que hem pogut visitar amb l'arqueòloga responsable del projecte, Paloma Berrocal. A més, terra a \"Inspirats per l'edat mitjana\", nou episodi de \"La crònica\" i una nova recepta, amb Martí Sans: les formatjades.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1003258/",
     "data_emissio": "2018-05-19",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["cul", "mus", "arqu"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "València", "qid": "Q8818", "lat": 39.47, "lon": -0.3764},
+    "periodes": ["medieval"],
+    "segles": [10, 15],
+    "tipus": "cul",
+    "convidats": ["Paloma Berrocal"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1053,7 +1831,15 @@
     "descripcio": "Músic, poeta i diplomàtic de finals del segle XV, Oswald von Wolkenstein va viure una vida intensa. Ho van fer molts d'altres, però ell va tenir cura de deixar-ne testimoni, a través de les seves peces i també dels seus escrits. A més, les seccions \"Inspirats per l'edat mitjana\", \"La recepta\" i \"La crònica\", tornen a tenir el seu espai al programa.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1004561/",
     "data_emissio": "2018-05-26",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "lit"],
+    "paisos": ["AT", "IT"],
+    "regions": ["EUC", "EUS"],
+    "lloc": {"nom": "Tirol", "qid": "Q153809", "lat": 47, "lon": 11},
+    "periodes": ["medieval"],
+    "segles": [14, 15],
+    "personatges": [{"nom": "Oswald von Wolkenstein", "qid": "Q45105"}],
+    "tipus": "bio"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1064,7 +1850,16 @@
     "descripcio": "Va néixer a Birmingham a la dècada dels 40 del segle XX i la música de l'edat mitjana i el Renaixement el va fascinar. Ens acostem a la trajectòria de David Munrow, intèrpret i divulgador musical i un dels pioners en la recuperació i interpretació del repertori medieval. Un perfil que comentem amb el nostre company Joan Vives. A més, hi haurà espai per a les seccions habituals: \"Inspirats per l'edat mitjana\", \"La crònica\" i \"La recepta\".",
     "enllac": "https://www.3cat.cat/3cat/programa-98-oswald-von-wolkenstein/audio/1004899/",
     "data_emissio": "2018-06-02",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus"],
+    "paisos": ["GB"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "Birmingham", "qid": "Q2256", "lat": 52.48, "lon": -1.9025},
+    "periodes": ["contemporania"],
+    "segles": [20, 20],
+    "personatges": [{"nom": "David Munrow", "qid": "Q933070"}],
+    "tipus": "bio",
+    "convidats": ["Joan Vives"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1075,7 +1870,17 @@
     "descripcio": "Els secrets es troben a indrets insospitats. I és per això que per celebrar els nostres 100 programes en antena, sortim de l'estudi per a visitar un d'aquests llocs que escapen als grans circuits turístics: el monestir de Santa Maria de l'Estany, al Moianès. En recorrem el claustre amb la historiadora de l'art Andrea Serrano, de Lux Mundi, en una visita radiofònica que acompanyem amb músiques del moment d'esplendor d'aquell establiment religiós.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1005877/",
     "data_emissio": "2018-06-09",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["arq", "rel", "art"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "L'Estany", "qid": "Q16694", "lat": 41.8683, "lon": 2.1116},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [11, 12],
+    "esdeveniments": [{"nom": "Romànic", "qid": "Q46261"}],
+    "tipus": "lloc",
+    "convidats": ["Andrea Serrano"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1086,7 +1891,12 @@
     "descripcio": "De nou, un element natural pren el protagonisme al programa: l'aire. Espai de moviment, alè de vida, paraula. Un element que també present en la música del període medieval i en les successives relectures que se n'han fet al llarg dels anys. A més, les seccions \"La crònica\" i \"La recepta\", amb Raimon Colomer i Martí Sans, respectivament.",
     "enllac": "https://www.3cat.cat/3cat/programa-100-santa-maria-de-lestany-mirar-a-traves-de-la-radio/audio/1006646/",
     "data_emissio": "2018-06-16",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "cul"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval"],
+    "segles": [10, 15],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1097,7 +1907,16 @@
     "descripcio": "Els prejudicis històrics i la llegenda negra envolten la història de certes dones que van ser marcades pel crim de bruixeria. Gràcies a Pau Castell, doctor en història medieval i especialista en la cacera de bruixes en territori català, desfem tòpics i posem llum a les ombres, en un programa que acompanyem amb música inspirada per la figura de les bruixes. A més, arribem al final de la nostra versió radiofònica del \"Llibre dels fets\" i aprenem a cuinar ordiat, gràcies a en Martí Sans dins la secció \"La recepta\".",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1007712/",
     "data_emissio": "2018-06-23",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["rel", "dre", "gen"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "ambit_catala": true,
+    "periodes": ["medieval", "moderna"],
+    "segles": [15, 17],
+    "esdeveniments": [{"nom": "Caça de bruixes", "qid": "Q207066"}],
+    "tipus": "pro",
+    "convidats": ["Pau Castell"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1108,7 +1927,16 @@
     "descripcio": "Comencem temporada i ens acostem a un dels grans textos medievals, \"Les consolacions de la filosofia\", de Boeci i a la música que amaga. Ho fem a través d'un projecte de recerca desenvolupat a la Universitat de Cambridge i que ens presenten dues veus convidades: l'investigador responsable, el doctor Sam Barrett; i el director del grup Sequentia, Benjamin Bagby, encarregat de donar vida a aquestes melodies recuperades. A més, descobrim la connexió de Max Richter amb Boeci a través de la banda sonora de la sèrie \"Black Mirror\".",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1013824/",
     "data_emissio": "2018-09-22",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["fil", "mus"],
+    "paisos": ["IT", "GB"],
+    "regions": ["EUS", "EUO"],
+    "lloc": {"nom": "Cambridge", "qid": "Q350", "lat": 52.2081, "lon": 0.1225},
+    "periodes": ["medieval"],
+    "segles": [6, 6],
+    "personatges": [{"nom": "Boeci", "qid": "Q102851"}],
+    "tipus": "cul",
+    "convidats": ["Sam Barrett", "Benjamin Bagby"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1119,7 +1947,16 @@
     "descripcio": "Representat amb un organetto i una corona de llorer, us oferim una petita selecció de l'obra de Francesco Landini, poeta, músic i intel·lectual que va ser un dels grans noms del Trecento italià. A més, ens acostem al perfil professional de Noemí Ortega, historiadora, arxivera i medievalista vilanovina que actualment treballa a la British Library, en el marc del conegut com a Qatar Project. La secció \"Inspirats per l'edat mitjana\" ens durà al territori de la grand ópera, i \"El prestatge\" torna amb música de Pierre de la Rue.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1015104/",
     "data_emissio": "2018-09-29",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus"],
+    "paisos": ["IT"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Florència", "qid": "Q2044", "lat": 43.7714, "lon": 11.2542},
+    "periodes": ["medieval"],
+    "segles": [14, 14],
+    "personatges": [{"nom": "Francesco Landini", "qid": "Q311674"}],
+    "tipus": "bio",
+    "convidats": ["Noemí Ortega"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1130,7 +1967,17 @@
     "descripcio": "Va ser l'autora de \"Vita Christi\", una de les peces clau de la literatura del segle XV, dins el que va anomenar-se el segle d'or de les lletres valencianes. Descobrim aquesta escriptora i religiosa, que protagonitzarà la secció \"La crònica\" aquesta temporada. En sentirem el primer capítol, en la veu d'Eulàlia Benito, i aprofundirem en el personatge gràcies a la catedràtica de Filologia Catalana de la Universitat de València Rosanna Cantavella.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1015351/",
     "data_emissio": "2018-10-13",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "rel", "gen"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "València", "qid": "Q8818", "lat": 39.47, "lon": -0.3764},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [15, 15],
+    "personatges": [{"nom": "Isabel de Villena", "qid": "Q3155085"}],
+    "tipus": "bio",
+    "convidats": ["Rosanna Cantavella"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1141,7 +1988,16 @@
     "descripcio": "Viatgem a Mesoamèrica per endinsar-nos en un món cronològicament contemporani a l'edat mitjana europea: el de les cultures prehispàniques. Parlem de la seva relació amb la música i descobrim la tasca del terrissaire Gregorio Cortés, investigador i constructor d'instruments prehispànics a Texcoco (Mèxic).",
     "enllac": "https://www.3cat.cat/3cat/programa-107-musica-prehispanica/audio/1017249/",
     "data_emissio": "2018-10-20",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus"],
+    "paisos": ["MX"],
+    "regions": ["AL"],
+    "lloc": {"nom": "Texcoco", "qid": "Q2115196", "lat": 19.5, "lon": -98.8833},
+    "periodes": ["medieval", "moderna"],
+    "segles": [5, 16],
+    "civilitzacions": ["asteques", "maies"],
+    "tipus": "cul",
+    "convidats": ["Gregorio Cortés"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1152,7 +2008,12 @@
     "descripcio": "La percepció dels animals no humans que han tingut les nostres comunitats ha variat al llarg de la història, i des de l'àmbit del pensament filosòfic i teològic, s'ha enfocat des de punts de vista ben diversos: de ser font d'inspiració creativa a mitjà de producció, font d'aliment, companys de vida portes endins i fins i tot encarnació simbòlica de tot tipus de valors. Hi haurà temps per a les seccions \"Inspirats per l'edat mitjana\" i també \"El Prestatge\", a més de sentir un nou episodi de \"Vita Christi\", d'Isabel de Villena, a \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/programa-106-isabel-de-villena-escriptora-amb-nom-propi/audio/1017698/",
     "data_emissio": "2018-10-27",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["fil", "rel", "cul"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval"],
+    "segles": [11, 14],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1163,7 +2024,17 @@
     "descripcio": "Des del segle XIII, un llibre fa el seu camí. És el \"Mirall de les ànimes simples\", un text místic. Al segle XIV, va ser traduït al llatí, a l'anglès, a l'italià i ha sobreviscut fins als nostres dies. Tan sols un fet va ser enterrat en l'oblit, fins al segle XX: la història de la seva autora, Margarida Porete, que havia estat cremada a la foguera acusada d'heretgia. A més, ens visiten la historiadora Delfi Nieto i la catedràtica d'Història Medieval de la UB, Blanca Garí, per presentar un curs gratuït en línia dedicat a l'espiritualitat femenina medieval. També hi haurà espai per a les seccions habituals, \"El prestatge\", \"Inspirats per l'edat mitjana\" i \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1018512/",
     "data_emissio": "2018-11-03",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["rel", "gen", "lit"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "París", "qid": "Q90", "lat": 48.8567, "lon": 2.3522},
+    "periodes": ["medieval"],
+    "segles": [13, 14],
+    "personatges": [{"nom": "Margarida Porete", "qid": "Q255132"}],
+    "civilitzacions": ["beguines"],
+    "tipus": "bio",
+    "convidats": ["Delfi Nieto", "Blanca Garí"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1174,7 +2045,16 @@
     "descripcio": "Avui viatgem a la ciutat d'Avinyó. En els nostres dies, una ciutat de la Provença francesa que voreja els 155.000 habitants. En època medieval, espai de poder i un dels punts centrals d'un conflicte que va implicar tota la cristiandat: el Cisma d'Occident. La música polifònica serà la banda sonora d'aquesta luxosa cort papal. A més, parlem amb Ramon Sarobe sobre el llibre \"Rere les passes dels Templers\", editat per Rosa dels Vents, i descobrim música d'un compositor d'Avinyó inspirat per l'edat mitjana: Olivier Messiaen. També hi haurà espai per al cinquè capítol de la \"Vita Christi\" d'Isabel de Villena.",
     "enllac": "https://www.3cat.cat/3cat/programa-109-margarida-porete-la-mistica-oblidada/audio/1019387/",
     "data_emissio": "2018-11-10",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "rel"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "Avinyó", "qid": "Q6397", "lat": 43.9486, "lon": 4.8083},
+    "periodes": ["medieval"],
+    "segles": [14, 15],
+    "esdeveniments": [{"nom": "Papat d'Avinyó", "qid": "Q202558"}, {"nom": "Cisma d'Occident", "qid": "Q26189"}],
+    "tipus": "cul",
+    "convidats": ["Ramon Sarobe"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1185,7 +2065,16 @@
     "descripcio": "Baixem les Rambles de Barcelona per a arribar al nostre destí: les Drassanes Reials. Descobrim la història d'aquest edifici i hi aprofundim amb el cap de Col·leccions del Museu Marítim, Enric Garcia. A més, música de Matteo da Perugia a \"El prestatge\" i una òpera de Birtwistle inspirada per un dels cavallers del rei Artur. Acabem amb un darrer capítol de la \"Vita Christi\", d'Isabel de Villena.",
     "enllac": "https://www.3cat.cat/3cat/programa-110-una-missa-a-la-cort-papal-davinyo/audio/1020744/",
     "data_emissio": "2018-11-17",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["arq", "gue", "eco"],
+    "paisos": ["ES"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Barcelona", "qid": "Q1492", "lat": 41.3825, "lon": 2.1769},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [13, 14],
+    "tipus": "lloc",
+    "convidats": ["Enric Garcia"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1196,7 +2085,14 @@
     "descripcio": "Una experiència sonora. Això és que us proposem amb aquest programa dedicat a la música del compositor, poeta i astròleg anglès John Dunstable (1390-1453). Un viatge del passat al futur amb paisatges sonors de Dead Signals.",
     "enllac": "https://www.3cat.cat/3cat/programa-111-les-drassanes-reials-de-barcelona/audio/1021289/",
     "data_emissio": "2018-11-24",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus"],
+    "paisos": ["GB"],
+    "regions": ["EUO"],
+    "periodes": ["medieval"],
+    "segles": [14, 15],
+    "personatges": [{"nom": "John Dunstable", "qid": "Q215134"}],
+    "tipus": "bio"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1207,7 +2103,17 @@
     "descripcio": "A mig camí entre la realitat i la ficció, ha arribat als nostres dies la biografia del trobador Jaufré Rudel. A ell correspon la idea de l' \"amor de lluny\", un amor impossible que creix en la distància. Un trobador que a més, protagonitzarà la secció \"El prestatge\". També conversem amb Cristina Alís entorn de la seva d'intèrpret i investigadora entorn dels instruments de teclat medievals. Ens acostem a l'obra de la compositora Kaija Saariaho als \"Inspirats per l'edat mitjana\" i sentim el capítol número 7 de la \"Vita Christi\", d'Isabel de Villena.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1022069/",
     "data_emissio": "2018-12-01",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "Blaia", "qid": "Q202562", "lat": 45.1271, "lon": -0.6636},
+    "periodes": ["medieval"],
+    "segles": [12, 12],
+    "personatges": [{"nom": "Jaufré Rudel", "qid": "Q5260"}],
+    "civilitzacions": ["occitans"],
+    "tipus": "bio",
+    "convidats": ["Cristina Alís"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1218,7 +2124,15 @@
     "descripcio": "Juntament amb John Dunstable i Guillaume Dufay, Gilles Binchois és un dels grans noms de la composició de la baixa edat mitjana, a qui s'han atribuït les millors melodies de tot el segle XV. Us n'oferim una selecció, en paral·lel a la trajectòria del pintor Rogier van der Weyden. . També fem sonar la \"Simfonia Primavera\" de Benjamin Britten als \"Inspirats per l'edat mitjana\", ens acostem a la producció del compositor Antoine Brumel i sentim un nou episodi de la \"Vita Christi\" d'Isabel de Villena, a la secció \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1022762/",
     "data_emissio": "2018-12-08",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "art"],
+    "paisos": ["BE", "FR"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "Mons", "qid": "Q83407", "lat": 50.4547, "lon": 3.9525},
+    "periodes": ["medieval"],
+    "segles": [14, 15],
+    "personatges": [{"nom": "Gilles Binchois", "qid": "Q214964"}, {"nom": "Rogier van der Weyden", "qid": "Q68631"}],
+    "tipus": "bio"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1229,7 +2143,17 @@
     "descripcio": "Descobrim l'escriptora i beguina Hadewijch d'Anvers, que va viure entre els segles XII i XIII i va llegar textos on recollia les seves experiències místiques, cartes i poesies. Precisament sobre beguines i literatura parlem amb la historiadora Helena Casas. I a la segona part del programa, les seccions habituals: \"El prestatge\", \"Inspirats per l'edat mitjana\" i \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1023834/",
     "data_emissio": "2018-12-15",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["rel", "lit", "gen"],
+    "paisos": ["BE"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "Anvers", "qid": "Q12892", "lat": 51.2211, "lon": 4.3997},
+    "periodes": ["medieval"],
+    "segles": [12, 13],
+    "personatges": [{"nom": "Hadewijch d'Anvers", "qid": "Q466290"}],
+    "civilitzacions": ["beguines"],
+    "tipus": "bio",
+    "convidats": ["Helena Casas"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1240,7 +2164,14 @@
     "descripcio": "\"Dies Irae, Dies Illa\" és el primer vers d'un himne que s'origina al segle XIII i que s'atribueix a Tomàs de Celano. Fem un recorregut a través d'algunes de les versions musicades que se n'han fet al llarg dels anys.",
     "enllac": "https://www.3cat.cat/3cat/programa-115-hadewijch-danvers-mistica-i-lirica/audio/1025233/",
     "data_emissio": "2018-12-29",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "rel"],
+    "paisos": ["IT"],
+    "regions": ["EUS"],
+    "periodes": ["medieval"],
+    "segles": [13, 13],
+    "personatges": [{"nom": "Tomàs de Celano", "qid": "Q354523"}],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1251,7 +2182,11 @@
     "descripcio": "L'any 2012, el compositor David Lang estrenava \"love fail\", una obra inspirada en la tragèdia de Tristany i Iseu. L'interpreta el conjunt Anonymous 4, especialitzat en música medieval. Ens hi endinsem.",
     "enllac": "https://www.3cat.cat/3cat/programa-115-hadewijch-danvers-mistica-i-lirica/audio/1025234/",
     "data_emissio": "2019-01-05",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "lit"],
+    "regions": ["AN", "EUO"],
+    "personatges": [{"nom": "Tristany", "qid": "Q954012"}, {"nom": "Isolda", "qid": "Q572381"}],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1262,7 +2197,15 @@
     "descripcio": "Al segle XII, l'escriptura a diverses veus va desenvolupar-se de forma intensa en un entorn concret: el de la catedral de Notre Dame de París. Ens acostem a aquest procés, protagonitzat per noms com els dels compositors Leoninus i Perotinus. A més, espai per les seccions \"Inspirats per l'edat mitjana\" i \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1026404/",
     "data_emissio": "2019-01-12",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "rel", "arq"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "París", "qid": "Q90", "lat": 48.8567, "lon": 2.3522},
+    "periodes": ["medieval"],
+    "segles": [12, 13],
+    "personatges": [{"nom": "Leoninus", "qid": "Q297501"}, {"nom": "Perotinus", "qid": "Q206275"}],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1273,7 +2216,16 @@
     "descripcio": "Duquessa d'Aquitània i reina de França i Anglaterra, Elionor d'Aquitània va exercir un paper polític determinant a l'Europa del segle XII. Descobrim aquest perfil ineludible acompanyats de lírica trobadoresca i hi aprofundim amb la doctora i científica investigadora del CSIC Ana Rodríguez. També, \"Inspirats per l'edat mitjana\", \"El prestatge\" i \"La crònica\", seccions habituals de la segona part del programa.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1026929/",
     "data_emissio": "2019-01-19",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["pol", "gen", "lit"],
+    "paisos": ["FR", "GB"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "Poitiers", "qid": "Q6616", "lat": 46.5811, "lon": 0.3353},
+    "periodes": ["medieval"],
+    "segles": [12, 13],
+    "personatges": [{"nom": "Elionor d'Aquitània", "qid": "Q178525"}],
+    "tipus": "bio",
+    "convidats": ["Ana Rodríguez"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1284,7 +2236,13 @@
     "descripcio": "Sabem qui habita al centre del relat històric, però, i als marges? Nens, malalts, pobres, delinqüents... Girem la mirada a altes col·lectius, per ampliar la nostra visió de la vida quotidiana medieval. A més, conversem amb el doctor Antoni Conejo, professor titular d'Història de l'Art de la Universitat de Barcelona, sobre els hospitals medievals. També hi ha espai per a les seccions habituals, \"El prestatge\" i \"Inspirats per l'edat mitjana\".",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1027699/",
     "data_emissio": "2019-01-26",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["soc", "quo", "med"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval"],
+    "segles": [11, 15],
+    "tipus": "quo",
+    "convidats": ["Antoni Conejo"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1295,7 +2253,16 @@
     "descripcio": "Ens situem al gènere èpic per a descobrir els orígens del \"Cant dels Nibelungs\", una epopeia de l'àmbit germànic recopilada al segle XIII i que amb el seu heroi Sigfrid, ha creuat les fronteres del temps. També descobrim el treball discogràfic \"Vita Christi\" del conjunt Piacere dei Traversi, que ens presenta la soprano Carmen Botella. I a més, música de Johannes Ciconia al \"Prestatge\" i un gran inspirat per l'edat mitjana, Howard Shore i la seva banda sonora per \"El Senyor dels Anells\".",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1029106/",
     "data_emissio": "2019-02-02",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit"],
+    "paisos": ["DE"],
+    "regions": ["EUC"],
+    "lloc": {"nom": "Worms", "qid": "Q3852", "lat": 49.6303, "lon": 8.3621},
+    "periodes": ["medieval"],
+    "segles": [12, 12],
+    "personatges": [{"nom": "Sigfrid", "qid": "Q537554"}],
+    "tipus": "cul",
+    "convidats": ["Carmen Botella"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1306,7 +2273,15 @@
     "descripcio": "La combinació dels sirventesos occitans i la tradició satírica oral de la zona galaicoportuguesa va cristal·litzar en un gènere líric únic: les cantigues d'escarni i maldizer. Insults i males paraules signades fins i tot pel rei Alfons X el Savi. A més, a \"Inspirats per l'edat mitjana\", una obra per a piano de Liszt amb influències de Dante i un \"Prestatge\" evocador gràcies al cant romà antic de l'Ensemble Organum. Acabem amb un nou episodi de la \"Vita Christi\" d'Isabel de Villena.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1029579/",
     "data_emissio": "2019-02-09",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus"],
+    "paisos": ["ES", "PT"],
+    "regions": ["EUS"],
+    "lloc": {"nom": "Toledo", "qid": "Q5836", "lat": 39.8667, "lon": -4.0333},
+    "periodes": ["medieval"],
+    "segles": [12, 14],
+    "personatges": [{"nom": "Alfons X de Castella", "qid": "Q47595"}],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1317,7 +2292,15 @@
     "descripcio": "Va treballar per Ricard Cor de Lleó i Alfons el Cast. Ens acostem a la creació lírica del trobador occità Arnaut Daniel, reconegut per la complexitat de les seves obres i pel domini de la tècnica coneguda com el \"trobar ric\". També hi ha poesia als \"Inspirats per l'edat mitjana\", gràcies a Fauré i a la música incidental per a \"Pélleas et Mélisande\" i els Manuscrits Reials de la British Library són els protagonistes del \"Prestatge\". Acabem amb un nou episodi de \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1030096/",
     "data_emissio": "2019-02-16",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "periodes": ["medieval"],
+    "segles": [12, 12],
+    "personatges": [{"nom": "Arnaut Daniel", "qid": "Q4344"}, {"nom": "Ricard Cor de Lleó", "qid": "Q42305"}, {"nom": "Alfons el Cast", "qid": "Q299156"}],
+    "civilitzacions": ["occitans"],
+    "tipus": "bio"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1328,7 +2311,15 @@
     "descripcio": "Els anys propers al 1000 van ser anys convulsos per a la població de l'Europa Occidental, que sota el prisma cristià, veia acostar-se la fi del món. En aquest clima trobem un curiós manuscrit: la crònica d'un monjo francès anomenat Raoul Glaber. Descobrirem també el muntatge teatral \"Margarida\", de la companyia valenciana \"Las libélulas\", que té com a teló de fons la història real de Margarida Borràs, transsexual executada al segle XV. A \"Inspirats per l'edat mitjana\", sentim la nord-americana Julia Holter i acabem amb un nou episodi de \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1031070/",
     "data_emissio": "2019-02-23",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "rel", "his"],
+    "paisos": ["FR"],
+    "regions": ["EUO"],
+    "lloc": {"nom": "Cluny", "qid": "Q192982", "lat": 46.4344, "lon": 4.6592},
+    "periodes": ["medieval"],
+    "segles": [10, 11],
+    "personatges": [{"nom": "Raül Glaber", "qid": "Q708539"}, {"nom": "Margarida Borràs", "qid": "Q22117483"}],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1339,7 +2330,12 @@
     "descripcio": "Una festa que celebra el món al revés i que especialment durant l'edat mitjana va ser patrimoni de tots i totes, més enllà de diferències i classes. Avui ens acostem al Carnaval. I també, \"Inspirats per l'edat mitjana\", amb la música ambient de Pat Moon; \"El prestatge\", amb un disc que imagina la coneguda com la \"Missa dels bojos\" i finalment, un nou episodi de la \"Vita Christi\" d'Isabel de Villena a la secció \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1031768/",
     "data_emissio": "2019-03-02",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["cul", "quo", "mus"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval", "moderna"],
+    "segles": [12, 15],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1350,7 +2346,16 @@
     "descripcio": "El poeta de l'amor Heinrich von Meissen, més conegut pel sobrenom \"Frauenlob\", va passar a la història de la literatura alemanya com el més gran dels mestres antics i com a autor del Marienleich, un retrat molt particular de la Mare de Déu. El descobrim amb el doctor en literatura alemanya medieval i catedràtic de la Universitat de Santiago de Compostela, Víctor Millet. A més, una dosi d'òpera verdiana inspirada per l'edat mitjana amb \"I Lombardi\" i música de Guillaume Dufay a la secció \"El prestatge\". Acabem amb un nou episodi de la \"Vita Christi\" d'Isabel de Villena.",
     "enllac": "https://www.3cat.cat/3cat/un-tast-de-literatura-medieval-alemanya-frauenlob/audio/1032461/",
     "data_emissio": "2019-03-09",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus", "rel"],
+    "paisos": ["DE"],
+    "regions": ["EUC"],
+    "lloc": {"nom": "Magúncia", "qid": "Q1720", "lat": 49.9994, "lon": 8.2736},
+    "periodes": ["medieval"],
+    "segles": [13, 14],
+    "personatges": [{"nom": "Heinrich von Meissen", "qid": "Q62702"}],
+    "tipus": "bio",
+    "convidats": ["Víctor Millet"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1361,7 +2366,11 @@
     "descripcio": "Retornem a la cruïlla entre història i fantasia que en els nostre dies creix, en forma de noves músiques, llibres i productes audiovisuals. Un indret que ja vam visitar la temporada passada i al qual hi tornem per petició popular, en aquest cas, amb un destí molt concret: el món nòrdic i l'univers dels víkings.",
     "enllac": "https://www.3cat.cat/3cat/neomedievalisme-2-el-mon-nordic/audio/1032973/",
     "data_emissio": "2019-03-16",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "cul"],
+    "regions": ["EUN"],
+    "civilitzacions": ["vikings"],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1372,7 +2381,17 @@
     "descripcio": "Un marit gelós fa menjar a la dona el cor de l'amant d'ella, que ho ignora. Canibalisme com a símbol que es repeteix al llarg de la història. En rastregem les traces d'aquesta llegenda a la vida ficcionada d'un trobador: Guillem de Cabestany. A més, visitem l'exposició \"El noble esforç: l'herència dels trobadors\" a la Biblioteca de Catalunya, i sentim les seccions \"Inspirats per l'edat mitjana\", \"El prestatge\", i \"La crònica\".",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1034397/",
     "data_emissio": "2019-03-23",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["lit", "mus"],
+    "paisos": ["ES", "FR"],
+    "regions": ["EUS", "EUO"],
+    "lloc": {"nom": "Cabestany", "qid": "Q8970", "lat": 42.6806, "lon": 2.9428},
+    "ambit_catala": true,
+    "periodes": ["medieval"],
+    "segles": [12, 13],
+    "personatges": [{"nom": "Guillem de Cabestany", "qid": "Q2322314"}],
+    "civilitzacions": ["occitans"],
+    "tipus": "bio"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1383,7 +2402,12 @@
     "descripcio": "Arriba la darrera temporada d'una de les produccions més ambicioses de la televisió: la sèrie \"Joc de trons\", basada en la saga literària \"Cançó de gel i foc\", de George R. R. Martin. N'explorem les connexions amb el món medieval per destriar fantasia i realitat, amb música de Ramin Djawadi. A més, descobrim una experiència docent a la universitat basada en la sèrie, amb el professor Óscar Perea, i sentim música inspirada per l'edat mitjana de l'italià Ottorino Respighi.",
     "enllac": "https://www.3cat.cat/3cat/el-mon-medieval-de-george-rr-martin/audio/1035652/",
     "data_emissio": "2019-04-06",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["cul", "lit", "cin"],
+    "regions": ["EUO", "AN"],
+    "personatges": [{"nom": "George R. R. Martin", "qid": "Q181677"}],
+    "tipus": "cul",
+    "convidats": ["Óscar Perea"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1394,7 +2418,12 @@
     "descripcio": "Els humans dormim. I també somniem. De finestra a un món paral·lel a la seducció del diable, tot passant per una via de contacte amb la divinitat i el destí. Ens endinsem en la visió medieval dels somnis i les visions oníriques.",
     "enllac": "https://www.3cat.cat/3cat/sons-de-ledat-mitjana/audio/1038581/",
     "data_emissio": "2019-05-04",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["rel", "cul", "lit"],
+    "regions": ["EUS", "EUO"],
+    "periodes": ["medieval"],
+    "segles": [11, 15],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1405,7 +2434,11 @@
     "descripcio": "Un dels ensembles que marquen el so del programa és La Reverdie. Claudia i Livia Caffagni i Elisabetta de Mircovich són les protagonistes d'aquesta retrospectiva per la seva producció musical.",
     "enllac": "https://www.3cat.cat/3cat/retrospectiva-la-reverdie/audio/1042627/",
     "data_emissio": "2019-06-08",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus"],
+    "paisos": ["IT"],
+    "regions": ["EUS"],
+    "tipus": "cul"
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1416,7 +2449,16 @@
     "descripcio": "L'any 1492 els jueus van ser expulsats definitivament de la península Ibèrica. Van arribar a terres llunyanes, van establir-se vora el Mediterrani i van endur-se la seva llengua i també les seves cançons. Ens acostem al llegat de la cultura sefardita, sota el guiatge de la cantant i investigadora Mara Aranda, que l'any 2020 celebra 30 anys en el món de la música.",
     "enllac": "https://www.3cat.cat/3cat/musiques-sefardites-amb-mara-aranda/audio/1043061/",
     "data_emissio": "2019-06-15",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["mus", "rel"],
+    "paisos": ["ES", "TR", "GR", "MA"],
+    "regions": ["EUS", "PO", "NA"],
+    "periodes": ["moderna"],
+    "segles": [15, 15],
+    "esdeveniments": [{"nom": "Expulsió dels jueus d'Espanya", "qid": "Q7424558"}],
+    "civilitzacions": ["sefardites"],
+    "tipus": "cul",
+    "convidats": ["Mara Aranda"]
   },
   {
     "podcast": "sons-edat-mitjana",
@@ -1427,6 +2469,9 @@
     "descripcio": "Una sessió musical inspirada per l'edat mitjana per ballar al voltant de la foguera, esquitxada de llegendes i tradicions màgiques.",
     "enllac": "https://www.3cat.cat/3cat/sant-joan-festa-de-foc/audio/1043313/",
     "data_emissio": "2019-06-22",
-    "pendent": false
+    "pendent": false,
+    "tematiques": ["cul", "mus", "rel"],
+    "regions": ["EUS", "EUO"],
+    "tipus": "cul"
   }
 ]

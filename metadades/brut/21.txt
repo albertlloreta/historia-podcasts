@@ -1,0 +1,100 @@
+ih:74|cul;soc|ES|EUS|Barcelona|1|-|-|-|pro|-|
+ih:75|fil;lit|IT|EUS|Florència|0|Petrarca;Lorenzo Valla|Humanisme;Renaixement|-|cul|-|
+ih:76|lit;art|GB|EUO|Londres|0|William Blake|Romanticisme|-|cul|-|
+ih:77|lit|GB;GR;IT|EUO;EUS|-|0|Lord Byron|Romanticisme|-|cul|-|
+ih:78|lit;cul|-|GLO|-|0|Jorge Luis Borges|-|-|cul|-|
+ih:79|arq|IT|EUS|Florència|0|Filippo Brunelleschi;Leon Battista Alberti;Andrea Palladio|Renaixement|-|cul|-|
+ih:80|lit|GB;IT|EUO;EUS|-|0|Percy Bysshe Shelley;John Keats|Romanticisme|-|cul|-|
+ih:81|cul;cie;fil|FR;DE|EUO;EUC|-|0|Marcel Proust;Albert Einstein|-|-|cul|-|
+ih:82|art;mus;pol|US;DE|AN;EUC|Nova York|0|Karlheinz Stockhausen|Atemptats de l'11 de setembre de 2001|-|deb|-|
+ih:83|fil|IT|EUS|Florència|0|Marsilio Ficino|Renaixement|-|cul|-|
+ih:84|lit|GB|EUO|Londres|0|Charles Lamb;William Hazlitt|Romanticisme|-|cul|-|
+ih:85|lit;gen|GB|EUO|Bath|0|Jane Austen|Romanticisme|-|cul|-|
+ih:86|art|VA;IT|EUS|Ciutat del Vaticà|0|Miquel Àngel;Rafael|Renaixement|-|cul|-|
+ih:87|lit;fil|FR|EUO|-|0|Michel de Montaigne;Pierre de Ronsard|Renaixement|-|cul|-|
+ih:88|lit;cul;pol|AT;CZ;HU|EUC|Viena|0|-|-|-|cul|-|
+ih:89|art|IT|EUS|Florència|0|Donatello;Miquel Àngel|Renaixement|-|cul|-|
+ih:90|fil;pol|DE;US|EUC;AN|-|0|Hannah Arendt|-|-|cul|-|
+ih:91|fil;pol|DE;US|EUC;AN|-|0|Hannah Arendt|-|-|cul|-|
+ih:92|lit|CZ|EUC|Praga|0|Milan Kundera|-|-|cul|-|
+ih:93|fil;pol|IT|EUS|Florència|0|Nicolau Maquiavel|Renaixement|-|cul|-|
+ih:94|fil;pol|DE;US|EUC;AN|-|0|Hannah Arendt|-|-|cul|-|
+ih:95|lit|HU|EUC|Budapest|0|Imre Kertész|Holocaust|-|cul|-|
+ih:96|art;cie|IT|EUS|Florència|0|Leonardo da Vinci|Renaixement|-|bio|-|
+ih:97|fil;pol|DE;US|EUC;AN|-|0|Hannah Arendt|-|-|cul|-|
+ih:98|art|AT|EUC|Viena|0|Gustav Klimt;Egon Schiele|-|-|cul|-|
+ih:99|rel;fil|NL;DE|EUO;EUC|-|0|Erasme de Rotterdam;Martí Luter|Reforma protestant|-|cul|-|
+ih:100|lit|AT|EUC|Viena|0|Thomas Bernhard|-|-|cul|-|
+ih:101|mus|IT|EUS|Màntua|0|Claudio Monteverdi|-|-|cul|-|
+ih:102|fil;cul|IT|EUS|-|0|Nuccio Ordine|-|-|deb|-|
+ih:103|mus|AT|EUC|Viena|0|Gustav Mahler|-|-|cul|-|
+ih:104|fil;gen;lit|FR|EUO|-|0|Hélène Cixous|-|-|cul|-|
+ih:105|lit;fil|ES|EUS|València|1|-|Humanisme|-|cul|-|
+ih:106|fil;gen;lit|FR|EUO|-|0|Hélène Cixous|-|-|cul|-|
+ih:107|lit|ES|EUS|Barcelona|1|Joan Boscà;Garcilaso de la Vega|Renaixement|-|cul|-|
+ih:108|fil;gen;lit|FR|EUO|-|0|Hélène Cixous|-|-|cul|-|
+ih:109|lit|GB|EUO|Londres|0|William Shakespeare;Christopher Marlowe|Renaixement|-|cul|-|
+ih:110|lit|US|AN|-|0|Saul Bellow|-|-|cul|-|
+ih:111|gen;pol|-|GLO|-|0|-|-|-|cul|-|
+ih:112|lit;gen|US|AN|-|0|Mary McCarthy|-|-|cul|-|
+ih:113|lit;gue|AT;BE|EUC;EUO|-|0|Jean Améry|Holocaust|-|cul|-|
+ih:114|lit;gue|ES|EUS|-|0|Camilo José Cela|Guerra Civil espanyola|-|cul|-|
+ih:115|lit;gue|HU|EUC|-|0|Imre Kertész|Holocaust|-|cul|-|
+ih:116|cin;lit|-|-|-|0|-|-|-|cul|-|
+ih:117|lit|GB;JP|EUO|-|0|Kazuo Ishiguro|-|-|cul|-|
+ih:118|lit;gue|ES;FR|EUS;EUO|Buchenwald|0|Jorge Semprún|Holocaust|-|cul|-|
+ih:119|cin;art|-|-|-|0|-|-|-|cul|-|
+ih:120|art;gen|-|GLO|-|0|Guerrilla Girls|-|-|cul|-|
+ih:121|lit;pol|RU|EUE|Kolimà|0|Varlam Xalàmov|Gulag|-|cul|-|
+ih:122|lit|US|AN|Nova York|0|Don DeLillo|Guerra Freda|-|cul|-|
+ih:123|gen;pol|-|GLO|-|0|-|-|-|cul|-|
+ih:124|lit;pol|RO;DE|EUE;EUC|-|0|Herta Müller|-|-|cul|-|
+ih:125|cin;lit;fil|-|-|-|0|-|-|-|cul|-|
+ih:126|gen;cul|-|GLO|-|0|-|-|-|cul|-|
+ih:127|lit;pol|ES;FR;MX|EUS;EUO;AL|-|0|Max Aub|Exili republicà|-|cul|-|
+ih:128|lit|IT|EUS|Roma|0|Carlo Emilio Gadda|-|-|cul|-|
+ih:129|gen;eco|-|GLO|-|0|-|-|-|cul|-|
+ih:130|lit|IT|EUS|-|0|Umberto Eco|-|-|cul|-|
+ih:131|fil|-|-|-|0|-|-|-|cul|-|
+ih:132|gen;pol|IT;US|EUS;AN|-|0|Carla Lonzi|-|-|cul|-|
+ih:133|lit|TT;GB|AL;EUO|-|0|V. S. Naipaul|-|-|cul|-|
+ih:134|fil|-|-|-|0|-|-|-|cul|-|
+ih:135|lit|US|AN|Nova York|0|Isaac Bashevis Singer|Holocaust|jueus|cul|-|
+ih:136|fil|-|-|-|0|-|-|-|cul|-|
+ih:137|soc;cul|ES|EUS|Barcelona|1|-|-|-|deb|-|
+ih:138|fil|-|-|-|0|-|-|-|cul|-|
+ih:139|gue;pol|SY;IQ;IL;PS|PO|-|0|-|-|-|pro|-|
+ih:140|gue;pol|AF;PK|ASM|Kabul|0|Osama bin Laden|Guerra de l'Afganistan|talibans|pro|-|
+ih:141|gue;pol|-|AS|-|0|-|-|-|pro|-|
+ih:142|gen;pol;gue|AF|ASM|Kabul|0|-|-|talibans|pro|-|
+ih:143|gue;rel;pol|SY;IQ|PO|Mossul|0|Abu Bakr al-Baghdadi|Estat Islàmic|-|pro|-|
+ih:144|mus|-|-|-|0|Jordi Savall|-|-|cul|-|
+ih:145|mus|-|-|-|0|Jordi Savall|-|-|cul|-|
+ih:146|lit|GB|GLO|-|0|Thomas More|-|-|cul|-|
+ih:147|lit;arq|FR;US|EUO;AN|-|0|Jules Verne;Edward Bellamy;Albert Robida|-|-|cul|-|
+ih:148|lit;arq|GB;US|EUO;AN|-|0|Jack London;H. G. Wells;William Morris|-|-|cul|-|
+ih:149|cie|GB|EUO|-|0|Isaac Newton|Il·lustració|-|cul|-|
+ih:150|lit;pol|RU|EUE|-|0|Ievgueni Zamiatin|-|-|cul|-|
+ih:151|art|FR|EUO|París|0|Antoine Watteau;Jean-Honoré Fragonard;Jean-Baptiste Chardin|Il·lustració|-|cul|-|
+ih:152|fil;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:153|fil;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:154|lit|ES;GB|EUS;EUO|-|0|Miguel de Cervantes;William Shakespeare|-|-|cul|-|
+ih:155|lit;gen;eco|-|-|-|0|-|-|-|cul|-|
+ih:156|lit;pol|GB|EUO|-|0|Aldous Huxley;George Orwell|-|-|cul|-|
+ih:157|fil|FR;CH|EUO;EUC|París|0|Jean-Jacques Rousseau;Voltaire|Il·lustració|-|cul|-|
+ih:158|lit|ES;GB|EUS;EUO|-|0|Miguel de Cervantes;William Shakespeare|-|-|bio|-|
+ih:159|lit;gen;eco|-|-|-|0|-|-|-|cul|-|
+ih:160|lit;gen;eco|-|-|-|0|-|-|-|cul|-|
+ih:161|art|FR|EUO|París|0|Claude Monet|Impressionisme|-|cul|-|
+ih:162|cin|-|GLO|-|0|-|-|-|cul|-|
+ih:163|lit|GB|EUO|Londres|0|William Shakespeare|-|-|cul|-|
+ih:164|cin|-|GLO|-|0|-|-|-|cul|-|
+ih:165|art;rel|-|EUO;EUC|-|0|-|Simbolisme|-|cul|-|
+ih:166|fil;eco;pol|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:167|fil;eco;pol|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:168|cin;cie|-|GLO|-|0|-|-|-|cul|-|
+ih:169|lit|ES|EUS|-|0|Miguel de Cervantes|-|-|cul|-|
+ih:170|gen;art|RS|EUS|Belgrad|0|Mireia Sallarès|-|-|cul|-|
+ih:171|art;rel|-|EUO;EUS|-|0|-|Gòtic|-|cul|-|
+ih:172|lit|ES|EUS|-|0|Miguel de Cervantes|-|-|cul|-|
+ih:173|gen;art|RS|EUS|Belgrad|0|Mireia Sallarès|-|-|cul|-|

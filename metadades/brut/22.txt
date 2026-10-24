@@ -1,0 +1,100 @@
+ih:174|arq;rel|FR|EUO|-|0|-|Gòtic|-|cul|-|
+ih:175|fil;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:176|fil;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:177|arq|FR;GB|EUO|-|0|-|Neoclassicisme|-|cul|-|
+ih:178|lit;cin|GB|EUO|-|0|William Shakespeare|-|-|cul|-|
+ih:179|gen;art|RS|EUS|Belgrad|0|Mireia Sallarès|-|-|cul|-|
+ih:180|art;rel|IT|EUS|-|0|Fra Angelico;Hieronymus Bosch|-|-|cul|-|
+ih:181|eco;fil|GB;FR|EUO|-|0|Adam Smith;François Quesnay|Il·lustració|-|cul|-|
+ih:182|lit|ES|EUS|-|0|Miguel de Cervantes|-|-|cul|-|
+ih:183|art;pol|-|EUO;EUC|-|0|-|-|-|cul|-|
+ih:184|art|GB|EUO|Londres|0|William Hogarth;Thomas Gainsborough;Joshua Reynolds|Il·lustració|-|cul|-|
+ih:185|fil|DE|EUC|Königsberg|0|Immanuel Kant|Il·lustració|-|cul|-|
+ih:186|gue;pol|ES|EUS|Barcelona|1|Felip V;Arxiduc Carles|Guerra de Successió espanyola|-|pro|-|
+ih:187|art;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:188|art;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:189|lit;cul|-|-|-|0|-|-|-|cul|-|
+ih:190|fil;his|-|-|-|0|-|-|-|cul|-|
+ih:191|cin|-|-|-|0|-|-|-|cul|-|
+ih:192|art;pol|FR|EUO|París|0|Jacques-Louis David|Revolució Francesa|-|cul|-|
+ih:193|lit;cul|-|-|-|0|-|-|-|cul|-|
+ih:194|rel;soc|ES|EUS|-|0|-|-|musulmans;mudèjars|pro|-|
+ih:195|lit;art|-|-|-|0|-|-|-|cul|-|
+ih:196|gen;soc|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:197|gen;soc|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:198|eco;cie|GB|EUO|Manchester|0|James Watt|Revolució industrial|-|pro|-|
+ih:199|lit;cul|-|-|-|0|-|-|-|cul|-|
+ih:200|rel|FR;ES|EUO;EUS|Montsegur|1|-|Croada albigesa|càtars|pro|-|
+ih:201|fil|-|-|-|0|-|-|-|cul|-|
+ih:202|cin;art|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:203|cin;art|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:204|rel;dre;gen|-|EUS;EUO|-|0|-|Caça de bruixes|-|pro|-|
+ih:205|fil;his|-|-|-|0|-|-|-|cul|-|
+ih:206|lit;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:207|lit;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:208|pol;soc|FR|EUO|París|0|-|Revolució Francesa|-|pro|-|
+ih:209|fil;his|-|-|-|0|-|-|-|cul|-|
+ih:210|fil;gen|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:211|fil;gen|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:212|lit;gue|US|AN|Atlanta|0|E. L. Doctorow;William T. Sherman|Guerra de Secessió|-|cul|-|
+ih:213|cin;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:214|cin;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:215|cin;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:216|lit|US;CA|AN|-|0|Richard Ford|-|-|cul|-|
+ih:217|lit;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:218|lit;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:219|lit|US|AN|-|0|David Foster Wallace|-|-|cul|-|
+ih:220|lit;med|US|AN|Newark|0|Philip Roth|-|-|cul|-|
+ih:221|lit|FR|EUO|-|0|Jean Echenoz|-|-|cul|-|
+ih:222|fil;cul|-|-|-|0|-|-|-|cul|-|
+ih:223|art;pol|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:224|art;pol|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:225|lit;gue|DE;FR|EUC;EUO|-|0|Jonathan Littell|Holocaust;Segona Guerra Mundial|-|cul|-|
+ih:226|lit;fil|AT;DE|EUC|Viena|0|Hugo von Hofmannsthal|-|-|cul|-|
+ih:227|dre;rel|ES|EUS|-|1|-|Inquisició|-|pro|-|
+ih:228|lit;gue|LB;CA|PO;AN|-|0|Wajdi Mouawad|-|-|cul|-|
+ih:229|lit;fil|AT;DE|EUC|-|0|-|-|-|cul|-|
+ih:230|fil|-|-|-|0|-|-|-|cul|-|
+ih:231|cie;fil|-|-|-|0|-|-|-|cul|-|
+ih:232|art;gen|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:233|art;gen|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:234|lit|IT|EUS|-|0|Margaret Mazzantini|-|-|cul|-|
+ih:235|lit;arq|DE;AT|EUC|Berlín|0|-|-|-|cul|-|
+ih:236|fil|-|-|-|0|-|-|-|cul|-|
+ih:237|rel;gen|ES|EUS|-|1|Vicent Ferrer|Caça de bruixes|-|pro|-|
+ih:238|lit;art|DE|EUC|-|0|-|Expressionisme|-|cul|-|
+ih:239|fil|-|-|-|0|-|-|-|cul|-|
+ih:240|lit|MX;CL;ES|AL|Ciutat de Mèxic|0|Roberto Bolaño|-|-|cul|-|
+ih:241|fil|-|-|-|0|-|-|-|cul|-|
+ih:242|lit;art|CH;DE|EUC|Zuric|0|Tristan Tzara;Hugo Ball|Dadaisme|-|cul|-|
+ih:243|cul;soc|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:244|cul;soc|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:245|lit|IT|EUS|-|0|Paolo Giordano|-|-|cul|-|
+ih:246|lit|ES|EUS|Formentera|1|Jordi Cussà|-|-|cul|-|
+ih:247|lit;cie;soc|-|GLO|-|0|-|-|-|cul|-|
+ih:248|pol;gue|FR|EUO|París|0|Napoleó Bonaparte|Revolució Francesa;Guerres napoleòniques|-|pro|-|
+ih:249|lit;gen|-|GLO|-|0|Ursula K. Le Guin|-|-|cul|-|
+ih:250|pol;fil|-|EUO|-|0|Thomas Hobbes|-|-|cul|-|
+ih:251|pol;fil|FR|EUO|París|0|Maximilien de Robespierre|Regnat del Terror|-|cul|-|
+ih:252|art|FR|EUO|París|0|Théodore Géricault;Eugène Delacroix|Romanticisme|-|cul|-|
+ih:253|cin;pol|-|GLO|-|0|-|-|-|cul|-|
+ih:254|pol;fil|-|EUO|-|0|-|-|-|cul|-|
+ih:255|pol;med|-|EUO|-|0|-|-|-|cul|-|
+ih:256|lit|GB|EUO|-|0|William Wordsworth;Samuel Taylor Coleridge|Romanticisme|-|cul|-|
+ih:257|lit;cin;pol|US;RU|AN;EUE|-|0|-|Guerra Freda|-|cul|-|
+ih:258|lit|GB|EUO|-|0|Lord Byron;Percy Bysshe Shelley;John Keats|Romanticisme|-|cul|-|
+ih:259|rel;lit|IL|PO|Jerusalem|0|-|-|israelites|cul|-|
+ih:260|art|GB|EUO|Londres|0|William Blake;John Constable;J. M. W. Turner|Romanticisme|-|cul|-|es
+ih:261|art;rel|IT;NL|EUS;EUO|-|0|Abraham;Caravaggio|-|-|cul|-|
+ih:262|mus;rel|IL|PO|-|0|David|-|israelites|cul|-|
+ih:263|fil;pol|DE|EUC|Berlín|0|Johann Gottlieb Fichte;Johann Gottfried Herder;Georg Wilhelm Friedrich Hegel|Romanticisme|-|cul|-|
+ih:264|cie;fil|-|-|-|0|-|-|-|cul|-|
+ih:265|lit;rel|GB|EUO|Londres|0|William Shakespeare;Jaume I d'Anglaterra|-|-|cul|-|
+ih:266|lit;rel|ES|EUS|-|0|Joan de la Creu|-|-|cul|-|
+ih:267|cie;fil|-|-|-|0|-|-|-|cul|-|
+ih:268|fil;rel|IL|PO|-|0|Job|-|israelites|cul|-|
+ih:269|lit|DE|EUC|Weimar|0|Johann Wolfgang von Goethe|Romanticisme|-|cul|-|
+ih:270|cie;fil|-|-|-|0|-|-|-|cul|-|
+ih:271|pol|AT|EUC|Viena|0|Klemens von Metternich;Talleyrand|Congrés de Viena|-|pro|-|
+ih:272|lit|FR|EUO|París|0|Honoré de Balzac|-|-|cul|-|
+ih:273|rel;lit;fil|GR|EUS|-|0|Dionís;Friedrich Nietzsche|-|grecs|cul|-|

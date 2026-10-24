@@ -1,0 +1,100 @@
+pdt:100|gue;pol|NL|EUO|Amsterdam|0|-|Ocupació alemanya dels Països Baixos;Segona Guerra Mundial|-|pro|-|
+pdt:101|gue;soc|GB;FR|EUO|-|0|Guillem el Mariscal|-|-|bio|-|
+pdt:102|gue;soc;lit|NL;DE|EUO;EUC|Amsterdam|0|Anna Frank;Adolf Hitler|Holocaust|jueus;gitanos|bio|-|
+pdt:103|rel;soc|ES|EUS|-|1|Ferran el Catòlic;Isabel la Catòlica|Expulsió dels jueus d'Espanya|jueus|pro|-|
+pdt:104|gue;rel|IL|PO|Hattin|0|Saladí;Guiu de Lusignan|Batalla de Hattin;Croades|croats;musulmans|con|-|
+pdt:105|gue;cul;exp|NO;DK;SE|EUN|-|0|-|-|vikings|cul|-|
+pdt:106|gue|RU|EUE|Stalingrad|0|-|Batalla de Stalingrad;Segona Guerra Mundial|-|con|-|
+pdt:107|gue|FR|EUO|Vouillé|0|Clodoveu I;Alaric II|Batalla de Vouillé|francs;visigots|con|-|
+pdt:108|rel;art;pol|TR|EUS;PO|Constantinoble|0|Lleó III l'Isàuric|Iconoclàstia|bizantins|pro|-|
+pdt:109|gue;arq|ES;AD|EUS|la Seu d'Urgell|1|Francisco Franco|Línia P|-|lloc|-|
+pdt:110|gue;pol|IT|EUS|Roma|0|-|Guerra Social|romans;itàlics|con|-|
+pdt:111|pol|ES|EUS|Barcelona|1|Ramon Berenguer IV;Peronella d'Aragó;Alfons el Cast|Creació de la Corona d'Aragó|-|pro|-|
+pdt:112|rel;gen;pol|TR|EUS;PO|Constantinoble|0|Irene d'Atenes;Teodora|Iconoclàstia|bizantins|pro|-|
+pdt:113|lit|RU;UA|EUE|Kíev|0|Ígor Sviatoslàvitx;Aleksandr Nevski|-|russos|cul|-|
+pdt:114|rel;cie|FR;IT;ES|EUO;EUS|Roma|1|Silvestre II|-|-|bio|-|
+pdt:115|pol;dre|ES|EUS|Madrid|0|Ramón María Narváez|Constitució espanyola de 1845|-|pro|-|
+pdt:116|lit|ES|EUS|Burgos|0|Rodrigo Díaz de Vivar|-|castellans|cul|-|
+pdt:117|pol;eco;dre|ES|EUS|Madrid|0|-|-|-|pro|-|
+pdt:118|pol;eco;soc|AD|EUS|Andorra la Vella|1|Borís Skóssyrev|-|-|lloc|-|
+pdt:119|gue|FR|EUO|Sant Quintí|0|Felip II|Batalla de Sant Quintí|-|con|-|
+pdt:120|pol|ES|EUS|Barcelona|1|Josep Tarradellas;Adolfo Suárez|Transició espanyola|-|pro|-|
+pdt:121|gue|TR|PO|Carres|0|Marc Licini Cras|Batalla de Carres|romans;parts|con|-|
+pdt:122|rel;exp;quo|ES;FR|EUS;EUO|Santiago de Compostel·la|0|Sant Jaume|Camí de Sant Jaume|-|cul|-|
+pdt:123|rel;soc|ES|EUS|la Seu d'Urgell|1|-|-|-|quo|-|
+pdt:124|pol|VE|AL|Caracas|0|Hugo Chávez|-|-|bio|-|
+pdt:125|rel;gen|ES|EUS|-|0|-|-|-|quo|-|
+pdt:126|soc;eco|ES|EUS|-|1|-|-|-|pro|-|
+pdt:127|rel;pol|IL;PS|PO|Jerusalem|0|David;Salomó|-|israelites;jueus|pro|-|
+pdt:128|pol;eco|GB|EUO|Londres|0|Winston Churchill;Margaret Thatcher|Brexit|-|pro|-|
+pdt:129|pol|RU|EUE|Petrograd|0|Lenin|Revolució Russa|-|pro|-|
+pdt:130|pol|MX;ES;RU|AL;EUS|Ciutat de Mèxic|1|Ramon Mercader;Lev Trotski;Ióssif Stalin|Assassinat de Trotski|-|bio|-|
+pdt:131|gue;pol|GB;FR|EUO|-|0|Ricard Cor de Lleó|Tercera Croada|-|bio|-|
+pdt:132|gue;eco;cie|ES|EUS|Barcelona|1|-|-|-|pro|-|
+pdt:133|gue;cul|RO;AL|EUS;EUE|-|0|Vlad III Dràcula;Skanderbeg|-|otomans;albanesos|bio|-|
+pdt:134|gue;his|ES|EUS|Barcelona|1|Almansor|Setge de Barcelona (1713-1714)|-|deb|-|
+pdt:135|pol;gue;rel|SA;AF;US|PO;ASM;AN|Nova York|0|Osama bin Laden|Atemptats de l'11 de setembre de 2001|-|bio|-|
+pdt:136|pol|ES|EUS|Madrid|0|José Antonio Primo de Rivera;Ramiro Ledesma|Falange Española|-|pro|-|
+pdt:137|pol;gen;dre|ES|EUS|Madrid|1|Clara Campoamor|Sufragi femení|-|pro|-|
+pdt:138|gue;pol|IL;EG;SY;JO|PO|Jerusalem|0|David Ben Gurion;Gamal Abdel Nasser|Conflicte araboisraelià|israelians;àrabs|con|-|
+pdt:139|gue;cie|RU;ES|EUE;EUS|-|0|-|Guerra Civil espanyola|-|pro|-|
+pdt:140|pol;gue|FR;ES;EG|GLO|-|0|Napoleó Bonaparte;Cristòfor Colom;Saladí|-|-|deb|-|
+pdt:141|cul;exp|AD|EUS|Andorra la Vella|1|-|-|-|lloc|-|
+pdt:142|gue;his;exp|ES|EUS|-|1|-|Guerra Civil espanyola|-|lloc|-|
+pdt:143|arqu;exp|ES|EUS|Puigcerdà|1|-|-|ceretans|lloc|-|
+pdt:144|cul;his|-|-|-|0|-|-|-|cul|-|
+pdt:145|arqu;exp|ES|EUS|Ullastret|1|-|-|ibers|lloc|-|
+pdt:146|gue;pol|GB|EUO|Stirling|0|William Wallace;Eduard I d'Anglaterra|Primera Guerra d'Independència d'Escòcia|escocesos;anglesos|bio|-|
+pdt:147|rel;gen|ES|EUS|Sant Joan de les Abadesses|1|Emma de Barcelona|-|-|lloc|-|
+pdt:148|gue;pol|RU;CZ;SK|EUE;EUC|-|0|-|Legió Txecoslovaca;Primera Guerra Mundial|txecs;eslovacs|con|-|
+pdt:149|dre;pol|ES|EUS|Barcelona|1|-|Tribunal de Contrafaccions|-|pro|-|
+pdt:150|pol|DE;AT|EUC|Viena|0|Adolf Hitler|-|-|bio|-|
+pdt:151|rel;gue|FR|EUO|París|0|Caterina de Mèdici;Enric de Navarra;Carles IX de França|Matança de Sant Bartomeu;Guerres de religió de França|hugonots|con|-|
+pdt:152|lit;his|GB|EUO|-|0|Brut de Troia;Geoffrey de Monmouth|-|britons|cul|-|
+pdt:153|pol|RU|EUE|Petrograd|0|Lenin;Nicolau II de Rússia|Revolució Russa|-|pro|-|
+pdt:154|arqu|ES;PT|EUS|-|0|-|-|ibers;celtes;celtibers|cul|-|
+pdt:155|pol|FR|EUO|París|0|Enric IV de França|-|-|pro|-|
+pdt:156|gue;pol|ES|EUS|-|0|-|Brigades Internacionals;Guerra Civil espanyola|-|pro|-|
+pdt:157|rel|DE|EUC|Wittenberg|0|Martí Luter|Reforma protestant|-|bio|-|
+pdt:158|gue;eco|ES|EUS|Barcelona|1|-|Guerra Civil espanyola|-|pro|-|
+pdt:159|gue|GR|EUS|Leuctra|0|Epaminondes|Batalla de Leuctra|tebans;espartans|con|-|
+pdt:160|rel|IT|EUS|Trento|0|-|Concili de Trento;Contrareforma|-|pro|-|
+pdt:161|pol;soc|ES|EUS|Sarrià|1|-|Caputxinada;Franquisme|-|con|-|
+pdt:162|fil;pol|ES|EUS|-|0|-|-|-|cul|-|
+pdt:163|gen;gue;rel|IL;TR|PO|Jerusalem|0|-|Primera Croada|croats|quo|-|
+pdt:164|gue;soc|FR;ES|EUO;EUS|-|1|-|Holocaust;Segona Guerra Mundial|jueus|pro|-|
+pdt:165|rel;pol|ES|EUS|Vic|1|Ató de Vic;Borrell II;Oliba Cabreta|-|-|bio|-|
+pdt:166|lit;cul|ES;GB|EUS;EUO|Barcelona|1|Arthur Conan Doyle|-|-|cul|-|
+pdt:167|pol;cul|ES;BE|EUS;EUO|-|1|Alfons el Magnànim|Orde del Toisó d'Or|-|cul|-|
+pdt:168|pol|ES|EUS|Barcelona|1|Josep Fontbernat;Josep Tarradellas|-|-|bio|-|
+pdt:169|gue;rel|TR;IT|PO;EUS|Constantinoble|0|Enrico Dandolo|Quarta Croada|croats;bizantins;venecians|con|-|
+pdt:170|gue;pol|FR|EUO|París|0|Joan sense Por;Lluís d'Orleans|Guerra civil entre armanyaguesos i borgonyons;Guerra dels Cent Anys|-|con|-|
+pdt:171|exp|-|AS|-|0|-|-|-|pro|-|
+pdt:172|gue|IT|EUS|Metauro|0|Asdrúbal Barca|Batalla del Metaure;Segona Guerra Púnica|romans;cartaginesos|con|-|
+pdt:173|exp|AQ;NO|OC|Pol sud|0|Roald Amundsen;Robert Falcon Scott|-|-|bio|-|
+pdt:174|gue|KZ;KG;CN|ACM;AO|Talas|0|-|Batalla del Talas|àrabs;xinesos|con|-|
+pdt:175|lit;mus|ES|EUS|Burgos|0|Rodrigo Díaz de Vivar|-|castellans|cul|-|
+pdt:176|mus;lit;rel|ES|EUS|Toledo|0|Alfons X de Castella|-|-|cul|-|
+pdt:177|arq;soc|ES|EUS|-|0|-|Franquisme|-|pro|-|
+pdt:178|gue;rel|PL;LT;LV;EE|EUN;EUC|Malbork|0|-|Croades bàltiques|cavallers teutònics;prussians|pro|-|
+pdt:179|cul;exp;soc|US|AN|-|0|-|-|nadius americans|cul|-|
+pdt:180|his|ES|EUS|Barcelona|1|Jaume II|-|-|lloc|-|
+pdt:181|his;pol|ES|EUS|Valle de los Caídos|0|Francisco Franco|Franquisme|-|deb|-|
+pdt:182|lit;cul|ES;FR;AD|EUS|-|1|-|-|-|pro|-|
+pdt:183|arqu;his|ES|EUS|-|1|-|-|-|deb|-|
+pdt:184|gue|FR|EUO|Crécy-en-Ponthieu|0|Eduard III d'Anglaterra;Felip VI de França|Batalla de Crécy;Guerra dels Cent Anys|anglesos;francesos|con|-|
+pdt:185|rel|ES|EUS|la Seu d'Urgell|1|Sant Ermengol|-|-|bio|-|
+pdt:186|rel;exp|GU;FM;MP|OC|Guam|0|-|-|xamorros|pro|-|
+pdt:187|fil;lit;rel|FR|EUO|París|0|Pere Abelard;Heloïsa|-|-|bio|-|
+pdt:188|his|ES|EUS|Barcelona|1|-|-|-|deb|-|
+pdt:189|gue|GR|EUS|Pidna|0|Luci Emili Paul·le;Perseu de Macedònia|Batalla de Pidna|romans;macedonis|con|-|
+pdt:190|gue;pol|ES;GB;FR|EUS;EUO|-|1|Marianna de Copons;Joan Pujol Garbo|Segona Guerra Mundial|-|bio|-|
+pdt:191|gue|PL|EUC|Legnica|0|Enric II el Piadós|Batalla de Legnica|mongols;polonesos|con|-|
+pdt:192|pol|DE;RU|EUC;EUE|Moscou|0|Viatxeslav Mólotov;Joachim von Ribbentrop;Ióssif Stalin;Adolf Hitler|Pacte Mólotov-Ribbentrop|-|pro|-|
+pdt:193|rel;gue|-|EUS;EUO;PO|-|0|-|-|templers;hospitalers|pro|-|
+pdt:194|lit|IQ|PO|Uruk|0|Gilgameix|-|sumeris|cul|-|
+pdt:195|rel;gue|ES|EUS|Miravet|1|-|-|templers|pro|-|
+pdt:196|gue|GB|EUO|Hastings|0|Harold II d'Anglaterra;Guillem el Conqueridor;Harald Hardråde|Batalla de Stamford Bridge;Batalla de Hastings|anglosaxons;normands;vikings|con|-|
+pdt:197|gue|GR;IT|EUS|-|0|Pirros de l'Epir|Guerres Pírriques|grecs;romans|bio|-|
+pdt:198|gue|GR;IT|EUS|-|0|Pirros de l'Epir|Guerres Pírriques|grecs;romans|bio|-|
+pdt:199|gue|GR;TR|EUS;PO|Constantinoble|1|Roger de Flor|Expedició dels almogàvers a Orient|almogàvers|pro|-|

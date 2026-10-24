@@ -1,0 +1,8 @@
+# Incoherències de dades detectades durant l'extracció (revisar a mà)
+pdt:11 «El naixement mític i històric de Catalunya»: la descripció parla del naixement de Roma
+pdt:33 «Memòria de sang: la Primera Guerra Mundial»: la descripció parla de la novel·la d'Enric Calpena sobre Prim i O'Donnell
+pdt:48 «Pàtria i llibertat: guerra de Cuba»: la descripció parla de la Guerra de Successió (llibre d'Antonio Espino)
+pdt 199 i 388: dos episodis amb el mateix número i el mateix iVoox (un reprodueix l'àudio de l'altre)
+pdt:197/198 «Pirros, rei d'Epir» duplicat (un amb dh=-279 i l'altre dh=-319); pdt:199 (almogàvers) té per descripció el text de navegació del web
+pdt:347-362 i pdt:369: descripcions desplaçades una o dues posicions (no corresponen al títol); classificat pel títol
+eg: hi ha entrades duplicades amb títol «En guardia, de 15 a 16 h - DD/MM/AAAA» o «... diumenge a En guàrdia!» que repeteixen un episodi numerat (p. ex. eg:71=eg:70, eg:73=eg:72)

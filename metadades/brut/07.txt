@@ -1,0 +1,100 @@
+eg:144|cul;gue|ES|EUS|Barcelona|1|-|Guerra Civil espanyola|-|pro|Daniel Arasa|
+eg:145|art;rel|ES|EUS|Vic|1|-|Romànic|-|cul|Judit Verdaguer|
+eg:146|pol;his|ES|EUS|Barcelona|1|-|Diada Nacional de Catalunya|-|deb|-|
+eg:147|art|ES|EUS|Barcelona|1|Pablo Picasso|-|-|bio|Josep Casamartina|
+eg:148|lit;rel|ES|EUS|Vallfogona de Riucorb|1|Francesc Vicent Garcia|-|-|bio|-|
+eg:149|dre;gue|DE|EUC|Nuremberg|0|Hermann Göring|Judicis de Nuremberg;Segona Guerra Mundial|-|pro|Andreu Mayayo|
+eg:150|dre;gue|DE|EUC|Nuremberg|0|-|Judicis de Nuremberg;Segona Guerra Mundial|-|pro|Andreu Mayayo|
+eg:151|his|ES|EUS|-|1|Prim Bertran|-|-|bio|Daniel Piñol;Teresa Vinyoles|
+eg:152|cie;gue|US;JP|AN;AO|Los Alamos|0|J. Robert Oppenheimer|Projecte Manhattan;Segona Guerra Mundial|-|pro|Joan Villarroya|
+eg:153|rel;cul|TR;ES|PO;EUS|-|1|Sant Jordi|-|-|cul|Stefano Maria Cingolani|
+eg:154|gue|ES|EUS|Delta de l'Ebre|1|Gneu Corneli Escipió;Asdrúbal Barca|Batalla de l'Ebre (217 aC);Segona Guerra Púnica|romans;cartaginesos|con|Oriol Olesti|
+eg:155|pol;cul|ES|EUS|Barcelona|1|Enric Prat de la Riba|-|-|cul|Josep M. Figueres|
+eg:156|gue|JP;US|AO;OC|Okinawa|0|-|Guerra del Pacífic;Segona Guerra Mundial|-|con|-|
+eg:157|gue|JP;US|AO;OC|Pearl Harbor|0|-|Guerra del Pacífic;Segona Guerra Mundial|-|con|-|
+eg:158|lit;rel|ES|EUS|Girona|1|Francesc Eiximenis|-|-|bio|-|
+eg:159|rel|TR;IT|EUS;PO|Constantinoble|0|Lleó IX;Miquel I Cerulari|Cisma d'Orient i Occident|bizantins|pro|Ernest Marcos|
+eg:160|gue|DE|EUC|Berlín|0|Adolf Hitler;Gueorgui Júkov|Batalla de Berlín;Segona Guerra Mundial|-|con|Josep Puigsech|
+eg:161|soc|GI;ES|EUS|Gibraltar|1|-|Tractat d'Utrecht|menorquins|pro|Martí Crespo|
+eg:162|arqu;lit|ES;IT|EUS|Tarragona|1|-|-|romans|cul|Isabel Rodà|
+eg:163|arqu;lit|ES;IT|EUS|Tarragona|1|-|-|romans|cul|Isabel Rodà|
+eg:164|soc;eco|ES|EUS|Vic|1|-|Revolució industrial|-|quo|Joan Serrallonga|
+eg:165|soc;eco|ES|EUS|Vic|1|-|Revolució industrial|-|quo|Joan Serrallonga|
+eg:166|gue|NL;DE|EUO;EUC|Arnhem|0|Bernard Montgomery|Operació Market Garden;Segona Guerra Mundial|-|con|Joan Villarroya|
+eg:167|gue|DE|EUC|-|0|-|Segona Guerra Mundial|-|con|-|
+eg:168|gue|PE|AL|Cusco|0|Francisco Pizarro;Atahualpa|Conquesta de l'Imperi Inca|inques;castellans|bio|Antonio Espino|
+eg:169|pol|ES;MX;IT|EUS;AL|-|1|-|-|-|pro|-|
+eg:170|gue|FR|EUO|París|0|Charles de Gaulle;Dietrich von Choltitz|Alliberament de París;Segona Guerra Mundial|-|con|Felip Solé|
+eg:171|rel;dre|ES|EUS|Barcelona|1|Ramon de Penyafort|Inquisició|jueus;conversos|pro|-|
+eg:172|rel;dre;pol|ES|EUS|Barcelona|1|-|Inquisició|-|pro|-|
+eg:173|gue|FR|EUO|París|0|Charles de Gaulle|Alliberament de París;Segona Guerra Mundial|-|con|-|
+eg:174|cie;gue|GB|EUO|Bletchley Park|0|Alan Turing|Segona Guerra Mundial|-|bio|-|
+eg:175|cie;gue|GB|EUO|Bletchley Park|0|Alan Turing|Segona Guerra Mundial|-|bio|Román Ceano|
+eg:176|pol;gen|ES|EUS|València|1|Maria de Castella;Alfons el Magnànim|-|-|bio|Montserrat Toldrà|
+eg:177|cin|US;TN|AN;NA|Tozeur|0|George Lucas|-|-|cul|-|
+eg:178|cin|US;TN|AN;NA|Tozeur|0|George Lucas|-|-|cul|-|
+eg:179|eco;quo|ES|EUS|Lleida|1|-|Franquisme|-|quo|Francesc Canosa|
+eg:180|pol|RU|EUE|Iekaterinburg|0|Nicolau II de Rússia;Alexandra Fiódorovna|Execució de la família Romanov;Revolució Russa|-|con|-|
+eg:181|pol|RU|EUE|Iekaterinburg|0|Nicolau II de Rússia;Alexandra Fiódorovna|Execució de la família Romanov;Revolució Russa|-|con|-|
+eg:182|gue|GR|EUS|-|0|-|-|grecs|pro|Borja Antela|
+eg:183|-|-|-|-|-|-|-|-|-|-|
+eg:184|gue|GR|EUS|-|0|-|-|grecs|pro|Borja Antela|
+eg:185|pol|ES|EUS|Madrid|1|Miguel Primo de Rivera|Dictadura de Primo de Rivera|-|bio|Xavier Casals|
+eg:186|pol|ES|EUS|Madrid|1|Miguel Primo de Rivera|Dictadura de Primo de Rivera|-|pro|-|
+eg:187|gue;pol|VN;US|SEA|Saigon|0|Lyndon B. Johnson;Ho Chi Minh|Guerra del Vietnam|vietnamites|con|-|
+eg:188|gue;pol|VN;US|SEA|Saigon|0|-|Guerra del Vietnam|-|con|Lluís Foix|
+eg:189|pol|IT;TR|EUS;PO|Constantinoble|0|Dioclecià;Constantí I;Teodosi I|-|romans|pro|-|
+eg:190|quo;lit|ES|EUS|-|1|-|-|-|cul|Joan Santanach|
+eg:191|pol|RU;UA;BY;KZ|EUE;ACM|Minsk|0|Mikhaïl Gorbatxov;Borís Ieltsin|Dissolució de la Unió Soviètica|-|pro|Llibert Ferri|
+eg:192|quo;cul|-|GLO|-|0|-|-|-|quo|Oriol Comas|
+eg:193|art|ES|EUS|Barcelona|1|Pablo Picasso;Francis Picabia;Joaquim Sunyer|Primera Guerra Mundial|-|cul|Joan M. Minguet|
+eg:194|gue;pol|FR;BE|EUO|Waterloo|0|Napoleó Bonaparte;Lluís XVIII|Cent Dies;Batalla de Waterloo|-|pro|Lluís Roura|
+eg:195|med;cie|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:196|mus|IT|EUS|Roma|0|Farinelli|-|-|cul|Marc Heilbron|
+eg:197|quo;cul|ES|EUS|-|1|-|-|-|quo|Fermí Puig|
+eg:198|rel;cul|ES|EUS|Manresa|1|Ignasi de Loiola|Expulsió dels jesuïtes|jesuïtes|pro|-|
+eg:199|pol;eco;gue|IT|EUS;EUC|Roma|0|Alexandre Sever|Crisi del segle III|romans;gots|pro|-|
+eg:200|gen;soc;dre|ES|EUS|-|1|-|-|-|quo|-|
+eg:201|art;cul|ES|EUS|Barcelona|1|Ramon Casas;Santiago Rusiñol|Modernisme|-|cul|-|
+eg:202|gue|GR;TR|EUS;PO|Gal·lípoli|1|Roger de Flor|Venjança Catalana;Expedició dels almogàvers a Orient|almogàvers;bizantins|con|Ernest Marcos|
+eg:203|pol|IT|EUS|Roma|0|Vespasià;Titus;Domicià;Trajà|-|romans|pro|Víctor Revilla|
+eg:204|lit;rel|ES|EUS|Vallfogona de Riucorb|1|Francesc Vicent Garcia|-|-|bio|-|
+eg:205|rel;pol|IT|EUS|Roma|0|Formós;Esteve VI|Sínode del cadàver|-|con|Prim Bertran|
+eg:206|pol|VE;AR;CO|AL|Caracas|1|Manuel Gual;Josep Maria España|Guerres d'independència hispanoamericanes|catalans|pro|-|
+eg:207|lit|ES|EUS|Barcelona|1|Joan Salvat-Papasseit|-|-|bio|-|
+eg:208|pol|IT|EUS|Roma|0|Tiberi;Calígula;Claudi;Neró|-|romans|pro|Xavier Espluga|
+eg:209|his;dre|ES|EUS|Barcelona|1|Jaume Vicens Vives;Pierre Vilar|-|-|cul|-|
+eg:210|cie|GB;DE|EUO;EUC|-|0|Isaac Newton;Gottfried Wilhelm Leibniz|-|-|deb|Jordi José|
+eg:211|arq;gue|CN|AO|Gran Muralla xinesa|0|-|-|xinesos|lloc|Dolors Folch|
+eg:212|pol|IT|EUS|Roma|0|Octavi August;Marc Antoni|Segon Triumvirat|romans|bio|Oriol Olesti|
+eg:213|gue;pol|ES|EUS|Barcelona|1|Antoni de Villarroel;Rafael Casanova|Setge de Barcelona (1713-1714);Guerra de Successió espanyola|-|bio|Agustí Alcoberro;Josep Maria Torres i Ribé|
+eg:214|pol;arqu|ES;MX|EUS;AL|Veracruz|0|Juan Negrín;Indalecio Prieto|Exili republicà|-|pro|Francisco Gracia|
+eg:215|soc;arq|ES|EUS|Terrassa|1|-|Riuada del Vallès (1962)|-|con|Ferran Sales|
+eg:216|soc;gue;quo|ES|EUS|Barcelona|1|-|Setge de Barcelona (1713-1714)|-|quo|-|
+eg:217|pol;gen;soc|ES|EUS|Barcelona|1|Isabel Vilà|-|-|bio|Toni Strubell|
+eg:218|pol;gue|ES|EUS|Tarragona|1|-|Guerra del Francès|-|pro|Lluís Roura|
+eg:219|pol|ES|EUS|Barcelona|1|Enric Prat de la Riba;Josep Puig i Cadafalch|Mancomunitat de Catalunya|-|pro|Albert Balcells|
+eg:220|gen;gue;pol|ES|EUS|-|1|Frederica Montseny;Dolores Ibárruri|Guerra Civil espanyola|-|pro|Assumpta Montellà|
+eg:221|pol;cul|ES|EUS|Barcelona|1|-|Trienni Liberal|-|pro|-|
+eg:222|gue;pol|ES|EUS|Osca|1|-|Guerra Civil espanyola|-|pro|Joan Villarroya|
+eg:223|arq;eco;soc|ES|EUS|Lloret de Mar|1|-|Franquisme|-|pro|-|
+eg:224|cie|ES;GQ|EUS;AS|Barcelona|1|Jordi Sabater Pi|-|-|bio|Joan Tort|
+eg:225|pol;lit|IT;ES|EUS|Torí|1|Víctor Balaguer;Giuseppe Garibaldi|Risorgimento|-|pro|-|
+eg:226|arq|ES|EUS|Barcelona|1|Josep Lluís Sert|GATPAC|-|cul|-|
+eg:227|lit;cul|ES|EUS|Barcelona|1|Bonaventura Carles Aribau|Renaixença|-|cul|Joan Santanach|
+eg:228|cul;quo|ES|EUS|Barcelona|1|Joan I d'Aragó|-|-|cul|Antoni González Moreno-Navarro|
+eg:229|lit;pol|ES|EUS|-|1|Francesc Grau i Viader|Franquisme|-|cul|Anna Ballbona|
+eg:230|gue|ES|EUS|Puigcerdà|1|Josep Cabrinetty;Francesc Savalls|Tercera Guerra Carlina|-|con|Joan Manuel Casanovas|
+eg:231|art;cul|ES;PL|EUS;EUC|Barcelona|1|Fabià Puigserver|Teatre Lliure|-|bio|-|
+eg:232|eco;exp|ES;CU;PH|EUS;AL|Barcelona|1|Antonio López y López|-|-|pro|Enric Garcia|
+eg:233|lit|ES|EUS|Barcelona|1|Joan Sales|Franquisme|-|bio|-|
+eg:234|mus;cul|ES|EUS|Canet de Mar|1|-|Canet Rock|-|cul|Jordi Batiste|
+eg:235|esp|ES|EUS|Barcelona|1|Josep Samitier;Ricardo Zamora|-|-|bio|Jordi Finestres|
+eg:236|gue|ES|EUS|Morella|1|Ramon Cabrera i Griñó|Primera Guerra Carlina|-|bio|Lluís Ferran Toledano|
+eg:237|his|ES|EUS|Barcelona|1|-|-|-|deb|Agustí Alcoberro;Oriol Junqueras;Borja Antela|
+eg:238|pol;gen|ES;FR|EUS;EUO|-|1|Carme Ballester;Lluís Companys|-|-|bio|Oriol Dueñas|
+eg:239|dre;pol|ES|EUS|Valls|1|-|-|-|pro|-|
+eg:240|eco;pol|ES|EUS|Barcelona|1|-|Tancament de caixes|-|con|Francesc Roca|
+eg:241|eco;cie|ES|EUS|Mataró|1|-|Revolució industrial|-|pro|Pedro Pascual|
+eg:242|gue|ES|EUS|-|1|-|Guerra del Francès|-|con|Maties Ramisa|
+eg:243|pol;gue|ES|EUS|Barcelona|1|Enric Prat de la Riba;Josep Puig i Cadafalch|Primera Guerra Mundial|-|pro|-|

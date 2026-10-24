@@ -1,0 +1,100 @@
+eg:344|pol;cul|CN|AO|Pequín|0|Mao Zedong|Revolució Cultural|-|pro|Dolors Folch|
+eg:345|gue|ES|EUS|Figueres|1|Francesc Rovira|Guerra del Francès|-|con|Agustí Vehí|
+eg:346|arqu|TR|PO|Troia|0|Heinrich Schliemann|-|-|pro|Felip Masó|
+eg:347|dre;soc|ES|EUS|Barcelona|1|-|-|-|lloc|Joan de Déu Domènech|
+eg:348|pol;soc|FR|EUO|París|0|Lluís XVI de França|Revolució Francesa;Presa de la Bastilla|-|pro|Lluís Roura|
+eg:349|gue;arq;soc|ES|EUS|Barcelona|1|-|Guerra Civil espanyola|-|quo|Josep M. Contel|
+eg:350|mus;pol|DE|EUC|Munic|0|Richard Strauss|Nazisme|-|bio|Marc Heilbron|
+eg:351|quo;arqu|ES|EUS|-|1|-|-|ibers|quo|Joan Santacana|
+eg:352|mus;cul|ES;CU|EUS;AL|Calella de Palafrugell|1|-|-|-|cul|Genís Sinca|
+eg:353|mus|-|-|-|0|-|-|-|cul|-|
+eg:354|quo;art|-|EUS;EUO|-|0|-|-|-|quo|Josep Massagué|
+eg:355|eco;pol|ES|EUS|Badajoz|1|-|Pla Badajoz;Franquisme|-|pro|Francesc Canosa|
+eg:356|mus;eco|ES|EUS|Barcelona|1|-|-|-|cul|Enric Frigola|
+eg:357|mus|ES|EUS|Madrid|0|Amadeu Vives;Ruperto Chapí|-|-|cul|Roger Alier|
+eg:358|lit|ES;FR;CH|EUS;EUO|Barcelona|1|Mercè Rodoreda|-|-|bio|Joaquim Molas|
+eg:359|pol;rel|JP|AO|Edo|0|-|Sakoku|japonesos|pro|Guillem Martínez|
+eg:360|pol|ES;IT|EUS|Barcelona|1|Jaume II|-|-|bio|Stefano Maria Cingolani|
+eg:361|pol;gue|IL;PS|PO|Jerusalem|0|David Ben Gurion|Creació de l'Estat d'Israel|jueus;palestins|pro|Jaume Bartrolí|
+eg:362|pol|FR;ES|EUS;EUO|Perpinyà|1|Felip IV;Lluís XIV|Tractat dels Pirineus|-|pro|Òscar Jané|
+eg:363|mus|-|EUO;EUC|-|0|-|-|-|cul|Romà Escalas|
+eg:364|arqu;lit|EG|NA|Rosetta|0|Jean-François Champollion;Ptolemeu V|Campanya d'Egipte|egipcis|pro|-|
+eg:365|eco;quo|ES|EUS|-|1|-|Petita edat de gel|-|pro|Jaume Dantí|
+eg:366|gue|IT|EUS|Cannes|0|Aníbal|Batalla de Cannes;Segona Guerra Púnica|romans;cartaginesos|con|Borja Antela|
+eg:367|mus|ES|EUS|Barcelona|1|Emili Vendrell|-|-|bio|Joan Vilà Miró|
+eg:368|arq|ES|EUS|Barcelona|1|-|-|-|lloc|Mercè Tatjer|
+eg:369|cin|FR;US|EUO;AN|París|0|Thomas Edison;Germans Lumière;Georges Méliès|-|-|cul|Esteve Riambau|
+eg:370|gue|ES|EUS|Barcelona|1|Antoni de Villarroel;Rafael Casanova|Setge de Barcelona (1713-1714);Diada Nacional de Catalunya|-|con|Agustí Alcoberro|
+eg:371|gue;rel|TR;IT|PO;EUS|Constantinoble|0|Innocenci III;Enrico Dandolo|Quarta Croada|croats;bizantins;venecians|con|Prim Bertran|
+eg:372|dre;soc|ES;FR|EUS|-|1|Antoni Roca|Bandolerisme|-|bio|Àngel Casals|
+eg:373|pol|ES;RU|EUS;EUE|Moscou|1|Andreu Nin;Francesc Macià;Josep Pla|Revolució Russa|-|pro|Ramon Breu|
+eg:374|gue;pol|ES|EUS|Osca|0|Quint Sertori|Guerra Sertoriana|romans;hispans|bio|Borja Antela|
+eg:375|cin;mus|US|AN|Hollywood|0|-|-|-|cul|Jordi José|
+eg:376|eco|ES|EUS|Barcelona|1|-|-|-|pro|Jordi Viader|
+eg:377|arq;rel|EG|NA|Giza|0|Kheops|-|egipcis|pro|Josep Cervelló|
+eg:378|soc;gue|ES|EUS|Olot|1|Francesc de Verntallat|Guerra Remença;Guerra civil catalana|-|bio|Miquel Freixa|
+eg:379|pol;gue|VE;CO|AL|Bogotà|0|Simón Bolívar|Guerres d'independència hispanoamericanes|-|bio|Francisco Javier Laviña|
+eg:380|pol;soc|FR;ES|EUO;EUS|Perpinyà|1|-|Guerra dels Segadors|-|pro|Òscar Jané|
+eg:381|art|ES|EUS|Figueres|1|Salvador Dalí|-|-|bio|Màrius Carol|
+eg:382|arqu;arq|ES|EUS|Tarragona|1|-|-|romans|lloc|Magí Seritjol;Joaquín Ruiz de Arbulo;Josep Maria Macias|
+eg:383|quo;cul|ES|EUS|Barcelona|1|-|-|-|quo|Albert Garcia Espuche|
+eg:384|mus;gue|ES|EUS|-|1|-|Guerra Civil espanyola|-|cul|Quico Pi de la Serra|
+eg:385|cie|DE;CH|EUC|-|0|Albert Einstein;Max Planck;Niels Bohr|-|-|cul|Emma Sallent|
+eg:386|mus|ES|EUS|Barcelona|1|Jaume Sisa;Carles Benavent|-|-|cul|Àlex Gómez-Font|
+eg:387|art|NL;FR|EUO|Arle|0|Vincent van Gogh|-|-|bio|Teresa M. Sala|
+eg:388|pol;dre|ES|EUS|Barcelona|1|Antonio Juan Creix|Franquisme|-|bio|Antoni Batista|
+eg:389|his;lit|GR;TR|EUS;PO|Halicarnàs|0|Heròdot|-|grecs|bio|Rubén Montañés|
+eg:390|his|ES|EUS|-|1|Gabriel Cardona|-|-|bio|-|
+eg:391|gue;pol|KR;KP|AO|Seül|0|Kim Il-sung;Douglas MacArthur|Guerra de Corea;Guerra Freda|-|con|Oriol Junqueras|
+eg:392|rel;pol|IT;TR|EUS|Roma|0|Constantí I;Teodosi I|-|romans;cristians|pro|Oriol Olesti|
+eg:393|cie|ES|EUS|Barcelona|1|Narcís Monturiol|-|-|bio|Antoni Roca Rosell|
+eg:394|gue|RU|EUE|Stalingrad|0|Adolf Hitler;Ióssif Stalin;Friedrich Paulus|Batalla de Stalingrad;Segona Guerra Mundial|-|con|Eduard Moreno|
+eg:395|pol;gue|ES;IT|EUS|Barcelona|1|Pere el Gran|Vespres Sicilianes|-|bio|Stefano Maria Cingolani|
+eg:396|gue|AT|EUC|Viena|0|Solimà el Magnífic;Joan III Sobieski|Setge de Viena|otomans|con|Agustí Alcoberro|
+eg:397|pol;esp|ES|EUS|Guadarrama|1|Josep Sunyol|Guerra Civil espanyola|-|bio|Carles Llorens|
+eg:398|gue|CZ|EUC|Slavkov u Brna|0|Napoleó Bonaparte;Alexandre I de Rússia;Francesc II del Sacre Imperi|Batalla d'Austerlitz|-|con|Lluís Roura|
+eg:399|pol|ES|EUS|Barcelona|1|Joan I d'Aragó;Pere el Cerimoniós|-|-|bio|Salvador Claramunt|
+eg:400|pol|ES|EUS|Barcelona|1|Francesc Cambó|Lliga Regionalista|-|bio|Josep Lluís Martín|
+eg:401|pol|ES|EUS|Madrid|1|Comte-duc d'Olivares;Felip IV|Guerra dels Segadors|-|bio|Antoni Simon|
+eg:402|mus|US|AN|-|0|Frank Sinatra;Bing Crosby;Dean Martin|-|-|cul|Albert Puig|
+eg:403|cul|ES;US|EUS;AN|Barcelona|1|Buffalo Bill|-|-|cul|Jordi Solé|
+eg:404|pol;cul|IT|EUS|-|0|-|-|etruscs|pro|Xavier Espluga|
+eg:405|mus|-|-|-|0|-|-|-|cul|-|
+eg:406|lit;rel|ES|EUS|Folgueroles|1|Jacint Verdaguer|-|-|bio|Ricard Torrents|
+eg:407|quo;esp|IT|EUS|Roma|0|-|-|romans|quo|Isabel Rodà|
+eg:408|mus;arq|ES|EUS|Barcelona|1|Lluís Millet;Lluís Domènech i Montaner|-|-|lloc|Xosé Aviñoa|
+eg:409|mus|ES;GB|EUS;EUO|Barcelona|1|The Beatles|-|-|cul|Josep Maria Francino|
+eg:410|med|ES|EUS|Barcelona|1|Josep Trueta;Antoni Puigvert;Ignasi Barraquer|-|-|pro|Genís Sinca|
+eg:411|lit|ES|EUS|Peralada|1|Ramon Muntaner;Jaume I|-|-|bio|Xavier Bonillo|
+eg:412|soc;gen;eco|ES|EUS|-|0|-|Franquisme|-|pro|Gabriel Cardona|
+eg:413|rel;soc|ES|EUS|Palma|1|-|Inquisició|xuetes;jueus|pro|Pere Bonnín|
+eg:414|mus|AT|EUC|Salzburg|0|Wolfgang Amadeus Mozart|-|-|bio|Jaume Radigales|
+eg:415|arqu|EG|NA|Vall dels Reis|0|Howard Carter;Tutankamon;Lord Carnarvon|-|egipcis|pro|Miquel Carceller|
+eg:416|dre;soc|ES|EUS|Barcelona|1|Carmen Broto|Franquisme|-|quo|Joaquim Roglan|
+eg:417|pol|FR;ES|EUO;EUS|Barcelona|1|Lluís Companys;Carme Ballester|-|-|bio|Joaquim Aloy|
+eg:418|mus;gen|IT|EUS|-|0|Maria Callas|-|-|cul|Roger Alier|
+eg:419|gue;pol|GR;IR;EG|EUS;PO|Babilònia|0|Alexandre el Gran|Conquestes d'Alexandre el Gran|macedonis;perses|bio|Borja Antela|
+eg:420|pol;rel;soc|ES|EUS|Barcelona|1|-|-|-|pro|Josep M. Salrach|
+eg:421|soc|ES;FR|EUS|-|1|-|-|gascons|pro|Joan Giménez i Blasco|
+eg:422|pol|DE|EUC|Munic|0|Adolf Hitler|Nazisme;Tractat de Versalles|-|pro|Jordi Finestres|
+eg:423|rel|IT|EUS|Roma|0|-|-|romans|cul|Isabel Rodà|
+eg:424|pol|FR|EUO|París|0|Maximilien de Robespierre|Regnat del Terror;Revolució Francesa|-|pro|Lluís Roura|
+eg:425|cie|IT;PL;DE|EUS;EUC|-|0|Nicolau Copèrnic;Galileo Galilei;Johannes Kepler|Revolució científica|-|pro|Joan Girbau|
+eg:426|arqu|ES|EUS|Roda de Ter|1|-|-|ibers|lloc|Montserrat de Rocafiguera|
+eg:427|mus;cin|US|AN|Hollywood|0|-|-|-|cul|Àlex Gorina|
+eg:428|dre;soc|IT|EUS|Palerm|0|-|-|-|pro|Alberta Toniolo|
+eg:429|cul;soc|ES|EUS|Barcelona|1|-|Franquisme|-|cul|Joaquim Roglan|
+eg:430|gue;exp;eco|NO;DK;SE|EUN|-|0|-|-|vikings|pro|Inés García López|
+eg:431|pol|ES|EUS|Barcelona|1|Andreu Nin|Fets de maig de 1937|-|bio|Pelai Pagès|
+eg:432|lit|FR|EUO|París|0|Molière;Lluís XIV|-|-|bio|Caridad Martínez|
+eg:433|gue|MA;ES|NA|Sidi Ifni|0|-|Guerra d'Ifni|-|con|-|
+eg:434|exp|IT;CN|AO;ACM|Venècia|0|Marco Polo;Kublai Khan|-|-|bio|Manuel Forcano|
+eg:435|gue;pol|ES|EUS|-|1|Pere I de Castella;Pere el Cerimoniós|Guerra dels Dos Peres|-|con|Antoni Virgili|
+eg:436|eco;cie|ES|EUS|Vilassar de Mar|1|-|Revolució industrial|-|pro|Joan Giménez i Blasco|
+eg:437|gue|GR;TR|EUS;PO|-|1|Roger de Flor|Expedició dels almogàvers a Orient|almogàvers|pro|Eugeni Casanova|
+eg:438|pol|PE;ES|AL|Lima|1|Manuel d'Amat i de Junyent|-|-|bio|Héctor Oliva|
+eg:439|mus;pol|DE;IT;RU|EUC;EUS;EUE|-|0|-|-|-|cul|-|
+eg:440|cul;pol|ES;US|EUS|-|0|Francisco Franco|Franquisme|-|cul|Vicent Sanchis|
+eg:441|mus|ES|EUS|-|0|-|-|-|cul|-|
+eg:442|pol;fil;lit|IT|EUS|Roma|0|Ciceró|-|romans|bio|Ricard Andreu|
+eg:443|rel;gue|ES|EUS|-|1|-|Guerra Civil espanyola|-|pro|Daniel Arasa|

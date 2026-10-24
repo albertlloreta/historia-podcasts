@@ -1,0 +1,100 @@
+sons:4|mus;quo;cul|-|EUS;EUO|Barcelona|0|-|-|-|cul|Raül Sanchis|
+sons:5|lit;mus|GB;FR|EUO|-|0|Rei Artús|-|britons|cul|Delfi Nieto;Pau Castell|
+sons:6|lit;mus|FR;ES|EUO;EUS|-|1|-|-|occitans|cul|Cinta Arasa|
+sons:7|mus;quo;arq|FR|EUO|París|0|-|-|-|cul|Daniel Vilarrúbias|
+sons:8|mus;rel|ES|EUS|Montserrat|1|-|-|-|cul|Blai Marsé|
+sons:9|quo;mus|ES|EUS|Toledo|0|Alfons X de Castella|-|-|quo|Ángel Luis Molina|
+sons:10|lit;mus;quo|DE|EUC|Benediktbeuern|0|-|-|goliards|cul|Paco Soler Parellada|
+sons:11|mus;cie|-|EUS;EUO|-|0|Guido d'Arezzo|-|-|cul|Juan Carlos Asensio|
+sons:12|rel;mus;exp|ES|EUS|Santiago de Compostel·la|0|Sant Jaume|Camí de Sant Jaume|-|cul|Francesc Vicens|
+sons:13|mus|FR;ES;IT|EUO;EUS|Avinyó|0|-|-|-|cul|Tonatiuh Cortés|
+sons:14|rel;art;mus|ES|EUS|Ripoll|1|Oliba|Romànic|-|lloc|Marc Sureda|
+sons:15|lit;mus;gen|FR;ES|EUO;EUS|-|1|-|-|trobairitz|cul|Meritxell Simó|
+sons:16|rel;mus;his|FR;ES|EUO;EUS|Montsegur|1|-|Croada albigesa|càtars|deb|Sergi Grau|
+sons:17|pol;mus|ES|EUS|València|1|Jaume I|-|-|bio|Vicent Baydal|
+sons:18|mus;lit|FR|EUO|Reims|0|Guillaume de Machaut|-|-|bio|-|
+sons:19|mus|-|-|-|0|-|-|-|cul|-|
+sons:20|lit;mus|GB;FR|EUO|-|0|Merlí|-|britons|cul|Isaac Morera;Oriol Casadevall|
+sons:21|lit;mus|DE|EUC|-|0|Walther von der Vogelweide|-|-|cul|Gemma Pellissa|
+sons:22|quo;mus;arq|ES|EUS|Barcelona|1|-|-|-|lloc|Jordi Sacasas|
+sons:23|lit;mus|FR|EUO|Poitiers|0|Guillem IX d'Aquitània|-|occitans|bio|-|
+sons:24|lit;mus;gue|NO;DK;GB|EUN;EUO|Lindisfarne|0|-|-|vikings|cul|Ángel Gil Cheza|
+sons:25|med;cie|ES|EUS|València|1|Arnau de Vilanova|-|-|bio|Sergi Grau|
+sons:26|cie;cul|DE;ES|EUC;EUS|Magúncia|1|Johannes Gutenberg|-|-|pro|Carme Balliu|
+sons:27|rel;gen;lit|GB|EUO|King's Lynn|0|Margery Kempe|-|beguines|bio|Delfi Nieto|
+sons:28|rel;gen;art;mus|FR|EUO|Mont Sainte-Odile|0|Herrada de Landsberg|-|-|cul|Marta Ponce|
+sons:29|rel;arq|ES|EUS|Badalona|1|-|-|jerònims|lloc|Javier Bustamante|
+sons:30|mus;rel|ES|EUS|Girona|1|-|-|jueus|cul|Meritxell Blasco Orellana|
+sons:31|cul;art;lit|-|EUS;EUO|-|0|-|-|-|cul|Gerardo Boto|
+sons:32|rel|IT|EUS|Montecassino|0|Benet de Núrsia|-|benedictins|pro|Irene Brugués|
+sons:33|mus;rel|ES|EUS|Barcelona|1|-|-|-|cul|Bernat Vivancos|
+sons:34|fil;lit|ES|EUS|Palma|1|Ramon Llull|-|-|bio|-|
+sons:35|mus;rel|ES|EUS|Barcelona|1|-|-|-|cul|-|
+sons:36|exp|IT;CN|AO;ACM|Venècia|0|Marco Polo|-|-|bio|Roser Salicrú i Lluch|
+sons:37|quo|-|EUS;EUO|-|0|-|-|-|quo|Albert Barrachina|
+sons:38|lit|ES|EUS|València|1|Joanot Martorell|-|-|cul|Josep Vicent Miralles|
+sons:39|cul;mus|-|GLO|-|0|-|-|-|cul|Juan Francisco Jiménez Alcázar|
+sons:40|fil;lit;mus|FR|EUO|París|0|Pere Abelard;Heloïsa|-|-|bio|-|
+sons:41|cul;quo;rel|-|EUS;EUO|la Seu d'Urgell|0|-|-|-|quo|Josep Palau|
+sons:42|mus;rel|BE;FR|EUO|-|0|Johannes Ockeghem|-|-|cul|-|
+sons:43|arq;art;gen|-|EUS;EUO|-|0|-|Romànic|-|cul|María Elena Díez Jorge|
+sons:44|lit;mus|IT|EUS|Florència|0|Dante Alighieri|-|-|bio|Raffaele Pinto|
+sons:45|lit;mus|FR|EUO|-|0|-|-|occitans|cul|Meritxell Simó|
+sons:46|rel;cul|-|EUS;EUO|-|0|-|-|-|cul|Germán Navarro|
+sons:47|lit;mus;pol|FR|EUO|París|0|Gervais du Bus;Philippe de Vitry|-|-|cul|-|
+sons:48|lit|ES;IT|EUS|Nàpols|1|Enyego d'Àvalos|-|-|bio|Abel Soler|
+sons:49|rel|IT;ES|EUS|Assís|1|Francesc d'Assís|-|franciscans|pro|Agustí Boadas|
+sons:50|lit;cul|FR;ES|EUO;EUS|Girona|1|Francesc de la Via|-|-|cul|Jeroni Méndez|
+sons:51|mus;pol|ES|EUS|Barcelona|1|Joan II d'Aragó|-|-|cul|Francesc Villanueva Serrano|
+sons:52|lit;mus|FR|EUO|Uzerche|0|Gaucelm Faidit|-|occitans|bio|Antoni Rossell|
+sons:53|mus;rel|BE|EUO|Tournai|0|-|-|-|cul|-|
+sons:54|mus;quo|FR|EUO|París|0|-|-|-|cul|Martí Sans|
+sons:55|rel;lit|-|EUS;EUO|-|0|-|-|-|cul|Albert Toldrà|
+sons:56|rel;cul|-|EUS;EUO|-|0|-|-|-|cul|Rafael Narbona|
+sons:57|lit;mus;rel|ES;FR|EUS;EUO|Pamplona|0|Teobald I de Navarra|Croades|templers|bio|-|
+sons:58|cie|-|EUS;EUO;PO|-|0|Leonardo de Pisa|-|-|cul|Pablo Martín Prieto|
+sons:59|lit;mus|ES|EUS|Berga|1|Guillem de Berguedà|-|-|bio|Anna Alberni;Antoni Rossell;Eugènia Serra|
+sons:60|lit;mus|DE;AT|EUC|Melk|0|Tannhäuser|-|-|bio|Johannes Prominczel;Martí Sans|
+sons:61|lit;cul|FI|EUN|-|0|Elias Lönnrot;J. R. R. Tolkien;Jean Sibelius|-|finlandesos|cul|Siru Laine|
+sons:62|lit|ES|EUS|València|1|Ausiàs March|-|-|bio|Joan Magrané|
+sons:63|mus;rel;gen|ES|EUS|Burgos|0|-|-|-|lloc|Pablo Abella|
+sons:64|his;pol;cul|-|EUS;EUO;AN|-|0|-|-|-|deb|David M. Perry|
+sons:65|med;soc|-|EUS;EUO|-|0|-|Pesta Negra|-|pro|Antoni Trilla|
+sons:66|pol;rel|ES|EUS|Castelló d'Empúries|1|-|-|jueus|lloc|Vicenç Comas|
+sons:67|mus;lit|FR|EUO|París|0|Jehan de Lescurel|-|-|bio|-|
+sons:68|art;arq;mus|-|EUS;EUO|Girona|0|-|Gòtic|-|cul|-|
+sons:69|cie;mus|-|EUS;EUO|-|0|Hildegarda de Bingen|-|-|cul|Georgina Rabassó|
+sons:70|mus|FR|EUO|-|0|Philippe de Vitry|-|-|cul|Judit Verdaguer|
+sons:71|mus|GB|EUO|-|0|-|-|-|cul|Héctor Guerrero|
+sons:72|lit;gen|FR;GB|EUO|-|0|Maria de França|-|-|cul|-|
+sons:73|mus;lit|FR|EUO|Arràs|0|Adam de la Halle|-|-|cul|Francesc Massip|
+sons:74|lit;mus|GB|EUO|Canterbury|0|Geoffrey Chaucer|-|-|cul|-|
+sons:75|mus;rel;cul|-|EUS;EUO|-|0|-|-|-|cul|-|
+sons:76|lit|ES|EUS|Barcelona|1|Bernat Metge|-|-|cul|Alba Dedeu|
+sons:77|lit;gen|FR;IT|EUO|París|0|Cristina de Pisan|-|-|bio|Alicia Sala Villaverde|
+sons:78|lit;mus|FR;ES|EUO;EUS|-|0|Rodrigo Díaz de Vivar;Rotllan|-|-|cul|Antoni Rossell|
+sons:79|lit;cie|IR|PO|Nixapur|0|Omar Khayyam|-|perses|bio|Ramon Gaja|
+sons:80|rel;quo;mus|-|EUS;EUO|-|0|-|-|-|cul|Diana Pelaz|
+sons:81|mus|FR;IT|EUO;EUS|-|0|-|-|-|cul|Anna Danilevskaia|
+sons:82|mus;rel|CZ|EUC|Praga|0|-|-|-|cul|-|
+sons:83|lit;mus;rel|DE|EUC|-|0|-|-|goliards|cul|Oriol Catalán|
+sons:84|pol;gen|ES|EUS|Burgos|0|Violant d'Aragó;Alfons X de Castella|-|-|bio|Maria Jesús Fuente|
+sons:85|arq;rel;mus|-|EUS;EUO|-|0|-|Gòtic|-|cul|Juan Manuel Medina|
+sons:86|pol;mus;arq|ES|EUS|Granada|0|-|-|nassarites|lloc|Reynaldo Fernández|
+sons:87|mus;lit|BE;IT|EUO;EUS|Nàpols|0|Johannes Tinctoris|-|-|bio|-|
+sons:88|lit;pol;mus|FR;ES|EUO;EUS|-|0|-|-|occitans|cul|Alejandro Tonatiuh Hernández|
+sons:89|mus;gen;rel|TR;FR|EUS;EUO|Constantinoble|0|Kàssia;Duoda|-|bizantins;francs|bio|María Milagros Rivera Garretas|
+sons:90|cul;mus;pol|JP|AO|Kyoto|0|-|-|japonesos|pro|Jonathan López-Vera|
+sons:91|soc;med|DE;FR|EUC;EUO|Estrasburg|0|-|Epidèmia de ball de 1518|-|con|Anna Romaní;Carles Mas|
+sons:92|mus;cul|-|EUN;EUO|-|0|Umberto Eco|-|-|cul|-|
+sons:93|mus;soc|-|EUS;EUO|-|0|-|-|ministrers|cul|-|
+sons:94|cul;mus;arqu|ES|EUS|València|0|-|-|-|cul|Paloma Berrocal|
+sons:95|mus;lit|AT;IT|EUC;EUS|Tirol|0|Oswald von Wolkenstein|-|-|bio|-|
+sons:96|mus|GB|EUO|Birmingham|0|David Munrow|-|-|bio|Joan Vives|
+sons:97|arq;rel;art|ES|EUS|L'Estany|1|-|Romànic|-|lloc|Andrea Serrano|
+sons:98|mus;cul|-|EUS;EUO|-|0|-|-|-|cul|-|
+sons:99|rel;dre;gen|ES|EUS|-|1|-|Caça de bruixes|-|pro|Pau Castell|
+sons:100|fil;mus|IT;GB|EUS;EUO|Cambridge|0|Boeci|-|-|cul|Sam Barrett;Benjamin Bagby|
+sons:101|mus|IT|EUS|Florència|0|Francesco Landini|-|-|bio|Noemí Ortega|
+sons:102|lit;rel;gen|ES|EUS|València|1|Isabel de Villena|-|-|bio|Rosanna Cantavella|
+sons:103|mus|MX|AL|Texcoco|0|-|-|asteques;maies|cul|Gregorio Cortés|

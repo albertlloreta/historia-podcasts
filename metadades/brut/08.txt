@@ -1,0 +1,100 @@
+eg:244|pol;soc|ES|EUS|Barcelona|1|-|Pistolerisme|-|pro|-|
+eg:245|mus;pol|ES;FR|EUS;EUO|El Vendrell|1|Pau Casals|-|-|bio|Núria Ballester|
+eg:246|mus;cul|ES|EUS|-|1|-|-|-|cul|Xosé Aviñoa|
+eg:247|esp|ES|EUS|Barcelona|1|Eladi Homs|-|-|pro|Lluís Puyaltó|
+eg:248|cul|ES|EUS|Barcelona|1|-|-|-|cul|-|
+eg:249|cie;eco|ES|EUS|Barcelona|1|-|-|-|pro|Joan Carles Alayo|
+eg:250|gen;soc|ES|EUS|-|1|-|-|-|pro|Mariela Fargas|
+eg:251|med;pol|ES|EUS|Reus|1|Pere Mata|-|-|bio|Antonio Labad|
+eg:252|pol|ES|EUS|Madrid|1|Francesc Pi i Margall|Primera República espanyola|-|bio|Albert Ghanime|
+eg:253|lit;gue|ES;AT|EUS;EUC|Viena|1|Francesc de Castellví|Setge de Barcelona (1713-1714)|-|bio|Agustí Alcoberro|
+eg:254|eco;pol|ES|EUS|Barcelona|1|Ferran VI|-|-|pro|Àlex Sánchez|
+eg:255|cul;pol|ES;US|EUS;AN|Barcelona|1|-|Mancomunitat de Catalunya|-|cul|Francesc Canosa|
+eg:256|arqu;lit|TR|PO|Troia|0|Homer|Guerra de Troia|grecs;troians|deb|Borja Antela|
+eg:257|arq;gue|ES|EUS|Barcelona|1|Felip V|-|-|lloc|Albert Garcia Espuche|
+eg:258|pol;gue|ES;FR|EUS|Barcelona|1|Josep Bonaparte|Guerra del Francès|-|pro|Lluís Roura|
+eg:259|soc;cul|ES|EUS|Barcelona|1|-|-|-|lloc|Joaquim Roglan|
+eg:260|art|ES|EUS|Reus|1|Marià Fortuny|-|-|bio|Francesc Quílez|
+eg:261|esp|ES;NL|EUS|Barcelona|1|Johan Cruyff|-|-|bio|Ramon Besa|
+eg:262|quo;lit|ES|EUS|Barcelona|1|Baró de Maldà|-|-|bio|Mercè Rimbau|
+eg:263|eco;soc|ES|EUS|-|1|-|Revolució industrial|-|pro|Carles Enrech|
+eg:264|pol|ES|EUS|Sant Boi de Llobregat|1|-|Assemblea de Catalunya;Franquisme|-|pro|Carles Santacana|
+eg:265|gen;cul|ES|EUS|Barcelona|1|-|Franquisme|-|cul|-|
+eg:266|pol;soc|ES|EUS|Lleida|1|Ramon Berenguer IV|Reconquesta|andalusins|pro|Antoni Virgili|
+eg:267|gue|FR|EUO|Normandia|0|Dwight D. Eisenhower|Desembarcament de Normandia;Segona Guerra Mundial|-|con|Joan Villarroya|
+eg:268|pol|ES;CU|EUS;AL|Barcelona|1|Antoni Giberga|-|-|bio|Albert Ghanime|
+eg:269|mus;cul|US|AN|Nova York|0|Donna Summer|-|-|cul|Jordi Bianciotto|
+eg:270|eco;gen|ES|EUS|Barcelona|1|-|-|-|pro|Laura Casal-Valls|
+eg:271|soc;dre|ES|EUS|Arsèguel|1|Joanot Cadell|Nyerros i cadells|-|con|Lluís Obiols|
+eg:272|pol;gen|FR;TR|EUO;EUS|Montpeller|1|Eudòxia Comnè;Maria de Montpeller;Jaume I|-|-|bio|Ernest Marcos|
+eg:273|quo;soc|ES|EUS|Barcelona|1|-|-|-|quo|Mercè Tatjer|
+eg:274|art;fil|IT|EUS|Florència|0|Leonardo da Vinci;Pico della Mirandola;Nicolau Maquiavel|Renaixement|-|lloc|Prim Bertran|
+eg:275|pol;lit|ES|EUS|València|1|Joan Fuster|-|-|bio|Francesc Viadel|
+eg:276|his;rel;soc|ES|EUS|-|1|-|Concili de Trento|-|cul|Valentí Gual|
+eg:277|eco|NL|EUO|Amsterdam|0|-|Tulipomania|-|pro|Lluís Castañeda|
+eg:278|mus|CU|AL|l'Havana|0|Antonio Machín;Olga Guillot|-|-|cul|Jordi Rueda|
+eg:279|eco;cul|ES|EUS|Barcelona|1|-|-|-|pro|Joan Sabaté|
+eg:280|pol;his|ES|EUS|Barcelona|1|-|Diada Nacional de Catalunya;Setge de Barcelona (1713-1714)|-|deb|Enric Pujol|
+eg:281|exp|ES;PT;PH|GLO|Sanlúcar de Barrameda|0|Ferran de Magalhães;Joan Sebastián Elcano|Primera volta al món|-|pro|Enric Garcia|
+eg:282|soc;med|ES|EUS|Barcelona|1|-|-|-|quo|Teresa Vinyoles|
+eg:283|mus;cul|ES|EUS|Barcelona|1|-|-|-|cul|Eduard Molner|
+eg:284|pol|EG|NA|Alexandria|0|Cleòpatra;Juli Cèsar;Marc Antoni;Octavi August|-|egipcis;romans|bio|Pere Maymó|
+eg:285|mus;cin|US|AN|Hollywood|0|-|-|-|cul|Conrad Xalabarder|
+eg:286|lit|ES|EUS|València|1|Joanot Martorell|-|-|cul|José Enrique Ruiz-Domènec|
+eg:287|cie;rel;arq|MX;GT|AL|Tikal|0|-|-|maies|pro|Natàlia Moragas|
+eg:288|pol;dre|ES|EUS|Barcelona|1|Felip V|Decrets de Nova Planta|-|pro|-|
+eg:289|rel;gue|FR|EUO|Tolosa|1|Innocenci III;Simó de Montfort|Croada albigesa|càtars;occitans|con|Antoni Rossell|
+eg:290|arqu;pol;his|ES|EUS|Empúries|1|Martín Almagro Basch|Franquisme|-|deb|Francisco Gracia|
+eg:291|quo;art|FR;ES|EUO;EUS|Versalles|0|-|Il·lustració|-|quo|Josep Massagué|
+eg:292|cie;eco|ES|EUS|Barcelona|1|Francesc Santponç|Revolució industrial|-|pro|Santiago Riera|
+eg:293|gue|IQ|PO|Gaugamela|0|Alexandre el Gran;Darios III|Batalla de Gaugamela|macedonis;perses|con|Borja Antela|
+eg:294|gue|ES|EUS|Cardona|1|-|Guerra de Successió espanyola;Setge de Barcelona (1713-1714)|-|con|Josep M. Torras i Ribé|
+eg:295|arq;eco|ES;IT|EUS|Tarragona|1|Octavi August|Via Augusta|romans|pro|Isabel Rodà|
+eg:296|exp;soc|ES;US|EUS;AN|Lleida|1|Gaspar de Portolà|-|-|bio|Isidre Puig|
+eg:297|cie;exp|FR;ES|EUO;EUS|Barcelona|1|Germans Montgolfier|-|-|pro|Ròmul Brotons|
+eg:298|mus|DE;GB|EUC;EUO|Londres|0|Georg Friedrich Händel|-|-|bio|Jaume Radigales|
+eg:299|pol;soc;gue|HT|AL|Port-au-Prince|0|Toussaint Louverture|Revolució haitiana|esclaus africans|pro|Javier Laviña|
+eg:300|mus|FR|EUO|París|0|Jacques Brel;Yves Montand;Françoise Hardy|-|-|cul|Jordi Bianciotto|
+eg:301|mus|-|-|-|0|-|-|-|cul|-|
+eg:302|dre;gue|ES|EUS|Barcelona|1|Josep Maria Bertran de Quintana|Guerra Civil espanyola|-|bio|Oriol Dueñas|
+eg:303|gue|ES|EUS|Almansa|1|Felip V|Batalla d'Almansa;Guerra de Successió espanyola|-|con|Antonio Espino|
+eg:304|quo|IT|EUS|Roma|0|-|-|romans|quo|Josep M. Solias|
+eg:305|mus|ES|EUS|Barcelona|1|Enric Morera;Enric Granados;Isaac Albéniz|Modernisme|-|cul|Xosé Aviñoa|
+eg:306|soc;dre|ES|EUS|-|1|-|-|-|quo|Xavier Roigé|
+eg:307|gue|RO|EUE;EUS|Sarmizegetusa|0|Trajà;Decèbal|Guerres dàcies|romans;dacis|con|Oriol Olesti|
+eg:308|pol;gue|FR;AT;ES|EUO;EUC|-|0|Lluís XIV;Leopold I del Sacre Imperi|Guerra de Successió espanyola|-|pro|Joaquim Enrique López|
+eg:309|pol;dre|ES|EUS|Barcelona|1|-|-|-|pro|Manel Risques|
+eg:310|lit;cul|ES|EUS|Palma|1|Antoni Maria Alcover;Pompeu Fabra|-|-|deb|Maria Pilar Perea|
+eg:311|mus|ES|EUS|Barcelona|1|Pau Riba;Jaume Sisa|-|-|cul|Josep Maria Francino|
+eg:312|rel;gue|FR;IL|EUO;PO|París|0|Felip IV de França;Climent V;Jacques de Molay|Procés dels templers|templers|pro|Carme Plaza|
+eg:313|art|ES|EUS|Barcelona|1|Ramon Casas;Santiago Rusiñol|Modernisme|-|bio|Isabel Coll|
+eg:314|pol|ES;FR;AT|EUS;EUO|Madrid|0|Carles II;Lluís XIV;Leopold I del Sacre Imperi;Felip V|Guerra de Successió espanyola|-|pro|Joaquim Albareda|
+eg:315|pol|ES|EUS|Casp|1|Martí l'Humà;Jaume d'Urgell;Ferran d'Antequera|Compromís de Casp|-|pro|Ernest Belenguer|
+eg:316|gue|ES|EUS|-|1|Josep Pujol Boquica|Guerra del Francès|-|bio|-|
+eg:317|rel;fil|IN;NP|ASM|Lumbini|0|Buda|-|-|bio|Ricard Rotllan|
+eg:318|eco|US|AN|Nova York|0|Franklin D. Roosevelt|Crac del 29;Gran Depressió|-|pro|Carles Sudrià|
+eg:319|gue;pol|ES|EUS|Barcelona|1|-|Guerra dels Segadors;Guerra de Successió espanyola|-|pro|-|
+eg:320|gue;cie|-|EUO;EUC;EUE|-|0|-|Primera Guerra Mundial;Segona Guerra Mundial|-|pro|Joan Villarroya|
+eg:321|soc;pol|ES|EUS|Tortosa|1|-|-|-|pro|Salvador Joan Rovira|
+eg:322|esp|ES|EUS|Barcelona|1|Sebastià Masdeu|Volta Ciclista a Catalunya|-|cul|Rafael Vallbona|
+eg:323|quo;gen;med|-|EUS;EUO|-|0|-|-|-|quo|Albert Toldrà|
+eg:324|gue;rel|DE;CZ|EUC|Praga|0|Ferran II del Sacre Imperi|Guerra dels Trenta Anys|-|con|Antonio Espino|
+eg:325|soc;cul|-|GLO|-|0|-|-|-|pro|Joan Pinilla|
+eg:326|eco;rel|ES|EUS|Girona|1|-|-|-|pro|Elvis Mallorquí|
+eg:327|rel;dre;gen|ES|EUS|La Torre de Cabdella|1|-|Caça de bruixes|-|con|Pau Castell|
+eg:328|pol|ES|EUS|València|1|-|Batalla de València|-|pro|Francesc Viadel|
+eg:329|soc;eco|ES|EUS|Barcelona|1|-|-|africans|quo|Sònia Casas|
+eg:330|eco;dre|ES|EUS|València|1|Pere el Gran|Consolat de Mar|-|pro|Maria Teresa Ferrer i Mallol|
+eg:331|eco|ES|EUS|Tarragona|1|-|-|-|pro|Salvador Joan Rovira|
+eg:332|mus|ES|EUS|Alcoi|1|Ovidi Montllor|Nova Cançó|-|bio|Núria Cadenes|
+eg:333|pol|ES|EUS|Barcelona|1|-|-|-|pro|Francesc Canosa|
+eg:334|arqu;eco|SY|PO|Tell Halula|0|-|Revolució neolítica|-|pro|Miquel Molist|
+eg:335|gue|FR|EUO|Verdun|0|Philippe Pétain|Batalla de Verdun;Primera Guerra Mundial|-|con|Joan Villarroya|
+eg:336|lit;mus|FR;ES;IT|EUO;EUS|-|1|-|-|occitans|cul|Ferran Gadea|
+eg:337|pol|ES;EH|EUS;NA|Madrid|0|Francisco Franco|Marxa Verda;Franquisme|-|pro|Andreu Mayayo|
+eg:338|mus|DE|EUC|Leipzig|0|Johann Sebastian Bach|-|-|bio|Romà Escalas|
+eg:339|quo;cul|ES|EUS|Barcelona|1|-|-|-|lloc|Ròmul Brotons|
+eg:340|pol;dre|IT|EUS|Roma|0|-|-|romans|pro|Oriol Olesti|
+eg:341|art;his|ES|EUS|Taüll|1|Josep Puig i Cadafalch|Romànic|-|cul|Jordi Camps|
+eg:342|rel;pol|FR|EUO|Avinyó|0|Climent V|Papat d'Avinyó|-|pro|Prim Bertran|
+eg:343|med|ES|EUS|Barcelona|1|-|Guerra de Successió espanyola|-|pro|Alfons Zarzoso|

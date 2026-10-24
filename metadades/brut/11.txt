@@ -1,0 +1,100 @@
+eg:544|pol|ES|EUS|Madrid|0|Antonio Tejero;Joan Carles I|Transició espanyola;Cop d'estat del 23 de febrer|-|pro|-|
+eg:545|arqu;eco|ES|EUS|Gavà|1|-|-|-|lloc|-|
+eg:546|soc;pol|ES|EUS|Lleida|1|Ramon Berenguer IV|Reconquesta|andalusins|pro|-|
+eg:547|eco|-|EUS;EUO|-|0|-|-|-|pro|-|
+eg:548|gue;pol|ES|EUS|-|1|Napoleó Bonaparte|Guerra del Francès|-|con|-|
+eg:549|dre;pol|ES|EUS|Barcelona|1|Joan Rull|-|-|bio|Antoni Dalmau|
+eg:550|pol;gen|ES|EUS|Girona|1|Ermessenda de Carcassona|-|-|bio|-|
+eg:551|cie|ES|EUS|Barcelona|1|Francesc Salvà i Campillo|-|-|bio|-|
+eg:552|cul;pol|ES|EUS|-|1|-|Franquisme|-|pro|-|
+eg:553|gue|ES|EUS|Barcelona|1|Joan Josep d'Àustria|Setge de Barcelona (1651-1652);Guerra dels Segadors|-|con|-|
+eg:554|gue;soc|AT;DE|EUC|Mauthausen|1|-|Holocaust;Segona Guerra Mundial|republicans|pro|-|
+eg:555|gue|ES|EUS|Múrcia|1|Jaume I|Conquesta de Múrcia|andalusins|con|-|
+eg:556|gue|ES|EUS|Girona|1|Mariano Álvarez de Castro|Setges de Girona (1808-1809);Guerra del Francès|-|con|-|
+eg:557|pol;rel|EG|NA|-|0|-|-|egipcis|pro|-|
+eg:558|cul;cie|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:559|pol|IR|PO|Persèpolis|0|Cir II el Gran;Darios I|-|perses|pro|-|
+eg:560|art;arq|ES|EUS|-|1|-|Romànic|-|cul|-|
+eg:561|pol;gue|ES|EUS|Àger|1|Arnau Mir de Tost|-|-|bio|-|
+eg:562|gue|ES|EUS|-|1|Pere Joan Barceló|Guerra de Successió espanyola|miquelets|bio|-|
+eg:563|dre;pol|ES|EUS|-|1|-|Franquisme|-|pro|-|
+eg:564|fil;lit;rel|ES|EUS|Palma|1|Ramon Llull|-|-|bio|-|
+eg:565|exp;gue|MX;ES|AL|-|1|-|Conquesta d'Amèrica|-|pro|-|
+eg:566|mus|IT|EUS|Milà|0|Giuseppe Verdi|-|-|bio|-|
+eg:567|pol;soc|ES|EUS|Barcelona|1|Salvador Seguí|-|-|pro|-|
+eg:568|pol;gue|ES|EUS|Sort|1|Hug Roger III de Pallars|Guerra civil catalana|-|bio|-|
+eg:569|arq;rel|ES|EUS|Girona|1|-|-|-|lloc|-|
+eg:570|gue|ES|EUS|-|1|-|-|-|pro|-|
+eg:571|esp|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:572|pol|IT|EUS|Roma|0|-|-|romans|pro|-|
+eg:573|gue|ES|EUS|Palma|1|Jaume I|Conquesta de Mallorca|andalusins|con|-|
+eg:574|dre;soc|ES|EUS|Barcelona|1|-|-|-|quo|-|
+eg:575|gue|ES|EUS|-|1|Francesc Savalls|Tercera Guerra Carlina|-|bio|-|
+eg:576|soc;eco|ES|EUS|Barcelona|1|-|-|-|con|-|
+eg:577|esp;pol|ES|EUS|Barcelona|1|-|Olimpíada Popular|-|pro|-|
+eg:578|gue;rel|ES;IL|EUS;PO|Acre|1|Jaume I|Croades|-|con|-|
+eg:579|mus;cul|-|-|-|0|-|-|-|cul|-|
+eg:580|quo|ES|EUS|-|1|-|-|-|quo|-|
+eg:581|rel;lit;his|IL|PO|-|0|-|-|israelites|deb|-|
+eg:582|gue|GR|EUS|Atenes|0|Pèricles|Guerra del Peloponès|atenencs;espartans|con|-|
+eg:583|pol;dre|ES|EUS|Madrid|0|-|-|-|pro|-|
+eg:584|rel;pol|FR;IT|EUO;EUS|Avinyó|1|Benet XIII|Cisma d'Occident|-|pro|-|
+eg:585|pol|IT|EUS|Roma|0|-|-|romans|pro|-|
+eg:586|mus|ES|EUS|El Vendrell|1|Pau Casals|-|-|bio|-|
+eg:587|pol;eco|ES|EUS|Barcelona|1|Lluís Companys|Llei de Contractes de Conreu|-|deb|-|
+eg:588|gue;pol|ES|EUS|Barcelona|1|-|Guerra dels Segadors|-|deb|-|
+eg:589|pol|ES|EUS|Casp|1|-|Compromís de Casp|-|deb|-|
+eg:590|gue|-|-|-|0|-|-|-|con|-|
+eg:591|gen;soc;dre|-|EUS;EUO|-|0|-|-|-|pro|-|
+eg:592|pol|ES|EUS|Barcelona|1|Lluís Companys|-|-|bio|-|
+eg:593|rel;soc|ES|EUS|Girona|1|-|-|jueus|pro|-|
+eg:594|lit;soc|ES;IT|EUS|Barcelona|1|Giacomo Casanova|-|-|bio|-|
+eg:595|art;arq|ES|EUS|Barcelona|1|Antoni Gaudí;Lluís Domènech i Montaner|Modernisme|-|cul|-|
+eg:596|gue|ES|EUS|Gandesa|1|-|Batalla de l'Ebre;Guerra Civil espanyola|-|quo|-|
+eg:597|arq;quo|IT;ES|EUS|-|0|-|-|romans|cul|-|
+eg:598|fil;rel|ES|EUS|Vic|1|Jaume Balmes|-|-|bio|-|
+eg:599|eco;soc|ES|EUS|Barcelona|1|-|Revolució industrial|-|pro|-|
+eg:600|pol|ES|EUS|Barcelona|1|Joan II d'Aragó;Carles de Viana|Guerra civil catalana|-|con|-|
+eg:601|rel;cul|-|EUS;EUO|-|0|-|-|-|cul|-|
+eg:602|soc|ES|EUS|Olot|1|-|Terratrèmols de Catalunya de 1427-1428|-|con|-|
+eg:603|gue|ES|EUS|Lleida|1|Louis-Gabriel Suchet|Setge de Lleida (1810);Guerra del Francès|-|con|-|
+eg:604|quo;eco;soc|-|EUS;EUO|-|0|-|-|-|quo|-|
+eg:605|pol|IT;ES|EUS|Barcelona|1|Giuseppe Mazzini|-|-|pro|-|
+eg:606|pol;eco|ES|EUS|Barcelona|1|-|Primera Guerra Mundial|-|pro|-|
+eg:607|pol;soc|FR|EUO|París|0|-|Comuna de París|-|pro|-|
+eg:608|pol|ES|EUS|Barcelona|1|Alejandro Lerroux|Lerrouxisme|-|bio|-|
+eg:609|cul;his|ES|EUS|-|1|-|-|-|cul|-|
+eg:610|gue;pol|ES|EUS|Barcelona|1|Domènec Batet|Fets del Sis d'Octubre|-|bio|-|
+eg:611|pol|ES|EUS|València|1|-|Regnes de taifes|andalusins|lloc|-|
+eg:612|gue|ES|EUS|-|1|Carles d'Espanya|Primera Guerra Carlina|-|bio|-|
+eg:613|pol|ES;DE|EUS;EUC|-|0|Francisco Franco;Adolf Hitler|Franquisme;Nazisme|-|pro|-|
+eg:614|gue;arqu|-|EUS|-|0|-|-|-|pro|-|
+eg:615|esp;cie|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:616|pol;soc|ES;FR;MX|EUS;EUO;AL|-|1|-|Exili republicà|-|pro|-|
+eg:617|cie|ES|EUS|Isona|1|-|-|-|cul|-|
+eg:618|quo;soc|-|EUS;EUO|-|0|-|-|-|quo|-|
+eg:619|quo|GR;IT|EUS|-|0|-|-|grecs;romans|quo|-|
+eg:620|gue|IT|EUS|Càller|1|Alfons el Benigne|Conquesta de Sardenya|-|con|-|
+eg:621|arq;gue|-|EUS;EUO|-|0|-|-|-|pro|-|
+eg:622|gue|ES|EUS|Cocentaina|1|-|-|nassarites|con|-|
+eg:623|arqu|ES|EUS|-|1|-|Revolució neolítica|-|pro|-|
+eg:624|gue;pol|IT;GR|EUS|Roma|0|Juli Cèsar;Pompeu|Guerra civil de Cèsar|romans|con|-|
+eg:625|quo;cul|ES|EUS|-|1|-|-|-|quo|-|
+eg:626|gue|GI|EUS|Gibraltar|0|Jordi de Hessen-Darmstadt|Guerra de Successió espanyola|-|con|-|
+eg:627|gue|UA;RU|EUE|Sebastòpol|0|-|Guerra de Crimea|-|con|-|
+eg:628|pol|ES|EUS|Madrid|1|Miguel Primo de Rivera|Dictadura de Primo de Rivera|-|pro|-|
+eg:629|gue|FR|EUO;EUS|Perpinyà|1|Lluís XIII|Setge de Perpinyà (1642);Guerra dels Segadors|-|con|-|
+eg:630|soc;pol;eco|ES|EUS|-|1|-|Feudalisme|-|pro|-|
+eg:631|rel;dre|ES|EUS|Barcelona|1|Ferran el Catòlic;Tomás de Torquemada|Inquisició|conversos|pro|-|
+eg:632|eco;exp|-|GLO|-|0|-|-|-|pro|-|
+eg:633|gue;eco;soc|ES|EUS|-|1|-|Guerres carlines|-|pro|-|
+eg:634|eco;exp|GR;LB|EUS;PO|-|0|-|-|grecs;fenicis|pro|-|
+eg:635|gue;pol|ES|EUS|Barcelona|1|Lluís Companys|Guerra Civil espanyola;Revolució social espanyola de 1936|-|con|-|
+eg:636|cul;soc|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:637|pol|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:638|pol|FR;ES|EUS;EUO|Perpinyà|1|Felip IV;Lluís XIV|Tractat dels Pirineus|-|pro|-|
+eg:639|cin|ES|EUS|Barcelona|1|Fructuós Gelabert|-|-|cul|-|
+eg:640|esp;pol|ES|EUS|Barcelona|1|-|Segona República espanyola|-|pro|-|
+eg:641|gue|ES|EUS|Empúries|1|Pere el Gran|Croada contra la Corona d'Aragó|-|con|-|
+eg:642|pol;gue|ES|EUS|-|1|-|Guerra de Successió espanyola|-|pro|-|
+eg:643|med;cie|-|EUS;EUO|-|0|-|-|-|pro|-|

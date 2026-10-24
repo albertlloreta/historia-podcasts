@@ -1,0 +1,100 @@
+ih:274|art|DE|EUC|Dresden|0|Caspar David Friedrich|Romanticisme|-|cul|-|
+ih:275|lit|ES;IT;FR|EUS;EUO|-|0|-|-|-|cul|-|
+ih:276|lit;fil|GR|EUS|Tebes|0|Antígona;Sòfocles|-|grecs|cul|-|
+ih:277|fil|DE|EUC|Frankfurt del Main|0|Arthur Schopenhauer|-|-|cul|-|
+ih:278|lit|ES;IT;FR|EUS;EUO|-|0|-|-|-|cul|-|
+ih:279|lit;fil|GR|EUS|Tebes|0|Èdip;Sòfocles;Sigmund Freud|-|grecs|cul|-|
+ih:280|lit;fil|IT|EUS|Recanati|0|Giacomo Leopardi|Romanticisme|-|cul|-|
+ih:281|lit|GR|EUS|Micenes|0|Orestes;Electra;Èsquil|-|grecs|cul|-|
+ih:282|lit;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:283|lit;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:284|mus|DE;AT|EUC|Viena|0|Ludwig van Beethoven|Romanticisme|-|cul|-|
+ih:285|cin;lit|CN;TW|AO|-|0|Hou Hsiao-hsien;Gao Xingjian|-|-|cul|-|
+ih:286|lit;rel|GR|EUS|-|0|Prometeu;Orfeu|-|grecs|cul|-|
+ih:287|art|-|-|-|0|-|-|-|cul|-|
+ih:288|cin;lit|CN;TW|AO|-|0|Hou Hsiao-hsien;Gao Xingjian|-|-|cul|-|
+ih:289|cin|-|-|-|0|-|-|-|cul|-|
+ih:290|art;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:291|art;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:292|art;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:293|art;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:294|cin|-|-|-|0|-|-|-|cul|-|
+ih:295|lit|GR|EUS|Ítaca|0|Ulisses;Homer|-|grecs|cul|-|
+ih:296|fil;eco;pol|DE;GB|EUC;EUO|Londres|0|Karl Marx|-|-|cul|-|
+ih:297|cin|-|-|-|0|-|-|-|cul|-|
+ih:298|art|-|-|-|0|-|-|-|cul|-|
+ih:299|cul;cie|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:300|cul;cie|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:301|fil|CN|AO|-|0|Han Fei;Zhuangzi|Període dels Regnes Combatents|xinesos|cul|-|
+ih:302|fil|ES|EUS|Barcelona|0|Eugenio Trías|-|-|cul|-|
+ih:303|lit;fil|FR|EUO|París|0|Marquès de Sade|-|-|cul|-|
+ih:304|fil|CN|AO|-|0|Han Fei;Zhuangzi|Període dels Regnes Combatents|xinesos|cul|-|
+ih:305|fil|ES|EUS|Barcelona|0|Eugenio Trías|-|-|cul|-|
+ih:306|lit|FR|EUO|París|0|André Gide|-|-|cul|-|
+ih:307|lit;fil|DE;CH|EUC|Davos|0|Thomas Mann|-|-|cul|-|
+ih:308|fil;art|ES|EUS|Barcelona|0|Eugenio Trías|-|-|cul|-|
+ih:309|lit|-|-|-|0|-|-|-|cul|-|
+ih:310|cie|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:311|cie|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:312|lit|DE|EUC|-|0|Johann Wolfgang von Goethe|-|-|cul|-|
+ih:313|fil;rel|ES|EUS|Barcelona|0|Eugenio Trías|-|-|cul|-|
+ih:314|fil;gen|US|AN|-|0|Judith Butler|-|-|cul|-|
+ih:315|lit|-|-|-|0|-|-|-|cul|-|
+ih:316|lit;pol|CD;GB|AS;EUO|Congo|0|Joseph Conrad|-|-|cul|-|
+ih:317|lit|-|-|-|0|-|-|-|cul|-|
+ih:318|soc;his|ES;CU|EUS;AL|Barcelona|0|-|-|-|deb|-|
+ih:319|soc;his|ES;CU|EUS;AL|Barcelona|0|-|-|-|deb|-|
+ih:320|lit;gen|GB|EUO|-|0|George Eliot|-|-|cul|-|
+ih:321|pol;fil|GR|EUS|Atenes|0|Pèricles|-|grecs|cul|-|
+ih:322|fil;gen;pol|US|AN|-|0|Judith Butler|-|-|cul|-|
+ih:323|fil|-|EUS;EUO;EUC|-|0|-|-|-|cul|-|
+ih:324|lit;pol|GB;IN;FR|EUO|-|0|George Orwell|-|-|bio|-|
+ih:325|fil;gen|US|AN|-|0|Judith Butler|-|-|cul|-|
+ih:326|soc;eco|-|GLO|-|0|-|-|-|cul|-|
+ih:327|lit|GB;US|EUO;AN|-|0|Henry James|-|-|cul|-|
+ih:328|rel|-|EUS;EUO;PO|-|0|-|-|jueus;cristians|cul|-|
+ih:329|lit;gue|ES|EUS|Barcelona|1|George Orwell|Guerra Civil espanyola;Fets de maig de 1937|-|cul|-|
+ih:330|fil;pol|US|AN|-|0|Judith Butler|-|-|cul|-|
+ih:331|soc;eco|-|GLO|-|0|-|-|-|cul|-|
+ih:332|lit;fil|ES|EUS|Madrid|0|Pío Baroja|-|-|cul|-|
+ih:333|lit;pol|GB|EUO|-|0|George Orwell|-|-|cul|-|
+ih:334|lit;pol|ES|EUS|Madrid|0|Belén Gopegui|-|-|cul|-|
+ih:335|fil;pol|US|AN|-|0|Judith Butler|-|-|cul|-|
+ih:336|mus|AT;DE|EUC|Viena|0|Ludwig van Beethoven|-|-|cul|-|
+ih:337|lit;fil|GB|EUO|-|0|George Orwell|-|-|cul|-|
+ih:338|soc;eco|-|GLO|-|0|-|-|-|cul|-|
+ih:339|lit;fil|GB|EUO|-|0|Iris Murdoch|-|-|cul|-|
+ih:340|art;rel|-|EUS;EUO|-|0|Tiziano;Peter Paul Rubens|-|-|cul|-|
+ih:341|lit|ES|EUS|Barcelona|1|Raimon Casellas|Modernisme|-|cul|-|
+ih:342|pol;soc|FR;DE;AT;IT|EUO;EUC|París|0|-|Revolucions de 1848|-|pro|-|
+ih:343|fil|IT;NL|EUS;EUO|-|0|Rosi Braidotti|-|-|cul|-|
+ih:344|art|FR|EUO|París|0|Gustave Courbet;Édouard Manet|Realisme|-|cul|-|
+ih:345|fil|NL;IT|EUO;EUS|-|0|Baruch Spinoza;Rosi Braidotti|-|-|cul|-|
+ih:346|lit;rel|GR|EUS|Atenes|0|Dionís|-|grecs|cul|-|
+ih:347|art;fil|-|-|-|0|-|-|-|cul|-|
+ih:348|lit;rel|GR|EUS|-|0|Prometeu;Hesíode;Èsquil|-|grecs|cul|-|
+ih:349|lit;soc|GB|EUO|Londres|0|Charles Dickens|Època victoriana|-|cul|-|
+ih:350|lit|GR|EUS|Atenes|0|Èsquil|-|grecs|cul|-|
+ih:351|lit;rel|GR|EUS|-|0|Prometeu|-|grecs|cul|-|
+ih:352|fil;gen|IT;NL|EUS;EUO|-|0|Rosi Braidotti|-|-|cul|-|
+ih:353|lit|GR|EUS|Atenes|0|Sòfocles|-|grecs|cul|-|
+ih:354|rel;fil|-|GLO|-|0|Raimon Panikkar|-|-|cul|-|
+ih:355|lit;gen|GR|EUS|Atenes|0|Eurípides;Medea|-|grecs|cul|-|
+ih:356|lit;rel|GR|EUS|-|0|Prometeu|-|grecs|cul|-|
+ih:357|rel;fil|IN|ASM|-|0|Buda|-|-|cul|-|
+ih:358|cin;art|-|-|-|0|-|-|-|cul|-|
+ih:359|lit|IT|EUS|Roma|0|Sèneca|-|romans|cul|-|
+ih:360|rel|IL|PO|Jerusalem|0|Jesús de Natzaret|-|jueus;cristians|cul|-|
+ih:361|fil|IT;NL|EUS;EUO|-|0|Rosi Braidotti|-|-|cul|-|
+ih:362|cin;art|CA;AT|AN;EUC|-|0|Michael Snow;Peter Tscherkassky|-|-|cul|-|
+ih:363|rel;lit|IL|PO|Jerusalem|0|Jesús de Natzaret|-|cristians|cul|-|
+ih:364|rel|SA|PO|la Meca|0|Mahoma|-|àrabs|cul|-|
+ih:365|cin;art|US;FR;LT|AN;EUO|Nova York|0|Jonas Mekas;Jean-Claude Rousseau|-|-|cul|-|
+ih:366|gue;pol|FR;DE|EUO;EUC|París|0|Otto von Bismarck;Napoleó III|Guerra francoprussiana;Comuna de París|-|pro|-|
+ih:367|mus;lit|IT|EUS|Màntua|0|Claudio Monteverdi|-|-|cul|-|
+ih:368|rel;fil|CN|AO|-|0|Confuci;Laozi|-|xinesos|cul|-|
+ih:369|rel;lit|IL;IQ|PO|Nínive|0|Jonàs|-|israelites|cul|-|
+ih:370|cin;art;pol|DE;PT|EUC;EUS|-|0|Harun Farocki;Susana de Sousa Dias|-|-|cul|-|
+ih:371|lit;gen|GB|EUO|Haworth|0|Charlotte Brontë;Emily Brontë;Anne Brontë|-|-|cul|-|
+ih:372|lit|GB|EUO|Londres|0|William Shakespeare|-|-|cul|-|
+ih:373|rel;fil|ES;IN|EUS;ASM|-|1|Raimon Panikkar|-|-|cul|-|

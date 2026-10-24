@@ -1,0 +1,100 @@
+ih:574|lit|IE;GB;US|EUO;AN|Londres|0|James Joyce;T. S. Eliot;Virginia Woolf|Modernisme literari|-|cul|-|
+ih:575|fil;lit|DE|EUC|-|0|Friedrich Hölderlin;Georg Wilhelm Friedrich Hegel;Friedrich Schelling;Martin Heidegger|-|-|cul|-|
+ih:576|gen;cin;cul|-|GLO|-|0|-|-|-|cul|-|
+ih:577|lit|DE|EUC|-|0|Friedrich Hölderlin|-|-|cul|-|
+ih:578|pol|RU|EUE|Petrograd|0|Lenin;Lev Trotski|Revolució Russa|-|pro|-|
+ih:579|soc;cie;fil|-|GLO|-|0|-|-|-|cul|-|
+ih:580|soc;eco|-|GLO|-|0|-|-|-|cul|-|
+ih:581|art|RU|EUE|-|0|Marc Chagall;Kazimir Malèvitx;Vassili Kandinski|Avantguardes|-|cul|-|
+ih:582|pol;cul|DE|EUC|Berlín|0|-|República de Weimar|-|pro|-|
+ih:583|rel;gen;lit|IL|PO|-|0|-|-|israelites|cul|-|
+ih:584|art;pol;cul|ES|EUS|Barcelona|1|Eugeni d'Ors;Enric Prat de la Riba|Noucentisme|-|cul|-|
+ih:585|fil|DE|EUC|-|0|Walter Benjamin|-|-|cul|-|
+ih:586|rel;gen|IL|PO|-|0|Jeftè|-|israelites|cul|-|
+ih:587|quo;cul|-|EUO;AN|-|0|-|-|-|quo|-|
+ih:588|fil;art|DE|EUC|-|0|Walter Benjamin;Bertolt Brecht|-|-|cul|-|
+ih:589|mus;rel;gen|DE|EUC|Dresden|0|Richard Strauss;Salomé|-|-|cul|-|
+ih:590|arq;art|DE|EUC|Weimar|0|Walter Gropius|Bauhaus|-|cul|-|
+ih:591|fil;lit|DE;FR|EUC;EUO|París|0|Walter Benjamin|-|-|cul|-|
+ih:592|rel;gen;lit|IL|PO|-|0|Dèbora|-|israelites|cul|-|
+ih:593|art;pol|IT|EUS|-|0|Giovanni Gentile;Filippo Tommaso Marinetti|Futurisme;Feixisme italià|-|cul|-|
+ih:594|fil;exp|DE;ES|EUC;EUS|Eivissa|0|Walter Benjamin|-|-|cul|-|
+ih:595|art;cin|FR;ES|EUO;EUS|París|0|André Breton;Salvador Dalí;Luis Buñuel|Surrealisme|-|cul|-|
+ih:596|fil;cie|-|-|-|0|-|-|-|cul|-|
+ih:597|rel;gen;lit|IL;GR|PO;EUS|-|0|Eva;Pandora|-|-|cul|-|
+ih:598|lit;gue|DE|EUC|-|0|Ernst Jünger;Erich Maria Remarque|Primera Guerra Mundial|-|cul|-|
+ih:599|fil;cie|-|-|-|0|-|-|-|cul|-|
+ih:600|fil;his|DE;ES|EUC;EUS|Portbou|1|Walter Benjamin|-|-|cul|-|
+ih:601|lit|CZ|EUC|Praga|0|Franz Kafka|-|-|cul|-|
+ih:602|fil;cie|-|-|-|0|-|-|-|cul|-|
+ih:603|fil;art|DE|EUC|-|0|Walter Benjamin|-|-|cul|-|
+ih:604|lit;art|FR|EUO|París|0|Honoré de Balzac|-|-|cul|-|
+ih:605|fil;pol|-|-|-|0|Sòcrates|-|-|cul|-|
+ih:606|fil;lit|DE|EUC|-|0|Walter Benjamin|-|-|cul|-|
+ih:607|fil;pol|-|-|-|0|-|-|-|cul|-|
+ih:608|fil;rel|DE|EUC|-|0|Walter Benjamin|-|-|cul|-|
+ih:609|lit;art|US;GB|AN;EUO|-|0|Henry James|-|-|cul|-|
+ih:610|fil;pol|-|-|-|0|-|-|-|cul|-|
+ih:611|lit;art|ES;MX|EUS;AL|-|0|Max Aub|-|-|cul|-|
+ih:612|fil;cie|-|GLO|-|0|-|-|-|cul|-|
+ih:613|lit;art|AT;FR|EUC;EUO|Ais de Provença|0|Peter Handke;Paul Cézanne|-|-|cul|-|
+ih:614|pol;fil|GR|EUS|Atenes|0|-|-|grecs|cul|-|
+ih:615|fil;cie|-|GLO|-|0|-|-|-|cul|-|
+ih:616|lit;art|FR|EUO|París|0|Marcel Proust|-|-|cul|-|
+ih:617|pol;fil|IT|EUS|Florència|0|-|-|-|pro|-|
+ih:618|fil;cie|-|GLO|-|0|-|-|-|cul|-|
+ih:619|pol;arq|ES;US|EUS;AN|Barcelona|1|-|-|-|cul|-|
+ih:620|lit;arq|US|AN|-|0|Rebecca Solnit|-|-|cul|-|
+ih:621|lit;art|US|AN|-|0|Kurt Vonnegut|-|-|cul|-|
+ih:622|lit;soc|ES|EUS|Barcelona|1|Francesc Candel|-|immigrants|cul|-|
+ih:623|lit;art|GB|EUO|-|0|Iris Murdoch|-|-|cul|-|
+ih:624|lit|ES|EUS|Barcelona|1|Luis Goytisolo|-|-|cul|-|
+ih:625|soc;cul|-|GLO|-|0|-|-|-|cul|-|
+ih:626|eco;fil|GB|EUO|-|0|Thomas Malthus|-|-|cul|-|
+ih:627|lit|ES|EUS|Sant Adrià de Besòs|1|Javier Pérez Andújar|-|-|cul|-|
+ih:628|eco;fil;cie|-|GLO|-|0|-|-|-|cul|-|
+ih:629|lit;pol|ES|EUS|Barcelona|1|-|-|-|cul|-|
+ih:630|eco;fil;cul|-|GLO|-|0|-|-|-|cul|-|
+ih:631|lit;art|MX|AL|-|0|Verónica Gerber Bicecci|-|-|cul|-|
+ih:632|lit|FR|EUO|-|0|Gustave Flaubert|-|-|cul|-|
+ih:633|pol;art|-|EUO;EUC|-|0|-|Primera Guerra Mundial;Segona Guerra Mundial|-|pro|-|
+ih:634|cul;med|-|GLO|-|0|-|-|-|cul|-|
+ih:635|cul;cie|-|GLO|-|0|-|-|-|cul|-|
+ih:636|lit|FR|EUO|-|0|Gustave Flaubert|-|-|cul|-|
+ih:637|lit;art|ES|EUS|Madrid|0|Federico García Lorca;Rafael Alberti|Generació del 27|-|cul|-|
+ih:638|lit|FR|EUO|París|0|Gustave Flaubert|-|-|cul|-|
+ih:639|lit;gue|PL;IT|EUC;EUS|Auschwitz|0|Primo Levi|Holocaust|jueus|cul|-|
+ih:640|fil;pol|DE|EUC|Frankfurt del Main|0|Theodor Adorno;Max Horkheimer|Escola de Frankfurt|-|cul|-|
+ih:641|lit|FR|EUO|-|0|Gustave Flaubert|-|-|cul|-|
+ih:642|cul;med;fil|-|GLO|-|0|-|-|-|cul|-|
+ih:643|lit|IT;PL;UA|EUS;EUC;EUE|Torí|0|Primo Levi|Holocaust|-|cul|-|
+ih:644|fil;lit;rel|RU|EUE|Sant Petersburg|0|Fiódor Dostoievski|-|-|cul|-|
+ih:645|fil;cul|-|GLO|-|0|-|-|-|cul|-|
+ih:646|lit;cie|IT|EUS|Torí|0|Primo Levi|-|-|cul|-|
+ih:647|arq|FR;CH|EUO|-|0|Le Corbusier|-|-|cul|-|
+ih:648|lit;fil|RU|EUE|-|0|Fiódor Dostoievski;Lev Tolstoi|-|-|cul|-|
+ih:649|lit;gue|IT|EUS|Torí|0|Primo Levi|Holocaust|-|cul|-|
+ih:650|cin|US;FR;DE|AN;EUO;EUC|-|0|Fritz Lang;Jean Renoir|-|-|cul|-|
+ih:651|lit|RU|EUE|-|0|Fiódor Dostoievski|-|-|cul|-|
+ih:652|art;fil;his|-|-|-|0|-|-|-|cul|-|
+ih:653|fil;cul|-|-|-|0|-|-|-|cul|-|
+ih:654|lit;his|IT|EUS|Torí|0|Primo Levi|Holocaust|-|cul|-|
+ih:655|mus|HU;CZ;DE|EUC|-|0|Béla Bartók;Leoš Janáček;Paul Hindemith|-|-|cul|-|
+ih:656|lit|RU|EUE|-|0|Fiódor Dostoievski|-|-|cul|-|
+ih:657|fil;his|-|-|-|0|-|-|-|cul|-|
+ih:658|pol;eco|ES|EUS|Barcelona|1|Francesc Cambó|Lliga Regionalista|-|bio|-|
+ih:659|lit|ES|EUS|Reus|1|Gabriel Ferrater|-|-|bio|-|
+ih:660|lit;pol|RU|EUE|Moscou|0|Marina Tsvetàieva;Anna Akhmàtova;Óssip Mandelxtam;Ióssif Stalin|-|-|cul|-|
+ih:661|fil;pol|DE;US|EUC;AN|-|0|Hannah Arendt|-|-|cul|-|
+ih:662|lit;art|ES|EUS|-|1|Gabriel Ferrater|-|-|cul|-|
+ih:663|fil;pol|DE;US;RU|EUC;AN;EUE|-|0|Hannah Arendt|Nazisme|-|cul|-|
+ih:664|lit|ES|EUS|-|1|Gabriel Ferrater|-|-|cul|-|
+ih:665|fil|DE|EUC|Friburg de Brisgòvia|0|Martin Heidegger|-|-|cul|-|
+ih:666|fil;pol|US|AN|-|0|Hannah Arendt|-|-|cul|-|
+ih:667|lit|ES|EUS|-|1|Gabriel Ferrater|-|-|cul|-|
+ih:668|art|FR;US|EUO;AN|-|0|Marcel Duchamp|Dadaisme|-|cul|-|
+ih:669|fil;dre|IL;DE|PO;EUC|Jerusalem|0|Hannah Arendt;Adolf Eichmann|Judici a Adolf Eichmann;Holocaust|-|cul|-|
+ih:670|fil;pol;soc|FR;GB|EUO|-|0|Charles Fourier;Robert Owen;Henri de Saint-Simon|Socialisme utòpic|-|cul|-|
+ih:671|art;pol|DE;AT|EUC|Munic|0|Paul Klee;Oskar Kokoschka;Ernst Ludwig Kirchner|Art degenerat;Nazisme|-|cul|-|
+ih:672|fil;lit|DE|EUC|-|0|Hannah Arendt;Gotthold Ephraim Lessing|-|-|cul|-|
+ih:673|soc;med;cul|CH;DE|EUC|Ascona|0|-|Lebensreform|-|lloc|-|

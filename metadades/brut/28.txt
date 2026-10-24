@@ -1,0 +1,29 @@
+ih:774|lit;gen|ES|EUS|Barcelona|1|Mercè Rodoreda|-|-|cul|-|
+ih:775|art|IT|EUS|Roma|0|Caravaggio|Barroc|-|bio|-|
+ih:776|lit|ES|EUS|-|0|Miguel de Cervantes|-|-|cul|-|
+ih:777|lit|ES|EUS|-|1|Mercè Rodoreda|-|-|cul|-|
+ih:778|art;gen|IT|EUS|Roma|0|Artemisia Gentileschi|Barroc|-|bio|-|
+ih:779|lit;gen|ES|EUS|Barcelona|1|Mercè Rodoreda|-|-|cul|-|
+ih:780|art|FR|EUO|Ornans|0|Gustave Courbet|Realisme|-|cul|-|
+ih:781|lit;pol|IT|EUS|Florència|0|Dante Alighieri|-|-|cul|-|
+ih:782|lit;pol|IT|EUS|Florència|0|Dante Alighieri|-|-|cul|-|
+ih:783|lit;gen|ES|EUS|-|1|Mercè Rodoreda|-|-|cul|-|
+ih:784|art|FR|EUO|Giverny|0|Claude Monet|Impressionisme|-|cul|-|
+ih:785|fil;gen|-|-|-|0|-|-|-|cul|-|
+ih:786|gen;soc|-|-|-|0|-|-|-|cul|-|
+ih:787|fil;rel;art|ES|EUS|-|1|-|-|-|cul|-|
+ih:788|fil;rel;lit|ES|EUS|Palma|1|Ramon Llull|-|-|cul|-|
+ih:789|lit;rel|ES|EUS|València|1|Ausiàs March;Isabel de Villena|-|-|cul|-|
+ih:790|lit|ES|EUS|Barcelona|1|Josep Carner|Noucentisme|-|cul|-|
+ih:791|mus;art|ES|EUS|Barcelona|1|Frederic Mompou;Antoni Tàpies|-|-|cul|-|
+ih:792|dre;fil;pol|-|-|-|0|-|-|-|cul|-|
+ih:793|pol|-|GLO|-|0|-|-|-|cul|-|
+ih:794|gen;soc|-|-|-|0|-|-|-|cul|-|
+ih:795|med;fil;eco|AT|EUC|-|0|Sigmund Freud;Jacques Lacan|-|-|cul|-|
+ih:796|fil;pol|FR;MQ|AL;EUO|Fort-de-France|0|Frantz Fanon;Aimé Césaire|-|afrocaribenys|cul|-|
+ih:797|fil;pol;soc|DZ|NA|Alger|0|Frantz Fanon|Guerra d'Algèria|-|cul|-|
+ih:798|fil;pol|-|EUO;NA|-|0|Frantz Fanon|-|-|cul|-|
+ih:799|fil;pol|DZ;FR|NA;EUO|-|0|Frantz Fanon;Adam Shatz|Guerra d'Algèria|-|cul|-|en
+ih:800|lit;pol|GB|EUO|Londres|0|William Shakespeare|-|-|cul|-|
+ih:801|lit|ES|EUS|Granada|0|Federico García Lorca|-|-|cul|-|
+ih:802|lit;his|ES|EUS|Granada|0|Federico García Lorca|-|-|cul|-|

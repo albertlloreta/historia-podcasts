@@ -1,0 +1,100 @@
+eg:44|gue;pol|ES|EUS|Saragossa|1|Buenaventura Durruti|Guerra Civil espanyola|-|pro|-|
+eg:45|pol;rel|ES|EUS|Lleida|1|-|Conquesta musulmana de la península Ibèrica|andalusins|pro|Dolors Bramon|
+eg:46|mus|DE;AT|EUC|Viena|0|Ludwig van Beethoven|-|-|bio|-|
+eg:47|pol|EE;LV;LT|EUN|Vílnius|0|Mikhaïl Gorbatxov|Cadena Bàltica;Dissolució de la Unió Soviètica|-|pro|-|
+eg:48|cul;soc|ES|EUS|-|1|-|-|-|pro|-|
+eg:49|pol;dre|ES;DE|EUS|Barcelona|1|Baró de Koenig|Pistolerisme|-|bio|Román Ceano|
+eg:50|rel;cul|GR|EUS|Mont Olimp|0|-|-|grecs|cul|Héctor Oliva|
+eg:51|lit|CH;GB|EUC;EUO|Villa Diodati|0|Lord Byron;Mary Shelley;John William Polidori|-|-|cul|Marina Espasa|
+eg:52|cul;pol|ES|EUS|Barcelona|1|Rafael Figueró|Guerra de Successió espanyola|-|cul|Xevi Camprubí|
+eg:53|art|ES|EUS|Barcelona|1|Pere Català i Pic|-|-|bio|Pablo Giori|
+eg:54|fil;cie|GR;IT|EUS|Crotona|0|Pitàgores|-|grecs|bio|Ramon Masià|
+eg:55|pol|PL|EUC|Gdańsk|0|Lech Wałęsa;Joan Pau II;Wojciech Jaruzelski|Guerra Freda;Solidarność|-|pro|Pep Martí i Vallverdú|
+eg:56|med;soc|ES|EUS|Súria|1|-|-|-|pro|Jordi Algué i Sala|
+eg:57|cul;eco|ES|EUS|Barcelona|1|Joan Baptista Cendrós|-|-|bio|Genís Sinca|
+eg:58|gue|ES|EUS|Alpens|1|Francesc Savalls;Josep Cabrinetty|Batalla d'Alpens;Tercera Guerra Carlina|-|con|Víctor Farradellas|
+eg:59|rel|ES|EUS|-|1|Martí Luter|Reforma protestant|-|pro|Josep Lluís Carod-Rovira|
+eg:60|pol|DE|EUC|Berlín|0|Erich Honecker;Walter Ulbricht|Mur de Berlín;Guerra Freda|-|pro|-|
+eg:61|pol;art|ES|EUS|Prades|1|Pere d'Aragó i d'Anjou|-|-|bio|Antoni Conejo da Pena|
+eg:62|gue;soc|ES|EUS|El Port de la Selva|1|-|Guerra Civil espanyola;Franquisme|-|lloc|Vicenç Relats|
+eg:63|esp|DE;AT;GB|EUC;EUO|Nürburgring|0|Niki Lauda;James Hunt|-|-|bio|Valentí Fradera|
+eg:64|pol|ES;FR|EUS|Barcelona|1|Josep Tarradellas;Adolfo Suárez|Transició espanyola|-|pro|Enric Pujol|
+eg:65|pol;gue|CU;US;RU|AL;AN|l'Havana|0|John F. Kennedy;Nikita Khrusxov;Fidel Castro|Crisi dels míssils de Cuba;Guerra Freda|-|con|-|
+eg:66|gue;eco|ES|EUS|Cadaqués|1|Barba-rossa|-|-|pro|Gabriel Martín i Roig|
+eg:67|cul;pol|ES|EUS|Barcelona|1|Josep Pla;Josep Maria de Sagarra;Josep Maria Planes|Segona República espanyola|-|cul|-|
+eg:68|gue|CN;JP|AO|Pequín|0|Chiang Kai-shek|Segona Guerra Sino-japonesa|-|con|Dolors Folch|
+eg:69|rel;soc|ES|EUS|Barcelona|1|-|Bullangues|-|con|Manuel Santirso|
+eg:70|pol;gue|HU|EUC|Budapest|0|Imre Nagy|Revolució hongaresa de 1956;Guerra Freda|-|con|Josep M. Martí Font|
+eg:71|pol;gue|HU|EUC|Budapest|0|Imre Nagy|Revolució hongaresa de 1956;Guerra Freda|-|con|Josep M. Martí Font|
+eg:72|dre;soc|ES|EUS|Barcelona|1|Enriqueta Martí|-|-|bio|Jordi Corominas|
+eg:73|dre;soc|ES|EUS|Barcelona|1|Enriqueta Martí|-|-|bio|Jordi Corominas|
+eg:74|arq;arqu|ES|EUS|Barcelona|1|-|-|romans|lloc|Alessandro Ravotto|
+eg:75|gue;pol|JO;SA|PO|Àqaba|0|T. E. Lawrence|Revolta Àrab;Primera Guerra Mundial|àrabs;otomans|bio|Jordi Llaonart|
+eg:76|gue;pol|JO;SA|PO|Àqaba|0|T. E. Lawrence|Revolta Àrab;Primera Guerra Mundial|àrabs;otomans|bio|Jordi Llaonart|
+eg:77|eco;quo|ES|EUS|Sant Sadurní d'Anoia|1|-|-|-|pro|Santi Borrell|
+eg:78|gen;rel|EG|NA|-|0|-|-|egipcis|quo|-|
+eg:79|gen;rel|EG|NA|-|0|-|-|egipcis|quo|-|
+eg:80|pol|DE;US;RU|EUC;GLO|Berlín|0|Harry S. Truman;Ióssif Stalin|Guerra Freda|-|pro|Alberto Pellegrini|
+eg:81|pol|DE;US;RU|EUC;GLO|Berlín|0|Harry S. Truman;Ióssif Stalin|Guerra Freda|-|pro|Alberto Pellegrini|
+eg:82|pol|ES|EUS|Barcelona|1|Hilari Salvadó|Guerra Civil espanyola|-|bio|Pau Vinyes i Roig|
+eg:83|pol;cul|ES|EUS|Còrdova|0|-|Regnes de taifes|andalusins|pro|Josep M. Salrach|
+eg:84|mus|IT|EUS|Lucca|0|Giacomo Puccini|-|-|bio|Jaume Radigales|
+eg:85|mus|IT|EUS|Lucca|0|Giacomo Puccini|-|-|bio|Jaume Radigales|
+eg:86|arq;eco|ES|EUS|Mollerussa|1|Joan Soler Faneca|Canal d'Urgell|-|bio|Maria Garganté|
+eg:87|arq;eco|ES|EUS|Mollerussa|1|Joan Soler Faneca|Canal d'Urgell|-|bio|Maria Garganté|
+eg:88|pol|UA|EUE|Ialta|0|Ióssif Stalin;Winston Churchill;Franklin D. Roosevelt|Conferència de Ialta;Guerra Freda|-|pro|Joan Villarroya|
+eg:89|pol|UA|EUE|Ialta|0|Ióssif Stalin;Winston Churchill;Franklin D. Roosevelt|Conferència de Ialta;Guerra Freda|-|pro|Joan Villarroya|
+eg:90|esp;quo|IT|EUS|Roma|0|Espàrtac|-|romans|quo|Jordi Cortadella|
+eg:91|esp;quo|IT|EUS|Roma|0|Espàrtac|-|romans|quo|Jordi Cortadella|
+eg:92|pol;soc|FR|EUO|París|0|Charles de Gaulle|Maig del 68|-|pro|Felip Solé|
+eg:93|pol;soc|FR|EUO|París|0|Charles de Gaulle|Maig del 68|-|pro|Felip Solé|
+eg:94|mus;eco|ES|EUS|Barcelona|1|-|-|-|pro|Oriol Brugarolas|
+eg:95|gue;pol|GR|EUS|Pel·la|0|Filip II de Macedònia|-|macedonis|bio|Borja Antela|
+eg:96|pol|ES|EUS|Madrid|1|Felip V|Guerra de Successió espanyola|-|bio|Agustí Alcoberro|
+eg:97|eco;art|ES;CU|EUS|Barcelona|1|Joan Güell i Ferrer;Eusebi Güell;Antoni Gaudí|-|-|bio|-|
+eg:98|arq;art|GR|EUS|Atenes|0|Pèricles;Fídies;Ictí|-|grecs|lloc|Jacobo Vidal|
+eg:99|gue;soc|ES;BE|EUS;EUO|Siurana|1|Jan Buyse|Segona Guerra Mundial|-|bio|Toni Orensanz|
+eg:100|gue|ES|EUS|Girona|1|Mariano Álvarez de Castro|Setges de Girona (1808-1809);Guerra del Francès|-|con|Gerard Bussot|
+eg:101|pol|ES|EUS|València|1|Vicent Marco Miranda|-|-|bio|Francesc Viadel|
+eg:102|art|NL|EUO|Amsterdam|0|Rembrandt|-|-|bio|Vicenç Furió|
+eg:103|gue;soc|ES|EUS|Barcelona|1|-|Guerra Civil espanyola|-|pro|-|
+eg:104|his;pol|ES|EUS|-|1|-|-|-|deb|Agustí Alcoberro|
+eg:105|pol;gue|IT|EUS|Rubicó|0|Juli Cèsar;Pompeu|Guerra civil de Cèsar|romans|con|Oriol Olesti|
+eg:106|gen;soc|ES|EUS|-|1|Sança Ximenis de Cabrera;Elionor d'Urgell;Estefania de Carròs|-|-|bio|Teresa Vinyoles|
+eg:107|eco;soc|ES;CU|EUS;AS;AL|Barcelona|1|-|Tràfic atlàntic d'esclaus|africans|pro|-|
+eg:108|pol;soc|ES;AR|EUS;AL|Barcelona|1|Jorge Rafael Videla|Dictadura argentina|-|pro|Diego Arcos|
+eg:109|pol|IT|EUS|L'Alguer|1|Pere el Cerimoniós|-|algueresos|lloc|Marcel A. Farinelli|
+eg:110|quo;arqu|-|GLO|-|0|-|-|homínids|quo|-|
+eg:111|gue;pol|DE|EUC|Berlín|0|Reinhard Heydrich;Adolf Eichmann|Conferència de Wannsee;Holocaust|jueus|pro|-|
+eg:112|pol|ES|EUS|Barcelona|1|Ataülf|-|visigots|pro|Víctor Revilla|
+eg:113|his;fil|ES|EUS|Figueres|1|Alexandre Deulofeu|-|-|bio|-|
+eg:114|gue;pol|MN;CN|AO;ACM|Karakoram|0|Genguis Khan|Conquestes mongoles|mongols|bio|Dolors Folch|
+eg:115|cin|US|AN|Hollywood|0|Ridley Scott;Steven Spielberg|-|-|cul|-|
+eg:116|cin|US|AN|Hollywood|0|-|-|-|cul|Ferran Auberni|
+eg:117|pol|ES|EUS|Barcelona|1|-|Guerra Civil espanyola|-|pro|Arnau González i Vilalta|
+eg:118|exp;quo;rel|-|EUS;EUO|Vic|0|-|-|-|quo|Marc Sureda|
+eg:119|esp;pol|ES|EUS|Barcelona|1|-|-|-|cul|Bernat Soler|
+eg:120|lit;his|ES;GR|EUS|Peralada|1|Ramon Muntaner;Roger de Flor|Expedició dels almogàvers a Orient|almogàvers|bio|Stefano Maria Cingolani|
+eg:121|cin|US|AN|Hollywood|0|Arthur Penn;Dennis Hopper|-|-|cul|-|
+eg:122|pol;cul|ES|EUS|València|1|Joan Fuster|Batalla de València|-|pro|-|
+eg:123|pol|ES|EUS|Barcelona|1|Lluís Companys;Domènec Batet|Fets del Sis d'Octubre|-|con|-|
+eg:124|pol|ES|EUS|Barcelona|1|Lluís Companys;Domènec Batet|Fets del Sis d'Octubre|-|con|-|
+eg:125|cul|ES|EUS|Barcelona|1|Joaquim Partagàs|-|-|cul|-|
+eg:126|arqu|ES|EUS|Banyoles|1|-|-|-|lloc|Josep Tarrús|
+eg:127|lit|GB|EUO|Stratford-upon-Avon|0|William Shakespeare|-|-|bio|Clara Escoda|
+eg:128|cin|US|AN|Hollywood|0|-|-|-|cul|-|
+eg:129|eco|ES|EUS|Reus|1|-|-|-|lloc|-|
+eg:130|art;rel|-|EUS;EUO|-|0|Sandro Botticelli;El Greco|-|-|cul|-|
+eg:131|gue|ES|EUS|Barcelona|1|Almansor;Borrell II|Saqueig de Barcelona (985)|andalusins|con|-|
+eg:132|gue|ES|EUS|Cantàbria|0|Octavi August|Guerres càntabres|càntabres;asturs;romans|con|Oriol Olesti|
+eg:133|cin;eco|US|AN|Hollywood|0|Charles Chaplin;Mary Pickford|-|-|cul|Àlex Gorina|
+eg:134|pol;soc;dre|US|AN|Montgomery|0|Rosa Parks;Martin Luther King|Moviment pels drets civils|afroamericans|pro|-|
+eg:135|pol;gue|GR|EUS|Atenes|1|Gautier de Brienne|Batalla del Cefís;Ducats d'Atenes i Neopàtria|almogàvers|pro|-|
+eg:136|dre;pol|MX|AL|Ciutat de Mèxic|1|Ramon Mercader;Lev Trotski|Assassinat de Trotski|-|bio|Eduard Puigventós|
+eg:137|cin|FR;US|EUO;AN|París|0|Georges Méliès;D. W. Griffith;Germans Lumière|-|-|cul|-|
+eg:138|gue;pol|ES|EUS|Sant Carles de la Ràpita|1|Jaime Ortega y Olleta;Carles Lluís de Borbó|Ortegada|-|con|Lluís Ferran Toledano|
+eg:139|pol;gue|ES|EUS|Barcelona|1|Pere el Cerimoniós;Pere I de Castella|Guerra dels Dos Peres|-|bio|Ernest Belenguer|
+eg:140|esp;rel|GR|EUS|Olímpia|0|-|Jocs Olímpics antics|grecs|cul|Borja Antela|
+eg:141|gue;eco|CN;GB|AO|Canton|0|-|Guerres de l'Opi|-|con|Dolors Folch|
+eg:142|cin;cie|FR;US|EUO;AN|París|0|Thomas Edison;Germans Lumière|-|-|cul|Jordi Pons i Busquet|
+eg:143|cin;cie|-|EUO|-|0|-|-|-|cul|-|

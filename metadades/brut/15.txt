@@ -1,0 +1,100 @@
+eg:944|cie|DE;CH;US|EUC;AN|Berna|0|Albert Einstein|-|-|bio|-|
+eg:945|pol;dre|US|AN|Dallas|0|John F. Kennedy;Robert F. Kennedy;Lee Harvey Oswald|Assassinat de John F. Kennedy|-|con|-|
+eg:946|lit|ES|EUS|Roda de Ter|1|Miquel Martí i Pol|-|-|bio|Jaume Aulet|
+eg:947|dre|ES|EUS|-|1|-|-|-|pro|-|
+eg:948|pol;gue|FR;ES|EUO;EUS|Prats de Molló|1|Francesc Macià|Fets de Prats de Molló|-|con|-|
+eg:949|pol;soc|ES|EUS|Barcelona|1|Baldomero Espartero|Jamància|-|con|-|
+eg:950|quo;eco|ES|EUS|Barcelona|1|-|Petita edat de gel|-|quo|-|
+eg:951|art;rel|ES|EUS|-|1|-|Barroc|-|cul|-|
+eg:952|pol|AL|EUS|Tirana|0|Enver Hoxha|Guerra Freda|-|bio|-|
+eg:953|eco;arq|ES|EUS|Mollerussa|1|-|Canal d'Urgell|-|lloc|-|
+eg:954|pol;gue|FR|EUO|París|0|Napoleó Bonaparte|Guerres napoleòniques|-|bio|-|
+eg:955|gue;soc|DE;AT;PL|EUC|Mauthausen|1|-|Holocaust;Segona Guerra Mundial|republicans|pro|-|
+eg:956|arq;art|ES|EUS|Barcelona|1|-|Renaixement|-|lloc|-|
+eg:957|eco|ES|EUS|Barcelona|1|-|Revolució industrial|-|pro|-|
+eg:958|cul;quo|IT;ES|EUS|-|0|-|-|romans|cul|-|
+eg:959|gue|ES|EUS|Barcelona|1|-|Guerra Civil espanyola|-|pro|-|
+eg:960|med;gue|ES|EUS|Gandesa|1|-|Batalla de l'Ebre;Guerra Civil espanyola|-|pro|-|
+eg:961|pol;gue|ES|EUS|Barcelona|1|Mir Geribert;Ramon Berenguer I|Feudalisme|-|con|-|
+eg:962|rel|ES|EUS|Manresa|1|Ignasi de Loiola|-|-|bio|-|
+eg:963|quo;cul|ES|EUS|Barcelona|1|-|-|-|quo|-|
+eg:964|pol|ES;FR|EUS;EUO|Barcelona|1|Dalmau Costa|Exili republicà|-|bio|-|
+eg:965|soc;gue|ES|EUS|Barcelona|1|Joan Prim|Revolta de les Quintes|-|con|-|
+eg:966|pol;gue|GB;IE|EUO|Belfast|0|-|Conflicte nord-irlandès|-|con|-|
+eg:967|arq;eco|ES|EUS|Sant Carles de la Ràpita|1|Carles III|-|-|lloc|-|
+eg:968|pol|ES|EUS|Barcelona|1|Martí l'Humà|-|-|bio|-|
+eg:969|mus;cul|ES|EUS|Barcelona|1|Víctor Jou|-|-|lloc|-|
+eg:970|gue;soc|AT|EUC|Mauthausen|1|Joan Tarragó|Holocaust;Segona Guerra Mundial|republicans|bio|-|
+eg:971|cie|ES|EUS|-|1|-|-|-|pro|-|
+eg:972|quo;eco|ES|EUS|-|1|-|-|-|quo|-|
+eg:973|med|ES|EUS|Delta de l'Ebre|1|-|-|-|pro|-|
+eg:974|arqu|ES|EUS|-|1|-|-|ibers;fenicis|pro|-|
+eg:975|cie;rel;dre|IT|EUS|Roma|0|Galileo Galilei|-|-|con|-|
+eg:976|lit|ES|EUS|Barcelona|1|Josep Maria de Sagarra|-|-|bio|-|
+eg:977|gue;pol|ES|EUS|Barcelona|1|Joan II d'Aragó|Guerra civil catalana|-|con|-|
+eg:978|quo;arq|ES|EUS|-|1|-|-|-|quo|-|
+eg:979|gue|ES|EUS|Vic|1|Francesc Macià i Ambert|Guerra de Successió espanyola|-|bio|-|
+eg:980|cin|IT|EUS|Roma|0|Roberto Rossellini;Vittorio De Sica|Neorealisme italià|-|cul|-|
+eg:981|gue|ES|EUS|Cardona|1|Duc de Berwick|Guerra de Successió espanyola|-|con|-|
+eg:982|lit;cul|BE|EUO|Brussel·les|0|Hergé|-|-|cul|-|
+eg:983|art;gue|ES|EUS|-|0|Robert Capa;Gerda Taro;Agustí Centelles|Guerra Civil espanyola|-|cul|-|
+eg:984|arqu|ES|EUS|Atapuerca|0|-|-|homínids|lloc|-|
+eg:985|mus;gue|ES;US|EUS;AN|-|0|Eddie Balchowsky|Brigades Internacionals;Batalla de l'Ebre|-|bio|-|
+eg:986|lit|GB|EUO|Londres|0|William Shakespeare|-|-|cul|-|
+eg:987|exp|ES;IT|EUS|Barcelona|1|Giovanni Francesco Gemelli Careri|Guerra de Successió espanyola|-|bio|-|
+eg:988|cul|ES|EUS|Mataró|1|-|Franquisme|-|lloc|-|
+eg:989|pol|ES|EUS|Barcelona|1|Joan Garcia Oliver|Guerra Civil espanyola|-|bio|-|
+eg:990|arqu;arq|ES|EUS|Menorca|1|-|-|talaiòtics|cul|-|
+eg:991|gue|ES|EUS|Barcelona|1|-|Guerra Civil espanyola|-|con|-|
+eg:992|soc;lit|ES|EUS|València|1|Bernat Català de Valleriola|-|-|bio|-|
+eg:993|cin|US;IT|AN;EUS|Roma|0|Joseph L. Mankiewicz;Elizabeth Taylor;Richard Burton|-|-|cul|-|
+eg:994|art;dre|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:995|pol;gue|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:996|lit;pol|ES|EUS|Sueca|1|Joan Fuster|-|-|bio|-|
+eg:997|pol|ES|EUS|València|1|-|Franquisme|-|pro|-|
+eg:998|lit;pol|ES|EUS|-|1|Manuel de Pedrolo|-|-|bio|-|
+eg:999|cul;soc|ES|EUS|Barcelona|1|Pere Vergés|-|-|lloc|-|
+eg:1000|pol|EG|NA|Alexandria|0|Octavi August|-|romans;egipcis|pro|-|
+eg:1001|med;soc|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:1002|pol;dre|ES|EUS|-|1|-|Transició espanyola|-|pro|-|
+eg:1003|dre;med|ES|EUS|Capellades|1|-|-|-|con|-|
+eg:1004|fil;pol|FR;DZ|EUO|París|0|Albert Camus;Jean-Paul Sartre|-|-|deb|-|
+eg:1005|lit;cul|ES|EUS|Barcelona|1|-|-|-|cul|-|
+eg:1006|cie;eco|ES|EUS|Barcelona|1|Vilfred Ricart|Franquisme|-|bio|-|
+eg:1007|cie;pol|ES|EUS|Barcelona|1|Carles Montañès|-|-|bio|-|
+eg:1008|esp;pol|DE|EUC|Berlín|0|-|Guerra Freda|-|cul|-|
+eg:1009|cul;pol|ES|EUS|Barcelona|1|-|Congrés de Cultura Catalana|-|pro|-|
+eg:1010|lit;fil|ES|EUS|Barcelona|1|Eugeni d'Ors|Noucentisme|-|bio|-|
+eg:1011|rel;gen|ES|EUS|Alguaire|1|-|-|hospitalers|lloc|-|
+eg:1012|arq|ES|EUS|Barcelona|1|Ildefons Cerdà|Pla Cerdà|-|cul|-|
+eg:1013|gue;soc;gen|ES|EUS|Valldeperes|1|Angeleta Solé|Batalla de l'Ebre;Guerra Civil espanyola|-|quo|-|
+eg:1014|rel;pol|IT|EUS|Roma|0|-|Reforma protestant;Contrareforma|-|pro|-|
+eg:1015|art;dre|ES|EUS|Girona|1|Josep Francesc de Caramany;Antoine Seux|-|-|quo|-|
+eg:1016|arq;cul|ES|EUS|Barcelona|1|Elies Rogent|-|-|lloc|-|
+eg:1017|pol|IT|EUS|Roma|0|Aldo Moro|Segrest i assassinat d'Aldo Moro;Anys de plom|-|con|-|
+eg:1018|pol;gen|ES|EUS|Barcelona|1|Margarida de Prades;Martí l'Humà|-|-|bio|-|
+eg:1019|gue;pol|GB|EUO|Londres|0|Oliver Cromwell;Carles I d'Anglaterra|Guerra Civil anglesa|-|bio|Àngel Casals|
+eg:1020|pol|JP|AO|Tòquio|0|Shinzo Abe;Nobusuke Kishi|-|-|pro|-|
+eg:1021|dre|ES|EUS|Barcelona|1|Isidre Mompart;Nicomedes Méndez|-|-|con|Mercè Balada|
+eg:1022|gue;his|GR|EUS|Atenes|0|Tucídides;Pèricles|Guerra del Peloponès|atenencs;espartans|con|Borja Antela|
+eg:1023|pol;lit|ES|EUS|Figueres|1|Abdó Terrades;Narcís Monturiol|-|-|pro|-|
+eg:1024|pol|SE;US;CD|EUN;AN;AS|Nova York|0|Dag Hammarskjöld|Guerra Freda|-|bio|-|
+eg:1025|cul;pol|ES|EUS|Barcelona|1|Carles Sentís|Franquisme|-|bio|-|
+eg:1026|dre;pol|ES|EUS|Vielha|1|Jaume II|-|aranesos|cul|-|
+eg:1027|mus;pol|IT;US|EUS;AN|Milà|0|Arturo Toscanini|-|-|bio|-|
+eg:1028|pol;gue|ES|EUS|Sant Joan de les Abadesses|1|-|Tercera Guerra Carlina|-|pro|Lluís Ferran Toledano|
+eg:1029|dre;gen|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:1030|gen;gue|ES|EUS|-|1|-|Guerra Civil espanyola|-|pro|-|
+eg:1031|pol|ES|EUS|Barcelona|1|Josep Puig i Cadafalch|Mancomunitat de Catalunya|-|pro|-|
+eg:1032|rel;art;cul|ES|EUS|Barcelona|1|Santa Eulàlia|Barroc|-|cul|-|
+eg:1033|gen;pol|ES|EUS|Lleida|1|-|Secció Femenina;Franquisme|-|pro|-|
+eg:1034|lit|ES|EUS|Valldemossa|1|George Sand;Frédéric Chopin|-|-|bio|-|
+eg:1035|esp|GR|EUS|Marató|0|Spiridon Louis|Jocs Olímpics d'Atenes 1896|-|cul|-|
+eg:1036|eco|ES;NL|EUS;EUO|Tarragona|1|-|Pau de Westfàlia|-|bio|-|
+eg:1037|cie|RS;HR;US|EUS;AN|Nova York|0|Nikola Tesla;Thomas Edison|-|-|bio|-|
+eg:1038|arqu;gue|ES|EUS|Empúries|1|-|Guerra Civil espanyola|grecs|lloc|-|
+eg:1039|gue|DE|EUC|Bosc de Teutoburg|0|Armini;Publi Quintili Var;Octavi August|Batalla del bosc de Teutoburg|romans;germànics|con|-|
+eg:1040|pol;gue|TN;ES;IT|NA;EUS|Cartago|0|-|-|cartaginesos|pro|-|
+eg:1041|pol|ES|EUS|Barcelona|1|Manuel Carrasco i Formiguera|Estatut de Núria;Pacte de Sant Sebastià|-|bio|-|
+eg:1042|cie;quo|ES;DE|EUS;EUC|Barcelona|1|-|-|-|quo|-|
+eg:1043|dre|ES|EUS|-|1|-|Feudalisme|visigots|pro|Josep Maria Salrach|

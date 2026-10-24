@@ -1,0 +1,100 @@
+sons:104|fil;rel;cul|-|EUS;EUO|-|0|-|-|-|cul|-|
+sons:105|rel;gen;lit|FR|EUO|París|0|Margarida Porete|-|beguines|bio|Delfi Nieto;Blanca Garí|
+sons:106|mus;rel|FR|EUO|Avinyó|0|-|Papat d'Avinyó;Cisma d'Occident|-|cul|Ramon Sarobe|
+sons:107|arq;gue;eco|ES|EUS|Barcelona|1|-|-|-|lloc|Enric Garcia|
+sons:108|mus|GB|EUO|-|0|John Dunstable|-|-|bio|-|
+sons:109|lit;mus|FR|EUO|Blaia|0|Jaufré Rudel|-|occitans|bio|Cristina Alís|
+sons:110|mus;art|BE;FR|EUO|Mons|0|Gilles Binchois;Rogier van der Weyden|-|-|bio|-|
+sons:111|rel;lit;gen|BE|EUO|Anvers|0|Hadewijch d'Anvers|-|beguines|bio|Helena Casas|
+sons:112|mus;rel|IT|EUS|-|0|Tomàs de Celano|-|-|cul|-|
+sons:113|mus;lit|-|AN;EUO|-|0|Tristany;Isolda|-|-|cul|-|
+sons:114|mus;rel;arq|FR|EUO|París|0|Leoninus;Perotinus|-|-|cul|-|
+sons:115|pol;gen;lit|FR;GB|EUO|Poitiers|0|Elionor d'Aquitània|-|-|bio|Ana Rodríguez|
+sons:116|soc;quo;med|-|EUS;EUO|-|0|-|-|-|quo|Antoni Conejo|
+sons:117|lit|DE|EUC|Worms|0|Sigfrid|-|-|cul|Carmen Botella|
+sons:118|lit;mus|ES;PT|EUS|Toledo|0|Alfons X de Castella|-|-|cul|-|
+sons:119|lit;mus|FR|EUO|-|0|Arnaut Daniel;Ricard Cor de Lleó;Alfons el Cast|-|occitans|bio|-|
+sons:120|lit;rel;his|FR|EUO|Cluny|0|Raül Glaber;Margarida Borràs|-|-|cul|-|
+sons:121|cul;quo;mus|-|EUS;EUO|-|0|-|-|-|cul|-|
+sons:122|lit;mus;rel|DE|EUC|Magúncia|0|Heinrich von Meissen|-|-|bio|Víctor Millet|
+sons:123|mus;cul|-|EUN|-|0|-|-|vikings|cul|-|
+sons:124|lit;mus|ES;FR|EUS;EUO|Cabestany|1|Guillem de Cabestany|-|occitans|bio|-|
+sons:125|cul;lit;cin|-|EUO;AN|-|0|George R. R. Martin|-|-|cul|Óscar Perea|
+sons:126|rel;cul;lit|-|EUS;EUO|-|0|-|-|-|cul|-|
+sons:127|mus|IT|EUS|-|0|-|-|-|cul|-|
+sons:128|mus;rel|ES;TR;GR;MA|EUS;PO;NA|-|0|-|Expulsió dels jueus d'Espanya|sefardites|cul|Mara Aranda|
+sons:129|cul;mus;rel|-|EUS;EUO|-|0|-|-|-|cul|-|
+ih:0|fil;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:1|cin|-|-|Barcelona|0|-|-|-|cul|-|
+ih:2|cin;cul|-|-|Barcelona|0|-|-|-|cul|-|es
+ih:3|art|ES|EUS|Madrid|0|Francisco de Goya|Il·lustració|-|bio|-|
+ih:4|fil;gen|US|AN|Barcelona|0|Judith Butler|-|-|cul|-|
+ih:5|fil|DE|EUC|Barcelona|0|Peter Sloterdijk|-|-|cul|-|
+ih:6|lit;fil|-|-|-|0|-|-|-|cul|-|
+ih:7|lit;fil|-|-|-|0|-|-|-|cul|-|
+ih:8|lit;fil|-|-|-|0|-|-|-|cul|-|
+ih:9|eco;soc;arq|ES|EUS|Barcelona|1|-|-|-|deb|-|
+ih:10|arq;lit;art|IT|EUS|-|0|Apuleu|-|romans|cul|-|
+ih:11|arq;soc|-|GLO|-|0|-|-|-|cul|-|
+ih:12|his;soc|-|EUS;EUO;EUC|-|0|-|-|-|pro|-|
+ih:13|arq;dre|-|GLO|-|0|-|-|-|cul|-|
+ih:14|pol;rel|IT;FR;ES|EUS;EUO|-|0|-|Caiguda de l'Imperi Romà d'Occident|romans;germànics|pro|-|
+ih:15|arq;art|-|GLO|-|0|-|-|-|cul|-|
+ih:16|pol|FR;DE|EUO;EUC|Aquisgrà|0|Carlemany|Imperi Carolingi|francs|bio|-|
+ih:17|arq;pol|ES|EUS|Barcelona|1|-|Franquisme|-|lloc|-|
+ih:18|arq;art|ES;PT|EUS|-|0|-|Segle d'Or espanyol|-|cul|-|
+ih:19|soc;pol;eco|-|EUS;EUO|-|0|-|Feudalisme|-|pro|-|
+ih:20|arq;pol|FR;ES|EUO;EUS|Versalles|0|-|-|-|cul|-|
+ih:21|lit|GB;FR|EUO|-|0|Rei Artús;Chrétien de Troyes|-|britons|cul|-|
+ih:22|lit;mus|FR;ES|EUO;EUS|-|1|-|-|occitans|cul|-|
+ih:23|rel;gue|FR|EUO|Montsegur|1|-|Croada albigesa|càtars|pro|-|
+ih:24|eco;rel;pol|-|EUS;PO;NA|-|0|-|-|-|pro|-|
+ih:25|arq;art|IT|EUS|Bomarzo|0|Pier Francesco Orsini|-|-|lloc|-|
+ih:26|lit;pol;rel|IT|EUS|Florència|0|Dante Alighieri|-|-|bio|-|
+ih:27|arq;rel|FR|EUO|París|0|-|Gòtic|-|cul|-|
+ih:28|arq;quo|-|-|-|0|-|-|-|cul|-|
+ih:29|art;rel|IT;ES|EUS;EUO|-|0|Giotto|Gòtic|-|cul|-|
+ih:30|arq;quo;pol|FR|EUO|-|0|-|-|-|quo|-|
+ih:31|quo|-|EUS;EUO|-|0|-|-|-|quo|-|
+ih:32|arq;soc|ES|EUS|Barcelona|1|-|-|-|pro|-|
+ih:33|cie;rel|ES|EUS;PO|Toledo|0|Maimònides;Averrois|-|jueus;andalusins|cul|-|
+ih:34|cin;quo|US|AN|-|0|-|-|-|cul|-|
+ih:35|soc;eco;arq|-|EUS;EUO|-|0|-|-|-|pro|-|
+ih:36|lit;quo|-|-|-|0|-|-|-|cul|-|
+ih:37|lit|ES;FR|EUS;EUO|-|0|Joanot Martorell|-|-|cul|-|
+ih:38|lit|FR|EUO|París|0|Louis-Ferdinand Céline|-|-|cul|-|
+ih:39|fil;gen;lit|-|-|-|0|-|-|-|cul|-|
+ih:40|gen;fil;pol|IT;FR|EUS;EUO|-|0|Carla Lonzi;Luce Irigaray|-|-|cul|-|
+ih:41|lit|CH;DE|EUC|-|0|Robert Walser|-|-|cul|-|
+ih:42|fil;gen|-|-|-|0|-|-|-|cul|-|
+ih:43|lit|DE;PL|EUC|Gdańsk|0|Günter Grass|-|-|cul|-|
+ih:44|gen;fil;pol|IT|EUS|Milà|0|-|-|-|cul|-|
+ih:45|fil;gen|-|-|-|0|-|-|-|cul|-|
+ih:46|soc;eco;arq|ES|EUS|Barcelona|1|Rem Koolhaas|-|-|deb|-|
+ih:47|lit|FR|EUO|París|0|André Gide|-|-|cul|-|
+ih:48|fil;med|GR|EUS|Atenes|0|Sòcrates;Plató|-|grecs|cul|-|
+ih:49|fil;med|GR|EUS|Atenes|0|-|-|grecs|cul|-|
+ih:50|lit;gen|-|-|-|0|-|-|-|cul|-|
+ih:51|lit|IT|EUS|-|0|Italo Calvino|-|-|cul|-|
+ih:52|fil;lit;rel|GR;IL|EUS;PO|-|0|Sòfocles|-|grecs|cul|-|
+ih:53|cin;gen|-|-|-|0|-|-|-|cul|-|
+ih:54|lit|ES|EUS|-|0|Juan Benet|-|-|cul|-|
+ih:55|fil|GR;IT|EUS|-|0|Sèneca;Epictet|-|-|cul|-|
+ih:56|fil;gen|-|-|-|0|-|-|-|cul|-|
+ih:57|lit|IT|EUS|Trieste|0|Italo Svevo|-|-|cul|-|
+ih:58|cin;gen|US|AN|Hollywood|0|Frances Marion;June Mathis|-|-|pro|-|
+ih:59|cin;gen|FR;US|EUO;AN|-|0|Alice Guy;Maya Deren|-|-|pro|-|
+ih:60|cin;gen|US|AN|Hollywood|0|-|-|-|pro|-|
+ih:61|cin;gen|US|AN|Hollywood|0|-|-|-|pro|-|
+ih:62|cul;lit|-|GLO|-|0|Jorge Luis Borges|-|-|cul|-|
+ih:63|fil;gen;soc|FR|EUO|-|0|Pierre Bourdieu|-|-|cul|-|
+ih:64|eco|IT|EUS|Venècia|0|-|Renaixement|-|pro|-|
+ih:65|lit;art|GB;DE|EUO;EUC|-|0|-|Romanticisme|-|cul|-|
+ih:66|fil;gen;soc|FR|EUO|-|0|Pierre Bourdieu|-|-|cul|-|
+ih:67|art|IT|EUS|Florència|0|Miquel Àngel|Renaixement|-|cul|-|
+ih:68|pol;art|IT|EUS|Florència|0|Llorenç de Mèdici;Cosme de Mèdici|Renaixement|-|lloc|-|
+ih:69|lit|GB|EUO|Lake District|0|William Wordsworth;Samuel Taylor Coleridge|Romanticisme|-|cul|-|
+ih:70|fil;gen;soc|FR|EUO|-|0|Pierre Bourdieu|-|-|cul|-|
+ih:71|cul;lit|-|GLO|-|0|-|-|-|cul|-|
+ih:72|cul;lit;arq|EG;TR;AT;ES|NA;PO;EUC;EUS|Alexandria|0|-|-|-|cul|-|
+ih:73|art|GB|EUO|Londres|0|John Constable;J. M. W. Turner|Romanticisme|-|cul|-|
