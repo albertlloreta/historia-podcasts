@@ -271,6 +271,32 @@ a { color: inherit; }
 #p-shuffle[aria-pressed="true"] { color: var(--fg); background: var(--bg-2, rgba(127,127,127,.15)); }
 .p-video iframe { width: 100%; height: 100%; border: 0; display: block; }
 
+/* ── Filtres de metadades ── */
+.filters { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 0.5rem; flex: 1; min-width: 0; font-size: 0.8rem; }
+.filters select { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--border); border-radius: 4px; padding: 0.2rem 0.4rem; max-width: 12rem; }
+.filters select.on { border-color: var(--accent); color: var(--accent); }
+.f-check { display: inline-flex; align-items: center; gap: 0.3rem; color: var(--muted); cursor: pointer; white-space: nowrap; }
+.f-check input { accent-color: var(--accent); }
+.f-pill { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.15rem 0.3rem 0.15rem 0.55rem; border-radius: 4px; background: var(--fg); color: var(--bg); white-space: nowrap; max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+.f-pill[hidden] { display: none; }
+.f-pill button { color: inherit; padding: 0 0.25rem; opacity: 0.8; }
+.f-pill button:hover { opacity: 1; }
+.view-map.active { color: var(--bg); background: var(--fg); border-radius: 4px; padding: 0.25rem 0.6rem; }
+/* Etiquetes dins de la fitxa de l'episodi */
+.ep-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0 0 0.7rem; font-size: 0.75rem; }
+.ep-tags .tg { padding: 0.1rem 0.45rem; border-radius: 4px; background: var(--bg); color: var(--muted); border: 1px solid var(--row-border); }
+.ep-tags button.tg:hover { color: var(--fg); border-color: var(--accent); }
+.ep-tags .tg-k { color: var(--faint); margin-right: 0.15rem; }
+.ep-tags .tg-lloc { color: var(--fg); }
+/* Mapa */
+.map { height: min(62vh, 560px); margin: 0 0 1rem; border-radius: 6px; border: 1px solid var(--row-border); overflow: hidden; background: var(--bg-2); }
+.map[hidden] { display: none; }
+.map-pop { font-family: var(--sans); font-size: 0.8rem; max-height: 14rem; overflow-y: auto; }
+.map-pop h4 { font-size: 0.85rem; margin-bottom: 0.3rem; }
+.map-pop ol { list-style: none; display: grid; gap: 0.2rem; }
+.map-pop button { text-align: left; color: #0b5b68; text-decoration: underline; text-underline-offset: 2px; }
+.map-pop .more { margin-top: 0.35rem; font-weight: 600; }
+
 /* ── Responsive ── */
 @media (max-width: 680px) {
   .wrap { padding: 0 1rem; }
@@ -342,10 +368,22 @@ a { color: inherit; }
         <button data-podcast="institut-humanitats">Institut d'Humanitats</button>
       </nav>
     </div>
+    <div class="controls-row">
+      <span class="tabs-label">Filtres</span>
+      <div class="filters" id="filters">
+        <select id="f-tema" aria-label="Tema"><option value="">Tots els temes</option></select>
+        <select id="f-regio" aria-label="Regió"><option value="">Totes les regions</option></select>
+        <select id="f-tipus" aria-label="Tipus de relat"><option value="">Tots els tipus</option></select>
+        <label class="f-check"><input type="checkbox" id="f-cat"> Història de Catalunya</label>
+        <span class="f-pill" id="f-pill" hidden><span id="f-pill-txt"></span><button type="button" id="f-pill-x" aria-label="Treu el filtre">✕</button></span>
+      </div>
+      <button class="fold-all view-map" id="view-map" type="button" aria-pressed="false">Mapa</button>
+    </div>
   </div>
 </div>
 
 <main id="main" class="wrap">
+  <div class="map" id="map" hidden></div>
   <p class="no-results-msg" id="no-results" hidden>Cap episodi correspon a la cerca.</p>
 </main>
 
@@ -462,6 +500,15 @@ const store = {
   get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } },
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
 };
+
+// Vocabulari de les metadades (metadades/VOCABULARI.md)
+const TEM = { pol: 'Política', gue: 'Guerra i conflictes', soc: 'Societat', eco: 'Economia i treball', rel: 'Religió', art: 'Art', arq: 'Arquitectura i urbanisme', lit: 'Literatura', mus: 'Música', cie: 'Ciència i tècnica', fil: 'Filosofia i pensament', quo: 'Vida quotidiana', arqu: 'Arqueologia', exp: 'Exploracions i viatges', gen: 'Dones i gènere', cul: 'Cultura popular i mitjans', esp: 'Esport', his: 'Historiografia i memòria', dre: 'Dret i justícia', med: 'Medicina i salut', cin: 'Cinema i imatge' };
+const REG = { EUS: 'Europa meridional', EUO: 'Europa occidental', EUC: 'Europa central', EUN: 'Europa septentrional', EUE: 'Europa oriental', PO: 'Pròxim Orient', NA: "Nord d'Àfrica", AS: 'Àfrica subsahariana', ACM: 'Àsia central', ASM: 'Àsia meridional', AO: 'Àsia oriental', SEA: 'Sud-est asiàtic', AN: 'Amèrica del Nord', AL: 'Amèrica Llatina', OC: 'Oceania', GLO: 'Global' };
+const TIP = { bio: 'Biografia', con: 'Conflicte', pro: 'Procés polític o social', quo: 'Vida quotidiana', cul: 'Cultura i idees', lloc: "Història d'un lloc", deb: 'Debat i historiografia' };
+// Filtre per etiqueta clicada (personatge, esdeveniment, lloc o civilització): { k, v }
+let currentTag = null;
+const currentF = { tema: '', regio: '', tipus: '', cat: false };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
 let currentPodcast = 'all';
 let currentSearch = '';
@@ -641,6 +688,7 @@ async function init() {
         </div>
         <div class="ep-body">
           ${meta ? `<p class="ep-meta">${meta}</p>` : ''}
+          ${tagsHtml(ep)}
           ${ep.descripcio ? `<p class="ep-desc">${ep.descripcio}</p>` : '<p class="ep-desc empty">Sense descripció disponible.</p>'}
           ${ep.enllac ? `<a class="ep-link" href="${ep.enllac}" target="_blank" rel="noopener">${linkLabel} →</a>` : ''}
         </div>
@@ -648,7 +696,9 @@ async function init() {
       frag.appendChild(li);
       rows.push({
         el: li, ep, era,
-        text: [ep.num, ep.titol, ep.descripcio, ep.ubicacio, ep.data_historica, ep.curs, ...(ep.ponents || [])]
+        text: [ep.num, ep.titol, ep.descripcio, ep.ubicacio, ep.data_historica, ep.curs, ...(ep.ponents || []),
+               ...(ep.personatges || []).map(p => p.nom), ...(ep.esdeveniments || []).map(p => p.nom),
+               ep.lloc?.nom, ...(ep.civilitzacions || []), ...(ep.convidats || [])]
           .filter(Boolean).join(' ').toLowerCase()
       });
     });
@@ -656,6 +706,7 @@ async function init() {
   });
 
   injectJSONLD(data);
+  fillFilters();
   applyFilters();
   updateFoldAll();
   measureControls();
@@ -663,12 +714,141 @@ async function init() {
 }
 
 
+/* ── Metadades: etiquetes, filtres i mapa ── */
+function tagsHtml(ep) {
+  const t = [];
+  const btn = (k, v, label, cls = '') => `<button type="button" class="tg ${cls}" data-tk="${k}" data-tv="${esc(v)}">${label}</button>`;
+  if (ep.lloc) t.push(btn('lloc', ep.lloc.nom, `<span class="tg-k">Lloc</span>${esc(ep.lloc.nom)}`, 'tg-lloc'));
+  (ep.tematiques || []).forEach(c => TEM[c] && t.push(btn('tema', c, TEM[c])));
+  (ep.personatges || []).forEach(p => t.push(btn('pers', p.nom, esc(p.nom))));
+  (ep.esdeveniments || []).forEach(p => t.push(btn('esdev', p.nom, esc(p.nom))));
+  (ep.civilitzacions || []).forEach(c => t.push(btn('civ', c, esc(c))));
+  if (ep.convidats?.length) t.push(`<span class="tg"><span class="tg-k">Amb</span>${esc(ep.convidats.join(', '))}</span>`);
+  return t.length ? `<p class="ep-tags">${t.join('')}</p>` : '';
+}
+
+function matchTag(ep, tag) {
+  switch (tag.k) {
+    case 'lloc':  return ep.lloc?.nom === tag.v;
+    case 'pers':  return (ep.personatges || []).some(p => p.nom === tag.v);
+    case 'esdev': return (ep.esdeveniments || []).some(p => p.nom === tag.v);
+    case 'civ':   return (ep.civilitzacions || []).includes(tag.v);
+  }
+  return true;
+}
+
+function fillFilters() {
+  const count = (field, isList = true) => {
+    const c = {};
+    data.forEach(e => (isList ? e[field] || [] : [e[field]]).forEach(v => { if (v) c[v] = (c[v] || 0) + 1; }));
+    return c;
+  };
+  const fill = (id, labels, counts) => {
+    const sel = document.getElementById(id);
+    Object.keys(labels).filter(k => counts[k]).sort((a, b) => labels[a].localeCompare(labels[b], 'ca'))
+      .forEach(k => sel.add(new Option(`${labels[k]} (${counts[k]})`, k)));
+  };
+  fill('f-tema', TEM, count('tematiques'));
+  fill('f-regio', REG, count('regions'));
+  fill('f-tipus', TIP, count('tipus', false));
+}
+
+function setTag(tag) {
+  currentTag = tag;
+  const names = { lloc: 'Lloc', pers: 'Personatge', esdev: 'Esdeveniment', civ: 'Poble' };
+  document.getElementById('f-pill').hidden = !tag;
+  document.getElementById('f-pill-txt').textContent = tag ? `${names[tag.k]}: ${tag.v}` : '';
+  applyFilters();
+  measureControls();
+  if (tag) window.scrollTo({ top: document.getElementById('main').offsetTop - controlsH(), behavior: 'smooth' });
+}
+
+function passesMeta(ep) {
+  if (currentF.tema && !(ep.tematiques || []).includes(currentF.tema)) return false;
+  if (currentF.regio && !(ep.regions || []).includes(currentF.regio)) return false;
+  if (currentF.tipus && ep.tipus !== currentF.tipus) return false;
+  if (currentF.cat && !ep.ambit_catala) return false;
+  if (currentTag && !matchTag(ep, currentTag)) return false;
+  return true;
+}
+
+['tema', 'regio', 'tipus'].forEach(k => document.getElementById('f-' + k).addEventListener('change', e => {
+  currentF[k] = e.target.value;
+  e.target.classList.toggle('on', !!e.target.value);
+  applyFilters();
+}));
+document.getElementById('f-cat').addEventListener('change', e => { currentF.cat = e.target.checked; applyFilters(); });
+document.getElementById('f-pill-x').addEventListener('click', () => setTag(null));
+document.getElementById('main').addEventListener('click', e => {
+  const tg = e.target.closest('button.tg');
+  if (!tg) return;
+  e.stopPropagation();
+  if (tg.dataset.tk === 'tema') {
+    const sel = document.getElementById('f-tema');
+    sel.value = tg.dataset.tv; sel.dispatchEvent(new Event('change'));
+  } else setTag({ k: tg.dataset.tk, v: tg.dataset.tv });
+}, true);
+
+// Mapa (Leaflet, es carrega només en obrir-lo)
+let map = null, mapLayer = null;
+const LEAFLET = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/';
+const CLUSTER = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/';
+const loadCss = href => { const l = document.createElement('link'); l.rel = 'stylesheet'; l.href = href; document.head.appendChild(l); };
+async function openMap() {
+  const el = document.getElementById('map');
+  el.hidden = false;
+  if (!map) {
+    loadCss(LEAFLET + 'leaflet.min.css');
+    loadCss(CLUSTER + 'MarkerCluster.min.css');
+    loadCss(CLUSTER + 'MarkerCluster.Default.min.css');
+    await loadScript(LEAFLET + 'leaflet.min.js');
+    await loadScript(CLUSTER + 'leaflet.markercluster.min.js');
+    map = L.map(el, { worldCopyJump: true }).setView([41.4, 2.2], 3);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+    el.addEventListener('click', e => {
+      const b = e.target.closest('[data-play]');
+      if (b) { playRow(+b.dataset.play); return; }
+      const m = e.target.closest('[data-lloc]');
+      if (m) setTag({ k: 'lloc', v: m.dataset.lloc });
+    });
+  }
+  drawMap();
+  setTimeout(() => map.invalidateSize(), 50);
+}
+function drawMap() {
+  if (!map || document.getElementById('map').hidden) return;
+  if (mapLayer) map.removeLayer(mapLayer);
+  mapLayer = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 45 });
+  const groups = {};
+  rows.forEach((r, i) => {
+    const l = r.ep.lloc;
+    if (!r.visible || !l || l.lat == null) return;
+    (groups[l.nom] ??= { l, items: [] }).items.push(i);
+  });
+  Object.values(groups).forEach(({ l, items }) => {
+    const list = items.slice(0, 8).map(i => `<li><button type="button" data-play="${i}">${esc(rows[i].ep.titol)}</button></li>`).join('');
+    const more = `<button type="button" class="more" data-lloc="${esc(l.nom)}">${items.length > 8 ? `Veure'ls tots (${items.length})` : 'Filtra la llista per aquest lloc'}</button>`;
+    const m = L.marker([l.lat, l.lon], { title: `${l.nom} (${items.length})` });
+    m.bindPopup(`<div class="map-pop"><h4>${esc(l.nom)} · ${items.length} ep.</h4><ol>${list}</ol>${more}</div>`);
+    mapLayer.addLayer(m);
+  });
+  map.addLayer(mapLayer);
+}
+document.getElementById('view-map').addEventListener('click', e => {
+  const on = e.currentTarget.getAttribute('aria-pressed') !== 'true';
+  e.currentTarget.setAttribute('aria-pressed', String(on));
+  e.currentTarget.classList.toggle('active', on);
+  if (on) openMap(); else document.getElementById('map').hidden = true;
+});
+
 function applyFilters() {
   const q = currentSearch.toLowerCase().trim();
   const counts = {};
   let visible = 0;
   rows.forEach(r => {
-    const show = (currentPodcast === 'all' || r.ep.podcast === currentPodcast) && (!q || r.text.includes(q));
+    const show = (currentPodcast === 'all' || r.ep.podcast === currentPodcast) && (!q || r.text.includes(q)) && passesMeta(r.ep);
     r.el.hidden = !show;
     r.visible = show;
     if (show) { counts[r.era] = (counts[r.era] || 0) + 1; visible++; }
@@ -682,9 +862,10 @@ function applyFilters() {
     sections[era].el.classList.toggle('collapsed', shut);
     sections[era].el.querySelector('.era-toggle').setAttribute('aria-expanded', String(!shut));
   }
-  const hasFilter = q || currentPodcast !== 'all';
+  const hasFilter = q || currentPodcast !== 'all' || currentTag || Object.values(currentF).some(Boolean);
   document.getElementById('search-count').textContent = hasFilter ? `${visible} resultats` : '';
   document.getElementById('no-results').hidden = visible !== 0;
+  drawMap();
 }
 
 /* ── Plegar / desplegar ── */
