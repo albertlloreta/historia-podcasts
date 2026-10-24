@@ -1,100 +1,100 @@
-eg:444|rel|SA|PO|la Meca|0|Mahoma|-|àrabs|bio|-|
-eg:445|gue|ES|EUS|Barcelona|1|Antoni de Villarroel;Rafael Casanova|Guerra de Successió espanyola|-|bio|-|
-eg:446|gue;lit|IQ;TR|PO|-|0|Xenofont;Cir el Jove|Expedició dels Deu Mil|grecs;perses|con|-|
-eg:447|eco;cie|ES;GB|EUS;EUO|-|1|-|Revolució industrial|-|pro|-|
-eg:448|exp|-|GLO|-|1|-|-|-|pro|-|
-eg:449|gue|ES|EUS|Barcelona|1|-|Guerra dels Segadors|-|pro|-|
-eg:450|pol;dre|MX|AL|Ciutat de Mèxic|1|Ramon Mercader;Lev Trotski|Assassinat de Trotski|-|bio|-|
-eg:451|cie;exp|EC;GB|AL;GLO|Illes Galápagos|0|Charles Darwin|Viatge del Beagle|-|pro|-|
-eg:452|rel|ES|EUS|-|1|-|Contrareforma|-|pro|-|
-eg:453|gue|CU;ES|AL|l'Havana|1|-|Guerra de Cuba|-|con|-|
-eg:454|mus;cul|ES|EUS|-|1|Pep Ventura|-|-|cul|-|
-eg:455|pol|ES|EUS|-|1|Guillem Ramon d'Iborra|-|-|bio|-|
-eg:456|mus;cul|-|EUO;EUS|-|0|-|Festival d'Eurovisió|-|cul|-|
-eg:457|med;soc|ES|EUS|Barcelona|1|-|-|-|pro|-|
-eg:458|mus|ES;IT|EUS|Roma|1|Domènec Terradellas|-|-|bio|-|
-eg:459|gue;rel|ES|EUS|Montserrat|1|-|Guerra del Francès|-|lloc|Oriol Junqueras|
-eg:460|rel;dre|ES|EUS|Girona|1|Nicolau Eimeric|Inquisició|-|bio|-|
-eg:461|mus;cul|ES|EUS|Barcelona|1|-|-|-|lloc|-|
-eg:462|gue;pol|ES|EUS|-|1|Quico Sabaté;Ramon Vila Capdevila|Maquis|-|pro|-|
-eg:463|gue|TR|EUS|Edirne|0|Valent|Batalla d'Adrianòpolis|romans;gots|con|-|
-eg:464|pol|JP|AO|Tòquio|0|Emperador Meiji|Restauració Meiji|japonesos|pro|-|
-eg:465|arq;soc|ES|EUS|Barcelona|1|-|-|-|lloc|-|
-eg:466|pol|GR;EG;SY|EUS;PO|-|0|Ptolemeu I;Seleuc I|Guerres dels diàdocs|macedonis|pro|-|
-eg:467|pol|ES|EUS|Barcelona|1|Enric Prat de la Riba|Mancomunitat de Catalunya|-|bio|-|
-eg:468|pol;gue|ES|EUS|Barcelona|1|Josep Tarradellas|Guerra Civil espanyola|-|bio|-|
-eg:469|gue;pol|US|AN|Filadèlfia|0|George Washington|Guerra d'Independència dels Estats Units|-|con|-|
-eg:470|mus|ES|EUS|Barcelona|1|Peret|-|gitanos|cul|-|
-eg:471|pol|ES|EUS|Barcelona|1|Francesc Macià|-|-|bio|-|
-eg:472|cie;exp|ES|EUS|Palma|1|Cresques Abraham|-|-|cul|-|
-eg:473|gue|TR|EUS;PO|Constantinoble|0|Mehmet II;Constantí XI|Caiguda de Constantinoble|otomans;bizantins|con|-|
-eg:474|esp|ES;AR|EUS|Madrid|1|Alfredo Di Stéfano|-|-|cul|-|
-eg:475|gue|MX|AL|Tenochtitlan|0|Hernán Cortés;Moctezuma II|Conquesta de Mèxic|asteques;castellans|con|-|
-eg:476|mus;soc|ES|EUS|Barcelona|1|Josep Anselm Clavé|-|-|cul|-|
-eg:477|pol|ES;HU|EUS;EUC|-|1|-|-|-|pro|-|
-eg:478|dre;soc|IT|EUS|Roma|0|-|-|romans|quo|-|
-eg:479|pol;gue|ES;FR|EUS|Barcelona|1|Napoleó Bonaparte|Guerra del Francès|-|pro|-|
-eg:480|gue;pol|ES;IT|EUS|Palma|1|Arconovaldo Bonaccorsi|Guerra Civil espanyola|-|bio|-|
-eg:481|mus;cul|ES|EUS|Barcelona|1|Raimon;Joan Manuel Serrat;Lluís Llach|Nova Cançó|-|cul|-|
-eg:482|pol;gen|ES|EUS|-|1|Jaume I;Violant d'Hongria;Elionor de Castella|-|-|bio|-|
-eg:483|cul;cie|ES|EUS|Barcelona|1|-|-|-|pro|-|
-eg:484|lit;arqu|EG|NA|-|0|-|-|egipcis|cul|-|
-eg:485|soc;arq|ES|EUS|Barcelona|1|-|-|-|quo|-|
-eg:486|gue|ES|EUS|-|1|-|Guerra dels Segadors|miquelets|pro|-|
-eg:487|quo;esp|-|EUS;EUO|-|0|-|-|-|quo|-|
-eg:488|gue;soc|ES;FR|EUS;EUO|La Jonquera|1|-|Exili republicà;Retirada|-|pro|-|
-eg:489|exp|CN|AO;ASM;AS|Nanquín|0|Zheng He|-|xinesos|bio|-|
-eg:490|mus|US|AN|Nova Orleans|0|-|-|afroamericans|cul|-|
-eg:491|soc;dre|ES|EUS|-|1|-|Nyerros i cadells|-|con|-|
-eg:492|gue;eco|ES|EUS|Barcelona|1|-|Primera Guerra Mundial|-|pro|-|
-eg:493|mus|IT|EUS|Pesaro|0|Gioachino Rossini|-|-|bio|-|
-eg:494|gue;arqu|-|GLO|-|0|-|-|-|pro|-|
-eg:495|mus;rel|-|EUS;EUO|-|0|Gregori I|-|-|cul|-|
-eg:496|pol|ES|EUS|Saragossa|1|-|-|-|pro|-|
-eg:497|gue|-|GLO|-|0|Karl Dönitz|Batalla de l'Atlàntic;Segona Guerra Mundial|-|con|-|
-eg:498|eco;arqu|ES|EUS|-|1|-|-|fenicis|pro|-|
-eg:499|cul;pol|ES|EUS|Barcelona|1|-|Segona República espanyola|-|cul|-|
-eg:500|rel|IL|PO|Jerusalem|0|Jesús de Natzaret|-|jueus|bio|-|
-eg:501|quo;med|-|EUS;EUO|-|0|-|-|-|quo|-|
-eg:502|pol|ES|EUS|Barcelona|1|Valentí Almirall|Catalanisme|-|pro|-|
-eg:503|gue|ES|EUS|Cap de Trafalgar|0|Horatio Nelson|Batalla de Trafalgar|-|con|-|
-eg:504|pol;gue|ES|EUS|Barcelona|1|Pau Claris|Guerra dels Segadors|-|bio|-|
-eg:505|gue;pol|FR;DE|EUO;EUC|Sedan|0|Otto von Bismarck;Napoleó III|Guerra francoprussiana|-|con|-|
-eg:506|gue|SY|PO|Qadeix|0|Ramsès II;Muwatallis II|Batalla de Qadeix|egipcis;hitites|con|-|
-eg:507|gue|ES|EUS|Talamanca|1|-|Batalla de Talamanca;Guerra de Successió espanyola|-|con|-|
-eg:508|cul|ES|EUS|Barcelona|1|Joan Pujol i Vidal|-|-|bio|-|
-eg:509|mus;cin|US;GB|AN;EUO|Nova York|0|-|-|-|cul|-|
-eg:510|eco|DE;IT|EUC;EUS|Augsburg|0|Jakob Fugger|-|-|pro|-|
-eg:511|mus|AT|EUC|Viena|0|Johann Strauss|-|-|bio|-|
-eg:512|his;arqu|-|EUO|-|0|-|-|-|deb|-|
-eg:513|arq|ES|EUS|Barcelona|1|Ildefons Cerdà|Pla Cerdà|-|lloc|-|
-eg:514|soc;dre;lit|ES|EUS|Querós|1|Joan Sala i Ferrer|Bandolerisme|-|bio|-|
-eg:515|mus;cin|-|-|-|0|-|-|-|cul|-|
-eg:516|pol;soc|ES|EUS|Barcelona|1|-|Franquisme|-|pro|-|
-eg:517|pol|ES;IT|EUS|Madrid|0|Amadeu I d'Espanya;Joan Prim|Sexenni Democràtic|-|bio|-|
-eg:518|med;cie|ES|EUS|València|1|Jaume Ferran i Clua|-|-|bio|-|
-eg:519|quo|-|EUS;EUO|-|0|-|-|-|quo|-|
-eg:520|pol;gue|IT|EUS|Roma|0|Gai Mari;Sul·la|Guerra civil de Sul·la|romans|con|-|
-eg:521|arq;cul|ES|EUS|Barcelona|1|Miguel Primo de Rivera|Exposició Internacional de Barcelona (1929)|-|lloc|-|
-eg:522|cie;pol|US;RU|AN;EUE|Cap Canaveral|0|Iuri Gagarin;Neil Armstrong|Cursa espacial|-|pro|-|
-eg:523|gue|MA;ES|NA;EUS|Tetuan|1|Joan Prim|Guerra d'Àfrica|-|con|-|
-eg:524|rel;arq;gen|ES|EUS|Barcelona|1|Elisenda de Montcada|-|-|lloc|-|
-eg:525|gue|GR|EUS|Salamina|0|Xerxes I;Temístocles;Leònides I|Guerres mèdiques;Batalla de Salamina|grecs;perses|con|-|
-eg:526|dre;quo|ES|EUS|Barcelona|1|-|-|-|quo|-|
-eg:527|med;quo|ES|EUS|-|1|-|-|-|quo|-|
-eg:528|med;rel;cie|ES|EUS|València|1|Arnau de Vilanova|-|-|bio|-|
-eg:529|mus;gue|ES|EUS|Barcelona|1|-|Guerra de Successió espanyola|-|cul|-|
-eg:530|med|-|EUS;EUO|-|0|-|Pesta Negra|-|pro|-|
-eg:531|gue|ES;GB|EUS;EUO|Londres|1|Joan Pujol Garbo|Desembarcament de Normandia;Segona Guerra Mundial|-|bio|-|
-eg:532|gue|ES|EUS|Las Navas de Tolosa|0|Alfons VIII de Castella;Pere el Catòlic|Batalla de Las Navas de Tolosa|almohades|con|-|
-eg:533|exp;arqu|ES;EG;CN|EUS|Reus|1|Eduard Toda|-|-|bio|-|
-eg:534|gue|ES|EUS|Granada|0|Ferran el Catòlic;Isabel la Catòlica;Boabdil|Conquesta de Granada|nassarites|con|-|
-eg:535|soc;eco|ES|EUS|-|1|-|-|-|quo|-|
-eg:536|eco|ES|EUS|Barcelona|1|-|-|-|bio|-|
-eg:537|pol|ES|EUS|Madrid|0|José Antonio Primo de Rivera|Falange Española|-|pro|-|
-eg:538|pol|ES|EUS|Madrid|1|Ferran VII;Rafael del Riego|Trienni Liberal|-|pro|-|
-eg:539|gue;pol|GB|EUO|Londres|0|Oliver Cromwell;Carles I d'Anglaterra|Guerra Civil anglesa|-|con|-|
-eg:540|rel;dre;gen|-|EUS;EUO;EUC|-|0|-|Caça de bruixes|-|pro|-|
-eg:541|gue;pol|EG;SY;IL|PO;NA|Jerusalem|0|Saladí|Croades|àrabs|bio|-|
-eg:542|esp|ES|EUS|Barcelona|1|Joan Gamper|-|-|pro|-|
-eg:543|lit;mus|FR;ES|EUO;EUS|-|1|-|-|occitans|cul|-|
+eg:445|pol|ES|EUS|Barcelona|1|Francesc Macià|-|-|bio|-|
+eg:446|cie;exp|ES|EUS|Palma|1|Cresques Abraham|-|-|cul|-|
+eg:447|gue|TR|EUS;PO|Constantinoble|0|Mehmet II;Constantí XI|Caiguda de Constantinoble|otomans;bizantins|con|-|
+eg:448|esp|ES;AR|EUS|Madrid|1|Alfredo Di Stéfano|-|-|cul|-|
+eg:449|gue|MX|AL|Tenochtitlan|0|Hernán Cortés;Moctezuma II|Conquesta de Mèxic|asteques;castellans|con|-|
+eg:450|mus;soc|ES|EUS|Barcelona|1|Josep Anselm Clavé|-|-|cul|-|
+eg:451|pol|ES;HU|EUS;EUC|-|1|-|-|-|pro|-|
+eg:452|dre;soc|IT|EUS|Roma|0|-|-|romans|quo|-|
+eg:453|pol;gue|ES;FR|EUS|Barcelona|1|Napoleó Bonaparte|Guerra del Francès|-|pro|-|
+eg:454|gue;pol|ES;IT|EUS|Palma|1|Arconovaldo Bonaccorsi|Guerra Civil espanyola|-|bio|-|
+eg:455|mus;cul|ES|EUS|Barcelona|1|Raimon;Joan Manuel Serrat;Lluís Llach|Nova Cançó|-|cul|-|
+eg:456|pol;gen|ES|EUS|-|1|Jaume I;Violant d'Hongria;Elionor de Castella|-|-|bio|-|
+eg:457|cul;cie|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:458|lit;arqu|EG|NA|-|0|-|-|egipcis|cul|-|
+eg:459|soc;arq|ES|EUS|Barcelona|1|-|-|-|quo|-|
+eg:460|gue|ES|EUS|-|1|-|Guerra dels Segadors|miquelets|pro|-|
+eg:461|quo;esp|-|EUS;EUO|-|0|-|-|-|quo|-|
+eg:462|gue;soc|ES;FR|EUS;EUO|La Jonquera|1|-|Exili republicà;Retirada|-|pro|-|
+eg:463|exp|CN|AO;ASM;AS|Nanquín|0|Zheng He|-|xinesos|bio|-|
+eg:464|mus|US|AN|Nova Orleans|0|-|-|afroamericans|cul|-|
+eg:465|soc;dre|ES|EUS|-|1|-|Nyerros i cadells|-|con|-|
+eg:466|gue;eco|ES|EUS|Barcelona|1|-|Primera Guerra Mundial|-|pro|-|
+eg:467|mus|IT|EUS|Pesaro|0|Gioachino Rossini|-|-|bio|-|
+eg:468|gue;arqu|-|GLO|-|0|-|-|-|pro|-|
+eg:469|mus;rel|-|EUS;EUO|-|0|Gregori I|-|-|cul|-|
+eg:470|pol|ES|EUS|Saragossa|1|-|-|-|pro|-|
+eg:471|gue|-|GLO|-|0|Karl Dönitz|Batalla de l'Atlàntic;Segona Guerra Mundial|-|con|-|
+eg:472|eco;arqu|ES|EUS|-|1|-|-|fenicis|pro|-|
+eg:473|cul;pol|ES|EUS|Barcelona|1|-|Segona República espanyola|-|cul|-|
+eg:474|rel|IL|PO|Jerusalem|0|Jesús de Natzaret|-|jueus|bio|-|
+eg:475|quo;med|-|EUS;EUO|-|0|-|-|-|quo|-|
+eg:476|pol|ES|EUS|Barcelona|1|Valentí Almirall|Catalanisme|-|pro|-|
+eg:477|gue|ES|EUS|Cap de Trafalgar|0|Horatio Nelson|Batalla de Trafalgar|-|con|-|
+eg:478|pol;gue|ES|EUS|Barcelona|1|Pau Claris|Guerra dels Segadors|-|bio|-|
+eg:479|gue;pol|FR;DE|EUO;EUC|Sedan|0|Otto von Bismarck;Napoleó III|Guerra francoprussiana|-|con|-|
+eg:480|gue|SY|PO|Qadeix|0|Ramsès II;Muwatallis II|Batalla de Qadeix|egipcis;hitites|con|-|
+eg:481|gue|ES|EUS|Talamanca|1|-|Batalla de Talamanca;Guerra de Successió espanyola|-|con|-|
+eg:482|cul|ES|EUS|Barcelona|1|Joan Pujol i Vidal|-|-|bio|-|
+eg:483|mus;cin|US;GB|AN;EUO|Nova York|0|-|-|-|cul|-|
+eg:484|eco|DE;IT|EUC;EUS|Augsburg|0|Jakob Fugger|-|-|pro|-|
+eg:485|mus|AT|EUC|Viena|0|Johann Strauss|-|-|bio|-|
+eg:486|his;arqu|-|EUO|-|0|-|-|-|deb|-|
+eg:487|arq|ES|EUS|Barcelona|1|Ildefons Cerdà|Pla Cerdà|-|lloc|-|
+eg:488|soc;dre;lit|ES|EUS|Querós|1|Joan Sala i Ferrer|Bandolerisme|-|bio|-|
+eg:489|mus;cin|-|-|-|0|-|-|-|cul|-|
+eg:490|pol;soc|ES|EUS|Barcelona|1|-|Franquisme|-|pro|-|
+eg:491|pol|ES;IT|EUS|Madrid|0|Amadeu I d'Espanya;Joan Prim|Sexenni Democràtic|-|bio|-|
+eg:492|med;cie|ES|EUS|València|1|Jaume Ferran i Clua|-|-|bio|-|
+eg:493|quo|-|EUS;EUO|-|0|-|-|-|quo|-|
+eg:494|pol;gue|IT|EUS|Roma|0|Gai Mari;Sul·la|Guerra civil de Sul·la|romans|con|-|
+eg:495|arq;cul|ES|EUS|Barcelona|1|Miguel Primo de Rivera|Exposició Internacional de Barcelona (1929)|-|lloc|-|
+eg:496|cie;pol|US;RU|AN;EUE|Cap Canaveral|0|Iuri Gagarin;Neil Armstrong|Cursa espacial|-|pro|-|
+eg:497|gue|MA;ES|NA;EUS|Tetuan|1|Joan Prim|Guerra d'Àfrica|-|con|-|
+eg:498|rel;arq;gen|ES|EUS|Barcelona|1|Elisenda de Montcada|-|-|lloc|-|
+eg:499|gue|GR|EUS|Salamina|0|Xerxes I;Temístocles;Leònides I|Guerres mèdiques;Batalla de Salamina|grecs;perses|con|-|
+eg:500|dre;quo|ES|EUS|Barcelona|1|-|-|-|quo|-|
+eg:501|med;quo|ES|EUS|-|1|-|-|-|quo|-|
+eg:502|med;rel;cie|ES|EUS|València|1|Arnau de Vilanova|-|-|bio|-|
+eg:503|mus;gue|ES|EUS|Barcelona|1|-|Guerra de Successió espanyola|-|cul|-|
+eg:504|med|-|EUS;EUO|-|0|-|Pesta Negra|-|pro|-|
+eg:505|gue|ES;GB|EUS;EUO|Londres|1|Joan Pujol Garbo|Desembarcament de Normandia;Segona Guerra Mundial|-|bio|-|
+eg:506|gue|ES|EUS|Las Navas de Tolosa|0|Alfons VIII de Castella;Pere el Catòlic|Batalla de Las Navas de Tolosa|almohades|con|-|
+eg:507|exp;arqu|ES;EG;CN|EUS|Reus|1|Eduard Toda|-|-|bio|-|
+eg:508|gue|ES|EUS|Granada|0|Ferran el Catòlic;Isabel la Catòlica;Boabdil|Conquesta de Granada|nassarites|con|-|
+eg:509|soc;eco|ES|EUS|-|1|-|-|-|quo|-|
+eg:510|eco|ES|EUS|Barcelona|1|-|-|-|bio|-|
+eg:511|pol|ES|EUS|Madrid|0|José Antonio Primo de Rivera|Falange Española|-|pro|-|
+eg:512|pol|ES|EUS|Madrid|1|Ferran VII;Rafael del Riego|Trienni Liberal|-|pro|-|
+eg:513|gue;pol|GB|EUO|Londres|0|Oliver Cromwell;Carles I d'Anglaterra|Guerra Civil anglesa|-|con|-|
+eg:514|rel;dre;gen|-|EUS;EUO;EUC|-|0|-|Caça de bruixes|-|pro|-|
+eg:515|gue;pol|EG;SY;IL|PO;NA|Jerusalem|0|Saladí|Croades|àrabs|bio|-|
+eg:516|esp|ES|EUS|Barcelona|1|Joan Gamper|-|-|pro|-|
+eg:517|lit;mus|FR;ES|EUO;EUS|-|1|-|-|occitans|cul|-|
+eg:518|pol|ES|EUS|Madrid|0|Antonio Tejero;Joan Carles I|Transició espanyola;Cop d'estat del 23 de febrer|-|pro|-|
+eg:519|arqu;eco|ES|EUS|Gavà|1|-|-|-|lloc|-|
+eg:520|soc;pol|ES|EUS|Lleida|1|Ramon Berenguer IV|Reconquesta|andalusins|pro|-|
+eg:521|eco|-|EUS;EUO|-|0|-|-|-|pro|-|
+eg:522|gue;pol|ES|EUS|-|1|Napoleó Bonaparte|Guerra del Francès|-|con|-|
+eg:523|dre;pol|ES|EUS|Barcelona|1|Joan Rull|-|-|bio|Antoni Dalmau|
+eg:524|pol;gen|ES|EUS|Girona|1|Ermessenda de Carcassona|-|-|bio|-|
+eg:525|cie|ES|EUS|Barcelona|1|Francesc Salvà i Campillo|-|-|bio|-|
+eg:526|cul;pol|ES|EUS|-|1|-|Franquisme|-|pro|-|
+eg:527|gue|ES|EUS|Barcelona|1|Joan Josep d'Àustria|Setge de Barcelona (1651-1652);Guerra dels Segadors|-|con|-|
+eg:528|gue;soc|AT;DE|EUC|Mauthausen|1|-|Holocaust;Segona Guerra Mundial|republicans|pro|-|
+eg:529|gue|ES|EUS|Múrcia|1|Jaume I|Conquesta de Múrcia|andalusins|con|-|
+eg:530|gue|ES|EUS|Girona|1|Mariano Álvarez de Castro|Setges de Girona (1808-1809);Guerra del Francès|-|con|-|
+eg:531|pol;rel|EG|NA|-|0|-|-|egipcis|pro|-|
+eg:532|cul;cie|ES|EUS|Barcelona|1|-|-|-|pro|-|
+eg:533|pol|IR|PO|Persèpolis|0|Cir II el Gran;Darios I|-|perses|pro|-|
+eg:534|art;arq|ES|EUS|-|1|-|Romànic|-|cul|-|
+eg:535|pol;gue|ES|EUS|Àger|1|Arnau Mir de Tost|-|-|bio|-|
+eg:536|gue|ES|EUS|-|1|Pere Joan Barceló|Guerra de Successió espanyola|miquelets|bio|-|
+eg:537|dre;pol|ES|EUS|-|1|-|Franquisme|-|pro|-|
+eg:538|fil;lit;rel|ES|EUS|Palma|1|Ramon Llull|-|-|bio|-|
+eg:539|exp;gue|MX;ES|AL|-|1|-|Conquesta d'Amèrica|-|pro|-|
+eg:540|mus|IT|EUS|Milà|0|Giuseppe Verdi|-|-|bio|-|
+eg:541|pol;soc|ES|EUS|Barcelona|1|Salvador Seguí|-|-|pro|-|
+eg:542|pol;gue|ES|EUS|Sort|1|Hug Roger III de Pallars|Guerra civil catalana|-|bio|-|
+eg:543|arq;rel|ES|EUS|Girona|1|-|-|-|lloc|-|
+eg:544|gue|ES|EUS|-|1|-|-|-|pro|-|

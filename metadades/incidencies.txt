@@ -6,3 +6,7 @@ pdt 199 i 388: dos episodis amb el mateix número i el mateix iVoox (un reprodue
 pdt:197/198 «Pirros, rei d'Epir» duplicat (un amb dh=-279 i l'altre dh=-319); pdt:199 (almogàvers) té per descripció el text de navegació del web
 pdt:347-362 i pdt:369: descripcions desplaçades una o dues posicions (no corresponen al títol); classificat pel títol
 eg: hi ha entrades duplicades amb títol «En guardia, de 15 a 16 h - DD/MM/AAAA» o «... diumenge a En guàrdia!» que repeteixen un episodi numerat (p. ex. eg:71=eg:70, eg:73=eg:72)
+
+## Resolt (2026-10-24, scripts/correccions-2026-10.py, verificat amb l'àudio)
+- PdT: títols i dates corregits (ep. 12, 34, 49, 347-363); Pirros duplicat eliminat; 389 amb l'àudio propi (iVoox 101166789); descripció dels almogàvers del feed.
+- EG: 16 promocions de 30 s i 10 emissions «de 15 a 16 h» duplicades eliminades; eg «En guàrdia!» (12/02/2015) identificat: invasió japonesa de Manxúria.

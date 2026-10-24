@@ -1,30 +1,3 @@
-ih:174|arq;rel|FR|EUO|-|0|-|Gòtic|-|cul|-|
-ih:175|fil;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
-ih:176|fil;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
-ih:177|arq|FR;GB|EUO|-|0|-|Neoclassicisme|-|cul|-|
-ih:178|lit;cin|GB|EUO|-|0|William Shakespeare|-|-|cul|-|
-ih:179|gen;art|RS|EUS|Belgrad|0|Mireia Sallarès|-|-|cul|-|
-ih:180|art;rel|IT|EUS|-|0|Fra Angelico;Hieronymus Bosch|-|-|cul|-|
-ih:181|eco;fil|GB;FR|EUO|-|0|Adam Smith;François Quesnay|Il·lustració|-|cul|-|
-ih:182|lit|ES|EUS|-|0|Miguel de Cervantes|-|-|cul|-|
-ih:183|art;pol|-|EUO;EUC|-|0|-|-|-|cul|-|
-ih:184|art|GB|EUO|Londres|0|William Hogarth;Thomas Gainsborough;Joshua Reynolds|Il·lustració|-|cul|-|
-ih:185|fil|DE|EUC|Königsberg|0|Immanuel Kant|Il·lustració|-|cul|-|
-ih:186|gue;pol|ES|EUS|Barcelona|1|Felip V;Arxiduc Carles|Guerra de Successió espanyola|-|pro|-|
-ih:187|art;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
-ih:188|art;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
-ih:189|lit;cul|-|-|-|0|-|-|-|cul|-|
-ih:190|fil;his|-|-|-|0|-|-|-|cul|-|
-ih:191|cin|-|-|-|0|-|-|-|cul|-|
-ih:192|art;pol|FR|EUO|París|0|Jacques-Louis David|Revolució Francesa|-|cul|-|
-ih:193|lit;cul|-|-|-|0|-|-|-|cul|-|
-ih:194|rel;soc|ES|EUS|-|0|-|-|musulmans;mudèjars|pro|-|
-ih:195|lit;art|-|-|-|0|-|-|-|cul|-|
-ih:196|gen;soc|ES|EUS|Barcelona|0|-|-|-|deb|-|
-ih:197|gen;soc|ES|EUS|Barcelona|0|-|-|-|deb|-|
-ih:198|eco;cie|GB|EUO|Manchester|0|James Watt|Revolució industrial|-|pro|-|
-ih:199|lit;cul|-|-|-|0|-|-|-|cul|-|
-ih:200|rel|FR;ES|EUO;EUS|Montsegur|1|-|Croada albigesa|càtars|pro|-|
 ih:201|fil|-|-|-|0|-|-|-|cul|-|
 ih:202|cin;art|ES|EUS|Barcelona|0|-|-|-|deb|-|
 ih:203|cin;art|ES|EUS|Barcelona|0|-|-|-|deb|-|
@@ -98,3 +71,30 @@ ih:270|cie;fil|-|-|-|0|-|-|-|cul|-|
 ih:271|pol|AT|EUC|Viena|0|Klemens von Metternich;Talleyrand|Congrés de Viena|-|pro|-|
 ih:272|lit|FR|EUO|París|0|Honoré de Balzac|-|-|cul|-|
 ih:273|rel;lit;fil|GR|EUS|-|0|Dionís;Friedrich Nietzsche|-|grecs|cul|-|
+ih:274|art|DE|EUC|Dresden|0|Caspar David Friedrich|Romanticisme|-|cul|-|
+ih:275|lit|ES;IT;FR|EUS;EUO|-|0|-|-|-|cul|-|
+ih:276|lit;fil|GR|EUS|Tebes|0|Antígona;Sòfocles|-|grecs|cul|-|
+ih:277|fil|DE|EUC|Frankfurt del Main|0|Arthur Schopenhauer|-|-|cul|-|
+ih:278|lit|ES;IT;FR|EUS;EUO|-|0|-|-|-|cul|-|
+ih:279|lit;fil|GR|EUS|Tebes|0|Èdip;Sòfocles;Sigmund Freud|-|grecs|cul|-|
+ih:280|lit;fil|IT|EUS|Recanati|0|Giacomo Leopardi|Romanticisme|-|cul|-|
+ih:281|lit|GR|EUS|Micenes|0|Orestes;Electra;Èsquil|-|grecs|cul|-|
+ih:282|lit;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:283|lit;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:284|mus|DE;AT|EUC|Viena|0|Ludwig van Beethoven|Romanticisme|-|cul|-|
+ih:285|cin;lit|CN;TW|AO|-|0|Hou Hsiao-hsien;Gao Xingjian|-|-|cul|-|
+ih:286|lit;rel|GR|EUS|-|0|Prometeu;Orfeu|-|grecs|cul|-|
+ih:287|art|-|-|-|0|-|-|-|cul|-|
+ih:288|cin;lit|CN;TW|AO|-|0|Hou Hsiao-hsien;Gao Xingjian|-|-|cul|-|
+ih:289|cin|-|-|-|0|-|-|-|cul|-|
+ih:290|art;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:291|art;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:292|art;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:293|art;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:294|cin|-|-|-|0|-|-|-|cul|-|
+ih:295|lit|GR|EUS|Ítaca|0|Ulisses;Homer|-|grecs|cul|-|
+ih:296|fil;eco;pol|DE;GB|EUC;EUO|Londres|0|Karl Marx|-|-|cul|-|
+ih:297|cin|-|-|-|0|-|-|-|cul|-|
+ih:298|art|-|-|-|0|-|-|-|cul|-|
+ih:299|cul;cie|ES|EUS|Barcelona|0|-|-|-|deb|-|
+ih:300|cul;cie|ES|EUS|Barcelona|0|-|-|-|deb|-|

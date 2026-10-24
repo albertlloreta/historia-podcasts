@@ -1,30 +1,3 @@
-ih:374|rel;lit|IL;IQ|PO|Nínive|0|Jonàs|-|israelites|cul|-|
-ih:375|cin;art|FR;NZ|EUO;OC|-|0|Claire Parker;Alexandre Alexeïeff;Len Lye|-|-|cul|-|
-ih:376|lit|ES|EUS|Madrid|0|Pedro Calderón de la Barca|Segle d'Or espanyol|-|cul|-|
-ih:377|rel;lit|IL;IQ|PO|Nínive|0|Jonàs|-|israelites|cul|-|
-ih:378|rel;fil|IN|ASM|-|0|-|-|-|cul|-|
-ih:379|cin;art;gen|US|AN|-|0|Gunvor Nelson;Carolee Schneemann|-|-|cul|-|
-ih:380|art|GB|EUO|Londres|0|Dante Gabriel Rossetti;John Everett Millais|Prerafaelitisme|-|cul|-|
-ih:381|fil;rel|DE|EUC|-|0|Friedrich Nietzsche|-|-|cul|-|
-ih:382|mus;pol|DE|EUC|Bayreuth|0|Richard Wagner|-|-|cul|-|
-ih:383|lit|GR;IE|EUS;EUO|Ítaca|0|Ulisses;James Joyce|-|grecs|cul|-|
-ih:384|rel;lit|IL|PO|Jerusalem|0|Jesús de Natzaret|-|cristians|cul|-|
-ih:385|lit|RU|EUE|Sant Petersburg|0|Lev Tolstoi;Fiódor Dostoievski|-|-|cul|-|
-ih:386|lit|GR;IE|EUS;EUO|Ítaca|0|Ulisses;James Joyce|-|grecs|cul|-|
-ih:387|lit;fil|GB|EUO|Oxford|0|Iris Murdoch|-|-|bio|-|
-ih:388|lit;rel|IT|EUS|Florència|0|Dante Alighieri;Jesús de Natzaret|-|-|cul|-|
-ih:389|fil|DE|EUC|-|0|Friedrich Nietzsche;Peter Sloterdijk|-|-|cul|-|
-ih:390|lit|GR;IE|EUS;EUO|Ítaca|0|Ulisses;James Joyce|-|grecs|cul|-|
-ih:391|fil;lit|GB|EUO|Oxford|0|Iris Murdoch|-|-|cul|-|
-ih:392|fil|DK;DE|EUN;EUC|-|0|Søren Kierkegaard;Martin Heidegger|-|-|cul|-|
-ih:393|rel|IL|PO|Natzaret|0|Maria de Natzaret|-|cristians|cul|-|
-ih:394|fil|DE|EUC|-|0|Peter Sloterdijk|-|-|cul|-|
-ih:395|art|FR|EUO|Ais de Provença|0|Paul Cézanne|Postimpressionisme|-|cul|-|
-ih:396|lit|GB|EUO|-|0|Iris Murdoch|-|-|cul|-|
-ih:397|fil|FR|EUO|París|0|Michel Foucault;Gilles Deleuze|-|-|cul|-|
-ih:398|rel;lit|-|PO|-|0|Caín;Abel|-|-|cul|-|
-ih:399|art;rel|IT;NL|EUS;EUO|-|0|Jesús de Natzaret;Giotto|-|-|cul|-|
-ih:400|fil|DE|EUC|-|0|Peter Sloterdijk|-|-|cul|-|
 ih:401|cie;lit|-|-|-|0|-|-|-|cul|-|
 ih:402|fil|GB|EUO|-|0|Iris Murdoch|-|-|cul|-|
 ih:403|rel;lit|-|PO|-|0|Caín;Abel|-|-|cul|-|
@@ -98,3 +71,30 @@ ih:470|cie;exp|-|GLO|-|0|-|-|-|cul|-|
 ih:471|mus|AT|EUC|Viena|0|Gustav Mahler|-|-|cul|-|
 ih:472|fil;art|-|-|-|0|-|-|-|cul|-|
 ih:473|fil;pol;eco|GB;FR|EUO|-|0|John Locke;Adam Smith;John Stuart Mill|Liberalisme|-|cul|-|
+ih:474|lit|DE|EUC|Weimar|0|Gotthold Ephraim Lessing;Friedrich Schiller;Johann Wolfgang von Goethe|Romanticisme|-|cul|-|
+ih:475|cie;fil|-|GLO|-|0|-|-|-|cul|-|
+ih:476|fil;mus|DE|EUC|-|0|Friedrich Nietzsche;Richard Wagner|-|-|cul|-|
+ih:477|cie;cul|US;RU|AN;EUE|-|0|-|Cursa espacial|-|cul|-|
+ih:478|fil|-|-|-|0|-|-|-|cul|-|
+ih:479|lit;mus|DE;AT|EUC|-|0|Georg Büchner;Alban Berg|-|-|cul|-|
+ih:480|lit;gue|DE;PL;IT|EUC;EUS|Auschwitz|0|Primo Levi;Paul Celan|Holocaust|jueus|cul|-|
+ih:481|fil;lit|AT|EUC|Viena|0|Fritz Mauthner;Hugo von Hofmannsthal;Ludwig Wittgenstein|-|-|cul|-|
+ih:482|lit|IE;FR|EUO|París|0|Samuel Beckett|-|-|cul|-|
+ih:483|fil;pol;eco|DE;RU|EUC;EUE|-|0|Karl Marx;Friedrich Engels;Lenin|Marxisme|-|cul|-|
+ih:484|mus|DE;AT|EUC|Viena|0|Richard Strauss;Arnold Schönberg|-|-|cul|-|
+ih:485|fil;pol;eco|DE;RU|EUC;EUE|-|0|Karl Marx;Friedrich Engels|Marxisme|-|cul|-|
+ih:486|fil;pol;eco|DE;RU|EUC;EUE|-|0|Karl Marx;Friedrich Engels|Marxisme|-|cul|-|
+ih:487|arq|ES|EUS|Barcelona|1|Lluís Domènech i Montaner;Josep Puig i Cadafalch;Antoni Gaudí|Modernisme|-|cul|-|
+ih:488|art|FR;BE|EUO|París|0|Félicien Rops;Odilon Redon;Gustave Moreau;Pierre Puvis de Chavannes|Simbolisme|-|cul|-|
+ih:489|lit|FR|EUO|París|0|Arthur Rimbaud;Comte de Lautréamont|-|-|cul|-|
+ih:490|pol;his|IT;DE|EUS;EUC|Roma|0|Benito Mussolini;Adolf Hitler|Feixisme italià;Nazisme|-|cul|-|
+ih:491|art|DE|EUC|Dresden|0|Ernst Ludwig Kirchner;Franz Marc|Expressionisme|-|cul|-|
+ih:492|pol;his|IT;DE|EUS;EUC|Roma|0|Benito Mussolini|Feixisme italià;Nazisme|-|cul|-|
+ih:493|mus|DE;AT|EUC|Viena|0|Ludwig van Beethoven|-|-|bio|-|
+ih:494|cul;art;lit|FR|EUO|París|0|-|Belle Époque|-|lloc|-|
+ih:495|pol;his|IT;DE|EUS;EUC|Roma|0|Benito Mussolini|Feixisme italià;Nazisme|-|cul|-|
+ih:496|gen;fil;pol|-|EUO;AN|-|0|-|-|-|cul|-|
+ih:497|gen;fil;pol|-|EUO;AN|-|0|-|-|-|cul|-|
+ih:498|fil;pol|-|-|-|0|-|-|-|cul|-|
+ih:499|fil;cie|-|GLO|-|0|-|-|-|cul|-|
+ih:500|mus|AT|EUC|Viena|0|Joseph Haydn;Wolfgang Amadeus Mozart;Ludwig van Beethoven|-|-|cul|-|

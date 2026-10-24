@@ -1,54 +1,54 @@
-pdt:300|fil;rel|NL|EUO|Rotterdam|0|Erasme de Rotterdam|Humanisme|-|bio|-|
-pdt:301|lit|IR|PO|Tus|0|Ferdowsí|-|perses|cul|-|
-pdt:302|gue;pol|RO|EUE;EUS|-|0|Mircea el Vell|-|valacs;otomans|bio|-|
-pdt:303|gue;pol|IT|EUS|Roma|0|Gai Mari|Reformes marianes|romans|bio|-|
-pdt:304|gue|GR|EUS|Cefís|1|-|Batalla del Cefís;Expedició dels almogàvers a Orient|almogàvers|con|-|
-pdt:305|lit;gen;rel|FR;IT|EUO;EUS|-|0|Melusina;Papessa Joana|-|-|cul|-|
-pdt:306|lit|GR|EUS|Ítaca|0|Ulisses;Homer|-|grecs|cul|-|
-pdt:307|cul;arqu|EG|NA|-|0|-|-|egipcis|cul|-|
-pdt:308|cul;lit|-|GLO|-|0|-|-|-|cul|-|
-pdt:309|pol|US|OC|Hawaii|0|Kamehameha I|-|hawaians|bio|-|
-pdt:310|pol;gue|RS;BG;GR;HR;BA|EUS|Belgrad|0|-|Guerres balcàniques|-|pro|-|
-pdt:311|pol|RS;HR;BA;SI;MK|EUS|Belgrad|0|Josip Broz Tito|Guerres de Iugoslàvia|-|pro|-|
-pdt:312|cie;pol|ES|EUS|Cervera|1|Felip V|-|-|lloc|-|
-pdt:313|pol|GB|EUO|Sealand|0|Roy Bates|-|-|lloc|-|
-pdt:314|cie;lit|ES|EUS|Cervera|1|-|-|-|lloc|-|
-pdt:315|eco|IT|EUS|Florència|0|-|-|-|pro|-|
-pdt:316|gue;pol|DK;DE|EUN;EUC|Schleswig|0|Otto von Bismarck|Guerres de Schleswig|-|con|-|
-pdt:317|pol|EC|AL|Quito|0|Rafael Correa|-|-|bio|-|
-pdt:318|gue;eco|ES|EUS|Barcelona|1|Felip V|Guerra de Successió espanyola|-|pro|-|
-pdt:319|cin;gen|US|AN|Hollywood|0|Marlene Dietrich;Greta Garbo|-|-|cul|-|
-pdt:320|gue;pol|ES|EUS|-|1|Carles Maria Isidre de Borbó;Isabel II|Primera Guerra Carlina|-|con|-|
-pdt:321|gue|HU|EUC|Szigetvár|0|Solimà el Magnífic;Nikola Zrinski|Setge de Szigetvár|otomans;hongaresos|con|-|
-pdt:322|gue;eco|-|GLO|-|0|-|Segona Guerra Mundial|-|pro|-|
-pdt:323|gue|FR|EUO|Azincourt|0|Enric V d'Anglaterra|Batalla d'Azincourt;Guerra dels Cent Anys|anglesos;francesos|con|-|
-pdt:324|quo;cul|-|EUS;EUO|-|0|-|-|-|quo|-|
-pdt:325|pol;gue|IT|EUS|Roma|0|Galba;Otó;Vitel·li;Vespasià|Any dels quatre emperadors|romans|con|-|
-pdt:326|cul;lit|-|-|-|0|-|-|-|cul|-|
-pdt:327|lit|RU;UA|EUE|Kíev|0|Ígor Sviatoslàvitx|-|russos;cumans|cul|-|
-pdt:328|med;soc|ES|EUS|Barcelona|1|-|-|-|quo|-|
-pdt:329|pol;arq|ES|EUS|Barcelona|1|Josep Maria de Porcioles|Franquisme|-|bio|-|
-pdt:330|med;fil|-|EUS;EUO|-|0|-|-|-|cul|-|
-pdt:331|med;soc|ES|EUS|Barcelona|1|-|-|-|pro|-|
-pdt:332|rel;pol|IT;TR|EUS;PO|Constantinoble|0|Julià l'Apòstata|-|romans|bio|-|
-pdt:333|pol;soc|ES|EUS|Hostalric|1|-|-|-|pro|-|
-pdt:334|art|ES|EUS|Barcelona|1|Josep Aragay|Noucentisme|-|bio|-|
-pdt:335|cul;gue;lit|-|EUS;EUO|-|0|-|-|-|cul|-|
-pdt:336|exp|CA|AN|L'Anse aux Meadows|0|Leif Eriksson;Èric el Roig|-|vikings|pro|-|
-pdt:337|gue;pol|SE;DE|EUN;EUC|Lützen|0|Gustau II Adolf de Suècia|Guerra dels Trenta Anys|-|bio|-|
-pdt:338|arq;art|EG;GR;TR;IQ|PO;EUS;NA|-|0|-|-|grecs|cul|-|
-pdt:339|cie;art|IT|EUS|Florència|0|Leonardo da Vinci|Renaixement|-|bio|-|
-pdt:340|rel;cul|GR|EUS|Atenes|0|Dionís|-|grecs|cul|-|
-pdt:341|dre;soc|FR|EUO|París|0|Jean de Carrouges;Jacques Le Gris;Marguerite de Carrouges|-|-|bio|-|
-pdt:342|dre;soc|FR|EUO|París|0|Jean de Carrouges;Jacques Le Gris;Marguerite de Carrouges|-|-|con|-|
-pdt:343|exp|US;MX|AN;AL|-|0|Francisco Vázquez de Coronado|-|castellans|pro|-|
-pdt:344|gue|RO|EUE;EUS|Sarmizegetusa|0|Trajà;Decèbal|Guerres dàcies|romans;dacis|con|-|
-pdt:345|lit;gue|RS;MK|EUS|Prilep|0|Marko Kraljević|-|serbis;otomans|bio|-|
+pdt:300|lit|IR|PO|Tus|0|Ferdowsí|-|perses|cul|-|
+pdt:301|gue;pol|RO|EUE;EUS|-|0|Mircea el Vell|-|valacs;otomans|bio|-|
+pdt:302|gue;pol|IT|EUS|Roma|0|Gai Mari|Reformes marianes|romans|bio|-|
+pdt:303|gue|GR|EUS|Cefís|1|-|Batalla del Cefís;Expedició dels almogàvers a Orient|almogàvers|con|-|
+pdt:304|lit;gen;rel|FR;IT|EUO;EUS|-|0|Melusina;Papessa Joana|-|-|cul|-|
+pdt:305|lit|GR|EUS|Ítaca|0|Ulisses;Homer|-|grecs|cul|-|
+pdt:306|cul;arqu|EG|NA|-|0|-|-|egipcis|cul|-|
+pdt:307|cul;lit|-|GLO|-|0|-|-|-|cul|-|
+pdt:308|pol|US|OC|Hawaii|0|Kamehameha I|-|hawaians|bio|-|
+pdt:309|pol;gue|RS;BG;GR;HR;BA|EUS|Belgrad|0|-|Guerres balcàniques|-|pro|-|
+pdt:310|pol|RS;HR;BA;SI;MK|EUS|Belgrad|0|Josip Broz Tito|Guerres de Iugoslàvia|-|pro|-|
+pdt:311|cie;pol|ES|EUS|Cervera|1|Felip V|-|-|lloc|-|
+pdt:312|pol|GB|EUO|Sealand|0|Roy Bates|-|-|lloc|-|
+pdt:313|cie;lit|ES|EUS|Cervera|1|-|-|-|lloc|-|
+pdt:314|eco|IT|EUS|Florència|0|-|-|-|pro|-|
+pdt:315|gue;pol|DK;DE|EUN;EUC|Schleswig|0|Otto von Bismarck|Guerres de Schleswig|-|con|-|
+pdt:316|pol|EC|AL|Quito|0|Rafael Correa|-|-|bio|-|
+pdt:317|gue;eco|ES|EUS|Barcelona|1|Felip V|Guerra de Successió espanyola|-|pro|-|
+pdt:318|cin;gen|US|AN|Hollywood|0|Marlene Dietrich;Greta Garbo|-|-|cul|-|
+pdt:319|gue;pol|ES|EUS|-|1|Carles Maria Isidre de Borbó;Isabel II|Primera Guerra Carlina|-|con|-|
+pdt:320|gue|HU|EUC|Szigetvár|0|Solimà el Magnífic;Nikola Zrinski|Setge de Szigetvár|otomans;hongaresos|con|-|
+pdt:321|gue;eco|-|GLO|-|0|-|Segona Guerra Mundial|-|pro|-|
+pdt:322|gue|FR|EUO|Azincourt|0|Enric V d'Anglaterra|Batalla d'Azincourt;Guerra dels Cent Anys|anglesos;francesos|con|-|
+pdt:323|quo;cul|-|EUS;EUO|-|0|-|-|-|quo|-|
+pdt:324|pol;gue|IT|EUS|Roma|0|Galba;Otó;Vitel·li;Vespasià|Any dels quatre emperadors|romans|con|-|
+pdt:325|cul;lit|-|-|-|0|-|-|-|cul|-|
+pdt:326|lit|RU;UA|EUE|Kíev|0|Ígor Sviatoslàvitx|-|russos;cumans|cul|-|
+pdt:327|med;soc|ES|EUS|Barcelona|1|-|-|-|quo|-|
+pdt:328|pol;arq|ES|EUS|Barcelona|1|Josep Maria de Porcioles|Franquisme|-|bio|-|
+pdt:329|med;fil|-|EUS;EUO|-|0|-|-|-|cul|-|
+pdt:330|med;soc|ES|EUS|Barcelona|1|-|-|-|pro|-|
+pdt:331|rel;pol|IT;TR|EUS;PO|Constantinoble|0|Julià l'Apòstata|-|romans|bio|-|
+pdt:332|pol;soc|ES|EUS|Hostalric|1|-|-|-|pro|-|
+pdt:333|art|ES|EUS|Barcelona|1|Josep Aragay|Noucentisme|-|bio|-|
+pdt:334|cul;gue;lit|-|EUS;EUO|-|0|-|-|-|cul|-|
+pdt:335|exp|CA|AN|L'Anse aux Meadows|0|Leif Eriksson;Èric el Roig|-|vikings|pro|-|
+pdt:336|gue;pol|SE;DE|EUN;EUC|Lützen|0|Gustau II Adolf de Suècia|Guerra dels Trenta Anys|-|bio|-|
+pdt:337|arq;art|EG;GR;TR;IQ|PO;EUS;NA|-|0|-|-|grecs|cul|-|
+pdt:338|cie;art|IT|EUS|Florència|0|Leonardo da Vinci|Renaixement|-|bio|-|
+pdt:339|rel;cul|GR|EUS|Atenes|0|Dionís|-|grecs|cul|-|
+pdt:340|dre;soc|FR|EUO|París|0|Jean de Carrouges;Jacques Le Gris;Marguerite de Carrouges|-|-|bio|-|
+pdt:341|dre;soc|FR|EUO|París|0|Jean de Carrouges;Jacques Le Gris;Marguerite de Carrouges|-|-|con|-|
+pdt:342|exp|US;MX|AN;AL|-|0|Francisco Vázquez de Coronado|-|castellans|pro|-|
+pdt:343|gue|RO|EUE;EUS|Sarmizegetusa|0|Trajà;Decèbal|Guerres dàcies|romans;dacis|con|-|
+pdt:344|lit;gue|RS;MK|EUS|Prilep|0|Marko Kraljević|-|serbis;otomans|bio|-|
+pdt:345|pol|ES|EUS|Barcelona|1|Ferran el Catòlic|-|-|con|-|
 pdt:346|pol|ES|EUS|Barcelona|1|Ferran el Catòlic|-|-|con|-|
 pdt:347|gue|ES|EUS|Baecula|0|Escipió l'Africà;Asdrúbal Barca|Batalla de Baecula;Segona Guerra Púnica|romans;cartaginesos|con|-|
-pdt:348|gue;cie|FR;DE;GB|EUO;EUC|-|0|Manfred von Richthofen|Primera Guerra Mundial|-|pro|-|
-pdt:349|gue|IT;ES|EUS|-|1|Roger de Llúria;Pere el Gran|Guerra de Sicília|-|bio|-|
-pdt:350|gue;cie|FR;DE;GB|EUO;EUC|-|0|Manfred von Richthofen|Primera Guerra Mundial|-|pro|-|
+pdt:348|gue|IT;ES|EUS|-|1|Roger de Llúria;Pere el Gran|Guerra de Sicília|-|bio|-|
+pdt:349|gue;cie|FR;DE;GB|EUO;EUC|-|0|Manfred von Richthofen|Primera Guerra Mundial|-|pro|-|
+pdt:350|gue|IT;ES|EUS|-|1|Roger de Llúria;Pere el Gran|Guerra de Sicília|-|bio|-|
 pdt:351|gue;pol|GB|EUO|Londres|0|Winston Churchill|Segona Guerra Mundial|-|pro|-|
 pdt:352|gue;gen|GB;FR|EUO|-|0|-|Segona Guerra Mundial|-|pro|-|
 pdt:353|rel;cul|-|EUS;EUO|-|0|-|-|-|cul|-|
@@ -61,40 +61,40 @@ pdt:359|gue|ES|EUS|Palma|1|Jaume I|Conquesta de Mallorca|andalusins|con|-|
 pdt:360|eco;soc|US|AN|Sacramento|0|James W. Marshall|Febre de l'or de Califòrnia|-|pro|-|
 pdt:361|pol;soc|FR|EUO|París|0|-|Comuna de París|-|pro|-|
 pdt:362|gue;rel|IL|PO|Jerusalem|0|Vespasià;Titus|Primera Guerra Judeoromana|jueus;romans|con|-|
-pdt:363|gue;rel|IL|PO|Jerusalem|0|Vespasià;Titus|Primera Guerra Judeoromana|jueus;romans|con|-|
-pdt:364|rel;cul|IT|EUS|Roma|0|-|-|romans;etruscs|cul|-|
-pdt:365|gue|IL|PO|Jerusalem|0|Titus|Setge de Jerusalem (70)|jueus;romans|con|-|
-pdt:366|arq;gue|SY|PO|Krak dels Cavallers|0|-|Croades|hospitalers|lloc|-|
-pdt:367|gue|TN|NA|Zama|0|Aníbal;Escipió l'Africà|Batalla de Zama;Segona Guerra Púnica|romans;cartaginesos|con|-|
-pdt:368|gue;eco;arqu|EG;GR;TR;SY;CY|PO;EUS;NA|-|0|-|Col·lapse de l'edat del bronze|pobles de la mar;hitites;micènics|pro|-|
-pdt:369|pol|US|AN|Washington|0|Joe Biden|-|-|bio|-|
-pdt:370|gue;his|ES|EUS|-|0|-|Guerra Civil espanyola|-|deb|-|
-pdt:371|pol|ES|EUS|Barcelona|1|Carles de Viana;Joan II d'Aragó|-|-|bio|-|
-pdt:372|rel;cul;lit|GR|EUS|Cnossos|0|Minos;Teseu|-|minoics;grecs|cul|-|
-pdt:373|pol;rel|SY|PO|Damasc|0|Muàwiya I|-|àrabs;omeies|pro|-|
-pdt:374|lit|US|AN|Providence|0|H. P. Lovecraft|-|-|bio|-|
-pdt:375|esp;exp|-|GLO|-|0|-|-|-|pro|-|
-pdt:376|gue;pol|US|AN|Filadèlfia|0|George Washington;Thomas Jefferson|Guerra d'Independència dels Estats Units|-|con|-|
-pdt:377|gue;pol|US|AN|Filadèlfia|0|George Washington|Guerra d'Independència dels Estats Units|-|con|-|
-pdt:378|gue|RU|EUE|Moscou|0|Napoleó Bonaparte;Mikhaïl Kutúzov|Campanya de Rússia|-|con|-|
-pdt:379|eco;exp|CN;UZ;IR|ACM;AO;PO|Samarcanda|0|-|Ruta de la Seda|-|pro|-|
-pdt:380|eco;exp|CN;UZ;IR|ACM;AO;PO|Samarcanda|0|Marco Polo|Ruta de la Seda|-|pro|-|
-pdt:381|gue;pol|ES|EUS|Albacete|0|-|Brigades Internacionals;Guerra Civil espanyola|-|pro|-|
-pdt:382|lit;rel|GB;FR;ES|EUO;EUS|-|0|-|-|-|cul|-|
-pdt:383|cul;art|ES|EUS|-|1|-|-|-|cul|-|
+pdt:363|rel;cul|IT|EUS|Roma|0|-|-|romans;etruscs|cul|-|
+pdt:364|gue|IL|PO|Jerusalem|0|Titus|Setge de Jerusalem (70)|jueus;romans|con|-|
+pdt:365|arq;gue|SY|PO|Krak dels Cavallers|0|-|Croades|hospitalers|lloc|-|
+pdt:366|gue|TN|NA|Zama|0|Aníbal;Escipió l'Africà|Batalla de Zama;Segona Guerra Púnica|romans;cartaginesos|con|-|
+pdt:367|gue;eco;arqu|EG;GR;TR;SY;CY|PO;EUS;NA|-|0|-|Col·lapse de l'edat del bronze|pobles de la mar;hitites;micènics|pro|-|
+pdt:368|pol|US|AN|Washington|0|Joe Biden|-|-|bio|-|
+pdt:369|gue;his|ES|EUS|-|0|-|Guerra Civil espanyola|-|deb|-|
+pdt:370|pol|ES|EUS|Barcelona|1|Carles de Viana;Joan II d'Aragó|-|-|bio|-|
+pdt:371|rel;cul;lit|GR|EUS|Cnossos|0|Minos;Teseu|-|minoics;grecs|cul|-|
+pdt:372|pol;rel|SY|PO|Damasc|0|Muàwiya I|-|àrabs;omeies|pro|-|
+pdt:373|lit|US|AN|Providence|0|H. P. Lovecraft|-|-|bio|-|
+pdt:374|esp;exp|-|GLO|-|0|-|-|-|pro|-|
+pdt:375|gue;pol|US|AN|Filadèlfia|0|George Washington;Thomas Jefferson|Guerra d'Independència dels Estats Units|-|con|-|
+pdt:376|gue;pol|US|AN|Filadèlfia|0|George Washington|Guerra d'Independència dels Estats Units|-|con|-|
+pdt:377|gue|RU|EUE|Moscou|0|Napoleó Bonaparte;Mikhaïl Kutúzov|Campanya de Rússia|-|con|-|
+pdt:378|eco;exp|CN;UZ;IR|ACM;AO;PO|Samarcanda|0|-|Ruta de la Seda|-|pro|-|
+pdt:379|eco;exp|CN;UZ;IR|ACM;AO;PO|Samarcanda|0|Marco Polo|Ruta de la Seda|-|pro|-|
+pdt:380|gue;pol|ES|EUS|Albacete|0|-|Brigades Internacionals;Guerra Civil espanyola|-|pro|-|
+pdt:381|lit;rel|GB;FR;ES|EUO;EUS|-|0|-|-|-|cul|-|
+pdt:382|cul;art|ES|EUS|-|1|-|-|-|cul|-|
+pdt:383|pol;art|IT|EUS|Florència|0|Llorenç de Mèdici|Renaixement|-|bio|-|
 pdt:384|pol;art|IT|EUS|Florència|0|Llorenç de Mèdici|Renaixement|-|bio|-|
-pdt:385|pol;art|IT|EUS|Florència|0|Llorenç de Mèdici|Renaixement|-|bio|-|
-pdt:386|fil;pol|IT|EUS|Torí|0|Antonio Gramsci;Benito Mussolini|-|-|bio|-|
+pdt:385|fil;pol|IT|EUS|Torí|0|Antonio Gramsci;Benito Mussolini|-|-|bio|-|
+pdt:386|gue;dre|-|GLO|-|0|-|-|-|pro|-|
 pdt:387|gue;dre|-|GLO|-|0|-|-|-|pro|-|
-pdt:388|gue;dre|-|GLO|-|0|-|-|-|pro|-|
-pdt:389|gue|IT|EUS|-|0|-|Primera Guerra Púnica|romans|pro|-|
+pdt:388|gue|IT|EUS|-|0|-|Primera Guerra Púnica|romans|pro|-|
+pdt:389|pol;soc|DE|EUC|Berlín|0|Rosa Luxemburg;Karl Liebknecht|Revolució de Novembre|-|pro|-|
 pdt:390|pol;soc|DE|EUC|Berlín|0|Rosa Luxemburg;Karl Liebknecht|Revolució de Novembre|-|pro|-|
-pdt:391|pol;soc|DE|EUC|Berlín|0|Rosa Luxemburg;Karl Liebknecht|Revolució de Novembre|-|pro|-|
-pdt:392|pol;dre|US|AN|Filadèlfia|0|James Madison|Constitució dels Estats Units|-|pro|-|
-pdt:393|gue;lit|ES|EUS|València|0|Rodrigo Díaz de Vivar|-|castellans;andalusins|bio|-|
-pdt:394|pol;cul|ES|EUS|-|0|Francisco Franco|Franquisme|-|pro|-|
-pdt:395|gue;gen|GB|EUO|Londres|0|Boudica|Rebel·lió de Budica|icens;romans|bio|-|
-pdt:396|cul;rel|RS;HU|EUS;EUC|-|0|-|-|-|cul|-|
-pdt:397|exp;gue|ES;IT|EUS|Sicília|0|-|-|vikings;normands|pro|-|
-pdt:398|lit;cul|GB;RO|EUO;EUE|-|0|Bram Stoker|-|-|cul|-|
-pdt:399|arq;art|IT|EUS|Florència|0|Filippo Brunelleschi;Leon Battista Alberti|Renaixement|-|cul|-|
+pdt:391|pol;dre|US|AN|Filadèlfia|0|James Madison|Constitució dels Estats Units|-|pro|-|
+pdt:392|gue;lit|ES|EUS|València|0|Rodrigo Díaz de Vivar|-|castellans;andalusins|bio|-|
+pdt:393|pol;cul|ES|EUS|-|0|Francisco Franco|Franquisme|-|pro|-|
+pdt:394|gue;gen|GB|EUO|Londres|0|Boudica|Rebel·lió de Budica|icens;romans|bio|-|
+pdt:395|cul;rel|RS;HU|EUS;EUC|-|0|-|-|-|cul|-|
+pdt:396|exp;gue|ES;IT|EUS|Sicília|0|-|-|vikings;normands|pro|-|
+pdt:397|lit;cul|GB;RO|EUO;EUE|-|0|Bram Stoker|-|-|cul|-|
+pdt:398|arq;art|IT|EUS|Florència|0|Filippo Brunelleschi;Leon Battista Alberti|Renaixement|-|cul|-|
+pdt:399|cie;soc|GB|EUO|Southampton|0|-|Enfonsament del Titanic|-|pro|-|

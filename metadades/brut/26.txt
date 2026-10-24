@@ -1,30 +1,3 @@
-ih:574|lit|IE;GB;US|EUO;AN|Londres|0|James Joyce;T. S. Eliot;Virginia Woolf|Modernisme literari|-|cul|-|
-ih:575|fil;lit|DE|EUC|-|0|Friedrich Hölderlin;Georg Wilhelm Friedrich Hegel;Friedrich Schelling;Martin Heidegger|-|-|cul|-|
-ih:576|gen;cin;cul|-|GLO|-|0|-|-|-|cul|-|
-ih:577|lit|DE|EUC|-|0|Friedrich Hölderlin|-|-|cul|-|
-ih:578|pol|RU|EUE|Petrograd|0|Lenin;Lev Trotski|Revolució Russa|-|pro|-|
-ih:579|soc;cie;fil|-|GLO|-|0|-|-|-|cul|-|
-ih:580|soc;eco|-|GLO|-|0|-|-|-|cul|-|
-ih:581|art|RU|EUE|-|0|Marc Chagall;Kazimir Malèvitx;Vassili Kandinski|Avantguardes|-|cul|-|
-ih:582|pol;cul|DE|EUC|Berlín|0|-|República de Weimar|-|pro|-|
-ih:583|rel;gen;lit|IL|PO|-|0|-|-|israelites|cul|-|
-ih:584|art;pol;cul|ES|EUS|Barcelona|1|Eugeni d'Ors;Enric Prat de la Riba|Noucentisme|-|cul|-|
-ih:585|fil|DE|EUC|-|0|Walter Benjamin|-|-|cul|-|
-ih:586|rel;gen|IL|PO|-|0|Jeftè|-|israelites|cul|-|
-ih:587|quo;cul|-|EUO;AN|-|0|-|-|-|quo|-|
-ih:588|fil;art|DE|EUC|-|0|Walter Benjamin;Bertolt Brecht|-|-|cul|-|
-ih:589|mus;rel;gen|DE|EUC|Dresden|0|Richard Strauss;Salomé|-|-|cul|-|
-ih:590|arq;art|DE|EUC|Weimar|0|Walter Gropius|Bauhaus|-|cul|-|
-ih:591|fil;lit|DE;FR|EUC;EUO|París|0|Walter Benjamin|-|-|cul|-|
-ih:592|rel;gen;lit|IL|PO|-|0|Dèbora|-|israelites|cul|-|
-ih:593|art;pol|IT|EUS|-|0|Giovanni Gentile;Filippo Tommaso Marinetti|Futurisme;Feixisme italià|-|cul|-|
-ih:594|fil;exp|DE;ES|EUC;EUS|Eivissa|0|Walter Benjamin|-|-|cul|-|
-ih:595|art;cin|FR;ES|EUO;EUS|París|0|André Breton;Salvador Dalí;Luis Buñuel|Surrealisme|-|cul|-|
-ih:596|fil;cie|-|-|-|0|-|-|-|cul|-|
-ih:597|rel;gen;lit|IL;GR|PO;EUS|-|0|Eva;Pandora|-|-|cul|-|
-ih:598|lit;gue|DE|EUC|-|0|Ernst Jünger;Erich Maria Remarque|Primera Guerra Mundial|-|cul|-|
-ih:599|fil;cie|-|-|-|0|-|-|-|cul|-|
-ih:600|fil;his|DE;ES|EUC;EUS|Portbou|1|Walter Benjamin|-|-|cul|-|
 ih:601|lit|CZ|EUC|Praga|0|Franz Kafka|-|-|cul|-|
 ih:602|fil;cie|-|-|-|0|-|-|-|cul|-|
 ih:603|fil;art|DE|EUC|-|0|Walter Benjamin|-|-|cul|-|
@@ -98,3 +71,30 @@ ih:670|fil;pol;soc|FR;GB|EUO|-|0|Charles Fourier;Robert Owen;Henri de Saint-Simo
 ih:671|art;pol|DE;AT|EUC|Munic|0|Paul Klee;Oskar Kokoschka;Ernst Ludwig Kirchner|Art degenerat;Nazisme|-|cul|-|
 ih:672|fil;lit|DE|EUC|-|0|Hannah Arendt;Gotthold Ephraim Lessing|-|-|cul|-|
 ih:673|soc;med;cul|CH;DE|EUC|Ascona|0|-|Lebensreform|-|lloc|-|
+ih:674|lit|ES|EUS|-|1|Gabriel Ferrater|-|-|cul|-|
+ih:675|lit;fil|DE;CH|EUC|Davos|0|Thomas Mann|-|-|cul|-|
+ih:676|fil;pol|US|AN|-|0|Hannah Arendt|-|-|cul|-|
+ih:677|soc;cul|-|EUO;EUC|-|0|-|-|-|pro|-|
+ih:678|soc;cul|US|AN;EUO|-|0|-|Contracultura|-|pro|-|
+ih:679|lit|AT;DE;CZ|EUC|-|0|Rainer Maria Rilke|-|-|cul|-|
+ih:680|lit|GB;US|EUO;AN|-|0|W. H. Auden|-|-|cul|-|
+ih:681|lit;mus|DE|EUC|-|0|E. T. A. Hoffmann|Romanticisme|-|cul|-|
+ih:682|fil;soc|KR;DE|AO;EUC|-|0|Byung-Chul Han|-|-|cul|-|
+ih:683|fil;gen|FR|EUO|-|0|Simone Weil|-|-|cul|-|
+ih:684|lit;mus|RU|EUE|-|0|Lev Tolstoi;Ludwig van Beethoven|-|-|cul|-|
+ih:685|fil;pol|KR;DE|AO;EUC|-|0|Byung-Chul Han|-|-|cul|-|
+ih:686|fil;gen|FR;UA|EUO;EUE|-|0|Rachel Bespaloff|-|-|cul|-|
+ih:687|lit;mus|US|AN|-|0|Willa Cather|-|-|cul|-|
+ih:688|fil|KR;DE|AO;EUC|-|0|Byung-Chul Han|-|-|cul|-|
+ih:689|lit;mus|US|AN|-|0|Carson McCullers|-|-|cul|-|
+ih:690|fil;pol|KR;DE|AO;EUC|-|0|Byung-Chul Han|-|-|cul|-|
+ih:691|lit|IE;FR|EUO|Dublín|0|James Joyce|-|-|cul|-|
+ih:692|lit;mus|ES|EUS|-|0|Juan Benet|-|-|cul|-|
+ih:693|eco;fil;soc|-|GLO|-|0|Paul Lafargue|-|-|cul|-|
+ih:694|lit|PE|AL|-|0|César Vallejo|-|-|cul|-|
+ih:695|eco;soc|US|AN|-|0|-|-|-|pro|-|
+ih:696|lit|AT;SI|EUC;EUS|Duino|0|Rainer Maria Rilke|-|-|cul|-|
+ih:697|lit;mus|AR;FR|AL;EUO|París|0|Julio Cortázar|-|-|cul|-|
+ih:698|gen;eco|FR|EUO|-|0|-|-|-|cul|-|
+ih:699|lit;gen|GB|EUO|Londres|0|Virginia Woolf|-|-|cul|-|
+ih:700|lit;mus|AT;CA|EUC|-|0|Thomas Bernhard;Glenn Gould|-|-|cul|-|

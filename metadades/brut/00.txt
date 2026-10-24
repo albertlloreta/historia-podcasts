@@ -9,7 +9,7 @@ pdt:7|pol;gue|CN|AO|Pequín|0|Mao Zedong;Chiang Kai-shek|Revolució Xinesa||pro|
 pdt:8|pol|FR;DE;IT;ES|EUO;EUC|Aquisgrà|0|Carlemany|Imperi Carolingi|francs|pro||
 pdt:9|rel;cul;quo||||0|Jesús de Natzaret|||cul|Almudena Blasco|
 pdt:10|pol|ES;FR;AD|EUS|Barcelona|1|Guifré el Pilós||francs|pro||
-pdt:11|pol;his|ES|EUS|Barcelona|1|Guifré el Pilós;Borrell II|||deb||
+pdt:11|pol;rel;arqu|IT|EUS|Roma|0|Ròmul i Rem|-|romans;etruscs|deb|-|
 pdt:12|pol|ES|EUS|Barcelona|1|Borrell II;Guifré el Pilós||francs|pro||
 pdt:13|exp|PT;ES|GLO|Lisboa|0|Cristòfor Colom;Enric el Navegant|Era dels descobriments|portuguesos;castellans|pro||
 pdt:14|pol;eco|TN|NA;EUS|Cartago|0|Dido||cartaginesos;fenicis|lloc|Roger Riera|
@@ -46,7 +46,7 @@ pdt:44|lit|GB|EUO|Londres|0|William Shakespeare|||bio|Joan Curbet|
 pdt:45|pol|FR;CH|EUO|Ginebra|0|Woodrow Wilson|Primera Guerra Mundial||pro||
 pdt:46|cul;eco;quo|IN;IR;ES|GLO|Lleida|0||||cul|Albert Velasco|
 pdt:47|pol|TR|PO;EUS|Ankara|0|Mustafa Kemal Atatürk|Dissolució de l'Imperi Otomà|otomans;turcs|pro|Jaume Bartrolí|
-pdt:48|gue;pol|ES;CU|EUS;AL|Barcelona|1|Arxiduc Carles|Guerra de Successió espanyola||con|Antonio Espino|
+pdt:48|gue;pol|ES|EUS|Barcelona|1|Arxiduc Carles;Felip V|Guerra de Successió espanyola|-|con|Antonio Espino|
 pdt:49|pol;gue|ES|EUS||1|Bernat II de Cabrera;Pere el Cerimoniós|||bio|Àlex Martínez Giralt|
 pdt:50|pol;gue|CU;US;RU|AL;AN|l'Havana|0|John F. Kennedy;Nikita Khrusxov;Fidel Castro|Crisi dels míssils de Cuba||con||
 pdt:51|pol|FR;ES|EUS;EUO|Perpinyà|1|Lluís XIV;Felip IV|Tractat dels Pirineus||pro||

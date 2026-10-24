@@ -1,100 +1,100 @@
-pdt:200|pol;arq|CZ;DE|EUC|Praga|0|Carles IV del Sacre Imperi|-|-|bio|-|
-pdt:201|lit;his|GB|EUO|-|0|Rei Artús|-|britons|cul|-|
-pdt:202|pol|ES|EUS|Madrid|0|Antonio Cánovas del Castillo;Alfons XII|Restauració borbònica|-|pro|-|
-pdt:203|lit;quo|ES|EUS|-|0|Juan Ruiz|-|-|cul|-|
-pdt:204|gue|DE;CZ|EUC|-|0|Albrecht von Wallenstein|Guerra dels Trenta Anys|-|bio|-|
-pdt:205|pol|DE|EUC|Munic|0|Adolf Hitler;Ernst Röhm|Nit dels Ganivets Llargs|-|con|-|
-pdt:206|fil;pol|FR;GB|EUO|París|0|-|Il·lustració|-|cul|-|
-pdt:207|arq;gue|ES|EUS|-|1|-|-|-|pro|-|
-pdt:208|gue|TR|PO|Magnèsia del Sípil|0|Antíoc III el Gran;Luci Corneli Escipió|Batalla de Magnèsia|romans;selèucides|con|-|
-pdt:209|lit|DK;SE;GB|EUN;EUO|-|0|-|-|anglosaxons;danesos|cul|-|
-pdt:210|fil;pol;cul|IT|EUS|Florència|0|Nicolau Maquiavel|-|-|bio|-|
-pdt:211|rel;gue|FR|EUO|Clermont-Ferrand|0|Urbà II|Concili de Clermont;Primera Croada|-|pro|-|
-pdt:212|lit;rel;quo|ES|EUS|-|0|Jorge Manrique|-|-|cul|-|
-pdt:213|pol|RU|EUE|Petrograd|0|Lenin|Revolució Russa|-|pro|-|
-pdt:214|gue|US|AN|Little Bighorn|0|George Armstrong Custer;Sitting Bull;Crazy Horse|Batalla de Little Bighorn|sioux;xeienes|con|-|
-pdt:215|pol|AL|EUS|Tirana|0|-|-|albanesos|lloc|-|
-pdt:216|pol;eco|ML;MR;NE|AS|Tombuctu|0|Mansa Musa|-|-|pro|-|
-pdt:217|pol|AL|EUS|Tirana|0|Enver Hoxha|-|albanesos|pro|-|
-pdt:218|quo;dre|FR|EUO|Artigat|0|Martin Guerre|-|-|quo|-|
-pdt:219|gue;pol|GB|EUO|Londres|0|Oliver Cromwell;Carles I d'Anglaterra|Guerra Civil anglesa|-|con|-|
-pdt:220|pol|GB|EUO|Londres|0|Oliver Cromwell;Guillem III d'Anglaterra;Jaume II d'Anglaterra|Revolució Gloriosa|-|pro|-|
-pdt:221|pol;gue|TR|PO;EUS|Istanbul|0|Mehmet II;Solimà el Magnífic|-|otomans|pro|-|
-pdt:222|lit|FR|EUO|Carcassona|0|-|-|occitans|cul|-|
-pdt:223|pol|TR|PO;EUS|Istanbul|0|-|Dissolució de l'Imperi Otomà|otomans|pro|-|
-pdt:224|pol|FR|EUO|París|0|Lluís XVI de França;Maximilien de Robespierre|Revolució Francesa|-|pro|-|
-pdt:225|pol;gue|FR|EUO|París|0|Napoleó Bonaparte|Guerres napoleòniques|-|bio|-|
-pdt:226|pol|DE|EUC|Munic|0|Adolf Hitler|Putsch de la Cerveseria|-|con|-|
-pdt:227|his|-|EUS;EUO;EUC|-|0|-|-|-|deb|-|
-pdt:228|lit;soc|ES|EUS|Salamanca|0|Fernando de Rojas|-|-|cul|-|
-pdt:229|pol|ES|EUS|Barcelona|1|Joan Reventós|-|-|pro|-|
-pdt:230|lit|GE|PO|Tbilissi|0|Xota Rustaveli;Tamar de Geòrgia|-|georgians|cul|-|
+pdt:200|lit;his|GB|EUO|-|0|Rei Artús|-|britons|cul|-|
+pdt:201|pol|ES|EUS|Madrid|0|Antonio Cánovas del Castillo;Alfons XII|Restauració borbònica|-|pro|-|
+pdt:202|lit;quo|ES|EUS|-|0|Juan Ruiz|-|-|cul|-|
+pdt:203|gue|DE;CZ|EUC|-|0|Albrecht von Wallenstein|Guerra dels Trenta Anys|-|bio|-|
+pdt:204|pol|DE|EUC|Munic|0|Adolf Hitler;Ernst Röhm|Nit dels Ganivets Llargs|-|con|-|
+pdt:205|fil;pol|FR;GB|EUO|París|0|-|Il·lustració|-|cul|-|
+pdt:206|arq;gue|ES|EUS|-|1|-|-|-|pro|-|
+pdt:207|gue|TR|PO|Magnèsia del Sípil|0|Antíoc III el Gran;Luci Corneli Escipió|Batalla de Magnèsia|romans;selèucides|con|-|
+pdt:208|lit|DK;SE;GB|EUN;EUO|-|0|-|-|anglosaxons;danesos|cul|-|
+pdt:209|fil;pol;cul|IT|EUS|Florència|0|Nicolau Maquiavel|-|-|bio|-|
+pdt:210|rel;gue|FR|EUO|Clermont-Ferrand|0|Urbà II|Concili de Clermont;Primera Croada|-|pro|-|
+pdt:211|lit;rel;quo|ES|EUS|-|0|Jorge Manrique|-|-|cul|-|
+pdt:212|pol|RU|EUE|Petrograd|0|Lenin|Revolució Russa|-|pro|-|
+pdt:213|gue|US|AN|Little Bighorn|0|George Armstrong Custer;Sitting Bull;Crazy Horse|Batalla de Little Bighorn|sioux;xeienes|con|-|
+pdt:214|pol|AL|EUS|Tirana|0|-|-|albanesos|lloc|-|
+pdt:215|pol;eco|ML;MR;NE|AS|Tombuctu|0|Mansa Musa|-|-|pro|-|
+pdt:216|pol|AL|EUS|Tirana|0|Enver Hoxha|-|albanesos|pro|-|
+pdt:217|quo;dre|FR|EUO|Artigat|0|Martin Guerre|-|-|quo|-|
+pdt:218|gue;pol|GB|EUO|Londres|0|Oliver Cromwell;Carles I d'Anglaterra|Guerra Civil anglesa|-|con|-|
+pdt:219|pol|GB|EUO|Londres|0|Oliver Cromwell;Guillem III d'Anglaterra;Jaume II d'Anglaterra|Revolució Gloriosa|-|pro|-|
+pdt:220|pol;gue|TR|PO;EUS|Istanbul|0|Mehmet II;Solimà el Magnífic|-|otomans|pro|-|
+pdt:221|lit|FR|EUO|Carcassona|0|-|-|occitans|cul|-|
+pdt:222|pol|TR|PO;EUS|Istanbul|0|-|Dissolució de l'Imperi Otomà|otomans|pro|-|
+pdt:223|pol|FR|EUO|París|0|Lluís XVI de França;Maximilien de Robespierre|Revolució Francesa|-|pro|-|
+pdt:224|pol;gue|FR|EUO|París|0|Napoleó Bonaparte|Guerres napoleòniques|-|bio|-|
+pdt:225|pol|DE|EUC|Munic|0|Adolf Hitler|Putsch de la Cerveseria|-|con|-|
+pdt:226|his|-|EUS;EUO;EUC|-|0|-|-|-|deb|-|
+pdt:227|lit;soc|ES|EUS|Salamanca|0|Fernando de Rojas|-|-|cul|-|
+pdt:228|pol|ES|EUS|Barcelona|1|Joan Reventós|-|-|pro|-|
+pdt:229|lit|GE|PO|Tbilissi|0|Xota Rustaveli;Tamar de Geòrgia|-|georgians|cul|-|
+pdt:230|cul;lit|-|-|-|0|George R. R. Martin|-|-|cul|-|
 pdt:231|cul;lit|-|-|-|0|George R. R. Martin|-|-|cul|-|
-pdt:232|cul;lit|-|-|-|0|George R. R. Martin|-|-|cul|-|
-pdt:233|cie;fil|-|GLO|-|0|Nicolau Copèrnic;Galileo Galilei|-|-|cul|-|
-pdt:234|cie|-|GLO|-|0|-|Big Bang|-|cul|-|
-pdt:235|pol;gen;gue|ES;FR;DE|EUS;EUO;EUC|Els Guiamets|1|Neus Català|Guerra Civil espanyola;Holocaust|-|bio|-|
-pdt:236|pol;gen;his|FR;ES;DE|EUO;EUS|Ravensbrück|1|Neus Català|Holocaust|-|bio|-|
-pdt:237|gue|DE|EUC|-|0|Carlemany;Widukind|Guerres saxones|francs;saxons|con|-|
-pdt:238|lit|GB|EUO|Edimburg|0|Walter Scott|-|-|cul|-|
-pdt:239|gue|GR|EUS|Esparta|0|Brasidas;Gil·lip|Guerra del Peloponès|espartans|con|-|
-pdt:240|eco;rel;pol|ES|EUS|Madrid|0|Juan Álvarez Mendizábal|Desamortització de Mendizábal|-|pro|-|
-pdt:241|arq;soc;eco|-|EUS;EUO;EUC|-|0|-|-|-|pro|-|
-pdt:242|gue|ES;IT|EUS|Nàpols|0|Gonzalo Fernández de Córdoba|Guerres d'Itàlia|-|bio|-|
-pdt:243|lit|IT;GR|EUS|-|0|-|-|romans;grecs|cul|-|
-pdt:244|pol;gue|CU|AL|l'Havana|0|Fidel Castro;Che Guevara;Camilo Cienfuegos|Revolució cubana|-|pro|-|
-pdt:245|gue;pol|ES|EUS|Barcelona|1|Lluís el Piadós|Conquesta de Barcelona (801)|francs;andalusins|con|-|
-pdt:246|gue;pol|HU;RO;RS|EUC;EUS|Belgrad|0|Joan Hunyadi;Maties Corví|Setge de Belgrad (1456)|hongaresos;otomans|bio|-|
-pdt:247|pol|NI|AL|Managua|0|Augusto César Sandino;Daniel Ortega;Anastasio Somoza|Revolució Sandinista|-|pro|-|
-pdt:248|gue|US;MX|AN;AL|San Antonio|0|Antonio López de Santa Anna;Davy Crockett|Batalla d'El Álamo;Revolució texana|-|con|-|
+pdt:232|cie;fil|-|GLO|-|0|Nicolau Copèrnic;Galileo Galilei|-|-|cul|-|
+pdt:233|cie|-|GLO|-|0|-|Big Bang|-|cul|-|
+pdt:234|pol;gen;gue|ES;FR;DE|EUS;EUO;EUC|Els Guiamets|1|Neus Català|Guerra Civil espanyola;Holocaust|-|bio|-|
+pdt:235|pol;gen;his|FR;ES;DE|EUO;EUS|Ravensbrück|1|Neus Català|Holocaust|-|bio|-|
+pdt:236|gue|DE|EUC|-|0|Carlemany;Widukind|Guerres saxones|francs;saxons|con|-|
+pdt:237|lit|GB|EUO|Edimburg|0|Walter Scott|-|-|cul|-|
+pdt:238|gue|GR|EUS|Esparta|0|Brasidas;Gil·lip|Guerra del Peloponès|espartans|con|-|
+pdt:239|eco;rel;pol|ES|EUS|Madrid|0|Juan Álvarez Mendizábal|Desamortització de Mendizábal|-|pro|-|
+pdt:240|arq;soc;eco|-|EUS;EUO;EUC|-|0|-|-|-|pro|-|
+pdt:241|gue|ES;IT|EUS|Nàpols|0|Gonzalo Fernández de Córdoba|Guerres d'Itàlia|-|bio|-|
+pdt:242|lit|IT;GR|EUS|-|0|-|-|romans;grecs|cul|-|
+pdt:243|pol;gue|CU|AL|l'Havana|0|Fidel Castro;Che Guevara;Camilo Cienfuegos|Revolució cubana|-|pro|-|
+pdt:244|gue;pol|ES|EUS|Barcelona|1|Lluís el Piadós|Conquesta de Barcelona (801)|francs;andalusins|con|-|
+pdt:245|gue;pol|HU;RO;RS|EUC;EUS|Belgrad|0|Joan Hunyadi;Maties Corví|Setge de Belgrad (1456)|hongaresos;otomans|bio|-|
+pdt:246|pol|NI|AL|Managua|0|Augusto César Sandino;Daniel Ortega;Anastasio Somoza|Revolució Sandinista|-|pro|-|
+pdt:247|gue|US;MX|AN;AL|San Antonio|0|Antonio López de Santa Anna;Davy Crockett|Batalla d'El Álamo;Revolució texana|-|con|-|
+pdt:248|art;cul|-|-|-|0|-|-|-|cul|-|
 pdt:249|art;cul|-|-|-|0|-|-|-|cul|-|
-pdt:250|art;cul|-|-|-|0|-|-|-|cul|-|
-pdt:251|soc;gue;quo|ES|EUS|-|1|-|Reconquesta|andalusins|quo|-|
-pdt:252|gen;cul;soc|ES|EUS|Barcelona|1|-|Franquisme|-|cul|-|
-pdt:253|pol;gen|IT;FR;ES|EUS;EUO|Ravenna|1|Gal·la Placídia;Ataülf|-|romans;visigots|bio|-|
-pdt:254|lit|FI|EUN|-|0|Elias Lönnrot|-|finlandesos|cul|-|
-pdt:255|quo;cul|-|EUS;EUO|-|0|-|-|-|quo|-|
-pdt:256|cie;cul|US;JP|AN;AO|-|0|-|-|-|cul|-|
-pdt:257|gue;soc|ES|EUS|Barcelona|1|Francisco Franco|Guerra Civil espanyola;Franquisme|-|pro|-|
-pdt:258|mus;cul|ES|EUS|Barcelona|1|Lluís Millet;Amadeu Vives|-|-|cul|-|
-pdt:259|cie;gue|ES|EUS|-|1|-|Guerra Civil espanyola|-|pro|-|
-pdt:260|pol;gue|TR|PO|Hattusa|0|-|-|hitites|pro|-|
-pdt:261|pol;dre|TR|PO|Hattusa|0|-|-|hitites|pro|-|
-pdt:262|cul;lit;rel|-|EUS;EUO|-|0|-|-|-|cul|-|
-pdt:263|gue;eco|JM;CU|AL|Port Royal|0|-|-|pirates|pro|-|
-pdt:264|gue;eco|ES;IT|EUS|-|1|-|-|-|pro|-|
-pdt:265|rel;pol;art|GB|EUO|Canterbury|0|Thomas Becket;Enric II d'Anglaterra|-|-|con|-|
-pdt:266|soc;eco;med|-|EUS;EUO;EUC|-|0|-|Pesta Negra|-|pro|-|
-pdt:267|gue|TN|NA|Tunis|0|Marc Atili Règul;Xantip|Batalla del Bagradas;Primera Guerra Púnica|romans;cartaginesos|con|-|
-pdt:268|rel;gen|IT|EUS|Roma|0|Helena de Constantinoble;Macrina la Jove;Paula de Roma;Melània la Vella|-|romans;cristians|bio|-|
-pdt:269|rel;pol|IT|EUS|Roma|0|Formós;Esteve VI|Sínode del cadàver|-|con|-|
-pdt:270|pol;gue|ES|EUS|Madrid|1|Baldomero Espartero|Primera Guerra Carlina|-|bio|-|
-pdt:271|gue|DE|EUC|Augsburg|0|Otó I del Sacre Imperi|Batalla de Lechfeld|magiars|con|-|
-pdt:272|pol;eco|CN|AO|Pequín|0|Mao Zedong;Deng Xiaoping;Xi Jinping|-|-|pro|-|
-pdt:273|arq;eco;cul|ES|EUS|Barcelona|1|Francesc de Paula Rius i Taulet|Exposició Universal de Barcelona (1888)|-|lloc|-|
-pdt:274|pol|RU|EUE|Moscou|0|Ivan el Terrible|-|russos|bio|-|
-pdt:275|gue;soc|US;MX|AN|-|0|Geronimo|Guerres índies|apatxes|bio|-|
-pdt:276|pol|BO|AL|La Paz|0|Evo Morales|-|-|bio|-|
-pdt:277|rel;pol|DE;IT|EUC;EUS|Canossa|0|Enric IV del Sacre Imperi;Gregori VII|Querella de les Investidures|-|con|-|
-pdt:278|gue|IT|EUS|Sentinum|0|-|Batalla de Sentinum;Guerres samnites|romans;samnites|con|-|
-pdt:279|arq;gue|-|EUS;EUO|-|0|-|-|-|pro|-|
-pdt:280|arq;soc|ES|EUS|Castellbisbal|1|-|-|-|lloc|-|
-pdt:281|dre|ES|EUS|Castellbisbal|1|-|-|-|lloc|-|
-pdt:282|cin;gue|US;ES|AN;EUS|Hollywood|0|-|Guerra Civil espanyola|-|cul|-|
-pdt:283|eco;pol|ES|EUS|Madrid|0|Francisco Franco|Franquisme|-|pro|-|
-pdt:284|cie;cul|-|EUS;EUO|-|0|-|-|-|cul|-|
+pdt:250|soc;gue;quo|ES|EUS|-|1|-|Reconquesta|andalusins|quo|-|
+pdt:251|gen;cul;soc|ES|EUS|Barcelona|1|-|Franquisme|-|cul|-|
+pdt:252|pol;gen|IT;FR;ES|EUS;EUO|Ravenna|1|Gal·la Placídia;Ataülf|-|romans;visigots|bio|-|
+pdt:253|lit|FI|EUN|-|0|Elias Lönnrot|-|finlandesos|cul|-|
+pdt:254|quo;cul|-|EUS;EUO|-|0|-|-|-|quo|-|
+pdt:255|cie;cul|US;JP|AN;AO|-|0|-|-|-|cul|-|
+pdt:256|gue;soc|ES|EUS|Barcelona|1|Francisco Franco|Guerra Civil espanyola;Franquisme|-|pro|-|
+pdt:257|mus;cul|ES|EUS|Barcelona|1|Lluís Millet;Amadeu Vives|-|-|cul|-|
+pdt:258|cie;gue|ES|EUS|-|1|-|Guerra Civil espanyola|-|pro|-|
+pdt:259|pol;gue|TR|PO|Hattusa|0|-|-|hitites|pro|-|
+pdt:260|pol;dre|TR|PO|Hattusa|0|-|-|hitites|pro|-|
+pdt:261|cul;lit;rel|-|EUS;EUO|-|0|-|-|-|cul|-|
+pdt:262|gue;eco|JM;CU|AL|Port Royal|0|-|-|pirates|pro|-|
+pdt:263|gue;eco|ES;IT|EUS|-|1|-|-|-|pro|-|
+pdt:264|rel;pol;art|GB|EUO|Canterbury|0|Thomas Becket;Enric II d'Anglaterra|-|-|con|-|
+pdt:265|soc;eco;med|-|EUS;EUO;EUC|-|0|-|Pesta Negra|-|pro|-|
+pdt:266|gue|TN|NA|Tunis|0|Marc Atili Règul;Xantip|Batalla del Bagradas;Primera Guerra Púnica|romans;cartaginesos|con|-|
+pdt:267|rel;gen|IT|EUS|Roma|0|Helena de Constantinoble;Macrina la Jove;Paula de Roma;Melània la Vella|-|romans;cristians|bio|-|
+pdt:268|rel;pol|IT|EUS|Roma|0|Formós;Esteve VI|Sínode del cadàver|-|con|-|
+pdt:269|pol;gue|ES|EUS|Madrid|1|Baldomero Espartero|Primera Guerra Carlina|-|bio|-|
+pdt:270|gue|DE|EUC|Augsburg|0|Otó I del Sacre Imperi|Batalla de Lechfeld|magiars|con|-|
+pdt:271|pol;eco|CN|AO|Pequín|0|Mao Zedong;Deng Xiaoping;Xi Jinping|-|-|pro|-|
+pdt:272|arq;eco;cul|ES|EUS|Barcelona|1|Francesc de Paula Rius i Taulet|Exposició Universal de Barcelona (1888)|-|lloc|-|
+pdt:273|pol|RU|EUE|Moscou|0|Ivan el Terrible|-|russos|bio|-|
+pdt:274|gue;soc|US;MX|AN|-|0|Geronimo|Guerres índies|apatxes|bio|-|
+pdt:275|pol|BO|AL|La Paz|0|Evo Morales|-|-|bio|-|
+pdt:276|rel;pol|DE;IT|EUC;EUS|Canossa|0|Enric IV del Sacre Imperi;Gregori VII|Querella de les Investidures|-|con|-|
+pdt:277|gue|IT|EUS|Sentinum|0|-|Batalla de Sentinum;Guerres samnites|romans;samnites|con|-|
+pdt:278|arq;gue|-|EUS;EUO|-|0|-|-|-|pro|-|
+pdt:279|arq;soc|ES|EUS|Castellbisbal|1|-|-|-|lloc|-|
+pdt:280|dre|ES|EUS|Castellbisbal|1|-|-|-|lloc|-|
+pdt:281|cin;gue|US;ES|AN;EUS|Hollywood|0|-|Guerra Civil espanyola|-|cul|-|
+pdt:282|eco;pol|ES|EUS|Madrid|0|Francisco Franco|Franquisme|-|pro|-|
+pdt:283|cie;cul|-|EUS;EUO|-|0|-|-|-|cul|-|
+pdt:284|quo;cul|-|GLO|-|0|-|-|-|quo|-|
 pdt:285|quo;cul|-|GLO|-|0|-|-|-|quo|-|
-pdt:286|quo;cul|-|GLO|-|0|-|-|-|quo|-|
-pdt:287|arq;soc|ES|EUS|Barcelona|1|-|-|-|lloc|-|
-pdt:288|gue;eco|CN;GB|AO|Canton|0|-|Primera Guerra de l'Opi|-|con|-|
-pdt:289|gue;eco|CN;GB|AO|Pequín|0|-|Segona Guerra de l'Opi|-|con|-|
-pdt:290|pol;eco|US|AN|Nova York|0|Alexander Hamilton|-|-|bio|-|
-pdt:291|arq;rel;quo|-|EUS;EUO|-|0|-|-|-|cul|-|
-pdt:292|fil;pol|DE;GB|EUC;EUO|Manchester|0|Friedrich Engels;Karl Marx|-|-|bio|-|
-pdt:293|lit|GB|EUO|-|0|Daniel Defoe;Jonathan Swift|-|-|cul|-|
-pdt:294|his;cul;art|ES|EUS|-|0|-|-|-|cul|-|
-pdt:295|pol;cin|US|AN|Hollywood|0|Joseph McCarthy|Maccarthisme|-|pro|-|
-pdt:296|gue|FR|EUO|Orange|0|-|Batalla d'Arausio;Guerra Címbria|romans;cimbres;teutons|con|-|
-pdt:297|rel|DZ;IE|NA;EUO|Hipona|0|Agustí d'Hipona;Sant Patrici|-|romans|bio|-|
-pdt:298|pol|IR|PO|Persèpolis|0|Cir II el Gran;Darios I|-|perses|pro|-|
-pdt:299|gue;his|GR|EUS|Termòpiles|0|Leònides I;Xerxes I|Batalla de les Termòpiles;Guerres mèdiques|espartans;perses|con|-|
+pdt:286|arq;soc|ES|EUS|Barcelona|1|-|-|-|lloc|-|
+pdt:287|gue;eco|CN;GB|AO|Canton|0|-|Primera Guerra de l'Opi|-|con|-|
+pdt:288|gue;eco|CN;GB|AO|Pequín|0|-|Segona Guerra de l'Opi|-|con|-|
+pdt:289|pol;eco|US|AN|Nova York|0|Alexander Hamilton|-|-|bio|-|
+pdt:290|arq;rel;quo|-|EUS;EUO|-|0|-|-|-|cul|-|
+pdt:291|fil;pol|DE;GB|EUC;EUO|Manchester|0|Friedrich Engels;Karl Marx|-|-|bio|-|
+pdt:292|lit|GB|EUO|-|0|Daniel Defoe;Jonathan Swift|-|-|cul|-|
+pdt:293|his;cul;art|ES|EUS|-|0|-|-|-|cul|-|
+pdt:294|pol;cin|US|AN|Hollywood|0|Joseph McCarthy|Maccarthisme|-|pro|-|
+pdt:295|gue|FR|EUO|Orange|0|-|Batalla d'Arausio;Guerra Címbria|romans;cimbres;teutons|con|-|
+pdt:296|rel|DZ;IE|NA;EUO|Hipona|0|Agustí d'Hipona;Sant Patrici|-|romans|bio|-|
+pdt:297|pol|IR|PO|Persèpolis|0|Cir II el Gran;Darios I|-|perses|pro|-|
+pdt:298|gue;his|GR|EUS|Termòpiles|0|Leònides I;Xerxes I|Batalla de les Termòpiles;Guerres mèdiques|espartans;perses|con|-|
+pdt:299|fil;rel|NL|EUO|Rotterdam|0|Erasme de Rotterdam|Humanisme|-|bio|-|

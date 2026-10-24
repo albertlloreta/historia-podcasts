@@ -1,100 +1,100 @@
-eg:1244|gue;pol|ES|EUS|Puigcerdà|1|Antonio Martín|Guerra Civil espanyola|-|pro|-|
-eg:1245|rel;pol|VA|EUS|Ciutat del Vaticà|0|Joan Pau I;Joan Pau II|-|-|pro|-|
-eg:1246|gue;pol|AT;HU|EUC|Viena|0|Francesc Josep I|Primera Guerra Mundial|-|pro|-|
-eg:1247|gue|ES;GB|EUS;EUO|-|1|Felip II;Elisabet I d'Anglaterra|Armada Invencible|-|pro|-|
-eg:1248|cie;rel|GB|EUO|Londres|0|Charles Darwin|-|-|deb|-|
-eg:1249|gue;pol|DZ;MA;PS;EG;IQ;ES|NA;PO;EUS|-|0|-|Brigades Internacionals;Guerra Civil espanyola|àrabs|pro|-|
-eg:1250|med;cie|-|EUO;AN|-|0|-|-|-|pro|-|
-eg:1251|gen;arqu|-|GLO|-|0|-|-|-|pro|-|
-eg:1252|pol|ES|EUS|Barcelona|1|-|Assemblea de Catalunya;Franquisme|-|pro|-|
-eg:1253|pol;gue|GR|EUS|Atenes|0|Alcibíades|Guerra del Peloponès|atenencs|bio|-|
-eg:1254|pol;dre|ES|EUS|Barcelona|1|-|Franquisme|-|pro|-|
-eg:1255|gue;pol|IT;AT|EUS;EUC|Milà|0|Carles Albert de Sardenya|Primera Guerra d'Independència Italiana;Revolucions de 1848|-|con|-|
-eg:1256|soc;rel;gen|ES|EUS|Barcelona|1|-|-|esclaus|quo|-|
-eg:1257|arq;cie|ES;FR|EUS;EUO|Girona|1|Gustave Eiffel|-|-|pro|-|
-eg:1258|gen;soc|ES|EUS|Barcelona|1|-|Primera Guerra Mundial|-|con|-|
-eg:1259|arqu|IQ|PO|Nínive|0|Austen Henry Layard;Paul-Émile Botta|-|assiris|pro|-|
-eg:1260|cul;arq|ES|EUS|Barcelona|1|Alfons el Magnànim|-|-|lloc|-|
-eg:1261|quo;art;pol|ES|EUS|Madrid|0|Felip II|-|-|quo|-|
-eg:1262|pol|ES|EUS|Barcelona|1|-|Guerra Civil espanyola|-|pro|-|
-eg:1263|pol;soc|UY;ES|AL;EUS|Barcelona|1|-|Dictadura uruguaiana|-|pro|-|
-eg:1264|gue|CU;ES|AL|l'Havana|1|-|Guerra dels Deu Anys|-|pro|-|
-eg:1265|art|ES|EUS|Barcelona|1|Pablo Picasso|-|-|bio|-|
-eg:1266|pol;dre|ES;FR|EUS;EUO|Barcelona|1|Lluís Companys;Carme Ballester|Afusellament de Lluís Companys|-|con|-|
-eg:1267|eco;soc|ES|EUS|Palma|1|Jaume I|Conquesta de Mallorca|-|pro|-|
-eg:1268|pol;rel|GL;DK|AN;EUN|Nuuk|0|Hans Egede|-|inuits|pro|-|
-eg:1269|cin|US|AN|Hollywood|0|Walt Disney|-|-|cul|-|
-eg:1270|gue|CL;PE;BO|AL|Antofagasta|0|-|Guerra del Pacífic (1879-1884)|-|con|-|
-eg:1271|gen;rel;dre|-|EUS;EUO|-|0|-|-|-|pro|-|
-eg:1272|lit;pol|ES|EUS|Palma|1|Josep Maria Llompart|-|-|bio|-|
-eg:1273|cul;his|JP|AO|-|0|Nitobe Inazō|-|samurais|deb|-|
-eg:1274|lit|IT|EUS|Roma|0|Catul|-|romans|bio|-|
-eg:1275|rel;pol|ES|EUS|Ripoll|1|Guifré el Pilós;Guifré II de Besalú|-|-|pro|-|
-eg:1276|arqu;pol|ES|EUS|Ullastret|1|-|-|ibers|pro|-|
-eg:1277|med;pol;dre|ES|EUS|València|1|Joan Baptista Peset|Franquisme|-|bio|-|
-eg:1278|gue;eco|US;HN;NI;HT|AL;AN|-|0|-|Guerres bananeres|-|pro|-|
-eg:1279|pol|ES|EUS|Barcelona|1|Joan Fiveller;Ferran d'Antequera|-|-|con|-|
-eg:1280|mus;rel|ES|EUS|Palma|1|-|-|-|cul|-|
-eg:1281|lit;pol|ES|EUS|Barcelona|1|Josep Maria de Sagarra|Franquisme|-|bio|-|
-eg:1282|pol;gue|ES|EUS|-|1|Joan Busquets Verge|Maquis|-|bio|-|
-eg:1283|mus;gen|ES|EUS|Barcelona|1|Conxita Badia;Enric Granados;Manuel de Falla|-|-|bio|-|
-eg:1284|soc;pol|ES|EUS|Barcelona|1|-|Setge de Barcelona (1713-1714);Decrets de Nova Planta|-|quo|-|
-eg:1285|eco;pol|ES|EUS|Barcelona|1|Ricard Guillem;Ramon Berenguer I|-|-|bio|-|
-eg:1286|arqu|ES|EUS|Queralbs|1|-|-|-|lloc|-|
-eg:1287|lit;pol;gen|ES;GB|EUS;EUO|Barcelona|0|George Orwell;Eileen O'Shaughnessy|Guerra Civil espanyola|-|bio|-|
-eg:1288|mus|ES;MX;US|EUS;AL|Sant Joan de les Abadesses|1|Jaume Nunó|-|-|bio|-|
-eg:1289|cul|ES|EUS|Barcelona|1|-|Franquisme|-|pro|-|
-eg:1290|gue|SE;RU;PL;DK|EUN;EUE|Poltava|0|Carles XII de Suècia;Pere el Gran de Rússia|Gran Guerra del Nord|-|con|-|
-eg:1291|pol;exp|GQ;ES|AS|Bata|0|-|-|fang|pro|-|
-eg:1292|lit;gen|ES|EUS|Barcelona|1|-|Franquisme|-|cul|-|
-eg:1293|pol;arq|ES|EUS|Cerdanyola del Vallès|1|Martí l'Humà|-|-|lloc|-|
-eg:1294|arqu;arq|ES|EUS|Arbeca|1|-|-|ilergets;ibers|lloc|-|
-eg:1295|gue|NO;RU;GB|EUN;EUE|Múrmansk|0|Winston Churchill;Ióssif Stalin|Combois àrtics;Segona Guerra Mundial|-|con|-|
-eg:1296|pol|US|AN;AL|Washington|0|James Monroe|Doctrina Monroe|-|pro|-|
-eg:1297|gue;pol|ES|EUS|Font-rubí|1|-|Primera Guerra Carlina|-|pro|-|
-eg:1298|cul;gen|ES|EUS|Barcelona|1|Rosa Sensat|-|-|bio|-|
-eg:1299|pol;dre|ES|EUS|Barcelona|1|Santiago Salvador Franch|Atemptat del Liceu|-|con|-|
-eg:1300|pol;soc|RU|EUE|Sant Petersburg|0|Nicolau II de Rússia|Revolució russa de 1905;Diumenge Sagnant|-|pro|-|
-eg:1301|arqu|ES;IL|EUS;PO|Girona|1|Josep Gibert i Buch;Francesc Cambó|-|-|bio|-|
-eg:1302|arqu;eco|-|PO;GLO|-|0|-|Revolució neolítica|-|pro|-|
-eg:1303|pol;soc|ES|EUS|Barcelona|1|-|Transició espanyola|-|pro|-|
-eg:1304|eco;cie|ES|EUS|Riutort|1|-|-|-|lloc|-|
-eg:1305|cin|DE|EUC|Berlín|0|Fritz Lang;Thea von Harbou|-|-|cul|-|
-eg:1306|pol;soc|ES|EUS|-|1|Francisco de Zamora|Il·lustració|-|cul|-|
-eg:1307|gue|ES|EUS|Tarragona|1|-|Setge de Tarragona (1641);Guerra dels Segadors|-|con|-|
-eg:1308|his;pol|ES|EUS|Barcelona|1|Pere el Cerimoniós|-|-|deb|-|
-eg:1309|pol;arq|ES|EUS|Tarragona|1|Octavi August|-|romans|lloc|-|
-eg:1310|rel;cul|ES|EUS|Salomó|1|-|-|-|cul|-|
-eg:1311|gue;gen|ES|EUS|Barcelona|0|-|Guerra Civil espanyola|-|pro|-|
-eg:1312|cul;mus|ES|EUS|Golmés|1|-|-|-|lloc|-|
-eg:1313|his;arqu|ES|EUS|Cervera|1|Agustí Duran i Sanpere|-|-|bio|-|
-eg:1314|gue|RU;JP;CN|EUE;AO|Port Arthur|0|Nicolau II de Rússia|Guerra russojaponesa|-|con|-|
-eg:1315|cul|ES|EUS|Barcelona|1|Joan Capri|-|-|bio|-|
-eg:1316|cin|JP|AO|Tòquio|0|Akira Kurosawa;Kenji Mizoguchi;Yasujirō Ozu|-|-|cul|-|
-eg:1317|cie|GB|EUO|Londres|0|Francis Galton;Gregor Mendel;Karl Pearson|-|-|deb|-|
-eg:1318|arq;art|ES|EUS|Barcelona|1|Antoni Gaudí|Modernisme|-|bio|-|
-eg:1319|arq;gue|ES|EUS|Figueres|1|Ferran VI|-|-|lloc|-|
-eg:1320|gen;soc|ES|EUS|Barcelona|1|-|Transició espanyola|-|quo|-|
-eg:1321|pol|FR|EUO|París|0|-|Revolució Francesa|-|pro|-|
-eg:1322|his;art|ES|EUS|-|1|Jaume I|-|-|deb|-|
-eg:1323|rel;dre;gen|ES|EUS|-|1|-|Caça de bruixes|-|pro|-|
-eg:1324|pol;cul|ES;FR;VE|EUS;AL|Palma|1|Joan Baptista Picornell|Conspiració de San Blas|-|bio|-|
-eg:1325|arq|ES|EUS|Barcelona|1|Lluís Domènech i Montaner|Modernisme|-|cul|-|
-eg:1326|art|ES|EUS|Barcelona|1|Francisco González de Bassecourt|-|-|quo|-|
-eg:1327|gue|FR|EUO|Normandia|0|Dwight D. Eisenhower;Bernard Montgomery|Batalla de Normandia;Segona Guerra Mundial|-|con|-|
-eg:1328|pol;gue|ES|EUS|Barcelona|1|Hanns-Erich Kaminski|Guerra Civil espanyola|-|bio|-|
-eg:1329|rel;arq;his|ES|EUS|Poblet|1|-|-|-|lloc|-|
-eg:1330|cie|DK;DE|EUN;EUC|Copenhaguen|0|Niels Bohr;Werner Heisenberg;Max Planck|-|-|pro|-|
-eg:1331|gue|ES;FR|EUS;EUO|-|1|-|Guerra dels Cent Anys|-|pro|-|
-eg:1332|eco;fil|ES|EUS|-|1|-|-|-|cul|-|
-eg:1333|cie|ES|EUS|Banyoles|1|Francesc Darder|-|-|bio|-|
-eg:1334|rel;gen|BE;NL;FR|EUO|-|0|-|-|beguines|pro|-|
-eg:1335|pol;lit|ES|EUS|Palma|1|Gabriel Alomar|-|-|bio|-|
-eg:1336|esp;pol|MX;US|AL;AN|Ciutat de Mèxic|0|Tommie Smith;John Carlos|Jocs Olímpics de Mèxic 1968;Moviment pels drets civils|afroamericans|con|-|
-eg:1337|cin;art|FR;DE;RU|EUO;EUC;EUE|-|0|-|-|-|cul|-|
-eg:1338|eco;exp|PH;CN;MX|SEA;AO;AL|Manila|0|-|Galió de Manila|-|pro|-|
-eg:1339|rel;cul|ES;IL|EUS;PO|Montserrat|1|Bonaventura Ubach;Francesc Cambó|-|-|bio|-|
+eg:1245|gen;rel;dre|-|EUS;EUO|-|0|-|-|-|pro|-|
+eg:1246|lit;pol|ES|EUS|Palma|1|Josep Maria Llompart|-|-|bio|-|
+eg:1247|cul;his|JP|AO|-|0|Nitobe Inazō|-|samurais|deb|-|
+eg:1248|lit|IT|EUS|Roma|0|Catul|-|romans|bio|-|
+eg:1249|rel;pol|ES|EUS|Ripoll|1|Guifré el Pilós;Guifré II de Besalú|-|-|pro|-|
+eg:1250|arqu;pol|ES|EUS|Ullastret|1|-|-|ibers|pro|-|
+eg:1251|med;pol;dre|ES|EUS|València|1|Joan Baptista Peset|Franquisme|-|bio|-|
+eg:1252|gue;eco|US;HN;NI;HT|AL;AN|-|0|-|Guerres bananeres|-|pro|-|
+eg:1253|pol|ES|EUS|Barcelona|1|Joan Fiveller;Ferran d'Antequera|-|-|con|-|
+eg:1254|mus;rel|ES|EUS|Palma|1|-|-|-|cul|-|
+eg:1255|lit;pol|ES|EUS|Barcelona|1|Josep Maria de Sagarra|Franquisme|-|bio|-|
+eg:1256|pol;gue|ES|EUS|-|1|Joan Busquets Verge|Maquis|-|bio|-|
+eg:1257|mus;gen|ES|EUS|Barcelona|1|Conxita Badia;Enric Granados;Manuel de Falla|-|-|bio|-|
+eg:1258|soc;pol|ES|EUS|Barcelona|1|-|Setge de Barcelona (1713-1714);Decrets de Nova Planta|-|quo|-|
+eg:1259|eco;pol|ES|EUS|Barcelona|1|Ricard Guillem;Ramon Berenguer I|-|-|bio|-|
+eg:1260|arqu|ES|EUS|Queralbs|1|-|-|-|lloc|-|
+eg:1261|lit;pol;gen|ES;GB|EUS;EUO|Barcelona|0|George Orwell;Eileen O'Shaughnessy|Guerra Civil espanyola|-|bio|-|
+eg:1262|mus|ES;MX;US|EUS;AL|Sant Joan de les Abadesses|1|Jaume Nunó|-|-|bio|-|
+eg:1263|cul|ES|EUS|Barcelona|1|-|Franquisme|-|pro|-|
+eg:1264|gue|SE;RU;PL;DK|EUN;EUE|Poltava|0|Carles XII de Suècia;Pere el Gran de Rússia|Gran Guerra del Nord|-|con|-|
+eg:1265|pol;exp|GQ;ES|AS|Bata|0|-|-|fang|pro|-|
+eg:1266|lit;gen|ES|EUS|Barcelona|1|-|Franquisme|-|cul|-|
+eg:1267|pol;arq|ES|EUS|Cerdanyola del Vallès|1|Martí l'Humà|-|-|lloc|-|
+eg:1268|arqu;arq|ES|EUS|Arbeca|1|-|-|ilergets;ibers|lloc|-|
+eg:1269|gue|NO;RU;GB|EUN;EUE|Múrmansk|0|Winston Churchill;Ióssif Stalin|Combois àrtics;Segona Guerra Mundial|-|con|-|
+eg:1270|pol|US|AN;AL|Washington|0|James Monroe|Doctrina Monroe|-|pro|-|
+eg:1271|gue;pol|ES|EUS|Font-rubí|1|-|Primera Guerra Carlina|-|pro|-|
+eg:1272|cul;gen|ES|EUS|Barcelona|1|Rosa Sensat|-|-|bio|-|
+eg:1273|pol;dre|ES|EUS|Barcelona|1|Santiago Salvador Franch|Atemptat del Liceu|-|con|-|
+eg:1274|pol;soc|RU|EUE|Sant Petersburg|0|Nicolau II de Rússia|Revolució russa de 1905;Diumenge Sagnant|-|pro|-|
+eg:1275|arqu|ES;IL|EUS;PO|Girona|1|Josep Gibert i Buch;Francesc Cambó|-|-|bio|-|
+eg:1276|arqu;eco|-|PO;GLO|-|0|-|Revolució neolítica|-|pro|-|
+eg:1277|pol;soc|ES|EUS|Barcelona|1|-|Transició espanyola|-|pro|-|
+eg:1278|eco;cie|ES|EUS|Riutort|1|-|-|-|lloc|-|
+eg:1279|cin|DE|EUC|Berlín|0|Fritz Lang;Thea von Harbou|-|-|cul|-|
+eg:1280|pol;soc|ES|EUS|-|1|Francisco de Zamora|Il·lustració|-|cul|-|
+eg:1281|gue|ES|EUS|Tarragona|1|-|Setge de Tarragona (1641);Guerra dels Segadors|-|con|-|
+eg:1282|his;pol|ES|EUS|Barcelona|1|Pere el Cerimoniós|-|-|deb|-|
+eg:1283|pol;arq|ES|EUS|Tarragona|1|Octavi August|-|romans|lloc|-|
+eg:1284|rel;cul|ES|EUS|Salomó|1|-|-|-|cul|-|
+eg:1285|gue;gen|ES|EUS|Barcelona|0|-|Guerra Civil espanyola|-|pro|-|
+eg:1286|cul;mus|ES|EUS|Golmés|1|-|-|-|lloc|-|
+eg:1287|his;arqu|ES|EUS|Cervera|1|Agustí Duran i Sanpere|-|-|bio|-|
+eg:1288|gue|RU;JP;CN|EUE;AO|Port Arthur|0|Nicolau II de Rússia|Guerra russojaponesa|-|con|-|
+eg:1289|cul|ES|EUS|Barcelona|1|Joan Capri|-|-|bio|-|
+eg:1290|cin|JP|AO|Tòquio|0|Akira Kurosawa;Kenji Mizoguchi;Yasujirō Ozu|-|-|cul|-|
+eg:1291|cie|GB|EUO|Londres|0|Francis Galton;Gregor Mendel;Karl Pearson|-|-|deb|-|
+eg:1292|arq;art|ES|EUS|Barcelona|1|Antoni Gaudí|Modernisme|-|bio|-|
+eg:1293|arq;gue|ES|EUS|Figueres|1|Ferran VI|-|-|lloc|-|
+eg:1294|gen;soc|ES|EUS|Barcelona|1|-|Transició espanyola|-|quo|-|
+eg:1295|pol|FR|EUO|París|0|-|Revolució Francesa|-|pro|-|
+eg:1296|his;art|ES|EUS|-|1|Jaume I|-|-|deb|-|
+eg:1297|rel;dre;gen|ES|EUS|-|1|-|Caça de bruixes|-|pro|-|
+eg:1298|pol;cul|ES;FR;VE|EUS;AL|Palma|1|Joan Baptista Picornell|Conspiració de San Blas|-|bio|-|
+eg:1299|arq|ES|EUS|Barcelona|1|Lluís Domènech i Montaner|Modernisme|-|cul|-|
+eg:1300|art|ES|EUS|Barcelona|1|Francisco González de Bassecourt|-|-|quo|-|
+eg:1301|gue|FR|EUO|Normandia|0|Dwight D. Eisenhower;Bernard Montgomery|Batalla de Normandia;Segona Guerra Mundial|-|con|-|
+eg:1302|pol;gue|ES|EUS|Barcelona|1|Hanns-Erich Kaminski|Guerra Civil espanyola|-|bio|-|
+eg:1303|rel;arq;his|ES|EUS|Poblet|1|-|-|-|lloc|-|
+eg:1304|cie|DK;DE|EUN;EUC|Copenhaguen|0|Niels Bohr;Werner Heisenberg;Max Planck|-|-|pro|-|
+eg:1305|gue|ES;FR|EUS;EUO|-|1|-|Guerra dels Cent Anys|-|pro|-|
+eg:1306|eco;fil|ES|EUS|-|1|-|-|-|cul|-|
+eg:1307|cie|ES|EUS|Banyoles|1|Francesc Darder|-|-|bio|-|
+eg:1308|rel;gen|BE;NL;FR|EUO|-|0|-|-|beguines|pro|-|
+eg:1309|pol;lit|ES|EUS|Palma|1|Gabriel Alomar|-|-|bio|-|
+eg:1310|esp;pol|MX;US|AL;AN|Ciutat de Mèxic|0|Tommie Smith;John Carlos|Jocs Olímpics de Mèxic 1968;Moviment pels drets civils|afroamericans|con|-|
+eg:1311|cin;art|FR;DE;RU|EUO;EUC;EUE|-|0|-|-|-|cul|-|
+eg:1312|eco;exp|PH;CN;MX|SEA;AO;AL|Manila|0|-|Galió de Manila|-|pro|-|
+eg:1313|rel;cul|ES;IL|EUS;PO|Montserrat|1|Bonaventura Ubach;Francesc Cambó|-|-|bio|-|
 sons:0|mus;rel;gen|DE|EUC|Bingen am Rhein|0|Hildegarda de Bingen|-|-|bio|Georgina Rabassó|
 sons:1|mus|-|EUS;EUO|Besalú|0|-|-|-|cul|Mauricio Molina;Cristina Alís|
 sons:2|mus;rel;gue|ES;IL|EUS;PO|Alcoi|0|-|Croades|-|cul|José Rafael Pascual Vilaplana|
 sons:3|mus;rel;lit|-|EUS;EUO|-|0|-|-|-|cul|-|
+sons:4|mus;quo;cul|-|EUS;EUO|Barcelona|0|-|-|-|cul|Raül Sanchis|
+sons:5|lit;mus|GB;FR|EUO|-|0|Rei Artús|-|britons|cul|Delfi Nieto;Pau Castell|
+sons:6|lit;mus|FR;ES|EUO;EUS|-|1|-|-|occitans|cul|Cinta Arasa|
+sons:7|mus;quo;arq|FR|EUO|París|0|-|-|-|cul|Daniel Vilarrúbias|
+sons:8|mus;rel|ES|EUS|Montserrat|1|-|-|-|cul|Blai Marsé|
+sons:9|quo;mus|ES|EUS|Toledo|0|Alfons X de Castella|-|-|quo|Ángel Luis Molina|
+sons:10|lit;mus;quo|DE|EUC|Benediktbeuern|0|-|-|goliards|cul|Paco Soler Parellada|
+sons:11|mus;cie|-|EUS;EUO|-|0|Guido d'Arezzo|-|-|cul|Juan Carlos Asensio|
+sons:12|rel;mus;exp|ES|EUS|Santiago de Compostel·la|0|Sant Jaume|Camí de Sant Jaume|-|cul|Francesc Vicens|
+sons:13|mus|FR;ES;IT|EUO;EUS|Avinyó|0|-|-|-|cul|Tonatiuh Cortés|
+sons:14|rel;art;mus|ES|EUS|Ripoll|1|Oliba|Romànic|-|lloc|Marc Sureda|
+sons:15|lit;mus;gen|FR;ES|EUO;EUS|-|1|-|-|trobairitz|cul|Meritxell Simó|
+sons:16|rel;mus;his|FR;ES|EUO;EUS|Montsegur|1|-|Croada albigesa|càtars|deb|Sergi Grau|
+sons:17|pol;mus|ES|EUS|València|1|Jaume I|-|-|bio|Vicent Baydal|
+sons:18|mus;lit|FR|EUO|Reims|0|Guillaume de Machaut|-|-|bio|-|
+sons:19|mus|-|-|-|0|-|-|-|cul|-|
+sons:20|lit;mus|GB;FR|EUO|-|0|Merlí|-|britons|cul|Isaac Morera;Oriol Casadevall|
+sons:21|lit;mus|DE|EUC|-|0|Walther von der Vogelweide|-|-|cul|Gemma Pellissa|
+sons:22|quo;mus;arq|ES|EUS|Barcelona|1|-|-|-|lloc|Jordi Sacasas|
+sons:23|lit;mus|FR|EUO|Poitiers|0|Guillem IX d'Aquitània|-|occitans|bio|-|
+sons:24|lit;mus;gue|NO;DK;GB|EUN;EUO|Lindisfarne|0|-|-|vikings|cul|Ángel Gil Cheza|
+sons:25|med;cie|ES|EUS|València|1|Arnau de Vilanova|-|-|bio|Sergi Grau|
+sons:26|cie;cul|DE;ES|EUC;EUS|Magúncia|1|Johannes Gutenberg|-|-|pro|Carme Balliu|
+sons:27|rel;gen;lit|GB|EUO|King's Lynn|0|Margery Kempe|-|beguines|bio|Delfi Nieto|
+sons:28|rel;gen;art;mus|FR|EUO|Mont Sainte-Odile|0|Herrada de Landsberg|-|-|cul|Marta Ponce|
+sons:29|rel;arq|ES|EUS|Badalona|1|-|-|jerònims|lloc|Javier Bustamante|
+sons:30|mus;rel|ES|EUS|Girona|1|-|-|jueus|cul|Meritxell Blasco Orellana|

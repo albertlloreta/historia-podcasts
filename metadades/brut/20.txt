@@ -1,30 +1,3 @@
-sons:104|fil;rel;cul|-|EUS;EUO|-|0|-|-|-|cul|-|
-sons:105|rel;gen;lit|FR|EUO|París|0|Margarida Porete|-|beguines|bio|Delfi Nieto;Blanca Garí|
-sons:106|mus;rel|FR|EUO|Avinyó|0|-|Papat d'Avinyó;Cisma d'Occident|-|cul|Ramon Sarobe|
-sons:107|arq;gue;eco|ES|EUS|Barcelona|1|-|-|-|lloc|Enric Garcia|
-sons:108|mus|GB|EUO|-|0|John Dunstable|-|-|bio|-|
-sons:109|lit;mus|FR|EUO|Blaia|0|Jaufré Rudel|-|occitans|bio|Cristina Alís|
-sons:110|mus;art|BE;FR|EUO|Mons|0|Gilles Binchois;Rogier van der Weyden|-|-|bio|-|
-sons:111|rel;lit;gen|BE|EUO|Anvers|0|Hadewijch d'Anvers|-|beguines|bio|Helena Casas|
-sons:112|mus;rel|IT|EUS|-|0|Tomàs de Celano|-|-|cul|-|
-sons:113|mus;lit|-|AN;EUO|-|0|Tristany;Isolda|-|-|cul|-|
-sons:114|mus;rel;arq|FR|EUO|París|0|Leoninus;Perotinus|-|-|cul|-|
-sons:115|pol;gen;lit|FR;GB|EUO|Poitiers|0|Elionor d'Aquitània|-|-|bio|Ana Rodríguez|
-sons:116|soc;quo;med|-|EUS;EUO|-|0|-|-|-|quo|Antoni Conejo|
-sons:117|lit|DE|EUC|Worms|0|Sigfrid|-|-|cul|Carmen Botella|
-sons:118|lit;mus|ES;PT|EUS|Toledo|0|Alfons X de Castella|-|-|cul|-|
-sons:119|lit;mus|FR|EUO|-|0|Arnaut Daniel;Ricard Cor de Lleó;Alfons el Cast|-|occitans|bio|-|
-sons:120|lit;rel;his|FR|EUO|Cluny|0|Raül Glaber;Margarida Borràs|-|-|cul|-|
-sons:121|cul;quo;mus|-|EUS;EUO|-|0|-|-|-|cul|-|
-sons:122|lit;mus;rel|DE|EUC|Magúncia|0|Heinrich von Meissen|-|-|bio|Víctor Millet|
-sons:123|mus;cul|-|EUN|-|0|-|-|vikings|cul|-|
-sons:124|lit;mus|ES;FR|EUS;EUO|Cabestany|1|Guillem de Cabestany|-|occitans|bio|-|
-sons:125|cul;lit;cin|-|EUO;AN|-|0|George R. R. Martin|-|-|cul|Óscar Perea|
-sons:126|rel;cul;lit|-|EUS;EUO|-|0|-|-|-|cul|-|
-sons:127|mus|IT|EUS|-|0|-|-|-|cul|-|
-sons:128|mus;rel|ES;TR;GR;MA|EUS;PO;NA|-|0|-|Expulsió dels jueus d'Espanya|sefardites|cul|Mara Aranda|
-sons:129|cul;mus;rel|-|EUS;EUO|-|0|-|-|-|cul|-|
-ih:0|fil;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
 ih:1|cin|-|-|Barcelona|0|-|-|-|cul|-|
 ih:2|cin;cul|-|-|Barcelona|0|-|-|-|cul|-|es
 ih:3|art|ES|EUS|Madrid|0|Francisco de Goya|Il·lustració|-|bio|-|
@@ -98,3 +71,30 @@ ih:70|fil;gen;soc|FR|EUO|-|0|Pierre Bourdieu|-|-|cul|-|
 ih:71|cul;lit|-|GLO|-|0|-|-|-|cul|-|
 ih:72|cul;lit;arq|EG;TR;AT;ES|NA;PO;EUC;EUS|Alexandria|0|-|-|-|cul|-|
 ih:73|art|GB|EUO|Londres|0|John Constable;J. M. W. Turner|Romanticisme|-|cul|-|
+ih:74|cul;soc|ES|EUS|Barcelona|1|-|-|-|pro|-|
+ih:75|fil;lit|IT|EUS|Florència|0|Petrarca;Lorenzo Valla|Humanisme;Renaixement|-|cul|-|
+ih:76|lit;art|GB|EUO|Londres|0|William Blake|Romanticisme|-|cul|-|
+ih:77|lit|GB;GR;IT|EUO;EUS|-|0|Lord Byron|Romanticisme|-|cul|-|
+ih:78|lit;cul|-|GLO|-|0|Jorge Luis Borges|-|-|cul|-|
+ih:79|arq|IT|EUS|Florència|0|Filippo Brunelleschi;Leon Battista Alberti;Andrea Palladio|Renaixement|-|cul|-|
+ih:80|lit|GB;IT|EUO;EUS|-|0|Percy Bysshe Shelley;John Keats|Romanticisme|-|cul|-|
+ih:81|cul;cie;fil|FR;DE|EUO;EUC|-|0|Marcel Proust;Albert Einstein|-|-|cul|-|
+ih:82|art;mus;pol|US;DE|AN;EUC|Nova York|0|Karlheinz Stockhausen|Atemptats de l'11 de setembre de 2001|-|deb|-|
+ih:83|fil|IT|EUS|Florència|0|Marsilio Ficino|Renaixement|-|cul|-|
+ih:84|lit|GB|EUO|Londres|0|Charles Lamb;William Hazlitt|Romanticisme|-|cul|-|
+ih:85|lit;gen|GB|EUO|Bath|0|Jane Austen|Romanticisme|-|cul|-|
+ih:86|art|VA;IT|EUS|Ciutat del Vaticà|0|Miquel Àngel;Rafael|Renaixement|-|cul|-|
+ih:87|lit;fil|FR|EUO|-|0|Michel de Montaigne;Pierre de Ronsard|Renaixement|-|cul|-|
+ih:88|lit;cul;pol|AT;CZ;HU|EUC|Viena|0|-|-|-|cul|-|
+ih:89|art|IT|EUS|Florència|0|Donatello;Miquel Àngel|Renaixement|-|cul|-|
+ih:90|fil;pol|DE;US|EUC;AN|-|0|Hannah Arendt|-|-|cul|-|
+ih:91|fil;pol|DE;US|EUC;AN|-|0|Hannah Arendt|-|-|cul|-|
+ih:92|lit|CZ|EUC|Praga|0|Milan Kundera|-|-|cul|-|
+ih:93|fil;pol|IT|EUS|Florència|0|Nicolau Maquiavel|Renaixement|-|cul|-|
+ih:94|fil;pol|DE;US|EUC;AN|-|0|Hannah Arendt|-|-|cul|-|
+ih:95|lit|HU|EUC|Budapest|0|Imre Kertész|Holocaust|-|cul|-|
+ih:96|art;cie|IT|EUS|Florència|0|Leonardo da Vinci|Renaixement|-|bio|-|
+ih:97|fil;pol|DE;US|EUC;AN|-|0|Hannah Arendt|-|-|cul|-|
+ih:98|art|AT|EUC|Viena|0|Gustav Klimt;Egon Schiele|-|-|cul|-|
+ih:99|rel;fil|NL;DE|EUO;EUC|-|0|Erasme de Rotterdam;Martí Luter|Reforma protestant|-|cul|-|
+ih:100|lit|AT|EUC|Viena|0|Thomas Bernhard|-|-|cul|-|

@@ -1,30 +1,3 @@
-ih:474|lit|DE|EUC|Weimar|0|Gotthold Ephraim Lessing;Friedrich Schiller;Johann Wolfgang von Goethe|Romanticisme|-|cul|-|
-ih:475|cie;fil|-|GLO|-|0|-|-|-|cul|-|
-ih:476|fil;mus|DE|EUC|-|0|Friedrich Nietzsche;Richard Wagner|-|-|cul|-|
-ih:477|cie;cul|US;RU|AN;EUE|-|0|-|Cursa espacial|-|cul|-|
-ih:478|fil|-|-|-|0|-|-|-|cul|-|
-ih:479|lit;mus|DE;AT|EUC|-|0|Georg Büchner;Alban Berg|-|-|cul|-|
-ih:480|lit;gue|DE;PL;IT|EUC;EUS|Auschwitz|0|Primo Levi;Paul Celan|Holocaust|jueus|cul|-|
-ih:481|fil;lit|AT|EUC|Viena|0|Fritz Mauthner;Hugo von Hofmannsthal;Ludwig Wittgenstein|-|-|cul|-|
-ih:482|lit|IE;FR|EUO|París|0|Samuel Beckett|-|-|cul|-|
-ih:483|fil;pol;eco|DE;RU|EUC;EUE|-|0|Karl Marx;Friedrich Engels;Lenin|Marxisme|-|cul|-|
-ih:484|mus|DE;AT|EUC|Viena|0|Richard Strauss;Arnold Schönberg|-|-|cul|-|
-ih:485|fil;pol;eco|DE;RU|EUC;EUE|-|0|Karl Marx;Friedrich Engels|Marxisme|-|cul|-|
-ih:486|fil;pol;eco|DE;RU|EUC;EUE|-|0|Karl Marx;Friedrich Engels|Marxisme|-|cul|-|
-ih:487|arq|ES|EUS|Barcelona|1|Lluís Domènech i Montaner;Josep Puig i Cadafalch;Antoni Gaudí|Modernisme|-|cul|-|
-ih:488|art|FR;BE|EUO|París|0|Félicien Rops;Odilon Redon;Gustave Moreau;Pierre Puvis de Chavannes|Simbolisme|-|cul|-|
-ih:489|lit|FR|EUO|París|0|Arthur Rimbaud;Comte de Lautréamont|-|-|cul|-|
-ih:490|pol;his|IT;DE|EUS;EUC|Roma|0|Benito Mussolini;Adolf Hitler|Feixisme italià;Nazisme|-|cul|-|
-ih:491|art|DE|EUC|Dresden|0|Ernst Ludwig Kirchner;Franz Marc|Expressionisme|-|cul|-|
-ih:492|pol;his|IT;DE|EUS;EUC|Roma|0|Benito Mussolini|Feixisme italià;Nazisme|-|cul|-|
-ih:493|mus|DE;AT|EUC|Viena|0|Ludwig van Beethoven|-|-|bio|-|
-ih:494|cul;art;lit|FR|EUO|París|0|-|Belle Époque|-|lloc|-|
-ih:495|pol;his|IT;DE|EUS;EUC|Roma|0|Benito Mussolini|Feixisme italià;Nazisme|-|cul|-|
-ih:496|gen;fil;pol|-|EUO;AN|-|0|-|-|-|cul|-|
-ih:497|gen;fil;pol|-|EUO;AN|-|0|-|-|-|cul|-|
-ih:498|fil;pol|-|-|-|0|-|-|-|cul|-|
-ih:499|fil;cie|-|GLO|-|0|-|-|-|cul|-|
-ih:500|mus|AT|EUC|Viena|0|Joseph Haydn;Wolfgang Amadeus Mozart;Ludwig van Beethoven|-|-|cul|-|
 ih:501|fil;pol;art|FR;US|EUO;AN|Nova York|0|Paul Virilio|Atemptats de l'11 de setembre de 2001|-|cul|-|
 ih:502|art;fil|GB|EUO|Londres|0|John Ruskin|Època victoriana|-|cul|-|
 ih:503|gen;lit;fil|US;FR|AN;EUO|-|0|Adrienne Rich;Monique Wittig|-|-|cul|-|
@@ -98,3 +71,30 @@ ih:570|fil;rel|-|-|-|0|-|-|-|cul|-|
 ih:571|gen;soc|-|GLO|-|0|-|-|-|cul|-|
 ih:572|lit|DE|EUC|-|0|Friedrich Hölderlin|-|-|cul|-|
 ih:573|fil;rel|-|-|-|0|-|-|-|cul|-|
+ih:574|lit|IE;GB;US|EUO;AN|Londres|0|James Joyce;T. S. Eliot;Virginia Woolf|Modernisme literari|-|cul|-|
+ih:575|fil;lit|DE|EUC|-|0|Friedrich Hölderlin;Georg Wilhelm Friedrich Hegel;Friedrich Schelling;Martin Heidegger|-|-|cul|-|
+ih:576|gen;cin;cul|-|GLO|-|0|-|-|-|cul|-|
+ih:577|lit|DE|EUC|-|0|Friedrich Hölderlin|-|-|cul|-|
+ih:578|pol|RU|EUE|Petrograd|0|Lenin;Lev Trotski|Revolució Russa|-|pro|-|
+ih:579|soc;cie;fil|-|GLO|-|0|-|-|-|cul|-|
+ih:580|soc;eco|-|GLO|-|0|-|-|-|cul|-|
+ih:581|art|RU|EUE|-|0|Marc Chagall;Kazimir Malèvitx;Vassili Kandinski|Avantguardes|-|cul|-|
+ih:582|pol;cul|DE|EUC|Berlín|0|-|República de Weimar|-|pro|-|
+ih:583|rel;gen;lit|IL|PO|-|0|-|-|israelites|cul|-|
+ih:584|art;pol;cul|ES|EUS|Barcelona|1|Eugeni d'Ors;Enric Prat de la Riba|Noucentisme|-|cul|-|
+ih:585|fil|DE|EUC|-|0|Walter Benjamin|-|-|cul|-|
+ih:586|rel;gen|IL|PO|-|0|Jeftè|-|israelites|cul|-|
+ih:587|quo;cul|-|EUO;AN|-|0|-|-|-|quo|-|
+ih:588|fil;art|DE|EUC|-|0|Walter Benjamin;Bertolt Brecht|-|-|cul|-|
+ih:589|mus;rel;gen|DE|EUC|Dresden|0|Richard Strauss;Salomé|-|-|cul|-|
+ih:590|arq;art|DE|EUC|Weimar|0|Walter Gropius|Bauhaus|-|cul|-|
+ih:591|fil;lit|DE;FR|EUC;EUO|París|0|Walter Benjamin|-|-|cul|-|
+ih:592|rel;gen;lit|IL|PO|-|0|Dèbora|-|israelites|cul|-|
+ih:593|art;pol|IT|EUS|-|0|Giovanni Gentile;Filippo Tommaso Marinetti|Futurisme;Feixisme italià|-|cul|-|
+ih:594|fil;exp|DE;ES|EUC;EUS|Eivissa|0|Walter Benjamin|-|-|cul|-|
+ih:595|art;cin|FR;ES|EUO;EUS|París|0|André Breton;Salvador Dalí;Luis Buñuel|Surrealisme|-|cul|-|
+ih:596|fil;cie|-|-|-|0|-|-|-|cul|-|
+ih:597|rel;gen;lit|IL;GR|PO;EUS|-|0|Eva;Pandora|-|-|cul|-|
+ih:598|lit;gue|DE|EUC|-|0|Ernst Jünger;Erich Maria Remarque|Primera Guerra Mundial|-|cul|-|
+ih:599|fil;cie|-|-|-|0|-|-|-|cul|-|
+ih:600|fil;his|DE;ES|EUC;EUS|Portbou|1|Walter Benjamin|-|-|cul|-|

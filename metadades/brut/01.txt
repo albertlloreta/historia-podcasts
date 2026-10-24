@@ -96,5 +96,5 @@ pdt:194|lit|IQ|PO|Uruk|0|Gilgameix|-|sumeris|cul|-|
 pdt:195|rel;gue|ES|EUS|Miravet|1|-|-|templers|pro|-|
 pdt:196|gue|GB|EUO|Hastings|0|Harold II d'Anglaterra;Guillem el Conqueridor;Harald Hardråde|Batalla de Stamford Bridge;Batalla de Hastings|anglosaxons;normands;vikings|con|-|
 pdt:197|gue|GR;IT|EUS|-|0|Pirros de l'Epir|Guerres Pírriques|grecs;romans|bio|-|
-pdt:198|gue|GR;IT|EUS|-|0|Pirros de l'Epir|Guerres Pírriques|grecs;romans|bio|-|
-pdt:199|gue|GR;TR|EUS;PO|Constantinoble|1|Roger de Flor|Expedició dels almogàvers a Orient|almogàvers|pro|-|
+pdt:198|gue|GR;TR|EUS;PO|Constantinoble|1|Roger de Flor|Expedició dels almogàvers a Orient|almogàvers|pro|-|
+pdt:199|pol;arq|CZ;DE|EUC|Praga|0|Carles IV del Sacre Imperi|-|-|bio|-|

@@ -1,30 +1,3 @@
-sons:4|mus;quo;cul|-|EUS;EUO|Barcelona|0|-|-|-|cul|Raül Sanchis|
-sons:5|lit;mus|GB;FR|EUO|-|0|Rei Artús|-|britons|cul|Delfi Nieto;Pau Castell|
-sons:6|lit;mus|FR;ES|EUO;EUS|-|1|-|-|occitans|cul|Cinta Arasa|
-sons:7|mus;quo;arq|FR|EUO|París|0|-|-|-|cul|Daniel Vilarrúbias|
-sons:8|mus;rel|ES|EUS|Montserrat|1|-|-|-|cul|Blai Marsé|
-sons:9|quo;mus|ES|EUS|Toledo|0|Alfons X de Castella|-|-|quo|Ángel Luis Molina|
-sons:10|lit;mus;quo|DE|EUC|Benediktbeuern|0|-|-|goliards|cul|Paco Soler Parellada|
-sons:11|mus;cie|-|EUS;EUO|-|0|Guido d'Arezzo|-|-|cul|Juan Carlos Asensio|
-sons:12|rel;mus;exp|ES|EUS|Santiago de Compostel·la|0|Sant Jaume|Camí de Sant Jaume|-|cul|Francesc Vicens|
-sons:13|mus|FR;ES;IT|EUO;EUS|Avinyó|0|-|-|-|cul|Tonatiuh Cortés|
-sons:14|rel;art;mus|ES|EUS|Ripoll|1|Oliba|Romànic|-|lloc|Marc Sureda|
-sons:15|lit;mus;gen|FR;ES|EUO;EUS|-|1|-|-|trobairitz|cul|Meritxell Simó|
-sons:16|rel;mus;his|FR;ES|EUO;EUS|Montsegur|1|-|Croada albigesa|càtars|deb|Sergi Grau|
-sons:17|pol;mus|ES|EUS|València|1|Jaume I|-|-|bio|Vicent Baydal|
-sons:18|mus;lit|FR|EUO|Reims|0|Guillaume de Machaut|-|-|bio|-|
-sons:19|mus|-|-|-|0|-|-|-|cul|-|
-sons:20|lit;mus|GB;FR|EUO|-|0|Merlí|-|britons|cul|Isaac Morera;Oriol Casadevall|
-sons:21|lit;mus|DE|EUC|-|0|Walther von der Vogelweide|-|-|cul|Gemma Pellissa|
-sons:22|quo;mus;arq|ES|EUS|Barcelona|1|-|-|-|lloc|Jordi Sacasas|
-sons:23|lit;mus|FR|EUO|Poitiers|0|Guillem IX d'Aquitània|-|occitans|bio|-|
-sons:24|lit;mus;gue|NO;DK;GB|EUN;EUO|Lindisfarne|0|-|-|vikings|cul|Ángel Gil Cheza|
-sons:25|med;cie|ES|EUS|València|1|Arnau de Vilanova|-|-|bio|Sergi Grau|
-sons:26|cie;cul|DE;ES|EUC;EUS|Magúncia|1|Johannes Gutenberg|-|-|pro|Carme Balliu|
-sons:27|rel;gen;lit|GB|EUO|King's Lynn|0|Margery Kempe|-|beguines|bio|Delfi Nieto|
-sons:28|rel;gen;art;mus|FR|EUO|Mont Sainte-Odile|0|Herrada de Landsberg|-|-|cul|Marta Ponce|
-sons:29|rel;arq|ES|EUS|Badalona|1|-|-|jerònims|lloc|Javier Bustamante|
-sons:30|mus;rel|ES|EUS|Girona|1|-|-|jueus|cul|Meritxell Blasco Orellana|
 sons:31|cul;art;lit|-|EUS;EUO|-|0|-|-|-|cul|Gerardo Boto|
 sons:32|rel|IT|EUS|Montecassino|0|Benet de Núrsia|-|benedictins|pro|Irene Brugués|
 sons:33|mus;rel|ES|EUS|Barcelona|1|-|-|-|cul|Bernat Vivancos|
@@ -98,3 +71,30 @@ sons:100|fil;mus|IT;GB|EUS;EUO|Cambridge|0|Boeci|-|-|cul|Sam Barrett;Benjamin Ba
 sons:101|mus|IT|EUS|Florència|0|Francesco Landini|-|-|bio|Noemí Ortega|
 sons:102|lit;rel;gen|ES|EUS|València|1|Isabel de Villena|-|-|bio|Rosanna Cantavella|
 sons:103|mus|MX|AL|Texcoco|0|-|-|asteques;maies|cul|Gregorio Cortés|
+sons:104|fil;rel;cul|-|EUS;EUO|-|0|-|-|-|cul|-|
+sons:105|rel;gen;lit|FR|EUO|París|0|Margarida Porete|-|beguines|bio|Delfi Nieto;Blanca Garí|
+sons:106|mus;rel|FR|EUO|Avinyó|0|-|Papat d'Avinyó;Cisma d'Occident|-|cul|Ramon Sarobe|
+sons:107|arq;gue;eco|ES|EUS|Barcelona|1|-|-|-|lloc|Enric Garcia|
+sons:108|mus|GB|EUO|-|0|John Dunstable|-|-|bio|-|
+sons:109|lit;mus|FR|EUO|Blaia|0|Jaufré Rudel|-|occitans|bio|Cristina Alís|
+sons:110|mus;art|BE;FR|EUO|Mons|0|Gilles Binchois;Rogier van der Weyden|-|-|bio|-|
+sons:111|rel;lit;gen|BE|EUO|Anvers|0|Hadewijch d'Anvers|-|beguines|bio|Helena Casas|
+sons:112|mus;rel|IT|EUS|-|0|Tomàs de Celano|-|-|cul|-|
+sons:113|mus;lit|-|AN;EUO|-|0|Tristany;Isolda|-|-|cul|-|
+sons:114|mus;rel;arq|FR|EUO|París|0|Leoninus;Perotinus|-|-|cul|-|
+sons:115|pol;gen;lit|FR;GB|EUO|Poitiers|0|Elionor d'Aquitània|-|-|bio|Ana Rodríguez|
+sons:116|soc;quo;med|-|EUS;EUO|-|0|-|-|-|quo|Antoni Conejo|
+sons:117|lit|DE|EUC|Worms|0|Sigfrid|-|-|cul|Carmen Botella|
+sons:118|lit;mus|ES;PT|EUS|Toledo|0|Alfons X de Castella|-|-|cul|-|
+sons:119|lit;mus|FR|EUO|-|0|Arnaut Daniel;Ricard Cor de Lleó;Alfons el Cast|-|occitans|bio|-|
+sons:120|lit;rel;his|FR|EUO|Cluny|0|Raül Glaber;Margarida Borràs|-|-|cul|-|
+sons:121|cul;quo;mus|-|EUS;EUO|-|0|-|-|-|cul|-|
+sons:122|lit;mus;rel|DE|EUC|Magúncia|0|Heinrich von Meissen|-|-|bio|Víctor Millet|
+sons:123|mus;cul|-|EUN|-|0|-|-|vikings|cul|-|
+sons:124|lit;mus|ES;FR|EUS;EUO|Cabestany|1|Guillem de Cabestany|-|occitans|bio|-|
+sons:125|cul;lit;cin|-|EUO;AN|-|0|George R. R. Martin|-|-|cul|Óscar Perea|
+sons:126|rel;cul;lit|-|EUS;EUO|-|0|-|-|-|cul|-|
+sons:127|mus|IT|EUS|-|0|-|-|-|cul|-|
+sons:128|mus;rel|ES;TR;GR;MA|EUS;PO;NA|-|0|-|Expulsió dels jueus d'Espanya|sefardites|cul|Mara Aranda|
+sons:129|cul;mus;rel|-|EUS;EUO|-|0|-|-|-|cul|-|
+ih:0|fil;cul|ES|EUS|Barcelona|0|-|-|-|deb|-|
