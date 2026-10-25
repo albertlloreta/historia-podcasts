@@ -308,6 +308,9 @@ a { color: inherit; }
 .filters-row[hidden], .pill-row[hidden] { display: none; }
 #podcast-nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
 #podcast-nav::-webkit-scrollbar { display: none; }
+.tabs.fade-r { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent); }
+.tabs.fade-l { -webkit-mask-image: linear-gradient(to left, #000 calc(100% - 2.5rem), transparent); mask-image: linear-gradient(to left, #000 calc(100% - 2.5rem), transparent); }
+.tabs.fade-l.fade-r { -webkit-mask-image: linear-gradient(to right, transparent, #000 2.5rem, #000 calc(100% - 2.5rem), transparent); mask-image: linear-gradient(to right, transparent, #000 2.5rem, #000 calc(100% - 2.5rem), transparent); }
 #podcast-nav button { padding: 0.25rem 0.35rem; }
 .pill-row { font-size: 0.8rem; }
 
@@ -316,7 +319,7 @@ a { color: inherit; }
   .wrap { padding: 0 1rem; }
   .tabs-label { display: none; }
   .controls-row { gap: 0.75rem; padding: 0.4rem 0; }
-  .tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 0 0.9rem; mask-image: linear-gradient(to right, #000 85%, transparent); }
+  .tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 0 0.9rem; }
   .tabs::-webkit-scrollbar { display: none; }
   .tabs button:last-child { margin-right: 1.5rem; }
   .fold-all { min-height: 36px; }
@@ -984,6 +987,17 @@ document.getElementById('podcast-nav').addEventListener('click', e => {
   document.querySelectorAll('#podcast-nav button').forEach(b => b.classList.toggle('active', b === btn));
   currentPodcast = btn.dataset.podcast;
   applyFilters();
+});
+
+// Difuminat a les vores de les pestanyes quan n'hi ha més amagades
+function updFade(el) {
+  const max = el.scrollWidth - el.clientWidth;
+  el.classList.toggle('fade-l', max > 2 && el.scrollLeft > 2);
+  el.classList.toggle('fade-r', max > 2 && el.scrollLeft < max - 2);
+}
+document.querySelectorAll('.tabs').forEach(el => {
+  el.addEventListener('scroll', () => updFade(el), { passive: true });
+  new ResizeObserver(() => updFade(el)).observe(el);
 });
 
 function measureControls() {
