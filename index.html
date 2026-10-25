@@ -706,8 +706,6 @@ async function init() {
       const period = formatWhen(ep.ubicacio || ep.data_historica);
       const isIhb = ep.podcast === 'institut-humanitats';
       const tag = isIhb ? (ep.format === 'video' ? 'vídeo' : 'àudio') : (ep.num != null ? `ep. ${ep.num}` : '');
-      const meta = isIhb ? [ep.curs, (ep.ponents || []).join(', ')].filter(Boolean).join(' · ') : '';
-      const linkLabel = isIhb && ep.format === 'video' ? 'Mireu-lo a la font' : 'Obre a la font';
 
       li.innerHTML = `
         <div class="ep-row">
@@ -716,12 +714,7 @@ async function init() {
           <span class="ep-src">${SRC_LABEL[ep.podcast]}${tag ? ' · ' + tag : ''}</span>
           ${playable(ep) ? `<button class="ep-play" type="button" aria-label="Reprodueix">${ICON_PLAY}</button>` : '<span></span>'}
         </div>
-        <div class="ep-body">
-          ${meta ? `<p class="ep-meta">${meta}</p>` : ''}
-          ${tagsHtml(ep)}
-          ${ep.descripcio ? `<p class="ep-desc">${ep.descripcio}</p>` : '<p class="ep-desc empty">Sense descripció disponible.</p>'}
-          ${ep.enllac ? `<a class="ep-link" href="${ep.enllac}" target="_blank" rel="noopener">${linkLabel} →</a>` : ''}
-        </div>
+        <div class="ep-body"></div>
       `;
       frag.appendChild(li);
       rows.push({
@@ -743,6 +736,23 @@ async function init() {
   restorePlayer();
 }
 
+
+// El detall de cada episodi (etiquetes, descripció, enllaç) es pinta en obrir-lo:
+// així la pàgina carrega amb molts menys elements.
+function bodyHtml(ep) {
+  const isIhb = ep.podcast === 'institut-humanitats';
+  const meta = isIhb ? [ep.curs, (ep.ponents || []).join(', ')].filter(Boolean).join(' · ') : '';
+  const linkLabel = isIhb && ep.format === 'video' ? 'Mireu-lo a la font' : 'Obre a la font';
+  return `${meta ? `<p class="ep-meta">${meta}</p>` : ''}
+    ${tagsHtml(ep)}
+    ${ep.descripcio ? `<p class="ep-desc">${ep.descripcio}</p>` : '<p class="ep-desc empty">Sense descripció disponible.</p>'}
+    ${ep.enllac ? `<a class="ep-link" href="${ep.enllac}" target="_blank" rel="noopener">${linkLabel} →</a>` : ''}`;
+}
+function openRow(li, open = true) {
+  const body = li.querySelector('.ep-body');
+  if (open && !body.childElementCount) body.innerHTML = bodyHtml(rows[+li.dataset.i].ep);
+  li.classList.toggle('open', open);
+}
 
 /* ── Metadades: etiquetes, filtres i mapa ── */
 function tagsHtml(ep) {
@@ -945,7 +955,7 @@ document.getElementById('main').addEventListener('click', e => {
   const li = e.target.closest('.ep');
   if (!li) return;
   if (e.target.closest('.ep-play')) { playRow(+li.dataset.i); return; }
-  if (e.target.closest('.ep-row')) li.classList.toggle('open');
+  if (e.target.closest('.ep-row')) openRow(li, !li.classList.contains('open'));
 });
 
 // Les files fora de pantalla no es renderitzen (content-visibility), així que la
@@ -1331,7 +1341,7 @@ $('p-title').addEventListener('click', () => {
   if (cur === null) return;
   const r = rows[cur];
   if (collapsed.has(r.era)) { setCollapsed(r.era, false); saveCollapsed(); }
-  r.el.classList.add('open');
+  openRow(r.el);
   scrollToRow(r.el);
 });
 $('p-title').style.cursor = 'pointer';
