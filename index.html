@@ -982,8 +982,11 @@ document.getElementById('search').addEventListener('input', e => {
 });
 
 document.getElementById('podcast-nav').addEventListener('click', e => {
-  const btn = e.target.closest('button');
+  let btn = e.target.closest('button');
   if (!btn) return;
+  // tornar a clicar la font activa la desselecciona (torna a «Totes»)
+  if (btn.dataset.podcast === currentPodcast && currentPodcast !== 'all')
+    btn = document.querySelector('#podcast-nav button[data-podcast="all"]');
   document.querySelectorAll('#podcast-nav button').forEach(b => b.classList.toggle('active', b === btn));
   currentPodcast = btn.dataset.podcast;
   applyFilters();
