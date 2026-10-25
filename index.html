@@ -327,7 +327,9 @@ a { color: inherit; }
   .tabs::-webkit-scrollbar { display: none; }
   .tabs button:last-child { margin-right: 1.5rem; }
   .fold-all { min-height: 36px; }
-  .row-tools { gap: 0.3rem; padding-left: 0.5rem; }
+  /* Al mòbil, Catalunya/Mapa/Filtres van a una línia pròpia i les fonts ocupen tota l'amplada */
+  .controls-row:has(.row-tools) { flex-wrap: wrap; row-gap: 0.35rem; }
+  .row-tools { gap: 0.3rem; padding-left: 0; border-left: 0; flex-basis: 100%; justify-content: flex-end; }
   .row-tools .tool, .row-tools .f-check { min-height: 32px; padding: 0.2rem 0.5rem; }
   .tabs button { min-height: 36px; }
   .era-head { position: static; }
