@@ -281,7 +281,7 @@ a { color: inherit; }
 .f-pill[hidden] { display: none; }
 .f-pill button { color: inherit; padding: 0 0.25rem; opacity: 0.8; }
 .f-pill button:hover { opacity: 1; }
-.view-map.active { color: var(--bg); background: var(--fg); border-radius: 4px; padding: 0.25rem 0.6rem; }
+.row-tools .view-map.active, .row-tools .view-map.active:hover { color: var(--bg); background: var(--fg); border-radius: 4px; padding: 0.25rem 0.6rem; }
 /* Etiquetes dins de la fitxa de l'episodi */
 .ep-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0 0 0.7rem; font-size: 0.75rem; }
 .ep-tags .tg { padding: 0.1rem 0.45rem; border-radius: 4px; background: var(--bg); color: var(--muted); border: 1px solid var(--row-border); }
@@ -297,6 +297,17 @@ a { color: inherit; }
 .map-pop button { text-align: left; color: #0b5b68; text-decoration: underline; text-underline-offset: 2px; }
 .map-pop .more { margin-top: 0.35rem; font-weight: 600; }
 
+.row-tools { margin-left: auto; display: flex; align-items: center; gap: 0.9rem; flex-shrink: 0; font-size: 0.75rem; }
+.row-tools .tool { color: var(--muted); white-space: nowrap; }
+.row-tools .tool:hover, .row-tools .tool.on { color: var(--fg); }
+.row-tools .tool.on { font-weight: 600; }
+.row-tools .f-check { font-size: 0.75rem; }
+.filters-row[hidden], .pill-row[hidden] { display: none; }
+#podcast-nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+#podcast-nav::-webkit-scrollbar { display: none; }
+#podcast-nav button { padding: 0.25rem 0.45rem; }
+.pill-row { font-size: 0.8rem; }
+
 /* ── Responsive ── */
 @media (max-width: 680px) {
   .wrap { padding: 0 1rem; }
@@ -306,6 +317,8 @@ a { color: inherit; }
   .tabs::-webkit-scrollbar { display: none; }
   .tabs button:last-child { margin-right: 1.5rem; }
   .fold-all { min-height: 36px; }
+  .row-tools { gap: 0.6rem; }
+  .row-tools .tool, .row-tools .f-check { min-height: 36px; }
   .tabs button { min-height: 36px; }
   .era-head { position: static; }
   .hero-in { padding: 1.5rem 1rem 2.25rem; }
@@ -367,17 +380,23 @@ a { color: inherit; }
         <button data-podcast="sons-edat-mitjana">Sons de l'edat mitjana</button>
         <button data-podcast="institut-humanitats">Institut d'Humanitats</button>
       </nav>
+      <div class="row-tools">
+        <label class="f-check" title="Només episodis d'història de Catalunya"><input type="checkbox" id="f-cat"> Catalunya</label>
+        <button class="tool" id="f-more" type="button" aria-expanded="false" aria-controls="filters-row">Filtres</button>
+        <button class="tool view-map" id="view-map" type="button" aria-pressed="false">Mapa</button>
+      </div>
     </div>
-    <div class="controls-row">
+    <div class="controls-row filters-row" id="filters-row" hidden>
       <span class="tabs-label">Filtres</span>
       <div class="filters" id="filters">
         <select id="f-tema" aria-label="Tema"><option value="">Tots els temes</option></select>
         <select id="f-regio" aria-label="Regió"><option value="">Totes les regions</option></select>
         <select id="f-tipus" aria-label="Tipus de relat"><option value="">Tots els tipus</option></select>
-        <label class="f-check"><input type="checkbox" id="f-cat"> Història de Catalunya</label>
-        <span class="f-pill" id="f-pill" hidden><span id="f-pill-txt"></span><button type="button" id="f-pill-x" aria-label="Treu el filtre">✕</button></span>
       </div>
-      <button class="fold-all view-map" id="view-map" type="button" aria-pressed="false">Mapa</button>
+    </div>
+    <div class="controls-row pill-row" id="pill-row" hidden>
+      <span class="tabs-label"></span>
+      <span class="f-pill" id="f-pill" hidden><span id="f-pill-txt"></span><button type="button" id="f-pill-x" aria-label="Treu el filtre">✕</button></span>
     </div>
   </div>
 </div>
@@ -757,6 +776,7 @@ function setTag(tag) {
   currentTag = tag;
   const names = { lloc: 'Lloc', pers: 'Personatge', esdev: 'Esdeveniment', civ: 'Poble' };
   document.getElementById('f-pill').hidden = !tag;
+  document.getElementById('pill-row').hidden = !tag;
   document.getElementById('f-pill-txt').textContent = tag ? `${names[tag.k]}: ${tag.v}` : '';
   applyFilters();
   measureControls();
@@ -775,8 +795,20 @@ function passesMeta(ep) {
 ['tema', 'regio', 'tipus'].forEach(k => document.getElementById('f-' + k).addEventListener('change', e => {
   currentF[k] = e.target.value;
   e.target.classList.toggle('on', !!e.target.value);
+  if (e.target.value) showFilters(true);
+  syncMore();
   applyFilters();
 }));
+function syncMore() {
+  document.getElementById('f-more').classList.toggle('on', !!(currentF.tema || currentF.regio || currentF.tipus));
+}
+function showFilters(open) {
+  document.getElementById('filters-row').hidden = !open;
+  document.getElementById('f-more').setAttribute('aria-expanded', open);
+  measureControls();
+}
+document.getElementById('f-more').addEventListener('click', () =>
+  showFilters(document.getElementById('filters-row').hidden));
 document.getElementById('f-cat').addEventListener('change', e => { currentF.cat = e.target.checked; applyFilters(); });
 document.getElementById('f-pill-x').addEventListener('click', () => setTag(null));
 document.getElementById('main').addEventListener('click', e => {
