@@ -105,6 +105,7 @@ a { color: inherit; }
 .tabs-label { font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--faint); width: 4.5rem; flex-shrink: 0; }
 .fold-all { margin-left: auto; font-size: 0.75rem; color: var(--muted); white-space: nowrap; }
 .fold-all:hover { color: var(--fg); }
+.list-tools { display: flex; justify-content: flex-end; padding: 0.5rem 0 0.35rem; }
 
 /* ── Intro ── */
 
@@ -372,18 +373,6 @@ a { color: inherit; }
 <div class="controls-bar" id="controls">
   <div class="wrap">
     <div class="controls-row">
-      <span class="tabs-label">Època</span>
-      <nav class="tabs" id="era-nav" aria-label="Ves a l'època">
-        <button data-era="prehistoria">Prehistòria</button>
-        <button data-era="antiguitat">Antiguitat</button>
-        <button data-era="medieval">Edat Mitjana</button>
-        <button data-era="moderna">Edat Moderna</button>
-        <button data-era="contemporania">Contemporània</button>
-        <button data-era="desconegut">Sense data</button>
-      </nav>
-      <button class="fold-all" id="fold-all" type="button">Plega-ho tot</button>
-    </div>
-    <div class="controls-row">
       <span class="tabs-label">Font</span>
       <nav class="tabs" id="podcast-nav" aria-label="Filtra per font">
         <button data-podcast="all" class="active">Totes</button>
@@ -415,6 +404,7 @@ a { color: inherit; }
 </div>
 
 <main id="main" class="wrap">
+  <div class="list-tools"><button class="fold-all" id="fold-all" type="button">Plega-ho tot</button></div>
   <div class="map" id="map" hidden></div>
   <p class="no-results-msg" id="no-results" hidden>Cap episodi correspon a la cerca.</p>
 </main>
@@ -985,14 +975,6 @@ function scrollToEra(era, behavior = 'smooth') {
   if (behavior === 'auto' && s.el.getBoundingClientRect().top > h) return;
   settleScroll(() => s.el.getBoundingClientRect().top + window.scrollY - controlsH());
 }
-
-document.getElementById('era-nav').addEventListener('click', e => {
-  const btn = e.target.closest('button');
-  if (!btn) return;
-  const era = btn.dataset.era;
-  if (collapsed.has(era)) { setCollapsed(era, false); saveCollapsed(); }
-  scrollToEra(era);
-});
 
 document.getElementById('search').addEventListener('input', e => {
   currentSearch = e.target.value;

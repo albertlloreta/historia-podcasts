@@ -35,7 +35,7 @@ No és un podcast: són les sessions en vídeo i àudio de l'[arxiu de l'Institu
 ## Funcionalitats
 
 - Cronologia interactiva ordenada per període històric
-- Navegació per èpoques: Prehistòria, Antiguitat, Edat Mitjana, Edat Moderna, Edat Contemporània; cada època es pot plegar i desplegar (l'estat es recorda al navegador)
+- Llista agrupada per èpoques (Prehistòria, Antiguitat, Edat Mitjana, Edat Moderna, Edat Contemporània); cada època es pot plegar i desplegar, o totes alhora (l'estat es recorda al navegador)
 - Filtre per font (A les Portes de Troia, En Guàrdia, Sons de l'edat mitjana, Institut d'Humanitats); se'n poden combinar diverses
 - Filtre «Catalunya» (episodis d'història de Catalunya) i filtres plegables per tema, regió i tipus de relat; botó per esborrar-los tots
 - Mapa dels episodis geolocalitzats (Leaflet + OpenStreetMap, es carrega només en obrir-lo)
