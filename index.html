@@ -305,7 +305,8 @@ a { color: inherit; }
 .row-tools .f-check input { position: absolute; opacity: 0; width: 1px; height: 1px; }
 .row-tools .f-check:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
 .row-tools .f-check:has(input:checked) { color: var(--accent); border-color: var(--accent); font-weight: 600; }
-.filters-row[hidden], .pill-row[hidden] { display: none; }
+.filters-row[hidden], .pill-row[hidden], .row-tools .clear[hidden] { display: none; }
+.row-tools .clear { border-style: dashed; }
 #podcast-nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
 #podcast-nav::-webkit-scrollbar { display: none; }
 .tabs.fade-r { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent); }
@@ -390,6 +391,7 @@ a { color: inherit; }
         <label class="f-check" title="Només episodis d'història de Catalunya"><input type="checkbox" id="f-cat"> Catalunya</label>
         <button class="tool" id="f-more" type="button" aria-expanded="false" aria-controls="filters-row">Filtres</button>
         <button class="tool view-map" id="view-map" type="button" aria-pressed="false">Mapa</button>
+        <button class="tool clear" id="f-clear" type="button" hidden title="Esborra tots els filtres">Esborra ✕</button>
       </div>
     </div>
     <div class="controls-row filters-row" id="filters-row" hidden>
@@ -535,7 +537,7 @@ let currentTag = null;
 const currentF = { tema: '', regio: '', tipus: '', cat: false };
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
-let currentPodcast = 'all';
+const currentPodcasts = new Set(); // buit = totes les fonts
 let currentSearch = '';
 let data = [];
 const rows = [];        // { el, ep, era, text }
@@ -886,7 +888,7 @@ function applyFilters() {
   const counts = {};
   let visible = 0;
   rows.forEach(r => {
-    const show = (currentPodcast === 'all' || r.ep.podcast === currentPodcast) && (!q || r.text.includes(q)) && passesMeta(r.ep);
+    const show = (!currentPodcasts.size || currentPodcasts.has(r.ep.podcast)) && (!q || r.text.includes(q)) && passesMeta(r.ep);
     r.el.hidden = !show;
     r.visible = show;
     if (show) { counts[r.era] = (counts[r.era] || 0) + 1; visible++; }
@@ -900,8 +902,9 @@ function applyFilters() {
     sections[era].el.classList.toggle('collapsed', shut);
     sections[era].el.querySelector('.era-toggle').setAttribute('aria-expanded', String(!shut));
   }
-  const hasFilter = q || currentPodcast !== 'all' || currentTag || Object.values(currentF).some(Boolean);
+  const hasFilter = q || currentPodcasts.size || currentTag || Object.values(currentF).some(Boolean);
   document.getElementById('search-count').textContent = hasFilter ? `${visible} resultats` : '';
+  document.getElementById('f-clear').hidden = !hasFilter;
   document.getElementById('no-results').hidden = visible !== 0;
   drawMap();
 }
@@ -982,14 +985,33 @@ document.getElementById('search').addEventListener('input', e => {
 });
 
 document.getElementById('podcast-nav').addEventListener('click', e => {
-  let btn = e.target.closest('button');
+  const btn = e.target.closest('button');
   if (!btn) return;
-  // tornar a clicar la font activa la desselecciona (torna a «Totes»)
-  if (btn.dataset.podcast === currentPodcast && currentPodcast !== 'all')
-    btn = document.querySelector('#podcast-nav button[data-podcast="all"]');
-  document.querySelectorAll('#podcast-nav button').forEach(b => b.classList.toggle('active', b === btn));
-  currentPodcast = btn.dataset.podcast;
+  // Cada font s'activa o es desactiva; «Totes» les treu totes
+  const p = btn.dataset.podcast;
+  if (p === 'all') currentPodcasts.clear();
+  else if (currentPodcasts.has(p)) currentPodcasts.delete(p);
+  else currentPodcasts.add(p);
+  syncPodcastNav();
   applyFilters();
+});
+function syncPodcastNav() {
+  document.querySelectorAll('#podcast-nav button').forEach(b => {
+    const on = b.dataset.podcast === 'all' ? !currentPodcasts.size : currentPodcasts.has(b.dataset.podcast);
+    b.classList.toggle('active', on);
+    b.setAttribute('aria-pressed', String(on));
+  });
+}
+
+// Esborra tots els filtres: fonts, cerca, Catalunya, desplegables i etiqueta
+document.getElementById('f-clear').addEventListener('click', () => {
+  currentPodcasts.clear(); syncPodcastNav();
+  currentSearch = ''; document.getElementById('search').value = '';
+  for (const k of Object.keys(currentF)) currentF[k] = k === 'cat' ? false : '';
+  document.getElementById('f-cat').checked = false;
+  ['tema', 'regio', 'tipus'].forEach(k => { const el = document.getElementById('f-' + k); el.value = ''; el.classList.remove('on'); });
+  syncMore();
+  setTag(null);
 });
 
 // Difuminat a les vores de les pestanyes quan n'hi ha més amagades
