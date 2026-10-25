@@ -9308,7 +9308,7 @@
     "tematiques": ["gue"],
     "paisos": ["SY"],
     "regions": ["PO"],
-    "lloc": {"nom": "Qadeix"},
+    "lloc": {"nom": "Qadeix", "qid": "Q690035", "lat": 34.5576, "lon": 36.52},
     "periodes": ["antiga"],
     "segles": [-13, -13],
     "personatges": [{"nom": "Ramsès II", "qid": "Q1523"}, {"nom": "Muwatallis II", "qid": "Q311650"}],

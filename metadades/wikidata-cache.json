@@ -2989,8 +2989,7 @@
 "label": "Buchenwald",
 "desc": "camp de concentració nazi",
 "lat": 51.0212,
-"lon": 11.249,
-"dubte": true
+"lon": 11.249
 },
 "lloc|Budapest": {
 "qid": "Q1781",
@@ -3459,8 +3458,7 @@
 "label": "Duino",
 "desc": "poble d'Itàlia, prop de Trieste",
 "lat": 45.7667,
-"lon": 13.6,
-"dubte": true
+"lon": 13.6
 },
 "lloc|Dunkerque": {
 "qid": "Q45797",
@@ -3768,8 +3766,7 @@
 "label": "Guam",
 "desc": "illa al Pacífic, territori no incorporat dels EUA",
 "lat": 13.5,
-"lon": 144.8,
-"dubte": true
+"lon": 144.8
 },
 "lloc|Guna Yala": {
 "qid": "Q919017",
@@ -4831,16 +4828,14 @@
 "label": "pol Sud",
 "desc": "Punt més meridional de la Terra",
 "lat": -90,
-"lon": 0,
-"dubte": true
+"lon": 0
 },
 "lloc|Poltava": {
 "qid": "Q156747",
 "label": "Poltava",
 "desc": "ciutat d'Ucraïna",
 "lat": 49.5894,
-"lon": 34.5514,
-"dubte": true
+"lon": 34.5514
 },
 "lloc|Port Arthur": {
 "qid": "Q623329",
@@ -4933,7 +4928,13 @@
 "lat": 42.4317,
 "lon": 1.9283
 },
-"lloc|Qadeix": null,
+"lloc|Qadeix": {
+"qid": "Q690035",
+"label": "Qadeix",
+"desc": "jaciment arqueològic (Tell Nebi Mend, Síria)",
+"lat": 34.5576,
+"lon": 36.52
+},
 "lloc|Queralbs": {
 "qid": "Q12327",
 "label": "Queralbs",
