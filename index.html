@@ -307,6 +307,11 @@ a { color: inherit; }
 .row-tools .f-check:has(input:checked) { color: var(--accent); border-color: var(--accent); font-weight: 600; }
 .filters-row[hidden], .pill-row[hidden], .row-tools .clear[hidden] { display: none; }
 .row-tools .clear { border-style: dashed; }
+.row-tools .more { display: inline-flex; align-items: center; gap: 0.3rem; color: var(--muted); white-space: nowrap; padding: 0.2rem 0 0.2rem 0.35rem; }
+.row-tools .more:hover, .row-tools .more[aria-expanded="true"] { color: var(--fg); }
+.row-tools .more.on { color: var(--accent); font-weight: 600; }
+.row-tools .more .chev { transition: transform 0.15s; }
+.row-tools .more[aria-expanded="true"] .chev { transform: rotate(180deg); }
 #podcast-nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
 #podcast-nav::-webkit-scrollbar { display: none; }
 .tabs.fade-r { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent); }
@@ -389,9 +394,9 @@ a { color: inherit; }
       </nav>
       <div class="row-tools">
         <label class="f-check" title="Només episodis d'història de Catalunya"><input type="checkbox" id="f-cat"> Catalunya</label>
-        <button class="tool" id="f-more" type="button" aria-expanded="false" aria-controls="filters-row">Filtres</button>
         <button class="tool view-map" id="view-map" type="button" aria-pressed="false">Mapa</button>
         <button class="tool clear" id="f-clear" type="button" hidden title="Esborra tots els filtres">Esborra ✕</button>
+        <button class="more" id="f-more" type="button" aria-expanded="false" aria-controls="filters-row">Filtres <svg class="chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
       </div>
     </div>
     <div class="controls-row filters-row" id="filters-row" hidden>
