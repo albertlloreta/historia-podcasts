@@ -8,13 +8,13 @@ Episodis de podcasts d'història en català endreçats en ordre cronològic. Dis
 
 [A les Portes de Troia](https://www.portesdetroia.cat) és un podcast d'història en català, emès des de Ràdio Castellar i distribuït per La Xarxa. Des del 2013, Alberto Reche, Sergio Rodríguez i Albert Abril expliquen el passat en present: batalles, revolucions, personatges i civilitzacions.
 
-`episodis-portes-de-troia.json` (producció) conté 556 episodis (ep. 1–557) amb títol, data/període històric, descripció i enllaç (portesdetroia.cat per ep. 68–548, iVoox per ep. 1–67 i 549+). **100% complet**: cap camp buit. `episodis.json` és una variant antiga sense el camp `podcast`, ja no s'usa a producció.
+`episodis-portes-de-troia.json` (producció) conté 555 episodis (ep. 1–557; títols i àudios verificats amb l'àudio, octubre 2026) amb títol, data/període històric, descripció i enllaç (portesdetroia.cat per ep. 68–548, iVoox per ep. 1–67 i 549+). **100% complet**: cap camp buit. `episodis.json` és una variant antiga sense el camp `podcast`, ja no s'usa a producció.
 
 ### En Guàrdia
 
 [En Guàrdia](https://www.3cat.cat/3cat/en-guardia/) és el programa d'història de Catalunya Ràdio, dirigit i presentat per Enric Calpena, amb l'historiador Josep Maria Solé i Sabaté.
 
-`episodis-en-guardia.json` conté 1340 episodis, gairebé tots amb descripció i any històric assignat. Uns 300 episodis antics no tenen la sinopsi original disponible enlloc (ni a 3cat.cat ni a iVoox ni a Wayback Machine); se'ls ha escrit una nota factual breu i un any a partir del títol. Només 42 episodis (temes massa genèrics: "La sardana", "Eurovisió"...) queden sense any assignat, i 3 sense cap descripció.
+`episodis-en-guardia.json` conté 1314 episodis (sense promocions ni reemissions duplicades), gairebé tots amb descripció i any històric assignat. Uns 300 episodis antics no tenen la sinopsi original disponible enlloc (ni a 3cat.cat ni a iVoox ni a Wayback Machine); se'ls ha escrit una nota factual breu i un any a partir del títol. Només 16 episodis (temes massa genèrics: "La sardana", "Eurovisió"...) queden sense any assignat, i 2 sense cap descripció.
 
 **Actualitzar amb episodis nous**: `python3 scripts/sync-en-guardia.py --write` — llegeix el feed RSS del podcast, detecta els episodis nous i en resol l'enllaç via el cercador de 3cat.cat. Cal assignar manualment `data_historica` als episodis nous (llegint la descripció) abans de desplegar.
 
@@ -36,10 +36,17 @@ No és un podcast: són les sessions en vídeo i àudio de l'[arxiu de l'Institu
 
 - Cronologia interactiva ordenada per període històric
 - Navegació per èpoques: Prehistòria, Antiguitat, Edat Mitjana, Edat Moderna, Edat Contemporània; cada època es pot plegar i desplegar (l'estat es recorda al navegador)
-- Filtre per font (A les Portes de Troia, En Guàrdia, Sons de l'edat mitjana, Institut d'Humanitats)
-- Cerca en temps real per títol, descripció, ubicació, curs i ponents
+- Filtre per font (A les Portes de Troia, En Guàrdia, Sons de l'edat mitjana, Institut d'Humanitats); se'n poden combinar diverses
+- Filtre «Catalunya» (episodis d'història de Catalunya) i filtres plegables per tema, regió i tipus de relat; botó per esborrar-los tots
+- Mapa dels episodis geolocalitzats (Leaflet + OpenStreetMap, es carrega només en obrir-lo)
+- Etiquetes clicables de lloc, tema, personatges, esdeveniments i pobles (amb Wikidata) per trobar episodis relacionats entre pòdcasts
+- Cerca en temps real per títol, descripció, ubicació, curs, ponents, personatges, llocs i convidats
 - Expansió de cada capítol amb descripció i enllaç a la font
 - Reproductor d'àudio integrat (un sol `<audio>` natiu, sense llibreries): ±15/30 s, velocitat, recorda la posició de cada capítol, passa al següent en ordre cronològic i s'integra amb els controls del sistema (Media Session)
+
+## Metadades
+
+Cada episodi porta camps extrets del títol i la descripció (temàtiques, països, regions, lloc amb coordenades, àmbit català, període, segles, personatges i esdeveniments amb Wikidata, civilitzacions, tipus de relat, convidats, sèrie, idioma). El vocabulari i el procés són a `metadades/VOCABULARI.md`; les incidències de dades, a `metadades/incidencies.txt`.
 
 ## Àudio
 
