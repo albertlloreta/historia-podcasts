@@ -152,6 +152,8 @@ a { color: inherit; }
 .hero-random { flex: none; display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.5rem 0.95rem; border: 1px solid rgba(255,255,255,.7); border-radius: 999px; background: rgba(255,255,255,.08); -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px); color: #fff; font: inherit; font-size: 0.88rem; font-weight: 600; white-space: nowrap; cursor: pointer; transition: background-color .2s, color .2s, border-color .2s; }
 .hero-random svg { flex: none; transition: transform .4s ease; }
 .hero-random:hover { background: #fff; border-color: #fff; color: #1c1c1c; }
+.hero-random { background-clip: padding-box; }
+.hero-random:hover { border-color: transparent; background: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #ff7eb3, #ffb86b, #ffe66d, #7ee2a8, #6bb7ff, #b18cff) border-box; }
 .hero-random:hover svg { transform: rotate(90deg); }
 .hero-random:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
 
@@ -359,7 +361,7 @@ a { color: inherit; }
         <input type="search" id="search" placeholder="Cerca per títol, tema, ponent..." autocomplete="off">
         <span class="search-count" id="search-count" aria-live="polite"></span>
       </search>
-      <button class="hero-random" id="random-ep" type="button"><svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><rect x="1.5" y="1.5" width="13" height="13" rx="3" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="5.2" cy="5.2" r="1.15" fill="currentColor"/><circle cx="10.8" cy="10.8" r="1.15" fill="currentColor"/><circle cx="8" cy="8" r="1.15" fill="currentColor"/></svg>Episodi a l'atzar</button>
+      <button class="hero-random" id="random-ep" type="button"><svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><rect x="1.5" y="1.5" width="13" height="13" rx="3" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="5.2" cy="5.2" r="1.4" fill="#ff7eb3"/><circle cx="8" cy="8" r="1.4" fill="#ffe66d"/><circle cx="10.8" cy="10.8" r="1.4" fill="#6bb7ff"/></svg>Episodi a l'atzar</button>
     </div>
   </div>
   <a class="hero-credit" href="https://www.rijksmuseum.nl/en/collection/object/Interieur-te-Constantinopel--12000cadbc1e3ebd5810ca9a541f865f" target="_blank" rel="noopener">Michel François Préaulx, <i>Interior de la Cisterna Basílica de Constantinoble</i> (1814), Rijksmuseum</a>
