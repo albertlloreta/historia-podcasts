@@ -281,7 +281,7 @@ a { color: inherit; }
 .f-pill[hidden] { display: none; }
 .f-pill button { color: inherit; padding: 0 0.25rem; opacity: 0.8; }
 .f-pill button:hover { opacity: 1; }
-.row-tools .view-map.active, .row-tools .view-map.active:hover { color: var(--bg); background: var(--fg); border-radius: 4px; padding: 0.25rem 0.6rem; }
+.row-tools .view-map.active, .row-tools .view-map.active:hover { color: var(--bg); background: var(--fg); border-color: var(--fg); }
 /* Etiquetes dins de la fitxa de l'episodi */
 .ep-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0 0 0.7rem; font-size: 0.75rem; }
 .ep-tags .tg { padding: 0.1rem 0.45rem; border-radius: 4px; background: var(--bg); color: var(--muted); border: 1px solid var(--row-border); }
@@ -297,15 +297,18 @@ a { color: inherit; }
 .map-pop button { text-align: left; color: #0b5b68; text-decoration: underline; text-underline-offset: 2px; }
 .map-pop .more { margin-top: 0.35rem; font-weight: 600; }
 
-.row-tools { margin-left: auto; display: flex; align-items: center; gap: 0.9rem; flex-shrink: 0; font-size: 0.75rem; }
-.row-tools .tool { color: var(--muted); white-space: nowrap; }
-.row-tools .tool:hover, .row-tools .tool.on { color: var(--fg); }
-.row-tools .tool.on { font-weight: 600; }
-.row-tools .f-check { font-size: 0.75rem; }
+.row-tools { margin-left: auto; display: flex; align-items: center; gap: 0.3rem; flex-shrink: 0; font-size: 0.75rem; padding-left: 0.6rem; border-left: 1px solid var(--border); }
+.row-tools .tool, .row-tools .f-check { color: var(--muted); white-space: nowrap; border: 1px solid var(--border); border-radius: 999px; padding: 0.2rem 0.55rem; line-height: 1.3; }
+.row-tools .tool:hover, .row-tools .f-check:hover { color: var(--fg); border-color: var(--fg); }
+.row-tools .tool.on { color: var(--accent); border-color: var(--accent); font-weight: 600; }
+.row-tools .f-check { font-size: 0.75rem; cursor: pointer; }
+.row-tools .f-check input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.row-tools .f-check:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
+.row-tools .f-check:has(input:checked) { color: var(--accent); border-color: var(--accent); font-weight: 600; }
 .filters-row[hidden], .pill-row[hidden] { display: none; }
 #podcast-nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
 #podcast-nav::-webkit-scrollbar { display: none; }
-#podcast-nav button { padding: 0.25rem 0.45rem; }
+#podcast-nav button { padding: 0.25rem 0.35rem; }
 .pill-row { font-size: 0.8rem; }
 
 /* ── Responsive ── */
@@ -317,8 +320,8 @@ a { color: inherit; }
   .tabs::-webkit-scrollbar { display: none; }
   .tabs button:last-child { margin-right: 1.5rem; }
   .fold-all { min-height: 36px; }
-  .row-tools { gap: 0.6rem; }
-  .row-tools .tool, .row-tools .f-check { min-height: 36px; }
+  .row-tools { gap: 0.3rem; padding-left: 0.5rem; }
+  .row-tools .tool, .row-tools .f-check { min-height: 32px; padding: 0.2rem 0.5rem; }
   .tabs button { min-height: 36px; }
   .era-head { position: static; }
   .hero-in { padding: 1.5rem 1rem 2.25rem; }
