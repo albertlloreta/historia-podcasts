@@ -288,13 +288,17 @@ a { color: inherit; }
 .ep-tags .tg-k { color: var(--faint); margin-right: 0.15rem; }
 .ep-tags .tg-lloc { color: var(--fg); }
 /* Mapa */
-.map { height: min(62vh, 560px); margin: 0 0 1rem; border-radius: 6px; border: 1px solid var(--row-border); overflow: hidden; background: var(--bg-2); isolation: isolate; }
+.map { height: min(62vh, 560px); margin: 0 0 1rem; border-radius: 6px; border: 1px solid var(--row-border); overflow: hidden; background: var(--bg-2); isolation: isolate; scroll-margin-top: 0.75rem; }
 .map[hidden] { display: none; }
 .map-pop { font-family: var(--sans); font-size: 0.8rem; max-height: 14rem; overflow-y: auto; }
 .map-pop h4 { font-size: 0.85rem; margin-bottom: 0.3rem; }
 .map-pop ol { list-style: none; display: grid; gap: 0.2rem; }
 .map-pop button { text-align: left; color: #0b5b68; text-decoration: underline; text-underline-offset: 2px; }
 .map-pop .more { margin-top: 0.35rem; font-weight: 600; }
+.toast { position: fixed; left: 50%; bottom: calc(var(--player-h, 0px) + 1rem); z-index: 300; display: flex; align-items: center; gap: 0.75rem; max-width: calc(100vw - 2rem); padding: 0.55rem 0.5rem 0.55rem 0.9rem; border-radius: 8px; background: var(--fg); color: var(--bg); font-family: var(--sans); font-size: 0.85rem; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25); opacity: 0; transform: translateX(-50%) translateY(0.5rem); transition: opacity 0.2s ease, transform 0.2s ease; pointer-events: none; }
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); pointer-events: auto; }
+.toast button { display: flex; padding: 0.15rem 0.35rem; color: inherit; font-size: 1rem; line-height: 1; opacity: 0.75; }
+.toast button:hover { opacity: 1; }
 
 .row-tools { margin-left: auto; display: flex; align-items: center; gap: 0.3rem; flex-shrink: 0; font-size: 0.75rem; padding-left: 0.6rem; border-left: 1px solid var(--border); }
 .row-tools .tool, .row-tools .f-check { color: var(--muted); white-space: nowrap; border: 1px solid var(--border); border-radius: 999px; padding: 0.2rem 0.55rem; line-height: 1.3; }
@@ -885,8 +889,46 @@ document.getElementById('view-map').addEventListener('click', e => {
   const on = e.currentTarget.getAttribute('aria-pressed') !== 'true';
   e.currentTarget.setAttribute('aria-pressed', String(on));
   e.currentTarget.classList.toggle('active', on);
-  if (on) openMap(); else document.getElementById('map').hidden = true;
+  const mapEl = document.getElementById('map');
+  if (on) {
+    openMap();
+    mapEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  } else {
+    const r = mapEl.getBoundingClientRect();
+    const y = window.scrollY;
+    const mapVisible = r.bottom > controlsH() && r.top < window.innerHeight;
+    mapEl.hidden = true;
+    window.scrollTo(0, y - Math.min(r.height, Math.max(0, -r.top)));
+    if (!mapVisible) showToast('Mapa tancat');
+  }
 });
+
+let toastTimer = null;
+function showToast(msg) {
+  let t = document.getElementById('toast');
+  if (!t) {
+    t = document.createElement('div');
+    t.id = 'toast';
+    t.className = 'toast';
+    t.setAttribute('role', 'status');
+    const label = document.createElement('span');
+    const close = document.createElement('button');
+    close.type = 'button';
+    close.setAttribute('aria-label', "Tanca l'avís");
+    close.textContent = '✕';
+    close.addEventListener('click', hideToast);
+    t.append(label, close);
+    document.body.appendChild(t);
+  }
+  t.querySelector('span').textContent = msg;
+  requestAnimationFrame(() => t.classList.add('show'));
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(hideToast, 9000);
+}
+function hideToast() {
+  clearTimeout(toastTimer);
+  document.getElementById('toast')?.classList.remove('show');
+}
 
 function applyFilters() {
   const q = currentSearch.toLowerCase().trim();
