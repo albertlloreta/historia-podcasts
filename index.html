@@ -2,7 +2,7 @@
 <html lang="ca">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="format-detection" content="telephone=no">
 <title>Història en pòdcasts · allr.cat</title>
 <meta name="description" content="Més de 2.600 capítols de pòdcasts d'història en català (A les Portes de Troia, En Guàrdia, Sons de l'edat mitjana, Institut d'Humanitats) endreçats en ordre cronològic.">
@@ -111,7 +111,8 @@ a { color: inherit; }
 
 #main { padding-top: 1rem; }
 .page-label { font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.9rem; }
-.page-title { cursor: default; }
+.title-link { display: inline-block; color: inherit; text-decoration: none; }
+.page-title { cursor: pointer; }
 /* Cada lletra viatja per les tipografies de les èpoques en passar-hi per sobre */
 .page-title { white-space: nowrap; height: 1.2em; }
 .t-l { display: inline-block; text-align: center; transition: color 0.25s; height: 1.2em; line-height: 1.2; vertical-align: top; }
@@ -245,20 +246,31 @@ a { color: inherit; }
   background: var(--bg-3);
 }
 .player[hidden] { display: none; }
-.player-in { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 1rem; padding: 0.65rem 0; }
-.p-btns { display: flex; align-items: center; gap: 0.25rem; }
-.p-btn { width: 2.25rem; height: 2.25rem; display: grid; place-items: center; color: var(--muted); border-radius: 50%; }
+.player-in { display: grid; grid-template-columns: auto auto minmax(0, 1fr) auto; align-items: center; gap: 1.25rem; padding-top: 0.75rem; padding-bottom: calc(0.75rem + env(safe-area-inset-bottom)); }
+/* Caràtula: inicials de la font sobre el seu color */
+.p-art { width: 3.1rem; height: 3.1rem; border-radius: 6px; display: grid; place-items: center; background: var(--bg-2) center / cover no-repeat; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18); user-select: none; }
+.p-btns { display: flex; align-items: center; gap: 0.15rem; }
+.p-btn { width: 2.4rem; height: 2.4rem; display: grid; place-items: center; color: var(--muted); border-radius: 50%; transition: color 0.15s, transform 0.1s; }
 .p-btn:hover { color: var(--fg); }
-.p-btn svg { width: 1.1rem; height: 1.1rem; }
-.p-main { width: 2.6rem; height: 2.6rem; background: var(--fg); color: var(--bg); }
-.p-main:hover { color: var(--bg); opacity: 0.85; }
-.p-main svg { width: 0.9rem; height: 0.9rem; }
-.p-info { min-width: 0; }
-.p-title { font-family: var(--serif); font-size: 0.92rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.p-sub { font-size: 0.7rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.p-seek { display: flex; align-items: center; gap: 0.6rem; margin-top: 0.3rem; font-family: var(--mono); font-size: 0.68rem; color: var(--muted); }
-.p-seek input { flex: 1; min-width: 0; height: 1rem; accent-color: var(--fg); cursor: pointer; }
-.p-rate { font-family: var(--mono); font-size: 0.72rem; width: 3rem; height: 2rem; color: var(--muted); }
+.p-btn:active { transform: scale(0.92); }
+.p-btn svg { width: 1.05rem; height: 1.05rem; }
+.p-btn svg.p-skip { width: 1.85rem; height: 1.85rem; }
+#p-prev svg, #p-next svg { width: 0.95rem; height: 0.95rem; }
+.p-main { width: 3rem; height: 3rem; color: var(--fg); margin: 0 0.15rem; }
+.p-main svg { width: 1.75rem; height: 1.75rem; }
+.p-info { min-width: 0; text-align: center; }
+.p-title { font-family: var(--serif); font-size: 1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.p-sub { font-size: 0.72rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* Barra de progrés: la part feta, en color; temps fet a l'esquerra i restant a la dreta */
+.p-seek { display: grid; grid-template-columns: 1fr auto; grid-template-areas: "bar bar" "cur dur"; margin-top: 0.35rem; font-family: var(--mono); font-size: 0.66rem; color: var(--muted); text-align: left; }
+#p-cur { grid-area: cur; }
+#p-dur { grid-area: dur; }
+.p-seek input { grid-area: bar; -webkit-appearance: none; appearance: none; width: 100%; min-width: 0; height: 1rem; margin: 0; cursor: pointer; background: linear-gradient(to right, var(--accent) var(--p, 0%), var(--row-border) var(--p, 0%)) center / 100% 4px no-repeat; }
+.p-seek input::-webkit-slider-thumb { -webkit-appearance: none; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); border: 0; box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent); }
+.p-seek input::-moz-range-thumb { width: 12px; height: 12px; border-radius: 50%; background: var(--accent); border: 0; }
+.p-seek input::-moz-range-track { background: transparent; }
+.p-seek input:focus-visible { outline-offset: 4px; }
+.p-rate { font-family: var(--mono); font-size: 0.72rem; min-width: 2.6rem; height: 1.6rem; padding: 0 0.35rem; color: var(--muted); border: 1.5px solid currentColor; border-radius: 4px; margin: 0 0.35rem; }
 .p-rate:hover { color: var(--fg); }
 .p-side { display: flex; align-items: center; gap: 0.25rem; }
 /* Vídeo incrustat (Vimeo/YouTube) quan no hi ha àudio: flota sobre la barra. YouTube demana un mínim de 200×200 px */
@@ -271,9 +283,7 @@ a { color: inherit; }
 .p-video iframe { width: 100%; height: 100%; border: 0; display: block; }
 
 /* ── Filtres de metadades ── */
-.filters { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 0.5rem; flex: 1; min-width: 0; font-size: 0.8rem; }
-.filters select { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--border); border-radius: 4px; padding: 0.2rem 0.4rem; max-width: 12rem; }
-.filters select.on { border-color: var(--accent); color: var(--accent); }
+.filters { display: flex; flex-wrap: nowrap; align-items: center; gap: 0.35rem 0.5rem; flex: 1; min-width: 0; font-size: 0.8rem; }
 .f-check { display: inline-flex; align-items: center; gap: 0.3rem; color: var(--muted); cursor: pointer; white-space: nowrap; }
 .f-check input { accent-color: var(--accent); }
 .f-pill { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.15rem 0.3rem 0.15rem 0.55rem; border-radius: 4px; background: var(--fg); color: var(--bg); white-space: nowrap; max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
@@ -315,15 +325,32 @@ a { color: inherit; }
 .row-tools .more.on { color: var(--accent); font-weight: 600; }
 .row-tools .more .chev { transition: transform 0.15s; }
 .row-tools .more[aria-expanded="true"] .chev { transform: rotate(180deg); }
-#podcast-nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
-#podcast-nav::-webkit-scrollbar { display: none; }
 .tabs.fade-r { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent); }
 .tabs.fade-l { -webkit-mask-image: linear-gradient(to left, #000 calc(100% - 2.5rem), transparent); mask-image: linear-gradient(to left, #000 calc(100% - 2.5rem), transparent); }
 .tabs.fade-l.fade-r { -webkit-mask-image: linear-gradient(to right, transparent, #000 2.5rem, #000 calc(100% - 2.5rem), transparent); mask-image: linear-gradient(to right, transparent, #000 2.5rem, #000 calc(100% - 2.5rem), transparent); }
-#podcast-nav button { padding: 0.25rem 0.35rem; }
+/* Desplegables de filtre (tots iguals) */
+.dd { position: relative; flex: 0 1 8.5rem; min-width: 5.5rem; }
+.dd-btn { display: inline-flex; align-items: center; justify-content: space-between; gap: 0.35rem; width: 100%; font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--border); border-radius: 4px; padding: 0.2rem 0.45rem; white-space: nowrap; }
+.dd-btn:hover { border-color: var(--muted); }
+.dd-btn .dd-label { overflow: hidden; text-overflow: ellipsis; }
+.dd-btn.on { border-color: var(--accent); color: var(--accent); }
+.dd-btn .chev { flex-shrink: 0; transition: transform 0.15s; }
+.dd-btn[aria-expanded="true"] .chev { transform: rotate(180deg); }
+.dd-panel { position: absolute; top: calc(100% + 0.3rem); left: 0; z-index: 120; width: max-content; min-width: 15rem; max-width: min(24rem, calc(100vw - 2rem)); max-height: min(60vh, 26rem); overflow-y: auto; overscroll-behavior: contain; background: var(--bg); border: 1px solid var(--row-border); border-radius: 8px; box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18); font-family: var(--sans); font-size: 0.85rem; }
+.dd-panel[hidden] { display: none; }
+.dd-panel ul { list-style: none; padding: 0.3rem; }
+.dd-panel li { display: flex; align-items: center; gap: 0.6rem; padding: 0.4rem 0.55rem; border-radius: 5px; cursor: pointer; color: var(--fg); }
+.dd-panel li.act { background: var(--bg-3); }
+.dd-panel li[aria-selected="true"] { color: var(--accent); font-weight: 600; }
+.dd-panel li:first-child { color: var(--muted); }
+.dd-panel li:first-child[aria-selected="true"] { color: var(--accent); }
+.dd-panel .dd-name { flex: 1; }
+.dd-panel .dd-count { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); font-weight: 400; }
+.dd-panel input { margin: 0; cursor: pointer; }
 .pill-row { font-size: 0.8rem; }
 
 /* ── Responsive ── */
+@media (max-width: 900px) { .controls-bar .controls-row:first-child .tabs-label { display: none; } }
 @media (max-width: 680px) {
   .wrap { padding: 0 1rem; }
   .tabs-label { display: none; }
@@ -332,11 +359,17 @@ a { color: inherit; }
   .tabs::-webkit-scrollbar { display: none; }
   .tabs button:last-child { margin-right: 1.5rem; }
   .fold-all { min-height: 36px; }
-  /* Al mòbil, Catalunya/Mapa/Filtres van a una línia pròpia i les fonts ocupen tota l'amplada */
-  .controls-row:has(.row-tools) { flex-wrap: wrap; row-gap: 0.35rem; }
   .row-tools { gap: 0.3rem; padding-left: 0; border-left: 0; flex-basis: 100%; justify-content: flex-end; }
   .row-tools .tool, .row-tools .f-check { min-height: 32px; padding: 0.2rem 0.5rem; }
   .tabs button { min-height: 36px; }
+  .dd-btn { min-height: 32px; }
+  .controls-bar .controls-row:first-child { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 0.4rem; }
+  .controls-bar .controls-row:first-child::-webkit-scrollbar { display: none; }
+  .controls-bar .controls-row:first-child .filters { flex: 0 0 auto; gap: 0.4rem; }
+  .controls-bar .controls-row:first-child .row-tools { flex: 0 0 auto; flex-basis: auto; padding-right: 1rem; }
+  .dd { position: static; }
+  .row-tools .f-check { position: relative; }
+  .dd-panel { position: fixed; left: 1rem; right: 1rem; width: auto; min-width: 0; max-width: none; }
   .era-head { position: static; }
   .hero-in { padding: 1.5rem 1rem 2.25rem; }
   .hero-credit { display: none; }
@@ -349,10 +382,24 @@ a { color: inherit; }
   .ep-row { padding: 0.7rem 0.75rem; }
   .ep-body { padding: 0 0.75rem 1rem; }
   .era-toggle { padding: 0.8rem 0.75rem 0.7rem; }
-  .player-in { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "info side" "btns btns"; gap: 0.3rem 0.5rem; }
-  .p-info { grid-area: info; }
-  .p-side { grid-area: side; }
-  .p-btns { grid-area: btns; justify-content: center; }
+  /* Reproductor: caràtula, títol i tancar a dalt; progrés a tota l'amplada; controls a sota */
+  .wrap { padding-left: max(1rem, env(safe-area-inset-left)); padding-right: max(1rem, env(safe-area-inset-right)); }
+  .player-in { grid-template-columns: auto minmax(0, 1fr) auto auto; grid-template-areas: "art title vid close" "art sub vid close" "seek seek seek seek" "shuf btns btns rate"; gap: 0 0.6rem; padding-top: 0.75rem; padding-bottom: calc(1rem + env(safe-area-inset-bottom)); }
+  .p-art { grid-area: art; width: 2.6rem; height: 2.6rem; }
+  .p-info, .p-side { display: contents; }
+  .p-title { grid-area: title; font-size: 0.95rem; text-align: left; align-self: end; }
+  .p-sub { grid-area: sub; text-align: left; align-self: start; }
+  .p-seek { grid-area: seek; margin: 0.55rem 0 0.2rem; }
+  .p-seek input { height: 1.5rem; }
+  #p-vid { grid-area: vid; align-self: center; }
+  #p-close { grid-area: close; align-self: center; margin-right: -0.5rem; }
+  #p-shuffle { grid-area: shuf; align-self: center; margin-left: -0.5rem; }
+  #p-rate { grid-area: rate; align-self: center; justify-self: end; margin: 0; }
+  .p-btns { grid-area: btns; justify-content: center; gap: 0.4rem; }
+  .p-btn { width: 2.75rem; height: 2.75rem; }
+  .p-main { width: 3.4rem; height: 3.4rem; }
+  .p-main svg { width: 2rem; height: 2rem; }
+  .p-btn svg.p-skip { width: 2.05rem; height: 2.05rem; }
 }
 </style>
 </head>
@@ -360,7 +407,7 @@ a { color: inherit; }
 
 <header class="hero">
   <div class="wrap hero-in">
-    <h1 class="page-title" id="page-title" aria-label="Història en pòdcasts">Història en pòdcasts</h1>
+    <a class="title-link" href="/" title="Inici"><h1 class="page-title" id="page-title" aria-label="Història en pòdcasts">Història en pòdcasts</h1></a>
     <p class="hero-desc">Episodis de podcasts d'història en català endreçats en ordre cronològic.</p>
     <div class="hero-row">
       <search class="hero-search">
@@ -377,27 +424,24 @@ a { color: inherit; }
 <div class="controls-bar" id="controls">
   <div class="wrap">
     <div class="controls-row">
-      <span class="tabs-label">Font</span>
-      <nav class="tabs" id="podcast-nav" aria-label="Filtra per font">
-        <button data-podcast="all" class="active">Totes</button>
+      <span class="tabs-label">Filtres</span>
+      <!-- Llista de fonts: amagada, és la definició de la qual es construeix el panell «Fonts» -->
+      <nav id="podcast-nav" hidden>
         <button data-podcast="portes-de-troia">A les Portes de Troia</button>
         <button data-podcast="en-guardia">En Guàrdia</button>
         <button data-podcast="sons-edat-mitjana">Sons de l'edat mitjana</button>
         <button data-podcast="institut-humanitats">Institut d'Humanitats</button>
       </nav>
+      <div class="filters" id="filters">
+        <div class="dd" id="dd-font"></div>
+        <div class="dd" id="dd-tema"></div>
+        <div class="dd" id="dd-regio"></div>
+        <div class="dd" id="dd-tipus"></div>
+      </div>
       <div class="row-tools">
         <label class="f-check" title="Només episodis d'història de Catalunya"><input type="checkbox" id="f-cat"> Catalunya</label>
         <button class="tool view-map" id="view-map" type="button" aria-pressed="false">Mapa</button>
         <button class="tool clear" id="f-clear" type="button" hidden title="Esborra tots els filtres">Esborra ✕</button>
-        <button class="more" id="f-more" type="button" aria-expanded="false" aria-controls="filters-row">Filtres <svg class="chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
-      </div>
-    </div>
-    <div class="controls-row filters-row" id="filters-row" hidden>
-      <span class="tabs-label">Filtres</span>
-      <div class="filters" id="filters">
-        <select id="f-tema" aria-label="Tema"><option value="">Tots els temes</option></select>
-        <select id="f-regio" aria-label="Regió"><option value="">Totes les regions</option></select>
-        <select id="f-tipus" aria-label="Tipus de relat"><option value="">Tots els tipus</option></select>
       </div>
     </div>
     <div class="controls-row pill-row" id="pill-row" hidden>
@@ -427,19 +471,20 @@ a { color: inherit; }
 <div class="player" id="player" hidden>
   <div class="p-video" id="p-video" hidden></div>
   <div class="wrap player-in">
+    <div class="p-art" id="p-art" aria-hidden="true"></div>
     <div class="p-btns">
       <button class="p-btn" id="p-prev" type="button" aria-label="Anterior" title="Anterior"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h2v14H6zM20 5v14L9 12z"/></svg></button>
-      <button class="p-btn" id="p-back" type="button" aria-label="Enrere 15 segons" title="−15 s"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg></button>
+      <button class="p-btn" id="p-back" type="button" aria-label="Enrere 15 segons" title="−15 s"><svg class="p-skip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12a7.5 7.5 0 1 0 2.2-5.3"/><path d="M6.7 2.8v3.9h3.9"/><text x="12.3" y="15.1" font-size="8.5" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle" fill="currentColor" stroke="none">15</text></svg></button>
       <button class="p-btn p-main" id="p-toggle" type="button" aria-label="Reprodueix"><svg viewBox="0 0 24 24" fill="currentColor"><path id="p-icon" d="M7 4l13 8-13 8z"/></svg></button>
-      <button class="p-btn" id="p-fwd" type="button" aria-label="Endavant 30 segons" title="+30 s"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/></svg></button>
+      <button class="p-btn" id="p-fwd" type="button" aria-label="Endavant 30 segons" title="+30 s"><svg class="p-skip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M17.3 2.8v3.9h-3.9"/><text x="11.7" y="15.1" font-size="8.5" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle" fill="currentColor" stroke="none">30</text></svg></button>
       <button class="p-btn" id="p-next" type="button" aria-label="Següent" title="Següent"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 5h2v14h-2zM4 5v14l11-7z"/></svg></button>
     </div>
     <div class="p-info">
       <p class="p-title" id="p-title"></p>
       <p class="p-sub" id="p-sub"></p>
       <div class="p-seek">
-        <span id="p-cur">0:00</span>
         <input type="range" id="p-seek" min="0" max="0" step="1" value="0" aria-label="Posició">
+        <span id="p-cur">0:00</span>
         <span id="p-dur">0:00</span>
       </div>
     </div>
@@ -496,6 +541,7 @@ const DC = n => n >= 0 && n < 1000 ? ' dC' : '';
 function formatWhen(raw) {
   if (raw == null || raw === 'None') return '—';
   let s = String(raw).trim();
+  if (/^variable$/i.test(s)) return 'Sense data específica';
   let note = '';
   const p = s.match(/^(.*?)\s*(\([^)]*\))$/);
   if (p && p[1]) { s = p[1]; note = ' ' + p[2]; }
@@ -520,6 +566,8 @@ function formatWhen(raw) {
   return `${fmtYear(a)}–${fmtYear(b)}${DC(b)}` + note;
 }
 
+// Caràtula de cada font (portades dels pòdcasts; Sons: la M de Catalunya Música)
+const SRC_ART = { 'portes-de-troia': 'img/fonts/pdt.webp', 'en-guardia': 'img/fonts/eg.webp', 'sons-edat-mitjana': 'img/fonts/sons.webp', 'institut-humanitats': 'img/fonts/ih.webp' };
 const SRC_LABEL = { 'portes-de-troia': 'Portes de Troia', 'en-guardia': 'En Guàrdia', 'sons-edat-mitjana': "Sons de l'edat mitjana", 'institut-humanitats': "Inst. d'Humanitats" };
 
 const store = {
@@ -782,14 +830,15 @@ function fillFilters() {
     data.forEach(e => (isList ? e[field] || [] : [e[field]]).forEach(v => { if (v) c[v] = (c[v] || 0) + 1; }));
     return c;
   };
-  const fill = (id, labels, counts) => {
-    const sel = document.getElementById(id);
-    Object.keys(labels).filter(k => counts[k]).sort((a, b) => labels[a].localeCompare(labels[b], 'ca'))
-      .forEach(k => sel.add(new Option(`${labels[k]} (${counts[k]})`, k)));
-  };
-  fill('f-tema', TEM, count('tematiques'));
-  fill('f-regio', REG, count('regions'));
-  fill('f-tipus', TIP, count('tipus', false));
+  const opts = (labels, counts) => Object.keys(labels).filter(k => counts[k])
+    .sort((a, b) => labels[a].localeCompare(labels[b], 'ca'))
+    .map(k => ({ v: k, label: labels[k], count: counts[k] }));
+  DD.tema.setOptions(opts(TEM, count('tematiques')));
+  DD.regio.setOptions(opts(REG, count('regions')));
+  DD.tipus.setOptions(opts(TIP, count('tipus', false)));
+  const fonts = count('podcast', false);
+  DD.font.setOptions([...document.querySelectorAll('#podcast-nav button')]
+    .map(b => ({ v: b.dataset.podcast, label: b.textContent, count: fonts[b.dataset.podcast] || 0 })));
 }
 
 function setTag(tag) {
@@ -812,23 +861,102 @@ function passesMeta(ep) {
   return true;
 }
 
-['tema', 'regio', 'tipus'].forEach(k => document.getElementById('f-' + k).addEventListener('change', e => {
-  currentF[k] = e.target.value;
-  e.target.classList.toggle('on', !!e.target.value);
-  if (e.target.value) showFilters(true);
-  syncMore();
-  applyFilters();
-}));
-function syncMore() {
-  document.getElementById('f-more').classList.toggle('on', !!(currentF.tema || currentF.regio || currentF.tipus));
+// Desplegables de filtre: un sol component per a fonts, tema, regió i tipus.
+// Clic a una opció = només aquesta i es tanca; a fonts, la casella en suma més sense tancar.
+const CHEV = '<svg class="chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>';
+const escHtml = t => String(t).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+const DROPS = [];
+function makeDrop(id, { all, aria, plural = null, onChange }) {
+  const el = document.getElementById(id);
+  el.innerHTML = `<button type="button" class="dd-btn" aria-haspopup="listbox" aria-expanded="false"><span class="dd-label"></span>${CHEV}</button>` +
+    `<div class="dd-panel" hidden><ul role="listbox" aria-label="${aria}"></ul></div>`;
+  const btn = el.firstChild, panel = el.lastChild, ul = panel.firstChild;
+  let opts = [], sel = new Set(), act = 0;
+  const items = () => [{ v: '', label: all }, ...opts];
+  const render = () => {
+    const one = sel.size === 1 && opts.find(o => o.v === [...sel][0]);
+    el.querySelector('.dd-label').textContent = !sel.size ? aria : one ? one.label : `${sel.size} ${plural}`;
+    btn.classList.toggle('on', sel.size > 0);
+    btn.title = !sel.size ? all : btn.querySelector('.dd-label').textContent;
+    ul.innerHTML = items().map((o, i) => {
+      const on = o.v ? sel.has(o.v) : !sel.size;
+      return `<li role="option" data-i="${i}" aria-selected="${on}"${i === act ? ' class="act"' : ''}>` +
+        `<span class="dd-name">${escHtml(o.label)}</span>` +
+        (o.count != null ? `<span class="dd-count">${o.count.toLocaleString('ca-ES')}</span>` : '') +
+        (plural && o.v ? `<input type="checkbox" tabindex="-1" aria-label="Afegeix ${escHtml(o.label)}"${on ? ' checked' : ''}>` : '') + '</li>';
+    }).join('');
+  };
+  const place = () => {
+    if (!panel.hidden && getComputedStyle(panel).position === 'fixed')
+      panel.style.top = btn.getBoundingClientRect().bottom + 6 + 'px';
+  };
+  const toggle = open => {
+    if (open) DROPS.forEach(d => d !== api && d.close());
+    panel.hidden = !open;
+    btn.setAttribute('aria-expanded', String(open));
+    if (open) {
+      act = Math.max(0, items().findIndex(o => o.v ? sel.has(o.v) : !sel.size));
+      render(); place();
+      ul.children[act]?.scrollIntoView({ block: 'nearest' });
+    }
+  };
+  const emit = () => { render(); onChange([...sel]); };
+  const pick = (i, add) => {
+    const v = items()[i].v;
+    if (add && v) { sel.has(v) ? sel.delete(v) : sel.add(v); act = i; emit(); }
+    else { sel = new Set(v ? [v] : []); emit(); toggle(false); btn.focus(); }
+  };
+  const move = i => {
+    act = Math.max(0, Math.min(items().length - 1, i));
+    ul.querySelectorAll('li').forEach((li, j) => li.classList.toggle('act', j === act));
+    ul.children[act]?.scrollIntoView({ block: 'nearest' });
+  };
+  btn.addEventListener('click', () => toggle(panel.hidden));
+  ul.addEventListener('click', e => {
+    const li = e.target.closest('li');
+    if (li) pick(+li.dataset.i, e.target.tagName === 'INPUT');
+  });
+  ul.addEventListener('mousemove', e => { const li = e.target.closest('li'); if (li && +li.dataset.i !== act) move(+li.dataset.i); });
+  el.addEventListener('keydown', e => {
+    if (panel.hidden) {
+      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); toggle(true); }
+      return;
+    }
+    if (e.key === 'ArrowDown') { e.preventDefault(); move(act + 1); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); move(act - 1); }
+    else if (e.key === 'Home' || e.key === 'End') { e.preventDefault(); move(e.key === 'Home' ? 0 : items().length - 1); }
+    else if (e.key === 'Enter') { e.preventDefault(); pick(act, false); }
+    else if (e.key === ' ' && plural) { e.preventDefault(); pick(act, true); }
+    else if (e.key === 'Escape') { e.preventDefault(); toggle(false); btn.focus(); }
+    else if (e.key === 'Tab') toggle(false);
+    else if (e.key.length === 1 && /\p{L}/u.test(e.key)) {
+      // salta a la següent opció que comença per aquesta lletra
+      const norm = t => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+      const k = norm(e.key), its = items();
+      for (let n = 1; n <= its.length; n++) {
+        const i = (act + n) % its.length;
+        if (norm(its[i].label).startsWith(k)) { move(i); break; }
+      }
+    }
+  });
+  window.addEventListener('scroll', place, { passive: true });
+  window.addEventListener('resize', place);
+  const api = { el, close: () => { if (!panel.hidden) toggle(false); },
+    setOptions: o => { opts = o; render(); }, set: vals => { sel = new Set(vals.filter(Boolean)); render(); } };
+  DROPS.push(api);
+  render();
+  return api;
 }
-function showFilters(open) {
-  document.getElementById('filters-row').hidden = !open;
-  document.getElementById('f-more').setAttribute('aria-expanded', open);
-  measureControls();
-}
-document.getElementById('f-more').addEventListener('click', () =>
-  showFilters(document.getElementById('filters-row').hidden));
+// composedPath: el clic a una casella redibuixa la llista i l'element ja no hi és
+document.addEventListener('click', e => { const path = e.composedPath(); DROPS.forEach(d => { if (!path.includes(d.el)) d.close(); }); });
+
+const DD = {
+  font: makeDrop('dd-font', { all: 'Totes les fonts', aria: 'Fonts', plural: 'fonts',
+    onChange: v => { currentPodcasts.clear(); v.forEach(p => currentPodcasts.add(p)); applyFilters(); } }),
+};
+[['tema', 'Tots els temes', 'Tema'], ['regio', 'Totes les regions', 'Regió'], ['tipus', 'Tots els tipus', 'Tipus']]
+  .forEach(([k, all, aria]) => { DD[k] = makeDrop('dd-' + k, { all, aria, onChange: v => { currentF[k] = v[0] || ''; applyFilters(); } }); });
+
 document.getElementById('f-cat').addEventListener('change', e => { currentF.cat = e.target.checked; applyFilters(); });
 document.getElementById('f-pill-x').addEventListener('click', () => setTag(null));
 document.getElementById('main').addEventListener('click', e => {
@@ -836,8 +964,7 @@ document.getElementById('main').addEventListener('click', e => {
   if (!tg) return;
   e.stopPropagation();
   if (tg.dataset.tk === 'tema') {
-    const sel = document.getElementById('f-tema');
-    sel.value = tg.dataset.tv; sel.dispatchEvent(new Event('change'));
+    currentF.tema = tg.dataset.tv; DD.tema.set([tg.dataset.tv]); applyFilters();
   } else setTag({ k: tg.dataset.tk, v: tg.dataset.tv });
 }, true);
 
@@ -1026,33 +1153,13 @@ document.getElementById('search').addEventListener('input', e => {
   applyFilters();
 });
 
-document.getElementById('podcast-nav').addEventListener('click', e => {
-  const btn = e.target.closest('button');
-  if (!btn) return;
-  // Cada font s'activa o es desactiva; «Totes» les treu totes
-  const p = btn.dataset.podcast;
-  if (p === 'all') currentPodcasts.clear();
-  else if (currentPodcasts.has(p)) currentPodcasts.delete(p);
-  else currentPodcasts.add(p);
-  syncPodcastNav();
-  applyFilters();
-});
-function syncPodcastNav() {
-  document.querySelectorAll('#podcast-nav button').forEach(b => {
-    const on = b.dataset.podcast === 'all' ? !currentPodcasts.size : currentPodcasts.has(b.dataset.podcast);
-    b.classList.toggle('active', on);
-    b.setAttribute('aria-pressed', String(on));
-  });
-}
-
 // Esborra tots els filtres: fonts, cerca, Catalunya, desplegables i etiqueta
 document.getElementById('f-clear').addEventListener('click', () => {
-  currentPodcasts.clear(); syncPodcastNav();
+  currentPodcasts.clear();
+  Object.values(DD).forEach(d => d.set([]));
   currentSearch = ''; document.getElementById('search').value = '';
   for (const k of Object.keys(currentF)) currentF[k] = k === 'cat' ? false : '';
   document.getElementById('f-cat').checked = false;
-  ['tema', 'regio', 'tipus'].forEach(k => { const el = document.getElementById('f-' + k); el.value = ''; el.classList.remove('on'); });
-  syncMore();
   setTag(null);
 });
 
@@ -1230,7 +1337,8 @@ async function playRow(i, { autoplay = true, at = null } = {}) {
   const ep = r.ep;
   $('p-title').textContent = ep.titol;
   $('p-sub').textContent = [formatWhen(ep.ubicacio || ep.data_historica), SRC_LABEL[ep.podcast], ep.num != null ? `ep. ${ep.num}` : ''].filter(Boolean).join(' · ');
-  $('p-cur').textContent = '0:00'; $('p-dur').textContent = '0:00'; $('p-seek').value = 0;
+  $('p-cur').textContent = '0:00'; $('p-dur').textContent = '0:00'; $('p-seek').value = 0; paintSeek();
+  $('p-art').style.backgroundImage = SRC_ART[ep.podcast] ? `url(${SRC_ART[ep.podcast]})` : '';
   showPlayer();
   markRow(i, true);
   store.set('last', ep._key);
@@ -1280,11 +1388,18 @@ bus.addEventListener('play', syncState);
 bus.addEventListener('pause', () => { syncState(); savePos(); });
 bus.addEventListener('loadedmetadata', () => {
   $('p-seek').max = Math.floor(media.duration) || 0;
-  $('p-dur').textContent = fmt(media.duration);
+  paintSeek();
 });
+// Pinta la part feta de la barra i el temps restant
+function paintSeek() {
+  const el = $('p-seek'), max = +el.max, v = +el.value;
+  el.style.setProperty('--p', max ? (v / max * 100) + '%' : '0%');
+  $('p-dur').textContent = max ? '−' + fmt(Math.max(0, max - v)) : '0:00';
+}
 bus.addEventListener('timeupdate', () => {
   if (!seeking) $('p-seek').value = Math.floor(media.currentTime);
   $('p-cur').textContent = fmt(media.currentTime);
+  if (!seeking) paintSeek();
   const now = Date.now();
   if (now - lastSave > 5000) { lastSave = now; savePos(); }
 });
@@ -1344,7 +1459,7 @@ bus.addEventListener('error', () => {
 });
 
 let seeking = false;
-$('p-seek').addEventListener('input', () => { seeking = true; $('p-cur').textContent = fmt(+$('p-seek').value); });
+$('p-seek').addEventListener('input', () => { seeking = true; $('p-cur').textContent = fmt(+$('p-seek').value); paintSeek(); });
 $('p-seek').addEventListener('change', () => { media.currentTime = +$('p-seek').value; seeking = false; });
 
 $('p-toggle').addEventListener('click', () => { media.paused ? media.play() : media.pause(); });
@@ -1383,7 +1498,8 @@ document.addEventListener('keydown', e => {
 
 function setMediaSession(ep) {
   if (!('mediaSession' in navigator)) return;
-  navigator.mediaSession.metadata = new MediaMetadata({ title: ep.titol, artist: SRC_LABEL[ep.podcast], album: 'Història en pòdcasts' });
+  navigator.mediaSession.metadata = new MediaMetadata({ title: ep.titol, artist: SRC_LABEL[ep.podcast], album: 'Història en pòdcasts',
+    artwork: SRC_ART[ep.podcast] ? [{ src: new URL(SRC_ART[ep.podcast], location.href).href, sizes: '160x160', type: 'image/webp' }] : [] });
   const ms = navigator.mediaSession;
   ms.setActionHandler('play', () => media.play());
   ms.setActionHandler('pause', () => media.pause());
