@@ -538,6 +538,9 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;',
 
 const currentPodcasts = new Set(); // buit = totes les fonts
 let currentSearch = '';
+// Institucions amb nom de persona: fora del text de cerca perquè «Llull» no trobi
+// els convidats de la Universitat Ramon Llull (el text visible no canvia).
+const INSTITUCIONS_RE = /(Universitat|Institut|Fundació(?: Universitària)?|Museu|Biblioteca|Escola|Col·legi|Casa) (Ramon Llull|Pompeu Fabra|Rovira i Virgili|Jaume I|Ramon Muntaner|Martí l'Humà|Pere Mata|Josep Irla|Rafael Campalans|Carles Pi i Sunyer|Ramon Trias Fargas|Joan Maragall|Abat Oliba(?: CEU)?|Francesc Macià|Josep Pallach)/g;
 let data = [];
 const rows = [];        // { el, ep, era, text }
 const sections = {};    // era -> { el, count }
@@ -715,7 +718,7 @@ async function init() {
       frag.appendChild(li);
       rows.push({
         el: li, ep, era,
-        text: [ep.num, ep.titol, ep.descripcio, ep.ubicacio, ep.data_historica, ep.curs, ...(ep.ponents || []),
+        text: [ep.num, ep.titol, ep.descripcio?.replace(INSTITUCIONS_RE, ' '), ep.ubicacio, ep.data_historica, ep.curs, ...(ep.ponents || []),
                ...(ep.personatges || []).map(p => p.nom), ...(ep.esdeveniments || []).map(p => p.nom),
                ep.lloc?.nom, ...(ep.civilitzacions || []), ...(ep.convidats || [])]
           .filter(Boolean).join(' ').toLowerCase()
