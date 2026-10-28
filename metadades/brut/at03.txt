@@ -1,0 +1,100 @@
+at:300|lit;rel|FR|EUO|París|0|Victor Hugo|||bio||
+at:301|art|ES|EUS|Barcelona|1|Antoni Tàpies|||bio||
+at:302|pol|ES|EUS|Barcelona|1|Alejandro Lerroux|||pro||
+at:303|lit|ES|EUS|Barcelona|1|Josep Carner|||cul||
+at:304|eco;soc|ES|EUS|Barcelona|1||Revolució Industrial||pro||
+at:305|fil;pol|GB|EUO|Londres|0|John Stuart Mill|||cul||
+at:306|fil;pol|NL|EUO|Amsterdam|0|Baruch Spinoza|||cul||
+at:307|dre|ES|EUS|Barcelona|1||Constitucions catalanes||pro||
+at:308|art;gen|FR|EUO|París|0|Camille Claudel;Auguste Rodin|||bio||
+at:309|arq;pol|ES|EUS|Barcelona|1|Josep Lluís Sert;Josep Torres Clavé|GATCPAC||cul||
+at:310|lit;cul|ES|EUS|Barcelona|1|Josep Pedreira|||bio||
+at:311|pol;gue|ES|EUS|Barcelona|1|Carles III d'Àustria|Guerra de Successió espanyola||pro||
+at:312|arq;pol|ES|EUS|Barcelona|1||||lloc||
+at:313|lit;fil|FR;CH|EUO;EUC|Ginebra|0|Jean-Jacques Rousseau|||bio||
+at:314|soc;cul|ES|EUS|Alt Urgell|1||Contracultura||quo||
+at:315|fil|FR;CH|EUO;EUC||0|Jean-Jacques Rousseau|Il·lustració||cul||
+at:316|gue;pol|ES;FR|EUS;EUO||1||Primera Guerra Mundial||con||
+at:317|lit;art|ES|EUS|Barcelona|1|Alexandre de Riquer|Modernisme||cul||
+at:318|fil;lit|GR|EUS|Atenes|0|Plató||grecs|cul||
+at:319|eco;exp|ES|EUS;AL||1|Cristòfor Colom|Era dels descobriments||pro||
+at:320|lit;fil|ES|EUS|Barcelona|1|Francesc Pujols|||cul||
+at:321|pol;gue|IT;ES|EUS|Nàpols|1|Alfons el Magnànim|Conquesta de Nàpols||bio||
+at:322|art|FR;ES|EUO;EUS|París|0|André Breton;Salvador Dalí|Surrealisme||cul||
+at:323|pol|CA|AN|Quebec|0|René Lévesque|Referèndum del Quebec de 1980||pro||
+at:324|lit;exp|ES|EUS||0|Ramón Carnicer|||bio||
+at:325|med;art|BE;IT|EUO;EUS|Pàdua|0|Andreas Vesal|||cul||
+at:326|lit|ES|EUS|Girona|1|Prudenci Bertrana|||cul||
+at:327|cie;art|ES|EUS|Barcelona|1||Modernisme||cul||
+at:328|pol|ES|EUS|Barcelona|1|Enric Prat de la Riba;Francesc Cambó|Lliga Regionalista||pro||
+at:329|pol;dre|ES|EUS|Madrid|0||Constitució espanyola de 1978||pro||
+at:330|pol;fil|FR|EUO|París|0|Maximilien Robespierre|Revolució Francesa||pro||
+at:331|cie|FR|EUO|París|0|Antoine Lavoisier|Revolució Francesa||cul||
+at:332|cie|ES|EUS||1||||cul||
+at:333|pol;his|ES|EUS||1||||pro||
+at:334|pol;soc|ES|EUS|Barcelona|1||||pro||
+at:335|lit;rel|ES|EUS|Barcelona|1|Celestí Barallat|||cul||
+at:336|lit;his|ES|EUS|Barcelona|1|Joan Maragall|||cul||
+at:337|gue;art|ES|EUS|Barcelona|1||Setge de Barcelona de 1714||con||
+at:338|pol|ES|EUS|Barcelona|1|Rafael Campalans|||bio||
+at:339|cul;pol|ES|EUS|Barcelona|1||Òmnium Cultural||pro||
+at:340|soc;gen|ES|EUS|Barcelona|1|Rosa Sensat|||bio||
+at:341|soc;eco|ES|EUS||1||||pro||
+at:342|soc|ES|EUS||1||||pro||
+at:343|soc|ES|EUS|Barcelona|1||||pro||
+at:344|fil;pol|DE;FR|EUC;EUO|Königsberg|0|Immanuel Kant|Revolució Francesa||cul||
+at:345|lit|ES|EUS|Barcelona|1|Àngel Guimerà|||cul||
+at:346|lit|ES|EUS|Barcelona|1||Noucentisme||cul||
+at:347|pol;dre||EUO;EUC;EUE||0||||pro||
+at:348|pol;soc|ES|EUS|Lleida|1||||lloc||
+at:349|gue|ES;FR;AT|EUS;EUO|Mauthausen|1|Ramon Arau|Guerra Civil espanyola;Segona Guerra Mundial||bio||
+at:350|fil;gue|DE;FR;AT|EUC;EUO||0|Ludwig Wittgenstein;Martin Heidegger|Primera Guerra Mundial||cul||
+at:351|art|ES|EUS|Barcelona|1|Josep Maria Subirachs|||bio||
+at:352|pol|ES|EUS||1||Transició espanyola||pro||
+at:353|lit;mus|FR|EUO|Occitània|0|||occitans|cul||
+at:354|cul;pol|ES|EUS|Barcelona|1||||pro||
+at:355|his;pol|ES;FR|EUS;EUO||1|Ferran Soldevila|Exili republicà||bio||
+at:356|arq;fil|ES|EUS|Barcelona|1|Antoni Gaudí;Lluís Domènech i Montaner|Modernisme||cul||
+at:357|art;arq|ES|EUS||1|||francs|cul||
+at:358|rel;pol|ES|EUS|Barcelona|1|Josep Dalmau|Franquisme||bio||
+at:359|lit|ES|EUS|València|1|Ausiàs March|||cul||
+at:360|pol|ES|EUS|Barcelona|1|Francesc Macià|Proclamació de la Segona República||pro||
+at:361|pol;med|ES|EUS|Barcelona|1|Bartomeu Robert|Tancament de Caixes||bio||
+at:362|pol;his|ES|EUS||1||||deb||
+at:363|cul;gen|ES;UY|EUS;AL|Barcelona|1|Margarida Xirgu|||bio||
+at:364|gue;cul|ES|EUS|Barcelona|1||Primera Guerra Mundial||cul||
+at:365|pol;gue|ES|EUS|Reus|1|Joan Prim|Revolució de 1868||bio||
+at:366|pol|HU;ES|EUC;EUS||1|Violant d'Hongria;Jaume I|||bio||
+at:367|pol;gue|ES;CU|EUS;AL||0||Guerra de Cuba||pro||
+at:368|lit;his|ES|EUS|Barcelona|1|Esteve Albert|||bio||
+at:369|art;lit|GB|EUO|Londres|0|Dante Gabriel Rossetti|||cul||
+at:370|pol|ES|EUS|Barcelona|1|Lluís Companys|||bio||
+at:371|pol;cul|ES|EUS|Barcelona|1|Lluís Companys|||bio||
+at:372|dre;pol|ES|EUS|Barcelona|1||Mossos d'Esquadra||pro||
+at:373|fil|FR|EUO||0|René Descartes|||cul||
+at:374|cie;pol|ES|EUS|Madrid|0||Franquisme||pro||
+at:375|art;gue|ES|EUS|Barcelona|1||Guerra Civil espanyola||cul||
+at:376|lit|ES|EUS|Barcelona|1|J. V. Foix|||cul||
+at:377|exp;cul|US;MX;AR|AL;AN||1|Cristòfor Colom|||cul||
+at:378|art;med|GB|EUO|Londres|0|Salvador Dalí;Sigmund Freud;Stefan Zweig|||cul||
+at:379|art;cul;fil|AT|EUC|Viena|0|Gustav Klimt;Sigmund Freud|||cul||
+at:380|art|ES|EUS|Barcelona|1|Pablo Picasso|||bio||
+at:381|lit|ES|EUS|Barcelona|1|Joan Brossa|||cul||
+at:382|cul;pol|ES;DE|EUS;EUC|Berlín|1|Eugeni Xammar|||bio||
+at:383|art;gen|ES|EUS|Barcelona|0|Ángeles Santos|||bio||
+at:384|cul;gen|ES|EUS|Barcelona|1|María Luz Morales|||bio||
+at:385|gue;eco|ES|EUS|Mallorca|1||Guerra de Successió espanyola||con||
+at:386|his;fil|ES|EUS|Figueres|1|Alexandre Deulofeu|||bio||
+at:387|pol|ES|EUS|València|1||Franquisme||pro||
+at:388|eco;pol|ES|EUS|Barcelona|1||Mancomunitat de Catalunya||pro||
+at:389|cul;pol|ES|EUS|Barcelona|1|Enric Prat de la Riba|Mancomunitat de Catalunya||pro||
+at:390|lit;pol|ES|EUS|Barcelona|1|Miquel dels Sants Oliver|||bio||
+at:391|eco;quo|ES|EUS|Barcelona|1||||quo||
+at:392|exp|ES;IT|EUS;AL||0|Cristòfor Colom|Descobriment d'Amèrica||bio||
+at:393|eco;lit|ES|EUS|Barcelona|1|Narcís Oller|Febre d'or||pro||
+at:394|lit|ES|EUS|Figueres|1|Carles Fages de Climent|||bio||
+at:395|lit;gen|ES|EUS|Barcelona|1|Carme Karr|||cul||
+at:396|pol|ES|EUS|Barcelona|1|Víctor Balaguer|||pro||
+at:397|pol;lit|ES|EUS|Montserrat|1|Víctor Balaguer|Renaixença||bio||
+at:398|art|ES|EUS|Barcelona|1|Pablo Picasso|||bio||
+at:399|gue;his|ES|EUS||0||Brigades Internacionals||deb||

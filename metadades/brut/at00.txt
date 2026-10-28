@@ -1,0 +1,100 @@
+at:0|fil;pol|DE|EUC||0|Karl Marx|||cul||fr
+at:1|fil;his|DE|EUC||0|Karl Marx|||cul||
+at:2|fil;pol|DE|EUC||0|Karl Marx|||cul||de
+at:3|fil;pol|ES|EUS||0|Karl Marx|||cul||
+at:4|rel;fil|ES|EUS|Vic|1|Josep Torras i Bages|||bio||
+at:5|fil;rel|ES|EUS|Vic|1|Jaume Balmes|||bio||
+at:6|fil|ES|EUS|Barcelona|1|Ramon Martí d'Eixalà;Francesc Xavier Llorens i Barba|||bio||
+at:7|fil|ES|EUS|Barcelona|1|Francesc Xavier Llorens i Barba|||bio||
+at:8|fil|ES|EUS|Barcelona|1|Jaume Serra i Húnter|||bio||
+at:9|fil;cie;med|ES|EUS|Barcelona|1|Ramon Turró|||bio||
+at:10|lit;gue|ES|EUS|Barcelona|1||Guerra Civil espanyola||cul||
+at:11|gue|ES|EUS||0||Guerra Civil espanyola||con||
+at:12|pol;gue|ES|EUS|Madrid|0||Segona República espanyola||pro||
+at:13|gue;lit;pol|ES;GB|EUS|Barcelona|1|George Orwell|Guerra Civil espanyola||con||
+at:14|pol|ES|EUS|Barcelona|1|Valentí Almirall|||bio||
+at:15|cul;pol|ES|EUS|Barcelona|1|Valentí Almirall|||cul||
+at:16|fil;eco|ES|EUS|Barcelona|1|Joan Crexells|||bio||
+at:17|fil|ES|EUS|Barcelona|1|Joan Crexells|||bio||
+at:18|lit|ES|EUS|Barcelona|1|Joan Crexells|||cul||
+at:19|pol|ES|EUS|Barcelona|1|Valentí Almirall|||cul||
+at:20|pol|ES|EUS|Barcelona|1|Valentí Almirall|||cul||
+at:21|eco;pol|ES|EUS|Barcelona|1||||pro||
+at:22|arq|ES|EUS|Barcelona|1|Ildefons Cerdà|||bio||
+at:23|arq;soc|ES|EUS|Barcelona|1||Exposició Internacional de Barcelona de 1929||lloc||
+at:24|cul;rel|ES|EUS|Montserrat|1||||cul||
+at:25|cul;pol|ES|EUS|Barcelona|1|Valentí Almirall|||cul||
+at:26|cul|ES|EUS|Barcelona|1|Joaquim Borralleras|||bio||
+at:27|eco;fil|DE|EUC||0|Karl Marx|||cul||
+at:28|soc;eco|ES|EUS||1||Renaixença||cul||
+at:29|pol;fil|FR;GB;ES|EUO;EUS||0|Narcís Monturiol|||cul||
+at:30|cie;pol|ES|EUS|Barcelona|1|Narcís Monturiol|||cul||
+at:31|cie|ES|EUS|Figueres|1|Narcís Monturiol|||bio||
+at:32|eco;soc|ES;GB|EUS;EUO||1||Revolució Industrial||pro||
+at:33|eco;gue|ES|EUS|Barcelona|1||Guerra Civil espanyola||pro||
+at:34|soc;gue|ES|EUS|Barcelona|1||Guerra Civil espanyola||pro||
+at:35|art;fil;lit|ES|EUS|Barcelona|1|Eugeni d'Ors|Noucentisme||cul||
+at:36|pol;cul|ES|EUS|Barcelona|1|Enric Prat de la Riba|Mancomunitat de Catalunya||pro||
+at:37|soc;pol|ES|EUS|Barcelona|1||Noucentisme||pro||
+at:38|pol|ES|EUS|Barcelona|1||Noucentisme||cul||
+at:39|lit;fil|ES|EUS|Barcelona|1|Eugeni d'Ors|Noucentisme||cul||
+at:40|fil|ES|EUS|Barcelona|1|Eugeni d'Ors|Noucentisme||cul||
+at:41|art|ES|EUS|Barcelona|1||Noucentisme||cul||
+at:42|art|ES|EUS|Barcelona|1||Noucentisme||cul||
+at:43|art|ES|EUS|Barcelona|1||Noucentisme||cul||
+at:44|soc|ES|EUS|Barcelona|1||Noucentisme||pro||
+at:45|arq|ES|EUS|Barcelona|1||Noucentisme||cul||
+at:46|art;gen|ES|EUS|Barcelona|1||Noucentisme||cul||
+at:47|mus|ES|EUS|Barcelona|1||Noucentisme||cul||
+at:48|pol;cul|ES|EUS||1||Renaixença||pro||
+at:49|lit;pol|ES|EUS|Barcelona|1||Modernisme||cul||
+at:50|pol;soc|ES|EUS||1||||pro||
+at:51|lit;pol|ES|EUS|Barcelona|1||Noucentisme||cul||
+at:52|pol|ES|EUS|Barcelona|1|Francesc Cambó;Enric Prat de la Riba|||pro||
+at:53|pol|ES|EUS|Barcelona|1||||pro||
+at:54|pol|ES|EUS|Barcelona|1|Francesc Macià|Fets del sis d'octubre||pro||
+at:55|rel;pol|ES|EUS||1||||pro||
+at:56|pol;soc|ES|EUS|Barcelona|1||||pro||
+at:57|pol|ES|EUS|Barcelona|1||||pro||
+at:58|fil|ES|EUS|Barcelona|1|Eugeni d'Ors|||bio||
+at:59|cul|ES|EUS|Barcelona|1|Eugeni d'Ors|||bio||
+at:60|lit;fil|ES|EUS|Barcelona|1|Eugeni d'Ors|||bio||
+at:61|lit|ES|EUS|Barcelona|1|Àngel Guimerà|||bio||
+at:62|pol|ES|EUS|Barcelona|1|Valentí Almirall;Baldomer Lostau|||pro||
+at:63|lit|ES|EUS|Barcelona|1|Josep Yxart|||bio||
+at:64|fil;pol|ES;DE|EUS;EUC||0|Francesc Pi i Margall;Georg Wilhelm Friedrich Hegel|||cul||
+at:65|lit|ES|EUS|Barcelona|1|Narcís Oller|||bio||
+at:66|lit|ES|EUS|Barcelona|1|Jacint Verdaguer|||bio||
+at:67|pol|ES|EUS|Barcelona|1||Restauració borbònica||pro||
+at:68|gue|FR|EUO||1||Segona Guerra Mundial||con||
+at:69|pol|ES|EUS|Madrid|0||Cop d'estat del 23 de febrer de 1981||con||
+at:70|lit;fil|ES|EUS|Barcelona|1|Eugeni d'Ors|||cul||
+at:71|rel;pol|ES|EUS||0||Franquisme||pro||
+at:72|gue|AT;DE|EUC|Mauthausen|1|Montserrat Roig|Holocaust||con||
+at:73|pol|ES|EUS||1||||pro||
+at:74|soc;eco;pol|ES|EUS|Barcelona|1||||pro||
+at:75|pol|ES|EUS|Barcelona|1|Andreu Nin|||bio||
+at:76|cul;lit|MX;FR;AR|AL;EUO|Ciutat de Mèxic|1||Exili republicà||cul||
+at:77|pol|ES|EUS||1|Jaume Vicens Vives;Pierre Vilar|Franquisme||pro||
+at:78|lit;pol|ES|EUS|Barcelona|1|Joan Maragall|||cul||
+at:79|rel;pol|ES|EUS||1||Franquisme||pro||
+at:80|art|GB|EUO|Londres|0|Edward Burne-Jones|||bio||
+at:81|lit;cul|ES|EUS|Barcelona|1|Joan Maragall|||cul||
+at:82|lit;rel|ES;FR|EUS;EUO||1|Joan Maragall;Ernest Hello|||cul||
+at:83|fil;cie|DE|EUC||0|Martin Heidegger|||cul||
+at:84|lit;gue|ES|EUS||0|Francesc Candel|Guerra Civil espanyola||cul||
+at:85|lit;cul|ES|EUS|Barcelona|1|Eugeni d'Ors|Noucentisme||cul||
+at:86|lit|ES|EUS|Barcelona|0|Miguel de Cervantes|||cul||
+at:87|lit|ES|EUS|L'Escala|1|Caterina Albert|||cul||
+at:88|fil|GR|EUS|Atenes|0|||grecs|cul||
+at:89|lit;art|ES|EUS|Barcelona|1|Santiago Rusiñol|||cul||
+at:90|lit|ES|EUS|Mallorca|1|Llorenç Villalonga|||cul||
+at:91|dre;pol|ES|EUS|Madrid|0||Constitució espanyola de 1978||pro||
+at:92|lit;cul|ES|EUS|Barcelona|1|Josep Janés i Olivé|||bio||
+at:93|lit;gue|ES;FR|EUS;EUO||1|Teresa Pàmies|Guerra Civil espanyola||bio||
+at:94|lit;mus;pol|ES|EUS||1|Salvador Espriu|||cul||
+at:95|pol;gen;gue|ES|EUS|Barcelona|1|Conxa Pérez|Guerra Civil espanyola||bio||
+at:96|art;fil|ES|EUS|Barcelona|1|Arnau Puig|||bio||
+at:97|med;gue|ES|EUS||1|Moisès Broggi|Brigades Internacionals||bio||
+at:98|eco;soc|ES|EUS|Barcelona|1||Revolució Industrial||pro||
+at:99|lit|ES|EUS|Barcelona|1|Raimon Casellas|Modernisme||cul||

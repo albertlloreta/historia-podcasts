@@ -1,0 +1,100 @@
+at:900|med;fil|ES|EUS|Barcelona|1|Moisès Broggi|||bio||
+at:901|lit;pol|ES|EUS|Barcelona|1|Joan Salvat-Papasseit|||bio||
+at:902|his;pol|ES|EUS||1|Vicente Cacho Viu|||deb||
+at:903|lit;gue|ES;GB;US|EUS;EUO;AN||0|George Orwell;Ernest Hemingway|Guerra Civil espanyola||cul||
+at:904|rel|IL;PS|PO|Betlem|0|Jesús de Natzaret|||cul||
+at:905|lit;arq|ES|EUS|Barcelona|1|Jacint Verdaguer|||cul||
+at:906|lit|ES|EUS|Valladolid|0|José Zorrilla|||cul||
+at:907|cul;soc|ES|EUS|Barcelona|1||Ateneu Enciclopèdic Popular||lloc||
+at:908|lit|ES|EUS|Barcelona|1|Tomàs Roig i Llop|||bio||
+at:909|lit;fil|ES|EUS|Barcelona|1|Francesc Pujols|||cul||
+at:910|fil|ES|EUS|Barcelona|1|Francesc Pujols|||cul||
+at:911|soc;cul|IN;PT|ASM;EUS|Goa|0||||lloc||
+at:912|fil;pol|US|AN||0|John Rawls|||cul||
+at:913|fil|ES|EUS|Martorell|1|Francesc Pujols|||bio||
+at:914|fil;art|ES|EUS|Figueres|1|Francesc Pujols;Salvador Dalí|||cul||
+at:915|rel;art;arqu||EUS;PO||0|||grecs;minoics|cul||
+at:916|lit|ES|EUS|Blanes|1|Joaquim Ruyra|||cul||
+at:917|pol;his|ES|EUS||1||||deb||
+at:918|art|ES|EUS|Barcelona|1|Bernat Martorell|||bio||
+at:919|dre;gue|ES|EUS|Barcelona|1||Guerra Civil espanyola||pro||
+at:920|cul;rel|ES|EUS||1|||musulmans|cul||
+at:921|arqu;cul|ES|EUS|Tarragona|1|||grecs;romans;ibers|cul||
+at:922|lit|ES|EUS|Llucmajor|1|Maria Antònia Salvà|||cul||
+at:923|cin;cie||EUO||0|Lumière|||cul||
+at:924|pol|ES|EUS|Barcelona|1|Guifré el Pilós;Borrell II|||pro||
+at:925|lit;cul|ES|EUS|Sant Joan de les Abadesses|1|Comte Arnau|||cul||
+at:926|eco;dre|ES|EUS|Barcelona|1||Consolat de Mar||lloc||
+at:927|eco;gue|ES|EUS|Barcelona|1||Consolat de Mar||pro||
+at:928|lit|RU|EUE|Sant Petersburg|0|Aleksandr Puixkin|||cul||
+at:929|fil;pol|DE|EUC||0|Karl Marx|||cul||
+at:930|art|ES|EUS|Girona|1||||cul||
+at:931|lit;pol|ES|EUS|Barcelona|1|Víctor Alba|||bio||
+at:932|lit|ES|EUS|Barcelona|1|Maria Mercè Marçal|||cul||
+at:933|fil;rel|DE|EUC||0|Arthur Schopenhauer;Friedrich Nietzsche|||cul||
+at:934|lit|IE|EUN|Dublín|0|James Joyce|||cul||
+at:935|lit;gen|ES|EUS|Barcelona|1|Montserrat Roig|||bio||
+at:936|pol|ES;FR|EUS;EUO|Barcelona|1|Josep Tarradellas|Retorn de Tarradellas||pro||
+at:937|lit;cul|ES|EUS|Barcelona|1|Josep Romeu i Figueras|||bio||
+at:938|lit|GB|EUO|Londres|0|William Shakespeare|||cul||
+at:939|cul;soc;gue|ES|EUS|Barcelona|1||Primera Guerra Mundial||cul||
+at:940|lit;pol|ES|EUS|Sueca|1|Joan Fuster|||bio||
+at:941|lit;gen|ES|EUS|Barcelona|1|Maria Mercè Marçal|||cul||
+at:942|pol|ES|EUS|Barcelona|1|Francesc Cambó|Assemblea de Parlamentaris||pro||
+at:943|pol|CA|AN|Quebec|0|Jacques Parizeau|Referèndum del Quebec de 1995||pro||
+at:944|lit;gen;exp|ES;PF|EUS;OC|Girona|1|Aurora Bertrana|||bio||
+at:945|rel|ES|EUS||1||Reforma protestant||pro||
+at:946|soc;his|ES|EUS|Barcelona|1|Raimon Galí|||bio||
+at:947|art|ES|EUS|Barcelona|1|Joan Miró;Pablo Picasso;Joaquín Torres-García|||cul||
+at:948|rel;cul|ES|EUS||1|||musulmans|pro||
+at:949|pol;cin|RU|EUE|Odessa|0||Revolució Russa de 1905||con||
+at:950|pol;cin|RU|EUE|Petrograd|0||Revolució Russa||pro||
+at:951|art|ES|EUS|Camprodon|1|Manel Surroca|||bio||
+at:952|fil;cie|GR;FR|EUS;EUO||0|Aristòtil;Blaise Pascal|||cul||
+at:953|gen;pol|ES|EUS||0|Antonina Rodrigo;Pilar Aymerich|Segona República espanyola||pro||
+at:954|lit|ES|EUS|Sueca|1|Joan Fuster|||cul||
+at:955|pol;gen|RU|EUE|Moscou|0|Aleksandra Kollontai|Revolució Russa||bio||
+at:956|arq;pol|ES|EUS|Barcelona|1|Lluís Domènech i Montaner|||bio||
+at:957|pol;dre|ES|EUS|Barcelona|1|Jordi Pujol|Fets del Palau de la Música||pro||
+at:958|arq|ES|EUS|Barcelona|1|Ildefons Cerdà|||lloc||
+at:959|fil;pol|DE|EUC||0|Martin Heidegger|Nazisme||cul||
+at:960|rel;cul|ES|EUS|Girona|1|||jueus|pro||
+at:961|pol|PT|EUS|Lisboa|0||Revolució dels Clavells||pro||
+at:962|lit;pol|ES|EUS|Palafrugell|1|Josep Pla|||cul||
+at:963|pol;lit|ES|EUS|Casp|1|Ferran d'Antequera;Jaume d'Urgell|Compromís de Casp||pro||
+at:964|fil;gue|ES|EUS|Portbou|1|Walter Benjamin|||bio||
+at:965|fil|NL|EUO|Amsterdam|0|Baruch Spinoza|||cul||
+at:966|lit|ES|EUS|Barcelona|1|Federico García Lorca|||bio||
+at:967|lit|ES;GB|EUS;EUO|Barcelona|1|Josep Palau i Fabre;William Shakespeare|||cul||
+at:968|lit;gen|ES|EUS|Barcelona|1|Montserrat Abelló|||bio||
+at:969|fil|FR|EUO||0|Paul Ricoeur|||cul||
+at:970|lit|ES|EUS|Barcelona|1|Ignasi Agustí|||bio||
+at:971|arq;his|ES|EUS|Barcelona|1||||lloc||
+at:972|fil|DE|EUC||0|Arthur Schopenhauer|||cul||
+at:973|art;soc|ES|EUS|Barcelona|1|Ocaña|||bio||
+at:974|cul|ES|EUS||0||||cul||
+at:975|art;rel|TR|PO|Constantinoble|0|||bizantins|cul||
+at:976|rel;fil||PO||0|||jueus|cul||
+at:977|soc|ES|EUS|Sant Salvador de la Vedella|1||||lloc||
+at:978|pol;soc|ES|EUS|Barcelona|1||Bullangues;Primera Guerra Carlina||con||
+at:979|lit;mus|FR|EUO|París|0|Marcel Proust|||cul||
+at:980|lit;art|ES|EUS|Barcelona|1|Joan Teixidor|||bio||
+at:981|arq|ES|EUS|Barcelona|1|Antoni Bonet;Josep Antoni Coderch;Antoni de Moragas|||cul||
+at:982|cin;gue|ES|EUS||0|André Malraux|Guerra Civil espanyola||cul||
+at:983|lit;pol|RU|EUE|Moscou|0|Vladímir Maiakovski;Mikhaïl Bulgàkov;Óssip Mandelstam;Anna Akhmàtova|Revolució Russa||cul||
+at:984|cie|US|AN||0|Richard Feynman|||bio||
+at:985|fil;rel|ES;IN|EUS;ASM||1|Raimon Panikkar|||bio||
+at:986|art;rel|FR|EUO|París|1|Antoni Miralda;Joan Rabascall|||cul||
+at:987|his;pol|ES|EUS|Barcelona|1|Jordi Solé Tura|||deb||
+at:988|fil|DE;US|EUC;AN||0|Hannah Arendt;Martin Heidegger|Holocaust||cul||
+at:989|gen|ES|EUS|Barcelona|1||||bio||
+at:990|cul;lit|ES|EUS|Barcelona|1|Aureli Capmany|||bio||
+at:991|cie;gen|US|AN||0|Lynn Margulis|||bio||
+at:992|lit|ES|EUS|Barcelona|1|Josep Palau i Fabre|||cul||
+at:993|art;gen|IT|EUS|Roma|0|Artemisia Gentileschi|||bio||
+at:994|fil;lit;rel|ES|EUS||1|Raimon Panikkar|||cul||
+at:995|lit;fil|FR;DZ|EUO;NA||0|Albert Camus|||cul||
+at:996|pol;eco|ES|EUS|Barcelona|1|Bartomeu Robert|Tancament de Caixes||pro||
+at:997|pol|ES|EUS|Manresa|1||Bases de Manresa||pro||
+at:998|mus;cul|ES;FR|EUS;EUO|Barcelona|1||Maig del 68||cul||
+at:999|fil|FR|EUO|París|0|Michel Foucault;Gilles Deleuze|Maig del 68||cul||

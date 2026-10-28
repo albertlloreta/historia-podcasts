@@ -226,7 +226,7 @@
     "lloc": {"nom": "Roma", "qid": "Q220", "lat": 41.8931, "lon": 12.4828},
     "periodes": ["antiga"],
     "segles": [-8, -8],
-    "personatges": [{"nom": "Ròmul i Rem"}],
+    "personatges": [{"nom": "Ròmul i Rem", "qid": "Q2197"}],
     "civilitzacions": ["romans", "etruscs"],
     "tipus": "deb"
   },

@@ -1,0 +1,100 @@
+at:700|lit;pol|ES|EUS|Barcelona|1||Renaixença||cul||
+at:701|lit;soc|ES|EUS|Barcelona|1|Raimon Casellas;Alejandro Lerroux|Modernisme||cul||
+at:702|fil|ES|EUS|Barcelona|1|Francesc Pujols|||bio||
+at:703|lit|ES|EUS|Sabadell|1|Pere Quart|||cul||
+at:704|lit;cie|FR;GB|EUO||0|Jules Verne;H. G. Wells|||cul||
+at:705|cul|ES|EUS|Barcelona|1|Fabià Puigserver|||bio||
+at:706|dre;soc|DO;ES|AL;EUS|Santo Domingo|0||Esclavitud||pro||
+at:707|gue|ES|EUS|Barcelona|1||Caiguda de Barcelona||con||
+at:708|cul;rel|ES|EUS|Barcelona|1||||cul||
+at:709|lit|ES|EUS|Lleida|1|Màrius Torres|||bio||
+at:710|art;pol|ES|EUS|Madrid|0|Francisco de Goya|Il·lustració||bio||
+at:711|quo|ES|EUS|Barcelona|1||||quo||
+at:712|art;lit|ES|EUS|Sitges|1|Santiago Rusiñol|||bio||
+at:713|soc;pol;gen|FR;ES|EUO;EUS|París|0||Maig del 68||pro||
+at:714|lit|ES|EUS|Palma|1|Josep Maria Llompart|||bio||
+at:715|lit|ES|EUS|Barcelona|1|Pompeu Fabra|||cul||
+at:716|lit|ES|EUS|Barcelona|1|Carles Riba|||cul||
+at:717|his|ES|EUS|Barcelona|1|Víctor Balaguer;Antoni de Bofarull|||deb||
+at:718|pol;arq|ES|EUS|Barcelona|1|Josep Maria de Porcioles|Franquisme||pro||
+at:719|lit;art|ES|EUS|Barcelona|1||Modernisme||cul||
+at:720|lit;gen|ES|EUS|Llucmajor|1|Maria Antònia Salvà|||cul||
+at:721|cul;pol|ES|EUS|Madrid|0||||pro||
+at:722|gue|DE;AT|EUC|Mauthausen|0||Deportació republicana als camps nazis||con||
+at:723|lit;gen|ES|EUS|Barcelona|1||Modernisme||cul||
+at:724|mus|ES|EUS|Barcelona|1|The Beatles|||cul||
+at:725|lit;pol|ES|EUS|Barcelona|1|Àngel Guimerà|||cul||
+at:726|gue|ES|EUS||0||Guerra Civil espanyola;Segona Guerra Mundial||con||
+at:727|lit;arq;rel|ES|EUS|Barcelona|1|Jacint Verdaguer;Eusebi Güell;Antoni Gaudí|||bio||
+at:728|gue;quo|ES|EUS|Barcelona|1||Segona Guerra Mundial||quo||
+at:729|arq|FR;ES|EUO;EUS|Barcelona|1|Jean-Claude Nicolas Forestier|||bio||
+at:730|arq|ES|EUS|Barcelona|1|Jean-Claude Nicolas Forestier|||lloc||
+at:731|arq|ES|EUS|Montjuïc|1|Jean-Claude Nicolas Forestier|||lloc||
+at:732|pol;fil|CH|EUC||0|Denis de Rougemont|||bio||
+at:733|eco|ES|EUS|Barcelona|1|Joan Sardà Dexeus|||bio||
+at:734|cul|ES|EUS|Barcelona|1|Josep Porter|||bio||
+at:735|rel|FR|EUO|Occitània|0||Catarisme|càtars|cul||
+at:736|pol|ES|EUS|Barcelona|1|Francesc Macià|||bio||
+at:737|cul|ES|EUS|Barcelona|1||Ràdio Barcelona||pro||
+at:738|mus;pol|ES|EUS|Barcelona|1||Els Segadors||cul||
+at:739|arq;eco|ES|EUS|Barcelona|1||||pro||
+at:740|lit|ES|EUS|Barcelona|1|Joan Maragall|||cul||
+at:741|pol|ES|EUS|Barcelona|1|Enric Prat de la Riba|Mancomunitat de Catalunya||pro||
+at:742|lit|ES|EUS|Barcelona|1|Joan Arús|||bio||
+at:743|pol;soc|ES|EUS|Barcelona|1|Joan Peiró|||cul||
+at:744|lit;quo|ES|EUS|Barcelona|1|Maurici Serrahima|||bio||
+at:745|cul;pol|ES|EUS|Barcelona|1||Franquisme||pro||
+at:746|pol|ES|EUS|Barcelona|1|Joan Ventosa i Calvell|||bio||
+at:747|lit|ES|EUS|Barcelona|1||Modernisme||cul||
+at:748|art;lit|ES|EUS|Barcelona|1|Josep Gimeno Navarro|||bio||
+at:749|lit|ES|EUS|Barcelona|1|Roser Matheu|||cul||
+at:750|fil;lit|FR|EUO|París|0|Jean-Paul Sartre|||bio||
+at:751|lit|ES|EUS|Moguer|0|Juan Ramón Jiménez|||cul||
+at:752|lit|ES|EUS|Barcelona|1||Franquisme||cul||
+at:753|pol;soc|ES|EUS|Barcelona|1|Joan Peiró;Àngel Pestaña|||pro||
+at:754|fil|DE|EUC|Königsberg|0|Immanuel Kant|||cul||
+at:755|lit|ES|EUS|La Selva del Camp|1|Joan Puig i Ferreter|||cul||
+at:756|fil;lit|ES|EUS|Barcelona|1|Eugeni d'Ors|||cul||
+at:757|fil|ES|EUS|Madrid|0|Eugeni d'Ors;Miguel de Unamuno;José Ortega y Gasset|||cul||
+at:758|fil|ES|EUS|Barcelona|1|Francesc Pujols|||bio||
+at:759|art|ES|EUS||1||||cul||
+at:760|arq|ES;US|EUS;AN|Barcelona|1|Josep Lluís Sert|||bio||
+at:761|pol|ES|EUS|Barcelona|1|Claudi Ametlla|||bio||
+at:762|lit;rel|ES|EUS||1||||cul||
+at:763|art|GB;ES|EUO;EUS|Londres|1|William Morris|||cul||
+at:764|pol|ES|EUS|Barcelona|1|Lluís Companys|Fets del sis d'octubre||con||
+at:765|lit|ES|EUS|Barcelona|1|Rosa Leveroni|||bio||
+at:766|cul|ES|EUS|Barcelona|1|Pere Prat Gaballí|||bio||
+at:767|arqu|ES|EUS|Barcelona|1|Pere Bosch Gimpera|||pro||
+at:768|dre;gue|ES|EUS|Barcelona|1||Guerra Civil espanyola||pro||
+at:769|cin;his||EUO||0||||cul||
+at:770|cin;lit|US|AN|Hollywood|0||||cul||
+at:771|pol;gen|ES|EUS|Barcelona|1|Frederica Montseny|||bio||es
+at:772|lit|ES|EUS|Barcelona|1|Tomàs Roig i Llop|||bio||
+at:773|gue;pol|ES|EUS|Barcelona|1|Joan II|Guerra Civil catalana||con||
+at:774|fil;cul|ES|EUS||1||Humanisme||cul||
+at:775|rel;pol|FR|EUO|París|0||Revolució Francesa||pro||
+at:776|lit;cul|FR|EUO|París|0||Revolució Francesa||cul||
+at:777|med;fil|AT|EUC|Viena|0|Sigmund Freud|||bio||
+at:778|cul;lit|ES|EUS|Barcelona|1|Xavier Fàbregas|||bio||
+at:779|mus;cul|FR;DE|EUO;EUC|París|0||||cul||
+at:780|lit|ES;FR|EUS;EUO||1|Domènec de Bellmunt|||bio||
+at:781|pol|ES|EUS|Barcelona|1|Francesc Layret|||bio||
+at:782|pol|ES|EUS|Barcelona|1||Transició espanyola||pro||
+at:783|pol|ES|EUS||1|Víctor Alba|Franquisme||bio||
+at:784|cul;arqu|MX;GT|AL||0|||maies|cul||
+at:785|lit;gen|GB|EUO|Londres|0|Christina Rossetti|||bio||
+at:786|pol;gue||EUO;EUC;EUE||0||Segona Guerra Mundial||cul||
+at:787|quo;gue|ES|EUS||0||Guerra Civil espanyola||quo||
+at:788|lit|ES|EUS|Llucmajor|1|Maria Antònia Salvà|||cul||
+at:789|fil|ES|EUS|Barcelona|1|Joan Crexells|||cul||
+at:790|art;lit|GB|EUO|Londres|0|William Morris|||bio||
+at:791|pol;his|ES|EUS||1||||deb||
+at:792|med;cie|GB|EUO||0|Edward Jenner|||pro||
+at:793|pol;gue|ES;FR|EUS;EUO||1||Guerra Civil espanyola||pro||
+at:794|lit|ES|EUS|Barcelona|1|Joan Puig i Ferreter|||bio||
+at:795|lit;cie|ES|EUS|Barcelona|1|Joan Coromines|||bio||
+at:796|gue|ES|EUS|Mallorca|1|Alberto Bayo|Desembarcament de Mallorca||con||
+at:797|gue|ES|EUS|Tortosa|1||Guerra Civil espanyola||con||
+at:798|arq|ES|EUS|Barcelona|1||||lloc||
+at:799|arq|ES|EUS|Barcelona|1||||lloc||

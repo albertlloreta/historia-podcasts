@@ -1,0 +1,100 @@
+at:500|fil;pol|FR|EUO|París|0|Gilles Deleuze|||cul||
+at:501|fil|ES|EUS|Barcelona|1|Francesc Pujols|||bio||
+at:502|lit;mus|DE|EUC||0|Richard Wagner||germànics|cul||
+at:503|fil;his|DE;ES|EUC;EUS|Portbou|1|Walter Benjamin|||cul||
+at:504|pol|ES|EUS|Barcelona|1|Lluís Companys|||bio||
+at:505|arq|ES|EUS|Barcelona|1|Miquel Garriga i Roca|||lloc||
+at:506|mus|ES|EUS|Barcelona|1|Joan Manén|||bio||
+at:507|soc;lit|ES|EUS|Barcelona|1|Francesc Candel|||cul||
+at:508|his|ES|EUS|Barcelona|1|Josep Maria Ainaud de Lasarte|||bio||
+at:509|mus;cin|FR|EUO|París|0|Django Reinhardt|||cul||
+at:510|pol|CH|EUC|Jura|0||Creació del cantó del Jura||pro||
+at:511|gue|DE;AT;FR|EUC;EUO|Mauthausen|1||Deportació republicana als camps nazis||con||
+at:512|pol;his|ES;PT|EUS||1||||deb||
+at:513|rel|ES|EUS||0||Inquisició||pro||
+at:514|lit|ES|EUS|Roda de Ter|1|Miquel Martí i Pol|||cul||
+at:515|pol|CA|AN|Quebec|0||Referèndum del Quebec de 1995||pro||
+at:516|cie|GB|EUO|Londres|0|Charles Darwin|||bio||
+at:517|mus;cin|ES;US|EUS;AN|Hollywood|1|Xavier Cugat|||bio||
+at:518|pol;lit|ES|EUS|Tarragona|1|Antoni Rovira i Virgili|||bio||
+at:519|gue|ES|EUS||0||Brigades Internacionals||con||
+at:520|cul;pol|ES|EUS|Barcelona|1|Àngel Guimerà;Pere Aldavert|||cul||
+at:521|soc;lit|ES|EUS|Barcelona|1||||quo||
+at:522|gue;pol|ES|EUS|Barcelona|1||Revolució de 1936;Fets de maig de 1937||con||
+at:523|lit|ES;MX|EUS;AL||1|Agustí Bartra|||cul||
+at:524|gen;cul|ES|EUS|Barcelona|1||Segona República espanyola||cul||
+at:525|fil;rel|FR|EUO|París|0|Joseph-Antoine Dinouart|||cul||
+at:526|gue;cul|ES|EUS|Barcelona|1||Guerra Civil espanyola||con||
+at:527|rel|YE;ET|PO;AS|Saba|0|Reina de Saba;Salomó|||bio||
+at:528|pol|US|AN|Washington|0||||pro||
+at:529|lit|ES|EUS|Barcelona|1|Marcel Proust|||cul||
+at:530|fil|GR|EUS|Atenes|0|Aristòtil||grecs|cul||
+at:531|lit;rel|TN;ES|NA;EUS|Tunis|1|Anselm Turmeda|||cul||
+at:532|lit|ES|EUS|Barcelona|1|Josep Maria de Sagarra|||cul||
+at:533|cul;art|ES|EUS|Barcelona|1||||cul||
+at:534|pol|ES|EUS|Barcelona|1|Joaquim Delclòs|Franquisme||bio||
+at:535|lit;art|ES|EUS|Barcelona|1|Joan Brossa|||cul||
+at:536|pol;soc|ES|EUS|Sarrià|1||Caputxinada||pro||
+at:537|gue;lit|ES;FR|EUS;EUO||1|Bernat Desclot;Pere el Gran|Croada contra la Corona d'Aragó||con||
+at:538|cie;gen|US|AN||0|Rachel Carson|||bio||
+at:539|lit;his|ES|EUS|Barcelona|1|Joaquim Molas|||bio||
+at:540|fil;soc|NL|EUO|Rotterdam|0|Erasme de Rotterdam|||cul||
+at:541|mus|ES|EUS|Barcelona|1|Joan Manén|||bio||
+at:542|his|ES|EUS||1||||deb||
+at:543|art;cul|ES|EUS|Barcelona|1||||cul||
+at:544|lit;rel;gen|ES|EUS|València|1|Isabel de Villena|||cul||
+at:545|soc;eco|ES|EUS||1||||pro||
+at:546|eco|ES|EUS||1||||pro||
+at:547|pol;his|ES|EUS||1||||deb||
+at:548|lit;cul|ES|EUS|Barcelona|1||||cul||
+at:549|lit;pol|ES|EUS|Barcelona|1|Bernat Metge|||cul||
+at:550|art;cul|ES|EUS|Barcelona|1||||cul||
+at:551|lit|ES|EUS|Barcelona|1|Eugeni d'Ors|Noucentisme||cul||
+at:552|pol|ES|EUS|Barcelona|1|Francesc Pi i Margall|||cul||
+at:553|lit|ES|EUS|Barcelona|1|Joan Brossa|||cul||
+at:554|rel|ES|EUS|Vic|1|Josep Torras i Bages|||bio||
+at:555|soc;eco|ES|EUS||1||Revolució Industrial||pro||
+at:556|art;his|ES|EUS|Barcelona|1||Franquisme||deb||
+at:557|pol;gue|IE|EUN|Dublín|0||Aixecament de Pasqua||con||
+at:558|lit;rel|ES|EUS|Folgueroles|1|Jacint Verdaguer|||bio||
+at:559|cie;cul|ES|EUS|Barcelona|1||||lloc||
+at:560|eco;soc|ES|EUS|Barcelona|1||Revolució Industrial||pro||
+at:561|art|ES|EUS|Barcelona|1|Joan Brossa;Antoni Tàpies|Dau al Set||cul||
+at:562|eco;cie|ES|EUS|Flix|1||||lloc||
+at:563|lit;rel|ES|EUS|Mallorca|1|Ramon Llull|||cul||
+at:564|lit;gen|ES|EUS|Barcelona|1||||cul||
+at:565|lit|ES|EUS|Barcelona|1|Quima Jaume|||cul||
+at:566|rel;gen|IL|PO||0|Sara;Rut;Ester||hebreus|cul||
+at:567|fil;cul|ES|EUS|Barcelona|1|Jordi Maragall|||bio||
+at:568|lit;cie|ES;US|EUS;AN|Barcelona|1|Joan Coromines|||bio||
+at:569|med|ES;BR|EUS;AL|Barcelona|1|Emili Mira|||bio||
+at:570|pol|ES|EUS|Barcelona|1||||pro||
+at:571|art|ES|EUS|Barcelona|1|Joan Junceda|||bio||
+at:572|pol;eco|DE|EUC|Berlín|0||República de Weimar||pro||
+at:573|cin;soc|ES|EUS|Las Hurdes|0|Luis Buñuel|||cul||
+at:574|med|ES;GB|EUS;EUO|Barcelona|1|Josep Trueta|||bio||
+at:575|med;cie|ES;GB|EUS;EUO|Oxford|1|Josep Trueta|||bio||
+at:576|fil;cie|ES|EUS|Barcelona|1|Francesc Pujols|||cul||
+at:577|lit;gen|FR|EUO|Occitània|0|Comtessa de Dia||occitans|cul||
+at:578|fil|ES|EUS|Barcelona|1|Francesc Pujols|||bio||
+at:579|arq;rel|ES|EUS|Barcelona|1|Antoni Gaudí|Sagrada Família||cul||
+at:580|lit;rel|ES|EUS|Barcelona|1|Jacint Verdaguer|||bio||
+at:581|med;gen;pol|ES|EUS||0|Amparo Poch|Mujeres Libres||bio||
+at:582|lit;fil|DE|EUC||0|Walter Benjamin|||cul||
+at:583|pol|ES|EUS|Barcelona|1|Josep Narcís Roca i Farreras|||pro||
+at:584|pol|ES|EUS|Sant Boi de Llobregat|1||Diada Nacional de Catalunya;Transició espanyola||pro||
+at:585|lit|ES|EUS|Barcelona|1|Josep Maria de Sagarra|||cul||
+at:586|soc;eco|ES|EUS|Barcelona|1||Revolució Industrial||pro||
+at:587|cie|ES|EUS||1||||cul||
+at:588|pol|ES|EUS|Barcelona|1|Salvador Puig Antich;Oriol Solé Sugranyes|Franquisme||bio||
+at:589|med;soc|ES|EUS|Barcelona|1|Nicolás Capo|||bio||
+at:590|lit|GR|EUS||0|Arquíloc;Safo||grecs|cul||
+at:591|lit;cul|ES|EUS|Barcelona|1|Joan Maragall|||cul||
+at:592|pol|ES|EUS|Barcelona|1|Enric Prat de la Riba|Mancomunitat de Catalunya||pro||
+at:593|pol;cul|ES|EUS|Tortosa|1|Francesc Mestre i Noè|||bio||
+at:594|lit;cul|IT|EUS|L'Alguer|1||||lloc||
+at:595|eco;exp|ES|EUS||1||||pro||
+at:596|fil|GR|EUS|Atenes|0|Aristòtil||grecs|cul||
+at:597|cie|ES|EUS||1||||cul||
+at:598|eco;fil;soc||||0||||cul||
+at:599|pol|ES|EUS||1||||pro||

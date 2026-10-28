@@ -1,0 +1,100 @@
+at:1000|lit;cie|ES|EUS|Barcelona|1|Pompeu Fabra|||bio||
+at:1001|pol;soc|US|AN||0|Martin Luther King|Moviment pels drets civils||bio||
+at:1002|fil|DE|EUC||0|Gottfried Wilhelm Leibniz|||cul||
+at:1003|pol;lit;fil|CZ|EUC|Praga|0|Václav Havel|Primavera de Praga||cul||
+at:1004|fil;pol|DE|EUC||0|Karl Marx|||cul||
+at:1005|cin;quo|ES|EUS|Barcelona|1|Carles Barba|||cul||
+at:1006|arq|ES|EUS|Barcelona|1|Ildefons Cerdà|||bio||
+at:1007|gen;art;soc|FR|EUO|París|0||Impressionisme||quo||
+at:1008|fil|FR|EUO|París|0|Jacques Derrida|||cul||
+at:1009|gen;fil|FR;ES|EUO;EUS|París|0|Simone de Beauvoir|Maig del 68||cul||
+at:1010|pol;arq|ES|EUS|Barcelona|1|Pasqual Maragall|||pro||
+at:1011|cul;gen|ES|EUS|Barcelona|1|Margarida Xirgu|||cul||
+at:1012|eco;soc|ES;CU|EUS;AL|Barcelona|1||Esclavitud||pro||
+at:1013|fil;med|ES|EUS|Barcelona|1|Eugeni d'Ors|||cul||
+at:1014|arqu|ES|EUS|Atapuerca|0|||homínids|lloc||
+at:1015|cin;his|ES|EUS||1||||cul||
+at:1016|pol;dre|ES|EUS|Reus|1|Cipriano Martos|Franquisme||bio||
+at:1017|soc;pol|ES|EUS|Barcelona|1||||pro||
+at:1018|pol|ES|EUS|Barcelona|1|Jordi Solé Tura|||bio||
+at:1019|pol|ES;FR|EUS;EUO||1|Jordi Solé Tura|||bio||
+at:1020|pol|ES|EUS|Barcelona|1|Jordi Solé Tura|||bio||
+at:1021|his;pol|ES|EUS|Barcelona|1|Jordi Solé Tura|||deb||
+at:1022|pol|ES|EUS|Barcelona|1|Jordi Solé Tura|||bio||
+at:1023|pol;fil|ES|EUS|Barcelona|1|Jordi Solé Tura;Antonio Gramsci|||cul||
+at:1024|lit|ES|EUS|Reus|1|Gabriel Ferrater|||cul||
+at:1025|lit|ES|EUS|Barcelona|1|Josep Palau i Fabre|||cul||
+at:1026|lit|ES|EUS|Barcelona|1|J. V. Foix|||cul||
+at:1027|pol|ES|EUS||0||Carlisme;Franquisme||pro||
+at:1028|pol|ES|EUS||1||||pro||
+at:1029|cul;gen|ES;UY|EUS;AL||1|Margarida Xirgu|||bio||
+at:1030|fil;soc|DE|EUC|Berlín|0|Georg Simmel|||cul||
+at:1031|cul;pol|ES|EUS|Tortosa|1|Francesc Mestre i Noè|||cul||
+at:1032|pol|ES|EUS||1||||pro||
+at:1033|pol;soc||GLO||0||Moviment pels drets civils||pro||
+at:1034|fil;rel|ES|EUS||1|Raimon Panikkar|||cul||
+at:1035|cie;cin|ES|EUS|Sabadell|1|Miquel Crusafont|||cul||
+at:1036|lit|ES|EUS|Barcelona|1|J. V. Foix|||cul||
+at:1037|lit;gen|ES|EUS|Barcelona|1|Maria Aurèlia Capmany|||cul||
+at:1038|lit;pol|FR|EUO|Prada|1|Pompeu Fabra|Exili republicà||bio||
+at:1039|pol|ES|EUS|Barcelona|1|Jordi Solé Tura|Transició espanyola||bio||
+at:1040|pol;dre|ES|EUS|Madrid|0|Jordi Solé Tura|Constitució espanyola de 1978||pro||
+at:1041|fil;pol|CZ|EUC|Praga|0|Jan Patočka;Václav Havel|||cul||
+at:1042|lit;rel|TN;ES|NA;EUS|Tunis|1|Anselm Turmeda|||cul||
+at:1043|cul;pol|ES;AR|EUS;AL|Barcelona|1|Patrícia Gabancho|||bio||
+at:1044|art;pol|ES|EUS|Barcelona|1|Antoni Tàpies|||bio||
+at:1045|pol;eco|ES|EUS|Barcelona|1||Vaga de La Canadenca||pro||
+at:1046|lit|ES|EUS|Tàrrega|1|Manuel de Pedrolo|||bio||
+at:1047|fil|ES;MX|EUS;AL|Ciutat de Mèxic|1|Eduard Nicol|Exili republicà||bio||
+at:1048|soc|ES|EUS|Barcelona|1||Escola del Mar||lloc||
+at:1049|pol;gue|ES|EUS|Barcelona|1||Guerra Civil espanyola||pro||
+at:1050|gen;lit|ES|EUS|Barcelona|1|Carme Karr;Dolors Monserdà|||bio||
+at:1051|gen;pol|ES|EUS|Barcelona|1||||pro||
+at:1052|eco|ES|EUS|Barcelona|1||||lloc||
+at:1053|cie;pol|ES|EUS||1||||pro||
+at:1054|mus|US|AN|Nova Orleans|0||||cul||
+at:1055|lit|DE|EUC|Berlín|0|Bertolt Brecht|||cul||
+at:1056|mus|ES|EUS|Barcelona|1|Montserrat Caballé|||bio||
+at:1057|mus;cul|ES|EUS||1||||cul||
+at:1058|lit;gen|ES|EUS|Barcelona|1|Maria Aurèlia Capmany|||cul||
+at:1059|fil||EUO;EUS||0||||cul||
+at:1060|soc;eco;pol|ES|EUS|Barcelona|1||Vaga de La Canadenca||con||
+at:1061|lit;art|ES|EUS|Sitges|1|Santiago Rusiñol|||cul||
+at:1062|art;fil||EUO;AN||0||||cul||
+at:1063|lit|IT;ES|EUS|Florència|1|Giovanni Boccaccio;Maria Aurèlia Capmany|||cul||
+at:1064|cul|ES|EUS|Barcelona|1||||lloc||
+at:1065|soc;pol|ES|EUS|Barcelona|1||Vaga de La Canadenca||pro||
+at:1066|fil|FR|EUO||0|Michel de Montaigne|||cul||
+at:1067|mus|IT;ES|EUS|Barcelona|1|Amilcare Ponchielli|||cul||
+at:1068|fil;pol|DE;US|EUC;AN||0|Hannah Arendt|||cul||
+at:1069|pol;gue|US|AN|Filadèlfia|0|George Washington;Thomas Jefferson|Independència dels Estats Units||pro||
+at:1070|pol;cie|US|AN|Filadèlfia|0|Benjamin Franklin|||bio||
+at:1071|lit;pol;gen|FR|EUO|París|0|Madame de Staël|Revolució Francesa||bio||
+at:1072|pol|FR|EUO|París|0||Revolució Francesa||pro||
+at:1073|lit;pol|DE;FR|EUC;EUO||0|Georg Büchner;Heiner Müller|Revolució Francesa||cul||
+at:1074|lit|ES|EUS|Sabadell|1||||cul||
+at:1075|fil|ES;MX|EUS;AL|Ciutat de Mèxic|0|José Gaos|Exili republicà||bio||
+at:1076|fil|GR|EUS|Atenes|0|Aristòtil||grecs|cul||
+at:1077|fil|FR|EUO|París|0|Gilles Deleuze;Félix Guattari|||cul||
+at:1078|lit|US|AN|Nova York|0|Walt Whitman|||cul||
+at:1079|lit;art|ES|EUS|Barcelona|1|Joan Brossa|||cul||
+at:1080|pol;rel|IT|EUS|Florència|0|Girolamo Savonarola;Nicolau Maquiavel|||cul||
+at:1081|pol;cie|ES|EUS||1||||pro||
+at:1082|pol;cul|ES|EUS|Barcelona|1||Transició espanyola||pro||
+at:1083|rel;fil|ES|EUS|Montserrat|1|Lluís Duch|||bio||
+at:1084|cie|EG;IQ|NA;PO||0|||egipcis;babilonis|cul||
+at:1085|fil;pol|FR|EUO|París|0|Michel Foucault;Jacques Derrida;Jean-François Lyotard|||cul||
+at:1086|lit;pol|ES|EUS|Barcelona|1|Joan Brossa;Joan Oliver|||cul||
+at:1087|pol;rel|ES|EUS|Burgos|1|Manuel Carrasco i Formiguera|Guerra Civil espanyola||bio||
+at:1088|pol;soc||GLO||0||Maig del 68||pro||
+at:1089|lit;art|ES|EUS|Barcelona|1|Joan Brossa|||bio||
+at:1090|lit|ES|EUS|Andratx|1|Baltasar Porcel|||bio||
+at:1091|lit;pol;gen|ES|EUS|Balaguer|1|Teresa Pàmies|||bio||
+at:1092|cie|ES|EUS|Barcelona|1|Narcís Monturiol|Ictineu||bio||
+at:1093|art;cul|ES|EUS|Barcelona|1||Contracultura||cul||
+at:1094|cul;eco||EUO;AN||0||Exposició Universal||pro||
+at:1095|cie|ES|EUS|Barcelona|1|Ramon Margalef|||bio||
+at:1096|pol;soc|ES|EUS|Barcelona|1||Transició espanyola||pro||
+at:1097|gen;pol|ES|EUS||1||Franquisme||pro||
+at:1098|pol;eco|ES|EUS||1||Guerra del Francès||pro||
+at:1099|pol|ES|EUS||1||Franquisme||pro||

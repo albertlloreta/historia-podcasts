@@ -2989,7 +2989,8 @@
 "label": "Buchenwald",
 "desc": "camp de concentració nazi",
 "lat": 51.0212,
-"lon": 11.249
+"lon": 11.249,
+"dubte": true
 },
 "lloc|Budapest": {
 "qid": "Q1781",
@@ -3458,7 +3459,8 @@
 "label": "Duino",
 "desc": "poble d'Itàlia, prop de Trieste",
 "lat": 45.7667,
-"lon": 13.6
+"lon": 13.6,
+"dubte": true
 },
 "lloc|Dunkerque": {
 "qid": "Q45797",
@@ -3766,7 +3768,8 @@
 "label": "Guam",
 "desc": "illa al Pacífic, territori no incorporat dels EUA",
 "lat": 13.5,
-"lon": 144.8
+"lon": 144.8,
+"dubte": true
 },
 "lloc|Guna Yala": {
 "qid": "Q919017",
@@ -3890,7 +3893,8 @@
 "lloc|Itil": {
 "qid": "Q913429",
 "label": "Itil",
-"desc": "capital del kanat dels khàzars"
+"desc": "capital del kanat dels khàzars",
+"dubte": true
 },
 "lloc|Itoiz": {
 "qid": "Q3380147",
@@ -4828,14 +4832,16 @@
 "label": "pol Sud",
 "desc": "Punt més meridional de la Terra",
 "lat": -90,
-"lon": 0
+"lon": 0,
+"dubte": true
 },
 "lloc|Poltava": {
 "qid": "Q156747",
 "label": "Poltava",
 "desc": "ciutat d'Ucraïna",
 "lat": 49.5894,
-"lon": 34.5514
+"lon": 34.5514,
+"dubte": true
 },
 "lloc|Port Arthur": {
 "qid": "Q623329",
@@ -13096,6 +13102,2168 @@
 "desc": "prince of Chernigov"
 },
 "pers|Óssip Mandelxtam": {
+"qid": "Q189950",
+"label": "Óssip Mandelxtam",
+"desc": "poeta i assagista rus (1891-1938)"
+},
+"esdev|Aixecament de Pasqua": {
+"qid": "Q193689",
+"label": "Alçament de Pasqua",
+"desc": "rebel·lió a Irlanda el 1916"
+},
+"esdev|Assemblea de Parlamentaris": {
+"qid": "Q8206183",
+"label": "Assemblea de Parlamentaris",
+"desc": "assemblea reformista de diputats catalans i espanyols del 1917"
+},
+"esdev|Ateneu Enciclopèdic Popular": {
+"qid": "Q8207991",
+"label": "Ateneu Enciclopèdic Popular",
+"desc": "associació cultural catalana constituïda per a facilitar la instrucció a les classes treballadores (1902-1939 / 1980-actualitat)"
+},
+"esdev|Bombardeig de Lleida": {
+"qid": "Q5651333",
+"label": "Bombardeig de Lleida",
+"desc": "atac aeri del 1937"
+},
+"esdev|Bombardejos de Barcelona": null,
+"esdev|Busca i Biga": null,
+"esdev|Caiguda de Barcelona": null,
+"esdev|Carlisme": {
+"qid": "Q679189",
+"label": "carlisme",
+"desc": "ideologia política"
+},
+"esdev|Catarisme": {
+"qid": "Q161696",
+"label": "catarisme",
+"desc": "movimiento religioso cristiano maniqueo de carácter gnóstico"
+},
+"esdev|Centre Excursionista de Catalunya": {
+"qid": "Q3753211",
+"label": "Centre Excursionista de Catalunya",
+"desc": "entitat excursionista, científica, literària i cultural catalana"
+},
+"esdev|Companyia Catalana d'Orient": {
+"qid": "Q1501196",
+"label": "Gran Companyia Catalana",
+"desc": "companyia de mercenaris"
+},
+"esdev|Conferència de San Francisco": {
+"qid": "Q1504861",
+"label": "Conferencia de las Naciones Unidas sobre Organización Internacional",
+"desc": "convención fundacional de las Naciones Unidas"
+},
+"esdev|Conquesta de Barcelona": {
+"qid": "Q11915297",
+"label": "conquesta de Barcelona",
+"desc": "operació militar"
+},
+"esdev|Conquesta de Nàpols": null,
+"esdev|Constitucions catalanes": {
+"qid": "Q2883547",
+"label": "Constitucions catalanes",
+"desc": "lleis del Principat de Catalunya"
+},
+"esdev|Constitució espanyola de 1978": {
+"qid": "Q847664",
+"label": "Constitució Espanyola de 1978",
+"desc": "màxima llei en l'ordenament jurídic de l'Estat espanyol"
+},
+"esdev|Converses de Salamanca": {
+"qid": "Q5786144",
+"label": "Converses de Salamanca",
+"desc": ""
+},
+"esdev|Cop d'estat del 23 de febrer de 1981": null,
+"esdev|Creació del cantó del Jura": null,
+"esdev|Crisi de 1917": {
+"qid": "Q3754846",
+"label": "Crisi de 1917",
+"desc": "crisis in 1917 in Spain consisting of the formation of the Juntas de Defensa, the Parliamentary Assembly organized by the Regionalist League of Catalonia, and a general strike"
+},
+"esdev|Dau al Set": {
+"qid": "Q1172762",
+"label": "Dau al Set",
+"desc": "grup artístic"
+},
+"esdev|Declaració Universal dels Drets Humans": {
+"qid": "Q7813",
+"label": "Declaració Universal dels Drets Humans",
+"desc": "document aprovat per l'Assemblea General de les Nacions Unides"
+},
+"esdev|Deportació republicana als camps nazis": null,
+"esdev|Desembarcament de Mallorca": {
+"qid": "Q919922",
+"label": "desembarcament de Mallorca",
+"desc": "batalla de la Guerra Civil espanyola"
+},
+"esdev|Dia Internacional de les Dones": {
+"qid": "Q38964",
+"label": "Dia Internacional de les Dones",
+"desc": "Dia en que es commemora la lluita de la dona per la seva participació al camp del treball"
+},
+"esdev|Eleccions generals espanyoles de 1936": {
+"qid": "Q3586943",
+"label": "eleccions generals espanyoles de 1936",
+"desc": "elecciones generales de España"
+},
+"esdev|Els Segadors": {
+"qid": "Q271585",
+"label": "Els segadors",
+"desc": "Himne nacional de Catalunya"
+},
+"esdev|Esclavitud": {
+"qid": "Q8463",
+"label": "esclavitud",
+"desc": "tractament d'una persona com a propietat d'una altra"
+},
+"esdev|Escola Moderna": {
+"qid": "Q1367396",
+"label": "Escola Moderna",
+"desc": "Ferrer school in Barcelona"
+},
+"esdev|Escola del Mar": {
+"qid": "Q17300739",
+"label": "Escola del Mar",
+"desc": "edifici escolar i projecte pedagògic de Barcelona"
+},
+"esdev|Espoli del romànic": null,
+"esdev|Estatut d'autonomia de Catalunya de 1979": {
+"qid": "Q1266900",
+"label": "Estatut d'Autonomia de Catalunya de 1979",
+"desc": "llei orgànica promulgada el 1979 que atorgava a Catalunya un règim d'autonomia"
+},
+"esdev|Expansió catalana per la Mediterrània": null,
+"esdev|Exposició Internacional de Barcelona de 1929": {
+"qid": "Q283454",
+"label": "Exposició Internacional de Barcelona de 1929",
+"desc": "Exposició Internacional realitzada a Barcelona el 1929"
+},
+"esdev|Exposició Universal": {
+"qid": "Q172754",
+"label": "exposició universal",
+"desc": "gran exposició internacional"
+},
+"esdev|Febre d'or": {
+"qid": "Q11921637",
+"label": "Febre d'Or",
+"desc": ""
+},
+"esdev|Fets del Palau de la Música": {
+"qid": "Q9080306",
+"label": "fets del Palau de la Música",
+"desc": "Events at the Palau de la Música Catalana"
+},
+"esdev|Fets del sis d'octubre": {
+"qid": "Q9063028",
+"label": "fets del sis d'octubre",
+"desc": "proclamació de l'Estat Català de la República Federal Espanyola"
+},
+"esdev|GATCPAC": {
+"qid": "Q18489099",
+"label": "GATCPAC",
+"desc": "grup d'arquitectes del moviment modern a Catalunya"
+},
+"esdev|Guerra Civil catalana": {
+"qid": "Q2476062",
+"label": "guerra civil catalana",
+"desc": "guerra civil del segle XV al Principat de Catalunya"
+},
+"esdev|Guerra civil algeriana": {
+"qid": "Q142529",
+"label": "Guerra Civil Algeriana",
+"desc": "conflicto armado entre el gobierno argelino y grupos rebeldes islamistas"
+},
+"esdev|Guerra dels Malcontents": {
+"qid": "Q3398213",
+"label": "Guerra dels Malcontents",
+"desc": "insurrecció armada que es va desenvolupar el 1827 a la Catalunya rural"
+},
+"esdev|Guerra hispano-estatunidenca": {
+"qid": "Q12583",
+"label": "Guerra Hispano-estatunidenca",
+"desc": "(1898) guerra entre Espanya i els EUA"
+},
+"esdev|Ictineu": {
+"qid": "Q6023078",
+"label": "A Narcís Monturiol",
+"desc": "Monument de Josep Maria Subirachs"
+},
+"esdev|Incident de Mukden": {
+"qid": "Q242099",
+"label": "incident de Mukden",
+"desc": "incidente, cerca de Mukden (hoy Shenyang), en donde un tramo del ferrocarril del Sur de Manchuria, gestionado por una compañía de propiedad japonesa, fue dinamitado; sirvió para justificar la ocupación de Manchuria por el Ejército de Kwantung"
+},
+"esdev|Independència dels Estats Units": {
+"qid": "Q40949",
+"label": "Guerra d'Independència dels Estats Units",
+"desc": "(1775–1783) conflicte a Amèrica del Nord"
+},
+"esdev|Institución Libre de Enseñanza": {
+"qid": "Q1664711",
+"label": "Institución Libre de Enseñanza",
+"desc": "projecte pedagògic creat el 1876 per Francisco Giner de los Ríos"
+},
+"esdev|Institut-Escola": {
+"qid": "Q9008664",
+"label": "Institut-Escola de la Generalitat de Catalunya",
+"desc": "school in Spain"
+},
+"esdev|Jocs Olímpics": {
+"qid": "Q5389",
+"label": "Jocs Olímpics",
+"desc": "esdeveniment esportiu internacional"
+},
+"esdev|Mesura del meridià": null,
+"esdev|Mossos d'Esquadra": {
+"qid": "Q1424346",
+"label": "Mossos d'Esquadra",
+"desc": "cos de policia de la Generalitat de Catalunya"
+},
+"esdev|Mujeres Libres": {
+"qid": "Q1472936",
+"label": "Mujeres Libres",
+"desc": "organització anarcofeminista (1936-1939)"
+},
+"esdev|Pla Marshall": {
+"qid": "Q4576",
+"label": "Pla Marshall",
+"desc": "pla dels Estats Units per a la reconstrucció dels països europeus després de la Segona Guerra Mundial"
+},
+"esdev|Primavera de Praga": {
+"qid": "Q162401",
+"label": "Primavera de Praga",
+"desc": "(1968) liberalització a Txecoslovàquia"
+},
+"esdev|Primera Guerra judeoromana": {
+"qid": "Q202578",
+"label": "Primera Guerra Judeoromana",
+"desc": "conflicto entre el Imperio romano y los rebeldes judíos en la provincia de Judea en el siglo I"
+},
+"esdev|Proclamació de la Segona República": {
+"qid": "Q9063033",
+"label": "proclamació de la Segona República Espanyola",
+"desc": "proclamació d'aquest nou règim a Espanya el 14 d'abril de 1931, la qual marca el final de la monarquia borbònica de la Restauració de 1874"
+},
+"esdev|Referèndum del Quebec de 1980": {
+"qid": "Q2064289",
+"label": "Referèndum del Quebec de 1980",
+"desc": "plebiscit de 1980 sobre la independència del Quebec del Canadà"
+},
+"esdev|Referèndum del Quebec de 1995": {
+"qid": "Q943044",
+"label": "Referèndum del Quebec de 1995",
+"desc": "referèndum de 1995 a Quebec"
+},
+"esdev|Retorn de Tarradellas": null,
+"esdev|Revolució Industrial": {
+"qid": "Q2269",
+"label": "Revolució Industrial",
+"desc": "canvi de l'era agrària a l'era industrial"
+},
+"esdev|Revolució Russa de 1905": {
+"qid": "Q184928",
+"label": "Revolució russa de 1905",
+"desc": "revolta antigovernamental arreu de l'Imperi Rus"
+},
+"esdev|Revolució de 1936": {
+"qid": "Q1982745",
+"label": "revolució social espanyola de 1936",
+"desc": "proceso revolucionario en España"
+},
+"esdev|Revolució dels Clavells": {
+"qid": "Q193245",
+"label": "Revolució dels Clavells",
+"desc": "alçament militar i civil a Portugal, el 25 d'abril de 1974, que va enderrocar el règim dictatorial"
+},
+"esdev|Ràdio Barcelona": {
+"qid": "Q11260610",
+"label": "Ràdio Barcelona",
+"desc": "emisora de ràdio catalana"
+},
+"esdev|Sagrada Família": {
+"qid": "Q618057",
+"label": "Sagrada Família",
+"desc": "Jesús, María y José"
+},
+"esdev|Saqueig de Barcelona de 985": null,
+"esdev|Setge de Barcelona de 1714": null,
+"esdev|Tancament de Caixes": {
+"qid": "Q610244",
+"label": "Tancament de Caixes",
+"desc": "Protesta popular realitzada a Barcelona el 1899"
+},
+"esdev|Universitat Autònoma de Barcelona": {
+"qid": "Q43452",
+"label": "Universitat Autònoma de Barcelona",
+"desc": "universitat pública catalana"
+},
+"esdev|Òmnium Cultural": {
+"qid": "Q1959428",
+"label": "Òmnium Cultural",
+"desc": "associació civil"
+},
+"lloc|Alt Urgell": {
+"qid": "Q12720",
+"label": "Alt Urgell",
+"desc": "comarca de Catalunya",
+"lat": 42.2386,
+"lon": 1.4061
+},
+"lloc|Andratx": {
+"qid": "Q493017",
+"label": "Andratx",
+"desc": "municipi de l'illa de Mallorca",
+"lat": 39.5746,
+"lon": 2.4206
+},
+"lloc|Arenys de Mar": {
+"qid": "Q12110",
+"label": "Arenys de Mar",
+"desc": "municipi de Catalunya",
+"lat": 41.5819,
+"lon": 2.5503
+},
+"lloc|Benissanet": {
+"qid": "Q607737",
+"label": "Benissanet",
+"desc": "municipi de Catalunya",
+"lat": 41.0569,
+"lon": 0.6347
+},
+"lloc|Betlem": {
+"qid": "Q5776",
+"label": "Betlem",
+"desc": "ciutat de Palestina",
+"lat": 31.7044,
+"lon": 35.2061
+},
+"lloc|Blanes": {
+"qid": "Q12991",
+"label": "Blanes",
+"desc": "municipi de Catalunya",
+"lat": 41.674,
+"lon": 2.7921
+},
+"lloc|Caldes d'Estrac": {
+"qid": "Q12102",
+"label": "Caldes d'Estrac",
+"desc": "municipi de Catalunya",
+"lat": 41.5719,
+"lon": 2.5286
+},
+"lloc|Califòrnia": {
+"qid": "Q99",
+"label": "Califòrnia",
+"desc": "estat dels Estats Units d'Amèrica",
+"lat": 37,
+"lon": -120
+},
+"lloc|Camprodon": {
+"qid": "Q6944",
+"label": "Camprodon",
+"desc": "municipi de Catalunya",
+"lat": 42.3118,
+"lon": 2.3648
+},
+"lloc|Canigó": {
+"qid": "Q6650",
+"label": "Canigó",
+"desc": "muntanya del Pirineu entre Conflent i el Vallespir",
+"lat": 42.5189,
+"lon": 2.4566
+},
+"lloc|Conflent": {
+"qid": "Q15477",
+"label": "Conflent",
+"desc": "Comarca de la Catalunya del Nord, sota administració francesa",
+"lat": 42.6,
+"lon": 2.3833
+},
+"lloc|Estocolm": {
+"qid": "Q1754",
+"label": "Estocolm",
+"desc": "capital de Suècia",
+"lat": 59.3294,
+"lon": 18.0686
+},
+"lloc|Flix": {
+"qid": "Q548045",
+"label": "Flix",
+"desc": "municipi de Catalunya",
+"lat": 41.231,
+"lon": 0.5501
+},
+"lloc|Galícia": {
+"qid": "Q3908",
+"label": "Galícia",
+"desc": "país del nord-oest de la península Ibèrica",
+"lat": 42.8,
+"lon": -7.9
+},
+"lloc|Gaza": {
+"qid": "Q47492",
+"label": "Gaza",
+"desc": "ciutat de Palestina",
+"lat": 31.5075,
+"lon": 34.4597
+},
+"lloc|Goa": {
+"qid": "Q1171",
+"label": "Goa",
+"desc": "estat de la costa oest de l'India",
+"lat": 15.4019,
+"lon": 74.0433
+},
+"lloc|Illa": {
+"qid": "Q689461",
+"label": "Illa",
+"desc": "vila i comuna de la Catalunya del Nord, al Rosselló, sota administració francesa",
+"lat": 42.6706,
+"lon": 2.6206
+},
+"lloc|Jura": {
+"qid": "Q178611",
+"label": "Serralada del Jura",
+"desc": "cadena montañosa europea",
+"lat": 47.2431,
+"lon": 6.0219
+},
+"lloc|L'Escala": {
+"qid": "Q11304",
+"label": "l'Escala",
+"desc": "municipi de la província de Girona, Catalunya (Espanya)",
+"lat": 42.1136,
+"lon": 3.135
+},
+"lloc|L'Havana": {
+"qid": "Q1563",
+"label": "l'Havana",
+"desc": "capital de Cuba",
+"lat": 23.1367,
+"lon": -82.3589
+},
+"lloc|L'Hospitalet de Llobregat": {
+"qid": "Q15470",
+"label": "l'Hospitalet de Llobregat",
+"desc": "municipi de Catalunya",
+"lat": 41.3589,
+"lon": 2.0992
+},
+"lloc|La Selva del Camp": {
+"qid": "Q1230100",
+"label": "la Selva del Camp",
+"desc": "municipi de Catalunya",
+"lat": 41.2155,
+"lon": 1.1373
+},
+"lloc|Las Hurdes": {
+"qid": "Q2019929",
+"label": "Las Hurdes",
+"desc": "comarca d'Extremadura situada a la zona nord de la província de Càceres",
+"lat": 40.379,
+"lon": -6.28
+},
+"lloc|Llucmajor": {
+"qid": "Q927498",
+"label": "Llucmajor",
+"desc": "municipi de l'illa de Mallorca",
+"lat": 39.49,
+"lon": 2.8898
+},
+"lloc|Mallorca": {
+"qid": "Q8828",
+"label": "Mallorca",
+"desc": "illa de la Mediterrània",
+"lat": 39.6167,
+"lon": 2.9833
+},
+"lloc|Martorell": {
+"qid": "Q15623",
+"label": "Martorell",
+"desc": "municipi de Catalunya",
+"lat": 41.4744,
+"lon": 1.9305
+},
+"lloc|Milet": {
+"qid": "Q169460",
+"label": "Milet",
+"desc": "antiga ciutat grega a l'Àsia Menor",
+"lat": 37.5311,
+"lon": 27.2756,
+"dubte": true
+},
+"lloc|Moguer": {
+"qid": "Q785888",
+"label": "Moguer",
+"desc": "municipi andalús",
+"lat": 37.2747,
+"lon": -6.8386
+},
+"lloc|Montjuïc": {
+"qid": "Q1122701",
+"label": "Montjuïc",
+"desc": "parc, muntanya i barri de Barcelona al districte de Sants-Montjuïc",
+"lat": 41.3642,
+"lon": 2.1581
+},
+"lloc|Occitània": {
+"qid": "Q18678265",
+"label": "Occitània",
+"desc": "regió administrativa de França",
+"lat": 43.7075,
+"lon": 2.1375
+},
+"lloc|Odessa": {
+"qid": "Q1874",
+"label": "Odessa",
+"desc": "ciutat d'Ucraïna",
+"lat": 46.4842,
+"lon": 30.7325,
+"dubte": true
+},
+"lloc|Pollença": {
+"qid": "Q601112",
+"label": "Pollença",
+"desc": "municipi de l'illa de Mallorca",
+"lat": 39.8772,
+"lon": 3.0164
+},
+"lloc|Pompeia": {
+"qid": "Q43332",
+"label": "Pompeia",
+"desc": "antiga ciutat romana destruïda pel Vesuvi l'any 79",
+"lat": 40.7506,
+"lon": 14.4897
+},
+"lloc|Prada": {
+"qid": "Q212450",
+"label": "Prada",
+"desc": "vila de la Catalunya del Nord, capital del Conflent",
+"lat": 42.6172,
+"lon": 2.4219
+},
+"lloc|Pàdua": {
+"qid": "Q617",
+"label": "Pàdua",
+"desc": "gran ciutat d'Itàlia",
+"lat": 45.4078,
+"lon": 11.8733
+},
+"lloc|Quebec": {
+"qid": "Q176",
+"label": "Quebec",
+"desc": "província del Canadà",
+"lat": 52,
+"lon": -72
+},
+"lloc|Queronea": {
+"qid": "Q549874",
+"label": "Queronea",
+"desc": "ciutat de Grècia",
+"lat": 38.495,
+"lon": 22.8475
+},
+"lloc|Saba": {
+"qid": "Q216068",
+"label": "Regne de Sabà",
+"desc": "antic regne situat al sud d'Aràbia, al nord d'Etiòpia i a Eritrea",
+"lat": 15.45,
+"lon": 45.3333
+},
+"lloc|San Francisco": {
+"qid": "Q62",
+"label": "San Francisco",
+"desc": "ciutat de Califòrnia, EUA",
+"lat": 37.775,
+"lon": -122.4194
+},
+"lloc|Sant Feliu de Guíxols": {
+"qid": "Q13521",
+"label": "Sant Feliu de Guíxols",
+"desc": "municipi de Catalunya",
+"lat": 41.7806,
+"lon": 3.0306
+},
+"lloc|Sant Salvador de la Vedella": {
+"qid": "Q9034439",
+"label": "Sant Salvador de la Vedella",
+"desc": "Benedictine monastery in Catalonia",
+"lat": 42.1692,
+"lon": 1.8625
+},
+"lloc|Santo Domingo": {
+"qid": "Q34820",
+"label": "Santo Domingo",
+"desc": "capital de la República Dominicana",
+"lat": 18.4625,
+"lon": -69.9361
+},
+"lloc|Sardenya": {
+"qid": "Q1462",
+"label": "Sardenya",
+"desc": "illa mediterrània i regió d'Itàlia",
+"lat": 40,
+"lon": 9
+},
+"lloc|Sau": {
+"qid": "Q851",
+"label": "Aràbia Saudita",
+"desc": "país a l'Àsia occidental",
+"lat": 23.7167,
+"lon": 44.1167,
+"dubte": true
+},
+"lloc|Shenyang": {
+"qid": "Q11720",
+"label": "Shenyang",
+"desc": "capital de la provincia china de Liaoning",
+"lat": 41.8025,
+"lon": 123.4281
+},
+"lloc|Sitges": {
+"qid": "Q15551",
+"label": "Sitges",
+"desc": "municipi de Catalunya",
+"lat": 41.2339,
+"lon": 1.8042
+},
+"lloc|Sixena": {
+"qid": "Q3572674",
+"label": "Santa Maria de Sixena",
+"desc": "monestir d'estil cistercenc",
+"lat": 41.7094,
+"lon": -0.0194
+},
+"lloc|Tànger": {
+"qid": "Q126148",
+"label": "Tànger",
+"desc": "ciutat del Marroc",
+"lat": 35.7695,
+"lon": -5.8045
+},
+"lloc|Tàrrega": {
+"qid": "Q752137",
+"label": "Tàrrega",
+"desc": "municipi de Catalunya",
+"lat": 41.6464,
+"lon": 1.1394
+},
+"lloc|Valladolid": {
+"qid": "Q8356",
+"label": "Valladolid",
+"desc": "municipi castellà al nord-oest de la península Ibèrica",
+"lat": 41.652,
+"lon": -4.7286
+},
+"pers|Agustí Bartra": {
+"qid": "Q3324600",
+"label": "Agustí Bartra i Lleonart",
+"desc": "escriptor català"
+},
+"pers|Agustí Esclasans": {
+"qid": "Q11904398",
+"label": "Agustí Esclasans i Folch",
+"desc": "poeta i traductor català"
+},
+"pers|Agustí Pedro i Pons": {
+"qid": "Q11904406",
+"label": "Agustí Pedro i Pons",
+"desc": "metge català"
+},
+"pers|Albert Pérez Baró": {
+"qid": "Q19289484",
+"label": "Albert Pérez i Baró",
+"desc": "sindicalista català"
+},
+"pers|Alberto Bayo": {
+"qid": "Q13982",
+"label": "Alberto Bayo Giroud",
+"desc": "militar i escriptor espanyol"
+},
+"pers|Aleksandr Alekhin": {
+"qid": "Q131374",
+"label": "Aleksandr Alekhin",
+"desc": "ajedrecista francés de origen ruso"
+},
+"pers|Aleksandr Puixkin": {
+"qid": "Q7200",
+"label": "Aleksandr Puixkin",
+"desc": "escriptor rus (1799–1837)"
+},
+"pers|Aleksandra Kollontai": {
+"qid": "Q179558",
+"label": "Aleksandra Kol·lontai",
+"desc": "política revolucionària i diplomàtica soviètica (1872-1952)"
+},
+"pers|Alexandre de Riquer": {
+"qid": "Q4720922",
+"label": "Alexandre de Riquer i Ynglada",
+"desc": "artista català"
+},
+"pers|Alfons XIII": {
+"qid": "Q18363",
+"label": "Alfons XIII d'Espanya",
+"desc": "rei d'Espanya"
+},
+"pers|Amilcare Ponchielli": {
+"qid": "Q207390",
+"label": "Amilcare Ponchielli",
+"desc": "compositor italià"
+},
+"pers|Amparo Poch": {
+"qid": "Q4748068",
+"label": "Amparo Poch y Gascón",
+"desc": "metgessa, periodista i anarcofeminista aragonesa"
+},
+"pers|Anaïs Nin": {
+"qid": "Q220018",
+"label": "Anaïs Nin",
+"desc": "escriptora francoamericana"
+},
+"pers|Andreas Vesal": {
+"qid": "Q170267",
+"label": "Andreas Vesal",
+"desc": "anatomista, metge i escriptor (1514–1564)"
+},
+"pers|André Malraux": {
+"qid": "Q151164",
+"label": "André Malraux",
+"desc": "prosista, França"
+},
+"pers|Anna Murià": {
+"qid": "Q8200129",
+"label": "Anna Murià i Romaní",
+"desc": "escriptora, traductora i periodista catalana."
+},
+"pers|Anselm Turmeda": {
+"qid": "Q2551187",
+"label": "Anselm Turmeda",
+"desc": "escriptor mallorquí"
+},
+"pers|Antoni Bonet": {
+"qid": "Q8201037",
+"label": "Antoni Bonet i Castellana",
+"desc": "arquitecte català"
+},
+"pers|Antoni Maria Marcet": {
+"qid": "Q11905881",
+"label": "Antoni Maria Marcet i Poal",
+"desc": "monjo i abat català"
+},
+"pers|Antoni Maria Sbert": {
+"qid": "Q8201070",
+"label": "Antoni Maria Sbert i Massanet",
+"desc": "polític mallorquí establert a Catalunya"
+},
+"pers|Antoni Miralda": {
+"qid": "Q3816475",
+"label": "Antoni Miralda",
+"desc": "artista català"
+},
+"pers|Antoni Rovira i Virgili": {
+"qid": "Q2857084",
+"label": "Antoni Rovira i Virgili",
+"desc": "polític català"
+},
+"pers|Antoni de Bofarull": {
+"qid": "Q2857082",
+"label": "Antoni de Bofarull i Brocà",
+"desc": "Historiador, poeta, novel·lista, dramaturg i arxiver català"
+},
+"pers|Antoni de Martí i Franquès": {
+"qid": "Q17301370",
+"label": "Antoni de Martí i Franquès",
+"desc": "científic català"
+},
+"pers|Antoni de Moragas": {
+"qid": "Q5697559",
+"label": "Antoni de Moragas i Gallissà",
+"desc": "arquitecte català"
+},
+"pers|Antonina Rodrigo": {
+"qid": "Q8201111",
+"label": "Antonina Rodrigo García",
+"desc": "escriptora espanyola"
+},
+"pers|Apel·les Mestres": {
+"qid": "Q2858166",
+"label": "Apel·les Mestres i Oñós",
+"desc": "artista polifacètic català (1854-1936)"
+},
+"pers|Arnau Puig": {
+"qid": "Q618470",
+"label": "Arnau Puig i Grau",
+"desc": "crític i sociòleg de l'art català"
+},
+"pers|Arquíloc": {
+"qid": "Q201323",
+"label": "Arquíloc",
+"desc": "poeta líric grec"
+},
+"pers|Artur Bladé": {
+"qid": "Q8205879",
+"label": "Artur Bladé i Desumvila",
+"desc": "escriptor i periodista català (1907-1995)"
+},
+"pers|Auguste Rodin": {
+"qid": "Q30755",
+"label": "Auguste Rodin",
+"desc": "escultor francès (1840–1917)"
+},
+"pers|Aureli Capmany": {
+"qid": "Q11907278",
+"label": "Aureli Capmany i Farrés",
+"desc": "folklorista català"
+},
+"pers|Aurora Bertrana": {
+"qid": "Q8209355",
+"label": "Aurora Bertrana i Salazar",
+"desc": "escriptora i violoncel·lista catalana"
+},
+"pers|Avel·lí Artís-Gener": {
+"qid": "Q8210199",
+"label": "Avel·lí Artís-Gener",
+"desc": "escriptor i traductor català (1912–2000)"
+},
+"pers|Baldomer Lostau": {
+"qid": "Q19289939",
+"label": "Baldomer Lostau i Prats",
+"desc": "polític català"
+},
+"pers|Baltasar Porcel": {
+"qid": "Q1861292",
+"label": "Baltasar Porcel i Pujol",
+"desc": "periodista i escriptor mallorquí"
+},
+"pers|Bartomeu Robert": {
+"qid": "Q3915729",
+"label": "Bartomeu Robert i Yarzábal",
+"desc": "metge i polític català"
+},
+"pers|Basi Mira": null,
+"pers|Benet Roura": {
+"qid": "Q85993848",
+"label": "Benet Roura i Barrios",
+"desc": ""
+},
+"pers|Benjamin Franklin": {
+"qid": "Q34969",
+"label": "Benjamin Franklin",
+"desc": "polímata estatunidenc (1706-1790)"
+},
+"pers|Bernat Martorell": {
+"qid": "Q705421",
+"label": "Bernat Martorell",
+"desc": "pintor català"
+},
+"pers|Blaise Pascal": {
+"qid": "Q1290",
+"label": "Blaise Pascal",
+"desc": "polímata occità (1623–1662)"
+},
+"pers|Bobby Fischer": {
+"qid": "Q41314",
+"label": "Bobby Fischer",
+"desc": "escaquista estatunidenc (1943–2008)"
+},
+"pers|C. P. Snow": {
+"qid": "Q333575",
+"label": "Charles Percy Snow",
+"desc": "escriptor britànic"
+},
+"pers|Calixt III": {
+"qid": "Q160369",
+"label": "Calixt III",
+"desc": "papa de l'església catòlica"
+},
+"pers|Camille Claudel": {
+"qid": "Q120582",
+"label": "Camille Claudel",
+"desc": "escultora francesa"
+},
+"pers|Carles Barba": {
+"qid": "Q21856346",
+"label": "Carles Barba Masagué",
+"desc": "empresari i director de cinema català"
+},
+"pers|Carles Fages de Climent": {
+"qid": "Q2939069",
+"label": "Carles Fages de Climent",
+"desc": "narrador, dramaturg, poeta, crític d'art i literari, i periodista empordanès"
+},
+"pers|Carles Hug de Borbó-Parma": {
+"qid": "Q537914",
+"label": "Carles Hug de Borbó i Parma",
+"desc": "cap de la Casa de Borbó-Parma i Duc de Parma i Piacenza"
+},
+"pers|Carles III d'Àustria": null,
+"pers|Carles Pirozzini": {
+"qid": "Q5749401",
+"label": "Carles Pirozzini i Martí",
+"desc": "museògraf, crític d'art, col·leccionista, escriptor barceloní"
+},
+"pers|Carles Soldevila": {
+"qid": "Q3397322",
+"label": "Carles Soldevila i Zubiburu",
+"desc": "dramaturg, poeta, periodista i novel·lista català"
+},
+"pers|Carlos Barral": {
+"qid": "Q1042738",
+"label": "Carlos Barral i Agesta",
+"desc": "poeta, editor i polític (1928-1989)"
+},
+"pers|Carme Karr": {
+"qid": "Q4892657",
+"label": "Carme Karr i Alfonsetti",
+"desc": "escriptora, periodista, feminista, editora de premsa, musicòloga i compositora, pacifista i defensora del vot de les dones a Catalunya"
+},
+"pers|Carmelina Sánchez-Cutillas": {
+"qid": "Q8338656",
+"label": "Carmelina Sánchez-Cutillas i Martínez",
+"desc": "escriptora i historiadora valenciana"
+},
+"pers|Caterina Albert": {
+"qid": "Q2914475",
+"label": "Caterina Albert i Paradís",
+"desc": "escriptora catalana, figura cabdal del modernisme literari català"
+},
+"pers|Celestí Barallat": {
+"qid": "Q18697231",
+"label": "Celestí Barallat i Falguera",
+"desc": "advocat i escriptor català"
+},
+"pers|Charles Perrault": {
+"qid": "Q128460",
+"label": "Charles Perrault",
+"desc": "escriptor francès"
+},
+"pers|Christina Rossetti": {
+"qid": "Q236596",
+"label": "Christina Rossetti",
+"desc": "poeta prerafaelita anglesa"
+},
+"pers|Cipriano Martos": {
+"qid": "Q48688403",
+"label": "Cipriano Martos Jiménez",
+"desc": "activista polític i sindicalista"
+},
+"pers|Claudi Ametlla": {
+"qid": "Q5485242",
+"label": "Claudi Ametlla i Coll",
+"desc": "periodista i polític català"
+},
+"pers|Comte Arnau": {
+"qid": "Q75362109",
+"label": "Comte Arnaud le Begue de Germiny",
+"desc": "(born 1962)"
+},
+"pers|Comte d'Espanya": {
+"qid": "Q3438691",
+"label": "Charles d'Espagnac",
+"desc": "noble i militar francès al servei de la monarquia del Regne d'Espanya"
+},
+"pers|Comtessa de Dia": {
+"qid": "Q4498",
+"label": "Beatriu de Dia",
+"desc": "trovadora del segle XII"
+},
+"pers|Conxa Pérez": {
+"qid": "Q19290223",
+"label": "Conxa Pérez Collado",
+"desc": "sindicalista espanyola"
+},
+"pers|David Hockney": {
+"qid": "Q159907",
+"label": "David Hockney",
+"desc": "artista britànic"
+},
+"pers|Demòcrit": {
+"qid": "Q41980",
+"label": "Demòcrit",
+"desc": "filòsof presocràtic grec (c. 460 – c. 370 aC)"
+},
+"pers|Denis de Rougemont": {
+"qid": "Q123698",
+"label": "Denis de Rougemont",
+"desc": "escriptor suís"
+},
+"pers|Dionisio Ridruejo": {
+"qid": "Q2553101",
+"label": "Dionisio Ridruejo Jiménez",
+"desc": "poeta espanyol"
+},
+"pers|Diògenes Laerci": {
+"qid": "Q59138",
+"label": "Diògenes Laerci",
+"desc": "escriptor de l'antiga Grècia, historiador de la filosofia"
+},
+"pers|Django Reinhardt": {
+"qid": "Q44122",
+"label": "Django Reinhardt",
+"desc": "guitarrista francés"
+},
+"pers|Dolors Monserdà": {
+"qid": "Q10418211",
+"label": "Dolors Monserdà i Vidal",
+"desc": "escriptora feminista i primera novel·lista catalana"
+},
+"pers|Domènec de Bellmunt": {
+"qid": "Q16943436",
+"label": "Domènec Pallerola i Munné",
+"desc": "escriptor català"
+},
+"pers|Edmon Vallès": {
+"qid": "Q11681275",
+"label": "Edmon Vallès i Perdrix",
+"desc": "escriptor i periodista català"
+},
+"pers|Eduard Nicol": {
+"qid": "Q426552",
+"label": "Eduard Nicol i Franciscà",
+"desc": "filòsof mexicà"
+},
+"pers|Edward Burne-Jones": {
+"qid": "Q216406",
+"label": "Edward Coley Burne-Jones",
+"desc": "artista y diseñador inglés"
+},
+"pers|Elena Romo": {
+"qid": "Q15089558",
+"label": "Jelena Romodanovskaja",
+"desc": "crítica literaria rusa"
+},
+"pers|Emanuel Lasker": {
+"qid": "Q57095",
+"label": "Emanuel Lasker",
+"desc": "jugador d'escacs i matemàtic"
+},
+"pers|Emili Mira": {
+"qid": "Q10272414",
+"label": "Emili Mira i López",
+"desc": "psicòleg català"
+},
+"pers|Emmanuel Levinas": {
+"qid": "Q153034",
+"label": "Emmanuel Levinas",
+"desc": "filòsof francès"
+},
+"pers|Enees": {
+"qid": "Q405969",
+"label": "Enees Tàctic",
+"desc": "primer escritor griego que escribió sobre el arte de la guerra"
+},
+"pers|Enrique Moles": {
+"qid": "Q590842",
+"label": "Enric Moles i Ormella",
+"desc": "químic català"
+},
+"pers|Ernest Hello": {
+"qid": "Q557496",
+"label": "Ernest Hello",
+"desc": "crítico literario francés"
+},
+"pers|Ernest Lluch": {
+"qid": "Q1892914",
+"label": "Ernest Lluch i Martín",
+"desc": "economista i polític català"
+},
+"pers|Ernest Moliné i Brasés": {
+"qid": "Q11919628",
+"label": "Ernest Moliné i Brasés",
+"desc": "Jurista, historiador i advocat català"
+},
+"pers|Estanislau Figueras": {
+"qid": "Q553120",
+"label": "Estanislau Figueras i de Moragas",
+"desc": "polític català"
+},
+"pers|Ester": {
+"qid": "Q732413",
+"label": "Ester",
+"desc": "reina bíblica",
+"no_huma": true
+},
+"pers|Esteve Albert": {
+"qid": "Q8843248",
+"label": "Esteve Albert i Corp",
+"desc": "promotor cultural català"
+},
+"pers|Eugeni Xammar": {
+"qid": "Q1373218",
+"label": "Eugeni Xammar i Puigventós",
+"desc": "periodista català"
+},
+"pers|Eusebi Colomer": {
+"qid": "Q11921289",
+"label": "Eusebi Colomer i Pous",
+"desc": "filòsof i eclesiàstic català (1923-1997)"
+},
+"pers|Ferran Canyameres": {
+"qid": "Q11921834",
+"label": "Ferran Canyameres i Casamada",
+"desc": "escriptor català"
+},
+"pers|Flavi Josep": {
+"qid": "Q134461",
+"label": "Flavi Josep",
+"desc": "historiador jueu"
+},
+"pers|Francesc Ferrer i Guàrdia": {
+"qid": "Q354202",
+"label": "Francesc Ferrer i Guàrdia",
+"desc": "pedagog català creador de l'Escola Moderna"
+},
+"pers|Francesc Mestre i Noè": {
+"qid": "Q19290897",
+"label": "Francesc Mestre i Noé",
+"desc": "historiador i escriptor membre de la Renaixença(1866-1940)"
+},
+"pers|Francesc Moragas": {
+"qid": "Q11922795",
+"label": "Francesc Moragas i Barret",
+"desc": "abogado y economista catalán"
+},
+"pers|Francesc Pujols": {
+"qid": "Q367098",
+"label": "Francesc Pujols i Morgades",
+"desc": "escriptor i filòsof català (1882-1962)"
+},
+"pers|Francesc Surroca": null,
+"pers|Francesc Xavier Llorens i Barba": {
+"qid": "Q8962424",
+"label": "Francesc Xavier Llorens i Barba",
+"desc": "filòsof i catedràtic català"
+},
+"pers|Francesca Bonnemaison": {
+"qid": "Q8962234",
+"label": "Francesca Bonnemaison i Farriols",
+"desc": "pedagoga, escriptora i feminista catalana"
+},
+"pers|Francis Crick": {
+"qid": "Q123280",
+"label": "Francis Crick",
+"desc": "biòleg anglès (1916–2004)"
+},
+"pers|Francisco Fernández Buey": {
+"qid": "Q1096047",
+"label": "Francisco Fernández Buey",
+"desc": "polític, filòsof i assagista"
+},
+"pers|Francisco Giner de los Ríos": {
+"qid": "Q761732",
+"label": "Francisco Giner de los Ríos",
+"desc": "filòsof espanyol"
+},
+"pers|Frank Auerbach": {
+"qid": "Q215919",
+"label": "Frank Auerbach",
+"desc": "artista britànic"
+},
+"pers|Frederic Mistral": {
+"qid": "Q42596",
+"label": "Frederic Mistral",
+"desc": "escriptor occità"
+},
+"pers|Frederic Soler": {
+"qid": "Q3324465",
+"label": "Frederic Soler i Hubert",
+"desc": "dramaturg, poeta i empresari teatral català"
+},
+"pers|Félix Guattari": {
+"qid": "Q352465",
+"label": "Félix Guattari",
+"desc": "metge, psicoanalista i filòsof francès"
+},
+"pers|Gaziel": {
+"qid": "Q4895929",
+"label": "Gaziel",
+"desc": "escriptor i periodista català"
+},
+"pers|Georg Simmel": {
+"qid": "Q76849",
+"label": "Georg Simmel",
+"desc": "filòsof i sociòleg alemany (1858-1928)"
+},
+"pers|Georges Simenon": {
+"qid": "Q128790",
+"label": "Georges Simenon",
+"desc": "escriptor belga"
+},
+"pers|Giovanni Boccaccio": {
+"qid": "Q1402",
+"label": "Giovanni Boccaccio",
+"desc": "escriptor i humanista italià (1313–1375)"
+},
+"pers|Girolamo Savonarola": {
+"qid": "Q164823",
+"label": "Girolamo Savonarola",
+"desc": "governant de facto de Florència de 1494 a 1498; frare dominic i reformador"
+},
+"pers|Guerau de Liost": {
+"qid": "Q3163067",
+"label": "Guerau de Liost",
+"desc": "poeta, periodista i polític català (1878-1933)"
+},
+"pers|Guillem Díaz-Plaja": {
+"qid": "Q1531656",
+"label": "Guillem Díaz-Plaja i Contestí",
+"desc": "crític literari i historiador català"
+},
+"pers|Heiner Müller": {
+"qid": "Q57426",
+"label": "Heiner Müller",
+"desc": "dramaturgo y escritor alemán"
+},
+"pers|Henry Miller": {
+"qid": "Q187765",
+"label": "Henry Miller",
+"desc": "escriptor estatunidenc (1891–1980)"
+},
+"pers|Heràclit": {
+"qid": "Q41155",
+"label": "Heraclit",
+"desc": "filòsof presocràtic grec"
+},
+"pers|Ibn Battuta": {
+"qid": "Q7331",
+"label": "Ibn Battuta",
+"desc": "viatger i erudit magrebí (1304–1368/1369)"
+},
+"pers|Ignasi Agustí": {
+"qid": "Q2627280",
+"label": "Ignasi Agustí i Peypoch",
+"desc": "novel·lista, periodista i poeta català"
+},
+"pers|Ingmar Bergman": {
+"qid": "Q7546",
+"label": "Ingmar Bergman",
+"desc": "cineasta suec (1918–2007)"
+},
+"pers|Jacques Parizeau": {
+"qid": "Q1393455",
+"label": "Jacques Parizeau",
+"desc": "polític canadenc"
+},
+"pers|Jaime Gil de Biedma": {
+"qid": "Q978013",
+"label": "Jaime Gil de Biedma",
+"desc": "poeta català"
+},
+"pers|James Watson": {
+"qid": "Q83333",
+"label": "James Dewey Watson",
+"desc": "biòleg estatunidenc (1928–2025)"
+},
+"pers|Jan Patočka": {
+"qid": "Q381720",
+"label": "Jan Patočka",
+"desc": "Filòsof txec"
+},
+"pers|Jaume Brossa": {
+"qid": "Q9011083",
+"label": "Jaume Brossa i Roger",
+"desc": "dramaturg i articulista català"
+},
+"pers|Jaume Massó i Torrents": {
+"qid": "Q11927313",
+"label": "Jaume Massó i Torrents",
+"desc": "editor, escriptor i erudit català"
+},
+"pers|Jaume Serra i Húnter": {
+"qid": "Q9011136",
+"label": "Jaume Serra i Húnter",
+"desc": "Polític, professor universitari i filòsof català (1878-1943)"
+},
+"pers|Javier Mariscal": {
+"qid": "Q738017",
+"label": "Xavier Mariscal",
+"desc": "artista valencià"
+},
+"pers|Jean-Baptiste Delambre": {
+"qid": "Q246517",
+"label": "Jean-Baptiste Joseph Delambre",
+"desc": "matemàtic i astrònom francès"
+},
+"pers|Jean-Claude Nicolas Forestier": {
+"qid": "Q3049328",
+"label": "Jean Claude Nicolas Forestier",
+"desc": "arquitecte francès"
+},
+"pers|Jeroni Zanné": {
+"qid": "Q16947490",
+"label": "Jeroni Zanné i Rodríguez",
+"desc": "poeta espanyol"
+},
+"pers|Joan Alcover": {
+"qid": "Q980768",
+"label": "Joan Alcover i Maspons",
+"desc": "escriptor mallorquí"
+},
+"pers|Joan Arús": {
+"qid": "Q11927596",
+"label": "Joan Arús i Colomer",
+"desc": "poeta i assagista català"
+},
+"pers|Joan Baptista Bertran": {
+"qid": "Q5947706",
+"label": "Joan Baptista Bertran i Duran",
+"desc": "poeta (1911-1985)"
+},
+"pers|Joan Barceló": {
+"qid": "Q11927622",
+"label": "Joan Barceló",
+"desc": "arquitecte barroc valencià"
+},
+"pers|Joan Brossa": {
+"qid": "Q260436",
+"label": "Joan Brossa i Cuervo",
+"desc": "poeta, dramaturg i artista plàstic català"
+},
+"pers|Joan Coromines": {
+"qid": "Q137659",
+"label": "Joan Coromines i Vigneaux",
+"desc": "lingüista i etimòleg català"
+},
+"pers|Joan Crexells": {
+"qid": "Q11033020",
+"label": "Joan Crexells i Vallhonrat",
+"desc": "escriptor i filòsof català"
+},
+"pers|Joan II": {
+"qid": "Q297278",
+"label": "Joan II de Castella",
+"desc": "rei de Castella (1405-54)"
+},
+"pers|Joan Junceda": {
+"qid": "Q1690753",
+"label": "Joan García Junceda i Supervia",
+"desc": "dibuixant, il·lustrador i caricaturista"
+},
+"pers|Joan Manén": {
+"qid": "Q2701684",
+"label": "Joan Manén i Planas",
+"desc": "músic i compositor català"
+},
+"pers|Joan Maragall": {
+"qid": "Q562402",
+"label": "Joan Maragall i Gorina",
+"desc": "poeta i escriptor català"
+},
+"pers|Joan Oliver": {
+"qid": "Q76130095",
+"label": "Joan Patricia Oliver",
+"desc": "(born 1925)"
+},
+"pers|Joan Peiró": {
+"qid": "Q3054042",
+"label": "Joan Peiró i Belis",
+"desc": "sindicalista i polític català (1887-1942)"
+},
+"pers|Joan Puig i Ferreter": {
+"qid": "Q9012032",
+"label": "Joan Puig i Ferreter",
+"desc": "escriptor, dramaturg i polític català (1882-1956)"
+},
+"pers|Joan Rabascall": {
+"qid": "Q17031771",
+"label": "Joan Rabascall",
+"desc": "Catalan artist (born 1935)"
+},
+"pers|Joan Sardà Dexeus": {
+"qid": "Q4893263",
+"label": "Joan Sardà i Dexeus",
+"desc": "advocat i economista català"
+},
+"pers|Joan Teixidor": {
+"qid": "Q11927957",
+"label": "Joan Teixidor i Comes",
+"desc": "escriptor i editor català"
+},
+"pers|Joan Ventosa i Calvell": {
+"qid": "Q9016038",
+"label": "Joan Ventosa i Calvell",
+"desc": "polític i economista català"
+},
+"pers|Joaquim Borralleras": {
+"qid": "Q11928071",
+"label": "Joaquim Borralleras i Grau",
+"desc": "Spanish cultural activist (1880-1946)"
+},
+"pers|Joaquim Delclòs": {
+"qid": "Q42907321",
+"label": "Joaquim Delclòs i Urgell",
+"desc": ""
+},
+"pers|Joaquim Mir": {
+"qid": "Q1357729",
+"label": "Joaquim Mir i Trinxet",
+"desc": "pintor català"
+},
+"pers|Joaquim Molas": {
+"qid": "Q9012158",
+"label": "Joaquim Molas i Batllori",
+"desc": "escriptor, historiador i professor català"
+},
+"pers|Joaquim Ruyra": {
+"qid": "Q3753170",
+"label": "Joaquim Ruyra i Oms",
+"desc": "escriptor català"
+},
+"pers|Joaquín Torres-García": {
+"qid": "Q520713",
+"label": "Joaquim Torres i García",
+"desc": "pintor uruguaià"
+},
+"pers|John Milton": {
+"qid": "Q79759",
+"label": "John Milton",
+"desc": "poeta i assagista anglès (1608–1674)"
+},
+"pers|John Rawls": {
+"qid": "Q172544",
+"label": "John Rawls",
+"desc": "filòsof polític estatunidenc (1921–2002)"
+},
+"pers|Jordi Maragall": {
+"qid": "Q19256882",
+"label": "Jordi Maragall i Noble",
+"desc": "jurista, polític i advocat català"
+},
+"pers|Jordi Pujol": {
+"qid": "Q458702",
+"label": "Jordi Pujol i Soley",
+"desc": "126è President de la Generalitat de Catalunya"
+},
+"pers|Jordi Solé Tura": {
+"qid": "Q527326",
+"label": "Jordi Solé i Tura",
+"desc": "advocat, polític i professor universitari català"
+},
+"pers|Josep Antoni Coderch": {
+"qid": "Q953734",
+"label": "Josep Antoni Coderch i de Sentmenat",
+"desc": "arquitecte català"
+},
+"pers|Josep Dalmau": {
+"qid": "Q37828790",
+"label": "Josep Dalmau",
+"desc": "investigador espanyol"
+},
+"pers|Josep Gimeno Navarro": {
+"qid": "Q11928594",
+"label": "Josep Gimeno i Navarro",
+"desc": "poeta i futbolista català"
+},
+"pers|Josep Janés i Olivé": {
+"qid": "Q16943121",
+"label": "Josep Janés i Olivé",
+"desc": "poeta i editor català"
+},
+"pers|Josep Maria Ainaud de Lasarte": {
+"qid": "Q11928658",
+"label": "Josep Maria Ainaud de Lasarte",
+"desc": "historiador, periodista i polític català"
+},
+"pers|Josep Maria Calsamiglia": {
+"qid": "Q47283852",
+"label": "Josep Maria Calsamiglia i Vives",
+"desc": "escriptor i filòsof català"
+},
+"pers|Josep Maria Folch i Torres": {
+"qid": "Q9013203",
+"label": "Josep Maria Folch i Torres",
+"desc": "novel·lista i dramaturg català"
+},
+"pers|Josep Maria López-Picó": {
+"qid": "Q3184108",
+"label": "Josep Maria López-Picó",
+"desc": "poeta i editor català"
+},
+"pers|Josep Maria Poblet": {
+"qid": "Q42660935",
+"label": "Josep Maria Poblet",
+"desc": "investigador espanyol"
+},
+"pers|Josep Maria Prim": {
+"qid": "Q16999652",
+"label": "Josep Maria Prim i Guytó",
+"desc": "pintor espanyol"
+},
+"pers|Josep Maria Subirachs": {
+"qid": "Q182136",
+"label": "Josep Maria Subirachs i Sitjar",
+"desc": "escultor i pintor català"
+},
+"pers|Josep Moragues": {
+"qid": "Q3038210",
+"label": "Josep Moragues i Mas",
+"desc": "militar català que va lluitar pel bàndol austriacista a la Guerra de Successió"
+},
+"pers|Josep Narcís Roca i Farreras": {
+"qid": "Q11928826",
+"label": "Josep Narcís Roca i Farreras",
+"desc": "teòric del catalanisme republicà"
+},
+"pers|Josep Palau i Fabre": {
+"qid": "Q1332482",
+"label": "Josep Palau i Fabre",
+"desc": "poeta català"
+},
+"pers|Josep Pedreira": {
+"qid": "Q16943442",
+"label": "Josep Pedreira i Fernández",
+"desc": "Spanish businessperson, poet and editor (1917-2003)"
+},
+"pers|Josep Pijoan": {
+"qid": "Q531806",
+"label": "Josep Pijoan i Soteras",
+"desc": "arquitecte, historiador i crític d'art, assagista, poeta i agitador cultural català"
+},
+"pers|Josep Porter": {
+"qid": "Q11928867",
+"label": "Josep Porter i Rovira",
+"desc": "empresari, llibreter, bibliògraf, bibliòfil i escriptor català"
+},
+"pers|Josep Romeu i Figueras": {
+"qid": "Q9013348",
+"label": "Josep Romeu i Figueras",
+"desc": "poeta i crític literari català"
+},
+"pers|Josep Termes": {
+"qid": "Q3184124",
+"label": "Josep Termes i Ardèvol",
+"desc": "historiador català"
+},
+"pers|Josep Torras i Bages": {
+"qid": "Q4893825",
+"label": "Josep Torras i Bages",
+"desc": "bisbe català"
+},
+"pers|Josep Torres Clavé": {
+"qid": "Q957853",
+"label": "Josep Torres i Clavé",
+"desc": "Arquitecte i dissenyador català (1906-1939)"
+},
+"pers|Josep Yxart": {
+"qid": "Q4893080",
+"label": "Josep Yxart i Moragas",
+"desc": "crític literari i traductor català"
+},
+"pers|Josep de Letamendi": {
+"qid": "Q11928999",
+"label": "Josep de Letamendi i de Manjarrés",
+"desc": "médico, catedrático y académico español"
+},
+"pers|Joseph-Antoine Dinouart": null,
+"pers|José Gaos": {
+"qid": "Q3774796",
+"label": "José Gaos",
+"desc": "filòsof espanyol"
+},
+"pers|José María Blanco White": {
+"qid": "Q3047406",
+"label": "José María Blanco White",
+"desc": "escritor y periodista español"
+},
+"pers|José Ortega y Gasset": {
+"qid": "Q153020",
+"label": "José Ortega y Gasset",
+"desc": "(1883 -1955) filòsof espanyol"
+},
+"pers|José Zorrilla": {
+"qid": "Q331863",
+"label": "José Zorrilla y Moral",
+"desc": "dramaturg espanyol"
+},
+"pers|Juan Ramón Jiménez": {
+"qid": "Q131318",
+"label": "Juan Ramón Jiménez",
+"desc": "poeta espanyol"
+},
+"pers|Juli Vallmitjana": {
+"qid": "Q11929401",
+"label": "Juli Vallmitjana i Colomines",
+"desc": "dramaturg i narrador català"
+},
+"pers|Just Cabot": {
+"qid": "Q11929488",
+"label": "Just Cabot i Ribot",
+"desc": "escriptor i periodista català"
+},
+"pers|Karl Faust": {
+"qid": "Q91733",
+"label": "Carl Faust i Schmidt",
+"desc": "botànic alemany"
+},
+"pers|Laureà Figuerola": {
+"qid": "Q530888",
+"label": "Laureà Figuerola i Ballester",
+"desc": "professor titular, Espanya"
+},
+"pers|Lawrence Durrell": {
+"qid": "Q219784",
+"label": "Lawrence Durrell",
+"desc": "escriptor britànic"
+},
+"pers|Leon Kossoff": {
+"qid": "Q361396",
+"label": "Leon Kossoff",
+"desc": "painter (1926-2019)"
+},
+"pers|Llorenç Villalonga": {
+"qid": "Q3328249",
+"label": "Llorenç Villalonga i Pons",
+"desc": "escriptor mallorquí"
+},
+"pers|Lluís Duch": {
+"qid": "Q16191297",
+"label": "Lluís Duch i Álvarez",
+"desc": "monjo i antropòleg català"
+},
+"pers|Lluís el Pietós": {
+"qid": "Q43974",
+"label": "Lluís el Pietós",
+"desc": "emperador de l'Imperi carolingi entre el 813 i el 840"
+},
+"pers|Lumière": {
+"qid": "Q47085761",
+"label": "LUMIERE",
+"desc": "database of the European Audiovisual Observatory",
+"no_huma": true
+},
+"pers|Lynn Margulis": {
+"qid": "Q234583",
+"label": "Lynn Margulis",
+"desc": "Biòloga evolutiva estatunidenca"
+},
+"pers|Madame de Staël": {
+"qid": "Q123041",
+"label": "Madame de Staël",
+"desc": "novel·lista, assagista suïssa, salonnière"
+},
+"pers|Magda Lladó": {
+"qid": "Q30341510",
+"label": "Magda Lladó Fuster",
+"desc": "activista republicana catalana"
+},
+"pers|Manel Surroca": {
+"qid": "Q19300939",
+"label": "Manel Surroca i Claret",
+"desc": "Pintor català"
+},
+"pers|Manuel Andújar": {
+"qid": "Q104808294",
+"label": "Manuel Andújar",
+"desc": "pilot de quads argentí"
+},
+"pers|Manuel Blancafort": {
+"qid": "Q3286762",
+"label": "Manuel Blancafort i de Rosselló",
+"desc": "compositor català"
+},
+"pers|Manuel Vázquez Montalbán": {
+"qid": "Q316884",
+"label": "Manuel Vázquez Montalbán",
+"desc": "escriptor i periodista català (1939-2003)"
+},
+"pers|Marcel·lí Domingo": {
+"qid": "Q2918603",
+"label": "Marcel·lí Domingo i Sanjuan",
+"desc": "polític i escriptor català"
+},
+"pers|Margarida Xirgu": {
+"qid": "Q296806",
+"label": "Margarida Xirgu i Subirà",
+"desc": "actriu catalana establerta a l'Uruguai"
+},
+"pers|Maria Antònia Salvà": {
+"qid": "Q11935420",
+"label": "Maria Antònia Salvà i Ripoll",
+"desc": "poetessa mallorquina"
+},
+"pers|Maria Aurèlia Capmany": {
+"qid": "Q2662356",
+"label": "Maria Aurèlia Capmany i Farnés",
+"desc": "novel·lista, dramaturga i assagista catalana (1918–1991)"
+},
+"pers|Maria Mercè Marçal": {
+"qid": "Q3089747",
+"label": "Maria Mercè Marçal i Serra",
+"desc": "poeta, traductora i feminista catalana"
+},
+"pers|Maria Àngels Anglada": {
+"qid": "Q456914",
+"label": "Maria Àngels Anglada i d'Abadal",
+"desc": "poeta, novel·lista i professora catalana"
+},
+"pers|Marià Cubí": {
+"qid": "Q16190218",
+"label": "Marià Cubí i Soler",
+"desc": "lingüista y frenólogo español"
+},
+"pers|María Luz Morales": {
+"qid": "Q951382",
+"label": "María Luz Morales",
+"desc": "escriptora i periodista catalana d'origen gallec (1890-1980)"
+},
+"pers|María Zambrano": {
+"qid": "Q235134",
+"label": "María Zambrano Alarcón",
+"desc": "filòsofa espanyola"
+},
+"pers|Maurici Serrahima": {
+"qid": "Q9030666",
+"label": "Maurici Serrahima i Bofill",
+"desc": "escriptor, poeta i polític català"
+},
+"pers|Max Euwe": {
+"qid": "Q173714",
+"label": "Max Euwe",
+"desc": "jugador d'escacs i matemàtic neerlandès"
+},
+"pers|Maximilien Robespierre": {
+"qid": "Q44197",
+"label": "Maximilien de Robespierre",
+"desc": "revolucionari, advocat i polític francès (1758–1794)"
+},
+"pers|Miguel Gallardo": {
+"qid": "Q9032726",
+"label": "Miguel Gallardo",
+"desc": "autor de còmics, dissenyador, publicista i il·lustrador"
+},
+"pers|Miguel Mihura": {
+"qid": "Q239249",
+"label": "Miguel Mihura",
+"desc": "dramaturg espanyol"
+},
+"pers|Miguel de Unamuno": {
+"qid": "Q185085",
+"label": "Miguel de Unamuno y Jugo",
+"desc": "escriptor, filòsof i acadèmic basc (1864–1936)"
+},
+"pers|Mikhaïl Botvínnik": {
+"qid": "Q178865",
+"label": "Mikhaïl Botvínnik",
+"desc": "jugador d'escacs"
+},
+"pers|Mikhaïl Bulgàkov": {
+"qid": "Q835",
+"label": "Mikhaïl Bulgàkov",
+"desc": "autor rus i soviètic (1891–1940)"
+},
+"pers|Miquel Caminal": {
+"qid": "Q62064965",
+"label": "Miquel Caminal i Cerdà",
+"desc": "empresari i polític"
+},
+"pers|Miquel Costa i Llobera": {
+"qid": "Q2424185",
+"label": "Miquel Costa i Llobera",
+"desc": "poeta i religiós mallorquí"
+},
+"pers|Miquel Crusafont": {
+"qid": "Q957131",
+"label": "Miquel Crusafont i Pairó",
+"desc": "paleontòleg català (1910-1983)"
+},
+"pers|Miquel Garriga i Roca": {
+"qid": "Q3393367",
+"label": "Miquel Garriga i Roca",
+"desc": "arquitecte i urbanista"
+},
+"pers|Miquel Llor": {
+"qid": "Q3397214",
+"label": "Miquel Llor i Forcada",
+"desc": "Escriptor i traductor català"
+},
+"pers|Miquel Servet": {
+"qid": "Q185914",
+"label": "Miquel Servet",
+"desc": "humanista, teòleg i científic aragonès (1509/1511 – 1553)"
+},
+"pers|Miquel Siguan": {
+"qid": "Q11692964",
+"label": "Miquel Siguan i Soler",
+"desc": "psicólogo, lingüista y escritor español"
+},
+"pers|Miquel dels Sants Oliver": {
+"qid": "Q11692975",
+"label": "Miquel dels Sants Oliver i Tolrà",
+"desc": "periodista, assagista, poeta mallorquí"
+},
+"pers|Mircea Eliade": {
+"qid": "Q41590",
+"label": "Mircea Eliade",
+"desc": "estudiós especialitzat en mitologia i història de la religió"
+},
+"pers|Moisès Broggi": {
+"qid": "Q545987",
+"label": "Moisès Broggi i Vallès",
+"desc": "metge i escriptor català"
+},
+"pers|Montserrat Abelló": {
+"qid": "Q724083",
+"label": "Montserrat Abelló i Soler",
+"desc": "poetessa i traductora catalana"
+},
+"pers|Montserrat Caballé": {
+"qid": "Q151435",
+"label": "Montserrat Caballé i Folch",
+"desc": "cantant d'òpera catalana"
+},
+"pers|Muriel Casals": {
+"qid": "Q13414872",
+"label": "Muriel Casals i Couturier",
+"desc": "política i economista catalana"
+},
+"pers|Màrius Torres": {
+"qid": "Q3062312",
+"label": "Màrius Torres i Perenya",
+"desc": "Poeta català"
+},
+"pers|Màrius Verdaguer": {
+"qid": "Q11938192",
+"label": "Màrius Verdaguer Travesi",
+"desc": "Spanish poet (1885-1963)"
+},
+"pers|Narcís Oller": {
+"qid": "Q999904",
+"label": "Narcís Oller i Moragas",
+"desc": "escriptor català"
+},
+"pers|Nazario": {
+"qid": "Q12981974",
+"label": "Nazario",
+"desc": "pintor i autor de còmics"
+},
+"pers|Nicolás Capo": {
+"qid": "Q33245020",
+"label": "Nicolás Capogrosso",
+"desc": "Jugador de voleibol de playa argentino"
+},
+"pers|Ocaña": {
+"qid": "Q957767",
+"label": "Ocaña",
+"desc": "municipi toledà",
+"no_huma": true
+},
+"pers|Oriol Maspons": {
+"qid": "Q9053100",
+"label": "Oriol Maspons i Casades",
+"desc": "fotògraf català"
+},
+"pers|Oriol Solé Sugranyes": {
+"qid": "Q5405117",
+"label": "Oriol Solé  Sugranyes",
+"desc": "activista revolucionari català d'ideologia autonomista i anarquista"
+},
+"pers|Pasqual Maragall": {
+"qid": "Q355265",
+"label": "Pasqual Maragall i Mira",
+"desc": "127è President de la Generalitat de Catalunya"
+},
+"pers|Patrícia Gabancho": {
+"qid": "Q2776192",
+"label": "Patrícia Gabancho i Ghielmetti",
+"desc": "escriptora i periodista espanyola"
+},
+"pers|Paul Ricoeur": {
+"qid": "Q192066",
+"label": "Paul Ricoeur",
+"desc": "filòsof francès"
+},
+"pers|Pere Aldavert": {
+"qid": "Q9058303",
+"label": "Pere Aldavert i Martorell",
+"desc": "Periodista i polític català"
+},
+"pers|Pere Bosch Gimpera": {
+"qid": "Q965486",
+"label": "Pere Bosch i Gimpera",
+"desc": "prehistoriador, professor i advocat català (1891-1974)"
+},
+"pers|Pere Coromines": {
+"qid": "Q595492",
+"label": "Pere Coromines i Montanya",
+"desc": "escriptor, polític i economista català"
+},
+"pers|Pere Fages": {
+"qid": "Q389243",
+"label": "Pere Fages i Beleta",
+"desc": "Militar i governador català de l'Amèrica Hispànica s. XVIII"
+},
+"pers|Pere Prat Gaballí": {
+"qid": "Q16943453",
+"label": "Pere Prat i Gaballí",
+"desc": "publicista i poeta català"
+},
+"pers|Pere Quart": {
+"qid": "Q2381616",
+"label": "Joan Oliver i Sallarès",
+"desc": "poeta i dramaturg català"
+},
+"pers|Pierre Janet": {
+"qid": "Q328758",
+"label": "Pierre Janet",
+"desc": "psicòleg francès"
+},
+"pers|Pierre Méchain": {
+"qid": "Q311022",
+"label": "Pierre Méchain",
+"desc": "astrònom francès"
+},
+"pers|Pilar Aymerich": {
+"qid": "Q9059602",
+"label": "Pilar Aymerich i Puig",
+"desc": "fotògrafa catalana"
+},
+"pers|Plutarc": {
+"qid": "Q41523",
+"label": "Plutarc de Queronea",
+"desc": "historiador grec"
+},
+"pers|Pompeu Gener": {
+"qid": "Q9061631",
+"label": "Pompeu Gener i Babot",
+"desc": "periodista català"
+},
+"pers|Prudenci Bertrana": {
+"qid": "Q3322361",
+"label": "Prudenci Bertrana",
+"desc": "escriptor modernista català"
+},
+"pers|Quima Jaume": {
+"qid": "Q7272041",
+"label": "Quima Jaume i Carbo",
+"desc": "poetessa catalana"
+},
+"pers|R. B. Kitaj": {
+"qid": "Q569505",
+"label": "Ronald Kitaj",
+"desc": "artista estatunidenc"
+},
+"pers|Rachel Carson": {
+"qid": "Q100948",
+"label": "Rachel Carson",
+"desc": "biòloga marina i conservacionista estatunidenca (1907–1964)"
+},
+"pers|Rafael Campalans": {
+"qid": "Q9065747",
+"label": "Rafael Campalans i Puig",
+"desc": "polític català"
+},
+"pers|Raimon Galí": {
+"qid": "Q11701889",
+"label": "Raimon Galí i Herrera",
+"desc": "Spanish anthropologist and writer (1917-2005)"
+},
+"pers|Rama": {
+"qid": "Q160213",
+"label": "Rama",
+"desc": "setè avatar del déu hindú Vixnu",
+"no_huma": true
+},
+"pers|Ramon Arau": {
+"qid": "Q93418557",
+"label": "Ramon Arau",
+"desc": ""
+},
+"pers|Ramon Margalef": {
+"qid": "Q1366988",
+"label": "Ramon Margalef i López",
+"desc": "Ecòleg, limnòleg i oceanògraf català"
+},
+"pers|Ramon Martí d'Eixalà": {
+"qid": "Q11701999",
+"label": "Ramon Martí i d'Eixalà",
+"desc": "polític espanyol"
+},
+"pers|Ramon Turró": {
+"qid": "Q9066529",
+"label": "Ramon Turró i Darder",
+"desc": "veterinari, biòleg i filòsof català"
+},
+"pers|Ramon de Vilana-Perles": {
+"qid": "Q7289896",
+"label": "Ramon Frederic de Vilana-Perles",
+"desc": "notari català i home d'estat de l'emperador Carles VI del Sacre Imperi."
+},
+"pers|Ramón Carnicer": {
+"qid": "Q1350076",
+"label": "Ramon Carnicer i Batlle",
+"desc": "compositor de música (1789-1855)"
+},
+"pers|Reina de Saba": {
+"qid": "Q159888",
+"label": "reina de Sabà",
+"desc": "figura històrica a les religions abrahàmiques",
+"no_huma": true
+},
+"pers|René Descartes": {
+"qid": "Q9191",
+"label": "René Descartes",
+"desc": "polímata francès (1596–1650)"
+},
+"pers|René Lévesque": {
+"qid": "Q381007",
+"label": "René Lévesque",
+"desc": "periodista y político canadiense"
+},
+"pers|Ricard Salvat": {
+"qid": "Q1960210",
+"label": "Ricard Salvat i Ferré",
+"desc": "escriptor, director teatral i professor universitari català"
+},
+"pers|Rosa Leveroni": {
+"qid": "Q5639562",
+"label": "Rosa Leveroni i Valls",
+"desc": "poetessa i bibliotecària catalana (1910-1985)"
+},
+"pers|Rosalind Franklin": {
+"qid": "Q7474",
+"label": "Rosalind Franklin",
+"desc": "científica anglesa (1920–1958)"
+},
+"pers|Roser Matheu": {
+"qid": "Q11946311",
+"label": "Roser Matheu i Sadó",
+"desc": "artista catalana"
+},
+"pers|Roser Rosés": {
+"qid": "Q47919274",
+"label": "Roser Rosés Senabre",
+"desc": "Nena de Rússia"
+},
+"pers|Rut": {
+"qid": "Q1774982",
+"label": "Rut",
+"desc": "personatge bíblic, protagonista del Llibre de Rut",
+"no_huma": true
+},
+"pers|Ròmul i Rem": {
+"qid": "Q2197",
+"label": "Ròmul i Rem",
+"desc": "germans bessons i personatges centrals del mite fundacional de Roma",
+"no_huma": true
+},
+"pers|Safo": {
+"qid": "Q17892",
+"label": "Safo de Lesbos",
+"desc": "poetessa lírica grega (c. 630–c. 570 aC)"
+},
+"pers|Salvador Espriu": {
+"qid": "Q372549",
+"label": "Salvador Espriu i Castelló",
+"desc": "escriptor català (1913–1985)"
+},
+"pers|Sara": {
+"qid": "Q2905733",
+"label": "Sakîne Cansiz",
+"desc": "Activista política kurda, cofundadora del PKK"
+},
+"pers|Sebastià Juan Arbó": {
+"qid": "Q175204",
+"label": "Sebastià Juan Arbó",
+"desc": "escriptor català"
+},
+"pers|Simone de Beauvoir": {
+"qid": "Q7197",
+"label": "Simone de Beauvoir",
+"desc": "filòsofa, teòrica social i activista francesa (1908-1986)"
+},
+"pers|Stefan Zweig": {
+"qid": "Q78491",
+"label": "Stefan Zweig",
+"desc": "escriptor austríac (1881-1942)"
+},
+"pers|Tales de Milet": {
+"qid": "Q36303",
+"label": "Tales de Milet",
+"desc": "filòsof grec (c. 626 – c. 545 aC)"
+},
+"pers|Teresa Claramunt": {
+"qid": "Q3326248",
+"label": "Teresa Claramunt i Creus",
+"desc": "anarcosindicalista catalana"
+},
+"pers|Tomàs Garcés": {
+"qid": "Q2917669",
+"label": "Tomàs Garcés i Miravet",
+"desc": "Poeta, advocat i editor català (1901-1993)"
+},
+"pers|Tomàs Roig i Llop": {
+"qid": "Q11952098",
+"label": "Tomàs Roig i Llop",
+"desc": "escriptor i periodista català"
+},
+"pers|Valmiki": {
+"qid": "Q715607",
+"label": "Valmiki",
+"desc": "poeta indi llegendari, autor del Ramayana"
+},
+"pers|Vicente Cacho Viu": {
+"qid": "Q18492336",
+"label": "Vicente Cacho Viu",
+"desc": "historiador español"
+},
+"pers|Virgili": {
+"qid": "Q1398",
+"label": "Virgili",
+"desc": "poeta romà (70–19 aC)"
+},
+"pers|Vladímir Maiakovski": {
+"qid": "Q132964",
+"label": "Vladímir Maiakovski",
+"desc": "poeta rus (1893–1930)"
+},
+"pers|Václav Havel": {
+"qid": "Q36233",
+"label": "Václav Havel",
+"desc": "últim president de Txecoslovàquia i 1r president de la República Txeca"
+},
+"pers|Víctor Alba": {
+"qid": "Q1109994",
+"label": "Víctor Alba",
+"desc": "pseudònim de Pere Pagès, escriptor, polític i historiador (1916-2003)"
+},
+"pers|Walt Whitman": {
+"qid": "Q81438",
+"label": "Walt Whitman",
+"desc": "poeta estatunidenc (1819–1892)"
+},
+"pers|Wilhelm Steinitz": {
+"qid": "Q102648",
+"label": "Wilhelm Steinitz",
+"desc": "jugador d'escacs austríac"
+},
+"pers|Xavier Cugat": {
+"qid": "Q334180",
+"label": "Xavier Cugat i Mingall",
+"desc": "músic i artista català que va popularitzar la música llatina als Estats Units"
+},
+"pers|Xavier Fàbregas": {
+"qid": "Q11955300",
+"label": "Xavier Fàbregas i Surroca",
+"desc": "Historiador i crític de teatre (1931-1985)"
+},
+"pers|Àngel Pestaña": {
+"qid": "Q3143157",
+"label": "Ángel Pestaña Núñez",
+"desc": "polític espanyol"
+},
+"pers|Ágnes Heller": {
+"qid": "Q235125",
+"label": "Ágnes Heller",
+"desc": "Filòsofa i professora hongaresa"
+},
+"pers|Ángeles Santos": {
+"qid": "Q2574020",
+"label": "Ángeles Santos Torroella",
+"desc": "pintora i artista gràfica catalana"
+},
+"pers|Óssip Mandelstam": {
 "qid": "Q189950",
 "label": "Óssip Mandelxtam",
 "desc": "poeta i assagista rus (1891-1938)"

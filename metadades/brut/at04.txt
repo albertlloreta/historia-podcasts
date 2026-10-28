@@ -1,0 +1,100 @@
+at:400|pol|ES|EUS|Barcelona|1|Enric Prat de la Riba|Mancomunitat de Catalunya||pro||
+at:401|pol;gue|ES;AT|EUS;EUC|Viena|1|Ramon de Vilana-Perles|Guerra de Successió espanyola||bio||
+at:402|cul;pol|ES|EUS|Barcelona|1|Benet Roura|||bio||
+at:403|his|ES|EUS|Barcelona|1|Víctor Balaguer|||deb||
+at:404|arq;eco|ES|EUS|Barcelona|1||||lloc||
+at:405|gue;rel|ES|EUS|Barcelona|1||Holocaust|jueus|con||
+at:406|lit;fil|ES|EUS|Barcelona|1|Francesc Pujols;Artur Bladé|||cul||
+at:407|dre|ES|EUS|Barcelona|1||Decrets de Nova Planta||pro||
+at:408|his|GR;TR|EUS;PO|Halicarnàs|0|Heròdot||grecs;perses|deb||
+at:409|quo;eco|ES|EUS|Cerdanyola del Vallès|1||||lloc||
+at:410|art;rel|ES|EUS|Figueres|1|Salvador Dalí|||cul||
+at:411|lit|ES|EUS|Palafrugell|1|Josep Pla|||cul||
+at:412|lit|ES|EUS|Barcelona|1|Tomàs Garcés|||bio||
+at:413|cie;art|FR|EUO|París|0|Antoine Lavoisier;Jacques-Louis David|||cul||
+at:414|fil;cie|ES|EUS|Barcelona|1|Francesc Pujols|||cul||
+at:415|art|ES;IT|EUS|Reus|1|Marià Fortuny|||cul||
+at:416|exp;rel|MA|NA;PO;ASM;AO|Tànger|0|Ibn Battuta|||bio||
+at:417|exp|IT;CN|EUS;AO|Venècia|0|Marco Polo|||bio||
+at:418|eco;gue|ES|EUS|Barcelona|1||Primera Guerra Mundial||pro||
+at:419|pol|ES|EUS||0|Carles Hug de Borbó-Parma;Joan Carles I|Carlisme||pro||
+at:420|lit|ES|EUS|Barcelona|1|Ferran Canyameres|||bio||
+at:421|lit;pol|ES|EUS|Barcelona|1|Josep Maria Poblet|||bio||
+at:422|fil|DE|EUC||0|Martin Heidegger|||cul||
+at:423|fil|DE|EUC||0|Martin Heidegger|||cul||
+at:424|lit|ES|EUS|València|1|Joanot Martorell|||cul||
+at:425|art;pol|ES|EUS|Barcelona|1||Transició espanyola||cul||
+at:426|soc;fil|ES|EUS|Madrid|0|Francisco Giner de los Ríos|Institución Libre de Enseñanza||bio||
+at:427|rel;fil|RO|EUE||0|Mircea Eliade|||cul||
+at:428|gue;pol|ES|EUS||1|Pere Joan Barceló|||con||
+at:429|art|ES;FR|EUS;EUO|Barcelona|1|Pablo Picasso;Josep Palau i Fabre|||cul||
+at:430|fil|DE|EUC||0|Martin Heidegger|||cul||
+at:431|lit|ES|EUS|Barcelona|1|Carles Soldevila|||bio||
+at:432|gue;cin|FR|EUO||0||Segona Guerra Mundial||con||
+at:433|art|ES|EUS|Caldes d'Estrac|1|Pablo Picasso|||cul||
+at:434|cul;lit|DE;GB|EUC;EUO|Berlín|1|Joan Crexells|||cul||
+at:435|pol;cul|MX;AR;VE|AL||1||Exili republicà||pro||
+at:436|cul;his|ES|EUS|Barcelona|1||||lloc||
+at:437|cie;cin;gue|GB;US|EUO;AN||0||Guerra Freda||cul||
+at:438|pol|ES|EUS|Barcelona|1|Miquel Caminal|||bio||
+at:439|lit;cin|ES;CH|EUS;EUC|Ginebra|1|Mercè Rodoreda|||cul||
+at:440|cul;soc|ES|EUS||1||||pro||
+at:441|cin;gen|US|AN|Hollywood|0||||cul||
+at:442|fil|DE|EUC||0|Georg Wilhelm Friedrich Hegel|||cul||
+at:443|cul;soc|ES|EUS|Eivissa|1||Franquisme||lloc||
+at:444|pol;gue|AT;ES|EUC;EUS|Viena|1||Guerra de Successió espanyola||pro||
+at:445|rel;cul|ES|EUS|Montserrat|1|Antoni Maria Marcet|||bio||
+at:446|cie;med|ES|EUS|Barcelona|1|Jaume Ferran i Clua|||cul||
+at:447|cie|ES|EUS|Blanes|1|Karl Faust|||bio||
+at:448|lit;gue|ES;GR;TR|EUS;PO||1|Ramon Muntaner|Companyia Catalana d'Orient|almogàvers|bio||
+at:449|lit;cin|ES|EUS|Barcelona|1|Manuel Vázquez Montalbán|||cul||
+at:450|lit;fil|GR|EUS|Atenes|0|Sòfocles||grecs|cul||
+at:451|cul;pol|ES|EUS|Barcelona|1|Gaziel|||bio||
+at:452|pol|ES|EUS||1|Felip V|Decrets de Nova Planta||pro||
+at:453|pol;gue|ES|EUS|Barcelona|1|Comte d'Espanya;Ferran VII|Guerra dels Malcontents||bio||
+at:454|pol;his|ES|EUS||1||Transició espanyola||deb||
+at:455|lit;fil|FR|EUO|París|0|Marcel Proust|||cul||
+at:456|his;pol|ES|EUS|Barcelona|1||Diada Nacional de Catalunya||deb||
+at:457|lit|ES|EUS|Barcelona|1|Josep Palau i Fabre|||cul||
+at:458|cie|ES|EUS|Barcelona|1||||cul||
+at:459|lit|ES|EUS|Barcelona|1|J. V. Foix|||bio||
+at:460|lit;cul|ES|EUS|Barcelona|1||Franquisme||cul||
+at:461|rel;fil|ES|EUS||0||||cul||
+at:462|gen;pol|ES|EUS|Barcelona|1||||bio||
+at:463|lit|ES|EUS|Barcelona|1||||cul||
+at:464|cul|ES|EUS|Barcelona|1|Josep Maria Prim|||bio||
+at:465|lit;rel|IT|EUS|Roma|0|||romans|cul||
+at:466|fil;rel|FR|EUO||0|Simone Weil|||cul||
+at:467|fil;rel|FR|EUO|París|0|Blaise Pascal|||bio||
+at:468|his;pol|ES|EUS|Barcelona|1|Josep Termes|||bio||
+at:469|lit;pol|ES|EUS|Barcelona|1||Franquisme||cul||
+at:470|fil;pol|IT|EUS|Roma|0|Ciceró||romans|cul||
+at:471|fil;rel|ES|EUS|Mallorca|1|Ramon Llull|||bio||
+at:472|lit|ES|EUS|Barcelona|1|Josep Maria de Sagarra|||bio||
+at:473|pol;gue|ES;CU|EUS;AL||1||Guerra de Cuba||pro||
+at:474|cie|GB|EUO|Cambridge|0|James Watson;Francis Crick;Rosalind Franklin|||cul||
+at:475|arq|ES|EUS|Barcelona|1||||lloc||
+at:476|pol|ES|EUS|Barcelona|1|Andreu Nin|||bio||
+at:477|art|ES|EUS|Madrid|0|Francisco de Goya|||bio||
+at:478|fil|GR|EUS||0|Diògenes Laerci||grecs|cul||
+at:479|cie;pol|ES|EUS|Barcelona|1||||cul||
+at:480|pol;gen|ES|EUS|Barcelona|1|Frederica Montseny|||bio||
+at:481|lit;his|GR|EUS|Queronea|0|Plutarc||grecs|cul||
+at:482|gue;pol|ES|EUS|Barcelona|1|Rafael Casanova;Antoni de Villarroel;Josep Moragues|Setge de Barcelona de 1714||bio||
+at:483|gen;cul|ES|EUS|Barcelona|1||||pro||
+at:484|soc;pol|IT;GR;ES;PT|EUS||0||||pro||
+at:485|rel;pol|IT;ES|EUS|Roma|1|Alexandre VI;Calixt III|||bio||
+at:486|fil;pol||EUO;EUS;EUC||0|Thomas More|||cul||
+at:487|rel;pol|IT;ES|EUS|Roma|1|Alexandre VI|||bio||
+at:488|pol|ES|EUS|Barcelona|1|Comte d'Espanya|||lloc||
+at:489|soc;pol|ES|EUS|Barcelona|1|Lluís Companys|Dictadura de Primo de Rivera||pro||
+at:490|pol;dre;soc|ES|EUS|Barcelona|1|Lluís Companys|||bio||
+at:491|pol|ES|EUS|Barcelona|1|Lluís Companys;Francesc Macià|||bio||
+at:492|pol;gue|ES|EUS|Barcelona|1|Lluís Companys|Guerra Civil espanyola||bio||
+at:493|pol|FR;ES|EUO;EUS|Barcelona|1|Lluís Companys|||bio||
+at:494|art;gen||EUO;EUS||0|Artemisia Gentileschi|||cul||
+at:495|cie;gen;med||EUO||0||||cul||
+at:496|gue|ES|EUS|Barcelona|1||Guerra de Successió espanyola||con||
+at:497|pol;cul|ES|EUS||1||||pro||
+at:498|cie|ES|EUS||1||||cul||
+at:499|pol;dre|ES|EUS|Barcelona|1|Lluís Companys|Fets del sis d'octubre||pro||

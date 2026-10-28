@@ -431,6 +431,7 @@ a { color: inherit; }
         <button data-podcast="en-guardia">En Guàrdia</button>
         <button data-podcast="sons-edat-mitjana">Sons de l'edat mitjana</button>
         <button data-podcast="institut-humanitats">Institut d'Humanitats</button>
+        <button data-podcast="ateneu">Ateneu Barcelonès</button>
       </nav>
       <div class="filters" id="filters">
         <div class="dd" id="dd-font"></div>
@@ -464,6 +465,7 @@ a { color: inherit; }
     <li><a href="https://www.3cat.cat/3cat/en-guardia/" target="_blank" rel="noopener">En Guàrdia</a> (<span data-count="en-guardia"></span> capítols)</li>
     <li><a href="https://www.3cat.cat/3cat/sons-edat-mitjana/" target="_blank" rel="noopener">Sons de l'edat mitjana</a> (<span data-count="sons-edat-mitjana"></span> capítols)</li>
     <li><a href="https://www.instituthumanitats.org/ca/arxiu" target="_blank" rel="noopener">Institut d'Humanitats de Barcelona</a> (<span data-count="institut-humanitats"></span> capítols)</li>
+    <li><a href="http://arxiudigital.ateneubcn.cat/" target="_blank" rel="noopener">Arxiu de la Paraula de l'Ateneu Barcelonès</a> (<span data-count="ateneu"></span> conferències, CC BY-NC-ND)</li>
   </ul>
   <p class="credit foot-credit">Vibecoded amb carinyo per <a href="https://allr.cat" target="_blank" rel="noopener">Albert Lloreta</a> · <a href="https://github.com/albertlloreta/historia-podcasts" target="_blank" rel="noopener">Codi obert a GitHub</a> · <a href="/avis-legal">Avís legal i privadesa</a></p>
 </footer>
@@ -567,8 +569,8 @@ function formatWhen(raw) {
 }
 
 // Caràtula de cada font (portades dels pòdcasts; Sons: la M de Catalunya Música)
-const SRC_ART = { 'portes-de-troia': 'img/fonts/pdt.webp', 'en-guardia': 'img/fonts/eg.webp', 'sons-edat-mitjana': 'img/fonts/sons.webp', 'institut-humanitats': 'img/fonts/ih.webp' };
-const SRC_LABEL = { 'portes-de-troia': 'Portes de Troia', 'en-guardia': 'En Guàrdia', 'sons-edat-mitjana': "Sons de l'edat mitjana", 'institut-humanitats': "Inst. d'Humanitats" };
+const SRC_ART = { 'portes-de-troia': 'img/fonts/pdt.webp', 'en-guardia': 'img/fonts/eg.webp', 'sons-edat-mitjana': 'img/fonts/sons.webp', 'institut-humanitats': 'img/fonts/ih.webp', 'ateneu': 'img/fonts/ateneu.webp' };
+const SRC_LABEL = { 'portes-de-troia': 'Portes de Troia', 'en-guardia': 'En Guàrdia', 'sons-edat-mitjana': "Sons de l'edat mitjana", 'institut-humanitats': "Inst. d'Humanitats", 'ateneu': 'Ateneu Barcelonès' };
 
 const store = {
   get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } },
@@ -598,7 +600,7 @@ const ICON_PLAY = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4l13
 const ICON_PAUSE = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>';
 
 function playable(ep) {
-  return !!(ep.id_3cat || ep.ivoox || ep.vimeo || ep.youtube);
+  return !!(ep.id_3cat || ep.ivoox || ep.mp3 || ep.vimeo || ep.youtube);
 }
 
 function injectJSONLD(data) {
@@ -644,6 +646,12 @@ function injectJSONLD(data) {
     'name': 'Institut d\'Humanitats de Barcelona',
     'url': 'https://www.instituthumanitats.org'
   };
+  const ateneu = {
+    '@type': 'Organization',
+    '@id': 'https://ateneubcn.cat/#org',
+    'name': 'Ateneu Barcelonès',
+    'url': 'https://ateneubcn.cat'
+  };
   const webpage = {
     '@type': 'WebPage',
     '@id': 'https://historia.allr.cat',
@@ -652,16 +660,16 @@ function injectJSONLD(data) {
     'url': 'https://historia.allr.cat',
     'inLanguage': 'ca',
     'author': {'@id': 'https://allr.cat/#albert-lloreta'},
-    'about': [{'@id': 'https://www.portesdetroia.cat/#podcast'}, {'@id': 'https://www.3cat.cat/3cat/en-guardia/#podcast'}, {'@id': 'https://www.3cat.cat/3cat/sons-edat-mitjana/#podcast'}, {'@id': 'https://www.instituthumanitats.org/#org'}]
+    'about': [{'@id': 'https://www.portesdetroia.cat/#podcast'}, {'@id': 'https://www.3cat.cat/3cat/en-guardia/#podcast'}, {'@id': 'https://www.3cat.cat/3cat/sons-edat-mitjana/#podcast'}, {'@id': 'https://www.instituthumanitats.org/#org'}, {'@id': 'https://ateneubcn.cat/#org'}]
   };
   const episodes = data.map(ep => {
-    if (ep.podcast === 'institut-humanitats') {
+    if (ep.podcast === 'institut-humanitats' || ep.podcast === 'ateneu') {
       const obj = {
         '@type': ep.format === 'video' ? 'VideoObject' : 'AudioObject',
         '@id': ep.enllac,
         'name': ep.titol,
         'url': ep.enllac,
-        'publisher': {'@id': 'https://www.instituthumanitats.org/#org'}
+        'publisher': {'@id': ep.podcast === 'ateneu' ? 'https://ateneubcn.cat/#org' : 'https://www.instituthumanitats.org/#org'}
       };
       if (ep.descripcio) obj.description = ep.descripcio;
       if (ep.data_historica) obj.temporalCoverage = ep.data_historica;
@@ -688,19 +696,20 @@ function injectJSONLD(data) {
   script.type = 'application/ld+json';
   script.textContent = JSON.stringify({
     '@context': 'https://schema.org',
-    '@graph': [albert, podcast, podcastGuardia, podcastSons, ihb, webpage, ...episodes]
+    '@graph': [albert, podcast, podcastGuardia, podcastSons, ihb, ateneu, webpage, ...episodes]
   });
   document.head.appendChild(script);
 }
 
 async function init() {
-  const [rawAdpt, rawGuardia, rawSons, rawIhb] = await Promise.all([
+  const [rawAdpt, rawGuardia, rawSons, rawIhb, rawAteneu] = await Promise.all([
     fetch('episodis-portes-de-troia.json').then(r => r.json()),
     fetch('episodis-en-guardia.json').then(r => r.json()),
     fetch('episodis-sons-edat-mitjana.json').then(r => r.json()),
     fetch('sessions-institut-humanitats.json').then(r => r.json()),
+    fetch('sessions-ateneu.json').then(r => r.json()),
   ]);
-  data = [...rawAdpt, ...rawGuardia, ...rawSons, ...rawIhb]
+  data = [...rawAdpt, ...rawGuardia, ...rawSons, ...rawIhb, ...rawAteneu]
     .filter(e => e.titol)
     .map(e => ({ ...e, _year: parseYear(e.data_historica) }));
   data.forEach(e => {
@@ -752,7 +761,7 @@ async function init() {
       li.dataset.i = i;
       const period = formatWhen(ep.ubicacio || ep.data_historica);
       const isIhb = ep.podcast === 'institut-humanitats';
-      const tag = isIhb ? (ep.format === 'video' ? 'vídeo' : 'àudio') : (ep.num != null ? `ep. ${ep.num}` : '');
+      const tag = ep.podcast === 'ateneu' ? (ep.data_sessio || '') : isIhb ? (ep.format === 'video' ? 'vídeo' : 'àudio') : (ep.num != null ? `ep. ${ep.num}` : '');
 
       li.innerHTML = `
         <div class="ep-row">
@@ -787,9 +796,10 @@ async function init() {
 // El detall de cada episodi (etiquetes, descripció, enllaç) es pinta en obrir-lo:
 // així la pàgina carrega amb molts menys elements.
 function bodyHtml(ep) {
-  const isIhb = ep.podcast === 'institut-humanitats';
-  const meta = isIhb ? [ep.curs, (ep.ponents || []).join(', ')].filter(Boolean).join(' · ') : '';
-  const linkLabel = isIhb && ep.format === 'video' ? 'Mireu-lo a la font' : 'Obre a la font';
+  const isIhb = ep.podcast === 'institut-humanitats', isAteneu = ep.podcast === 'ateneu';
+  const meta = isAteneu ? [ep.data_sessio && `Conferència del ${ep.data_sessio}`, (ep.ponents || []).join(', '), ep.durada].filter(Boolean).join(' · ')
+    : isIhb ? [ep.curs, (ep.ponents || []).join(', ')].filter(Boolean).join(' · ') : '';
+  const linkLabel = (isIhb || isAteneu) && ep.format === 'video' ? 'Mireu-lo a la font' : 'Obre a la font';
   return `${meta ? `<p class="ep-meta">${meta}</p>` : ''}
     ${tagsHtml(ep)}
     ${ep.descripcio ? `<p class="ep-desc">${ep.descripcio}</p>` : '<p class="ep-desc empty">Sense descripció disponible.</p>'}
@@ -838,7 +848,8 @@ function fillFilters() {
   DD.tipus.setOptions(opts(TIP, count('tipus', false)));
   const fonts = count('podcast', false);
   DD.font.setOptions([...document.querySelectorAll('#podcast-nav button')]
-    .map(b => ({ v: b.dataset.podcast, label: b.textContent, count: fonts[b.dataset.podcast] || 0 })));
+    .map(b => ({ v: b.dataset.podcast, label: b.textContent, count: fonts[b.dataset.podcast] || 0 }))
+    .sort((a, b) => b.count - a.count));  // de més a menys programes
 }
 
 function setTag(tag) {
@@ -1279,7 +1290,7 @@ class YouTubeMedia extends EmbedMedia {
 }
 
 // Àudio sempre preferit; el vídeo incrustat només si no n'hi ha
-const embedOf = ep => !ep.id_3cat && !ep.ivoox && (ep.vimeo || ep.youtube) ? ep : null;
+const embedOf = ep => !ep.id_3cat && !ep.ivoox && !ep.mp3 && (ep.vimeo || ep.youtube) ? ep : null;
 
 async function useEmbed(ep) {
   const box = $('p-video');
@@ -1313,6 +1324,8 @@ const fmt = s => {
 };
 
 async function audioUrl(ep) {
+  // Ateneu: l'arxiu només té HTTP; l'àudio passa per functions/ateneu/[file].js
+  if (ep.mp3) return `/ateneu/${ep.mp3}.mp3`;
   if (!ep.id_3cat) return `https://www.ivoox.com/listen_mn_${ep.ivoox}_1.mp3`;
   const r = await fetch(`https://api-media.3cat.cat/pvideo/media.jsp?media=audio&idint=${ep.id_3cat}`);
   const media = (await r.json()).media;

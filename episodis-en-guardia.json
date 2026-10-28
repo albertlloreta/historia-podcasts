@@ -3120,10 +3120,10 @@
     "tematiques": ["gue", "pol"],
     "paisos": ["CN", "JP"],
     "regions": ["AO"],
-    "lloc": {"nom": "Shenyang"},
+    "lloc": {"nom": "Shenyang", "qid": "Q11720", "lat": 41.8025, "lon": 123.4281},
     "periodes": ["contemporania"],
     "segles": [20, 20],
-    "esdeveniments": [{"nom": "Incident de Mukden"}],
+    "esdeveniments": [{"nom": "Incident de Mukden", "qid": "Q242099"}],
     "civilitzacions": ["japonesos", "xinesos"],
     "tipus": "con"
   },

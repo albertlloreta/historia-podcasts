@@ -1,0 +1,100 @@
+at:200|cin;pol|ES|EUS|Barcelona|1||Franquisme||cul||
+at:201|gue;pol;his|ES|EUS|Barcelona|1||Fets de maig de 1937||con||
+at:202|cul;mus|ES|EUS||1||||cul||
+at:203|pol|ES|EUS|Barcelona|1|Francesc Macià|Parlament de Catalunya||pro||
+at:204|lit;fil|ES|EUS|Barcelona|1|Joan Maragall|||cul||
+at:205|cie|ES|EUS|Tarragona|1|Antoni de Martí i Franquès|||bio||
+at:206|lit;art|ES|EUS|Barcelona|1|Josep Pijoan|||bio||
+at:207|gue|ES|EUS|Barcelona|1|Almansor;Borrell II|Saqueig de Barcelona de 985|musulmans;francs|con||
+at:208|lit|ES;GR|EUS||1|Salvador Espriu|||cul||
+at:209|cie;pol|ES|EUS||1||||cul||
+at:210|lit;cie|ES|EUS|Barcelona|1|Pompeu Fabra|Modernisme||cul||
+at:211|cin|ES|EUS|Salamanca|0||Converses de Salamanca||cul||
+at:212|eco|ES|EUS||1||Franquisme||pro||
+at:213|arqu|ES|EUS|Mallorca|1|||talaiòtics|lloc||
+at:214|pol|ES|EUS|Tortosa|1|Marcel·lí Domingo|||bio||
+at:215|lit;gen|FR;US|EUO;AN|París|0|Anaïs Nin|||bio||
+at:216|fil;pol|ES|EUS|Barcelona|1|Francisco Fernández Buey|||bio||
+at:217|art|ES|EUS|Barcelona|1|Joaquim Mir|||bio||
+at:218|pol|ES|EUS|Barcelona|1||||pro||
+at:219|cul;pol|IT|EUS|L'Alguer|1|||catalans|lloc||
+at:220|cie;rel;med|ES;CH|EUS;EUC|Ginebra|0|Miquel Servet|||bio||
+at:221|pol|ES|EUS|Barcelona|1|Francesc Macià;Lluís Companys|||pro||
+at:222|arqu|ES|EUS|Empúries|1|||ibers;grecs|lloc||
+at:223|gue;pol|ES;FR|EUS;EUO||1|Jaume I;Pere el Catòlic|Batalla de Muret;Batalla de Las Navas de Tolosa||con||
+at:224|lit|ES|EUS|Barcelona|1|Agustí Esclasans|||bio||
+at:225|rel;pol|ES|EUS||0||||pro||
+at:226|lit;pol|ES|EUS||1||||cul||
+at:227|med;pol|ES|EUS|Barcelona|1|Bartomeu Robert|||bio||
+at:228|cie;med|ES|EUS|Barcelona|1|Ramon Turró|||bio||
+at:229|pol|ES|EUS|Barcelona|1|Francesc Macià|Proclamació de la Segona República||pro||
+at:230|pol;eco|ES|EUS|Barcelona|1||||cul||
+at:231|fil;cie|ES|EUS|Mallorca|1|Ramon Llull|||cul||
+at:232|pol;his|ES|EUS||1||||deb||
+at:233|cul;soc|ES|EUS|Barcelona|1|Josep Maria Calsamiglia|Universitat Autònoma de Barcelona||pro||
+at:234|art;med|ES|EUS|Figueres|1|Salvador Dalí|||cul||
+at:235|soc;eco|AR;CU;MX|AL||1||||pro||
+at:236|med;cul|ES|EUS||1||||cul||
+at:237|exp|US|AN|Califòrnia|1|Pere Fages|||bio||
+at:238|fil|DE|EUC||0|Georg Wilhelm Friedrich Hegel|||cul||
+at:239|fil|ES|EUS|Barcelona|1|Eugeni d'Ors|||bio||
+at:240|lit;cie|ES|EUS||1||||cul||
+at:241|rel;gue|FR|EUO|Montsegur|1||Croada albigesa|càtars|con||
+at:242|fil;rel|ES|EUS|Barcelona|1|Eugeni d'Ors;Francesc Pujols|||cul||
+at:243|lit|ES|EUS|Barcelona|1|Josep Carner|||bio||
+at:244|soc;pol|ES|EUS|Barcelona|1||Segona República espanyola||pro||
+at:245|lit|ES|EUS|Barcelona|1|Joan Sales|||bio||
+at:246|pol;his|ES|EUS||1||||deb||
+at:247|pol|US|AN|San Francisco|0||Conferència de San Francisco||pro||
+at:248|cul;soc|ES|EUS|Barcelona|1||Universitat Autònoma de Barcelona||pro||
+at:249|gue;arq|IT|EUS|Sardenya|1|Jaume II|Conquesta de Sardenya||con||
+at:250|lit;pol|FR|EUO|París|0|Victor Hugo|||bio||
+at:251|pol|ES|EUS|Barcelona|1|Alejandro Lerroux|||bio||
+at:252|soc;pol|MX|AL|Ciutat de Mèxic|1||Exili republicà||pro||
+at:253|lit;cul|MX|AL|Ciutat de Mèxic|1|Avel·lí Artís-Gener;Pere Calders|Exili republicà||cul||
+at:254|lit|ES|EUS|Barcelona|1|Mercè Rodoreda|||cul||
+at:255|pol;dre|ES|EUS|Barcelona|1|Carles III d'Àustria|Guerra de Successió espanyola||pro||
+at:256|art;fil|ES|EUS|Figueres|1|Salvador Dalí|||cul||
+at:257|lit;cin;art|US;ES|AN;EUS|Nova York|0|Federico García Lorca;Luis Buñuel;Salvador Dalí|||cul||
+at:258|gue;soc|RU|EUE|Moscou|1|Roser Rosés|Guerra Civil espanyola||bio||
+at:259|cul;lit|ES|EUS|Barcelona|1||||cul||
+at:260|cie;gue|ES;MX|EUS;AL||0|Enrique Moles|Exili republicà||pro||
+at:261|fil|FR|EUO||0|Paul Ricoeur|||cul||
+at:262|lit;fil|FR;DZ|EUO;NA|Alger|0|Albert Camus|||bio||
+at:263|pol;dre|ES|EUS|Barcelona|1|Francesc Layret|||bio||
+at:264|fil|ES|EUS|Barcelona|1|Joan Crexells;Eugeni d'Ors|||cul||
+at:265|pol;fil|ES|EUS|Barcelona|1|Joan Crexells|||cul||
+at:266|art;fil|ES|EUS|Barcelona|1|Joan Crexells|||cul||
+at:267|lit|ES|EUS|Barcelona|1|Joan Crexells|||cul||
+at:268|art;fil|ES|EUS|Barcelona|1|Joan Crexells|||cul||
+at:269|esp;fil|ES|EUS|Barcelona|1|Joan Crexells|||cul||
+at:270|fil;lit|ES;GR|EUS|Barcelona|1|Joan Crexells|||cul||
+at:271|lit|ES|EUS|Barcelona|1|Joan Crexells;Carles Riba|||cul||
+at:272|eco;fil|ES|EUS|Barcelona|1|Joan Crexells|||cul||
+at:273|fil;pol|ES|EUS|Barcelona|1|Joan Crexells|||cul||
+at:274|gue|FR;DE;GB|EUO;EUC||0||Primera Guerra Mundial||con||
+at:275|fil|ES|EUS|Barcelona|1|Joan Crexells|||bio||
+at:276|fil;lit|ES|EUS|Barcelona|1|Joan Crexells|Noucentisme||cul||
+at:277|cul|ES|EUS|Barcelona|1|Joan Crexells|||cul||
+at:278|quo;soc|ES|EUS|Barcelona|1|Francesc Candel|Franquisme||bio||
+at:279|lit|ES|EUS|Barcelona|1|Josep Carner;Josep Maria López-Picó;Guerau de Liost|Noucentisme||cul||
+at:280|pol;fil|IT|EUS|Florència|0|Nicolau Maquiavel|||cul||
+at:281|lit|ES|EUS|Barcelona|1|Mercè Rodoreda|||cul||
+at:282|lit;art|ES|EUS|Barcelona|1|Santiago Rusiñol|||cul||
+at:283|lit|ES|EUS|Barcelona|1|Carles Soldevila|||cul||
+at:284|gue|RU|EUE|Stalingrad|0||Batalla de Stalingrad||con||
+at:285|gue;pol|ES|EUS|València|1||Guerra de Successió espanyola||con||
+at:286|lit;gen|ES|EUS|Barcelona|1|Maria Aurèlia Capmany|||bio||
+at:287|cul|ES|EUS|Barcelona|1|Just Cabot|||bio||
+at:288|gue;rel|IL|PO|Jerusalem|0|Flavi Josep|Primera Guerra judeoromana|jueus;romans|con||
+at:289|fil|GR|EUS|Milet|0|Tales de Milet;Demòcrit;Heràclit||grecs|cul||
+at:290|lit|GB|EUO|Londres|0|William Shakespeare|||cul||
+at:291|cul;his|ES|EUS|Barcelona|1||||lloc||
+at:292|cie;gen|US|AN||0|Lynn Margulis|||bio||
+at:293|pol;gue|ES|EUS|Galícia|0||Franquisme||pro||
+at:294|pol|ES|EUS|Barcelona|1|Francesc Macià|||bio||
+at:295|dre;gue|DE|EUC|Nuremberg|0||Judicis de Nuremberg||pro||
+at:296|fil;gue|DE;US|EUC;AN||0|Hannah Arendt|||cul||
+at:297|his|ES|EUS|Barcelona|1|Josep Termes|||bio||
+at:298|rel;pol|ES|EUS|Barcelona|1||Franquisme||pro||
+at:299|lit;cie|FR|EUO|Nantes|0|Jules Verne|||cul||

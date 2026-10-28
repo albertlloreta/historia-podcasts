@@ -1,0 +1,100 @@
+at:600|eco;pol|AR|AL|Buenos Aires|1|Francesc Cambó|||pro||
+at:601|pol;dre|ES|EUS|Barcelona|1||Mancomunitat de Catalunya||pro||
+at:602|gue;rel|DE|EUC||0||Holocaust|jueus|con||
+at:603|med;pol|ES|EUS|Madrid|0|Ernest Lluch|||pro||
+at:604|gue;med;gen|FR|EUO|Elna|1|Elisabeth Eidenbenz|Retirada||bio||
+at:605|cie|ES|EUS|Barcelona|1||||lloc||
+at:606|gen;pol|ES|EUS|Barcelona|1|Teresa Claramunt;Francesca Bonnemaison;Carme Karr|||pro||
+at:607|mus;pol||GLO||0||||cul||
+at:608|cie||EUO||0||||cul||
+at:609|cul;lit;pol|ES|EUS|Barcelona|1|Valentí Almirall;Pere Coromines;Pompeu Fabra|||cul||
+at:610|pol;his|ES|EUS|Barcelona|1|Muriel Casals|||bio||
+at:611|art;rel|ES|EUS|Sixena|1||||lloc||
+at:612|gue|DE;AT|EUC|Mauthausen|1||Deportació republicana als camps nazis||con||
+at:613|lit|ES|EUS|Barcelona|1|Eugeni d'Ors|Noucentisme||cul||
+at:614|exp|ES|EUS;AL||1|Cristòfor Colom|Descobriment d'Amèrica||pro||
+at:615|soc;pol|ES|EUS|Barcelona|1|Francesc Ferrer i Guàrdia|Escola Moderna||bio||
+at:616|gue;pol|ES|EUS|Barcelona|1||Guerra Civil espanyola||con||
+at:617|gue;pol|IL;PS|PO|Jerusalem|0||Conflicte araboisraelià|israelians;palestins|con||
+at:618|quo;art|IT|EUS|Pompeia|0|||romans|quo||
+at:619|pol;gue|RU|EUE|Petrograd|0|Lenin|Revolució Russa||pro||
+at:620|lit|ES|EUS|Barcelona|1||Noucentisme||cul||
+at:621|lit|ES|EUS|Barcelona|1|Josep Maria López-Picó|||cul||
+at:622|lit|ES|EUS|Barcelona|1|Mercè Rodoreda|||cul||
+at:623|exp;pol|RU|EUE|Moscou|1||Revolució Russa||pro||
+at:624|pol;soc|ES|EUS||0|Alfons XIII|Crisi de 1917||pro||
+at:625|gue|ES|EUS||1|Miquel Siguan|Guerra Civil espanyola||bio||
+at:626|pol|ES|EUS|Barcelona|1|Francesc Macià|||pro||
+at:627|pol|ES|EUS|Barcelona|1|Francesc Macià|Proclamació de la Segona República||pro||
+at:628|pol;eco||EUO;EUC||0||Pla Marshall||pro||
+at:629|pol|ES|EUS|Barcelona|1|Josep Narcís Roca i Farreras|||cul||
+at:630|dre|ES|EUS|Barcelona|1||||pro||
+at:631|pol;dre|ES|EUS|Madrid|0||||pro||
+at:632|lit|ES|EUS|Barcelona|1|Sebastià Juan Arbó|||bio||
+at:633|lit;gen|ES|EUS|Barcelona|1|Anna Murià|||bio||
+at:634|lit|ES|EUS|Barcelona|1|Guillem Díaz-Plaja|||bio||
+at:635|soc;pol|ES|EUS|Barcelona|1||Busca i Biga||pro||
+at:636|eco;gue|ES|EUS|Barcelona|1||Guerra Civil espanyola||pro||
+at:637|pol|ES|EUS||1||||pro||
+at:638|pol|ES|EUS|Barcelona|1|Francesc Macià|||pro||
+at:639|gue;pol|ES|EUS|Barcelona|1||Fets de maig de 1937||con||
+at:640|pol|ES|EUS|Barcelona|1|Andreu Nin;Joaquim Maurín|||pro||
+at:641|pol|ES|EUS|Barcelona|1||Segona República espanyola||pro||
+at:642|pol|ES|EUS|Barcelona|1|Francesc Macià|Proclamació de la Segona República||pro||
+at:643|gue|AT|EUC|Mauthausen|1|Montserrat Roig|Holocaust||con||
+at:644|fil|DE|EUC||0|Martin Heidegger|||cul||
+at:645|soc;pol|ES|EUS||0||Dictadura de Primo de Rivera||pro||
+at:646|soc;pol|ES|EUS||0||||pro||
+at:647|pol|ES|EUS||0||Restauració borbònica||pro||
+at:648|lit;pol|ES|EUS|Barcelona|1|Frederic Soler|||bio||
+at:649|eco;soc|ES|EUS||1||||pro||
+at:650|rel;fil|FR|EUO|Occitània|0||Catarisme|càtars|cul||
+at:651|rel;pol|ES|EUS||0||Restauració borbònica||pro||
+at:652|lit|ES|EUS|Barcelona|1||Modernisme||cul||
+at:653|gue;pol|ES|EUS|Barcelona|1|Teresa Pàmies;Víctor Alba|Fets de maig de 1937||con||
+at:654|cie|ES|EUS|Barcelona|1||||cul||
+at:655|pol|ES|EUS||1||Eleccions generals espanyoles de 1936||pro||
+at:656|lit|FR|EUO|París|0|Honoré de Balzac|||cul||
+at:657|pol;lit|ES|EUS|Madrid|0|Dionisio Ridruejo|||bio||
+at:658|lit;gue|ES|EUS|València|1||Guerra Civil espanyola||cul||
+at:659|pol;soc|ES|EUS|Barcelona|1||Transició espanyola||pro||
+at:660|pol|ES|EUS||0||Transició espanyola||con||
+at:661|pol|ES|EUS||0||Transició espanyola||pro||
+at:662|soc;pol|ES|EUS||0||Franquisme||pro||
+at:663|pol|ES|EUS|Barcelona|1|Andreu Nin|||pro||
+at:664|lit|ES|EUS|Barcelona|1|Tomàs Roig i Llop|||bio||
+at:665|pol|ES|EUS|Barcelona|1|Lluís Companys|||bio||
+at:666|lit|ES|EUS|Barcelona|1||||cul||
+at:667|pol|ES|EUS|Manresa|1||Bases de Manresa||pro||
+at:668|lit|ES|EUS|Benissanet|1|Artur Bladé|||bio||
+at:669|arq;art|ES|EUS|Barcelona|1||Modernisme||lloc||
+at:670|lit|ES|EUS|Palafrugell|1|Josep Pla|||bio||
+at:671|lit;pol|ES|EUS|Barcelona|1||||cul||
+at:672|lit|ES|EUS|Barcelona|1|Rosa Leveroni|||bio||
+at:673|lit;rel|ES|EUS|Barcelona|1|Joan Baptista Bertran|||bio||
+at:674|lit|ES;MX|EUS;AL||0|Manuel Andújar|Exili republicà||cul||
+at:675|lit;art;mus|ES|EUS|Barcelona|1|Apel·les Mestres|||bio||
+at:676|lit;cul|JP|AO|Kyoto|0||||cul||
+at:677|lit;gue|ES|EUS|Barcelona|1||Guerra Civil espanyola||cul||
+at:678|lit;gue|ES|EUS|València|1||Guerra Civil espanyola||cul||
+at:679|med|FR|EUO|París|0|Pierre Janet|||cul||
+at:680|pol|ES|EUS|Mallorca|1|Antoni Maria Sbert|||bio||
+at:681|lit|ES|EUS|Barcelona|1||Modernisme||cul||
+at:682|lit|ES|EUS|Barcelona|1|Josep Carner|Modernisme;Noucentisme||cul||
+at:683|lit|ES|EUS|Tàrrega|1|Manuel de Pedrolo|||bio||
+at:684|dre|ES|EUS|Barcelona|1||||pro||
+at:685|lit|ES|EUS|Pollença|1|Miquel Costa i Llobera;Joan Alcover|||cul||
+at:686|cie;fil|GB|EUO|Cambridge|0|C. P. Snow|||cul||
+at:687|art|NL;FR|EUO|Arle|0|Vincent van Gogh|||bio||
+at:688|cie|FR;ES|EUO;EUS|Barcelona|1|Pierre Méchain;Jean-Baptiste Delambre|Mesura del meridià||cul||
+at:689|esp|FR|EUO|París|0|Pierre de Coubertin|Jocs Olímpics||bio||
+at:690|pol|ES|EUS|Barcelona|1|Enric Prat de la Riba|||bio||
+at:691|pol;gue|ES|EUS||1||Guerra Civil espanyola||pro||
+at:692|dre;pol|FR|EUO|París|0||Declaració Universal dels Drets Humans||pro||
+at:693|fil|GR|EUS|Atenes|0|Sòcrates||grecs|bio||es
+at:694|lit|ES|EUS|Menorca|1|Màrius Verdaguer|||cul||
+at:695|pol|ES|EUS|Barcelona|1|Lluís Companys|||bio||
+at:696|med;fil|AT|EUC|Viena|0|Sigmund Freud|||cul||
+at:697|lit|ES|EUS|Barcelona|0|Carlos Barral;Jaime Gil de Biedma|||cul||
+at:698|lit|ES|EUS|Tortosa|1|Joan Barceló|||bio||
+at:699|soc;pol|ES|EUS|Barcelona|1||||pro||

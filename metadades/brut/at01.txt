@@ -1,0 +1,100 @@
+at:100|pol|ES|EUS|Barcelona|1||Segona República espanyola||pro||
+at:101|lit;pol|ES|EUS|Barcelona|1||Renaixença||cul||
+at:102|lit|ES|EUS|Barcelona|1||Noucentisme||cul||
+at:103|pol;dre;soc|ES|EUS|Barcelona|1|Francesc Layret|||bio||
+at:104|lit|ES|EUS|Girona|1|Prudenci Bertrana|||bio||
+at:105|pol;dre|ES|EUS|Barcelona|1||Decrets de Nova Planta||pro||
+at:106|pol;soc|ES|EUS|Barcelona|1|Salvador Seguí|Pistolerisme||bio||
+at:107|eco;pol|ES|EUS|Barcelona|1|Josep Puig i Cadafalch|Mancomunitat de Catalunya||pro||
+at:108|lit|ES|EUS|Barcelona|1||Modernisme||cul||
+at:109|cie;med|ES|EUS|Barcelona|1|Marià Cubí|||cul||
+at:110|fil;pol|FR|EUO|París|0|Michel Foucault|||cul||
+at:111|fil|NL|EUO|Amsterdam|0|Baruch Spinoza|||cul||
+at:112|arqu|ES|EUS|Menorca|1|||talaiòtics|lloc||
+at:113|pol;soc|ES|EUS|Barcelona|1||||pro||
+at:114|lit|ES|EUS|Barcelona|1|Salvador Espriu|||cul||
+at:115|lit;mus|ES|EUS|Barcelona|1|Salvador Espriu|||cul||
+at:116|gue;quo|ES|EUS|Barcelona|1||Bombardejos de Barcelona||con||
+at:117|lit|ES|EUS|Arenys de Mar|1|Salvador Espriu|||bio||
+at:118|art|GB;US|EUO;AN|Londres|0|David Hockney;R. B. Kitaj|||cul||
+at:119|art|GB|EUO|Londres|0|Leon Kossoff;Frank Auerbach|||cul||
+at:120|lit|ES|EUS|Barcelona|1|Mercè Rodoreda|||cul||
+at:121|lit|ES|EUS|Girona|1|Prudenci Bertrana|||cul||
+at:122|lit;art|ES|EUS|Barcelona|1||Modernisme||cul||
+at:123|pol|ES|EUS|Barcelona|1|Lluís Companys|||bio||
+at:124|art|ES;IT;MA|EUS;NA|Reus|1|Marià Fortuny|||bio||
+at:125|lit|ES|EUS|Palafrugell|1|Josep Pla|||cul||
+at:126|pol;dre|ES|EUS|Barcelona|1||||pro||
+at:127|art;med|ES;AT|EUS;EUC|Figueres|1|Salvador Dalí;Sigmund Freud|Surrealisme||cul||
+at:128|rel;fil|ES|EUS|Barcelona|1||||cul||
+at:129|lit|ES|EUS|Barcelona|1|Joan Maragall|Modernisme||cul||
+at:130|cie;rel|GB|EUO||0|Charles Darwin|||cul||
+at:131|lit|ES|EUS|Madrid|0|Miguel Mihura|||cul||
+at:132|lit|ES|EUS|Barcelona|1||Franquisme||cul||
+at:133|cie|ES|EUS|Barcelona|1|Charles Darwin|||cul||
+at:134|cie|ES|EUS|Barcelona|1|Charles Darwin|||cul||
+at:135|lit|AR;CO;MX;PE|AL||0|Gabriel García Márquez;Mario Vargas Llosa;Julio Cortázar|||cul||
+at:136|lit|ES|EUS|Barcelona|1||||cul||
+at:137|med|ES|EUS|Barcelona|1|Josep de Letamendi|||bio||
+at:138|pol|ES;FR|EUS;EUO|Sant Feliu de Guíxols|1|Josep Irla|||bio||
+at:139|pol;lit|ES|EUS|Tarragona|1|Antoni Rovira i Virgili|||bio||
+at:140|cul|ES|EUS|Barcelona|1||||cul||
+at:141|mus;cie|ES|EUS|Barcelona|1||||cul||
+at:142|cie|ES|EUS|Barcelona|1||||cul||
+at:143|lit|ES|EUS|Barcelona|1|Josep Maria Folch i Torres|||bio||
+at:144|lit;rel|ES|EUS|Barcelona|1|Jeroni Zanné|||cul||
+at:145|lit|ES|EUS|Barcelona|1|Georges Simenon|||cul||
+at:146|lit;cin|ES|EUS|Barcelona|1|Georges Simenon|||cul||
+at:147|lit;cin|ES|EUS|Barcelona|1||||cul||
+at:148|cul|ES|EUS|Barcelona|1|Carles Pirozzini|||bio||
+at:149|pol;gen|ES|EUS|Barcelona|1|Magda Lladó|Guerra Civil espanyola||bio||
+at:150|gen;lit|ES|EUS|Barcelona|1|Carme Karr|||cul||
+at:151|lit|ES;FR|EUS;EUO|Canigó|1|Jacint Verdaguer|||cul||
+at:152|lit;gen|ES|EUS|Barcelona|1|Teresa Pàmies;Aurora Bertrana;Basi Mira|||bio||
+at:153|fil;pol|IT|EUS|Roma|0|Ciceró||romans|bio||
+at:154|lit|ES|EUS|Vic|1|Maria Àngels Anglada|||bio||
+at:155|lit|ES|EUS|Barcelona|1|Bernat Metge|||bio||
+at:156|med;arq|ES|EUS|Barcelona|1||||lloc||
+at:157|gen;rel;soc|ES|EUS|Barcelona|1|||cristians;musulmans;jueus|quo||
+at:158|quo;soc|ES|EUS|Barcelona|1||||quo||
+at:159|mus|DE|EUC|Bayreuth|0|Richard Wagner|||bio||
+at:160|mus;fil|DE|EUC|Bayreuth|0|Richard Wagner|||cul||
+at:161|fil|ES|EUS|Barcelona|1|Joan Crexells|||cul||
+at:162|cul;cie|EG|NA|Alexandria|0|||grecs;egipcis|lloc||
+at:163|cul;soc|ES|EUS||0||Franquisme||pro||
+at:164|gen;cul|ES|EUS|Barcelona|1|Carme Karr|||cul||
+at:165|lit|ES|EUS|Barcelona|1|Miquel Llor|||bio||
+at:166|fil;gen|FR|EUO|París|0|Simone de Beauvoir|||cul||
+at:167|cul;pol|ES;FR|EUS;EUO|París|0|Elena Romo|||bio||
+at:168|gue;his|ES|EUS||1||Guerra Civil espanyola||deb||
+at:169|pol|ES|EUS|Barcelona|1|Francesc Cambó|||bio||
+at:170|lit|ES|EUS|Vic|1|Maria Àngels Anglada|||bio||
+at:171|soc|ES|EUS|Barcelona|1||Institut-Escola||pro||
+at:172|gen|ES|EUS||1||||pro||
+at:173|lit|ES|EUS|L'Escala|1|Caterina Albert|||bio||
+at:174|pol;eco|ES|EUS|Barcelona|1|Francesc Cambó|||bio||
+at:175|pol|ES|EUS|Barcelona|1|Francesc Cambó|||cul||
+at:176|cul;pol|ES|EUS||1||Franquisme||pro||
+at:177|gue|FR|EUO||1||Primera Guerra Mundial||con||
+at:178|lit|ES|EUS|Barcelona|1|Montserrat Roig|||bio||
+at:179|eco;gue|ES|EUS|Barcelona|1||Guerra Civil espanyola||pro||
+at:180|art;pol|ES|EUS||0||Franquisme||cul||
+at:181|eco|ES|EUS|Barcelona|1||Franquisme||pro||
+at:182|pol|ES|EUS|Barcelona|1|Andreu Nin;Joaquim Maurín|||pro||
+at:183|pol;cul|GR|EUS|Atenes|0|||grecs|cul||
+at:184|gue;eco|IT;GR|EUS||1||Expansió catalana per la Mediterrània||pro||
+at:185|lit|ES|EUS|Barcelona|1|J. V. Foix|||cul||
+at:186|lit|ES|EUS|Palafrugell|1|Josep Pla|||cul||
+at:187|art;cul|ES|EUS|Barcelona|1|Pablo Picasso;Santiago Rusiñol;Ramon Casas|Modernisme||lloc||
+at:188|pol|ES|EUS||1|Teresa Pàmies|Franquisme||pro||
+at:189|gen|US;ES|AN;EUS||0||Dia Internacional de les Dones||pro||
+at:190|gue;pol|ES|EUS||0||Guerra Civil espanyola||con||
+at:191|lit|ES|EUS|Barcelona|1|Josep Maria de Sagarra|||cul||
+at:192|art|ES|EUS|Barcelona|1||Noucentisme||cul||
+at:193|lit;gen|ES|EUS|Barcelona|1|Dolors Monserdà|||bio||
+at:194|pol;gue|ES|EUS||1||Guerres carlines||pro||
+at:195|lit;cul|ES|EUS|Barcelona|1||||cul||
+at:196|lit;quo|ES;FR;IT|EUS;EUO||0||||cul||
+at:197|cul;pol|HU|EUC|Budapest|0|||magiars|lloc||
+at:198|lit|ES|EUS|Barcelona|1|Jaume Massó i Torrents|||bio||
+at:199|lit;rel|ES;GB|EUS;EUO|Sevilla|0|José María Blanco White|||bio||

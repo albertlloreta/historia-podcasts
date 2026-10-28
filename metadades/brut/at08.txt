@@ -1,0 +1,100 @@
+at:800|gue;pol|ES|EUS|Barcelona|1||Fets de maig de 1937||con||
+at:801|art;arqu|ES;US|EUS;AN||1||Espoli del romànic||cul||
+at:802|lit||EUO;EUS||0||||cul||
+at:803|cul;esp|ES|EUS|Barcelona|1||Centre Excursionista de Catalunya||pro||
+at:804|gue|ES|EUS|Lleida|1||Bombardeig de Lleida||con||
+at:805|med|ES;GB|EUS;EUO|Barcelona|1|Josep Trueta|||bio||
+at:806|pol|ES|EUS|Barcelona|1|Valentí Almirall;Francesc Pi i Margall|Primera República espanyola||pro||
+at:807|lit|FR|EUO||0|Charles Perrault|||cul||
+at:808|fil;rel|ES|EUS|Barcelona|1|Eusebi Colomer|||bio||
+at:809|gue;pol|ES;CU;US|EUS;AL;AN||0||Guerra hispano-estatunidenca||con||
+at:810|pol|ES|EUS|Barcelona|1||Franquisme||pro||
+at:811|pol;soc|ES|EUS|Barcelona|1|Salvador Seguí|||bio||
+at:812|cin|JP|AO|Tòquio|0|Akira Kurosawa|||bio||
+at:813|lit;eco|ES|EUS|Barcelona|1|Bonaventura Carles Aribau|Renaixença||bio||
+at:814|med|ES|EUS|Barcelona|1|Agustí Pedro i Pons|||bio||
+at:815|mus|PL;FR|EUE;EUO|París|0|Frédéric Chopin|||bio||
+at:816|mus|DE|EUC|Leipzig|0|Johann Sebastian Bach|||bio||
+at:817|mus;lit|ES|EUS||1|Manuel de Falla;Jacint Verdaguer|||cul||
+at:818|fil|ES;MX|EUS;AL|Ciutat de Mèxic|1|Eduard Nicol|Exili republicà||cul||
+at:819|lit;gue|ES|EUS||1||Guerra Civil espanyola||cul||
+at:820|gue|ES|EUS|Barcelona|1||Caiguda de Barcelona||con||
+at:821|gue;pol|DZ|NA|Alger|0||Guerra civil algeriana||con||
+at:822|lit|ES|EUS|Barcelona|1|Ernest Moliné i Brasés|||bio||
+at:823|lit|ES|EUS|Barcelona|1|Bernat Metge|||cul||
+at:824|cul;cie|ES|EUS|Barcelona|1||Ràdio Barcelona||pro||
+at:825|pol;dre|ES|EUS|Barcelona|1|Salvador Puig Antich|Franquisme||con||
+at:826|mus|DE|EUC|Leipzig|0|Johann Sebastian Bach|||bio||
+at:827|arq|ES|EUS|Barcelona|1||||lloc||
+at:828|cie|ES|EUS|Barcelona|1||||pro||
+at:829|lit|ES|EUS|Madrid|0|Pedro Calderón de la Barca|||cul||
+at:830|pol;gue|ES|EUS||1||Maquis||pro||
+at:831|cul;pol|ES|EUS|Barcelona|1|Valentí Almirall|||cul||
+at:832|rel|FR|EUO|Occitània|0||Catarisme|càtars|cul||
+at:833|pol|ES|EUS|Barcelona|1|Lluís Companys|||bio||
+at:834|gue|CU;ES|AL;EUS|L'Havana|0||Guerra de Cuba||con||
+at:835|gue;pol|ES|EUS||1||Guerra dels Segadors||pro||
+at:836|arqu|ES|EUS|Atapuerca|0|||homínids|cul||
+at:837|art;arq;rel|FR|EUO|Conflent|1||||lloc||
+at:838|med||GLO||0||||pro||
+at:839|rel;cul|IT|EUS|L'Alguer|1||||lloc||
+at:840|arq|ES|EUS|Barcelona|1||||lloc||
+at:841|lit;rel|GB|EUO|Londres|0|John Milton|||cul||
+at:842|arq|ES|EUS|Girona|1||||lloc||
+at:843|cie;arqu||GLO||0|||homínids|cul||
+at:844|art|ES|EUS|Barcelona|1||||cul||
+at:845|art|FR|EUO|Perpinyà|1||||cul||
+at:846|mus;rel|DE|EUC||0|Richard Wagner||germànics|cul||
+at:847|pol;gue|PS;IL|PO|Gaza|0||Conflicte araboisraelià|palestins|con||
+at:848|eco;gue|ES|EUS|Barcelona|1||||lloc||
+at:849|soc|ES|EUS|Barcelona|1||||pro||
+at:850|pol;gue|ES|EUS||1||Maquis||deb||
+at:851|cie;eco|ES|EUS||0||||pro||
+at:852|gue;rel|FR|EUO|Carcassona|1|Simó de Montfort;Pere el Catòlic|Croada albigesa|càtars|con||
+at:853|rel|FR|EUO|Occitània|0||Catarisme|càtars|cul||
+at:854|pol|FR;ES|EUO;EUS|Prats de Molló|1|Francesc Macià|Fets de Prats de Molló||bio||
+at:855|arq|ES|EUS|Barcelona|1|Ildefons Cerdà|||bio||
+at:856|gue;pol|ES|EUS|Barcelona|1|Carlemany;Lluís el Pietós|Conquesta de Barcelona|francs;musulmans|con||
+at:857|cie|ES|EUS|Barcelona|1|Francesc Salvà i Campillo|||cul||
+at:858|soc;quo|ES|EUS||1|||francs|quo||
+at:859|rel|ES|EUS||1|||francs|pro||
+at:860|lit|FR|EUO|Illa|1|Prosper Mérimée|||cul||
+at:861|pol|ES|EUS|Barcelona|1||Fets del Palau de la Música||pro||
+at:862|lit|GR|EUS|Ítaca|0|Homer;Ulisses||grecs|cul||
+at:863|eco|ES|EUS|Barcelona|1|Laureà Figuerola|||bio||
+at:864|cul;soc||EUO;EUC||0||Belle Époque||cul||
+at:865|soc|ES;FR|EUS;EUO||1|||occitans|pro||
+at:866|eco;gue|ES|EUS|Barcelona|1||Guerra dels Segadors||pro||
+at:867|arq|ES|EUS|Barcelona|1|Antoni Gaudí|Sagrada Família||cul||
+at:868|pol|ES|EUS|Barcelona|1|Enric Prat de la Riba|||bio||
+at:869|lit|ES|EUS|Arenys de Mar|1|Salvador Espriu|||cul||
+at:870|lit|IT|EUS|Roma|0|Virgili;Enees||romans|cul||
+at:871|fil;lit;rel|DE|EUC||0|Hannah Arendt;Paul Celan|Holocaust||cul||
+at:872|lit;soc|ES|EUS|Barcelona|1|Juli Vallmitjana|||cul||
+at:873|pol;soc|ES|EUS|Barcelona|1||||pro||
+at:874|cin|SE|EUN|Estocolm|0|Ingmar Bergman|||bio||
+at:875|lit;gue|ES|EUS|Barcelona|1|Lawrence Durrell;Henry Miller;Andreu Nin|||cul||
+at:876|cul;pol|ES|EUS|Barcelona|1||||pro||
+at:877|lit|ES|EUS|Barcelona|1|Jacint Verdaguer|||cul||
+at:878|lit;cul|ES;FR|EUS;EUO||1|Frederic Mistral|Renaixença||cul||
+at:879|lit;rel|IN|ASM||0|Valmiki;Rama|||cul||
+at:880|pol;dre|ES|EUS||1||Franquisme||pro||
+at:881|pol|ES|EUS|Girona|1|Josep Pallach|||bio||
+at:882|lit;pol|ES|EUS|Barcelona|1|Jaume Brossa|Modernisme||bio||
+at:883|arq;art|ES|EUS|Barcelona|1|Antoni Gaudí|||cul||
+at:884|pol|ES|EUS|Barcelona|1||||pro||
+at:885|lit;mus|ES|EUS|Barcelona|1|Jacint Verdaguer|||cul||
+at:886|soc;eco|ES|EUS|Barcelona|1|Albert Pérez Baró|||bio||
+at:887|arq|ES|EUS|Girona|1||||lloc||
+at:888|pol;soc|ES|EUS|Mataró|1|Joan Peiró|||bio||
+at:889|pol|ES|EUS|Barcelona|1|Francesc Pi i Margall|||bio||
+at:890|arq|ES|EUS|L'Hospitalet de Llobregat|1||||lloc||
+at:891|med;pol|ES|EUS|Barcelona|1|Bartomeu Robert|||bio||
+at:892|pol;cul|ES|EUS|València|1|Joan Fuster|||pro||
+at:893|arq;lit|ES|EUS|Barcelona|1|Eusebi Güell;Antoni Gaudí;Jacint Verdaguer|||bio||
+at:894|lit|ES|EUS|Barcelona|1|Mercè Rodoreda|||cul||
+at:895|arq|ES|EUS|Barcelona|1|Antoni Gaudí|||cul||
+at:896|gue;pol|ES;FR|EUS;EUO||1||Segona Guerra Mundial||con||
+at:897|mus;lit|ES|EUS||1|Manuel de Falla;Jacint Verdaguer|||cul||
+at:898|rel;arq|ES|EUS|Girona|1|||jueus|lloc||
+at:899|lit|ES|EUS|Folgueroles|1|Jacint Verdaguer|||cul||

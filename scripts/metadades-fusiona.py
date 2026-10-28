@@ -10,7 +10,8 @@ from collections import Counter
 
 D = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONTS = {'pdt': 'episodis-portes-de-troia.json', 'eg': 'episodis-en-guardia.json',
-         'sons': 'episodis-sons-edat-mitjana.json', 'ih': 'sessions-institut-humanitats.json'}
+         'sons': 'episodis-sons-edat-mitjana.json', 'ih': 'sessions-institut-humanitats.json',
+         'at': 'sessions-ateneu.json'}
 CAMPS = ['tematiques', 'paisos', 'regions', 'lloc', 'ambit_catala', 'periodes', 'segles', 'personatges',
          'esdeveniments', 'civilitzacions', 'tipus', 'convidats', 'serie', 'idioma']
 wd = json.load(open(f'{D}/metadades/wikidata-cache.json'))
@@ -98,7 +99,7 @@ for pre, fitxer in FONTS.items():
             'civilitzacions': llista(civ), 'tipus': tip or None, 'idioma': idi or None,
             'ambit_catala': True if cat == '1' else None,
             'personatges': ent('pers', llista(pers)), 'esdeveniments': ent('esdev', llista(esd)),
-            'convidats': llista(conv) if pre != 'ih' else [],
+            'convidats': llista(conv) if pre not in ('ih', 'at') else [],
         }
         if lloc:
             d = wd.get(f'lloc|{lloc}') or {}

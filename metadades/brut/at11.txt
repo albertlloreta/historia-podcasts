@@ -1,0 +1,52 @@
+at:1100|art;cul|ES|EUS|Barcelona|1|Nazario;Javier Mariscal;Miguel Gallardo|Contracultura||cul||
+at:1101|gue|ES;FR|EUS;EUO||1|Napoleó Bonaparte|Guerra del Francès||con||
+at:1102|gue;pol|ES|EUS|Girona|1|Francesc Surroca|Guerra Civil espanyola||bio||
+at:1103|fil;gen|ES;MX|EUS;AL||0|María Zambrano|Exili republicà||bio||
+at:1104|pol|ES|EUS|Barcelona|1||Trienni Liberal||pro||
+at:1105|art;cie|ES|EUS|Cadaqués|1|Salvador Dalí|Surrealisme||cul||
+at:1106|gen;cul|ES|EUS|Barcelona|1||Segona República espanyola||pro||
+at:1107|cul|ES|EUS|Barcelona|1|Ricard Salvat|||bio||
+at:1108|art;mus;cul|ES|EUS|Barcelona|1||Contracultura||cul||
+at:1109|lit|ES|EUS|Sabadell|1||||cul||
+at:1110|fil;his|DE|EUC||0|Walter Benjamin|||cul||
+at:1111|pol;cul|ES|EUS|Barcelona|1||Transició espanyola||pro||
+at:1112|fil|FR;LT|EUO;EUE||0|Emmanuel Levinas|||cul||
+at:1113|art;fil|ES|EUS|Barcelona|1|Arnau Puig;Joan Brossa;Antoni Tàpies|Dau al Set||cul||
+at:1114|cul;lit|ES|EUS|Barcelona|1|Edmon Vallès|||bio||
+at:1115|lit;pol|ES|EUS|Barcelona|1|Pere Coromines|||bio||
+at:1116|soc;pol|ES|EUS|Lleida|1||Franquisme||quo||
+at:1117|esp||GLO||0|Wilhelm Steinitz;Emanuel Lasker;José Raúl Capablanca;Aleksandr Alekhin;Max Euwe|||cul||
+at:1118|esp|RU;US|EUE;AN||0|Mikhaïl Botvínnik;Bobby Fischer|||cul||
+at:1119|lit|ES|EUS|Barcelona|1|Josep Carner|||cul||
+at:1120|fil|HU|EUC|Budapest|0|Ágnes Heller|||bio||
+at:1121|art|ES|EUS|Barcelona|1|Oriol Maspons|||bio||
+at:1122|pol;soc|ES|EUS|Barcelona|1||Setmana Tràgica||con||
+at:1123|his;eco|ES|EUS|Barcelona|1|Ernest Lluch|||bio||
+at:1124|fil|ES|EUS|Barcelona|1||||cul||
+at:1125|lit|FR|EUO|París|0|Marcel Proust|||cul||
+at:1126|lit|ES|EUS|Vic|1|Miquel Llor|||cul||
+at:1127|lit|ES|EUS|Barcelona|1|Joan Puig i Ferreter|||cul||
+at:1128|lit|ES|EUS|Barcelona|1|Maria Mercè Marçal|||cul||
+at:1129|lit|ES|EUS|Barcelona|1|Pompeu Gener;Joan Maragall;Santiago Rusiñol|Modernisme||cul||
+at:1130|pol;dre|ES|EUS|Sau|1||Estatut d'autonomia de Catalunya de 1979||pro||
+at:1131|soc;pol|ES|EUS|Barcelona|1|Francesc Ferrer i Guàrdia|Escola Moderna||pro||
+at:1132|lit;gen|ES|EUS|L'Escala|1|Caterina Albert|||bio||
+at:1133|pol|ES|EUS|Madrid|1|Francesc Pi i Margall;Estanislau Figueras|Primera República espanyola||pro||
+at:1134|lit|ES|EUS|Sueca|1|Joan Fuster|||cul||
+at:1135|cul;his|ES|EUS|Barcelona|1||||lloc||
+at:1136|eco|ES|EUS|Barcelona|1|Francesc Moragas|||pro||
+at:1137|mus|ES|EUS|Barcelona|1|Frederic Mompou;Manuel Blancafort|||cul||
+at:1138|pol;eco|ES|EUS|Madrid|0||||pro||
+at:1139|rel;soc;gen|ES|EUS||1||Caça de bruixes||pro||
+at:1140|art;gue|ES;CH|EUS;EUC|Ginebra|1||Guerra Civil espanyola||con||
+at:1141|lit|FR;ES|EUO;EUS|París|1|Molière|||cul||
+at:1142|lit;gen|ES|EUS|València|1|Carmelina Sánchez-Cutillas|||bio||
+at:1143|fil|FR|EUO|París|0|Gilles Deleuze;Félix Guattari|||cul||
+at:1144|cin;lit|RU|EUE|Moscou|0|Aleksandr Puixkin||russos|cul||
+at:1145|pol;soc|ES|EUS|Barcelona|1||Transició espanyola||pro||
+at:1146|pol|ES|EUS|Madrid|0||Cop d'estat del 23 de febrer de 1981||con||
+at:1147|pol;soc|MX|AL|Ciutat de Mèxic|1||Exili republicà||pro||
+at:1148|pol;gen|ES|EUS|Barcelona|1|Maria Aurèlia Capmany|||bio||
+at:1149|pol|ES|EUS|Barcelona|1|Josep Narcís Roca i Farreras|||bio||
+at:1150|fil|DE|EUC|Königsberg|0|Immanuel Kant|||cul||
+at:1151|pol;gue|ES|EUS||1||Maquis;Franquisme||pro||

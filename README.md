@@ -24,6 +24,14 @@ Episodis de podcasts d'història en català endreçats en ordre cronològic. Dis
 
 `episodis-sons-edat-mitjana.json` conté els 130 programes complets (de `api.3cat.cat/audios?programaradio_id=1722`; les seccions soltes no s'hi inclouen). `data_historica` assignada a mà programa per programa; 10 temes contemporanis queden com a "Variable".
 
+### Arxiu de la Paraula de l'Ateneu Barcelonès
+
+Conferències de l'[Arxiu de la Paraula](http://arxiudigital.ateneubcn.cat/) de l'Ateneu Barcelonès (des del 1973, llicència CC BY-NC-ND), filtrades a mà: només les que tenen una temporalitat històrica identificable (fets, períodes, persones mortes de les quals es repassa la vida o l'obra, art, literatura o pensament d'una època). Fora l'actualitat del moment, els premis, els recitals i les sessions en castellà. Criteri a `historia-pendents/ateneu/CRITERI.md` (fora del repo).
+
+`sessions-ateneu.json` conté 1152 sessions (802 àudios, 349 vídeos de YouTube) amb títol, ponents, any de la conferència, durada, descripció i enllaç a la fitxa. Es genera amb `python3 scripts/ateneu.py items.json seleccio.json` (fitxes extretes de `/items/browse?output=omeka-json`; l'API d'Omeka està desactivada). **Després cal tornar a passar `scripts/metadades-fusiona.py`**, que hi afegeix les metadades (claus `at:N` per posició).
+
+L'arxiu només té HTTP: els MP3 es serveixen per `functions/ateneu/[file].js` (Cloudflare Pages Function), que passa les peticions (amb `Range`) a `arxiudigital.ateneubcn.cat`. Alguns vídeos estan mal enllaçats a l'arxiu (comprovat amb l'oEmbed de YouTube): `VIDEO_ERRONI` a l'script.
+
 ### Institut d'Humanitats de Barcelona
 
 No és un podcast: són les sessions en vídeo i àudio de l'[arxiu de l'Institut d'Humanitats de Barcelona](https://www.instituthumanitats.org/ca/arxiu), filtrades per les temàtiques arquitectura, art, cinema i audiovisuals, ciutat i espai públic, ciència, filosofia, història, literatura, música, política i religió.
@@ -36,7 +44,7 @@ No és un podcast: són les sessions en vídeo i àudio de l'[arxiu de l'Institu
 
 - Cronologia interactiva ordenada per període històric
 - Llista agrupada per èpoques (Prehistòria, Antiguitat, Edat Mitjana, Edat Moderna, Edat Contemporània); cada època es pot plegar i desplegar, o totes alhora (l'estat es recorda al navegador)
-- Filtre per font (A les Portes de Troia, En Guàrdia, Sons de l'edat mitjana, Institut d'Humanitats); se'n poden combinar diverses
+- Filtre per font (En Guàrdia, Ateneu Barcelonès, Institut d'Humanitats, A les Portes de Troia, Sons de l'edat mitjana; ordenades per nombre de programes); se'n poden combinar diverses
 - Filtre «Catalunya» (episodis d'història de Catalunya) i filtres plegables per tema, regió i tipus de relat; botó per esborrar-los tots
 - Mapa dels episodis geolocalitzats (Leaflet + OpenStreetMap, es carrega només en obrir-lo)
 - Etiquetes clicables de lloc, tema, personatges, esdeveniments i pobles (amb Wikidata) per trobar episodis relacionats entre pòdcasts
@@ -68,4 +76,4 @@ Cloudflare Pages → `historia.allr.cat`
 
 El codi (`index.html` i `scripts/`) és programari lliure sota la llicència [GNU AGPL-3.0](LICENSE): el pots usar, estudiar, modificar i compartir, sempre que qualsevol versió derivada, també si s'ofereix com a web, es publiqui amb la mateixa llicència i amb el codi obert.
 
-Els títols, descripcions i àudios dels episodis són de les persones i entitats que fan els pòdcasts (3Cat, A les Portes de Troia, Institut d'Humanitats de Barcelona); aquí només s'endrecen i s'hi enllaça. L'aquarel·la de la capçalera (Préaulx, 1814, Rijksmuseum) és de domini públic.
+Els títols, descripcions i àudios dels episodis són de les persones i entitats que fan els pòdcasts (3Cat, A les Portes de Troia, Institut d'Humanitats de Barcelona, Ateneu Barcelonès); aquí només s'endrecen i s'hi enllaça. L'aquarel·la de la capçalera (Préaulx, 1814, Rijksmuseum) és de domini públic.
