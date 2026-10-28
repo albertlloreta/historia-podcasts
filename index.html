@@ -103,9 +103,6 @@ a { color: inherit; }
 .tabs button:hover { color: var(--fg); background: var(--bg-3); }
 .tabs button.active { color: var(--bg); background: var(--fg); }
 .tabs-label { font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--faint); width: 4.5rem; flex-shrink: 0; }
-.fold-all { margin-left: auto; font-size: 0.75rem; color: var(--muted); white-space: nowrap; }
-.fold-all:hover { color: var(--fg); }
-.list-tools { display: flex; justify-content: flex-end; padding: 0.5rem 0 0.35rem; }
 
 /* ── Intro ── */
 
@@ -350,19 +347,9 @@ a { color: inherit; }
 .pill-row { font-size: 0.8rem; }
 
 /* ── Responsive ── */
-@media (max-width: 900px) { .controls-bar .controls-row:first-child .tabs-label { display: none; } }
-@media (max-width: 680px) {
-  .wrap { padding: 0 1rem; }
-  .tabs-label { display: none; }
-  .controls-row { gap: 0.75rem; padding: 0.4rem 0; }
-  .tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 0 0.9rem; }
-  .tabs::-webkit-scrollbar { display: none; }
-  .tabs button:last-child { margin-right: 1.5rem; }
-  .fold-all { min-height: 36px; }
-  .row-tools { gap: 0.3rem; padding-left: 0; border-left: 0; flex-basis: 100%; justify-content: flex-end; }
-  .row-tools .tool, .row-tools .f-check { min-height: 32px; padding: 0.2rem 0.5rem; }
-  .tabs button { min-height: 36px; }
-  .dd-btn { min-height: 32px; }
+/* Fins a 900 px la fila de filtres es desplaça de costat; el panell dels desplegables passa a fixed perquè no el retalli */
+@media (max-width: 900px) {
+  .controls-bar .controls-row:first-child .tabs-label { display: none; }
   .controls-bar .controls-row:first-child { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 0.4rem; }
   .controls-bar .controls-row:first-child::-webkit-scrollbar { display: none; }
   .controls-bar .controls-row:first-child .filters { flex: 0 0 auto; gap: 0.4rem; }
@@ -370,6 +357,19 @@ a { color: inherit; }
   .dd { position: static; }
   .row-tools .f-check { position: relative; }
   .dd-panel { position: fixed; left: 1rem; right: 1rem; width: auto; min-width: 0; max-width: none; }
+  .dd { flex: 0 0 8.5rem; }
+}
+@media (max-width: 680px) {
+  .wrap { padding: 0 1rem; }
+  .tabs-label { display: none; }
+  .controls-row { gap: 0.75rem; padding: 0.4rem 0; }
+  .tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 0 0.9rem; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tabs button:last-child { margin-right: 1.5rem; }
+  .row-tools { gap: 0.3rem; padding-left: 0; border-left: 0; flex-basis: 100%; justify-content: flex-end; }
+  .row-tools .tool, .row-tools .f-check { min-height: 32px; padding: 0.2rem 0.5rem; }
+  .tabs button { min-height: 36px; }
+  .dd-btn { min-height: 32px; }
   .era-head { position: static; }
   .hero-in { padding: 1.5rem 1rem 2.25rem; }
   .hero-credit { display: none; }
@@ -442,6 +442,7 @@ a { color: inherit; }
       <div class="row-tools">
         <label class="f-check" title="Només episodis d'història de Catalunya"><input type="checkbox" id="f-cat"> Catalunya</label>
         <button class="tool view-map" id="view-map" type="button" aria-pressed="false">Mapa</button>
+        <button class="tool" id="fold-all" type="button">Plega-ho tot</button>
         <button class="tool clear" id="f-clear" type="button" hidden title="Esborra tots els filtres">Esborra ✕</button>
       </div>
     </div>
@@ -453,7 +454,6 @@ a { color: inherit; }
 </div>
 
 <main id="main" class="wrap">
-  <div class="list-tools"><button class="fold-all" id="fold-all" type="button">Plega-ho tot</button></div>
   <div class="map" id="map" hidden></div>
   <p class="no-results-msg" id="no-results" hidden>Cap episodi correspon a la cerca.</p>
 </main>
