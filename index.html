@@ -1115,6 +1115,13 @@ document.getElementById('fold-all').addEventListener('click', () => {
   const all = Object.keys(sections).every(e => collapsed.has(e));
   Object.keys(sections).forEach(e => setCollapsed(e, !all));
   saveCollapsed();
+  // «Plega-ho tot» també tanca el mapa (desplegar no l'obre)
+  const mapBtn = document.getElementById('view-map');
+  if (!all && mapBtn.getAttribute('aria-pressed') === 'true') {
+    mapBtn.setAttribute('aria-pressed', 'false');
+    mapBtn.classList.remove('active');
+    document.getElementById('map').hidden = true;
+  }
 });
 
 document.getElementById('main').addEventListener('click', e => {
