@@ -5,22 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="format-detection" content="telephone=no">
 <title>Història en pòdcasts · allr.cat</title>
-<meta name="description" content="Més de 2.600 capítols de pòdcasts d'història en català (A les Portes de Troia, En Guàrdia, Sons de l'edat mitjana, Institut d'Humanitats) endreçats en ordre cronològic.">
+<meta name="description" content="Gairebé 4.000 capítols de pòdcasts i conferències d'història en català (A les Portes de Troia, En Guàrdia, Sons de l'edat mitjana, Institut d'Humanitats, Ateneu Barcelonès) endreçats en ordre cronològic.">
 <link rel="canonical" href="https://historia.allr.cat/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://historia.allr.cat/">
 <meta property="og:site_name" content="allr.cat">
 <meta property="og:locale" content="ca_ES">
 <meta property="og:title" content="Història en pòdcasts">
-<meta property="og:description" content="Més de 2.600 capítols d'història en català, endreçats en ordre cronològic.">
-<meta property="og:image" content="https://historia.allr.cat/og-image.jpg">
+<meta property="og:description" content="Gairebé 4.000 capítols d'història en català, endreçats en ordre cronològic.">
+<meta property="og:image" content="https://historia.allr.cat/og-image.jpg?v=2">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Història en pòdcasts, sobre una aquarel·la de la Cisterna Basílica de Constantinoble">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Història en pòdcasts">
-<meta name="twitter:description" content="Més de 2.600 capítols d'història en català, endreçats en ordre cronològic.">
-<meta name="twitter:image" content="https://historia.allr.cat/og-image.jpg">
+<meta name="twitter:description" content="Gairebé 4.000 capítols d'història en català, endreçats en ordre cronològic.">
+<meta name="twitter:image" content="https://historia.allr.cat/og-image.jpg?v=2">
 <link rel="preload" href="fonts/dm-serif-display.woff2" as="font" type="font/woff2" crossorigin>
 <style>
 /* Fonts locals (OFL), subconjuntades amb les lletres del títol */
@@ -366,7 +366,13 @@ a { color: inherit; }
   .tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 0 0.9rem; }
   .tabs::-webkit-scrollbar { display: none; }
   .tabs button:last-child { margin-right: 1.5rem; }
-  .row-tools { gap: 0.3rem; padding-left: 0; border-left: 0; flex-basis: 100%; justify-content: flex-end; }
+  /* Mòbil: sense desplaçament lateral; desplegables en una fila de 4 i eines a sota */
+  .controls-bar .controls-row:first-child { flex-wrap: wrap; overflow: visible; gap: 0.45rem; }
+  .controls-bar .controls-row:first-child .filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); flex: 1 1 100%; gap: 0.35rem; }
+  .controls-bar .controls-row:first-child .dd { min-width: 0; }
+  .dd-btn { padding: 0.2rem 0.35rem; }
+  .controls-bar .controls-row:first-child .row-tools { flex: 1 1 100%; margin-left: 0; padding: 0; border-left: 0; gap: 0.35rem; justify-content: flex-start; flex-wrap: wrap; }
+  .row-tools .clear { margin-left: auto; }
   .row-tools .tool, .row-tools .f-check { min-height: 32px; padding: 0.2rem 0.5rem; }
   .tabs button { min-height: 36px; }
   .dd-btn { min-height: 32px; }

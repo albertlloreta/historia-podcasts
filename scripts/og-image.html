@@ -1,0 +1,21 @@
+<!doctype html>
+<!-- Plantilla de la targeta per a xarxes (og-image.jpg, 1200×630). Canviar el número i capturar:
+     python3 -m http.server 8765  (des de l'arrel)  i després
+     Chrome --headless=new --hide-scrollbars --window-size=1200,630 --screenshot=og.png http://localhost:8765/scripts/og-image.html
+     sips -s format jpeg -s formatOptions 85 og.png --out og-image.jpg -->
+<meta charset="utf-8">
+<style>
+@font-face { font-family: 'DM Serif Display'; src: url(../fonts/dm-serif-display.woff2) format('woff2'); }
+* { margin: 0; box-sizing: border-box; }
+body { width: 1200px; height: 630px; overflow: hidden; color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background:
+    linear-gradient(90deg, rgba(10,8,6,.72) 0%, rgba(10,8,6,.45) 45%, rgba(10,8,6,.08) 80%),
+    linear-gradient(0deg, rgba(10,8,6,.7), rgba(10,8,6,.35) 30%, transparent 55%),
+    url('../preaulx-cisterna.webp') 50% 35% / cover no-repeat; }
+h1 { position: absolute; left: 80px; top: 205px; font-family: 'DM Serif Display', serif; font-weight: 400; font-size: 100px; letter-spacing: -0.01em; line-height: 1.05; text-shadow: 0 2px 24px rgba(0,0,0,.35); }
+p { position: absolute; left: 80px; top: 345px; width: 820px; font-size: 30px; line-height: 1.45; text-shadow: 0 1px 12px rgba(0,0,0,.4); }
+.url { position: absolute; left: 80px; bottom: 36px; font-size: 22px; }
+</style>
+<h1>Història en pòdcasts</h1>
+<p>Gairebé 4.000 capítols d'història en català, endreçats en ordre cronològic.</p>
+<div class="url">historia.allr.cat</div>
