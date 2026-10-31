@@ -3484,11 +3484,11 @@
 "lon": 26.5736
 },
 "lloc|Edo": {
-"qid": "Q184963",
-"label": "període Edo",
-"desc": "període de la història del Japó (1603-1867)",
-"lat": 35,
-"lon": 136
+"qid": "Q215646",
+"label": "Edo",
+"desc": "antic nom de Tòquio, capital del shogunat Tokugawa (1603-1868)",
+"lat": 35.6839,
+"lon": 139.7744
 },
 "lloc|Eivissa": {
 "qid": "Q52631",
@@ -3988,11 +3988,11 @@
 "lon": 135.7681
 },
 "lloc|Kíev": {
-"qid": "Q700960",
-"label": "batalla de Kíiv",
-"desc": "enfrontament de la segona guerra mundial",
+"qid": "Q1899",
+"label": "Kíiv",
+"desc": "capital d'Ucraïna",
 "lat": 50.45,
-"lon": 30.5233
+"lon": 30.5236
 },
 "lloc|Königsberg": {
 "qid": "Q517260",
