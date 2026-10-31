@@ -68,6 +68,10 @@ python3 -m http.server 8080
 # → http://localhost:8080
 ```
 
+## Cerca i servidor MCP
+
+`cerca.js` és el motor de cerca que comparteixen el web i el servidor MCP (`functions/mcp.js`, a `https://historia.allr.cat/mcp`): paraules senceres i per arrel, noms alternatius de Wikidata (`alies.json`, es regenera amb `python3 scripts/metadades-alies.py`), errors d'una lletra i sense les institucions dels convidats. Abans de publicar canvis al cercador: `node scripts/cerca-proves.mjs`.
+
 ## Desplegament
 
 Cloudflare Pages → `historia.allr.cat`. El push a GitHub no desplega: `scripts/deploy.sh` (només hi puja els fitxers que fa servir la web; `--branch=prova` per a una vista prèvia).

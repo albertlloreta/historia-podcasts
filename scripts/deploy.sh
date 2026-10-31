@@ -6,7 +6,7 @@ set -e
 cd "$(dirname "$0")/.."
 OUT=$(mktemp -d)
 trap 'rm -rf "$OUT"' EXIT
-cp index.html avis-legal.html og-image.jpg preaulx-cisterna.webp episodis-*.json sessions-*.json "$OUT"
+cp index.html avis-legal.html og-image.jpg preaulx-cisterna.webp cerca.js alies.json episodis-*.json sessions-*.json "$OUT"
 cp -R fonts img "$OUT"
 # functions/ es llegeix des d'aquí (directori de treball), no des de $OUT
 npx wrangler pages deploy "$OUT" --project-name=portes-de-troia --commit-dirty=true "$@"

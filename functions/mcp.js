@@ -6,6 +6,8 @@ import eg from '../episodis-en-guardia.json';
 import sons from '../episodis-sons-edat-mitjana.json';
 import ih from '../sessions-institut-humanitats.json';
 import ateneu from '../sessions-ateneu.json';
+import alies from '../alies.json';
+import { creaMotor, norm } from '../cerca.js';
 
 const SITE = 'https://historia.allr.cat';
 const VERSIONS = ['2025-06-18', '2025-03-26', '2024-11-05'];
@@ -36,8 +38,6 @@ const TIPUS = {
   cul: 'cultura i idees', lloc: "història d'un lloc", deb: 'debat o historiografia',
 };
 
-// Text per cercar: minúscules i sense accents («catala» troba «català»)
-const norm = t => String(t ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
 // "1925" → [1925,1925] · "1098-1179" · "-264-146" (tot aC) · "-49 -48" · "60-61 dC" · "Variable" → null
 function parseRange(raw) {
@@ -83,15 +83,15 @@ for (const llista of [pdt, eg, sons, ih, ateneu]) {
     const rec = {
       e, id,
       rang: parseRange(e.data_historica),
-      tTitol: norm(e.titol),
       tNoms: norm([...noms, ...(e.civilitzacions || []), e.lloc?.nom, e.serie, e.curs].join(' ')),
-      tResta: norm([e.descripcio, ...(e.ponents || []), ...(e.convidats || []), e.tema_ateneu].join(' ')),
     };
     EPISODIS.push(rec);
     PER_ID.set(id, rec);
   });
 }
 EPISODIS.sort((x, y) => (x.rang?.[0] ?? Infinity) - (y.rang?.[0] ?? Infinity));
+// Mateix motor que el cercador del web (cerca.js); les posicions són les d'EPISODIS
+const MOTOR = creaMotor(EPISODIS.map(r => r.e), alies);
 
 function fitxa(rec, llarga) {
   const e = rec.e;
@@ -130,11 +130,9 @@ function fitxa(rec, llarga) {
 }
 
 function cerca(a) {
-  // Cada paraula ha de coincidir a l'inici d'un mot («anibal» no troba «canibalisme»)
-  // i es treu la terminació («ibers», «iberic», «ibera» → «iber»)
-  const arrel = m => (m.length < 5 ? m : m.replace(/(iques|ics|ica|ic|es|s|a)$/, ''));
-  const mots = norm(a.text).split(/[^a-z0-9·]+/).filter(m => m.length > 1).map(m => (arrel(m).length >= 4 ? arrel(m) : m))
-    .map(m => new RegExp(`(^|[^a-z0-9·])${m.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`));
+  const text = String(a.text || '').trim();
+  const trobats = text ? MOTOR.cerca(text) : null;
+  const punts = trobats && new Map(trobats.resultats.map(r => [r.i, r.punts]));
   const fonts = a.fonts?.length ? new Set(a.fonts) : null;
   const des = Number.isFinite(a.des_de) ? a.des_de : null;
   const fins = Number.isFinite(a.fins_a) ? a.fins_a : null;
@@ -143,7 +141,8 @@ function cerca(a) {
   const offset = Math.max(a.offset ?? 0, 0);
 
   const res = [];
-  for (const rec of EPISODIS) {
+  for (const [i, rec] of EPISODIS.entries()) {
+    if (punts && !punts.has(i)) continue;
     const e = rec.e;
     if (fonts && !fonts.has(e.podcast)) continue;
     if (des != null || fins != null) {
@@ -157,23 +156,16 @@ function cerca(a) {
     if (a.tipus && e.tipus !== a.tipus) continue;
     if (a.ambit_catala && !e.ambit_catala) continue;
     if (pers && !rec.tNoms.includes(pers)) continue;
-    let punts = 0;
-    for (const m of mots) {
-      const p = (m.test(rec.tTitol) ? 4 : 0) + (m.test(rec.tNoms) ? 3 : 0) + (m.test(rec.tResta) ? 1 : 0);
-      if (!p) { punts = -1; break; }
-      punts += p;
-    }
-    if (punts < 0) continue;
     // Quina part del capítol cau dins del període demanat (1 = tot)
     let ajust = 1;
     if (rec.rang && (des != null || fins != null)) {
       const ini = Math.max(rec.rang[0], des ?? -Infinity), fi = Math.min(rec.rang[1], fins ?? Infinity);
       ajust = (fi - ini + 1) / (rec.rang[1] - rec.rang[0] + 1);
     }
-    res.push({ rec, punts: punts * (0.5 + ajust / 2), ajust });
+    res.push({ rec, punts: (punts ? punts.get(i) : 1) * (0.5 + ajust / 2), ajust });
   }
   const anys = des != null || fins != null;
-  const ordre = a.ordre || (mots.length ? 'rellevancia' : anys ? 'ajust' : 'cronologic');
+  const ordre = a.ordre || (text ? 'rellevancia' : anys ? 'ajust' : 'cronologic');
   // sort és estable: dins del mateix pes, queda l'ordre cronològic
   if (ordre === 'rellevancia') res.sort((x, y) => y.punts - x.punts);
   if (ordre === 'ajust') res.sort((x, y) => y.ajust - x.ajust);
@@ -181,6 +173,7 @@ function cerca(a) {
     total: res.length,
     mostrats: `${Math.min(offset + 1, res.length)}-${Math.min(offset + limit, res.length)}`,
     ordre,
+    ...(trobats?.parcial && res.length ? { avis: 'Cap capítol conté totes les paraules: es mostren els que en tenen alguna.' } : {}),
     resultats: res.slice(offset, offset + limit).map(r => fitxa(r.rec, false)),
   };
 }
@@ -205,7 +198,7 @@ const TOOLS = [
     inputSchema: {
       type: 'object',
       properties: {
-        text: { type: 'string', description: 'Paraules a cercar (títol, descripció, personatges, llocs, ponents). Totes han de sortir-hi. Sense accents també funciona.' },
+        text: { type: 'string', description: "Paraules a cercar (títol, descripció, personatges, llocs, ponents, noms alternatius de Wikidata o un QID com «Q1490»). Totes han de sortir-hi; tolera variants («ibers» troba «ibèric»), accents i errors d'una lletra." },
         des_de: { type: 'integer', description: "Any inicial del període històric que tracta el capítol (negatiu = aC). Ex.: -218" },
         fins_a: { type: 'integer', description: 'Any final del període (negatiu = aC). Ex.: -201' },
         fonts: { type: 'array', items: { type: 'string', enum: Object.keys(FONTS) }, description: 'Limita a aquestes fonts.' },
