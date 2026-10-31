@@ -1,0 +1,31 @@
+# Publica a Cloudflare Pages a cada push, si les proves del cercador passen.
+#  - main → producció (historia.allr.cat)
+#  - qualsevol altra branca → vista prèvia a <branca>.portes-de-troia.pages.dev
+# Secret necessari: CLOUDFLARE_API_TOKEN (permís «Cloudflare Pages: Edit»).
+name: Publica
+
+on:
+  push:
+  workflow_dispatch:
+
+concurrency:
+  group: publica-${{ github.ref_name }}
+  cancel-in-progress: true
+
+jobs:
+  publica:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Proves del cercador
+        run: node scripts/cerca-proves.mjs
+      - name: Publica
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: a97dc3f8b93fbfae40837eb66863cecd
+        run: |
+          npm install -g wrangler@4.156.0
+          sh scripts/deploy.sh --branch="${{ github.ref_name }}"

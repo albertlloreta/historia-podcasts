@@ -74,7 +74,7 @@ python3 -m http.server 8080
 
 ## Desplegament
 
-Cloudflare Pages → `historia.allr.cat`. El push a GitHub no desplega: `scripts/deploy.sh` (només hi puja els fitxers que fa servir la web; `--branch=prova` per a una vista prèvia).
+Cloudflare Pages → `historia.allr.cat`. Cada push el publica la GitHub Action `.github/workflows/deploy.yml` si les proves del cercador passen: `main` a producció i qualsevol altra branca a `<branca>.portes-de-troia.pages.dev`. A mà: `scripts/deploy.sh` (`--branch=prova` per a una vista prèvia).
 
 ## Llicència
 
