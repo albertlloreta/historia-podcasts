@@ -44,8 +44,8 @@ def parse_feed():
         titol = re.search(r"<title>(.*?)</title>", it, re.S).group(1).strip()
         desc_m = re.search(r"<description>(.*?)</description>", it, re.S)
         desc = desc_m.group(1).strip() if desc_m else ""
-        num_m = re.match(r"Cap[ií]tol\s+(\d+)\.", desc)
-        num = int(num_m.group(1)) if num_m else None
+        num_m = re.match(r"Cap[ií]tol\s+(\d{1,3}(?:\.\d{3})+|\d+)", desc)  # «Capítol 1.126.» i «Capítol 1000-Quarta part»
+        num = int(num_m.group(1).replace(".", "")) if num_m else None
         out.append({"titol": titol, "descripcio": desc, "num": num})
     return out
 

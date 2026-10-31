@@ -98,16 +98,11 @@ a { color: inherit; }
 
 .search-count { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); white-space: nowrap; }
 
-.tabs { display: flex; flex-wrap: wrap; flex: 1; min-width: 0; gap: 0.15rem 0.25rem; font-size: 0.8rem; }
-.tabs button { padding: 0.25rem 0.6rem; color: var(--muted); border-radius: 4px; white-space: nowrap; }
-.tabs button:hover { color: var(--fg); background: var(--bg-3); }
-.tabs button.active { color: var(--bg); background: var(--fg); }
 .tabs-label { font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--faint); width: 4.5rem; flex-shrink: 0; }
 
 /* ── Intro ── */
 
 #main { padding-top: 1rem; }
-.page-label { font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.9rem; }
 .title-link { display: inline-block; color: inherit; text-decoration: none; }
 .page-title { cursor: pointer; }
 /* Cada lletra viatja per les tipografies de les èpoques en passar-hi per sobre */
@@ -136,7 +131,6 @@ a { color: inherit; }
   text-shadow: 0 2px 24px rgba(0,0,0,.35);
 }
 .hero-desc { font-size: clamp(0.95rem, 1.3vw, 1.1rem); max-width: 42ch; line-height: 1.45; text-shadow: 0 1px 12px rgba(0,0,0,.4); }
-.hero .credit { color: rgba(255,255,255,.7); font-size: 0.8em; }
 .hero a { color: inherit; text-decoration-color: rgba(255,255,255,.45); text-underline-offset: 3px; }
 .hero a:hover { text-decoration-color: #fff; }
 .hero-search { display: flex; align-items: center; gap: 1rem; max-width: 640px; margin-top: 0.4rem; border-bottom: 1px solid rgba(255,255,255,.85); }
@@ -256,7 +250,7 @@ a { color: inherit; }
 .p-main { width: 3rem; height: 3rem; color: var(--fg); margin: 0 0.15rem; }
 .p-main svg { width: 1.75rem; height: 1.75rem; }
 .p-info { min-width: 0; text-align: center; }
-.p-title { font-family: var(--serif); font-size: 1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.p-title { cursor: pointer; font-family: var(--serif); font-size: 1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .p-sub { font-size: 0.72rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 /* Barra de progrés: la part feta, en color; temps fet a l'esquerra i restant a la dreta */
 .p-seek { display: grid; grid-template-columns: 1fr auto; grid-template-areas: "bar bar" "cur dur"; margin-top: 0.35rem; font-family: var(--mono); font-size: 0.66rem; color: var(--muted); text-align: left; }
@@ -315,16 +309,8 @@ a { color: inherit; }
 .row-tools .f-check input { position: absolute; opacity: 0; width: 1px; height: 1px; }
 .row-tools .f-check:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
 .row-tools .f-check:has(input:checked) { color: var(--accent); border-color: var(--accent); font-weight: 600; }
-.filters-row[hidden], .pill-row[hidden], .row-tools .clear[hidden] { display: none; }
+.pill-row[hidden], .row-tools .clear[hidden] { display: none; }
 .row-tools .clear { border-style: dashed; }
-.row-tools .more { display: inline-flex; align-items: center; gap: 0.3rem; color: var(--muted); white-space: nowrap; padding: 0.2rem 0 0.2rem 0.35rem; }
-.row-tools .more:hover, .row-tools .more[aria-expanded="true"] { color: var(--fg); }
-.row-tools .more.on { color: var(--accent); font-weight: 600; }
-.row-tools .more .chev { transition: transform 0.15s; }
-.row-tools .more[aria-expanded="true"] .chev { transform: rotate(180deg); }
-.tabs.fade-r { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent); }
-.tabs.fade-l { -webkit-mask-image: linear-gradient(to left, #000 calc(100% - 2.5rem), transparent); mask-image: linear-gradient(to left, #000 calc(100% - 2.5rem), transparent); }
-.tabs.fade-l.fade-r { -webkit-mask-image: linear-gradient(to right, transparent, #000 2.5rem, #000 calc(100% - 2.5rem), transparent); mask-image: linear-gradient(to right, transparent, #000 2.5rem, #000 calc(100% - 2.5rem), transparent); }
 /* Desplegables de filtre (tots iguals) */
 .dd { position: relative; flex: 0 1 8.5rem; min-width: 5.5rem; }
 .dd-btn { display: inline-flex; align-items: center; justify-content: space-between; gap: 0.35rem; width: 100%; font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--border); border-radius: 4px; padding: 0.2rem 0.45rem; white-space: nowrap; }
@@ -363,9 +349,6 @@ a { color: inherit; }
   .wrap { padding: 0 1rem; }
   .tabs-label { display: none; }
   .controls-row { gap: 0.75rem; padding: 0.4rem 0; }
-  .tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 0 0.9rem; }
-  .tabs::-webkit-scrollbar { display: none; }
-  .tabs button:last-child { margin-right: 1.5rem; }
   /* Mòbil: sense desplaçament lateral; desplegables en una fila de 4 i eines a sota */
   .controls-bar .controls-row:first-child { flex-wrap: wrap; overflow: visible; gap: 0.45rem; }
   .controls-bar .controls-row:first-child .filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); flex: 1 1 100%; gap: 0.35rem; }
@@ -374,7 +357,6 @@ a { color: inherit; }
   .controls-bar .controls-row:first-child .row-tools { flex: 1 1 100%; margin-left: 0; padding: 0; border-left: 0; gap: 0.35rem; justify-content: flex-start; flex-wrap: wrap; }
   .row-tools .clear { margin-left: auto; }
   .row-tools .tool, .row-tools .f-check { min-height: 32px; padding: 0.2rem 0.5rem; }
-  .tabs button { min-height: 36px; }
   .dd-btn { min-height: 32px; }
   .era-head { position: static; }
   .hero-in { padding: 1.5rem 1rem 2.25rem; }
@@ -431,14 +413,6 @@ a { color: inherit; }
   <div class="wrap">
     <div class="controls-row">
       <span class="tabs-label">Filtres</span>
-      <!-- Llista de fonts: amagada, és la definició de la qual es construeix el panell «Fonts» -->
-      <nav id="podcast-nav" hidden>
-        <button data-podcast="portes-de-troia">A les Portes de Troia</button>
-        <button data-podcast="en-guardia">En Guàrdia</button>
-        <button data-podcast="sons-edat-mitjana">Sons de l'edat mitjana</button>
-        <button data-podcast="institut-humanitats">Institut d'Humanitats</button>
-        <button data-podcast="ateneu">Ateneu Barcelonès</button>
-      </nav>
       <div class="filters" id="filters">
         <div class="dd" id="dd-font"></div>
         <div class="dd" id="dd-tema"></div>
@@ -483,7 +457,7 @@ a { color: inherit; }
     <div class="p-btns">
       <button class="p-btn" id="p-prev" type="button" aria-label="Anterior" title="Anterior"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 5h2v14H6zM20 5v14L9 12z"/></svg></button>
       <button class="p-btn" id="p-back" type="button" aria-label="Enrere 15 segons" title="−15 s"><svg class="p-skip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12a7.5 7.5 0 1 0 2.2-5.3"/><path d="M6.7 2.8v3.9h3.9"/><text x="12.3" y="15.1" font-size="8.5" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle" fill="currentColor" stroke="none">15</text></svg></button>
-      <button class="p-btn p-main" id="p-toggle" type="button" aria-label="Reprodueix"><svg viewBox="0 0 24 24" fill="currentColor"><path id="p-icon" d="M7 4l13 8-13 8z"/></svg></button>
+      <button class="p-btn p-main" id="p-toggle" type="button" aria-label="Reprodueix"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4l13 8-13 8z"/></svg></button>
       <button class="p-btn" id="p-fwd" type="button" aria-label="Endavant 30 segons" title="+30 s"><svg class="p-skip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M17.3 2.8v3.9h-3.9"/><text x="11.7" y="15.1" font-size="8.5" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle" fill="currentColor" stroke="none">30</text></svg></button>
       <button class="p-btn" id="p-next" type="button" aria-label="Següent" title="Següent"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 5h2v14h-2zM4 5v14l11-7z"/></svg></button>
     </div>
@@ -574,9 +548,17 @@ function formatWhen(raw) {
   return `${fmtYear(a)}–${fmtYear(b)}${DC(b)}` + note;
 }
 
-// Caràtula de cada font (portades dels pòdcasts; Sons: la M de Catalunya Música)
-const SRC_ART = { 'portes-de-troia': 'img/fonts/pdt.webp', 'en-guardia': 'img/fonts/eg.webp', 'sons-edat-mitjana': 'img/fonts/sons.webp', 'institut-humanitats': 'img/fonts/ih.webp', 'ateneu': 'img/fonts/ateneu.webp' };
-const SRC_LABEL = { 'portes-de-troia': 'Portes de Troia', 'en-guardia': 'En Guàrdia', 'sons-edat-mitjana': "Sons de l'edat mitjana", 'institut-humanitats': "Inst. d'Humanitats", 'ateneu': 'Ateneu Barcelonès' };
+// Fonts: nom al filtre, nom curt a la fila i al reproductor, i caràtula (Sons: la M de Catalunya Música)
+const SOURCES = {
+  'portes-de-troia':     { name: 'A les Portes de Troia',  short: 'Portes de Troia',        art: 'img/fonts/pdt.webp' },
+  'en-guardia':          { name: 'En Guàrdia',             short: 'En Guàrdia',             art: 'img/fonts/eg.webp' },
+  'sons-edat-mitjana':   { name: "Sons de l'edat mitjana", short: "Sons de l'edat mitjana", art: 'img/fonts/sons.webp' },
+  'institut-humanitats': { name: "Institut d'Humanitats",  short: "Inst. d'Humanitats",     art: 'img/fonts/ih.webp' },
+  'ateneu':              { name: 'Ateneu Barcelonès',      short: 'Ateneu Barcelonès',      art: 'img/fonts/ateneu.webp' },
+};
+const idle = cb => ('requestIdleCallback' in window ? requestIdleCallback : setTimeout)(cb);
+// Text per cercar: minúscules i sense accents («catala» troba «català»)
+const norm = t => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
 const store = {
   get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } },
@@ -720,7 +702,7 @@ async function init() {
     .map(e => ({ ...e, _year: parseYear(e.data_historica) }));
   data.forEach(e => {
     e._era = getEra(e._year);
-    e._key = `${e.podcast}:${e.num ?? e.id_3cat ?? e.nid}`;
+    e._key = `${e.podcast}:${e.id_3cat ?? e.nid ?? e.num}`;
   });
   data.sort((a, b) => {
     if (a._year === null && b._year === null) return (a.num ?? 0) - (b.num ?? 0);
@@ -773,7 +755,7 @@ async function init() {
         <div class="ep-row">
           <span class="ep-when">${period}</span>
           <h3 class="ep-title">${ep.titol}</h3>
-          <span class="ep-src">${SRC_LABEL[ep.podcast]}${tag ? ' · ' + tag : ''}</span>
+          <span class="ep-src">${SOURCES[ep.podcast].short}${tag ? ' · ' + tag : ''}</span>
           ${playable(ep) ? `<button class="ep-play" type="button" aria-label="Reprodueix">${ICON_PLAY}</button>` : '<span></span>'}
         </div>
         <div class="ep-body"></div>
@@ -781,20 +763,19 @@ async function init() {
       frag.appendChild(li);
       rows.push({
         el: li, ep, era,
-        text: [ep.num, ep.titol, ep.descripcio?.replace(INSTITUCIONS_RE, ' '), ep.ubicacio, ep.data_historica, ep.curs, ...(ep.ponents || []),
+        text: norm([ep.num, ep.titol, ep.descripcio?.replace(INSTITUCIONS_RE, ' '), ep.ubicacio, ep.data_historica, ep.curs, ...(ep.ponents || []),
                ...(ep.personatges || []).map(p => p.nom), ...(ep.esdeveniments || []).map(p => p.nom),
                ep.lloc?.nom, ...(ep.civilitzacions || []), ...(ep.convidats || [])]
-          .filter(Boolean).join(' ').toLowerCase()
+          .filter(Boolean).join(' '))
       });
     });
     body.appendChild(frag);
   });
 
-  injectJSONLD(data);
+  idle(() => injectJSONLD(data));
   fillFilters();
   applyFilters();
   updateFoldAll();
-  measureControls();
   restorePlayer();
 }
 
@@ -853,8 +834,8 @@ function fillFilters() {
   DD.regio.setOptions(opts(REG, count('regions')));
   DD.tipus.setOptions(opts(TIP, count('tipus', false)));
   const fonts = count('podcast', false);
-  DD.font.setOptions([...document.querySelectorAll('#podcast-nav button')]
-    .map(b => ({ v: b.dataset.podcast, label: b.textContent, count: fonts[b.dataset.podcast] || 0 }))
+  DD.font.setOptions(Object.entries(SOURCES)
+    .map(([v, s]) => ({ v, label: s.name, count: fonts[v] || 0 }))
     .sort((a, b) => b.count - a.count));  // de més a menys programes
 }
 
@@ -865,7 +846,6 @@ function setTag(tag) {
   document.getElementById('pill-row').hidden = !tag;
   document.getElementById('f-pill-txt').textContent = tag ? `${names[tag.k]}: ${tag.v}` : '';
   applyFilters();
-  measureControls();
   if (tag) window.scrollTo({ top: document.getElementById('main').offsetTop - controlsH(), behavior: 'smooth' });
 }
 
@@ -881,7 +861,6 @@ function passesMeta(ep) {
 // Desplegables de filtre: un sol component per a fonts, tema, regió i tipus.
 // Clic a una opció = només aquesta i es tanca; a fonts, la casella en suma més sense tancar.
 const CHEV = '<svg class="chev" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>';
-const escHtml = t => String(t).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 const DROPS = [];
 function makeDrop(id, { all, aria, plural = null, onChange }) {
   const el = document.getElementById(id);
@@ -898,9 +877,9 @@ function makeDrop(id, { all, aria, plural = null, onChange }) {
     ul.innerHTML = items().map((o, i) => {
       const on = o.v ? sel.has(o.v) : !sel.size;
       return `<li role="option" data-i="${i}" aria-selected="${on}"${i === act ? ' class="act"' : ''}>` +
-        `<span class="dd-name">${escHtml(o.label)}</span>` +
+        `<span class="dd-name">${esc(o.label)}</span>` +
         (o.count != null ? `<span class="dd-count">${o.count.toLocaleString('ca-ES')}</span>` : '') +
-        (plural && o.v ? `<input type="checkbox" tabindex="-1" aria-label="Afegeix ${escHtml(o.label)}"${on ? ' checked' : ''}>` : '') + '</li>';
+        (plural && o.v ? `<input type="checkbox" tabindex="-1" aria-label="Afegeix ${esc(o.label)}"${on ? ' checked' : ''}>` : '') + '</li>';
     }).join('');
   };
   const place = () => {
@@ -948,7 +927,6 @@ function makeDrop(id, { all, aria, plural = null, onChange }) {
     else if (e.key === 'Tab') toggle(false);
     else if (e.key.length === 1 && /\p{L}/u.test(e.key)) {
       // salta a la següent opció que comença per aquesta lletra
-      const norm = t => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
       const k = norm(e.key), its = items();
       for (let n = 1; n <= its.length; n++) {
         const i = (act + n) % its.length;
@@ -1032,10 +1010,14 @@ function drawMap() {
   });
   map.addLayer(mapLayer);
 }
-document.getElementById('view-map').addEventListener('click', e => {
-  const on = e.currentTarget.getAttribute('aria-pressed') !== 'true';
-  e.currentTarget.setAttribute('aria-pressed', String(on));
-  e.currentTarget.classList.toggle('active', on);
+const mapBtn = document.getElementById('view-map');
+function setMapBtn(on) {
+  mapBtn.setAttribute('aria-pressed', String(on));
+  mapBtn.classList.toggle('active', on);
+}
+mapBtn.addEventListener('click', () => {
+  const on = mapBtn.getAttribute('aria-pressed') !== 'true';
+  setMapBtn(on);
   const mapEl = document.getElementById('map');
   if (on) {
     openMap();
@@ -1078,13 +1060,12 @@ function hideToast() {
 }
 
 function applyFilters() {
-  const q = currentSearch.toLowerCase().trim();
+  const q = norm(currentSearch.trim());
   const counts = {};
   let visible = 0;
   rows.forEach(r => {
     const show = (!currentPodcasts.size || currentPodcasts.has(r.ep.podcast)) && (!q || r.text.includes(q)) && passesMeta(r.ep);
-    r.el.hidden = !show;
-    r.visible = show;
+    if (r.visible !== show) { r.el.hidden = !show; r.visible = show; }
     if (show) { counts[r.era] = (counts[r.era] || 0) + 1; visible++; }
   });
   for (const era in sections) {
@@ -1122,12 +1103,7 @@ document.getElementById('fold-all').addEventListener('click', () => {
   Object.keys(sections).forEach(e => setCollapsed(e, !all));
   saveCollapsed();
   // «Plega-ho tot» també tanca el mapa (desplegar no l'obre)
-  const mapBtn = document.getElementById('view-map');
-  if (!all && mapBtn.getAttribute('aria-pressed') === 'true') {
-    mapBtn.setAttribute('aria-pressed', 'false');
-    mapBtn.classList.remove('active');
-    document.getElementById('map').hidden = true;
-  }
+  if (!all) { setMapBtn(false); document.getElementById('map').hidden = true; }
 });
 
 document.getElementById('main').addEventListener('click', e => {
@@ -1172,9 +1148,11 @@ function scrollToEra(era, behavior = 'smooth') {
   settleScroll(() => s.el.getBoundingClientRect().top + window.scrollY - controlsH());
 }
 
+let searchRaf = 0;
 document.getElementById('search').addEventListener('input', e => {
   currentSearch = e.target.value;
-  applyFilters();
+  cancelAnimationFrame(searchRaf);
+  searchRaf = requestAnimationFrame(applyFilters);
 });
 
 // Esborra tots els filtres: fonts, cerca, Catalunya, desplegables i etiqueta
@@ -1187,21 +1165,11 @@ document.getElementById('f-clear').addEventListener('click', () => {
   setTag(null);
 });
 
-// Difuminat a les vores de les pestanyes quan n'hi ha més amagades
-function updFade(el) {
-  const max = el.scrollWidth - el.clientWidth;
-  el.classList.toggle('fade-l', max > 2 && el.scrollLeft > 2);
-  el.classList.toggle('fade-r', max > 2 && el.scrollLeft < max - 2);
-}
-document.querySelectorAll('.tabs').forEach(el => {
-  el.addEventListener('scroll', () => updFade(el), { passive: true });
-  new ResizeObserver(() => updFade(el)).observe(el);
-});
-
-function measureControls() {
-  document.documentElement.style.setProperty('--controls-h', document.getElementById('controls').offsetHeight + 'px');
-}
-window.addEventListener('resize', measureControls);
+// Alçada de la barra de filtres i del reproductor, sempre al dia (canvien amb l'amplada i els filtres)
+const trackHeight = (id, prop) => new ResizeObserver(() =>
+  document.documentElement.style.setProperty(prop, document.getElementById(id).offsetHeight + 'px')).observe(document.getElementById(id));
+trackHeight('controls', '--controls-h');
+trackHeight('player', '--player-h');
 
 /* ══════════ Reproductor ══════════ */
 const audio = document.getElementById('audio');
@@ -1345,12 +1313,6 @@ async function audioUrl(ep) {
   return (Array.isArray(media) ? media[0] : media).url;
 }
 
-function showPlayer() {
-  if (!player.hidden) return;
-  player.hidden = false;
-  document.documentElement.style.setProperty('--player-h', player.offsetHeight + 'px');
-}
-
 async function playRow(i, { autoplay = true, at = null } = {}) {
   if (i === cur) { media.paused ? media.play() : media.pause(); return; }
   const r = rows[i];
@@ -1362,10 +1324,10 @@ async function playRow(i, { autoplay = true, at = null } = {}) {
   cur = i;
   const ep = r.ep;
   $('p-title').textContent = ep.titol;
-  $('p-sub').textContent = [formatWhen(ep.ubicacio || ep.data_historica), SRC_LABEL[ep.podcast], ep.num != null ? `ep. ${ep.num}` : ''].filter(Boolean).join(' · ');
+  $('p-sub').textContent = [formatWhen(ep.ubicacio || ep.data_historica), SOURCES[ep.podcast].short, ep.num != null ? `ep. ${ep.num}` : ''].filter(Boolean).join(' · ');
   $('p-cur').textContent = '0:00'; $('p-dur').textContent = '0:00'; $('p-seek').value = 0; paintSeek();
-  $('p-art').style.backgroundImage = SRC_ART[ep.podcast] ? `url(${SRC_ART[ep.podcast]})` : '';
-  showPlayer();
+  $('p-art').style.backgroundImage = `url(${SOURCES[ep.podcast].art})`;
+  player.hidden = false;
   markRow(i, true);
   store.set('last', ep._key);
   try {
@@ -1398,7 +1360,7 @@ function markRow(i, on) {
 
 function syncState() {
   const playing = !media.paused;
-  $('p-icon').setAttribute('d', playing ? 'M6 4h4v16H6zM14 4h4v16h-4z' : 'M7 4l13 8-13 8z');
+  $('p-toggle').innerHTML = playing ? ICON_PAUSE : ICON_PLAY;
   $('p-toggle').setAttribute('aria-label', playing ? 'Pausa' : 'Reprodueix');
   if (cur !== null) markRow(cur, true);
 }
@@ -1489,8 +1451,9 @@ $('p-seek').addEventListener('input', () => { seeking = true; $('p-cur').textCon
 $('p-seek').addEventListener('change', () => { media.currentTime = +$('p-seek').value; seeking = false; });
 
 $('p-toggle').addEventListener('click', () => { media.paused ? media.play() : media.pause(); });
-$('p-back').addEventListener('click', () => { media.currentTime = Math.max(0, media.currentTime - 15); });
-$('p-fwd').addEventListener('click', () => { media.currentTime = Math.min(media.duration || Infinity, media.currentTime + 30); });
+const skip = d => { media.currentTime = Math.max(0, Math.min(media.duration || Infinity, media.currentTime + d)); };
+$('p-back').addEventListener('click', () => skip(-15));
+$('p-fwd').addEventListener('click', () => skip(30));
 $('p-rate').addEventListener('click', () => {
   rate = RATES[(RATES.indexOf(rate) + 1) % RATES.length];
   applyRate();
@@ -1500,11 +1463,10 @@ $('p-rate').addEventListener('click', () => {
 $('p-close').addEventListener('click', () => {
   media.pause();
   savePos();
-  if (cur !== null) { rows[cur].el.classList.remove('playing'); markRow(cur, false); }
+  if (cur !== null) markRow(cur, false);
   cur = null;
   dropMedia();
   player.hidden = true;
-  document.documentElement.style.setProperty('--player-h', '0px');
   store.set('last', null);
 });
 $('p-title').addEventListener('click', () => {
@@ -1514,7 +1476,6 @@ $('p-title').addEventListener('click', () => {
   openRow(r.el);
   scrollToRow(r.el);
 });
-$('p-title').style.cursor = 'pointer';
 
 document.addEventListener('keydown', e => {
   if (e.code !== 'Space' || cur === null || e.target.closest('input, button, a')) return;
@@ -1524,13 +1485,14 @@ document.addEventListener('keydown', e => {
 
 function setMediaSession(ep) {
   if (!('mediaSession' in navigator)) return;
-  navigator.mediaSession.metadata = new MediaMetadata({ title: ep.titol, artist: SRC_LABEL[ep.podcast], album: 'Història en pòdcasts',
-    artwork: SRC_ART[ep.podcast] ? [{ src: new URL(SRC_ART[ep.podcast], location.href).href, sizes: '160x160', type: 'image/webp' }] : [] });
+  const src = SOURCES[ep.podcast];
+  navigator.mediaSession.metadata = new MediaMetadata({ title: ep.titol, artist: src.short, album: 'Història en pòdcasts',
+    artwork: [{ src: new URL(src.art, location.href).href, sizes: '160x160', type: 'image/webp' }] });
   const ms = navigator.mediaSession;
   ms.setActionHandler('play', () => media.play());
   ms.setActionHandler('pause', () => media.pause());
-  ms.setActionHandler('seekbackward', () => { media.currentTime -= 15; });
-  ms.setActionHandler('seekforward', () => { media.currentTime += 30; });
+  ms.setActionHandler('seekbackward', () => skip(-15));
+  ms.setActionHandler('seekforward', () => skip(30));
   ms.setActionHandler('previoustrack', () => step(-1));
   ms.setActionHandler('nexttrack', () => step(1));
 }
@@ -1571,7 +1533,7 @@ window.addEventListener('pagehide', savePos);
   // Força la descàrrega de les fonts del títol en temps mort, perquè el primer hover ja les tingui
   const load = () => ['16px "Rubik Dirt"', '700 16px Cinzel', '16px UnifrakturMaguntia', 'italic 16px "IM Fell English"', '16px "Special Elite"']
     .forEach(f => document.fonts.load(f, text).catch(() => {}));
-  ('requestIdleCallback' in window ? requestIdleCallback : setTimeout)(load);
+  idle(load);
 
   const run = (s, delay = 0) => {
     if (s._busy) return;
